@@ -1,11 +1,11 @@
-# Portal dos Anjos da Prosperidade™
+# Portal Caminho da Consciência™
 
 Site institucional hospedado em Netlify.
 
 ## Stack
 - HTML/CSS estático ou framework definido
 - Deploy automático via Netlify
-- Domínio: portalanjosdaprosperidade.com.br
+- Domínio: (a definir)
 
 ## Estrutura
 - Página de vendas — Leitura Individual R$197
