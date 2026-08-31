@@ -14,7 +14,55 @@
 
 **Branch:** `main`
 
-**Etapa atual:** R3A — Camada de mensuração GTM+GA4 implementada e publicada. Aguardando primeiras conversas e validação de tráfego pago.
+**Etapa atual:** R3B — APROVADO ✅. Aguardando R3C — Validação da campanha Search (criação e configuração inicial).
+
+---
+
+## GATE R3B — Configuração de Conversões no Google Ads — ✅ APROVADO (2026-08-31)
+
+### O que foi feito
+
+| Item | Estado |
+|---|---|
+| Ação de conversão `whatsapp_click` criada no Google Ads | ✅ |
+| Origem: Google Analytics (GA4) — propriedade Portal Caminho da Consciência | ✅ |
+| Categoria: Contatos | ✅ |
+| Valor: Não usar valor | ✅ |
+| Contagem: Uma conversão (deduplicada por sessão) | ✅ |
+| Janela de conversão de clique: 90 dias (padrão) | ✅ |
+| Otimização: Ação secundária — não incluída em "Conversões", apenas em "Todas as conversões" | ✅ |
+| `offer_cta_click`: NÃO criado como conversão no Ads (GA4 only, conforme especificado) | ✅ |
+
+### Configuração verificada
+
+| Campo | Valor |
+|---|---|
+| Nome | Portal Caminho da Consciência (web) whatsapp_click |
+| Código do tipo de conversão | 7741395980 |
+| Data de criação | 31/08/2026 |
+| Otimização de ações | Contatos, Ação secundária |
+| Valor | Não usar valor |
+| Origem | Google Analytics (GA4) |
+| Evento do GA4 | whatsapp_click |
+| Propriedade GA4 | Portal Caminho da Consciência |
+| Contagem | Uma conversão |
+| Janela de conversão de clique | 90 dias |
+| Conta Google Ads | 918-471-6756 Reconexão Terapias |
+
+### Decisões registradas
+
+- `purchase` e `close_convert_lead`: NÃO configurados — aguardam integração real de pagamento
+- Ação secundária = aparece apenas em "Todas as conversões", nunca em "Conversões" (não afeta otimização de lances)
+
+---
+
+## GATE R3C — Validação da Campanha Search — ABERTO (2026-08-31)
+
+**Objetivo:** Criar e configurar a primeira campanha Search no Google Ads, validar estrutura, segmentação e orçamento inicial.
+
+**Critério de aprovação:** Campanha criada, revisada e aprovada por Marcos antes de ativar.
+
+**Branch:** `main`
 
 ---
 
@@ -65,6 +113,8 @@
 |---|---|
 | Página em produção | ✅ — https://portalcaminhodaconsciencia.com.br |
 | Camada GTM + GA4 publicada (R3A) | ✅ — GTM-WC2C397G Versão 2 ativa |
+| Conversão `whatsapp_click` configurada no Ads (R3B) | ✅ — Código 7741395980, Ação secundária |
+| Campanha Search criada e validada (R3C) | ABERTO |
 | Primeiro tráfego orgânico/direto | PENDENTE |
 | Primeira conversa via WhatsApp | PENDENTE |
 | Primeira compra confirmada | PENDENTE |
