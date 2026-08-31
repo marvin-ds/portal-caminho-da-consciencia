@@ -6,7 +6,7 @@
 
 ## GATE ATUAL
 
-### GATE R1 — Rename Foundation — EM ANDAMENTO
+### GATE R1 — Rename Foundation — ✅ APROVADO (2026-08-31)
 
 **Objetivo:** Migrar identidade de Portal Anjos da Prosperidade → Portal Caminho da Consciência em todas as camadas: GitHub, pasta local, Netlify, código, docs e assets.
 
@@ -31,16 +31,16 @@
 | Assets de marca adicionados em `/assets/brand/` | ✅ APROVADO |
 | Reorganização `/docs` → `/docs/canonical/` + `/docs/operations/` | ✅ APROVADO |
 | `CLAUDE.md` criado na raiz | ✅ APROVADO |
-| **Merge da branch → `main`** | PENDENTE |
+| **Merge da branch → `main`** | ✅ APROVADO |
 | **Troca de domínio no Netlify** | ABERTO (domínio a definir) |
 
 ---
 
 ## PENDÊNCIAS DO GATE R1
 
-1. **Push da branch para GitHub** — executar quando pronto para revisão
-2. **Validar deploy preview no Netlify** antes do merge
-3. **Merge `refactor/rename-portal-caminho-da-consciencia` → `main`**
+1. ~~Push da branch para GitHub~~ ✅
+2. ~~Validar deploy preview no Netlify antes do merge~~ ✅
+3. ~~Merge `refactor/rename-portal-caminho-da-consciencia` → `main`~~ ✅ (2026-08-31)
 4. **Troca de domínio** — Netlify > Domain management (aguarda definição do domínio novo)
 
 ---
