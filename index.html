@@ -3,15 +3,51 @@
 <head>
   <meta charset="UTF-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-  <title>Portal Caminho da Consciência™ — Leitura Radiônica Individual</title>
-  <meta name="description" content="Leitura Individual na Mesa Radiônica de Prosperidade. Mapeie o padrão energético que trava sua prosperidade. Relatório personalizado em até 48h. R$197." />
-  <meta property="og:title" content="Portal Caminho da Consciência™" />
-  <meta property="og:description" content="Leio o padrão invisível que trava sua prosperidade. Leitura radiônica individual conduzida por praticante certificada. Entrega em até 48h." />
+  <title>Mapeamento Padrão Interrompido | Portal Caminho da Consciência</title>
+  <meta name="description" content="Você identifica o que continua se repetindo na sua vida e recebe um mapa individual para trabalhar isso de forma concreta. Mapeamento Padrão Interrompido, com Marcos — Portal Caminho da Consciência." />
+  <link rel="canonical" href="https://portalcaminhodaconsciencia.com.br" />
+
+  <!-- Open Graph -->
   <meta property="og:type" content="website" />
-  <link rel="icon" href="data:image/svg+xml,<svg xmlns=%22http://www.w3.org/2000/svg%22 viewBox=%220 0 100 100%22><text y=%22.9em%22 font-size=%2290%22>🕊️</text></svg>" />
+  <meta property="og:url" content="https://portalcaminhodaconsciencia.com.br" />
+  <meta property="og:title" content="Mapeamento Padrão Interrompido | Portal Caminho da Consciência" />
+  <meta property="og:description" content="Você identifica o que continua se repetindo na sua vida e recebe um mapa individual para trabalhar isso de forma concreta." />
+  <meta property="og:image" content="https://portalcaminhodaconsciencia.com.br/assets/og-image.jpg" />
+  <meta property="og:locale" content="pt_BR" />
+  <meta property="og:site_name" content="Portal Caminho da Consciência" />
+
+  <!-- Twitter Card -->
+  <meta name="twitter:card" content="summary_large_image" />
+  <meta name="twitter:title" content="Mapeamento Padrão Interrompido | Portal Caminho da Consciência" />
+  <meta name="twitter:description" content="Você identifica o que continua se repetindo na sua vida e recebe um mapa individual para trabalhar isso de forma concreta." />
+
+  <!-- JSON-LD -->
+  <script type="application/ld+json">
+  {
+    "@context": "https://schema.org",
+    "@type": "Service",
+    "name": "Mapeamento Padrão Interrompido",
+    "description": "Mapeamento individual para identificar e trabalhar padrões recorrentes na vida.",
+    "provider": {
+      "@type": "Person",
+      "name": "Marcos",
+      "url": "https://portalcaminhodaconsciencia.com.br"
+    },
+    "url": "https://portalcaminhodaconsciencia.com.br",
+    "areaServed": "BR",
+    "availableLanguage": "pt-BR",
+    "offers": {
+      "@type": "Offer",
+      "price": "197",
+      "priceCurrency": "BRL"
+    }
+  }
+  </script>
+
+  <!-- Google Fonts -->
   <link rel="preconnect" href="https://fonts.googleapis.com" />
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
-  <link href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:ital,wght@0,300;0,400;1,400&family=Lato:wght@300;400&display=swap" rel="stylesheet" />
+  <link href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:ital,wght@0,300;0,400;0,500;0,600;0,700;1,300;1,400;1,500&family=Lora:ital,wght@0,400;0,500;0,600;1,400;1,500&display=swap" rel="stylesheet" />
 
   <!-- Meta Pixel -->
   <script>
@@ -25,1345 +61,720 @@
     'https://connect.facebook.net/en_US/fbevents.js');
     fbq('init', '1566666134485463');
     fbq('init', '4659045990859789');
-    fbq('track', 'PageView');
-    fbq('track', 'ViewContent', {
-      content_name: 'Leitura Radiônica de Prosperidade',
-      content_category: 'Servicos Energeticos',
-      currency: 'BRL',
-      value: 197.00
-    });
   </script>
   <noscript>
-    <img height="1" width="1" style="display:none"
-      src="https://www.facebook.com/tr?id=1566666134485463&ev=PageView&noscript=1" />
-    <img height="1" width="1" style="display:none"
-      src="https://www.facebook.com/tr?id=4659045990859789&ev=PageView&noscript=1" />
+    <img height="1" width="1" style="display:none" src="https://www.facebook.com/tr?id=1566666134485463&ev=PageView&noscript=1" />
+    <img height="1" width="1" style="display:none" src="https://www.facebook.com/tr?id=4659045990859789&ev=PageView&noscript=1" />
   </noscript>
-  <!-- /Meta Pixel -->
 
   <style>
-    /* ── RESET & BASE ── */
+    /* ── Reset ─────────────────────────────────────────── */
     *, *::before, *::after { box-sizing: border-box; margin: 0; padding: 0; }
-    html { scroll-behavior: smooth; }
+    html { scroll-behavior: smooth; -webkit-text-size-adjust: 100%; }
+    img, svg { display: block; max-width: 100%; }
+
+    /* ── Tokens ─────────────────────────────────────────── */
+    :root {
+      --azul-noite:     #1A1938;
+      --azul-noite-alt: #141230;
+      --grafite:        #3B3550;
+      --dourado:        #C9A25D;
+      --champagne:      #F5DAB1;
+      --creme:          #F3EADA;
+      --marrom:         #2B211B;
+      --texto-muted:    rgba(243, 234, 218, 0.55);
+
+      --ff-titulo: 'Cormorant Garamond', Georgia, serif;
+      --ff-corpo:  'Lora', Georgia, serif;
+
+      --max-w: 720px;
+      --max-w-wide: 960px;
+      --pad-x: 1.25rem;
+      --radius: 8px;
+    }
+
+    /* ── Base ───────────────────────────────────────────── */
     body {
-      font-family: 'Lato', sans-serif;
-      font-weight: 400;
-      font-size: 16px;
-      line-height: 1.7;
-      background: #1C1B2E;
-      color: #F5F0E8;
+      background: var(--azul-noite);
+      color: var(--creme);
+      font-family: var(--ff-corpo);
+      font-size: 1rem;
+      line-height: 1.75;
       -webkit-font-smoothing: antialiased;
     }
 
-    /* ── CSS VARIABLES ── */
-    :root {
-      --noite-profunda: #1C1B2E;
-      --roxo-anjo: #6B5FA6;
-      --dourado-suave: #C4A882;
-      --creme-lunar: #F5F0E8;
-      --lavanda-nevoa: #E8E4F0;
-      --violeta-medio: #9B8DC4;
-      --cinza-nevoa: #8A8799;
-      --dourado-rgba-30: rgba(196,168,130,0.30);
-      --roxo-rgba-20: rgba(107,95,166,0.20);
-      --roxo-rgba-30: rgba(107,95,166,0.30);
-    }
-
-    /* ── TYPOGRAPHY ── */
-    .font-display { font-family: 'Cormorant Garamond', serif; }
-    .font-italic  { font-family: 'Cormorant Garamond', serif; font-style: italic; }
-
-    /* ── UTILITIES ── */
     .container {
       width: 100%;
-      max-width: 1100px;
-      margin: 0 auto;
-      padding: 0 24px;
+      max-width: var(--max-w);
+      margin-inline: auto;
+      padding-inline: var(--pad-x);
     }
-    .sr-only {
-      position: absolute; width: 1px; height: 1px;
-      padding: 0; overflow: hidden; clip: rect(0,0,0,0);
-      white-space: nowrap; border: 0;
+    .container--wide { max-width: var(--max-w-wide); }
+
+    section { padding-block: 4rem; }
+
+    h1, h2, h3 {
+      font-family: var(--ff-titulo);
+      line-height: 1.2;
+      font-weight: 400;
     }
-    .divider-gold {
-      width: 100%;
+    h1 { font-size: clamp(2.1rem, 6vw, 3.2rem); }
+    h2 { font-size: clamp(1.6rem, 4.5vw, 2.4rem); }
+
+    .dourado  { color: var(--dourado); }
+    .champagne { color: var(--champagne); }
+    .italic   { font-style: italic; }
+
+    .divisor {
+      width: 3rem;
       height: 1px;
-      background: linear-gradient(90deg, transparent, rgba(196,168,130,0.5) 30%, rgba(196,168,130,0.5) 70%, transparent);
-      margin: 0;
+      background: var(--dourado);
+      margin-inline: auto;
+      margin-block: 1.5rem;
+      opacity: 0.55;
     }
 
-    /* ── FADE-IN ANIMATION ── */
-    @keyframes fadeInUp {
-      from { opacity: 0; transform: translateY(24px); }
-      to   { opacity: 1; transform: translateY(0); }
-    }
-    .fade-in {
-      opacity: 0;
-      animation: fadeInUp 0.7s ease forwards;
-    }
-    .fade-in-1 { animation-delay: 0.1s; }
-    .fade-in-2 { animation-delay: 0.25s; }
-    .fade-in-3 { animation-delay: 0.4s; }
-    .fade-in-4 { animation-delay: 0.55s; }
-
-    /* ════════════════════════════════
-       1. HEADER / NAV
-    ════════════════════════════════ */
-    #header {
-      position: fixed;
-      top: 0; left: 0; right: 0;
-      z-index: 100;
-      background: rgba(28,27,46,0.97);
-      backdrop-filter: blur(8px);
-      border-bottom: 1px solid rgba(196,168,130,0.15);
-    }
-    .nav-inner {
-      display: flex;
+    /* ── Botão CTA ──────────────────────────────────────── */
+    .btn-cta {
+      display: inline-flex;
       align-items: center;
-      justify-content: space-between;
-      height: 68px;
-      gap: 16px;
-    }
-    .nav-logo {
-      font-family: 'Cormorant Garamond', serif;
-      font-weight: 300;
-      font-size: 17px;
-      color: var(--dourado-suave);
+      gap: 0.4rem;
+      background: var(--dourado);
+      color: var(--marrom);
+      font-family: var(--ff-corpo);
+      font-size: 1rem;
+      font-weight: 600;
       text-decoration: none;
-      letter-spacing: 0.03em;
-      white-space: nowrap;
-      flex-shrink: 0;
-    }
-    .nav-links {
-      display: flex;
-      align-items: center;
-      gap: 28px;
-      list-style: none;
-    }
-    .nav-links a {
-      font-family: 'Lato', sans-serif;
-      font-weight: 300;
-      font-size: 13px;
-      letter-spacing: 0.06em;
-      text-transform: uppercase;
-      color: var(--cinza-nevoa);
-      text-decoration: none;
-      transition: color 0.2s;
-    }
-    .nav-links a:hover { color: var(--dourado-suave); }
-    .btn-nav {
-      display: inline-block;
-      padding: 9px 22px;
-      background: var(--dourado-suave);
-      color: var(--noite-profunda);
-      font-family: 'Lato', sans-serif;
-      font-weight: 400;
-      font-size: 13px;
-      letter-spacing: 0.05em;
-      text-decoration: none;
-      text-transform: uppercase;
-      transition: background 0.2s, color 0.2s;
-      white-space: nowrap;
-    }
-    .btn-nav:hover { background: #d4b892; }
-
-    /* Mobile nav toggle */
-    .nav-toggle {
-      display: none;
-      flex-direction: column;
-      gap: 5px;
-      cursor: pointer;
-      background: none;
+      padding: 0.9rem 1.75rem;
+      border-radius: var(--radius);
       border: none;
-      padding: 4px;
+      transition: opacity 0.2s, transform 0.15s;
     }
-    .nav-toggle span {
-      display: block;
-      width: 22px;
-      height: 1.5px;
-      background: var(--dourado-suave);
-      transition: transform 0.25s;
-    }
-    #nav-check { display: none; }
-    @media (max-width: 768px) {
-      .nav-toggle { display: flex; }
-      .nav-menu {
-        display: none;
-        position: absolute;
-        top: 68px; left: 0; right: 0;
-        background: rgba(28,27,46,0.99);
-        padding: 24px;
-        border-bottom: 1px solid rgba(196,168,130,0.15);
-        flex-direction: column;
-        align-items: flex-start;
-        gap: 0;
-      }
-      #nav-check:checked ~ .nav-inner .nav-menu { display: flex; }
-      .nav-links {
-        flex-direction: column;
-        align-items: flex-start;
-        gap: 0;
-        width: 100%;
-      }
-      .nav-links li { width: 100%; }
-      .nav-links a {
-        display: block;
-        padding: 12px 0;
-        border-bottom: 1px solid rgba(196,168,130,0.08);
-        width: 100%;
-        font-size: 14px;
-      }
-      .btn-nav { margin-top: 16px; display: block; text-align: center; }
-    }
+    .btn-cta:hover  { opacity: 0.88; transform: translateY(-1px); }
+    .btn-cta:active { transform: translateY(0); }
 
-    /* ════════════════════════════════
-       2. HERO
-    ════════════════════════════════ */
-    #hero {
-      min-height: 100vh;
-      background-color: var(--noite-profunda);
-      background-image:
-        radial-gradient(circle, rgba(196,168,130,0.18) 1px, transparent 1px);
-      background-size: 24px 24px;
-      display: flex;
-      align-items: center;
-      padding: 120px 0 80px;
-      position: relative;
-      overflow: hidden;
+    .btn-cta--outline {
+      background: transparent;
+      border: 1.5px solid var(--dourado);
+      color: var(--dourado);
     }
-    #hero::before {
-      content: '';
-      position: absolute;
-      top: 0; left: 0; right: 0; bottom: 0;
-      background: radial-gradient(ellipse 70% 60% at 50% 40%, rgba(107,95,166,0.12) 0%, transparent 70%);
-      pointer-events: none;
-    }
-    .hero-inner {
-      text-align: center;
-      max-width: 820px;
-      margin: 0 auto;
-      position: relative;
-      z-index: 1;
-    }
-    .hero-overline {
-      font-family: 'Lato', sans-serif;
-      font-weight: 300;
-      font-size: 12px;
-      letter-spacing: 0.18em;
-      text-transform: uppercase;
-      color: var(--dourado-suave);
-      margin-bottom: 28px;
-    }
-    .hero-headline {
-      font-family: 'Cormorant Garamond', serif;
-      font-weight: 300;
-      font-size: 56px;
-      line-height: 1.18;
-      color: var(--creme-lunar);
-      margin-bottom: 28px;
-      letter-spacing: -0.01em;
-    }
-    .hero-sub {
-      font-family: 'Lato', sans-serif;
-      font-weight: 300;
-      font-size: 18px;
-      line-height: 1.7;
-      color: var(--violeta-medio);
-      margin-bottom: 48px;
-      max-width: 600px;
-      margin-left: auto;
-      margin-right: auto;
-    }
-    .hero-ctas {
-      display: flex;
-      flex-direction: column;
-      align-items: center;
-      gap: 20px;
-    }
-    .btn-primary {
-      display: inline-block;
-      padding: 18px 44px;
-      background: var(--dourado-suave);
-      color: var(--noite-profunda);
-      font-family: 'Lato', sans-serif;
-      font-weight: 400;
-      font-size: 15px;
-      letter-spacing: 0.06em;
-      text-decoration: none;
-      text-transform: uppercase;
-      transition: background 0.25s, transform 0.15s;
-    }
-    .btn-primary:hover { background: #d4b892; transform: translateY(-1px); }
-    .hero-link {
-      font-family: 'Lato', sans-serif;
-      font-weight: 300;
-      font-size: 15px;
-      color: var(--violeta-medio);
-      text-decoration: none;
-      border-bottom: 1px solid rgba(155,141,196,0.35);
-      padding-bottom: 2px;
-      transition: color 0.2s, border-color 0.2s;
-    }
-    .hero-link:hover { color: var(--dourado-suave); border-color: rgba(196,168,130,0.5); }
-    .hero-divider {
-      margin-top: 64px;
-    }
+    .btn-cta--outline:hover { background: var(--dourado); color: var(--marrom); }
 
-    @media (max-width: 768px) {
-      .hero-headline { font-size: 34px; }
-      .hero-sub { font-size: 16px; }
-      .btn-primary { padding: 16px 32px; font-size: 14px; }
-    }
-
-    /* ════════════════════════════════
-       3. ESPELHO DE DORES
-    ════════════════════════════════ */
-    #dores {
-      background: var(--noite-profunda);
-      padding: 96px 0;
-    }
-    .section-title {
-      font-family: 'Cormorant Garamond', serif;
-      font-weight: 300;
-      font-size: 40px;
-      line-height: 1.2;
-      color: var(--dourado-suave);
-      text-align: center;
-      margin-bottom: 56px;
-    }
-    .dores-grid {
-      display: grid;
-      grid-template-columns: repeat(3, 1fr);
-      gap: 24px;
-      margin-bottom: 48px;
-    }
-    .dor-card {
-      background: rgba(255,255,255,0.03);
-      border-left: 3px solid var(--dourado-suave);
-      padding: 32px 28px;
-      position: relative;
-    }
-    .dor-card p {
-      font-family: 'Cormorant Garamond', serif;
-      font-weight: 300;
-      font-size: 22px;
-      line-height: 1.45;
-      color: var(--creme-lunar);
-      letter-spacing: 0.01em;
-    }
-    .dores-closing {
-      font-family: 'Cormorant Garamond', serif;
-      font-style: italic;
-      font-size: 22px;
-      color: var(--creme-lunar);
-      text-align: center;
-      max-width: 680px;
-      margin: 0 auto;
-      line-height: 1.55;
-      opacity: 0.9;
-    }
-
-    @media (max-width: 768px) {
-      .dores-grid { grid-template-columns: 1fr; gap: 16px; }
-      .section-title { font-size: 32px; }
-    }
-
-    /* ════════════════════════════════
-       4. COMO FUNCIONA
-    ════════════════════════════════ */
-    #como-funciona {
-      background: var(--lavanda-nevoa);
-      padding: 96px 0;
-    }
-    #como-funciona .section-title { color: var(--noite-profunda); }
-    .timeline {
-      max-width: 680px;
-      margin: 0 auto;
-      position: relative;
-    }
-    .timeline::before {
-      content: '';
-      position: absolute;
-      left: 19px;
-      top: 8px;
-      bottom: 8px;
-      width: 1px;
-      background: linear-gradient(to bottom, var(--dourado-suave), rgba(196,168,130,0.2));
-    }
-    .timeline-step {
-      display: flex;
-      gap: 28px;
-      margin-bottom: 44px;
-      position: relative;
-    }
-    .timeline-step:last-child { margin-bottom: 0; }
-    .step-dot {
-      flex-shrink: 0;
-      width: 40px;
-      height: 40px;
-      border-radius: 50%;
-      border: 1.5px solid var(--dourado-suave);
-      background: var(--lavanda-nevoa);
-      display: flex;
-      align-items: center;
-      justify-content: center;
-      font-family: 'Cormorant Garamond', serif;
-      font-weight: 400;
-      font-size: 17px;
-      color: var(--dourado-suave);
-      position: relative;
-      z-index: 1;
-    }
-    .step-content { padding-top: 6px; }
-    .step-title {
-      font-family: 'Cormorant Garamond', serif;
-      font-weight: 400;
-      font-size: 22px;
-      color: var(--noite-profunda);
-      margin-bottom: 6px;
-    }
-    .step-desc {
-      font-family: 'Lato', sans-serif;
-      font-weight: 300;
-      font-size: 15px;
-      color: #4a495e;
-      line-height: 1.65;
-    }
-
-    @media (max-width: 768px) {
-      .timeline::before { left: 15px; }
-      .step-dot { width: 32px; height: 32px; font-size: 14px; }
-    }
-
-    /* ════════════════════════════════
-       5. O QUE VOCÊ RECEBE
-    ════════════════════════════════ */
-    #recebe {
-      background: var(--noite-profunda);
-      padding: 96px 0;
-    }
-    #recebe .section-title { color: var(--dourado-suave); }
-    .recebe-grid {
-      display: grid;
-      grid-template-columns: 1fr 1fr;
-      gap: 48px;
-      align-items: start;
-    }
-    .check-list { list-style: none; }
-    .check-list li {
-      display: flex;
-      gap: 14px;
-      align-items: flex-start;
-      margin-bottom: 18px;
-      font-family: 'Lato', sans-serif;
-      font-weight: 300;
-      font-size: 16px;
-      color: var(--creme-lunar);
-      line-height: 1.55;
-    }
-    .check-icon {
-      color: var(--dourado-suave);
-      font-size: 15px;
-      flex-shrink: 0;
-      margin-top: 3px;
-    }
-    .disclaimer-box {
-      background: var(--roxo-rgba-30);
-      border: 1px solid rgba(196,168,130,0.35);
-      padding: 32px 28px;
-    }
-    .disclaimer-box p {
-      font-family: 'Lato', sans-serif;
-      font-weight: 300;
-      font-size: 14px;
-      color: var(--creme-lunar);
-      line-height: 1.75;
-      opacity: 0.85;
-    }
-    .disclaimer-box strong {
-      font-weight: 400;
-      color: var(--dourado-suave);
-      display: block;
-      font-family: 'Cormorant Garamond', serif;
-      font-size: 17px;
-      margin-bottom: 12px;
-    }
-
-    @media (max-width: 768px) {
-      .recebe-grid { grid-template-columns: 1fr; gap: 32px; }
-    }
-
-    /* ════════════════════════════════
-       6. PARA QUEM É
-    ════════════════════════════════ */
-    #para-quem {
-      background: var(--lavanda-nevoa);
-      padding: 96px 0;
-    }
-    #para-quem .section-title { color: var(--noite-profunda); }
-    .para-quem-grid {
-      display: grid;
-      grid-template-columns: 1fr 1fr;
-      gap: 32px;
-    }
-    .para-col {
-      padding: 40px 36px;
-      background: rgba(255,255,255,0.55);
-    }
-    .para-col-title {
-      font-family: 'Cormorant Garamond', serif;
-      font-weight: 400;
-      font-size: 26px;
-      margin-bottom: 24px;
-    }
-    .para-col-title.yes { color: var(--roxo-anjo); }
-    .para-col-title.no  { color: var(--cinza-nevoa); }
-    .para-col ul { list-style: none; }
-    .para-col ul li {
-      display: flex;
-      gap: 12px;
-      align-items: flex-start;
-      margin-bottom: 14px;
-      font-family: 'Lato', sans-serif;
-      font-weight: 300;
-      font-size: 15px;
-      color: #3a3952;
-      line-height: 1.6;
-    }
-    .bullet-yes { color: var(--roxo-anjo); flex-shrink: 0; margin-top: 2px; }
-    .bullet-no  { color: var(--cinza-nevoa); flex-shrink: 0; margin-top: 2px; }
-
-    @media (max-width: 768px) {
-      .para-quem-grid { grid-template-columns: 1fr; }
-      .para-col { padding: 28px 24px; }
-    }
-
-    /* ════════════════════════════════
-       7. SOBRE A PRATICANTE
-    ════════════════════════════════ */
-    #sobre {
-      background: var(--noite-profunda);
-      padding: 96px 0;
-    }
-    #sobre .section-title { color: var(--dourado-suave); }
-    .sobre-grid {
-      display: grid;
-      grid-template-columns: 1fr auto;
-      gap: 64px;
-      align-items: center;
-    }
-    .sobre-text p {
-      font-family: 'Lato', sans-serif;
-      font-weight: 300;
-      font-size: 16px;
-      color: var(--creme-lunar);
-      line-height: 1.85;
-      margin-bottom: 20px;
-      opacity: 0.9;
-    }
-    .sobre-text p:last-child { margin-bottom: 0; }
-    /* CSS concentric circles decorative element */
-    .radionic-visual {
-      width: 200px;
-      height: 200px;
-      position: relative;
-      flex-shrink: 0;
-    }
-    .radionic-visual::before,
-    .radionic-visual::after,
-    .radionic-inner,
-    .radionic-core {
-      position: absolute;
-      border-radius: 50%;
-      top: 50%; left: 50%;
-      transform: translate(-50%, -50%);
-    }
-    .radionic-visual::before {
-      content: '';
-      width: 200px; height: 200px;
-      border: 1px solid rgba(196,168,130,0.20);
-    }
-    .radionic-visual::after {
-      content: '';
-      width: 156px; height: 156px;
-      border: 1px solid rgba(196,168,130,0.35);
-    }
-    .radionic-inner {
-      width: 110px; height: 110px;
-      border: 1px solid rgba(196,168,130,0.55);
-    }
-    .radionic-mid {
-      position: absolute;
-      width: 72px; height: 72px;
-      border-radius: 50%;
-      top: 50%; left: 50%;
-      transform: translate(-50%, -50%);
-      border: 1px solid rgba(196,168,130,0.75);
-    }
-    .radionic-core {
-      width: 36px; height: 36px;
-      background: rgba(196,168,130,0.12);
-      border: 1.5px solid var(--dourado-suave);
-    }
-    .radionic-label {
-      position: absolute;
-      bottom: -28px;
-      left: 50%;
-      transform: translateX(-50%);
-      font-family: 'Lato', sans-serif;
-      font-size: 10px;
-      letter-spacing: 0.14em;
-      text-transform: uppercase;
-      color: rgba(196,168,130,0.5);
-      white-space: nowrap;
-    }
-
-    @media (max-width: 768px) {
-      .sobre-grid {
-        grid-template-columns: 1fr;
-        gap: 48px;
-      }
-      .radionic-visual {
-        margin: 0 auto;
-        margin-bottom: 16px;
-      }
-    }
-
-    /* ════════════════════════════════
-       8. DEPOIMENTOS
-    ════════════════════════════════ */
-    #depoimentos {
-      background: #EDEAD8;
-      padding: 96px 0;
-    }
-    #depoimentos .section-title { color: var(--noite-profunda); }
-    .depo-grid {
-      display: grid;
-      grid-template-columns: repeat(3, 1fr);
-      gap: 24px;
-      margin-bottom: 28px;
-    }
-    .depo-card {
-      background: var(--creme-lunar);
-      border-top: 3px solid var(--dourado-suave);
-      padding: 32px 28px;
-    }
-    .depo-quote {
-      font-family: 'Cormorant Garamond', serif;
-      font-style: italic;
-      font-size: 19px;
-      line-height: 1.6;
-      color: #2a2938;
-      margin-bottom: 20px;
-    }
-    .depo-quote::before { content: '"'; color: var(--dourado-suave); }
-    .depo-quote::after  { content: '"'; color: var(--dourado-suave); }
-    .depo-author {
-      font-family: 'Lato', sans-serif;
-      font-weight: 300;
-      font-size: 13px;
-      letter-spacing: 0.06em;
-      color: var(--cinza-nevoa);
-      text-transform: uppercase;
-    }
-    .depo-note {
-      font-family: 'Lato', sans-serif;
-      font-weight: 300;
-      font-size: 13px;
-      font-style: italic;
-      color: var(--cinza-nevoa);
-      text-align: center;
-    }
-
-    @media (max-width: 768px) {
-      .depo-grid { grid-template-columns: 1fr; }
-    }
-
-    /* ════════════════════════════════
-       9. OFERTA / CTA PRINCIPAL
-    ════════════════════════════════ */
-    #oferta {
-      background: var(--noite-profunda);
-      padding: 96px 0;
-      text-align: center;
-    }
-    .oferta-inner { max-width: 680px; margin: 0 auto; }
-    .oferta-title {
-      font-family: 'Cormorant Garamond', serif;
-      font-weight: 300;
-      font-size: 44px;
-      line-height: 1.2;
-      color: var(--creme-lunar);
-      margin-bottom: 24px;
-      letter-spacing: -0.01em;
-    }
-    .oferta-preco {
-      font-family: 'Cormorant Garamond', serif;
-      font-weight: 300;
-      font-size: 72px;
-      color: var(--dourado-suave);
-      line-height: 1;
-      margin-bottom: 8px;
-      letter-spacing: -0.02em;
-    }
-    .oferta-preco-note {
-      font-family: 'Lato', sans-serif;
-      font-weight: 300;
-      font-size: 13px;
-      color: var(--cinza-nevoa);
-      margin-bottom: 40px;
-      letter-spacing: 0.05em;
-    }
-    .oferta-includes {
-      list-style: none;
-      margin-bottom: 36px;
-      text-align: left;
-      display: inline-block;
-    }
-    .oferta-includes li {
-      display: flex;
-      gap: 12px;
-      align-items: flex-start;
-      margin-bottom: 12px;
-      font-family: 'Lato', sans-serif;
-      font-weight: 300;
-      font-size: 15px;
-      color: var(--creme-lunar);
-    }
-    .oferta-includes .check-icon { color: var(--dourado-suave); }
-    .order-bump {
-      background: rgba(107,95,166,0.15);
-      border: 1px solid rgba(107,95,166,0.4);
-      padding: 20px 28px;
-      margin-bottom: 40px;
-      text-align: center;
-    }
-    .order-bump p {
-      font-family: 'Cormorant Garamond', serif;
-      font-size: 20px;
-      color: var(--violeta-medio);
-    }
-    .order-bump strong {
-      color: var(--dourado-suave);
-      font-weight: 400;
-    }
-    .btn-cta-main {
-      display: inline-block;
-      padding: 22px 56px;
-      background: var(--dourado-suave);
-      color: var(--noite-profunda);
-      font-family: 'Lato', sans-serif;
-      font-weight: 400;
-      font-size: 16px;
-      letter-spacing: 0.07em;
-      text-decoration: none;
-      text-transform: uppercase;
-      transition: background 0.25s, transform 0.15s;
-      margin-bottom: 24px;
-    }
-    .btn-cta-main:hover { background: #d4b892; transform: translateY(-2px); }
-    .trust-line {
-      display: flex;
-      align-items: center;
-      justify-content: center;
-      gap: 8px;
-      font-family: 'Lato', sans-serif;
-      font-weight: 300;
-      font-size: 13px;
-      color: var(--cinza-nevoa);
-      margin-bottom: 40px;
-    }
-    .trust-line .lock { color: var(--dourado-suave); font-size: 14px; }
-    .garantia-box {
-      border: 1px solid rgba(107,95,166,0.45);
-      padding: 28px 32px;
-      text-align: center;
-    }
-    .garantia-box p {
-      font-family: 'Lato', sans-serif;
-      font-weight: 300;
-      font-size: 15px;
-      color: var(--creme-lunar);
-      line-height: 1.7;
-      opacity: 0.85;
-    }
-    .garantia-box strong {
-      font-weight: 400;
-      color: var(--violeta-medio);
-      display: block;
-      font-family: 'Cormorant Garamond', serif;
-      font-size: 22px;
-      margin-bottom: 8px;
-    }
-
-    @media (max-width: 768px) {
-      .oferta-title { font-size: 30px; }
-      .oferta-preco { font-size: 56px; }
-      .btn-cta-main { padding: 18px 36px; font-size: 14px; }
-    }
-
-    /* ════════════════════════════════
-       10. FAQ
-    ════════════════════════════════ */
-    #faq {
-      background: var(--lavanda-nevoa);
-      padding: 96px 0;
-    }
-    #faq .section-title { color: var(--noite-profunda); }
-    .faq-list {
-      max-width: 760px;
-      margin: 0 auto;
-    }
-    details {
-      border-bottom: 1px solid rgba(107,95,166,0.25);
-    }
-    details:first-of-type { border-top: 1px solid rgba(107,95,166,0.25); }
-    summary {
+    /* ── Nav ────────────────────────────────────────────── */
+    .nav {
+      padding-block: 1.25rem;
+      border-bottom: 1px solid rgba(201,162,93,0.12);
+    }
+    .nav__inner {
       display: flex;
       align-items: center;
       justify-content: space-between;
-      cursor: pointer;
-      padding: 22px 4px;
-      font-family: 'Cormorant Garamond', serif;
-      font-weight: 400;
-      font-size: 21px;
-      color: var(--noite-profunda);
-      list-style: none;
-      gap: 16px;
+      gap: 1rem;
     }
-    summary::-webkit-details-marker { display: none; }
-    summary::after {
-      content: '+';
-      color: var(--dourado-suave);
-      font-size: 24px;
+    .nav__logo {
+      font-family: var(--ff-titulo);
+      font-size: 1.05rem;
+      color: var(--dourado);
+      text-decoration: none;
+      font-weight: 500;
+    }
+
+    /* ── Hero ───────────────────────────────────────────── */
+    .hero {
+      padding-block: 5rem 4rem;
+      background: linear-gradient(155deg, var(--azul-noite-alt) 0%, var(--azul-noite) 65%);
+    }
+    .hero__eyebrow {
+      font-size: 0.78rem;
+      letter-spacing: 0.2em;
+      text-transform: uppercase;
+      color: var(--dourado);
+      margin-bottom: 1.25rem;
+    }
+    .hero__headline { margin-bottom: 1.5rem; }
+    .hero__subheadline {
+      font-size: clamp(1rem, 2.5vw, 1.15rem);
+      color: var(--champagne);
+      max-width: 540px;
+      margin-bottom: 2.25rem;
+      line-height: 1.7;
+    }
+    .hero__cta-group {
+      display: flex;
+      flex-direction: column;
+      gap: 0.75rem;
+      align-items: flex-start;
+    }
+    .hero__nota {
+      font-size: 0.8rem;
+      color: var(--texto-muted);
+      margin-top: 0.75rem;
+    }
+
+    /* ── Cenas ──────────────────────────────────────────── */
+    .cenas { background: var(--grafite); }
+    .cenas__intro { text-align: center; margin-bottom: 2.5rem; }
+    .cenas__intro p { color: var(--champagne); max-width: 500px; margin-inline: auto; }
+    .cenas__grid { display: grid; gap: 1rem; }
+    .cena-card {
+      background: rgba(26, 25, 56, 0.5);
+      border: 1px solid rgba(201,162,93,0.16);
+      border-radius: var(--radius);
+      padding: 1.25rem 1.5rem 1.25rem 2rem;
+      position: relative;
+    }
+    .cena-card::before {
+      content: '"';
+      font-family: var(--ff-titulo);
+      font-size: 3.5rem;
+      color: var(--dourado);
+      opacity: 0.25;
+      position: absolute;
+      top: 0.25rem;
+      left: 0.875rem;
+      line-height: 1;
+    }
+    .cena-card p { font-style: italic; color: var(--creme); }
+    .cenas__gancho {
+      text-align: center;
+      margin-top: 2.5rem;
+      font-family: var(--ff-titulo);
+      font-size: clamp(1.25rem, 3.5vw, 1.7rem);
+      color: var(--champagne);
+      font-style: italic;
+    }
+
+    /* ── Virada ─────────────────────────────────────────── */
+    .virada { text-align: center; }
+    .virada__pergunta {
+      font-family: var(--ff-titulo);
+      font-size: clamp(1.4rem, 4vw, 2rem);
+      font-style: italic;
+      color: var(--champagne);
+      max-width: 580px;
+      margin-inline: auto;
+      margin-bottom: 1.25rem;
+    }
+    .virada__corpo {
+      max-width: 520px;
+      margin-inline: auto;
+      color: var(--creme);
+    }
+    .virada__corpo + .virada__corpo { margin-top: 1rem; }
+    .virada__destaque {
+      margin-top: 2rem;
+      font-family: var(--ff-titulo);
+      font-size: clamp(1.15rem, 3vw, 1.55rem);
+      color: var(--dourado);
+    }
+
+    /* ── Método ─────────────────────────────────────────── */
+    .metodo { background: var(--azul-noite-alt); }
+    .metodo__intro { text-align: center; margin-bottom: 3rem; }
+    .metodo__intro p { color: var(--champagne); max-width: 500px; margin-inline: auto; margin-top: 0.75rem; }
+    .metodo__jornada { display: grid; gap: 1rem; }
+    .etapa {
+      display: flex;
+      align-items: flex-start;
+      gap: 1.25rem;
+      background: rgba(59, 53, 80, 0.45);
+      border-left: 3px solid var(--dourado);
+      border-radius: 0 var(--radius) var(--radius) 0;
+      padding: 1.25rem 1.5rem;
+    }
+    .etapa__num {
+      font-family: var(--ff-titulo);
+      font-size: 1.6rem;
+      color: var(--dourado);
       font-weight: 300;
       flex-shrink: 0;
-      transition: transform 0.25s;
+      line-height: 1;
+      padding-top: 0.15rem;
     }
-    details[open] summary::after {
-      transform: rotate(45deg);
+    .etapa__nome {
+      font-family: var(--ff-titulo);
+      font-size: 1.1rem;
+      font-weight: 600;
+      color: var(--dourado);
+      letter-spacing: 0.1em;
+      text-transform: uppercase;
+      margin-bottom: 0.25rem;
     }
-    .faq-answer {
-      padding: 0 4px 24px;
-      font-family: 'Lato', sans-serif;
-      font-weight: 300;
-      font-size: 15px;
-      color: #4a495e;
-      line-height: 1.75;
+    .etapa__desc { font-size: 0.9rem; color: var(--champagne); line-height: 1.6; }
+
+    /* ── O Caminho ──────────────────────────────────────── */
+    .caminho { background: var(--grafite); text-align: center; }
+    .caminho__corpo { max-width: 560px; margin-inline: auto; }
+    .caminho__corpo p { color: var(--champagne); margin-top: 1rem; }
+    .caminho__frase {
+      font-family: var(--ff-titulo);
+      font-size: clamp(1.1rem, 3vw, 1.5rem);
+      font-style: italic;
+      color: var(--creme);
+      margin-top: 2rem;
+      border-left: 3px solid var(--dourado);
+      text-align: left;
+      padding-left: 1.25rem;
+      max-width: 480px;
+      margin-inline: auto;
     }
 
-    @media (max-width: 768px) {
-      summary { font-size: 18px; }
+    /* ── Entregáveis ────────────────────────────────────── */
+    .entregaveis { background: var(--azul-noite); }
+    .entregaveis__intro { text-align: center; margin-bottom: 2.5rem; }
+    .entregaveis__intro p { color: var(--champagne); max-width: 480px; margin-inline: auto; margin-top: 0.75rem; }
+    .preco {
+      text-align: center;
+      margin-bottom: 2.5rem;
     }
+    .preco__valor {
+      font-family: var(--ff-titulo);
+      font-size: clamp(2rem, 5vw, 2.8rem);
+      color: var(--dourado);
+    }
+    .preco__nota { font-size: 0.8rem; color: var(--texto-muted); margin-top: 0.2rem; }
+    .lista-entregaveis { list-style: none; display: grid; gap: 0.75rem; margin-bottom: 2.5rem; }
+    .entregavel {
+      display: flex;
+      align-items: flex-start;
+      gap: 0.875rem;
+      background: rgba(59, 53, 80, 0.35);
+      border: 1px solid rgba(201,162,93,0.14);
+      border-radius: var(--radius);
+      padding: 1rem 1.25rem;
+    }
+    .entregavel__icon { color: var(--dourado); flex-shrink: 0; margin-top: 0.2rem; }
+    .entregavel strong { display: block; color: var(--creme); font-size: 0.95rem; margin-bottom: 0.2rem; }
+    .entregavel span { font-size: 0.85rem; color: var(--texto-muted); }
+    .entregaveis__cta { text-align: center; }
 
-    /* ════════════════════════════════
-       11. FOOTER
-    ════════════════════════════════ */
-    #footer {
-      background: #14131F;
-      padding: 56px 0 40px;
+    /* ── Limites ────────────────────────────────────────── */
+    .limites { background: var(--grafite); }
+    .limites__intro { text-align: center; margin-bottom: 2rem; }
+    .limites__intro p { color: var(--champagne); max-width: 460px; margin-inline: auto; margin-top: 0.75rem; font-size: 0.95rem; }
+    .lista-limites { list-style: none; display: grid; gap: 0.6rem; max-width: 520px; margin-inline: auto; }
+    .limite {
+      display: flex;
+      align-items: flex-start;
+      gap: 0.75rem;
+      background: rgba(26, 25, 56, 0.4);
+      border-radius: var(--radius);
+      padding: 0.75rem 1rem;
+    }
+    .limite__dash { color: var(--dourado); opacity: 0.65; flex-shrink: 0; margin-top: 0.2rem; }
+    .limite p { font-size: 0.9rem; color: var(--champagne); }
+
+    /* ── Quem conduz ────────────────────────────────────── */
+    .quem-conduz { background: var(--azul-noite-alt); }
+    .quem-conduz__inner { display: grid; gap: 2rem; align-items: start; }
+    .quem-conduz__avatar {
+      width: 90px; height: 90px;
+      border-radius: 50%;
+      background: var(--grafite);
+      border: 2px solid rgba(201,162,93,0.3);
+      display: flex; align-items: center; justify-content: center;
+      font-family: var(--ff-titulo);
+      font-size: 2.2rem;
+      color: var(--dourado);
+      flex-shrink: 0;
+    }
+    .quem-conduz__nome {
+      font-family: var(--ff-titulo);
+      font-size: clamp(1.8rem, 5vw, 2.4rem);
+      color: var(--dourado);
+      margin-bottom: 0.2rem;
+    }
+    .quem-conduz__titulo {
+      font-size: 0.78rem;
+      letter-spacing: 0.12em;
+      text-transform: uppercase;
+      color: var(--texto-muted);
+      margin-bottom: 1.5rem;
+    }
+    .quem-conduz__bio p { color: var(--champagne); font-size: 0.95rem; line-height: 1.8; margin-bottom: 1rem; }
+    .quem-conduz__bio p:last-child { margin-bottom: 0; }
+
+    /* ── CTA Final ──────────────────────────────────────── */
+    .cta-final {
+      background: linear-gradient(155deg, var(--azul-noite-alt) 0%, var(--azul-noite) 100%);
+      text-align: center;
+      padding-block: 5.5rem;
+    }
+    .cta-final__headline { margin-bottom: 1rem; }
+    .cta-final__sub { color: var(--champagne); max-width: 460px; margin-inline: auto; margin-bottom: 2rem; }
+    .cta-final__nota { font-size: 0.78rem; color: var(--texto-muted); margin-top: 1rem; }
+
+    /* ── Footer ─────────────────────────────────────────── */
+    .footer {
+      background: var(--azul-noite-alt);
+      border-top: 1px solid rgba(201,162,93,0.1);
+      padding-block: 2.5rem;
       text-align: center;
     }
-    .footer-logo {
-      font-family: 'Cormorant Garamond', serif;
-      font-weight: 300;
-      font-size: 19px;
-      color: var(--dourado-suave);
-      letter-spacing: 0.03em;
-      margin-bottom: 24px;
-    }
-    .footer-links {
-      display: flex;
-      justify-content: center;
-      gap: 32px;
-      flex-wrap: wrap;
-      margin-bottom: 32px;
-    }
-    .footer-links a {
-      font-family: 'Lato', sans-serif;
-      font-weight: 300;
-      font-size: 12px;
-      letter-spacing: 0.06em;
-      text-transform: uppercase;
-      color: var(--cinza-nevoa);
-      text-decoration: none;
-      border-bottom: 1px solid transparent;
-      transition: color 0.2s, border-color 0.2s;
-    }
-    .footer-links a:hover {
-      color: var(--dourado-suave);
-      border-color: rgba(196,168,130,0.4);
-    }
-    .footer-divider {
-      margin-bottom: 28px;
-    }
-    .footer-disclaimer {
-      font-family: 'Lato', sans-serif;
-      font-weight: 300;
-      font-size: 12px;
-      color: var(--cinza-nevoa);
-      line-height: 1.8;
-      max-width: 680px;
-      margin: 0 auto 28px;
-      opacity: 0.7;
-    }
-    .footer-copy {
-      font-family: 'Lato', sans-serif;
-      font-weight: 300;
-      font-size: 12px;
-      color: rgba(138,135,153,0.5);
-      letter-spacing: 0.04em;
-    }
+    .footer__logo { font-family: var(--ff-titulo); font-size: 1.05rem; color: var(--dourado); margin-bottom: 0.75rem; }
+    .footer__texto { font-size: 0.8rem; color: var(--texto-muted); line-height: 1.65; }
+    .footer__links { margin-top: 1rem; display: flex; justify-content: center; gap: 1.25rem; flex-wrap: wrap; }
+    .footer__links a { font-size: 0.78rem; color: var(--texto-muted); text-decoration: none; }
+    .footer__links a:hover { color: var(--dourado); }
 
-    /* ════════════════════════════════
-       SECTION PADDING MOBILE
-    ════════════════════════════════ */
-    @media (max-width: 768px) {
-      #dores, #como-funciona, #recebe, #para-quem,
-      #sobre, #depoimentos, #oferta, #faq {
-        padding: 64px 0;
-      }
+    /* ── Responsivo ─────────────────────────────────────── */
+    @media (min-width: 480px) {
+      .hero__cta-group { flex-direction: row; align-items: center; }
+      .cenas__grid { grid-template-columns: 1fr 1fr; }
+    }
+    @media (min-width: 768px) {
+      section { padding-block: 5.5rem; }
+      .hero { padding-block: 7rem 5.5rem; }
+      .metodo__jornada { grid-template-columns: 1fr 1fr; }
+      .quem-conduz__inner { grid-template-columns: 110px 1fr; }
+      .quem-conduz__avatar { width: 110px; height: 110px; font-size: 2.8rem; }
+    }
+    @media (min-width: 1024px) {
+      :root { --pad-x: 2rem; }
     }
   </style>
 </head>
 <body>
 
-<!-- ════════════════════════════════
-     1. HEADER / NAV
-════════════════════════════════ -->
-<header id="header">
-  <div class="container">
-    <input type="checkbox" id="nav-check" aria-hidden="true" />
-    <nav class="nav-inner" aria-label="Navegação principal">
-      <a href="#hero" class="nav-logo">Portal Caminho da Consciência™</a>
-
-      <label for="nav-check" class="nav-toggle" aria-label="Abrir menu">
-        <span></span><span></span><span></span>
-      </label>
-
-      <div class="nav-menu" role="navigation">
-        <ul class="nav-links">
-          <li><a href="#como-funciona">Como funciona</a></li>
-          <li><a href="#recebe">O que você recebe</a></li>
-          <li><a href="#para-quem">Para quem é</a></li>
-          <li><a href="#depoimentos">Depoimentos</a></li>
-        </ul>
-        <a href="https://wa.me/SEU_NUMERO?text=Quero%20saber%20mais%20sobre%20a%20leitura%20radi%C3%B4nica%20de%20prosperidade" class="btn-nav" target="_blank" rel="noopener">Quero minha leitura</a>
-      </div>
-    </nav>
-  </div>
-</header>
-
-
-<!-- ════════════════════════════════
-     2. HERO
-════════════════════════════════ -->
-<section id="hero">
-  <div class="container">
-    <div class="hero-inner">
-      <p class="hero-overline fade-in fade-in-1">Mesa Radiônica de Prosperidade · Leitura Individual</p>
-
-      <h1 class="hero-headline fade-in fade-in-2">
-        Sua relação com dinheiro<br>tem um padrão energético.<br>
-        <em style="font-style:italic;color:var(--dourado-suave);">A Mesa Radiônica de Prosperidade consegue mapeá-lo.</em>
-      </h1>
-
-      <p class="hero-sub fade-in fade-in-3">
-        Leitura energética individual conduzida por praticante certificada,<br>
-        ancorada na energia dos Anjos da Consciência Divina.<br>
-        Entrega em relatório personalizado em até 48 horas.
-      </p>
-
-      <div class="hero-ctas fade-in fade-in-4">
-        <a href="https://wa.me/SEU_NUMERO?text=Quero%20saber%20mais%20sobre%20a%20leitura%20radi%C3%B4nica%20de%20prosperidade" class="btn-primary" target="_blank" rel="noopener">
-          Quero minha leitura — R$197
-        </a>
-        <a href="#como-funciona" class="hero-link">Entender como funciona ↓</a>
-      </div>
-
-      <div class="hero-divider">
-        <div class="divider-gold"></div>
-      </div>
-    </div>
-  </div>
-</section>
-
-
-<!-- ════════════════════════════════
-     3. ESPELHO DE DORES
-════════════════════════════════ -->
-<section id="dores">
-  <div class="container">
-    <h2 class="section-title">Você reconhece alguma dessas situações?</h2>
-
-    <div class="dores-grid">
-      <div class="dor-card">
-        <p>O dinheiro entra — mas some antes de sobrar.</p>
-      </div>
-      <div class="dor-card">
-        <p>Os projetos chegam perto de acontecer. E travam.</p>
-      </div>
-      <div class="dor-card">
-        <p>O ciclo de dívida fecha e abre, fecha e abre.</p>
-      </div>
-    </div>
-
-    <p class="dores-closing">
-      Não é azar. É um padrão no seu campo energético — e ele tem mapa.
-    </p>
-  </div>
-</section>
-
-
-<!-- ════════════════════════════════
-     4. COMO FUNCIONA
-════════════════════════════════ -->
-<section id="como-funciona">
-  <div class="container">
-    <h2 class="section-title">Como funciona a leitura</h2>
-
-    <div class="timeline">
-
-      <div class="timeline-step">
-        <div class="step-dot">1</div>
-        <div class="step-content">
-          <h3 class="step-title">Você reserva sua leitura</h3>
-          <p class="step-desc">Realiza o pagamento e garante sua vaga.</p>
-        </div>
-      </div>
-
-      <div class="timeline-step">
-        <div class="step-dot">2</div>
-        <div class="step-content">
-          <h3 class="step-title">Preenche o formulário</h3>
-          <p class="step-desc">Nome completo, data de nascimento e sua intenção para os próximos 90 dias.</p>
-        </div>
-      </div>
-
-      <div class="timeline-step">
-        <div class="step-dot">3</div>
-        <div class="step-content">
-          <h3 class="step-title">A leitura é conduzida na mesa</h3>
-          <p class="step-desc">Usando seus dados e sua intenção, conduzo a leitura individualmente na Mesa Sintonize Prosperidade, ancorada na energia dos Anjos da Consciência Divina.</p>
-        </div>
-      </div>
-
-      <div class="timeline-step">
-        <div class="step-dot">4</div>
-        <div class="step-content">
-          <h3 class="step-title">Você recebe o relatório</h3>
-          <p class="step-desc">PDF personalizado com os elementos observados, temas para reflexão e orientações — em até 48 horas.</p>
-        </div>
-      </div>
-
-      <div class="timeline-step">
-        <div class="step-dot">5</div>
-        <div class="step-content">
-          <h3 class="step-title">Áudio de ativação <span style="font-size:14px;color:var(--cinza-nevoa);font-weight:300;">(opcional)</span></h3>
-          <p class="step-desc">Inclua o Áudio de Ativação específico para o seu padrão por R$47 — entregue junto com o relatório.</p>
-        </div>
-      </div>
-
-    </div>
-  </div>
-</section>
-
-
-<!-- ════════════════════════════════
-     5. O QUE VOCÊ RECEBE
-════════════════════════════════ -->
-<section id="recebe">
-  <div class="container">
-    <h2 class="section-title">O que está incluído na leitura</h2>
-
-    <div class="recebe-grid">
-      <div>
-        <ul class="check-list">
-          <li>
-            <span class="check-icon">✓</span>
-            Leitura individual conduzida na Mesa Radiônica de Prosperidade
-          </li>
-          <li>
-            <span class="check-icon">✓</span>
-            Relatório PDF personalizado com seus dados e intenção
-          </li>
-          <li>
-            <span class="check-icon">✓</span>
-            Bloqueios observados e campos de expansão identificados
-          </li>
-          <li>
-            <span class="check-icon">✓</span>
-            Temas para reflexão e orientações para os próximos 21–40 dias
-          </li>
-          <li>
-            <span class="check-icon">✓</span>
-            Entrega em até 48 horas úteis
-          </li>
-          <li>
-            <span class="check-icon">✓</span>
-            Áudio de Ativação específico para seu perfil
-            <span style="font-size:13px;color:var(--cinza-nevoa);margin-left:4px;">(opcional +R$47)</span>
-          </li>
-        </ul>
-      </div>
-
-      <div class="disclaimer-box">
-        <strong>Sobre a natureza deste serviço</strong>
-        <p>
-          Esta é uma experiência energética e intuitiva.
-          Não é terapia, não é consultoria financeira e não promete
-          resultado financeiro específico.<br><br>
-          O relatório é baseado na leitura conduzida com seus dados
-          e reflete a interpretação dentro da prática radiônica.
-        </p>
-      </div>
-    </div>
-  </div>
-</section>
-
-
-<!-- ════════════════════════════════
-     6. PARA QUEM É / PARA QUEM NÃO É
-════════════════════════════════ -->
-<section id="para-quem">
-  <div class="container">
-    <h2 class="section-title">Este serviço é para você?</h2>
-
-    <div class="para-quem-grid">
-
-      <div class="para-col">
-        <h3 class="para-col-title yes">Para você se…</h3>
-        <ul>
-          <li>
-            <span class="bullet-yes">•</span>
-            Você tem abertura para práticas energéticas e espiritualidade
-          </li>
-          <li>
-            <span class="bullet-yes">•</span>
-            Reconhece padrões financeiros que se repetem e quer refletir sobre eles
-          </li>
-          <li>
-            <span class="bullet-yes">•</span>
-            Busca uma experiência individual e personalizada
-          </li>
-          <li>
-            <span class="bullet-yes">•</span>
-            Compreende que o serviço tem natureza intuitiva e energética
-          </li>
-          <li>
-            <span class="bullet-yes">•</span>
-            Quer clareza sobre temas relacionados à prosperidade
-          </li>
-        </ul>
-      </div>
-
-      <div class="para-col">
-        <h3 class="para-col-title no">Não é para você se…</h3>
-        <ul>
-          <li>
-            <span class="bullet-no">•</span>
-            Você espera garantia de resultado financeiro
-          </li>
-          <li>
-            <span class="bullet-no">•</span>
-            Busca consultoria de investimentos ou planejamento financeiro
-          </li>
-          <li>
-            <span class="bullet-no">•</span>
-            Procura diagnóstico ou tratamento médico/psicológico
-          </li>
-          <li>
-            <span class="bullet-no">•</span>
-            Não acredita ou não se interessa por práticas energéticas
-          </li>
-        </ul>
-      </div>
-
-    </div>
-  </div>
-</section>
-
-
-<!-- ════════════════════════════════
-     7. SOBRE A PRATICANTE E O INSTRUMENTO
-════════════════════════════════ -->
-<section id="sobre">
-  <div class="container">
-    <h2 class="section-title">Sobre o trabalho</h2>
-
-    <div class="sobre-grid">
-      <div class="sobre-text">
-        <p>
-          Sou praticante certificada em Mesas Radiônicas com especialização em
-          Prosperidade. O trabalho que conduzo utiliza a Mesa Sintonize Prosperidade —
-          um instrumento radiônico com a Roda da Prosperidade, símbolos sagrados,
-          anjos cabalísticos e o relógio radiestésico — tudo ancorado na energia
-          dos Anjos da Consciência Divina.
-        </p>
-        <p>
-          O que entrego não é curso, não é terapia e não é coaching.
-          É uma leitura energética conduzida com seus dados, devolvida em
-          relatório personalizado.
-        </p>
-      </div>
-
-      <div>
-        <div class="radionic-visual" role="img" aria-label="Representação simbólica do campo radiônico">
-          <div class="radionic-inner"></div>
-          <div class="radionic-mid"></div>
-          <div class="radionic-core"></div>
-          <span class="radionic-label">Campo Radiônico</span>
-        </div>
-      </div>
-    </div>
-  </div>
-</section>
-
-
-<!-- ════════════════════════════════
-     8. DEPOIMENTOS
-════════════════════════════════ -->
-<section id="depoimentos">
-  <div class="container">
-    <h2 class="section-title">O que dizem sobre a experiência</h2>
-
-    <div class="depo-grid">
-
-      <div class="depo-card">
-        <p class="depo-quote">A leitura descreveu exatamente o padrão que eu vivia sem conseguir nomear.</p>
-        <p class="depo-author">— M.S.</p>
-      </div>
-
-      <div class="depo-card">
-        <p class="depo-quote">Nunca tinha pensado nessa relação entre o meu comportamento e o bloqueio que ela identificou. O relatório foi muito mais específico do que eu esperava.</p>
-        <p class="depo-author">— A.R.</p>
-      </div>
-
-      <div class="depo-card">
-        <p class="depo-quote">Recebi o relatório em menos de 48 horas. Cada parte era sobre mim — não parecia genérico.</p>
-        <p class="depo-author">— C.M.</p>
-      </div>
-
-    </div>
-
-    <p class="depo-note">Depoimentos referem-se à experiência da leitura. Resultados financeiros não são garantidos.</p>
-  </div>
-</section>
-
-
-<!-- ════════════════════════════════
-     9. OFERTA / CTA PRINCIPAL
-════════════════════════════════ -->
-<section id="oferta">
-  <div class="divider-gold" style="margin-bottom:0;"></div>
-  <div class="container" style="padding-top:96px;padding-bottom:96px;">
-    <div class="oferta-inner">
-
-      <h2 class="oferta-title">Leitura Individual na Mesa Radiônica de Prosperidade</h2>
-
-      <div class="oferta-preco">R$197</div>
-      <p class="oferta-preco-note">pagamento único · entrega digital</p>
-
-      <ul class="oferta-includes">
-        <li><span class="check-icon">✓</span> Leitura individual na Mesa Sintonize Prosperidade</li>
-        <li><span class="check-icon">✓</span> Relatório PDF personalizado com seus dados</li>
-        <li><span class="check-icon">✓</span> Bloqueios e campos de expansão identificados</li>
-        <li><span class="check-icon">✓</span> Orientações para os próximos 21–40 dias</li>
-        <li><span class="check-icon">✓</span> Entrega em até 48 horas úteis</li>
-      </ul>
-
-      <div class="order-bump">
-        <p>+ <strong>Áudio de Ativação para o seu padrão: R$47</strong><br>
-        <span style="font-size:14px;color:var(--cinza-nevoa);font-family:'Lato',sans-serif;font-weight:300;">Entregue junto com o relatório · opcional</span></p>
-      </div>
-
-      <a href="https://wa.me/SEU_NUMERO?text=Quero%20saber%20mais%20sobre%20a%20leitura%20radi%C3%B4nica%20de%20prosperidade" class="btn-cta-main" target="_blank" rel="noopener">
-        Quero minha leitura agora →
+  <!-- Nav -->
+  <nav class="nav">
+    <div class="container container--wide nav__inner">
+      <a href="/" class="nav__logo">Portal Caminho da Consciência</a>
+      <a href="#cta-final" class="btn-cta btn-cta--outline js-scroll-cta" style="font-size:0.875rem;padding:0.5rem 1.1rem;">
+        Quero entender meu caso
       </a>
-
-      <div class="trust-line">
-        <span class="lock">🔒</span>
-        Compra segura · Entrega em até 48h · Garantia de 7 dias
-      </div>
-
-      <div class="garantia-box">
-        <strong>Garantia de 7 dias</strong>
-        <p>
-          Se a leitura não trouxer nenhum reconhecimento do seu padrão,
-          reembolso sem perguntas.
-        </p>
-      </div>
-
     </div>
-  </div>
-</section>
+  </nav>
 
-
-<!-- ════════════════════════════════
-     10. FAQ
-════════════════════════════════ -->
-<section id="faq">
-  <div class="container">
-    <h2 class="section-title">Perguntas frequentes</h2>
-
-    <div class="faq-list">
-
-      <details>
-        <summary>Preciso estar online durante a leitura?</summary>
-        <p class="faq-answer">Não. A leitura é realizada de forma assíncrona com seus dados. Você não precisa estar presente.</p>
-      </details>
-
-      <details>
-        <summary>O relatório é automático ou gerado por IA?</summary>
-        <p class="faq-answer">Não. Existe um template estruturado para manter a qualidade, mas a leitura é conduzida individualmente e o conteúdo reflete o que foi observado especificamente para você.</p>
-      </details>
-
-      <details>
-        <summary>Isso vai me ajudar a ganhar dinheiro?</summary>
-        <p class="faq-answer">A leitura não promete resultado financeiro específico. É uma experiência energética e intuitiva de reflexão sobre prosperidade — não substitui planejamento financeiro, consultoria ou orientação profissional.</p>
-      </details>
-
-      <details>
-        <summary>Quanto tempo após o pagamento recebo o relatório?</summary>
-        <p class="faq-answer">Em até 48 horas úteis após o preenchimento do formulário com seus dados.</p>
-      </details>
-
-      <details>
-        <summary>Meus dados ficam seguros?</summary>
-        <p class="faq-answer">Sim. Nome, data de nascimento e intenção são utilizados exclusivamente para a condução da leitura, conforme a LGPD.</p>
-      </details>
-
+  <!-- Hero -->
+  <section class="hero">
+    <div class="container">
+      <p class="hero__eyebrow">Mapeamento Padrão Interrompido</p>
+      <h1 class="hero__headline">
+        Você muda.<br />
+        <span class="dourado">O padrão volta.</span>
+      </h1>
+      <p class="hero__subheadline">
+        Identifique o que continua se repetindo na sua vida — em dinheiro, trabalho, relações, rotina ou espiritualidade — e receba um mapa individual para começar a trabalhar isso de forma concreta.
+      </p>
+      <div class="hero__cta-group">
+        <a href="#cta-final" class="btn-cta js-cta js-scroll-cta" data-local="hero">
+          Quero entender meu caso →
+        </a>
+      </div>
+      <p class="hero__nota">Conversa pelo WhatsApp. Sem compromisso automático.</p>
     </div>
-  </div>
-</section>
+  </section>
 
+  <!-- Cenas -->
+  <section class="cenas">
+    <div class="container">
+      <div class="cenas__intro">
+        <h2>Você reconhece alguma dessas cenas?</h2>
+        <div class="divisor"></div>
+        <p>Situações diferentes. Sensações parecidas. Não é coincidência.</p>
+      </div>
+      <div class="cenas__grid">
+        <div class="cena-card"><p>É o terceiro emprego. Em algum momento todos eles começam a parecer iguais.</p></div>
+        <div class="cena-card"><p>Meu salário aumentou. Por que a sensação de aperto continua?</p></div>
+        <div class="cena-card"><p>A pessoa é outra. Por que estou começando a esconder as mesmas coisas?</p></div>
+        <div class="cena-card"><p>Começo bem a semana. Em algum ponto abandono tudo e recomeço na segunda.</p></div>
+        <div class="cena-card"><p>Eu sei que algo não está certo. Mas não consigo nomear o que é.</p></div>
+      </div>
+      <p class="cenas__gancho">O cenário muda. A reação continua parecida.</p>
+    </div>
+  </section>
 
-<!-- ════════════════════════════════
-     11. FOOTER
-════════════════════════════════ -->
-<footer id="footer">
-  <div class="container">
+  <!-- Virada -->
+  <section class="virada">
+    <div class="container">
+      <p class="virada__pergunta">
+        E se o problema que você enxerga não for o único lugar onde o padrão aparece?
+      </p>
+      <div class="divisor"></div>
+      <p class="virada__corpo">
+        A maioria das pessoas tenta resolver o resultado — o dinheiro, o relacionamento, o emprego, o hábito. Mas aquilo que faz a situação voltar ao mesmo lugar geralmente está em outro nível. Mais fundo. E costuma aparecer em mais de uma área ao mesmo tempo.
+      </p>
+      <p class="virada__corpo">
+        O Mapeamento Padrão Interrompido existe para ajudar você a ver esse nível. Não como diagnóstico. Como mapa.
+      </p>
+      <p class="virada__destaque">Perceber é o começo. O caminho vem depois.</p>
+    </div>
+  </section>
 
-    <p class="footer-logo">Portal Caminho da Consciência™</p>
+  <!-- Método -->
+  <section class="metodo">
+    <div class="container">
+      <div class="metodo__intro">
+        <h2>O Método <span class="dourado">Padrão Interrompido</span></h2>
+        <div class="divisor"></div>
+        <p>Uma jornada estruturada de percepção, intervenção e continuidade — não uma solução única e imediata.</p>
+      </div>
+      <div class="metodo__jornada">
+        <div class="etapa">
+          <span class="etapa__num">01</span>
+          <div>
+            <p class="etapa__nome">Perceber</p>
+            <p class="etapa__desc">Identificar o que se repete — os padrões que ainda não têm nome, mas já têm consequências.</p>
+          </div>
+        </div>
+        <div class="etapa">
+          <span class="etapa__num">02</span>
+          <div>
+            <p class="etapa__nome">Mapear</p>
+            <p class="etapa__desc">Entender como o padrão se organiza: onde aparece, com que frequência, quais áreas da vida ele atravessa.</p>
+          </div>
+        </div>
+        <div class="etapa">
+          <span class="etapa__num">03</span>
+          <div>
+            <p class="etapa__nome">Intervir</p>
+            <p class="etapa__desc">Escolher uma forma concreta de trabalhar aquilo que foi mapeado — compatível com o que essa pessoa precisa agora.</p>
+          </div>
+        </div>
+        <div class="etapa">
+          <span class="etapa__num">04</span>
+          <div>
+            <p class="etapa__nome">Praticar</p>
+            <p class="etapa__desc">Integrar novas formas de responder à própria vida — com disciplina, sem rigidez.</p>
+          </div>
+        </div>
+        <div class="etapa">
+          <span class="etapa__num">05</span>
+          <div>
+            <p class="etapa__nome">Reavaliar</p>
+            <p class="etapa__desc">Observar o que mudou, o que ainda não mudou, o que se deslocou. O trabalho não termina quando algo é identificado.</p>
+          </div>
+        </div>
+        <div class="etapa">
+          <span class="etapa__num">06</span>
+          <div>
+            <p class="etapa__nome">Aprofundar</p>
+            <p class="etapa__desc">Continuar caminhando — com mais consciência, integração e, para quem desejar, aprofundamento espiritual.</p>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
 
-    <nav class="footer-links" aria-label="Links do rodapé">
-      <a href="#">Política de Privacidade</a>
-      <a href="#">Termos de Uso</a>
-      <a href="https://wa.me/SEU_NUMERO" target="_blank" rel="noopener">Suporte</a>
-    </nav>
+  <!-- O Caminho -->
+  <section class="caminho">
+    <div class="container">
+      <div class="caminho__corpo">
+        <h2>O Mapeamento é uma entrada.<br /><span class="dourado">O Portal é o caminho.</span></h2>
+        <div class="divisor"></div>
+        <p>O Portal Caminho da Consciência existe para acompanhar pessoas em uma jornada progressiva de transformação. O Mapeamento é o primeiro passo: concreto, individual, sem jargão.</p>
+        <p>Depois dele, há mais — práticas, protocolos, ferramentas e espaços de continuidade — para quem quiser ir mais fundo.</p>
+        <blockquote class="caminho__frase">
+          Perceber é o começo. Transformar é parte do caminho. Continuar consciente é o que dá profundidade à jornada.
+        </blockquote>
+      </div>
+    </div>
+  </section>
 
-    <div class="divider-gold footer-divider"></div>
+  <!-- Entregáveis -->
+  <section class="entregaveis" id="oferta">
+    <div class="container">
+      <div class="entregaveis__intro">
+        <h2>O que você recebe no <span class="dourado">Mapeamento</span></h2>
+        <div class="divisor"></div>
+        <p>Individual. Assíncrono. Entregue em um documento que você pode consultar e usar como referência.</p>
+      </div>
+      <div class="preco">
+        <p class="preco__valor">R$ 197</p>
+        <p class="preco__nota">Investimento único. Sem assinatura.</p>
+      </div>
+      <ul class="lista-entregaveis">
+        <li class="entregavel">
+          <span class="entregavel__icon">◆</span>
+          <div>
+            <strong>Mapeamento individual do padrão</strong>
+            <span>Identificação do padrão principal e de como ele aparece nas diferentes áreas da sua vida — com linguagem clara, sem diagnóstico.</span>
+          </div>
+        </li>
+        <li class="entregavel">
+          <span class="entregavel__icon">◆</span>
+          <div>
+            <strong>Documento de referência personalizado</strong>
+            <span>Um registro escrito do que foi mapeado — para revisitar, refletir e acompanhar o que muda ao longo do tempo.</span>
+          </div>
+        </li>
+        <li class="entregavel">
+          <span class="entregavel__icon">◆</span>
+          <div>
+            <strong>Direção concreta para o próximo passo</strong>
+            <span>Indicação de uma intervenção ou prática compatível com o que foi identificado — não um protocolo genérico.</span>
+          </div>
+        </li>
+        <li class="entregavel">
+          <span class="entregavel__icon">◆</span>
+          <div>
+            <strong>Conversa inicial via WhatsApp</strong>
+            <span>Antes do mapeamento: uma conversa para entender seu caso e confirmar se faz sentido seguir.</span>
+          </div>
+        </li>
+      </ul>
+      <div class="entregaveis__cta">
+        <a href="#cta-final" class="btn-cta js-cta js-scroll-cta" data-local="entregaveis">
+          Quero entender meu caso →
+        </a>
+      </div>
+    </div>
+  </section>
 
-    <p class="footer-disclaimer">
-      Este serviço tem natureza energética e intuitiva, conduzido por praticante certificada em Mesas Radiônicas.
-      Não constitui terapia, tratamento médico, psicológico ou aconselhamento financeiro.
-      Não promete resultado financeiro específico. Resultados e experiências individuais variam.
-    </p>
+  <!-- Limites -->
+  <section class="limites">
+    <div class="container">
+      <div class="limites__intro">
+        <h2>O que este trabalho <span class="dourado">não é</span></h2>
+        <div class="divisor"></div>
+        <p>Clareza sobre limites faz parte da integridade do trabalho.</p>
+      </div>
+      <ul class="lista-limites">
+        <li class="limite"><span class="limite__dash">—</span><p>Não é psicoterapia, diagnóstico clínico ou tratamento de saúde mental.</p></li>
+        <li class="limite"><span class="limite__dash">—</span><p>Não é uma promessa de resultado garantido ou transformação imediata.</p></li>
+        <li class="limite"><span class="limite__dash">—</span><p>Não substitui acompanhamento médico, psicológico ou jurídico quando necessário.</p></li>
+        <li class="limite"><span class="limite__dash">—</span><p>Não usa explicação energética ou espiritual como causa exclusiva de nenhum problema concreto.</p></li>
+        <li class="limite"><span class="limite__dash">—</span><p>Não exige adesão a nenhuma religião, crença ou cosmologia específica.</p></li>
+      </ul>
+    </div>
+  </section>
 
-    <p class="footer-copy">© 2026 Portal Caminho da Consciência™</p>
+  <!-- Quem conduz -->
+  <section class="quem-conduz">
+    <div class="container">
+      <div class="quem-conduz__inner">
+        <div class="quem-conduz__avatar" aria-hidden="true">M</div>
+        <div class="quem-conduz__bio">
+          <h2 class="quem-conduz__nome">Marcos</h2>
+          <p class="quem-conduz__titulo">Fundador · Portal Caminho da Consciência · Criador do Método Padrão Interrompido</p>
+          <p>Comecei a perceber isso em mim: às vezes o cenário muda, a tentativa muda — mas algum tipo de padrão encontra outra forma de voltar. Emprego diferente, a mesma sensação de aprisionamento. Nova rotina, o mesmo abandono depois de algumas semanas.</p>
+          <p>Em 2023, fiz mudanças relevantes na minha vida — hábitos, alimentação, organização. Quando a estrutura que sustentava essas mudanças foi alterada, antigas dificuldades voltaram. Isso me fez investigar o que está abaixo da superfície das repetições.</p>
+          <p>Não sou terapeuta nem cientista. Não cheguei ao fim de nenhuma jornada. Sou alguém que estuda padrões recorrentes, testa práticas, organiza o que aprende — e usa isso para ajudar outras pessoas a ver o que está acontecendo com elas, de forma estruturada e responsável.</p>
+        </div>
+      </div>
+    </div>
+  </section>
 
-  </div>
-</footer>
+  <!-- CTA Final -->
+  <section class="cta-final" id="cta-final">
+    <div class="container">
+      <h2 class="cta-final__headline">
+        Pronto para entender<br /><span class="dourado">o que continua se repetindo?</span>
+      </h2>
+      <div class="divisor"></div>
+      <p class="cta-final__sub">
+        A primeira conversa é pelo WhatsApp. Sem compromisso automático. Se fizer sentido para o seu caso, seguimos.
+      </p>
+      <a href="#" class="btn-cta js-cta js-whatsapp" data-local="cta-final" id="btn-wa-final">
+        Conversar pelo WhatsApp →
+      </a>
+      <p class="cta-final__nota">Mapeamento Padrão Interrompido · R$ 197 · Individual · Assíncrono</p>
+    </div>
+  </section>
+
+  <!-- Footer -->
+  <footer class="footer">
+    <div class="container">
+      <p class="footer__logo">Portal Caminho da Consciência</p>
+      <p class="footer__texto">
+        Desenvolvimento pessoal e espiritual aplicado à vida real.<br />
+        Método Padrão Interrompido · portalcaminhodaconsciencia.com.br
+      </p>
+      <div class="footer__links">
+        <a href="mailto:contato@portalcaminhodaconsciencia.com.br">Contato</a>
+        <a href="#">Política de Privacidade</a>
+      </div>
+      <p class="footer__texto" style="margin-top:1.5rem;font-size:0.72rem;opacity:0.45;">
+        © <span id="ano"></span> Portal Caminho da Consciência. Todos os direitos reservados.
+      </p>
+    </div>
+  </footer>
+
+  <script>
+    (function () {
+      'use strict';
+
+      // Ano no footer
+      var anoEl = document.getElementById('ano');
+      if (anoEl) anoEl.textContent = new Date().getFullYear();
+
+      // UTM capture
+      function getUtms() {
+        var p = new URLSearchParams(window.location.search);
+        var keys = ['utm_source','utm_medium','utm_campaign','utm_content','utm_term'];
+        var u = {};
+        keys.forEach(function(k){ if(p.get(k)) u[k] = p.get(k); });
+        return u;
+      }
+
+      var utms = getUtms();
+
+      // WhatsApp URL builder
+      // BLOCKER: substituir 'SEU_NUMERO' pelo número real (formato 55XXYYYYYYYYYY) antes do deploy
+      function waUrl() {
+        var num = 'SEU_NUMERO';
+        var msg = 'Olá, vi o Mapeamento Padrão Interrompido no Portal Caminho da Consciência e gostaria de entender se ele faz sentido para o meu caso.';
+        var url = 'https://wa.me/' + num + '?text=' + encodeURIComponent(msg);
+        if (Object.keys(utms).length) {
+          url += '&' + new URLSearchParams(utms).toString();
+        }
+        return url;
+      }
+
+      // Ajustar botão WhatsApp do CTA final
+      var btnFinal = document.getElementById('btn-wa-final');
+      if (btnFinal) {
+        btnFinal.href = waUrl();
+        btnFinal.target = '_blank';
+        btnFinal.rel = 'noopener noreferrer';
+      }
+
+      // Meta Pixel: ViewContent no page load
+      if (typeof fbq === 'function') {
+        fbq('track', 'ViewContent', Object.assign({
+          content_name: 'Mapeamento Padrão Interrompido',
+          content_category: 'Desenvolvimento Pessoal',
+          value: 197,
+          currency: 'BRL'
+        }, utms));
+      }
+
+      // Delegação de cliques
+      document.addEventListener('click', function(e) {
+        var el = e.target.closest('a, button');
+        if (!el) return;
+
+        // Scroll suave para ancora interna
+        if (el.classList.contains('js-scroll-cta')) {
+          var href = el.getAttribute('href');
+          if (href && href.startsWith('#')) {
+            var dest = document.querySelector(href);
+            if (dest) {
+              e.preventDefault();
+              dest.scrollIntoView({ behavior: 'smooth', block: 'start' });
+            }
+          }
+        }
+
+        // CTA genérico → offer_cta_click
+        if (el.classList.contains('js-cta')) {
+          var local = el.getAttribute('data-local') || 'unknown';
+          if (typeof fbq === 'function') {
+            fbq('trackCustom', 'offer_cta_click', { local: local });
+          }
+        }
+
+        // WhatsApp direto → whatsapp_click
+        if (el.classList.contains('js-whatsapp')) {
+          var wLocal = el.getAttribute('data-local') || 'unknown';
+          if (typeof fbq === 'function') {
+            fbq('trackCustom', 'whatsapp_click', { local: wLocal });
+          }
+        }
+      });
+    })();
+  </script>
 
 </body>
 </html>

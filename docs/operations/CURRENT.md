@@ -6,70 +6,138 @@
 
 ## GATE ATUAL
 
-### GATE R1 — Rename Foundation — ✅ APROVADO (2026-08-31)
+### GATE R2 — Oferta Inicial e Página de Conversão — ABERTO (2026-08-31)
 
-**Objetivo:** Migrar identidade de Portal Anjos da Prosperidade → Portal Caminho da Consciência em todas as camadas: GitHub, pasta local, Netlify, código, docs e assets.
+**Objetivo:** Transformar o site atual em uma página coerente com a nova marca e preparada para validar comercialmente a primeira oferta do ecossistema.
 
-**Branch:** `refactor/rename-portal-caminho-da-consciencia`
+**Pergunta do gate:** Conseguimos apresentar com clareza o Portal, o Método Padrão Interrompido e uma primeira oferta concreta capaz de gerar interesse, conversa e compra?
+
+**Branch:** `feat/gate-r2-oferta-pagina-conversao`
 **Base:** `main`
+
+**Etapa atual:** R2B — Implementação em andamento (branch criada, index.html reescrito)
 
 ---
 
-## ESTADO DO REPOSITÓRIO
+## DECISÕES FECHADAS (Gate R2)
+
+| Decisão | Valor |
+|---|---|
+| Oferta principal | Mapeamento Padrão Interrompido — Individual |
+| Formato | Assíncrono |
+| Preço hipótese inicial | R$ 197 |
+| CTA principal | WhatsApp (validação de linguagem antes de checkout direto) |
+| Domínio de produção | portalcaminhodaconsciencia.com.br |
+| Mensagem CTA WhatsApp | "Olá, vi o Mapeamento Padrão Interrompido no Portal Caminho da Consciência e gostaria de entender se ele faz sentido para o meu caso." |
+
+---
+
+## ESCOPO DO GATE R2
+
+**Entra:**
+- Reescrita completa da página atual
+- Substituição da antiga identidade pública
+- Aplicação da nova marca (paleta, tipografia, logo)
+- Estrutura da oferta: Mapeamento Padrão Interrompido
+- CTA → WhatsApp com UTMs preservadas
+- Tracking: `page_view`, `offer_cta_click`, `whatsapp_click`
+- SEO: `<title>`, meta description, canonical, Open Graph, JSON-LD, sitemap, robots
+- Versão mobile validada
+- Deploy Preview aprovado antes de produção
+
+**Não entra:**
+- Radar completo, área logada, comunidade, app
+- Plataforma complexa, automações grandes, dezenas de protocolos
+- Reformulação técnica desnecessária
+- Checkout direto (Gate R3 ou posterior)
+
+---
+
+## ESTRUTURA DA PÁGINA (Gate R2)
+
+| Bloco | Conteúdo |
+|---|---|
+| Hero | Reconhecimento do padrão + headline + subheadline + CTA |
+| Cenas | 5 exemplos de reconhecimento sem jargão |
+| Virada | Introdução do método via pergunta |
+| Método | Jornada: Perceber → Mapear → Intervir → Praticar → Reavaliar → Aprofundar |
+| O Caminho | Posicionamento do ecossistema maior |
+| Entregáveis | Lista objetiva do que a pessoa recebe |
+| Limites | O que não é (compliance e confiança) |
+| Quem conduz | Marcos — apresentação humana e honesta |
+| CTA final | Repetição do CTA principal |
+
+---
+
+## ESTADO DO GATE R2
 
 | Item | Estado |
 |---|---|
-| GitHub renomeado para `portal-caminho-da-consciencia` | ✅ APROVADO |
-| Pasta local renomeada | ✅ APROVADO |
-| Remote local atualizado | ✅ APROVADO |
-| Branch de migração criada | ✅ APROVADO |
-| `index.html` — título, OG, navbar, footer, copyright | ✅ APROVADO |
-| `README.md` — conteúdo canônico | ✅ APROVADO |
-| Netlify vinculado ao repo correto | ✅ APROVADO |
-| Deploy de vinculação disparado no Netlify | ✅ APROVADO |
-| Documentos canônicos 01–06 adicionados em `/docs` | ✅ APROVADO |
-| Assets de marca adicionados em `/assets/brand/` | ✅ APROVADO |
-| Reorganização `/docs` → `/docs/canonical/` + `/docs/operations/` | ✅ APROVADO |
-| `CLAUDE.md` criado na raiz | ✅ APROVADO |
-| **Merge da branch → `main`** | ✅ APROVADO |
-| **Troca de domínio no Netlify** | ✅ APROVADO — `portalcaminhodaconsciencia.com.br` no ar |
+| R2A — Auditoria da página atual | ✅ |
+| R2A — Aprovação do plano de mudança | ✅ |
+| Branch `feat/gate-r2-*` criada | ✅ |
+| R2B — Nova copy implementada | ✅ |
+| R2B — Identidade visual aplicada | ✅ |
+| R2B — CTA + WhatsApp funcionando | BLOCKED — número WhatsApp pendente |
+| R2B — Tracking implementado | ✅ (Pixel, ViewContent, offer_cta_click, whatsapp_click, UTM) |
+| R2B — SEO completo | ✅ (title, description, canonical, OG, JSON-LD) |
+| R2B — Mobile validado | PENDENTE — validação local |
+| R2B — Deploy Preview aprovado | PENDENTE — aguardando número WA + autorização |
+| Merge em `main` | PENDENTE |
 
 ---
 
-## PENDÊNCIAS DO GATE R1
+## CRITÉRIOS DE APROVAÇÃO DO GATE R2
 
-1. ~~Push da branch para GitHub~~ ✅
-2. ~~Validar deploy preview no Netlify antes do merge~~ ✅
-3. ~~Merge `refactor/rename-portal-caminho-da-consciencia` → `main`~~ ✅ (2026-08-31)
-4. **Troca de domínio** — Netlify > Domain management — novo domínio: `portalcaminhodaconsciencia.com.br` (confirmado 2026-08-31)
+- [ ] Nova marca aplicada integralmente
+- [ ] Nenhuma referência pública a "Portal Anjos da Prosperidade"
+- [ ] Promessa coerente com Doc 01
+- [ ] Mapeamento compreensível para leigo
+- [ ] CTA funcionando
+- [ ] WhatsApp funcionando com mensagem pré-preenchida
+- [ ] UTMs preservadas no clique
+- [ ] Tracking: `page_view`, `offer_cta_click`, `whatsapp_click` disparando
+- [ ] Metadata correta (title, description, OG, canonical)
+- [ ] Mobile validado (sem overflow relevante)
+- [ ] Desktop validado
+- [ ] Zero erro crítico de console
+- [ ] Build aprovado no Netlify (Deploy Preview)
+- [ ] `CURRENT.md` atualizado
+- [ ] Merge controlado em `main`
 
 ---
 
 ## BLOCKERS
 
-- Nenhum blocker técnico ativo
-- Domínio definitivo ainda não decidido (não bloqueia o merge, apenas a Camada C do SEO)
+- **BLOCKER CRÍTICO:** número WhatsApp não fornecido. Placeholder `SEU_NUMERO` em `index.html` (linha ~290). Substituir antes de qualquer deploy.
+- Deploy Preview bloqueado até: (1) número WA substituído; (2) validação mobile local; (3) autorização explícita de Marcos.
 
 ---
 
-## DECISÕES FECHADAS (Gate R1)
+## GATE R1 — Rename Foundation — ✅ APROVADO (2026-08-31)
 
-- Nome da marca: **Portal Caminho da Consciência** (fechado no Doc 01 V3.0)
-- Repositório GitHub: `marvin-ds/portal-caminho-da-consciencia`
-- Projeto Netlify: `portal-caminho-da-consciencia`
+| Item | Estado |
+|---|---|
+| GitHub renomeado para `portal-caminho-da-consciencia` | ✅ |
+| Pasta local renomeada | ✅ |
+| Remote local atualizado | ✅ |
+| Branch de migração criada e mergeada | ✅ |
+| `index.html` — título, OG, navbar, footer, copyright | ✅ |
+| `README.md` — conteúdo canônico | ✅ |
+| Netlify vinculado ao repo correto | ✅ |
+| Docs canônicos 01–05 em `/docs/canonical/` | ✅ |
+| Assets de marca em `/assets/brand/` | ✅ |
+| `CLAUDE.md` criado na raiz | ✅ |
+| Merge PR #1 em `main` | ✅ |
+| Domínio `portalcaminhodaconsciencia.com.br` ativo | ✅ |
+
+**Decisões fechadas no R1:**
+- Nome: Portal Caminho da Consciência
+- Repo: `marvin-ds/portal-caminho-da-consciencia`
+- Netlify: `portal-caminho-da-consciencia`
 - Branch de produção: `main`
-- Estrutura de docs: `/docs/canonical/` (01–05) + `/docs/operations/CURRENT.md`
-- Arquivo de governança para IA: `CLAUDE.md` na raiz
-
----
-
-## PRÓXIMOS 7–14 DIAS (pós Gate R1)
-
-### GATE R2 — Oferta Inicial e Página de Conversão (hipótese)
-- Definir entregáveis, prazo e preço do Mapeamento Padrão Interrompido
-- Criar/atualizar página de vendas no `index.html`
-- Implementar tracking de eventos (Meta Pixel + Analytics)
-- Abrir vendas
+- Estrutura docs: `/docs/canonical/` + `/docs/operations/CURRENT.md`
+- Governança IA: `CLAUDE.md` na raiz
 
 ---
 
@@ -77,5 +145,5 @@
 
 - Repositório: https://github.com/marvin-ds/portal-caminho-da-consciencia
 - Netlify project: https://app.netlify.com/projects/portal-caminho-da-consciencia
-- Deploy atual (produção): https://portalanjosdaprosperidade.com.br (domínio antigo — em migração)
-- Novo domínio: https://portalcaminhodaconsciencia.com.br ✅ (ativo, DNS propagado 2026-08-31)
+- Produção: https://portalcaminhodaconsciencia.com.br (ativo, DNS propagado 2026-08-31)
+- Domínio antigo: https://portalanjosdaprosperidade.com.br (em desativação)
