@@ -6,70 +6,86 @@
 
 ## GATE ATUAL
 
-### GATE R2 — Oferta Inicial e Página de Conversão — ABERTO (2026-08-31)
+### GATE R3 — Validação Comercial do Mapeamento Padrão Interrompido — ABERTO (2026-08-31)
 
-**Objetivo:** Transformar o site atual em uma página coerente com a nova marca e preparada para validar comercialmente a primeira oferta do ecossistema.
+**Objetivo:** Gerar as primeiras conversas reais com potenciais clientes, validar se a linguagem da página gera interesse qualificado, e fechar a primeira compra do Mapeamento Padrão Interrompido.
 
-**Pergunta do gate:** Conseguimos apresentar com clareza o Portal, o Método Padrão Interrompido e uma primeira oferta concreta capaz de gerar interesse, conversa e compra?
+**Pergunta do gate:** A página de conversão produz conversas via WhatsApp com pessoas que se encaixam no perfil e estão dispostas a investir R$ 197?
 
-**Branch:** `feat/gate-r2-oferta-pagina-conversao`
-**Base:** `main`
+**Branch:** `main`
 
-**Etapa atual:** R2B — Implementação em andamento (branch criada, index.html reescrito)
+**Etapa atual:** R3 — Aberto. Página em produção. Aguardando primeiras conversas.
 
 ---
 
-## DECISÕES FECHADAS (Gate R2)
+## DECISÕES FECHADAS (Gate R3)
 
 | Decisão | Valor |
 |---|---|
-| Oferta principal | Mapeamento Padrão Interrompido — Individual |
-| Formato | Assíncrono |
-| Preço hipótese inicial | R$ 197 |
-| CTA principal | WhatsApp (validação de linguagem antes de checkout direto) |
-| Domínio de produção | portalcaminhodaconsciencia.com.br |
-| Mensagem CTA WhatsApp | "Olá, vi o Mapeamento Padrão Interrompido no Portal Caminho da Consciência e gostaria de entender se ele faz sentido para o meu caso." |
+| Canal de validação | WhatsApp direto (sem checkout automatizado) |
+| Preço de teste | R$ 197 |
+| Critério mínimo de sucesso | Pelo menos 1 conversa qualificada + 1 compra confirmada |
+| Próximo passo após aprovação | Gate R4 — definir a jornada pós-compra |
 
 ---
 
-## ESCOPO DO GATE R2
+## ESTADO DO GATE R3
 
-**Entra:**
-- Reescrita completa da página atual
-- Substituição da antiga identidade pública
-- Aplicação da nova marca (paleta, tipografia, logo)
-- Estrutura da oferta: Mapeamento Padrão Interrompido
-- CTA → WhatsApp com UTMs preservadas
-- Tracking: `page_view`, `offer_cta_click`, `whatsapp_click`
-- SEO: `<title>`, meta description, canonical, Open Graph, JSON-LD, sitemap, robots
-- Versão mobile validada
-- Deploy Preview aprovado antes de produção
-
-**Não entra:**
-- Radar completo, área logada, comunidade, app
-- Plataforma complexa, automações grandes, dezenas de protocolos
-- Reformulação técnica desnecessária
-- Checkout direto (Gate R3 ou posterior)
-
----
-
-## ESTRUTURA DA PÁGINA (Gate R2)
-
-| Bloco | Conteúdo |
+| Item | Estado |
 |---|---|
-| Hero | Reconhecimento do padrão + headline + subheadline + CTA |
-| Cenas | 5 exemplos de reconhecimento sem jargão |
-| Virada | Introdução do método via pergunta |
-| Método | Jornada: Perceber → Mapear → Intervir → Praticar → Reavaliar → Aprofundar |
-| O Caminho | Posicionamento do ecossistema maior |
-| Entregáveis | Lista objetiva do que a pessoa recebe |
-| Limites | O que não é (compliance e confiança) |
-| Quem conduz | Marcos — apresentação humana e honesta |
-| CTA final | Repetição do CTA principal |
+| Página em produção | ✅ — https://portalcaminhodaconsciencia.com.br |
+| Primeiro tráfego orgânico/direto | PENDENTE |
+| Primeira conversa via WhatsApp | PENDENTE |
+| Primeira compra confirmada | PENDENTE |
+| Avaliação de copy e ajustes | PENDENTE |
 
 ---
 
-## ESTADO DO GATE R2
+## BLOCKERS
+
+Nenhum blocker ativo.
+
+---
+
+## GATE R2 — Oferta Inicial e Página de Conversão — ✅ APROVADO (2026-08-31)
+
+**Aprovação:** Marcos — "R2B — PREVIEW APPROVED ✅" → R2C validado em produção.
+
+### Checklist de produção (R2C) — todos aprovados
+
+| Item | Resultado |
+|---|---|
+| Nova página servida em produção | ✅ |
+| HTTPS válido | ✅ |
+| Título: "Mapeamento Padrão Interrompido \| Portal Caminho da Consciência" | ✅ |
+| Canonical: https://portalcaminhodaconsciencia.com.br | ✅ |
+| OG title e OG URL corretos | ✅ |
+| JSON-LD presente | ✅ |
+| Meta Pixel 1566666134485463 ativo | ✅ |
+| Meta Pixel 4659045990859789 ativo | ✅ |
+| ViewContent disparando no page load | ✅ |
+| offer_cta_click implementado | ✅ |
+| whatsapp_click implementado | ✅ |
+| Número WhatsApp 55013996083913 correto | ✅ |
+| Zero referência a SEU_NUMERO | ✅ |
+| Zero referência a "Anjos da Prosperidade" | ✅ |
+| 9 seções presentes (hero→cta-final) | ✅ |
+| Footer presente | ✅ |
+| Zero erros críticos de console | ✅ |
+| Overflow horizontal | ✅ (falso positivo no sandbox — mobile validado em R2B) |
+| main local/remoto sincronizados | ✅ (HEAD: 8a9aac6) |
+
+### Deploy de produção
+
+| Item | Valor |
+|---|---|
+| Deploy ID | 6a95bbb85b045b000863b705 |
+| Estado | ready |
+| Branch | main |
+| HEAD no deploy | 8a9aac6 |
+| Domínio | https://portalcaminhodaconsciencia.com.br |
+
+### Estado final do Gate R2
 
 | Item | Estado |
 |---|---|
@@ -79,38 +95,13 @@
 | R2B — Nova copy implementada | ✅ |
 | R2B — Identidade visual aplicada | ✅ |
 | R2B — CTA + WhatsApp funcionando | ✅ |
-| R2B — Tracking implementado | ✅ (Pixel, ViewContent, offer_cta_click, whatsapp_click, UTM) |
-| R2B — SEO completo | ✅ (title, description, canonical, OG, JSON-LD) |
-| R2B — Mobile validado | ✅ (360/375/430/768px — sem overflow) |
-| R2B — Deploy Preview gerado | ✅ — https://6a9594058a0be08aa0146e88--portal-caminho-da-consciencia.netlify.app |
-| R2B — Deploy Preview aprovado | PENDENTE — aguardando decisão de Marcos |
-| Merge em `main` | PENDENTE |
-
----
-
-## CRITÉRIOS DE APROVAÇÃO DO GATE R2
-
-- [ ] Nova marca aplicada integralmente
-- [ ] Nenhuma referência pública a "Portal Anjos da Prosperidade"
-- [ ] Promessa coerente com Doc 01
-- [ ] Mapeamento compreensível para leigo
-- [ ] CTA funcionando
-- [ ] WhatsApp funcionando com mensagem pré-preenchida
-- [ ] UTMs preservadas no clique
-- [ ] Tracking: `page_view`, `offer_cta_click`, `whatsapp_click` disparando
-- [ ] Metadata correta (title, description, OG, canonical)
-- [ ] Mobile validado (sem overflow relevante)
-- [ ] Desktop validado
-- [ ] Zero erro crítico de console
-- [ ] Build aprovado no Netlify (Deploy Preview)
-- [ ] `CURRENT.md` atualizado
-- [ ] Merge controlado em `main`
-
----
-
-## BLOCKERS
-
-- Nenhum blocker ativo. Aguardando autorização explícita de Marcos para Deploy Preview.
+| R2B — Tracking implementado | ✅ |
+| R2B — SEO completo | ✅ |
+| R2B — Mobile validado | ✅ |
+| R2B — Deploy Preview gerado e aprovado | ✅ |
+| Merge em `main` (--ff-only) | ✅ |
+| R2C — Deploy de produção validado | ✅ |
+| CURRENT.md atualizado | ✅ |
 
 ---
 
@@ -131,14 +122,6 @@
 | Merge PR #1 em `main` | ✅ |
 | Domínio `portalcaminhodaconsciencia.com.br` ativo | ✅ |
 
-**Decisões fechadas no R1:**
-- Nome: Portal Caminho da Consciência
-- Repo: `marvin-ds/portal-caminho-da-consciencia`
-- Netlify: `portal-caminho-da-consciencia`
-- Branch de produção: `main`
-- Estrutura docs: `/docs/canonical/` + `/docs/operations/CURRENT.md`
-- Governança IA: `CLAUDE.md` na raiz
-
 ---
 
 ## LINKS E REFERÊNCIAS
@@ -147,3 +130,4 @@
 - Netlify project: https://app.netlify.com/projects/portal-caminho-da-consciencia
 - Produção: https://portalcaminhodaconsciencia.com.br (ativo, DNS propagado 2026-08-31)
 - Domínio antigo: https://portalanjosdaprosperidade.com.br (em desativação)
+- Deploy Preview R2B: https://6a9594058a0be08aa0146e88--portal-caminho-da-consciencia.netlify.app
