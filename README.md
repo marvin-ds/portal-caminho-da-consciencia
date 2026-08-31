@@ -32,7 +32,7 @@ A arquitetura do projeto poderá incluir, progressivamente:
 
 - **Portal Caminho da Consciência** — marca e ecossistema
 - **Padrão Interrompido** — método proprietário
-- **“Voltar ao mesmo lugar”** — território principal de reconhecimento
+- **”Voltar ao mesmo lugar”** — território principal de reconhecimento
 - **Jornada de transformação:** perceber → mapear → intervir → praticar → reavaliar → aprofundar
 
 ## Hospedagem e deploy
