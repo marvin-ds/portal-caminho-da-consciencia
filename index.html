@@ -49,6 +49,26 @@
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
   <link href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:ital,wght@0,300;0,400;0,500;0,600;0,700;1,300;1,400;1,500&family=Lora:ital,wght@0,400;0,500;0,600;1,400;1,500&display=swap" rel="stylesheet" />
 
+  <!-- Consent Mode v2 — defaults negados antes de qualquer tag de anúncio -->
+  <script>
+    window.dataLayer = window.dataLayer || [];
+    function gtag(){dataLayer.push(arguments);}
+    gtag('consent','default',{
+      analytics_storage:     'denied',
+      ad_storage:            'denied',
+      ad_user_data:          'denied',
+      ad_personalization:    'denied',
+      wait_for_update:       500
+    });
+  </script>
+
+  <!-- Google Tag Manager -->
+  <script>(function(w,d,s,l,i){w[l]=w[l]||[];w[l].push({'gtm.start':
+  new Date().getTime(),event:'gtm.js'});var f=d.getElementsByTagName(s)[0],
+  j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
+  'https://www.googletagmanager.com/gtm.js?id='+i+dl;f.parentNode.insertBefore(j,f);
+  })(window,document,'script','dataLayer','GTM-WC2C397G');</script>
+
   <!-- Meta Pixel -->
   <script>
     !function(f,b,e,v,n,t,s)
@@ -435,6 +455,9 @@
   </style>
 </head>
 <body>
+  <!-- Google Tag Manager (noscript) -->
+  <noscript><iframe src="https://www.googletagmanager.com/ns.html?id=GTM-WC2C397G"
+  height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
 
   <!-- Nav -->
   <nav class="nav">
@@ -699,10 +722,11 @@
       var anoEl = document.getElementById('ano');
       if (anoEl) anoEl.textContent = new Date().getFullYear();
 
-      // UTM capture
+      // UTM + Google Ads identifiers capture
       function getUtms() {
         var p = new URLSearchParams(window.location.search);
-        var keys = ['utm_source','utm_medium','utm_campaign','utm_content','utm_term'];
+        var keys = ['utm_source','utm_medium','utm_campaign','utm_content','utm_term',
+                    'gclid','gbraid','wbraid'];
         var u = {};
         keys.forEach(function(k){ if(p.get(k)) u[k] = p.get(k); });
         return u;
@@ -729,15 +753,83 @@
         btnFinal.rel = 'noopener noreferrer';
       }
 
+      // Offer constants
+      var OFFER_ID   = 'mapping_pattern_interrupted_v1';
+      var OFFER_NAME = 'Mapeamento Padrão Interrompido';
+      var OFFER_VAL  = 197;
+      var OFFER_CUR  = 'BRL';
+
       // Meta Pixel: ViewContent no page load
       if (typeof fbq === 'function') {
         fbq('track', 'ViewContent', Object.assign({
-          content_name: 'Mapeamento Padrão Interrompido',
+          content_name: OFFER_NAME,
           content_category: 'Desenvolvimento Pessoal',
-          value: 197,
-          currency: 'BRL'
+          value: OFFER_VAL,
+          currency: OFFER_CUR
         }, utms));
       }
+
+      // GA4/GTM: page_view já é automático via GA4 config tag no GTM.
+      // Disparar evento de contexto para variáveis de sessão.
+      dataLayer.push({
+        event: 'session_context',
+        offer_id:   OFFER_ID,
+        offer_name: OFFER_NAME,
+        offer_value: OFFER_VAL,
+        offer_currency: OFFER_CUR,
+        gclid:   utms.gclid   || null,
+        gbraid:  utms.gbraid  || null,
+        wbraid:  utms.wbraid  || null,
+        utm_source:   utms.utm_source   || null,
+        utm_medium:   utms.utm_medium   || null,
+        utm_campaign: utms.utm_campaign || null,
+        utm_content:  utms.utm_content  || null,
+        utm_term:     utms.utm_term     || null
+      });
+
+      // Section view — IntersectionObserver
+      var sectionMap = {
+        'hero':        'hero',
+        'cenas':       'cenas',
+        'virada':      'virada',
+        'metodo':      'metodo',
+        'caminho':     'caminho',
+        'oferta':      'entregaveis',
+        'limites':     'limites',
+        'quem-conduz': 'quem_conduz',
+        'cta-final':   'cta_final'
+      };
+      if ('IntersectionObserver' in window) {
+        var sectionObserver = new IntersectionObserver(function(entries) {
+          entries.forEach(function(entry) {
+            if (entry.isIntersecting) {
+              var el = entry.target;
+              var key = el.id || el.className.split(' ')[0];
+              var name = sectionMap[key] || key;
+              dataLayer.push({ event: 'section_view', section_name: name });
+              sectionObserver.unobserve(el);
+            }
+          });
+        }, { threshold: 0.3 });
+        document.querySelectorAll('section').forEach(function(s) {
+          sectionObserver.observe(s);
+        });
+      }
+
+      // Scroll depth — 25 / 50 / 75 / 90
+      var scrollFired = {};
+      var thresholds  = [25, 50, 75, 90];
+      window.addEventListener('scroll', function() {
+        var pct = Math.round(
+          (window.scrollY / (document.documentElement.scrollHeight - window.innerHeight)) * 100
+        );
+        thresholds.forEach(function(t) {
+          if (!scrollFired[t] && pct >= t) {
+            scrollFired[t] = true;
+            dataLayer.push({ event: 'scroll_depth', scroll_depth_threshold: t });
+          }
+        });
+      }, { passive: true });
 
       // Delegação de cliques
       document.addEventListener('click', function(e) {
@@ -762,6 +854,14 @@
           if (typeof fbq === 'function') {
             fbq('trackCustom', 'offer_cta_click', { local: local });
           }
+          dataLayer.push({
+            event:      'offer_cta_click',
+            cta_local:  local,
+            offer_id:   OFFER_ID,
+            offer_name: OFFER_NAME,
+            offer_value: OFFER_VAL,
+            offer_currency: OFFER_CUR
+          });
         }
 
         // WhatsApp direto → whatsapp_click
@@ -770,6 +870,14 @@
           if (typeof fbq === 'function') {
             fbq('trackCustom', 'whatsapp_click', { local: wLocal });
           }
+          dataLayer.push({
+            event:      'whatsapp_click',
+            cta_local:  wLocal,
+            offer_id:   OFFER_ID,
+            offer_name: OFFER_NAME,
+            offer_value: OFFER_VAL,
+            offer_currency: OFFER_CUR
+          });
         }
       });
     })();
