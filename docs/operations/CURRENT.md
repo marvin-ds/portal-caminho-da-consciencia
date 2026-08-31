@@ -32,7 +32,7 @@
 | Reorganização `/docs` → `/docs/canonical/` + `/docs/operations/` | ✅ APROVADO |
 | `CLAUDE.md` criado na raiz | ✅ APROVADO |
 | **Merge da branch → `main`** | ✅ APROVADO |
-| **Troca de domínio no Netlify** | EM ANDAMENTO — `portalcaminhodaconsciencia.com.br` |
+| **Troca de domínio no Netlify** | ✅ APROVADO — `portalcaminhodaconsciencia.com.br` no ar |
 
 ---
 
@@ -78,4 +78,4 @@
 - Repositório: https://github.com/marvin-ds/portal-caminho-da-consciencia
 - Netlify project: https://app.netlify.com/projects/portal-caminho-da-consciencia
 - Deploy atual (produção): https://portalanjosdaprosperidade.com.br (domínio antigo — em migração)
-- Novo domínio: portalcaminhodaconsciencia.com.br (configuração em andamento no Netlify)
+- Novo domínio: https://portalcaminhodaconsciencia.com.br ✅ (ativo, DNS propagado 2026-08-31)
