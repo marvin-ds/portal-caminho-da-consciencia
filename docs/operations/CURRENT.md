@@ -81,8 +81,9 @@
 | R2B — CTA + WhatsApp funcionando | ✅ |
 | R2B — Tracking implementado | ✅ (Pixel, ViewContent, offer_cta_click, whatsapp_click, UTM) |
 | R2B — SEO completo | ✅ (title, description, canonical, OG, JSON-LD) |
-| R2B — Mobile validado | PENDENTE — validação local |
-| R2B — Deploy Preview aprovado | PENDENTE — aguardando número WA + autorização |
+| R2B — Mobile validado | ✅ (360/375/430/768px — sem overflow) |
+| R2B — Deploy Preview gerado | ✅ — https://6a9594058a0be08aa0146e88--portal-caminho-da-consciencia.netlify.app |
+| R2B — Deploy Preview aprovado | PENDENTE — aguardando decisão de Marcos |
 | Merge em `main` | PENDENTE |
 
 ---
