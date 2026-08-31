@@ -78,7 +78,7 @@
 | Branch `feat/gate-r2-*` criada | ✅ |
 | R2B — Nova copy implementada | ✅ |
 | R2B — Identidade visual aplicada | ✅ |
-| R2B — CTA + WhatsApp funcionando | BLOCKED — número WhatsApp pendente |
+| R2B — CTA + WhatsApp funcionando | ✅ |
 | R2B — Tracking implementado | ✅ (Pixel, ViewContent, offer_cta_click, whatsapp_click, UTM) |
 | R2B — SEO completo | ✅ (title, description, canonical, OG, JSON-LD) |
 | R2B — Mobile validado | PENDENTE — validação local |
@@ -109,8 +109,7 @@
 
 ## BLOCKERS
 
-- **BLOCKER CRÍTICO:** número WhatsApp não fornecido. Placeholder `SEU_NUMERO` em `index.html` (linha ~290). Substituir antes de qualquer deploy.
-- Deploy Preview bloqueado até: (1) número WA substituído; (2) validação mobile local; (3) autorização explícita de Marcos.
+- Nenhum blocker ativo. Aguardando autorização explícita de Marcos para Deploy Preview.
 
 ---
 
