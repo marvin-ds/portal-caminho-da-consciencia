@@ -14,7 +14,7 @@
 
 **Branch:** `main`
 
-**Etapa atual:** R3B — APROVADO ✅. Aguardando R3C — Validação da campanha Search (criação e configuração inicial).
+**Etapa atual:** R3C — Criação da campanha Search (pausada) em andamento.
 
 ---
 
@@ -56,13 +56,116 @@
 
 ---
 
-## GATE R3C — Validação da Campanha Search — ABERTO (2026-08-31)
+## GATE R3C — Validação da Campanha Search — EM ANDAMENTO (2026-08-31)
 
-**Objetivo:** Criar e configurar a primeira campanha Search no Google Ads, validar estrutura, segmentação e orçamento inicial.
+**Objetivo:** Criar e configurar a primeira campanha Search no Google Ads. Campanha criada PAUSADA — ativar somente após revisão e aprovação de Marcos.
 
-**Critério de aprovação:** Campanha criada, revisada e aprovada por Marcos antes de ativar.
+**Critério de aprovação:** Campanha criada com todas as configs abaixo, revisada por Marcos, ativada com orçamento R$30/dia.
 
 **Branch:** `main`
+
+### Especificação aprovada
+
+#### Campanha
+| Campo | Valor |
+|---|---|
+| Nome | GADS_SEARCH_MAPEAMENTO_PADRAO_BR_V1 |
+| Objetivo | Leads |
+| Tipo | Pesquisa |
+| Conversão de lance | `whatsapp_click` — secundária, NÃO usada como meta de lance |
+| Redes | Pesquisa Google: ON — Parceiros de pesquisa: OFF — Display: OFF |
+| Estratégia de lances | Maximizar cliques + CPC máx. R$2,50–R$4,00 |
+| Orçamento | R$30/dia |
+| Localização | Brasil — Pessoas presentes ou regularmente na localização |
+| Idioma | Português |
+| Horário | Todos os dias, 06h–23h |
+| Públicos | Observação apenas — nunca restringir tráfego inicial |
+| URL final | https://portalcaminhodaconsciencia.com.br/ |
+| Template de rastreamento | `utm_source=google&utm_medium=cpc&utm_campaign=gads_search_mapeamento_padrao_br_v1&utm_content={creative}&utm_term={keyword}` |
+| Auto-tagging | Ligado (preservar gclid) |
+
+#### Grupos de anúncios e palavras-chave
+
+**Grupo 1 — Padrões que se repetem** (correspondência frase e exata)
+```
+"padrões repetitivos na vida" / [padrões repetitivos na vida]
+"padrões que se repetem" / [padrões que se repetem]
+"como quebrar padrões" / [como quebrar padrões]
+"como mudar padrões repetitivos" / [como mudar padrões repetitivos]
+"porque repito os mesmos padrões" / [porque repito os mesmos padrões]
+"como parar de repetir padrões" / [como parar de repetir padrões]
+"quebrar padrões emocionais" / [quebrar padrões emocionais]
+"mudar padrões de comportamento" / [mudar padrões de comportamento]
+```
+
+**Grupo 2 — Autoconhecimento / clareza** (correspondência frase e exata)
+```
+"autoconhecimento profundo" / [autoconhecimento profundo]
+"como entender meus padrões" / [como entender meus padrões]
+"entender padrões da minha vida" / [entender padrões da minha vida]
+"como me conhecer melhor" / [como me conhecer melhor]
+"desenvolvimento pessoal e espiritual" / [desenvolvimento pessoal e espiritual]
+"expansão da consciência" / [expansão da consciência]
+"desenvolvimento da consciência" / [desenvolvimento da consciência]
+```
+
+**Grupo 3 — Espiritualidade aplicada** (correspondência frase e exata, usar com cautela)
+```
+"desenvolvimento espiritual" / [desenvolvimento espiritual]
+"como desenvolver espiritualidade" / [como desenvolver espiritualidade]
+"autoconhecimento espiritual" / [autoconhecimento espiritual]
+"expansão espiritual" / [expansão espiritual]
+"caminho espiritual" / [caminho espiritual]
+"consciência espiritual" / [consciência espiritual]
+```
+
+#### Palavras negativas iniciais (nível campanha)
+```
+grátis, gratuito, pdf, livro, resumo, curso gratuito, faculdade, tcc,
+artigo científico, significado, frase, frases, imagem, imagens, download,
+apostila, wiki, wikipedia, teste grátis, vaga, emprego, salário, profissão,
+psicólogo, psicologia, psiquiatra, terapia, tratamento, diagnóstico,
+doença, transtorno, ansiedade, depressão, remédio, medicamento,
+mesa radiônica grátis, curso mesa radiônica, como fazer mesa radiônica,
+radiestesia curso, pêndulo comprar, mesa radiônica comprar
+```
+
+#### RSAs (2 por grupo)
+
+**RSA 1 — Reconhecimento**
+Títulos: "Você Repete os Mesmos Padrões?" | "Entenda o Que Continua Voltando" | "Mapeamento Padrão Interrompido" | "Veja Onde o Padrão Se Repete" | "O Cenário Muda. O Padrão Volta." | "Compreenda Seus Padrões" | "Um Novo Olhar Para Sua Vida" | "Portal Caminho da Consciência" | "Mapeamento Individual" | "Desenvolvimento Com Consciência"
+Desc 1: Algumas situações mudam, mas certas repetições continuam. Conheça um mapeamento individual para observar onde isso aparece na sua vida.
+Desc 2: Organize sinais, conexões e prioridades para compreender melhor aquilo que continua voltando. Atendimento individual por R$197.
+
+**RSA 2 — Método**
+Títulos: "Método Padrão Interrompido" | "Identifique o Que Se Repete" | "Veja Onde Isso Aparece" | "Entenda Conexões Entre Áreas" | "Um Caminho de Mais Clareza" | "Mapeamento Individual R$197" | "Relatório + Áudio Personalizado" | "Portal Caminho da Consciência"
+Desc 1: Um processo estruturado de observação para reconhecer repetições, conexões e próximos passos de forma mais consciente.
+Desc 2: Mapeamento individual com relatório e áudio personalizado. Conheça a proposta e fale pelo WhatsApp.
+
+#### Assets
+- **Sitelinks:** "Como Funciona" | "O Que Você Recebe" | "Para Quem É" | "Sobre o Método"
+- **Callouts:** "Atendimento Individual" | "Relatório Personalizado" | "Áudio Personalizado" | "Entrega em Até 48h" | "Pagamento Único" | "Método Próprio"
+- **Structured snippet (Serviços):** "Mapeamento Individual" | "Relatório Personalizado" | "Áudio de Devolutiva" | "Orientação Inicial"
+
+#### Regra de avaliação
+- **Diário:** termos de pesquisa, negativas, erros, CPC absurdo
+- **Após 72h:** impressões, CTR, CPC, sessões, offer_cta_click, whatsapp_click
+- **Após 7 dias:** gasto, CTR, CPC médio, termos, taxa página→WhatsApp, conversas, leads qualificados, vendas
+- **Diagnóstico:** CTR <3% = mensagem/palavra fraca | CTR 4–7% = aceitável | CTR >7% = sinal forte | muitos cliques + zero WhatsApp = problema de intenção ou página
+
+### Estado de criação
+
+| Item | Estado |
+|---|---|
+| Spec aprovada por Marcos | ✅ |
+| Campanha criada (pausada) | PENDENTE |
+| Grupos e keywords configurados | PENDENTE |
+| RSAs criados | PENDENTE |
+| Negativas adicionadas | PENDENTE |
+| Assets configurados | PENDENTE |
+| Template de rastreamento aplicado | PENDENTE |
+| Revisão final por Marcos | PENDENTE |
+| Campanha ativada | PENDENTE |
 
 ---
 
