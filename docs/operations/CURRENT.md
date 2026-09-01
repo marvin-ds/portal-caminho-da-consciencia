@@ -176,7 +176,7 @@ Não é prioridade imediata:
 
 # 5. Documentos canônicos vigentes
 
-A arquitetura oficial agora possui sete documentos numerados de 00 a 06:
+A arquitetura oficial agora possui oito documentos (00 a 06, com 03.A complementar):
 
 | Documento | Versão atual | Função |
 |---|---:|---|
@@ -184,6 +184,7 @@ A arquitetura oficial agora possui sete documentos numerados de 00 a 06:
 | 01 — Fundacional, Estratégico e Plano Executivo | **V4.0** | propósito, estratégia e direção |
 | 02 — Jornada, Produtos, Serviços e Protocolos | **V2.0** | jornada e ofertas |
 | 03 — Sistema Editorial, Aquisição e Experimentação | **V2.0** | conteúdo, crescimento e testes |
+| **03.A — Regra Complementar — Percepção Antes da Explicação** | **V1.0** | arquitetura psicológica do conteúdo; lido em conjunto com 03 |
 | 04 — Identidade, Voz, Espiritualidade e Comunicação | **V2.0** | marca, voz, claims e apresentação |
 | 05 — Arquitetura Técnica, Dados e Ecossistema Digital | **V2.0** | tecnologia, dados e IA |
 | 06 — CURRENT, Decisões e Plano Operacional Vivo | **V2.0** | estado atual |
