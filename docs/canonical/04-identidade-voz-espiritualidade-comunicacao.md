@@ -1,122 +1,264 @@
 # PORTAL CAMINHO DA CONSCIÊNCIA
-## Documento 04 — Identidade, Voz, Espiritualidade e Diretrizes de Comunicação — V1.0
+## Documento 04 — Identidade, Voz, Espiritualidade e Diretrizes de Comunicação — V2.0
 
-**STATUS CANÔNICO:** identidade visual e verbal oficial, regras de voz, espiritualidade, claims e apresentação pública  
-**DATA:** 30/08/2026  
-**HORIZONTE:** identidade de marca para os primeiros 90 dias + base de longo prazo  
-**DOCUMENTO-PAI:** Documento 01 — Fundacional, Estratégico e Plano Executivo Canônico — V3.0  
-**DOCUMENTOS RELACIONADOS:** Documento 02 — Jornada de Transformação, Produtos, Serviços e Protocolos — V1.0; Documento 03 — Sistema Editorial, Aquisição e Experimentação — V1.0
+**STATUS CANÔNICO:** identidade visual e verbal oficial, regras de voz, espiritualidade, claims, apresentação pública e uso responsável de metodologias de terceiros  
+**DATA:** 01/09/2026  
+**HORIZONTE:** próximos 90 dias + base de longo prazo  
+**DOCUMENTOS SUPERIORES:** Documento 00 — Matriz de Governança Conceitual, Propriedade Intelectual e Posicionamento — V1.0; Documento 01 — Fundacional, Estratégico e Plano Executivo Canônico — V4.0  
+**DOCUMENTOS RELACIONADOS:** Documento 02 — Jornada de Transformação, Produtos, Serviços e Protocolos — V2.0; Documento 03 — Sistema Editorial, Aquisição e Experimentação — V2.0; Documento 05 — Arquitetura Técnica, Dados e Ecossistema Digital; Documento 06 — CURRENT  
+**SUBSTITUI:** Documento 04 — Identidade, Voz, Espiritualidade e Diretrizes de Comunicação — V1.0
 
-> **A marca deve parecer humana antes de parecer perfeita, profunda antes de parecer mística e reconhecível antes de parecer sofisticada.**
+> **A marca deve parecer humana antes de parecer perfeita, profunda antes de parecer mística, responsável antes de parecer poderosa e reconhecível antes de parecer sofisticada.**
 
 ---
 
 # Mapa do documento
 
-Este documento define como o **Portal Caminho da Consciência** deve ser percebido, visto, lido, ouvido e reconhecido. Ele transforma propósito, método e espiritualidade em regras práticas de identidade visual, voz, linguagem, presença pública, design, claims e compliance.
+Esta V2.0 atualiza integralmente a identidade e as regras de comunicação do **Portal Caminho da Consciência** após:
 
-Está organizado em dezessete partes:
+- criação do Documento 00;
+- revisão do Documento 01 para V4.0;
+- revisão do Documento 02 para V2.0;
+- revisão do Documento 03 para V2.0;
+- acesso oficial de Marcos à formação **Mesa Radiônica Sintonize Prosperidade**;
+- análise dos principais materiais oficiais da formação;
+- análise dos materiais de Anjos Cabalísticos relacionados à Sintonize;
+- separação conceitual entre **Portal Caminho da Consciência**, **Método Padrão Interrompido** e **Sintonize Prosperidade**;
+- correção da antiga associação das “8 Prosperidades” ao método próprio;
+- decisão de Marcos de **não utilizar “terapeuta” como identidade profissional pública**;
+- definição de que a certificação Sintonize está em fase final e não deve ser antecipada;
+- prioridade imediata de crescimento orgânico no YouTube;
+- migração pública da marca para `portalcaminhodaconsciencia.com.br`;
+- página do **Mapeamento Padrão Interrompido — Individual — R$197** publicada;
+- mensuração GTM + GA4 + Google Ads implementada;
+- Search pago preparado, mas deliberadamente adiado.
 
-1. Função, escopo e regra superior
-2. Essência da marca e significado do nome
-3. Personalidade, atributos e tensões de posicionamento
-4. Arquitetura verbal e vocabulário proprietário
-5. Voz oficial do Portal
-6. TOM MARCOS e presença humana
-7. Linguagem de reconhecimento e escrita natural
-8. Espiritualidade: território, profundidade e limites
-9. Claims, compliance e linguagem responsável
-10. Identidade visual: direção-mãe
-11. Paleta cromática e sistema de uso
-12. Tipografia e hierarquia
-13. Fotografia, vídeo, IA visual e direção de arte
-14. Sistema gráfico, símbolos e iconografia
-15. Aplicações por canal e formato
-16. QA de comunicação e identidade
-17. Governança, migração de marca e decisões abertas
+O documento está organizado em dezoito partes:
+
+1. função, precedência e regra superior;
+2. essência e significado da marca;
+3. personalidade e posicionamento;
+4. arquitetura verbal e propriedade conceitual;
+5. voz oficial do Portal;
+6. TOM MARCOS e apresentação pública;
+7. linguagem de reconhecimento e escrita natural;
+8. espiritualidade, liberdade religiosa e aprofundamento;
+9. Sintonize Prosperidade na comunicação;
+10. Anjos Cabalísticos e outros elementos espirituais específicos;
+11. claims, compliance e linguagem responsável;
+12. identidade visual e direção-mãe;
+13. paleta, tipografia e acessibilidade;
+14. fotografia, vídeo, IA visual e direção de arte;
+15. sistema gráfico, símbolos, iconografia e propriedade intelectual;
+16. aplicações por canal e identidade de produtos;
+17. QA de comunicação, marca e autoria;
+18. governança, migração, decisões fechadas e abertas.
 
 ---
 
 # 0. Função deste documento
 
-O Documento 01 define **quem somos e por que existimos**. O Documento 02 define **como a pessoa caminha dentro do ecossistema**. O Documento 03 define **como atraímos, conversamos, testamos e aprendemos**. Este Documento 04 define **como o Portal e Marcos devem soar, parecer e se comportar publicamente para que toda essa arquitetura seja reconhecível, coerente e humana**.
+O Documento 00 define **o que pertence ao Portal, ao Método Padrão Interrompido, à Sintonize Prosperidade e a terceiros, e quais fronteiras de autoria, uso e propriedade intelectual são obrigatórias**.
+
+O Documento 01 define **quem somos, por que existimos, propósito, princípios e direção estratégica**.
+
+O Documento 02 define **como a pessoa evolui dentro do ecossistema e quais ofertas ocupam cada etapa**.
+
+O Documento 03 define **como atraímos, conversamos, testamos e aprendemos**.
+
+Este Documento 04 define:
+
+- como o Portal deve ser percebido;
+- como a marca deve soar;
+- como Marcos deve se apresentar;
+- como espiritualidade deve ser comunicada;
+- como falar de técnicas e metodologias específicas sem confusão de autoria;
+- quais palavras aproximam e quais exigem cuidado;
+- quais claims são aceitáveis e quais são proibidos;
+- como a marca deve parecer visualmente;
+- como aplicar identidade em site, YouTube, PDFs, anúncios, WhatsApp e produtos;
+- como usar IA sem perder humanidade;
+- como preservar propriedade intelectual de terceiros;
+- como impedir que a marca escorregue para misticismo genérico, clínica indevida, guruísmo ou copy artificial.
 
 Este documento é referência obrigatória para:
 
 - site e páginas de vendas;
-- YouTube, Shorts, Reels, TikTok e outras redes;
+- YouTube;
+- Shorts, Reels, TikTok e Community;
 - thumbnails e capas;
 - anúncios;
-- e-mails, WhatsApp e automações;
-- PDFs, relatórios e materiais do Mapeamento;
-- Radar e futuras aplicações;
-- comunidade e jornadas guiadas;
-- apresentações, aulas e encontros;
-- textos produzidos por humanos ou IA;
-- imagens e vídeos gerados ou editados com IA;
-- identidade de produtos e protocolos derivados;
-- qualquer colaborador, designer, redator, desenvolvedor ou agente de IA que represente a marca.
+- e-mails;
+- WhatsApp;
+- automações;
+- PDFs e relatórios;
+- Mapeamento;
+- Radar;
+- futuras jornadas;
+- comunidade;
+- apresentações;
+- aulas;
+- encontros;
+- design;
+- código que materialize identidade;
+- prompts;
+- agentes de IA;
+- colaboradores;
+- materiais de terceiros usados dentro da experiência.
 
-## 0.1. Regra superior
+---
 
-> **Se parecer texto de IA, não está pronto. Se parecer uma copy que qualquer marca poderia publicar, não está pronto. Se Marcos não falaria aquilo naturalmente para uma pessoa sentada à sua frente, não está pronto.**
+## 0.1. Ordem de precedência
 
-A identidade não existe para decorar o projeto. Ela existe para preservar sua verdade quando conteúdo, tráfego, produtos, tecnologia e escala aumentarem.
+Quando houver conflito:
 
-## 0.2. Princípios imutáveis
+1. **Documento 00** prevalece em autoria, propriedade intelectual, Sintonize, 8 Prosperidades, Protocolos Sintonize, Anjos Cabalísticos e posicionamento profissional de Marcos;
+2. **Documento 01** prevalece em propósito, posicionamento e princípios estratégicos;
+3. **Documento 02** prevalece em jornada e ofertas;
+4. **Documento 03** prevalece em editorial, aquisição e experimentação;
+5. este Documento 04 governa identidade, voz, claims, espiritualidade pública e expressão visual;
+6. o CURRENT registra o estado operacional real, inclusive certificações, páginas, domínios, preços e gates.
+
+---
+
+## 0.2. Regra superior
+
+> **Se parecer texto de IA, não está pronto. Se parecer uma copy que qualquer marca poderia publicar, não está pronto. Se Marcos não falaria aquilo naturalmente para uma pessoa sentada à sua frente, não está pronto. Se parecer que estamos apresentando como nosso aquilo que pertence a uma formação, tradição ou metodologia de terceiros, também não está pronto.**
+
+---
+
+## 0.3. Princípios imutáveis
 
 - A pessoa vem antes da estética.
-- Vida concreta vem antes do jargão.
-- Clareza vem antes da promessa.
+- Vida concreta vem antes de conceito.
+- Clareza vem antes de mistério.
 - Profundidade não exige linguagem obscura.
-- Espiritualidade não exige teatralidade mística.
-- O Portal é espiritual, mas não é uma religião.
-- O Portal pode falar de energia dentro de contexto espiritual, sem transformá-la em medição científica ou causalidade absoluta.
-- Marcos não será construído como guru, mestre absoluto ou personagem de iluminação.
-- A marca não usa medo, culpa, vergonha ou suposta inferioridade espiritual para vender.
-- IA serve à execução; não substitui observação, experiência real, voz e responsabilidade humana.
-- Consistência visual não pode produzir aparência genérica de “marca espiritual feita por IA”.
-- A identidade deve funcionar tanto para uma cena cotidiana de vida real quanto para uma experiência espiritual mais profunda.
+- Espiritualidade não exige teatralidade.
+- Elegância não exige luxo artificial.
+- Autoridade não exige superioridade.
+- Método não exige rigidez.
+- Tecnologia não deve apagar humanidade.
+- A marca pode falar de espiritualidade sem exigir adesão religiosa.
+- A marca pode falar de energia em contexto espiritual, sem apresentá-la como medição científica.
+- O Portal não usa medo espiritual para vender.
+- O Portal não transforma fragilidade em culpa.
+- O Portal não chama divergência de crença de “falta de consciência”.
+- Marcos não é construído como guru.
+- Marcos não usa “terapeuta” como identidade profissional pública.
+- Qualificação específica só é comunicada quando formalmente concluída.
+- Sintonize Prosperidade deve permanecer corretamente atribuída.
+- As 8 Prosperidades oficiais da Sintonize não são criação do Padrão Interrompido.
+- Protocolos Sintonize não são Protocolos Padrão Interrompido.
+- Anjos Cabalísticos não definem a identidade principal da marca.
+- IA acelera execução; não inventa experiência, autoridade ou resultado.
+- Consistência visual não pode produzir aparência de “marca espiritual feita por IA”.
+- Mobile first é regra de aplicação digital.
+- Legibilidade vence ornamento.
+- O Portal não promete cura, riqueza, reconciliação, destino, frequência comprovada ou resultado garantido.
+- A marca deve funcionar tanto em uma cena cotidiana quanto em uma experiência espiritual profunda.
 
 ---
 
 # PARTE I — ESSÊNCIA DA MARCA
 
-# 1. Nome e significado
+# 1. Nome oficial
 
-## 1.1. Nome oficial
+> **Portal Caminho da Consciência**
 
-**Portal Caminho da Consciência**
+O nome é uma arquitetura de experiência.
 
-O nome deve ser entendido como arquitetura de experiência, não apenas como marca sonora.
+---
 
-### Portal
+# 2. O significado de “Portal”
 
-Representa entrada, passagem e decisão de começar. A pessoa entra porque algo em sua vida pede atenção, clareza ou mudança.
+Portal representa:
 
-O Portal não promete transportá-la magicamente para outro estado. Ele abre um espaço estruturado para observação, aprendizado, prática e aprofundamento.
+- entrada;
+- passagem;
+- decisão de começar;
+- abertura para olhar;
+- transição entre percepção e movimento.
 
-### Caminho
+O Portal não é apresentado como “portal energético” literal.
 
-Representa processo. A proposta não é “uma resposta que resolve tudo”, mas uma jornada em que percepção, prática e maturação acontecem em etapas.
+A palavra é principalmente:
 
-O singular é intencional: existe um eixo organizador comum, mesmo quando as pessoas usam técnicas, ritmos ou trilhas diferentes.
+- simbólica;
+- experiencial;
+- institucional.
 
-### Consciência
+Forma correta:
 
-Representa perceber melhor, ampliar escolha, reconhecer padrões, integrar aprendizados e, para quem desejar, aprofundar a relação com sentido, espiritualidade e o Divino.
+> **“O Portal é um espaço de entrada para um caminho de desenvolvimento pessoal e espiritual.”**
 
-“Consciência” não será usada como sinônimo de superioridade, pureza, iluminação ou verdade absoluta.
+Evitar:
 
-> **Entrar no Portal é entrar em um caminho. O padrão pode ser a porta de entrada. A consciência é o horizonte maior.**
+> “Ao entrar no Portal, sua frequência será elevada.”
 
-# 2. Essência em uma frase
+---
 
-> **Um caminho estruturado para perceber o que se repete, transformar a forma de caminhar e aprofundar consciência e espiritualidade na vida real.**
+# 3. O significado de “Caminho”
 
-# 3. Promessa de marca — nível correto
+O singular é deliberado.
 
-A marca pode prometer uma **experiência de observação, desenvolvimento e prática**. Não pode prometer um resultado específico garantido.
+“Caminho” representa:
+
+- processo;
+- continuidade;
+- prática;
+- aprendizado;
+- maturação;
+- reavaliação;
+- integração.
+
+Não significa que todas as pessoas precisam acreditar nas mesmas coisas ou seguir as mesmas técnicas.
+
+> **Existe um eixo de desenvolvimento. Existem ritmos, ferramentas e experiências diferentes dentro dele.**
+
+---
+
+# 4. O significado de “Consciência”
+
+Consciência, para a marca, significa:
+
+- perceber mais;
+- reconhecer automatismos;
+- observar conexões;
+- ampliar capacidade de escolha;
+- integrar experiência;
+- agir com mais coerência;
+- refletir sobre valores;
+- aprofundar espiritualidade quando desejado.
+
+Não significa:
+
+- superioridade;
+- pureza;
+- iluminação garantida;
+- “vibração superior”;
+- hierarquia moral.
+
+> **Consciência é maior capacidade de perceber e escolher; não um selo de superioridade humana.**
+
+---
+
+# 5. Essência em uma frase
+
+> **Um caminho estruturado para perceber o que se repete, ampliar consciência, transformar a forma de caminhar e aprofundar desenvolvimento pessoal e espiritual na vida real.**
+
+---
+
+# 6. Promessa de marca — nível correto
+
+A marca pode prometer:
+
+- experiência;
+- estrutura;
+- observação;
+- clareza;
+- prática;
+- próximos passos;
+- aprofundamento.
 
 Forma adequada:
 
@@ -126,113 +268,219 @@ Forma inadequada:
 
 > “Eliminar seus bloqueios definitivamente.”
 
-> “Destravar sua prosperidade em 21 dias.”
+> “Destravar sua prosperidade.”
 
-> “Descobrir a causa espiritual de todos os seus problemas.”
+> “Descobrir a causa espiritual do seu problema.”
+
+> “Mudar sua frequência e transformar sua realidade.”
+
+---
+
+# 7. Frase filosófica principal
+
+> **O cenário muda. O padrão volta. A consciência pode mudar o caminho.**
+
+Esta frase permanece como eixo conceitual central.
+
+---
+
+# 8. Frase de jornada
+
+> **Perceber o padrão é o começo. Transformar a forma de caminhar é o trabalho.**
+
+---
+
+# 9. Frase de marca
+
+> **Entrar no Portal é entrar em um caminho.**
 
 ---
 
 # PARTE II — PERSONALIDADE E POSICIONAMENTO
 
-# 4. Personalidade da marca
+# 10. Personalidade da marca
 
-A marca deve combinar seis atributos principais.
+A marca combina sete atributos.
 
-## 4.1. Humana
+## 10.1. Humana
 
-Fala com gente real sobre vida real. Não parece uma entidade abstrata, um templo digital ou uma agência de copy.
+Fala de gente real para gente real.
 
-## 4.2. Observadora
+Não parece:
 
-Percebe detalhes que normalmente passam despercebidos. Faz perguntas melhores antes de oferecer respostas.
+- templo digital;
+- instituição distante;
+- agência de marketing;
+- perfil esotérico automatizado.
 
-## 4.3. Profunda
+## 10.2. Observadora
 
-Não reduz experiências complexas a frases prontas. Pode entrar em consciência e espiritualidade sem precisar teatralizar profundidade.
+Percebe:
 
-## 4.4. Estruturada
+- pequenos gestos;
+- microdecisões;
+- frases internas;
+- repetições;
+- conexões.
 
-Organiza o que está difuso. Método, mapas, protocolos e reavaliação dão forma à jornada.
+## 10.3. Profunda
 
-## 4.5. Espiritual sem dogma
+Pode entrar em:
 
-Reconhece o sagrado, o Divino, oração, fé, ancestralidade, práticas e experiência espiritual, preservando liberdade religiosa e limites de tradição.
+- consciência;
+- espiritualidade;
+- sentido;
+- prática;
+- valores;
 
-## 4.6. Responsável
+sem precisar teatralizar profundidade.
 
-Não promete cura, riqueza, reconciliação, solução universal ou resultado clínico. Distingue crença, prática espiritual, experiência pessoal e evidência científica.
+## 10.4. Estruturada
 
-# 5. O que a marca deve fazer a pessoa sentir
+Organiza o que parece difuso por meio de:
 
-Prioritariamente:
+- método;
+- perguntas;
+- mapas;
+- etapas;
+- prática;
+- reavaliação.
 
-- “isso parece falar da minha vida de verdade”;
-- “eu nunca tinha ligado essas duas coisas”;
-- “aqui não estão tentando me impressionar com palavras difíceis”;
-- “posso explorar espiritualidade sem precisar fingir que acredito em tudo”;
-- “existe uma estrutura, não apenas inspiração”;
-- “eu quero entender melhor o que acontece comigo”;
-- “eu consigo caminhar sem entregar minha autonomia para alguém”.
+## 10.5. Espiritual sem dogma
 
-# 6. Tensões que a identidade precisa equilibrar
+Reconhece o sagrado sem exigir cosmologia única.
 
-| Tensão | Direção correta |
-|---|---|
-| espiritual × esotérico genérico | espiritualidade profunda, sem estética de catálogo místico |
-| acolhedor × superficial | calor humano com conteúdo concreto |
-| sofisticado × distante | elegância sóbria, não luxo ostentatório |
-| método × rigidez | estrutura com liberdade e contexto |
-| transformação × promessa | possibilidade e processo, não garantia |
-| autoridade × guru | clareza, método e experiência, sem superioridade |
-| tecnologia × humanidade | tecnologia invisível a serviço da experiência |
-| consciência × abstração | consciência sempre conectada à vida real |
+## 10.6. Responsável
+
+Distingue:
+
+- crença;
+- experiência;
+- possibilidade;
+- metodologia;
+- evidência;
+- claim.
+
+## 10.7. Autoral
+
+Tem linguagem e estética próprias, sem apropriar materiais, símbolos ou métodos de terceiros.
 
 ---
 
-# PARTE III — ARQUITETURA VERBAL
+# 11. O que queremos que a pessoa sinta
 
-# 7. Hierarquia de conceitos
+- “isso parece falar da minha vida”;
+- “aqui existe profundidade sem exagero”;
+- “não estão tentando me impressionar”;
+- “posso explorar espiritualidade sem precisar concordar com tudo”;
+- “há estrutura”;
+- “eu consigo entender os limites”;
+- “Marcos parece uma pessoa real”;
+- “eu quero observar melhor o que acontece comigo”;
+- “não preciso entregar minha autonomia”.
 
-A comunicação deve respeitar esta arquitetura:
+---
+
+# 12. Tensões de posicionamento
+
+| Tensão | Direção correta |
+|---|---|
+| espiritual × esotérico genérico | espiritualidade profunda e contextual |
+| acolhimento × superficialidade | calor humano + precisão |
+| sofisticação × distância | elegância sóbria + proximidade |
+| método × rigidez | estrutura + contexto |
+| transformação × promessa | processo + possibilidade |
+| autoridade × guru | clareza + limites |
+| tecnologia × humanidade | tecnologia discreta |
+| consciência × abstração | vida concreta |
+| ferramenta de terceiro × método próprio | atribuição + separação |
+| simbolismo × apropriação | símbolos próprios ou legitimamente usados |
+
+---
+
+# PARTE III — ARQUITETURA VERBAL E PROPRIEDADE CONCEITUAL
+
+# 13. Hierarquia verbal oficial
 
 1. **Portal Caminho da Consciência** — marca e ecossistema;
-2. **Caminho da Consciência** — jornada maior de desenvolvimento, transformação e aprofundamento;
-3. **Método Padrão Interrompido** — método proprietário que organiza reconhecimento, mapeamento, intervenção, prática e reavaliação;
-4. **“voltar ao mesmo lugar”** — principal território de reconhecimento e aquisição;
-5. **Radar / Mapa da Repetição** — instrumento de clareza inicial quando implementado;
-6. **Mapeamento Padrão Interrompido** — aprofundamento individual;
-7. **Protocolos** — intervenções específicas;
-8. **Jornada guiada** — integração e prática;
-9. **Reavaliação** — observação do que mudou e próximos passos;
-10. **Comunidade / aprofundamento** — continuidade de desenvolvimento e espiritualidade.
+2. **Caminho da Consciência** — jornada maior;
+3. **Método Padrão Interrompido** — método autoral;
+4. **“voltar ao mesmo lugar”** — território de reconhecimento;
+5. **Mapeamento Padrão Interrompido** — oferta individual vigente;
+6. **Radar / Mapa da Repetição** — ferramenta autoral futura;
+7. **Protocolos Padrão Interrompido** — futuros protocolos autorais;
+8. **Jornada guiada** — futura prática e integração;
+9. **Reavaliação** — observação do depois;
+10. **Comunidade / aprofundamento** — futura continuidade;
+11. **Sintonize Prosperidade** — metodologia específica de terceiros que poderá integrar determinadas experiências.
 
-A comunicação não deve tratar todos esses nomes como equivalentes.
+---
 
-# 8. Frases canônicas
+# 14. Separação verbal obrigatória
 
-## 8.1. Frase filosófica principal
+Forma correta:
 
-> **O cenário muda. O padrão volta. A consciência pode mudar o caminho.**
+> **“No Portal, o Método Padrão Interrompido organiza a jornada de percepção, prática e reavaliação. Em determinadas experiências, outras metodologias podem ser utilizadas, como a Mesa Radiônica Sintonize Prosperidade.”**
 
-## 8.2. Frase de jornada
+Forma incorreta:
 
-> **Perceber o padrão é o começo. Transformar a forma de caminhar é o trabalho.**
+> “O Padrão Interrompido usa suas 8 Prosperidades para ativar a Mesa.”
 
-## 8.3. Frase de marca
+Forma incorreta:
 
-> **Entrar no Portal é entrar em um caminho.**
+> “A nossa Mesa Sintonize...”
 
-## 8.4. Pergunta estratégica de aquisição
+Forma correta:
 
-> **E se o problema que você percebe não for o único lugar onde esse padrão aparece?**
+> **“Mesa Radiônica Sintonize Prosperidade”**, com atribuição à metodologia/formação correspondente.
 
-## 8.5. Ideia de autonomia
+---
 
-> **O objetivo não é dizer o que você deve acreditar. É ajudar você a observar melhor, escolher com mais consciência e caminhar com mais autonomia.**
+# 15. As 8 Prosperidades
 
-# 9. Vocabulário preferencial
+Quando a comunicação disser **8 Prosperidades Sintonize**, a referência correta é:
 
-Usar com naturalidade, não como lista de palavras-chave:
+1. Financeira;
+2. Saúde;
+3. Relacionamentos;
+4. Emocional;
+5. Espiritual;
+6. Criativa;
+7. Tempo e Liberdade;
+8. Profissional.
+
+Regras:
+
+- não apresentar como criação do Padrão Interrompido;
+- não chamar a antiga lista do Portal de “8 Prosperidades”;
+- Familiar/Ancestral pode aparecer como tema, mas não como oitava prosperidade da Sintonize;
+- se o Portal criar mapa próprio, ele deve receber nome próprio.
+
+---
+
+# 16. Protocolos
+
+Sempre diferenciar:
+
+> **Protocolo Sintonize**  
+> protocolo oficial da metodologia de terceiros.
+
+> **Protocolo Padrão Interrompido**  
+> protocolo autoral futuro do Portal.
+
+Não:
+
+- copiar;
+- renomear;
+- adaptar silenciosamente;
+- ensinar como se fosse autoral;
+- transformar material Sintonize em lead magnet.
+
+---
+
+# 17. Vocabulário preferencial
+
+Usar com naturalidade:
 
 - perceber;
 - observar;
@@ -256,16 +504,19 @@ Usar com naturalidade, não como lista de palavras-chave:
 - experiência;
 - transformação;
 - vida real;
-- próximo passo.
+- próximo passo;
+- responsabilidade;
+- autonomia.
 
-# 10. Vocabulário que exige cuidado
+---
 
-Pode ser usado, mas com contexto:
+# 18. Vocabulário que exige contexto
 
 - energia;
 - bloqueio;
 - desbloqueio;
 - limpeza;
+- proteção;
 - frequência;
 - ancestral;
 - alinhamento;
@@ -275,34 +526,46 @@ Pode ser usado, mas com contexto:
 - inconsciente;
 - vibração;
 - campo;
-- manifestação.
+- manifestação;
+- ativação.
 
-Regra: quanto mais a palavra puder soar como afirmação objetiva, clínica, científica ou garantia de resultado, mais precisa de contextualização.
+Quanto maior o risco de soar como:
 
-# 11. Vocabulário a evitar como claim central
+- diagnóstico;
+- ciência;
+- promessa;
+- causalidade;
+
+maior a necessidade de contexto.
+
+---
+
+# 19. Vocabulário que não deve ser claim central
 
 - diagnóstico energético;
 - causa raiz garantida;
 - cura;
-- tratar ansiedade/depressão/trauma;
+- tratar ansiedade;
+- tratar depressão;
+- curar trauma;
 - eliminar doença;
-- desbloquear dinheiro garantidamente;
+- desbloquear dinheiro;
 - atrair riqueza;
-- prosperidade garantida;
+- garantir prosperidade;
 - frequência comprovada;
-- energia mensurável digitalmente;
-- quantum/quântico usado como falsa validação;
-- “100% de precisão”;
-- “funciona para qualquer pessoa”;
-- “resultado garantido”.
+- medir vibração;
+- “quântico” como validação;
+- 100% de precisão;
+- resultado garantido;
+- “funciona para qualquer pessoa”.
 
 ---
 
 # PARTE IV — VOZ OFICIAL DO PORTAL
 
-# 12. Como o Portal fala
+# 20. Como o Portal fala
 
-A voz do Portal é:
+A voz é:
 
 - clara;
 - adulta;
@@ -310,154 +573,235 @@ A voz do Portal é:
 - observadora;
 - sóbria;
 - curiosa;
-- respeitosa;
 - espiritual quando necessário;
-- concreta antes de abstrata;
-- segura sem parecer absoluta.
+- concreta;
+- responsável;
+- segura sem absolutismo.
 
-O Portal não fala como instituição burocrática. Também não fala como “amigo engraçado da internet”. A proximidade vem da precisão humana, não de informalidade forçada.
+O Portal não fala como:
 
-# 13. Ritmo de linguagem
+- repartição;
+- pastor automático;
+- perfil “good vibes”;
+- coach de performance;
+- catálogo místico.
+
+---
+
+# 21. Ritmo de linguagem
 
 Preferir:
 
 - frases curtas e médias;
-- uma ideia principal por parágrafo;
+- uma ideia por bloco;
 - perguntas reais;
-- detalhes concretos;
-- pequenas pausas;
-- exemplos cotidianos;
-- palavras comuns antes de termos técnicos;
-- explicação antes da nomeação do método quando o público ainda não conhece a categoria.
+- objetos e cenas;
+- palavras comuns;
+- pausas;
+- exemplo antes de conceito;
+- explicação antes de nome técnico.
 
 Evitar:
 
-- excesso de travessões e frases de efeito em sequência;
-- parágrafos que parecem manifesto em todo conteúdo;
-- enumerações faladas longas;
-- simetria perfeita demais;
-- “não é X, é Y” repetido mecanicamente;
-- “você não precisa de..., você precisa de...” como fórmula frequente;
-- excesso de palavras como jornada, essência, despertar, transformação e consciência sem cena concreta;
-- frases que soam “bonitas” mas não dizem nada observável.
+- manifesto em toda peça;
+- excesso de travessões;
+- paralelismo artificial;
+- lista falada longa;
+- frases perfeitas demais;
+- “não é X, é Y” repetido;
+- “você não precisa de..., precisa de...” repetido;
+- abstrações em sequência;
+- final motivacional automático.
 
-# 14. Regra da especificidade
+---
+
+# 22. Regra da especificidade
 
 > **Não descreva o problema que a pessoa tem. Descreva a cena que ela esconde dos outros e a frase que ela diz para si mesma quando ninguém está ouvindo.**
 
-Exemplo genérico:
+Genérico:
 
 > “Você tem dificuldades financeiras recorrentes.”
 
-Exemplo da marca:
+Marca:
 
-> “O dinheiro entrou na sexta. Na quarta você já abriu a calculadora três vezes tentando descobrir como chegar até o próximo pagamento.”
-
-Exemplo genérico:
-
-> “Você repete padrões nos relacionamentos.”
-
-Exemplo da marca:
-
-> “A pessoa é outra. Mas você percebeu que começou a esconder de novo as mesmas coisas para evitar uma discussão.”
-
-# 15. Teste da fala humana
-
-Antes de aprovar um texto, perguntar:
-
-1. alguém falaria isso em voz alta sem parecer que está lendo copy?
-2. existe alguma frase que foi escrita para impressionar, não para comunicar?
-3. a pessoa consegue imaginar uma cena?
-4. o texto poderia pertencer a qualquer marca espiritual?
-5. há palavras que Marcos nunca usaria naturalmente?
-6. existe uma conclusão “motivacional automática” só porque o texto precisava terminar?
-
-Se sim, reescrever.
+> **“O dinheiro entrou na sexta. Na quarta você já abriu a calculadora três vezes tentando descobrir como chegar até o próximo pagamento.”**
 
 ---
 
-# PARTE V — TOM MARCOS
+# 23. Linguagem de reconhecimento
 
-# 16. Papel de Marcos na comunicação
+A comunicação deve preferir:
 
-Marcos é o fundador, pesquisador de padrões recorrentes, criador do Método Padrão Interrompido e praticante de caminhos de desenvolvimento pessoal e espiritual.
+- o momento;
+- o gesto;
+- a mensagem apagada;
+- o aplicativo aberto;
+- a agenda;
+- a desculpa;
+- o “depois”;
+- o silêncio;
+- o padrão que volta.
 
-Sua autoridade pública vem de:
+Antes de:
 
-- investigar com seriedade;
-- organizar o que aprende;
-- fazer perguntas úteis;
-- explicar com clareza;
-- demonstrar processos;
-- declarar limites;
-- compartilhar experiência real sem transformar a própria vida em prova universal;
-- aprofundar formação e prática ao longo do tempo.
+- prosperidade;
+- expansão;
+- vibração;
+- desbloqueio.
 
-# 17. Definição do TOM MARCOS
+---
+
+# 24. Teste da fala humana
+
+Perguntar:
+
+1. alguém diria isso em voz alta?
+2. Marcos diria isso?
+3. parece texto escrito para impressionar?
+4. existe cena?
+5. qualquer marca poderia publicar?
+6. existe palavra que parece copiada de apostila?
+7. há motivação automática no final?
+8. o CTA nasce do conteúdo?
+9. estamos atribuindo corretamente metodologia de terceiro?
+
+---
+
+# PARTE V — TOM MARCOS E APRESENTAÇÃO PÚBLICA
+
+# 25. Quem Marcos é na comunicação
+
+Marcos é:
+
+- fundador do Portal Caminho da Consciência;
+- criador do Método Padrão Interrompido;
+- pesquisador/praticante de caminhos de desenvolvimento pessoal e espiritual;
+- pessoa em processo real de formação e amadurecimento;
+- facilitador de experiências dentro das competências que efetivamente possui.
+
+---
+
+# 26. O que Marcos não adota como identidade pública
+
+- terapeuta;
+- psicólogo;
+- médico;
+- profissional clínico;
+- guru;
+- mestre iluminado;
+- sacerdote sem reconhecimento correspondente;
+- médium que afirma saber a verdade das pessoas;
+- cientista da energia;
+- especialista absoluto em destino;
+- “curador”.
+
+A formação usar “terapeuta” internamente não obriga Marcos a adotar esse título.
+
+---
+
+# 27. Estado da formação Sintonize
+
+Em 01/09/2026:
+
+- acesso oficial confirmado;
+- maior parte da formação já assistida;
+- conclusão final em andamento;
+- certificação esperada aproximadamente nos próximos 7 dias;
+- certificação ainda não deve ser comunicada como concluída.
+
+Antes da conclusão, permitido:
+
+> **“Estou finalizando minha formação em Mesa Radiônica Sintonize Prosperidade.”**
+
+Somente se houver motivo contextual.
+
+Não usar:
+
+> “Sou certificado em Sintonize Prosperidade.”
+
+antes da formalização.
+
+---
+
+# 28. Depois da certificação
+
+A formulação pública deve utilizar o texto exato que puder ser sustentado.
+
+Exemplo provisório, apenas se o certificado sustentar:
+
+> **“Marcos Vinicius — fundador do Portal Caminho da Consciência, criador do Método Padrão Interrompido e formado em Mesa Radiônica Sintonize Prosperidade.”**
+
+Não transformar “formado” em:
+
+- terapeuta clínico;
+- especialista em saúde;
+- autoridade universal espiritual.
+
+---
+
+# 29. TOM MARCOS
 
 > **Uma pessoa contando algo importante para outra pessoa.**
 
-Não é palestra. Não é sermão. Não é aula teatral. Não é locução publicitária.
+Não palestra.
 
-Quando Marcos fala para a câmera, o teste mental é: **“eu falaria isso desse jeito para uma pessoa sentada à minha frente?”**
+Não sermão.
 
-# 18. Entradas naturais
+Não locução publicitária.
 
-Exemplos de início compatíveis:
-
-- “Tem uma coisa que eu comecei a reparar…”
-- “Pensa numa situação…”
-- “Olha que curioso…”
-- “Agora presta atenção numa coisa…”
-- “Talvez você já tenha vivido isso sem dar esse nome…”
-- “Eu demorei para perceber uma coisa em mim…”
-- “Tem um detalhe nessa história que muda bastante a forma de olhar…”
-- “Você já reparou no momento exato em que isso volta?”
-
-Não transformar essas frases em bordões obrigatórios.
-
-# 19. Como usar a história de Marcos
-
-A história pessoal é contexto, não centro permanente da marca.
-
-Regra editorial de referência:
-
-- cerca de 10–15% do conteúdo pode partir diretamente da história de Marcos;
-- 80–90% deve manter a vida da audiência como protagonista.
-
-Quando a história for usada:
-
-1. começar por um fato ou cena real;
-2. explicar o que Marcos percebeu;
-3. evitar transformar experiência pessoal em regra universal;
-4. devolver a pergunta para a pessoa;
-5. conectar ao método apenas quando fizer sentido.
-
-Eventos de saúde podem ser mencionados factual e raramente como contexto biográfico. Nunca como prova de causalidade espiritual, mecanismo de medo ou argumento de venda.
-
-# 20. O que Marcos não deve soar
-
-- guru;
-- pregador de certeza;
-- terapeuta clínico sem habilitação;
-- médium que “sabe” a verdade do outro;
-- cientista da energia;
-- coach de performance;
-- personagem místico;
-- homem que “venceu tudo” e agora ensina quem ainda não venceu;
-- vendedor agressivo escondido atrás de espiritualidade.
+Não leitura de apostila.
 
 ---
 
-# PARTE VI — ESPIRITUALIDADE
+# 30. Entradas naturais
 
-# 21. Lugar da espiritualidade no Portal
+- “Tem uma coisa que eu comecei a reparar...”
+- “Pensa numa situação...”
+- “Olha que curioso...”
+- “Deixa eu te mostrar um detalhe...”
+- “Agora presta atenção numa coisa...”
+- “Talvez você já tenha vivido isso...”
+- “Eu demorei para perceber uma coisa em mim...”
+- “E aí vem a pergunta...”
 
-A espiritualidade é parte legítima e explícita do Portal Caminho da Consciência. Ela não é um detalhe decorativo nem uma isca comercial.
+Não transformar em bordões.
 
-Ela pode aparecer como:
+---
 
-- relação com Deus ou o Divino;
+# 31. História pessoal de Marcos
+
+Referência editorial:
+
+- 10–15% do conteúdo pode partir diretamente da história;
+- maioria mantém a audiência como protagonista.
+
+Quando usar:
+
+1. fato;
+2. percepção;
+3. limite;
+4. pergunta devolvida ao público.
+
+Eventos de saúde:
+
+- raros;
+- factuais;
+- não espiritualizados causalmente;
+- não usados como medo;
+- não usados como prova de método.
+
+---
+
+# PARTE VI — ESPIRITUALIDADE, LIBERDADE RELIGIOSA E APROFUNDAMENTO
+
+# 32. Lugar da espiritualidade
+
+A espiritualidade é explícita e legítima.
+
+Pode aparecer por:
+
+- relação com Deus/Divino;
 - oração;
 - fé;
 - silêncio;
@@ -466,847 +810,1303 @@ Ela pode aparecer como:
 - sentido;
 - valores;
 - serviço;
-- ancestralidade;
+- ancestralidade como tema;
 - práticas simbólicas;
-- rituais compatíveis e legitimamente utilizados;
-- radiestesia e radiônica em contexto apropriado;
-- desenvolvimento espiritual;
-- perguntas sobre coerência entre crença e vida concreta.
+- radiestesia/radiônica em contexto;
+- desenvolvimento espiritual.
 
-# 22. O que “expansão da consciência” significa para a marca
+---
 
-No Portal, expansão da consciência não significa ascender a um nível superior de humanidade. Significa, de forma prática:
+# 33. Expansão da consciência
 
-- perceber mais do que antes;
+Significa:
+
+- perceber mais;
 - reconhecer automatismos;
-- observar conexões que estavam invisíveis para a própria pessoa;
-- ampliar possibilidades de escolha;
-- integrar experiência e valores;
-- sustentar práticas com maior intenção;
-- desenvolver uma relação mais consciente com espiritualidade, quando desejado.
+- ampliar escolha;
+- integrar valores;
+- praticar;
+- rever;
+- amadurecer;
+- aprofundar sentido.
 
-# 23. Espiritualidade aberta
+Não significa:
+
+- “subir de nível vibracional” como fato;
+- se tornar “mais evoluído” que outros;
+- abandonar pensamento crítico.
+
+---
+
+# 34. Espiritualidade aberta
 
 A pessoa não precisa:
 
-- abandonar sua religião;
-- adotar uma religião;
+- abandonar religião;
+- adotar religião;
 - acreditar em radiestesia;
-- acreditar em Mesa Radiônica;
-- aceitar uma cosmologia específica;
-- concordar com toda experiência espiritual de Marcos.
+- acreditar em Mesa;
+- aceitar Anjos Cabalísticos;
+- aceitar experiência espiritual de Marcos como verdade.
 
-O Portal pode receber pessoas cristãs, espiritualistas, de tradições de matriz africana, sem filiação religiosa ou de outras tradições compatíveis com respeito mútuo.
+---
 
-# 24. Tradições religiosas específicas
+# 35. Tradições religiosas
 
-Candomblé, Umbanda, tradições cristãs, espiritismo e outros sistemas religiosos possuem fundamentos próprios.
+O Portal respeita tradições.
 
-O Portal não transforma fundamentos, ritos, cargos, iniciações ou práticas restritas dessas tradições em produtos genéricos.
+Não transforma em produto genérico:
 
-O desenvolvimento religioso pessoal de Marcos pode influenciar seus valores e amadurecimento, mas não deve ser convertido automaticamente em autoridade pública ou comercial.
+- ebó;
+- bori;
+- oferenda;
+- fundamentos;
+- cargos;
+- iniciações;
+- ritos;
+- entidades;
+- orixás;
+- nkisis;
+- sacramentos;
 
-Quando houver formação, iniciação, autorização ou reconhecimento específico, a comunicação deverá descrever exatamente o que existe — sem ampliar título, alcance ou competência.
+sem pertencimento, formação e autorização correspondentes.
 
-# 25. Espiritualidade aplicada à vida real
+---
 
-O conteúdo espiritual precisa voltar para a vida concreta.
+# 36. Desenvolvimento espiritual pessoal de Marcos
+
+Pode influenciar:
+
+- valores;
+- ética;
+- responsabilidade;
+- postura;
+- serviço;
+- profundidade.
+
+Não é convertido automaticamente em:
+
+- título;
+- autoridade comercial;
+- prova de produto.
+
+---
+
+# 37. Espiritualidade aplicada
+
+Perguntas coerentes:
+
+> “Você pede direção em oração. O que faz quando a resposta exige uma conversa que vem evitando?”
+
+> “Sua prática existe quando a vida está tranquila?”
+
+> “O que você diz valorizar e o que sua agenda mostra são a mesma coisa?”
+
+Espiritualidade retorna sempre para:
+
+- vida;
+- escolha;
+- ação;
+- responsabilidade.
+
+---
+
+# PARTE VII — SINTONIZE PROSPERIDADE NA COMUNICAÇÃO
+
+# 38. Lugar da Sintonize
+
+A **Mesa Radiônica Sintonize Prosperidade** é uma metodologia/ferramenta espiritual específica de terceiros.
+
+Ela pode futuramente ocupar um lugar importante em determinadas experiências.
+
+Ela não é:
+
+- a marca;
+- o método autoral;
+- a totalidade da jornada;
+- propriedade intelectual do Portal.
+
+---
+
+# 39. Forma de apresentação
+
+Depois da certificação e quando aplicável:
+
+> **“Em determinadas experiências, utilizo a Mesa Radiônica Sintonize Prosperidade, metodologia na qual concluí formação específica.”**
+
+A formulação deve ser ajustada ao certificado e aos direitos de uso reais.
+
+---
+
+# 40. O que não comunicar
+
+- “Nossa Mesa Sintonize.”
+- “Criamos a Sintonize.”
+- “Método Padrão Interrompido com protocolos próprios da Sintonize” sem separação.
+- “IA baseada na Sintonize.”
+- “Radar Sintonize.”
+- “Protocolo nosso” quando for oficial da formação.
+- cópia de comandos.
+- reprodução de símbolos.
+- reprodução de apostilas.
+- publicação de lista proprietária.
+
+---
+
+# 41. Tradução pública da linguagem interna
+
+A linguagem interna da formação pode incluir:
+
+- cura;
+- frequência;
+- regeneração;
+- bloqueio;
+- atração;
+- doenças;
+- hormônios;
+- limpeza.
+
+A comunicação pública não deve replicar automaticamente esses termos.
 
 Exemplos:
 
-- “Você pede direção em oração. O que faz quando a resposta exige uma conversa que você vem evitando?”
-- “Sua prática espiritual existe também quando a vida está tranquila ou só quando tudo aperta?”
-- “O que você diz valorizar e o que sua agenda mostra que você valoriza são a mesma coisa?”
+Interno:
 
-A marca não usa espiritualidade para afastar a pessoa de decisões concretas, profissionais adequados, responsabilidade financeira, relações reais ou cuidados necessários.
+> “limpeza de bloqueio”.
+
+Público possível:
+
+> **“prática espiritual de harmonização dentro da metodologia Sintonize”**
+
+quando necessário.
+
+Interno:
+
+> “atrair oportunidades”.
+
+Público:
+
+> **“trabalhar intenção, percepção e ações relacionadas a oportunidades, sem garantia de resultado.”**
+
+Interno:
+
+> “elevar frequência”.
+
+Público:
+
+> **“prática espiritual descrita dessa forma dentro da metodologia, sem tratá-la como medição científica.”**
 
 ---
 
-# PARTE VII — CLAIMS E COMPLIANCE
+# 42. Comunicação antes da certificação
 
-# 26. Princípio geral
+Durante os próximos dias:
 
-Toda comunicação deve distinguir entre:
+- não vender Sintonize como oferta central;
+- não afirmar certificação;
+- não publicar demonstração comercial como profissional já habilitado;
+- focar crescimento do YouTube;
+- produzir conteúdo amplo sobre vida, repetição, consciência e espiritualidade.
 
-1. **experiência pessoal** — “eu percebi”, “na minha experiência”;
-2. **experiência espiritual ou crença** — “dentro desta prática”, “para quem trabalha com essa visão”;
-3. **possibilidade** — “pode ajudar a observar”, “pode ser uma forma de explorar”;
-4. **serviço entregue** — o que efetivamente a pessoa receberá;
-5. **resultado observado** — relato específico, com contexto;
-6. **evidência científica** — somente quando realmente houver fonte e relação adequada.
+---
 
-Não misturar os níveis.
+# 43. Comunicação depois da certificação
 
-# 27. Saúde física e mental
+Sequência recomendada:
+
+1. atualização discreta da apresentação;
+2. explicar “o que é / o que não é”;
+3. explicar onde entra no Portal;
+4. diferenciar de Padrão Interrompido;
+5. só depois aprofundar ferramentas específicas;
+6. nunca ensinar protocolo protegido.
+
+---
+
+# PARTE VIII — ANJOS CABALÍSTICOS E ELEMENTOS ESPIRITUAIS ESPECÍFICOS
+
+# 44. Papel dos Anjos Cabalísticos
+
+Na Sintonize, os Anjos Cabalísticos possuem relevância operacional.
+
+Os materiais analisados destacam:
+
+- 06 — Lelahel;
+- 08 — Cahetel/Caehtel;
+- 43 — Veuliah;
+- 71 — Haiaiel.
+
+Classificação:
+
+| Uso | Relevância |
+|---|---|
+| operação interna Sintonize | alta |
+| devolutiva quando utilizados | média/alta |
+| conteúdo especializado | média |
+| aquisição ampla | baixa |
+| identidade da marca | baixa |
+
+---
+
+# 45. Como não usar Anjos
+
+Não usar como:
+
+- diagnóstico;
+- causa;
+- destino;
+- rótulo;
+- personalidade objetiva;
+- ferramenta de medo;
+- promessa financeira;
+- headline de massa apenas para curiosidade.
+
+---
+
+# 46. Gênio contrário
+
+Se o conceito aparecer em contexto educativo:
+
+- apresentar como parte da cosmologia/tradição do material;
+- não dizer que “está atuando” objetivamente sobre uma pessoa;
+- não usar para explicar crime, doença, problema psicológico ou destino;
+- não vender neutralização de “gênio contrário” como promessa.
+
+---
+
+# 47. Identidade visual e Anjos
+
+Anjos não devem virar:
+
+- logo;
+- asas da marca;
+- símbolo principal;
+- padrão visual dominante.
+
+Podem aparecer apenas quando o conteúdo ou experiência específica justificar.
+
+---
+
+# PARTE IX — CLAIMS, COMPLIANCE E LINGUAGEM RESPONSÁVEL
+
+# 48. Princípio geral
+
+Toda frase deve distinguir entre:
+
+1. experiência pessoal;
+2. crença ou tradição;
+3. prática espiritual;
+4. possibilidade;
+5. serviço entregue;
+6. resultado relatado;
+7. evidência científica.
+
+Não misturar.
+
+---
+
+# 49. Saúde física e mental
 
 Não usar:
 
-- “tratar ansiedade”;
-- “curar trauma”;
-- “resolver depressão”;
-- “eliminar sintomas”;
-- “descobrir a causa energética da doença”;
-- “substituir terapia”; 
-- “reverter condição médica”.
-
-Pode usar, conforme contexto:
-
-- “auto-observação”;
-- “rotina de autocuidado”;
-- “prática de presença”;
-- “organização de hábitos”;
-- “percepção de pensamentos recorrentes”;
-- “bem-estar cotidiano”, sem promessa clínica.
-
-Quando a necessidade ultrapassar o escopo, orientar busca por profissional adequado.
-
-# 28. Dinheiro e prosperidade
-
-Não usar:
-
-- “atraia R$ X”;
-- “desbloqueie riqueza” como promessa;
-- “garanta prosperidade”;
-- “elimine bloqueios financeiros e o dinheiro virá”;
-- “frequência da abundância comprovada”.
+- tratar ansiedade;
+- tratar depressão;
+- curar trauma;
+- eliminar sintoma;
+- regenerar célula;
+- equilibrar hormônio;
+- descobrir causa energética da doença;
+- substituir terapia;
+- substituir médico;
+- prevenir infarto;
+- curar doença.
 
 Pode usar:
 
-- “relação com dinheiro”;
-- “decisões financeiras recorrentes”;
-- “sensação de aperto”;
-- “organização”;
-- “comportamentos e escolhas percebidas”;
-- “prosperidade” como conceito espiritual ou tema de prática, com contexto e sem garantia financeira.
+- auto-observação;
+- rotina;
+- autocuidado;
+- presença;
+- hábitos;
+- bem-estar cotidiano;
+- pensamentos recorrentes;
+- prática de relaxamento;
+- desenvolvimento pessoal.
 
-# 29. Relacionamentos
+Quando ultrapassar escopo:
+
+> buscar profissional adequado.
+
+---
+
+# 50. Dinheiro e prosperidade
+
+Não usar:
+
+- atrair R$ X;
+- desbloquear riqueza;
+- garantir prosperidade;
+- limpar bloqueio e o dinheiro virá;
+- atrair clientes;
+- quitar dívidas por prática;
+- frequência da abundância comprovada.
+
+Pode usar:
+
+- relação com dinheiro;
+- decisões;
+- organização;
+- padrões percebidos;
+- sensação de aperto;
+- trabalho;
+- escolhas;
+- prosperidade como tema espiritual, sem garantia material.
+
+---
+
+# 51. Relacionamentos
 
 Não prometer:
 
-- trazer alguém de volta;
-- reconciliar casal;
-- fazer pessoa específica procurar o cliente;
-- alterar vontade de terceiros;
-- “limpar” alguém sem consentimento como claim comercial.
+- trazer pessoa de volta;
+- reconciliar;
+- fazer alguém procurar;
+- mudar vontade de terceiro;
+- limpar terceiro sem consentimento.
 
-Falar de:
+Pode falar:
 
 - limites;
 - comunicação;
-- padrões de escolha;
-- percepção de dinâmicas;
-- respostas pessoais;
-- práticas de reflexão e espiritualidade da própria pessoa.
-
-# 30. Urgência, escassez e prova social
-
-- urgência só quando real;
-- número de vagas só quando operacionalmente verdadeiro;
-- contador só quando conectado a disponibilidade real;
-- depoimentos somente de pessoas reais, com autorização e contexto;
-- placeholders nunca podem parecer testemunhos publicados;
-- não inventar “últimas vagas”, “últimas horas”, “turma quase fechada” ou “procura extraordinária”.
-
-A urgência preferida da marca é cognitiva:
-
-> **“Eu preciso entender isso.”**
-
-# 31. Termos espirituais sensíveis
-
-“Limpeza”, “proteção”, “desbloqueio”, “energia” e expressões similares podem aparecer como linguagem de práticas espirituais, desde que:
-
-- não sejam apresentadas como fatos científicos;
-- não prometam resultado material ou clínico;
-- a pessoa entenda o que a experiência envolve;
-- não exista apropriação de rito ou tradição restrita;
-- haja consentimento e escopo claros.
+- escolhas;
+- padrões percebidos;
+- autorresponsabilidade;
+- prática espiritual da própria pessoa.
 
 ---
 
-# PARTE VIII — DIREÇÃO VISUAL
-
-# 32. Direção-mãe
-
-A identidade visual do Portal Caminho da Consciência deve transmitir:
-
-> **profundidade + presença + espiritualidade + humanidade + estrutura.**
-
-A direção-mãe parte da linguagem visual escura e sofisticada já explorada no site, mas é atualizada para o novo nome e para uma espiritualidade mais ampla. O objetivo não é parecer “loja esotérica”, “marca de luxo”, “curso de coach” ou “template de IA espiritual”.
-
-A estética deve ter contraste entre:
-
-- **noite** — introspecção, profundidade, silêncio;
-- **ouro** — atenção, rito, valor e luz;
-- **creme** — humanidade, papel, calor e respiro;
-- **champagne** — luminosidade suave;
-- **tinta escura** — leitura e aterramento.
-
-# 33. Princípios visuais
-
-- usar espaço negativo;
-- evitar poluição;
-- privilegiar contraste e hierarquia;
-- ouro é acento, não fundo constante;
-- espiritualidade aparece por atmosfera e símbolo discreto, não por excesso de elementos místicos;
-- fotografia real e cenas cotidianas devem conviver com elementos simbólicos;
-- páginas claras e escuras podem alternar para criar ritmo;
-- mobile vem antes de ornamento;
-- legibilidade sempre vence beleza decorativa;
-- efeitos, brilhos e partículas devem ser raros e sutis.
-
----
-
-# PARTE IX — PALETA CROMÁTICA
-
-# 34. Paleta principal canônica
-
-A identidade atual combina a sofisticação quente da paleta anterior com o **Azul Noite Profundo** como cor-mãe da nova marca.
-
-| Token | Cor | Hex | Função principal |
-|---|---|---:|---|
-| Noite Profunda | Azul Noite Profundo | **#1A1938** | fundo principal, hero, vídeo, navegação, áreas de profundidade |
-| Ouro Ritual | Dourado Bronze | **#C9A25D** | títulos-chave, linhas, ícones, CTA premium, destaques |
-| Creme Quente | Creme Lunar/Quente | **#F3EADA** | fundos claros, documentos, áreas humanas, leitura |
-| Champagne | Dourado Champagne | **#F5DAB1** | luz, realce suave, detalhes sobre fundo escuro |
-| Tinta | Marrom Tinta | **#2B211B** | texto sobre fundo claro, aterramento |
-| Ouro Escuro | Ouro Profundo | **#9B7840** | dourado legível em fundo claro, estados hover/bordas |
-
-## 34.1. Cores de apoio
-
-| Token | Hex | Uso |
-|---|---:|---|
-| Índigo Neblina | **#3B3550** | planos secundários, cards escuros, gradientes discretos |
-| Pergaminho | **#E8DDD0** | fundos neutros secundários, separadores |
-| Noite Absoluta | **#0F0D14** | texto/fundo de máximo contraste, uso restrito |
-
-# 35. Proporção recomendada
-
-Não é fórmula rígida, mas referência:
-
-- Azul Noite Profundo: 35–45%;
-- Creme Quente / Pergaminho: 30–40%;
-- Tinta / Noite Absoluta: 10–15%;
-- Ouro Ritual + Ouro Escuro: 5–10%;
-- Champagne / Índigo: até 10% em apoio.
-
-# 36. Regras de uso das cores
-
-## Fundo escuro
-
-Preferir:
-
-- fundo #1A1938;
-- corpo em #F3EADA;
-- títulos/detalhes em #C9A25D ou #F5DAB1;
-- cards em #3B3550 com baixa diferença tonal;
-- linhas finas douradas, não molduras pesadas.
-
-## Fundo claro
-
-Preferir:
-
-- fundo #F3EADA ou #E8DDD0;
-- texto #2B211B;
-- títulos #1A1938;
-- acento #9B7840 ou #C9A25D quando contraste permitir.
-
-## Evitar
-
-- roxo/lavanda como cor dominante;
-- azul elétrico;
-- neon;
-- gradiente “galáxia” genérico;
-- ouro amarelo saturado;
-- branco puro em grandes áreas quando o creme funcionar melhor;
-- preto puro usado como padrão quando #0F0D14 ou #1A1938 funcionarem;
-- combinação de muitas cores espirituais numa mesma peça.
-
-# 37. Acessibilidade
-
-Toda aplicação deve validar contraste real em tela. Dourado médio não deve ser usado como texto pequeno sobre creme quando o contraste for insuficiente.
-
-Em UI:
-
-- corpo de texto deve priorizar #2B211B sobre #F3EADA ou #F3EADA sobre #1A1938;
-- dourado pode ser destaque, borda, ícone ou heading grande;
-- estado de erro, sucesso e aviso pode usar cores funcionais externas à paleta, desde que discretas e acessíveis;
-- nunca depender apenas de cor para indicar estado.
-
----
-
-# PARTE X — TIPOGRAFIA
-
-# 38. Sistema tipográfico
-
-## 38.1. Títulos principais — Cormorant Garamond
-
-Função:
-
-- identidade institucional;
-- H1/H2 editoriais;
-- capas;
-- frases de impacto;
-- títulos de documentos e experiências.
-
-Uso:
-
-- Regular 400 ou Medium 500;
-- itálico com parcimônia;
-- evitar Bold pesado;
-- tamanho e espaço dão elegância, não excesso de peso.
-
-## 38.2. Corpo e interface — Lora
-
-Função:
-
-- textos de leitura;
-- site;
-- relatórios;
-- e-mails;
-- PDFs;
-- UI editorial quando performance e legibilidade permitirem.
-
-Lora é a fonte de corpo preferencial da marca por unir calor, humanidade e leitura.
-
-## 38.3. Alternativa editorial — Playfair Display
-
-Uso restrito a:
-
-- campanhas;
-- thumbnails específicas;
-- peças de maior dramatização visual;
-- quando Cormorant não oferecer contraste suficiente.
-
-Não misturar Cormorant e Playfair indiscriminadamente na mesma peça.
-
-## 38.4. Fonte funcional de sistema
-
-Em interfaces digitais em que performance, acessibilidade ou densidade exigirem, é permitido usar uma sans-serif funcional e neutra para microcopy, formulários, tabelas e elementos de UI.
-
-Essa escolha deve ser técnica, não identidade principal. A antiga proibição absoluta de sans-serif deixa de ser canônica.
-
-Preferência: fonte do sistema ou uma família discreta, com o mínimo de protagonismo visual.
-
-# 39. Hierarquia tipográfica
-
-Referência digital:
-
-- H1: Cormorant Garamond, grande, leve, line-height fechado;
-- H2: Cormorant Garamond;
-- H3: Lora ou Cormorant menor conforme contexto;
-- corpo: Lora 16–18px no site quando possível;
-- microcopy/UI: Lora ou sans funcional 13–15px;
-- eyebrow: caixa alta, tracking amplo, uso muito moderado;
-- CTA: legibilidade primeiro; não usar script/caligráfica.
-
-# 40. Tipografia proibida como identidade principal
+# 52. Causalidade espiritual
 
 Evitar:
 
-- fontes caligráficas “místicas”;
-- lettering ornamental difícil de ler;
-- Montserrat/Inter como voz visual principal da marca;
-- serifas excessivamente decorativas;
-- caixa alta em parágrafos;
-- bold excessivo como forma de criar impacto.
+> “Você perdeu esse emprego porque sua energia estava bloqueada.”
+
+Preferir:
+
+> **“Dentro de determinadas práticas espirituais, algumas pessoas utilizam a linguagem de energia para refletir sobre a experiência. Isso não prova uma causa objetiva.”**
 
 ---
 
-# PARTE XI — FOTOGRAFIA, VÍDEO E IA VISUAL
+# 53. Frequência, Hz e escalas
 
-# 41. Princípio visual humano
+Não apresentar frequência espiritual como:
 
-> **A imagem deve parecer um momento vivido, não uma ilustração genérica de “espiritualidade”.**
+- medição clínica;
+- medição física da pessoa;
+- fato científico;
+- algoritmo;
+- score digital.
 
-Priorizar:
+O Portal não vende:
 
-- cozinha real;
+- medidor de vibração;
+- Radar de Hz;
+- Escala espiritual automatizada.
+
+---
+
+# 54. Reprogramação e auto-hipnose
+
+Quando utilizada:
+
+- descrever como prática de foco, imaginação, atenção e sugestão;
+- respeitar competência real;
+- não prometer “reprogramar cérebro” clinicamente;
+- não usar para tratar transtorno.
+
+---
+
+# 55. Urgência e escassez
+
+Só usar quando real.
+
+Preferência:
+
+> **“Eu preciso entender isso.”**
+
+e não:
+
+> “Se eu não comprar agora, algo ruim acontece.”
+
+---
+
+# 56. Depoimentos
+
+Somente:
+
+- reais;
+- autorizados;
+- contextualizados;
+- sem edição enganosa.
+
+Nunca:
+
+- inventar;
+- usar placeholder como prova;
+- sugerir resultado típico sem base;
+- transformar relato espiritual em comprovação científica.
+
+---
+
+# PARTE X — DIREÇÃO VISUAL
+
+# 57. Direção-mãe
+
+A identidade deve transmitir:
+
+> **profundidade + presença + espiritualidade + humanidade + estrutura.**
+
+A base visual já implementada no site é coerente com esta direção e deve ser refinada, não substituída por estética angelical ou “Mesa”.
+
+---
+
+# 58. O que a marca não deve parecer
+
+- loja esotérica;
+- marca de luxo ostentatória;
+- curso de coach;
+- perfil de astrologia genérico;
+- “AI spirituality”;
+- site de clínica;
+- templo digital;
+- marca exclusivamente angelical.
+
+---
+
+# 59. Contraste visual
+
+A identidade combina:
+
+- **Noite** — profundidade;
+- **Ouro** — foco, valor e rito;
+- **Creme** — humanidade e leitura;
+- **Champagne** — luminosidade;
+- **Tinta** — aterramento.
+
+---
+
+# 60. Princípios visuais
+
+- espaço negativo;
+- hierarquia;
+- contraste;
+- ouro como acento;
+- espiritualidade por atmosfera;
+- cena real + símbolo discreto;
+- alternância claro/escuro;
+- mobile first;
+- legibilidade;
+- efeitos raros;
+- nenhum ornamento deve prejudicar compreensão.
+
+---
+
+# PARTE XI — PALETA, TIPOGRAFIA E ACESSIBILIDADE
+
+# 61. Paleta principal
+
+| Token | Cor | Hex | Função |
+|---|---|---:|---|
+| Noite Profunda | Azul Noite Profundo | **#1A1938** | fundo, hero, nav, profundidade |
+| Ouro Ritual | Dourado Bronze | **#C9A25D** | acento, títulos, linhas, CTA |
+| Creme Quente | Creme | **#F3EADA** | fundo claro, PDFs, leitura |
+| Champagne | Dourado Champagne | **#F5DAB1** | luz, detalhe |
+| Tinta | Marrom Tinta | **#2B211B** | texto em claro |
+| Ouro Escuro | Ouro Profundo | **#9B7840** | acento em fundo claro |
+
+Apoio:
+
+| Token | Hex | Uso |
+|---|---:|---|
+| Índigo Neblina | **#3B3550** | cards/planos secundários |
+| Pergaminho | **#E8DDD0** | fundos neutros |
+| Noite Absoluta | **#0F0D14** | contraste restrito |
+
+---
+
+# 62. Proporção de referência
+
+- Noite Profunda: 35–45%;
+- Creme/Pergaminho: 30–40%;
+- Tinta/Noite Absoluta: 10–15%;
+- Ouro: 5–10%;
+- Champagne/Índigo: até 10%.
+
+Não é fórmula rígida.
+
+---
+
+# 63. Evitar cores
+
+- lavanda dominante;
+- roxo anjo dominante;
+- neon;
+- galáxia genérica;
+- dourado amarelo saturado;
+- combinação arco-íris espiritual.
+
+---
+
+# 64. Tipografia
+
+## Títulos — Cormorant Garamond
+
+- institucional;
+- H1/H2;
+- capas;
+- frases-chave.
+
+## Corpo — Lora
+
+- site;
+- PDF;
+- e-mail;
+- relatório;
+- leitura longa.
+
+## Alternativa — Playfair Display
+
+Uso restrito.
+
+## Sans funcional
+
+Permitida em:
+
+- formulário;
+- tabela;
+- UI;
+- microcopy;
+- dashboard.
+
+A antiga proibição absoluta de sans não é canônica.
+
+---
+
+# 65. Hierarquia digital
+
+- H1: Cormorant Garamond;
+- H2: Cormorant;
+- H3: Lora/Cormorant;
+- corpo: Lora 16–18px quando possível;
+- UI: Lora ou sans 13–16px;
+- eyebrow: caixa alta moderada;
+- CTA: legibilidade.
+
+---
+
+# 66. Mobile first
+
+Toda aplicação digital deve ser avaliada primeiro em:
+
+- 360 px;
+- 375 px;
+- 430 px;
+
+e depois:
+
+- 768 px;
+- desktop.
+
+Regras:
+
+- nenhuma quebra ruim;
+- nenhum overflow;
+- CTA tocável;
+- corpo legível;
+- hierarquia clara;
+- ornamento reduzido no mobile.
+
+---
+
+# 67. Acessibilidade
+
+- contraste real;
+- foco visível;
+- não depender apenas de cor;
+- texto alternativo quando aplicável;
+- botões com área de toque adequada;
+- corpo não excessivamente pequeno;
+- dourado não usado em texto pequeno quando contraste for insuficiente.
+
+---
+
+# PARTE XII — FOTOGRAFIA, VÍDEO, IA VISUAL E DIREÇÃO DE ARTE
+
+# 68. Princípio humano
+
+> **A imagem deve parecer um momento vivido, não uma ilustração genérica de espiritualidade.**
+
+---
+
+# 69. Priorizar
+
+- cozinha;
 - mesa de trabalho;
-- celular na mão;
-- sala, corredor, quarto, carro, rua;
-- objetos cotidianos;
-- mãos, gestos e pequenos comportamentos;
-- luz natural ou iluminação cinematográfica discreta;
-- pessoas com expressão contida, não teatral.
+- celular;
+- quarto;
+- carro;
+- rua;
+- mãos;
+- agenda;
+- banco;
+- luz natural;
+- gesto pequeno;
+- expressão contida.
 
-# 42. Espiritualidade visual
+---
+
+# 70. Espiritualidade visual
 
 Pode aparecer por:
 
 - silêncio;
 - luz;
-- vela, quando contextual;
+- vela contextual;
 - mãos em oração;
 - caderno;
-- altar pessoal real e respeitoso;
+- altar real e respeitoso;
 - geometria discreta;
-- textura de papel;
-- símbolos abstratos próprios;
 - natureza;
-- espaço vazio;
-- sombra/luz.
-
-Evitar como padrão:
-
-- pessoa com olhos fechados e mãos abertas para o universo;
-- aura colorida artificial;
-- chakras brilhando;
-- galáxias sobrepostas ao rosto;
-- excesso de cristais;
-- asas angelicais genéricas;
-- “energia saindo das mãos”;
-- símbolos de tradições usados só por estética;
-- iconografia religiosa sem contexto ou legitimidade.
-
-# 43. Marcos em foto e vídeo
-
-Marcos deve aparecer:
-
-- acessível;
-- sereno;
-- presente;
-- vestido de forma compatível com sua vida real;
-- sem figurino sacerdotal ou místico sem legitimidade;
-- olhando para a câmera como quem conversa, não como quem proclama;
-- em ambientes reais e coerentes com o projeto.
-
-Evitar:
-
-- poses de guru;
-- braços cruzados de “especialista” como padrão;
-- olhar excessivamente dramático;
-- cenário cenográfico espiritual sem relação real com a prática;
-- edição que transforme idade, rosto ou corpo de forma artificial.
-
-# 44. IA visual
-
-IA pode ser usada para:
-
-- cenas narrativas;
-- conceitos de thumbnail;
-- moodboards;
-- variações de composição;
-- animação de imagens;
-- B-roll impossível ou caro de captar;
-- testes rápidos de criativos.
-
-Mas a peça precisa passar por um teste de humanidade.
-
-## 44.1. Sinais de imagem de IA que exigem rejeição
-
-- pele plástica;
-- emoção teatral;
-- casa perfeita demais;
-- iluminação impossível;
-- mãos/objetos estranhos;
-- símbolos espirituais aleatórios;
-- excesso de glow;
-- composição de banco de imagem;
-- texto gerado dentro da imagem;
-- estética que não corresponde ao Brasil ou ao público real quando o contexto exige.
-
-# 45. Vídeos gerados por IA
-
-Usar principalmente como narrativa visual ou B-roll. Narração, texto e ritmo precisam ser específicos.
-
-Não criar uma “personagem espiritual” artificial para substituir Marcos como autoridade central.
+- sombra;
+- espaço vazio.
 
 ---
 
-# PARTE XII — SISTEMA GRÁFICO
+# 71. Evitar como padrão
 
-# 46. Formas e linhas
+- aura;
+- chakras brilhando;
+- galáxia no rosto;
+- excesso de cristais;
+- asas;
+- energia saindo das mãos;
+- símbolo religioso como decoração;
+- figura humana “iluminada” de IA;
+- portal cósmico genérico.
 
-Preferir:
+---
+
+# 72. Marcos em foto/vídeo
+
+Marcos deve parecer:
+
+- acessível;
+- sereno;
+- real;
+- presente;
+- vestido de forma coerente;
+- sem figurino místico;
+- sem pose de autoridade absoluta;
+- olhando como quem conversa.
+
+---
+
+# 73. IA visual
+
+Pode:
+
+- criar cenas;
+- thumbnails;
+- moodboards;
+- B-roll;
+- variações.
+
+Rejeitar:
+
+- pele plástica;
+- expressão teatral;
+- cenário perfeito demais;
+- iluminação impossível;
+- mãos estranhas;
+- símbolos aleatórios;
+- glow excessivo;
+- estética genérica;
+- texto gerado na imagem;
+- contexto cultural incoerente.
+
+---
+
+# 74. Vídeo gerado por IA
+
+Principalmente:
+
+- narrativa;
+- B-roll;
+- apoio visual.
+
+Não criar “guru virtual” para substituir Marcos.
+
+---
+
+# PARTE XIII — SISTEMA GRÁFICO, SÍMBOLOS E PROPRIEDADE VISUAL
+
+# 75. Formas preferenciais
 
 - círculos incompletos;
-- caminhos/linhas contínuas;
-- portais abstratos;
-- arcos;
-- pontos de conexão;
-- mapas discretos;
-- geometrias de repetição;
-- linhas finas douradas;
-- marcas de passagem/etapas.
+- caminho;
+- linha contínua;
+- arco;
+- portal abstrato;
+- ponto de conexão;
+- mapa discreto;
+- repetição geométrica;
+- linhas finas.
 
-Esses elementos devem sugerir caminho, observação, conexão e aprofundamento.
+---
 
-# 47. Símbolo de marca
+# 76. Símbolo definitivo da marca
 
-O símbolo definitivo ainda pode ser desenvolvido, mas deve evitar dependência de:
+Ainda aberto.
 
-- anjos;
-- asas;
-- moedas;
-- cifrões;
-- mandalas genéricas;
-- olho místico genérico;
-- chakras;
-- flor de lótus de banco de ícones.
+Evitar dependência de:
 
-Direções preferenciais:
+- anjo;
+- asa;
+- moeda;
+- cifrão;
+- mandala genérica;
+- olho místico;
+- chakra;
+- flor de lótus genérica.
 
-- portal/arco + caminho;
-- círculo aberto + linha em progressão;
-- geometria que sugira entrada e continuidade;
-- símbolo simples que funcione em favicon e selo.
+Direções:
 
-# 48. Texturas
+- arco + caminho;
+- círculo aberto;
+- linha em progressão;
+- geometria simples de entrada e continuidade.
+
+---
+
+# 77. Símbolos Sintonize
+
+Não utilizar como:
+
+- logo do Portal;
+- padrão gráfico da marca;
+- elemento decorativo público;
+- ícone de produto próprio;
+
+sem autorização específica.
+
+Mesmo quando Marcos puder utilizar a metodologia em atendimento, isso não implica direito irrestrito de apropriação visual.
+
+---
+
+# 78. Anjos na identidade
+
+Não são identidade central.
+
+Podem aparecer:
+
+- em conteúdo específico;
+- em explicação de ferramenta;
+- em contexto Sintonize;
+
+com parcimônia.
+
+---
+
+# 79. Texturas
 
 Permitidas:
 
 - papel;
-- grão muito leve;
-- metal dourado fosco;
-- sombra suave;
-- textura mineral discreta.
+- grão suave;
+- metal fosco;
+- sombra;
+- mineral discreto.
 
 Evitar:
 
 - glitter;
-- partículas douradas constantes;
-- mármore de luxo como padrão;
+- partículas;
+- mármore luxuoso;
 - universo estrelado genérico;
 - glow intenso.
 
-# 49. Ícones
+---
+
+# 80. Ícones
 
 - linha fina;
 - simples;
-- coerentes entre si;
-- preferencialmente monocromáticos;
-- ouro, creme ou tinta conforme fundo;
-- não misturar cinco estilos de ícone.
+- coerentes;
+- monocromáticos;
+- acessíveis;
+- não misturar estilos.
 
 ---
 
-# PARTE XIII — APLICAÇÕES POR CANAL
+# PARTE XIV — APLICAÇÕES POR CANAL
 
-# 50. Site institucional
+# 81. Site
 
-O site deve equilibrar:
+O site deve:
 
-- abertura forte em fundo escuro;
-- blocos claros para leitura longa;
-- presença de vida real;
-- espiritualidade sugerida, não caricaturada;
-- títulos elegantes;
-- corpo altamente legível;
-- CTA claro;
-- espaços de explicação do método e da jornada;
-- provas e limites apresentados com transparência.
+- priorizar mobile;
+- usar hero escuro;
+- alternar blocos claros;
+- manter CTA claro;
+- usar tipografia legível;
+- mostrar método e limites;
+- preservar marca nova;
+- evitar retorno visual à antiga identidade angelical.
 
-O nome **Portal Caminho da Consciência** deve ter prioridade institucional. Nomes antigos não devem permanecer em metadata, footer, title, Open Graph, schema, e-mails ou URLs canônicas, salvo redirects/histórico técnico.
+Domínio canônico:
 
-# 51. YouTube
+> **https://portalcaminhodaconsciencia.com.br**
 
-## Thumbnails
+---
 
-- uma ideia visual;
-- rosto de Marcos quando ajudar confiança;
+# 82. Página do Mapeamento
+
+A oferta pública atual deve apresentar:
+
+> **Mapeamento Padrão Interrompido — Individual**
+
+Sem afirmar Sintonize como componente obrigatório enquanto isso não for formalmente decidido.
+
+Se a oferta mudar, página, claims e Documentos 02/04 precisam ser atualizados de forma coordenada.
+
+---
+
+# 83. YouTube
+
+Thumbnails:
+
+- uma ideia;
 - texto curto;
-- contraste alto;
-- cena ou objeto reconhecível;
-- evitar “espiritualidade genérica” como primeira linguagem;
-- fundo escuro pode ser assinatura, mas não obrigação em todas as peças;
-- ouro como acento, não como texto inteiro.
+- contraste;
+- rosto de Marcos quando útil;
+- objeto/cena;
+- evitar misticismo genérico;
+- ouro como acento.
 
-## Vídeos longos
+Vídeos:
 
-A identidade deve aparecer em:
-
-- abertura curta;
-- lower thirds discretos;
-- cards de capítulo;
+- intro curta;
+- identidade discreta;
+- cenário real;
 - gráficos simples;
-- assinatura sonora discreta, se houver;
-- cenário real coerente com a paleta.
+- sem abertura longa de logo.
 
-Não usar intro longa de logo.
+---
 
-# 52. Shorts/Reels
+# 84. Shorts/Reels
 
-- prioridade absoluta para reconhecimento e retenção;
-- identidade não pode ocupar os primeiros segundos antes do hook;
-- texto grande e legível;
-- uma ou duas cores principais por peça;
-- logo pequeno ou dispensável quando o perfil já identifica a origem;
-- manter safe areas;
-- transições simples;
-- música discreta.
+- hook antes da marca;
+- texto grande;
+- safe area;
+- 1–2 cores dominantes;
+- transições funcionais;
+- música discreta;
+- logo pequeno ou dispensável.
 
-# 53. PDFs e relatórios
+---
+
+# 85. PDFs e relatórios
 
 Devem parecer:
 
 - claros;
-- organizados;
 - pessoais;
-- premium sem luxo artificial;
+- estruturados;
 - legíveis em celular;
-- com uso funcional de mapas, etapas e destaques.
+- premium sem luxo artificial.
 
-O Mapeamento não deve parecer laudo clínico.
+O relatório não deve parecer:
 
-Termos como “resultado”, “leitura”, “observação”, “áreas percebidas” e “próximos passos” devem ser usados conforme o serviço real.
+- laudo;
+- prontuário;
+- diagnóstico;
+- cópia do relatório Sintonize.
 
-# 54. E-mail e WhatsApp
+---
 
-A voz fica ainda mais simples.
+# 86. E-mail e WhatsApp
 
-Evitar:
-
-- grandes blocos de manifesto;
-- excesso de emoji;
-- frases de “energia do dia” genéricas;
-- falsa intimidade;
-- saudação espiritual obrigatória.
+Mais simples que o site.
 
 Preferir:
 
-- contexto rápido;
+- contexto;
 - uma ideia;
-- uma pergunta ou ação;
+- uma pergunta;
+- uma ação;
 - assinatura humana.
 
-# 55. Anúncios
+Evitar:
 
-A marca não deve tentar colocar toda a filosofia no anúncio.
+- manifesto;
+- emoji demais;
+- “energia do dia”;
+- falsa intimidade;
+- saudação espiritual obrigatória.
 
-Ordem preferida:
+---
 
-1. cena concreta;
+# 87. Anúncios
+
+Ordem:
+
+1. cena;
 2. tensão;
 3. reconhecimento;
 4. virada;
 5. próximo passo.
 
-Para tráfego frio, “Caminho da Consciência”, “Padrão Interrompido” e espiritualidade entram depois que a pessoa reconheceu a situação, salvo campanhas de intenção específica.
+Não tentar explicar toda filosofia.
 
 ---
 
-# PARTE XIV — IDENTIDADE DE PRODUTOS E SUBMARCAS
+# 88. Search pago
 
-# 56. Regra de arquitetura
+Quando ativado:
 
-Produtos devem parecer partes do mesmo caminho, não empresas separadas.
+- message match;
+- claims compatíveis;
+- sem uso oportunista de “cura”, “dinheiro” ou “espiritualidade”;
+- termos Sintonize/radiestesia somente quando oferta e certificação estiverem adequadas.
 
-Estrutura recomendada:
+---
 
-**Portal Caminho da Consciência**  
-→ Método Padrão Interrompido  
-→ Radar / Mapeamento / Protocolos / Jornada / Reavaliação / Comunidade
+# PARTE XV — IDENTIDADE DE PRODUTOS E SISTEMAS DE TERCEIROS
 
-# 57. Assinatura de produto
+# 89. Arquitetura de marca
 
-Exemplo:
+> **Portal Caminho da Consciência**  
+> → Método Padrão Interrompido  
+> → Mapeamento / Radar / Protocolos / Jornada / Reavaliação / Comunidade
+
+Sintonize entra como:
+
+> **metodologia específica utilizada em determinada experiência**
+
+e não como subproduto autoral.
+
+---
+
+# 90. Assinatura de produto
 
 > **Mapeamento Padrão Interrompido**  
 > uma experiência do Portal Caminho da Consciência
 
-ou, em comunicação compacta:
+---
 
-> **Padrão Interrompido · Portal Caminho da Consciência**
+# 91. Assinatura com Sintonize — futura
 
-# 58. Sistemas de terceiros
+Quando houver decisão formal:
 
-Se uma Mesa, técnica ou sistema de terceiro for autorizado e utilizado, sua identidade deve permanecer corretamente atribuída e separada da propriedade intelectual do Portal.
+> **Mapeamento Padrão Interrompido**  
+> com aplicação da Mesa Radiônica Sintonize Prosperidade
 
-O Portal não deve sugerir que criou, certificou ou possui um sistema que pertence a terceiros.
+somente se:
+
+- isso representar a entrega real;
+- certificação estiver concluída;
+- uso da nomenclatura estiver autorizado;
+- comunicação tiver sido atualizada.
 
 ---
 
-# PARTE XV — QA DE VOZ E IDENTIDADE
+# 92. Co-branding
 
-# 59. Checklist de aprovação de qualquer peça
+Nunca criar impressão de:
 
-Antes de publicar, responder:
+- sociedade;
+- chancela;
+- parceria;
+- certificação institucional;
+- propriedade;
 
-## Identidade
+que não existam.
 
-- está claro que pertence ao Portal Caminho da Consciência?
-- usa paleta e tipografia de forma coerente?
-- a hierarquia é legível em celular?
-- parece espiritual sem parecer template esotérico?
-- existe excesso de ouro, brilho, símbolos ou ornamentação?
+A marca Sintonize deve ser tratada com atribuição factual.
+
+---
+
+# PARTE XVI — QA DE COMUNICAÇÃO, MARCA E AUTORIA
+
+# 93. Checklist geral
+
+## Marca
+
+- parece Portal Caminho da Consciência?
+- está coerente com paleta?
+- é legível em mobile?
+- parece humano?
+- parece espiritual sem ser genérico?
 
 ## Voz
 
-- parece uma pessoa falando com outra?
-- existe cena ou especificidade real?
-- há jargão desnecessário?
-- existe alguma frase “bonita” mas vazia?
-- poderia ser publicado por qualquer perfil de autoconhecimento?
+- há cena?
+- há clareza?
+- parece conversa?
+- tem abstração demais?
+- existe copy pronta?
 
 ## Marcos
 
-- Marcos falaria isso naturalmente?
-- a peça constrói autoridade por clareza ou por superioridade?
-- a história pessoal está servindo a quem assiste?
+- ele falaria isso?
+- o título profissional é verdadeiro?
+- existe autoridade exagerada?
+- a experiência pessoal virou regra universal?
 
 ## Espiritualidade
 
-- a crença está sendo apresentada como crença/experiência?
-- há respeito à liberdade religiosa?
-- algum símbolo, rito ou tradição foi usado apenas como estética?
-- a espiritualidade continua conectada à vida real?
+- crença está identificada como crença?
+- existe liberdade religiosa?
+- há rito usado como decoração?
+- a espiritualidade volta à vida real?
+
+## Sintonize
+
+- está corretamente atribuída?
+- há material copiado?
+- há protocolo reproduzido?
+- parece que o Portal criou a metodologia?
+- certificação já está formalizada?
 
 ## Compliance
 
-- existe promessa de cura, renda, reconciliação ou resultado garantido?
-- existe diagnóstico?
-- existe causalidade espiritual apresentada como fato?
-- depoimento e escassez são reais?
-- a pessoa entende o que está sendo oferecido?
+- promete cura?
+- promete dinheiro?
+- promete reconciliação?
+- promete destino?
+- diagnostica?
+- afirma causa espiritual?
+- depoimento é real?
+- escassez é real?
 
-Se qualquer resposta indicar risco, a peça deve ser revista.
+---
 
-# 60. Auditoria “zero IA genérica”
+# 94. Auditoria zero IA genérica
 
-Reprovar quando houver:
+Reprovar:
 
 - abertura genérica;
-- excesso de paralelismo;
-- frases com estrutura perfeita demais;
-- cinco metáforas em um parágrafo;
-- termos abstratos sem cena;
-- motivação intercambiável;
-- conclusão do tipo “e lembre-se…” sem necessidade;
-- CTA que não nasce do conteúdo;
-- uso repetitivo de “talvez”, “não é sobre”, “é sobre”, “você merece”; 
-- thumbnails com estética genérica de IA espiritual.
+- paralelismo perfeito;
+- metáfora em excesso;
+- abstração sem cena;
+- “você merece” automático;
+- conclusão “e lembre-se...”;
+- CTA que não nasce da peça;
+- imagem espiritual de banco de IA;
+- frase que qualquer marca poderia usar.
 
-# 61. Teste de reconhecimento
+---
 
-A peça ideal deve produzir pelo menos uma destas respostas:
+# 95. Auditoria de propriedade intelectual
+
+Antes de publicar algo derivado de formação:
+
+1. estamos copiando texto?
+2. estamos copiando lista?
+3. estamos copiando sequência?
+4. estamos reproduzindo símbolo?
+5. estamos ensinando protocolo?
+6. estamos chamando de nosso?
+7. atribuição resolve?
+8. o tema pode ser transformado em conteúdo humano original?
+
+Se houver dúvida:
+
+> **não publicar até revisar.**
+
+---
+
+# 96. Teste de reconhecimento
+
+Resposta desejada:
 
 - “isso aconteceu comigo ontem”;
 - “como ele sabe que eu faço isso?”;
-- “nunca tinha ligado uma coisa à outra”;
-- “eu preciso entender isso melhor”;
+- “nunca tinha ligado essas coisas”;
+- “eu preciso entender melhor”;
 - “é exatamente essa sensação”.
 
 ---
 
-# PARTE XVI — GOVERNANÇA DA MARCA
+# PARTE XVII — GOVERNANÇA DA MARCA
 
-# 62. Fonte de verdade
+# 97. Fonte de verdade
 
-A identidade será governada por este Documento 04.
+Este Documento 04 governa:
 
-Implementações técnicas — CSS tokens, componentes, temas, logos, assets, templates — pertencem ao Documento 05 e ao código, mas não podem alterar os princípios definidos aqui sem decisão estratégica.
+- voz;
+- visual;
+- espiritualidade pública;
+- claims;
+- apresentação de Marcos;
+- aplicação de marca.
 
-# 63. Uso por agentes de IA
+Documento 00 governa fronteiras de autoria e terceiros.
 
-ChatGPT, Claude, Codex e outros agentes devem receber, sempre que relevante:
+Documento 05 governa implementação técnica.
 
-- nome oficial da marca;
-- essência;
+---
+
+# 98. Uso por agentes de IA
+
+Agentes devem receber quando relevante:
+
+- Documento 00;
+- Documento 01;
+- este Documento 04;
+- estado do CURRENT;
 - TOM MARCOS;
-- regra zero IA genérica;
 - paleta;
 - tipografia;
-- claims permitidos/proibidos;
-- limites espirituais;
-- hierarquia Portal → Caminho → Método → Produtos.
+- claims;
+- regras Sintonize;
+- estado da certificação.
 
 Agentes não podem decidir sozinhos:
 
-- mudar nome;
-- criar título religioso para Marcos;
-- introduzir nova tradição espiritual como identidade;
-- alterar paleta-mãe;
-- criar promessa comercial incompatível;
+- mudar marca;
+- mudar título de Marcos;
+- inventar certificação;
+- usar símbolo de terceiro;
+- mudar paleta-mãe;
+- criar claim;
 - redefinir método;
-- usar propriedade intelectual de terceiros sem autorização.
+- copiar formação;
+- transformar Sintonize em produto digital.
 
-# 64. Migração da marca antiga
+---
 
-A troca de **Portal Anjos da Prosperidade** para **Portal Caminho da Consciência** deve remover resíduos públicos do posicionamento antigo.
+# 99. Migração da marca antiga
 
-Auditar:
+A migração para Portal Caminho da Consciência está em fase operacional avançada.
+
+Devem permanecer auditados:
 
 - GitHub;
 - Netlify;
 - domínio;
-- títulos e metadata;
+- metadata;
 - Open Graph;
 - JSON-LD;
-- favicon/logo;
-- imagens antigas;
-- e-mails;
+- logo;
+- e-mail;
 - checkout;
 - analytics;
 - formulários;
 - documentos;
-- páginas de venda;
-- perfis sociais;
+- redes sociais;
 - automações;
-- PDFs;
-- nomes internos de projeto quando fizer sentido.
+- PDFs.
 
-Não realizar substituição cega de “prosperidade”. A palavra pode continuar legitimamente em conteúdo, área de vida, protocolo ou tema espiritual.
+Não substituir cegamente a palavra “prosperidade”.
 
-# 65. Domínio antigo
+Ela continua legítima como:
 
-Se o domínio antigo já estiver ativo ou indexado, ele deve ser tratado como ativo de migração e redirecionamento, não simplesmente abandonado.
-
-O domínio principal definitivo da nova marca deve ser registrado no Documento 05/CURRENT quando decidido.
+- tema;
+- conceito;
+- nome da Sintonize;
+- área específica.
 
 ---
 
-# PARTE XVII — DECISÕES FECHADAS E ABERTAS
+# 100. Domínio principal
 
-# 66. Decisões fechadas
+Decisão fechada:
 
-1. nome da marca: **Portal Caminho da Consciência**;
-2. “Caminho” permanece no singular;
-3. espiritualidade é dimensão explícita da marca;
-4. a marca não está vinculada exclusivamente a anjos ou a uma linha espiritual específica;
-5. o Método Padrão Interrompido permanece como método central;
-6. “voltar ao mesmo lugar” permanece como território de reconhecimento;
-7. voz humana e TOM MARCOS são regras estruturais;
-8. a identidade visual será premium, sóbria, quente e espiritual sem estética esotérica genérica;
-9. **Azul Noite Profundo #1A1938** é a cor-mãe proposta/canônica desta versão;
-10. **Dourado Bronze #C9A25D**, **Creme Quente #F3EADA** e **Champagne #F5DAB1** permanecem como núcleo de continuidade visual;
-11. Cormorant Garamond é a serif principal de títulos;
-12. Lora é a fonte preferencial de corpo;
-13. uso funcional de sans-serif em UI é permitido quando tecnicamente justificável;
-14. IA visual é ferramenta de produção, não estética da marca;
-15. claims clínicos, financeiros garantidos e causalidade espiritual absoluta são proibidos.
+> **portalcaminhodaconsciencia.com.br**
 
-# 67. Decisões ainda abertas
+Esse é o domínio institucional canônico.
 
-1. logotipo e símbolo definitivos;
-2. domínio principal da nova marca;
-3. nomenclatura definitiva das atuais “8 Prosperidades”;
+---
+
+# PARTE XVIII — DECISÕES FECHADAS, ABERTAS E SÍNTESE
+
+# 101. Decisões fechadas
+
+1. marca: **Portal Caminho da Consciência**;
+2. Caminho permanece singular;
+3. espiritualidade é explícita;
+4. marca não é exclusivamente angelical;
+5. método próprio: **Padrão Interrompido**;
+6. Sintonize é metodologia de terceiros;
+7. 8 Prosperidades pertencem à Sintonize quando referidas dessa forma;
+8. Protocolos Sintonize e Protocolos Padrão Interrompido são distintos;
+9. “voltar ao mesmo lugar” permanece território de reconhecimento;
+10. TOM MARCOS é regra estrutural;
+11. Marcos não usa “terapeuta” como identidade pública;
+12. certificação Sintonize não pode ser antecipada;
+13. Anjos Cabalísticos não são eixo da marca;
+14. identidade visual é premium, sóbria, quente e espiritual;
+15. Azul Noite Profundo #1A1938 é cor-mãe;
+16. Dourado #C9A25D, Creme #F3EADA e Champagne #F5DAB1 permanecem núcleo visual;
+17. Cormorant Garamond é serif principal;
+18. Lora é corpo preferencial;
+19. sans funcional é permitida;
+20. IA visual é ferramenta, não estética;
+21. mobile first é obrigatório;
+22. claims clínicos, financeiros garantidos e causalidade espiritual absoluta são proibidos;
+23. domínio principal: `portalcaminhodaconsciencia.com.br`;
+24. oferta pública vigente: Mapeamento Padrão Interrompido — R$197;
+25. Sintonize ainda não é componente obrigatório publicamente declarado da oferta;
+26. Google Search pago está preparado e adiado;
+27. prioridade imediata: crescimento orgânico do YouTube.
+
+---
+
+# 102. Decisões abertas
+
+1. logotipo definitivo;
+2. símbolo definitivo;
+3. mapa autoral definitivo de domínios do Padrão Interrompido;
 4. identidade aspiracional/comunitária dos participantes;
-5. nome do primeiro quadro editorial recorrente;
-6. sistema sonoro/assinatura musical;
-7. biblioteca oficial de ícones;
-8. design system digital completo e tokens finais no código;
-9. grau de presença visual de elementos geométricos espirituais;
-10. identidade específica de sistemas/Mesas de terceiros caso haja autorização formal.
+5. nome do quadro editorial;
+6. sistema sonoro;
+7. biblioteca de ícones;
+8. design system técnico completo;
+9. grau de geometria espiritual;
+10. identidade visual de experiências Sintonize;
+11. formulação pública final da qualificação após certificação;
+12. integração comercial definitiva Sintonize + Mapeamento;
+13. grau de presença de conteúdo sobre Anjos;
+14. identidade futura da Jornada e Comunidade.
 
 ---
 
-# 68. Síntese canônica
+# 103. Síntese canônica
 
 ## Como o Portal deve parecer
 
-Profundo, sóbrio, humano, quente, espiritual e estruturado.
+> **Profundo, sóbrio, humano, quente, espiritual e estruturado.**
 
 ## Como o Portal deve soar
 
-Como alguém que observa a vida com atenção, organiza o que percebe e conversa sem pose.
+> **Como alguém que observa a vida com atenção, organiza o que percebe e conversa sem pose.**
 
 ## Como Marcos deve soar
 
 > **Uma pessoa contando algo importante para outra pessoa.**
 
-## O que a identidade nunca deve sacrificar
+## Como falar de Sintonize
 
-Verdade por estética. Clareza por mistério. Humanidade por automação. Responsabilidade por conversão.
+> **Com atribuição, contexto, limites e sem apropriação.**
+
+## Como falar de espiritualidade
+
+> **Como caminho de sentido, prática e consciência, não como certeza absoluta sobre o invisível.**
+
+## O que nunca sacrificar
+
+> **Verdade por estética. Clareza por mistério. Humanidade por automação. Responsabilidade por conversão. Autoria por conveniência.**
 
 ## Frase visual-conceitual
 
@@ -1314,21 +2114,37 @@ Verdade por estética. Clareza por mistério. Humanidade por automação. Respon
 
 ## Regra final
 
-> **A marca não precisa parecer mística para ser espiritual. Não precisa parecer perfeita para ser confiável. Precisa parecer verdadeira.**
+> **A marca não precisa parecer mística para ser espiritual. Não precisa parecer perfeita para ser confiável. Não precisa se apropriar de uma tradição ou formação para ser profunda. Precisa parecer verdadeira.**
 
 ---
 
-# 69. Encerramento e governança
+# 104. Governança da versão
 
-Este documento deve ser alterado apenas quando houver mudança deliberada na identidade, voz, espiritualidade pública, claims ou sistema visual do Portal.
+Esta V2.0 substitui integralmente a V1.0.
 
-Mudanças operacionais pequenas podem ser registradas no CURRENT. Mudanças que alterem percepção, posicionamento ou linguagem central exigem nova versão deste documento.
+Ela deve ser revisada quando houver mudança deliberada em:
 
-Toda atualização deve registrar:
+- marca;
+- posicionamento;
+- voz;
+- qualificação pública de Marcos;
+- integração Sintonize;
+- claims;
+- identidade visual;
+- propriedade intelectual;
+- produtos que alterem arquitetura de comunicação.
+
+Mudanças operacionais pequenas pertencem ao CURRENT.
+
+Toda atualização canônica deve registrar:
 
 - versão;
 - data;
-- decisão que motivou a mudança;
-- impacto em site, conteúdo, produtos, documentos e tecnologia.
+- decisão;
+- impacto em site;
+- impacto em conteúdos;
+- impacto em produtos;
+- impacto em tecnologia;
+- impacto em outros documentos.
 
-**Fim do Documento 04 — Identidade, Voz, Espiritualidade e Diretrizes de Comunicação — V1.0.**
+> **Fim do Documento 04 — Identidade, Voz, Espiritualidade e Diretrizes de Comunicação — V2.0.**

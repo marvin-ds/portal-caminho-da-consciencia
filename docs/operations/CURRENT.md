@@ -1,358 +1,1085 @@
-# CURRENT — Portal Caminho da Consciência
-> Documento operacional vivo. Atualizar sempre que o estado mudar.
-> Não contrariar documentos canônicos 00–05.
+# PORTAL CAMINHO DA CONSCIÊNCIA
+## Documento 06 — CURRENT, Decisões e Plano Operacional Vivo — V2.0
+
+**STATUS:** documento operacional vivo  
+**DATA DE CORTE:** 01/09/2026  
+**HORIZONTE:** estado atual + próximos 7–14 dias  
+**FUNÇÃO:** manter Marcos, ChatGPT, Claude Code, Codex e demais agentes alinhados sobre o que é fato, o que está decidido, o que está pendente e qual é o próximo movimento  
+**SUBSTITUI:** Documento 06 — CURRENT — V1.0
+
+> **Onde estamos. O que já foi decidido. O que está pendente. Qual é o próximo movimento.**
 
 ---
 
-## FATOS CANÔNICOS — ATUALIZAÇÃO 01/09/2026
+# 0. Função deste documento
 
-| Fato | Estado |
-|---|---|
-| Documento 00 — Matriz de Governança Conceitual adotado | ✅ — `docs/canonical/00-matriz-governanca-conceitual.md` |
-| Acesso oficial de Marcos à formação Sintonize Prosperidade | ✅ confirmado |
-| Materiais oficiais da formação analisados como fonte primária | ✅ |
-| Fronteiras Portal / Padrão Interrompido / Sintonize estabelecidas | ✅ — ver Doc 00 |
-| 8 Prosperidades oficiais da Sintonize identificadas | ✅ — Financeira, Saúde, Relacionamentos, Emocional, Espiritual, Criativa, Tempo e Liberdade, Profissional |
-| Certificação Sintonize de Marcos | EM CONCLUSÃO — esperada ~7 dias; NÃO anunciar como concluída ainda |
-| Identidade pública de Marcos | "terapeuta" DESCARTADO — usar: Fundador do Portal + Criador do Método |
-| R3C (campanha Search) | READY TO IMPLEMENT / EXECUÇÃO ADIADA — nenhum gasto ativo |
-| Prioridade atual | Conteúdo e crescimento do YouTube — não depende da certificação |
-| Revisão coordenada dos Documentos 01–05 | PENDENTE — aguarda sessão específica |
-| Implementação de produto/site/Radar/banco | NÃO INICIADA — aguarda revisão documental |
+Este é o documento operacional vivo do **Portal Caminho da Consciência**.
 
-### Decisões fechadas pelo Documento 00
+Ele não substitui os Documentos 00 a 05.
 
-- Marcos **não usará "terapeuta"** como identidade profissional pública do Portal
-- A Mesa Radiônica Sintonize Prosperidade é **modalidade de terceiros**, não criação do Portal
-- Os materiais oficiais Sintonize **não serão versionados em repositório público** (apostilas, protocolos, símbolos, fichas, comandos)
-- "Familiar/Ancestral" **não é a 8ª prosperidade oficial da Sintonize** — pode existir como tema transversal do Padrão Interrompido
-- O Radar **não é uma Mesa digital** e não "mede energia" — trabalha com autorrelato
-- **Até a certificação ser efetivamente emitida**, não apresentar Marcos como certificado/formado
+Sua função é registrar somente o estado atual verificável e as decisões que governam a execução imediata:
 
-### Conflitos identificados nos Documentos 01–05 (a resolver na revisão)
+- identidade vigente;
+- versões canônicas;
+- gates concluídos;
+- gates adiados;
+- oferta pública;
+- estado técnico;
+- formação Sintonize;
+- prioridades;
+- pendências;
+- blockers reais;
+- métricas;
+- links;
+- branches;
+- deploys;
+- próximos 7–14 dias.
 
-| Documento | Conflito potencial |
-|---|---|
-| Doc 01 | Pode misturar ecossistema, método e Sintonize sem as fronteiras do Doc 00 |
-| Doc 02 | Maior impacto: protocolos Sintonize e próprios do Portal provavelmente não separados formalmente; arquitetura de prosperidades pode usar a versão antiga (com Familiar/Ancestral) |
-| Doc 03 | Pode não ter a regra de transformação editorial (fonte ≠ copy pronta) |
-| Doc 04 | Posicionamento público de Marcos e matriz de linguagem interno/público provavelmente desatualizados |
-| Doc 05 | Regras de propriedade intelectual, repositórios e IA sobre materiais restritos provavelmente ausentes |
+O CURRENT deve permitir que qualquer agente autorizado responda rapidamente:
 
-> Não corrigir os Documentos 01–05 silenciosamente. Revisão será conduzida em sessão coordenada com Marcos.
+1. onde o projeto está agora;
+2. o que está fechado;
+3. o que ainda está aberto;
+4. o que não deve ser implementado;
+5. qual é a prioridade;
+6. qual é o próximo gate;
+7. quais fatos precisam ser verificados antes de agir.
 
 ---
 
-## GATE ATUAL
+## 0.1. Regra de atualização
 
-### GATE R3 — Validação Comercial do Mapeamento Padrão Interrompido — ABERTO (2026-08-31)
+Atualizar este arquivo quando houver:
 
-**Objetivo:** Gerar as primeiras conversas reais com potenciais clientes, validar se a linguagem da página gera interesse qualificado, e fechar a primeira compra do Mapeamento Padrão Interrompido.
+- nova decisão fechada;
+- certificação concluída;
+- mudança de oferta;
+- abertura/fechamento de gate;
+- alteração de domínio, deploy ou repo;
+- mudança de prioridade;
+- blocker real;
+- início/encerramento de campanha;
+- mudança de tracking;
+- implementação de checkout/CRM/Radar;
+- alteração canônica relevante.
 
-**Pergunta do gate:** A página de conversão produz conversas via WhatsApp com pessoas que se encaixam no perfil e estão dispostas a investir R$ 197?
+Não registrar:
 
-**Branch:** `main`
-
-**Etapa atual:** R3C — Especificação da campanha Search concluída. Execução deliberadamente adiada — sem gasto ativo.
-
----
-
-## GATE R3B — Configuração de Conversões no Google Ads — ✅ APROVADO (2026-08-31)
-
-### O que foi feito
-
-| Item | Estado |
-|---|---|
-| Ação de conversão `whatsapp_click` criada no Google Ads | ✅ |
-| Origem: Google Analytics (GA4) — propriedade Portal Caminho da Consciência | ✅ |
-| Categoria: Contatos | ✅ |
-| Valor: Não usar valor | ✅ |
-| Contagem: Uma conversão (deduplicada por sessão) | ✅ |
-| Janela de conversão de clique: 90 dias (padrão) | ✅ |
-| Otimização: Ação secundária — não incluída em "Conversões", apenas em "Todas as conversões" | ✅ |
-| `offer_cta_click`: NÃO criado como conversão no Ads (GA4 only, conforme especificado) | ✅ |
-
-### Configuração verificada
-
-| Campo | Valor |
-|---|---|
-| Nome | Portal Caminho da Consciência (web) whatsapp_click |
-| Código do tipo de conversão | 7741395980 |
-| Data de criação | 31/08/2026 |
-| Otimização de ações | Contatos, Ação secundária |
-| Valor | Não usar valor |
-| Origem | Google Analytics (GA4) |
-| Evento do GA4 | whatsapp_click |
-| Propriedade GA4 | Portal Caminho da Consciência |
-| Contagem | Uma conversão |
-| Janela de conversão de clique | 90 dias |
-| Conta Google Ads | 918-471-6756 Reconexão Terapias |
-
-### Decisões registradas
-
-- `purchase` e `close_convert_lead`: NÃO configurados — aguardam integração real de pagamento
-- Ação secundária = aparece apenas em "Todas as conversões", nunca em "Conversões" (não afeta otimização de lances)
+- brainstorm;
+- hipótese ainda não priorizada;
+- detalhe já encerrado sem impacto;
+- narrativa longa que pertence aos Documentos 00–05.
 
 ---
 
-## GATE R3C — Configuração Search — ESPECIFICAÇÃO CONCLUÍDA / EXECUÇÃO ADIADA (2026-08-31)
+## 0.2. Regra de precedência
 
-**Objetivo:** Criar a campanha Search no Google Ads conforme spec abaixo. Execução adiada deliberadamente — nenhum gasto iniciado. Retomar quando houver decisão de ativar tráfego pago.
+Quando houver conflito:
 
-**Status:** READY TO IMPLEMENT — blockers: nenhum.
+1. Documento 00 — autoria, propriedade intelectual, Sintonize, 8 Prosperidades, Protocolos Sintonize, Anjos e apresentação pública de Marcos;
+2. Documento 01 — propósito e estratégia;
+3. Documento 02 — jornada e produtos;
+4. Documento 03 — editorial, aquisição e experimentação;
+5. Documento 04 — identidade, voz, espiritualidade e claims;
+6. Documento 05 — arquitetura técnica e dados;
+7. CURRENT — estado operacional real.
 
-**Critério de aprovação:** Campanha criada pausada, revisada por Marcos, ativada com R$30/dia.
+> **O CURRENT pode dizer que algo previsto nos documentos canônicos ainda não existe. Ele não pode redefinir silenciosamente a estratégia.**
 
-**Branch:** `main`
+---
 
-### Especificação aprovada
+# PARTE I — SNAPSHOT ATUAL
 
-#### Campanha
-| Campo | Valor |
-|---|---|
-| Nome | GADS_SEARCH_MAPEAMENTO_PADRAO_BR_V1 |
-| Objetivo | Leads |
-| Tipo | Pesquisa |
-| Conversão de lance | `whatsapp_click` — secundária, NÃO usada como meta de lance |
-| Redes | Pesquisa Google: ON — Parceiros de pesquisa: OFF — Display: OFF |
-| Estratégia de lances | Maximizar cliques + CPC máx. R$2,50–R$4,00 |
-| Orçamento | R$30/dia |
-| Localização | Brasil — Pessoas presentes ou regularmente na localização |
-| Idioma | Português |
-| Horário | Todos os dias, 06h–23h |
-| Públicos | Observação apenas — nunca restringir tráfego inicial |
-| URL final | https://portalcaminhodaconsciencia.com.br/ |
-| Template de rastreamento | `utm_source=google&utm_medium=cpc&utm_campaign=gads_search_mapeamento_padrao_br_v1&utm_content={creative}&utm_term={keyword}` |
-| Auto-tagging | Ligado (preservar gclid) |
+# 1. Identidade vigente
 
-#### Grupos de anúncios e palavras-chave
+**Marca principal:** Portal Caminho da Consciência
 
-**Grupo 1 — Padrões que se repetem** (correspondência frase e exata)
+**Método autoral:** Método Padrão Interrompido
+
+**Território verbal de aquisição:** “voltar ao mesmo lugar”
+
+**Jornada macro:**
+
+> **Reconhecer → Compreender → Mapear → Intervir → Praticar → Reavaliar → Integrar → Aprofundar**
+
+**Frase filosófica:**
+
+> **O cenário muda. O padrão volta. A consciência pode mudar o caminho.**
+
+**Posicionamento:**
+
+> ecossistema de desenvolvimento pessoal e espiritual aplicado à vida real, com método próprio, práticas, aprendizado, integração e aprofundamento progressivo.
+
+---
+
+# 2. Arquitetura conceitual vigente
+
+## Portal Caminho da Consciência
+
+Marca e ecossistema maior.
+
+## Método Padrão Interrompido
+
+Método autoral do Portal.
+
+## Mesa Radiônica Sintonize Prosperidade
+
+Metodologia/ferramenta espiritual específica de terceiros.
+
+## Regra
+
+> **Sintonize pode integrar determinadas experiências; não define a marca inteira e não pertence intelectualmente ao Portal.**
+
+---
+
+# 3. Oferta pública atual
+
+**Oferta:** Mapeamento Padrão Interrompido — Individual  
+**Preço público atual:** R$197  
+**Formato público atual:** experiência individual / assíncrona  
+**CTA comercial:** WhatsApp  
+**Página:** `https://portalcaminhodaconsciencia.com.br`
+
+A página vigente:
+
+- já utiliza a nova marca;
+- não contém referências públicas indevidas à antiga identidade;
+- não utiliza depoimentos não autorizados;
+- não utiliza order bump;
+- não apresenta Sintonize como componente obrigatório;
+- foi validada em mobile e desktop;
+- possui tracking vigente.
+
+---
+
+# 4. Prioridade atual
+
+## P0 — próximos dias
+
+> **Crescimento orgânico do YouTube + conclusão da formação Sintonize + alinhamento documental.**
+
+Não é prioridade imediata:
+
+- Google Ads;
+- Radar;
+- app;
+- CRM próprio;
+- nova automação;
+- protocolo digital;
+- integração Sintonize ao site;
+- mudança da oferta;
+- Gate R4.
+
+---
+
+# PARTE II — ARQUITETURA DOCUMENTAL
+
+# 5. Documentos canônicos vigentes
+
+A arquitetura oficial agora possui sete documentos numerados de 00 a 06:
+
+| Documento | Versão atual | Função |
+|---|---:|---|
+| 00 — Matriz de Governança Conceitual, PI e Posicionamento | V1.0 | fronteiras Portal × Padrão Interrompido × Sintonize |
+| 01 — Fundacional, Estratégico e Plano Executivo | **V4.0** | propósito, estratégia e direção |
+| 02 — Jornada, Produtos, Serviços e Protocolos | **V2.0** | jornada e ofertas |
+| 03 — Sistema Editorial, Aquisição e Experimentação | **V2.0** | conteúdo, crescimento e testes |
+| 04 — Identidade, Voz, Espiritualidade e Comunicação | **V2.0** | marca, voz, claims e apresentação |
+| 05 — Arquitetura Técnica, Dados e Ecossistema Digital | **V2.0** | tecnologia, dados e IA |
+| 06 — CURRENT, Decisões e Plano Operacional Vivo | **V2.0** | estado atual |
+
+---
+
+# 6. Estado de incorporação no repositório
+
+As versões revisadas 00–06 foram produzidas no ciclo documental atual.
+
+**Antes de assumir que todas estão versionadas no GitHub, verificar o repositório.**
+
+Próxima ação documental recomendada:
+
+> **GATE DOC-SYNC — incorporar/versionar o pacote canônico 00–06 no repositório, em mudança docs-only, sem alterar site ou produto.**
+
+Critérios:
+
+- inventário dos arquivos existentes;
+- preservar histórico;
+- substituir versões obsoletas deliberadamente;
+- não apagar fontes necessárias sem registro;
+- atualizar README documental se aplicável;
+- atualizar CURRENT com commit/HEAD real;
+- working tree limpo ao final.
+
+---
+
+# PARTE III — GATES
+
+# 7. Gates concluídos
+
+## R1 — Migração de Identidade e Fundação Técnica
+
+**STATUS:** ✅ APROVADO
+
+Concluído:
+
+- nova marca;
+- repo renomeado;
+- pasta local renomeada;
+- `origin` atualizado;
+- documentação técnica inicial;
+- regras de `.gitignore`;
+- fundação da migração.
+
+---
+
+## R2 — Oferta Inicial e Página de Conversão
+
+**STATUS:** ✅ APROVADO
+
+Concluído:
+
+- página nova publicada;
+- Mapeamento Padrão Interrompido R$197;
+- nova identidade visual;
+- mobile first validado;
+- CTA WhatsApp funcional;
+- SEO, canonical, OG e JSON-LD;
+- references antigas removidas;
+- depoimentos não autorizados removidos;
+- order bump removido;
+- tracking de CTA implementado.
+
+---
+
+## R3A — Mensuração, GTM, GA4 e Consentimento
+
+**STATUS:** ✅ APROVADO
+
+Concluído:
+
+- Google Tag Manager;
+- GA4;
+- Consent Mode v2;
+- Conversion Linker;
+- `dataLayer`;
+- `offer_cta_click`;
+- `scroll_depth`;
+- `section_view`;
+- `whatsapp_click`;
+- estrutura de aquisição preparada.
+
+---
+
+## R3B — Conversões Google Ads
+
+**STATUS:** ✅ APROVADO
+
+Concluído:
+
+- `whatsapp_click` configurado no Google Ads como conversão secundária;
+- não utilizado como compra;
+- arquitetura preparada para futura evolução para lead qualificado e venda.
+
+---
+
+# 8. Gates adiados / não iniciados
+
+## R3C — Google Search
+
+**STATUS:** READY TO IMPLEMENT / EXECUÇÃO ADIADA
+
+A campanha Search foi especificada, mas não é prioridade imediata.
+
+**Blocker técnico:** nenhum confirmado.
+
+Não criar campanha agora apenas porque a especificação está pronta.
+
+Reabrir quando houver decisão deliberada de investir em tráfego pago.
+
+---
+
+## R4 — Operação Comercial e Entrega
+
+**STATUS:** NÃO INICIADO / ADIADO
+
+Não abrir ainda.
+
+Pré-condições:
+
+1. concluir formalmente a formação Sintonize;
+2. registrar certificação;
+3. decidir como Sintonize entra ou não na oferta;
+4. realizar prática controlada;
+5. fechar formulário, relatório, pagamento e entrega;
+6. só então estruturar operação comercial ampliada.
+
+---
+
+# PARTE IV — SINTONIZE PROSPERIDADE
+
+# 9. Estado da formação
+
+**Acesso oficial:** confirmado.
+
+**Estado:** formação em fase final.
+
+**Expectativa operacional:** conclusão e formalização da certificação em aproximadamente 7 dias.
+
+Até a formalização:
+
+- não usar “certificado” como fato concluído;
+- não usar “formado” como fato concluído;
+- não apresentar Marcos como habilitado além do que já está documentalmente comprovado.
+
+Quando concluída:
+
+- registrar data;
+- registrar nomenclatura exata;
+- atualizar CURRENT;
+- revisar formulação pública.
+
+---
+
+# 10. Posicionamento profissional de Marcos
+
+**DECISÃO FECHADA:**
+
+> **Marcos não adotará “terapeuta” como identidade profissional pública.**
+
+Posicionamento-base:
+
+- fundador do Portal Caminho da Consciência;
+- criador do Método Padrão Interrompido;
+- pesquisador/praticante de caminhos de desenvolvimento pessoal e espiritual.
+
+Após certificação, acrescentar a qualificação Sintonize apenas com nomenclatura sustentada pelo certificado.
+
+---
+
+# 11. 8 Prosperidades
+
+**FECHADO:**
+
+As 8 Prosperidades oficiais da Sintonize são:
+
+1. Financeira;
+2. Saúde;
+3. Relacionamentos;
+4. Emocional;
+5. Espiritual;
+6. Criativa;
+7. Tempo e Liberdade;
+8. Profissional.
+
+Não tratar a antiga lista do Portal como “8 Prosperidades”.
+
+Familiar/Ancestral pode permanecer como tema transversal, não como uma das 8 áreas oficiais Sintonize.
+
+---
+
+# 12. Protocolos
+
+**FECHADO:**
+
+- Protocolos Sintonize = oficiais da metodologia de terceiros.
+- Protocolos Padrão Interrompido = futuros protocolos autorais do Portal.
+
+Nenhum Protocolo Padrão Interrompido está validado atualmente.
+
+---
+
+# 13. Propriedade intelectual Sintonize
+
+Não colocar materiais Sintonize em:
+
+- Git público;
+- deploy;
+- Supabase;
+- embeddings;
+- vector database;
+- app;
+- API;
+- Radar;
+- dataset;
+- prompts persistentes distribuíveis.
+
+Não digitalizar:
+
+- apostilas;
+- comandos;
+- ativações;
+- protocolos;
+- fichas;
+- símbolos;
+- Mesa;
+- Guia Consultivo;
+- materiais de Anjos.
+
+Acesso à formação não significa licença irrestrita de reprodução.
+
+---
+
+# 14. Anjos Cabalísticos
+
+Relevância:
+
+- alta internamente na Sintonize;
+- média/alta em devolutiva quando utilizados;
+- média em conteúdo especializado;
+- baixa em aquisição ampla;
+- baixa na identidade principal.
+
+Os materiais analisados destacam especialmente os Anjos 06, 08, 43 e 71 dentro da Sintonize.
+
+Não transformar Anjos em:
+
+- marca principal;
+- diagnóstico;
+- destino;
+- promessa comercial;
+- eixo de crescimento do canal.
+
+---
+
+# PARTE V — ESTADO TÉCNICO ATUAL
+
+# 15. Repositório
+
+**GitHub:**
+
+`https://github.com/marvin-ds/portal-caminho-da-consciencia`
+
+**Local:**
+
+`C:\Projetos\portal-caminho-da-consciencia`
+
+**Produção:** `main`
+
+**Regra:**
+
+Antes de qualquer novo gate técnico, verificar:
+
+```powershell
+Get-Location
+git status -sb
+git remote -v
+git branch --show-current
+git rev-parse HEAD
+git rev-list --left-right --count origin/main...main
 ```
-"padrões repetitivos na vida" / [padrões repetitivos na vida]
-"padrões que se repetem" / [padrões que se repetem]
-"como quebrar padrões" / [como quebrar padrões]
-"como mudar padrões repetitivos" / [como mudar padrões repetitivos]
-"porque repito os mesmos padrões" / [porque repito os mesmos padrões]
-"como parar de repetir padrões" / [como parar de repetir padrões]
-"quebrar padrões emocionais" / [quebrar padrões emocionais]
-"mudar padrões de comportamento" / [mudar padrões de comportamento]
-```
 
-**Grupo 2 — Autoconhecimento / clareza** (correspondência frase e exata)
-```
-"autoconhecimento profundo" / [autoconhecimento profundo]
-"como entender meus padrões" / [como entender meus padrões]
-"entender padrões da minha vida" / [entender padrões da minha vida]
-"como me conhecer melhor" / [como me conhecer melhor]
-"desenvolvimento pessoal e espiritual" / [desenvolvimento pessoal e espiritual]
-"expansão da consciência" / [expansão da consciência]
-"desenvolvimento da consciência" / [desenvolvimento da consciência]
-```
-
-**Grupo 3 — Espiritualidade aplicada** (correspondência frase e exata, usar com cautela)
-```
-"desenvolvimento espiritual" / [desenvolvimento espiritual]
-"como desenvolver espiritualidade" / [como desenvolver espiritualidade]
-"autoconhecimento espiritual" / [autoconhecimento espiritual]
-"expansão espiritual" / [expansão espiritual]
-"caminho espiritual" / [caminho espiritual]
-"consciência espiritual" / [consciência espiritual]
-```
-
-#### Palavras negativas iniciais (nível campanha)
-```
-grátis, gratuito, pdf, livro, resumo, curso gratuito, faculdade, tcc,
-artigo científico, significado, frase, frases, imagem, imagens, download,
-apostila, wiki, wikipedia, teste grátis, vaga, emprego, salário, profissão,
-psicólogo, psicologia, psiquiatra, terapia, tratamento, diagnóstico,
-doença, transtorno, ansiedade, depressão, remédio, medicamento,
-mesa radiônica grátis, curso mesa radiônica, como fazer mesa radiônica,
-radiestesia curso, pêndulo comprar, mesa radiônica comprar
-```
-
-#### RSAs (2 por grupo)
-
-**RSA 1 — Reconhecimento**
-Títulos: "Você Repete os Mesmos Padrões?" | "Entenda o Que Continua Voltando" | "Mapeamento Padrão Interrompido" | "Veja Onde o Padrão Se Repete" | "O Cenário Muda. O Padrão Volta." | "Compreenda Seus Padrões" | "Um Novo Olhar Para Sua Vida" | "Portal Caminho da Consciência" | "Mapeamento Individual" | "Desenvolvimento Com Consciência"
-Desc 1: Algumas situações mudam, mas certas repetições continuam. Conheça um mapeamento individual para observar onde isso aparece na sua vida.
-Desc 2: Organize sinais, conexões e prioridades para compreender melhor aquilo que continua voltando. Atendimento individual por R$197.
-
-**RSA 2 — Método**
-Títulos: "Método Padrão Interrompido" | "Identifique o Que Se Repete" | "Veja Onde Isso Aparece" | "Entenda Conexões Entre Áreas" | "Um Caminho de Mais Clareza" | "Mapeamento Individual R$197" | "Relatório + Áudio Personalizado" | "Portal Caminho da Consciência"
-Desc 1: Um processo estruturado de observação para reconhecer repetições, conexões e próximos passos de forma mais consciente.
-Desc 2: Mapeamento individual com relatório e áudio personalizado. Conheça a proposta e fale pelo WhatsApp.
-
-#### Assets
-- **Sitelinks:** "Como Funciona" | "O Que Você Recebe" | "Para Quem É" | "Sobre o Método"
-- **Callouts:** "Atendimento Individual" | "Relatório Personalizado" | "Áudio Personalizado" | "Entrega em Até 48h" | "Pagamento Único" | "Método Próprio"
-- **Structured snippet (Serviços):** "Mapeamento Individual" | "Relatório Personalizado" | "Áudio de Devolutiva" | "Orientação Inicial"
-
-#### Regra de avaliação
-- **Diário:** termos de pesquisa, negativas, erros, CPC absurdo
-- **Após 72h:** impressões, CTR, CPC, sessões, offer_cta_click, whatsapp_click
-- **Após 7 dias:** gasto, CTR, CPC médio, termos, taxa página→WhatsApp, conversas, leads qualificados, vendas
-- **Diagnóstico:** CTR <3% = mensagem/palavra fraca | CTR 4–7% = aceitável | CTR >7% = sinal forte | muitos cliques + zero WhatsApp = problema de intenção ou página
-
-### Estado de criação
-
-| Item | Estado |
-|---|---|
-| Spec aprovada por Marcos | ✅ |
-| Tracking pronto (whatsapp_click configurado) | ✅ |
-| Campanha criada na interface | AGUARDA DECISÃO DE ATIVAR TRÁFEGO |
-| Grupos, keywords, RSAs, assets, negativas | AGUARDA DECISÃO DE ATIVAR TRÁFEGO |
-| Campanha ativada | AGUARDA DECISÃO DE ATIVAR TRÁFEGO |
-
-> Nota: o alerta "Turn off ad blockers" observado durante acesso automatizado não foi confirmado como problema real no browser do operador — não é blocker do projeto.
+Não reutilizar hash antigo como se fosse atual.
 
 ---
 
-## GATE R3A — Camada de Mensuração GTM + GA4 — ✅ CONCLUÍDO (2026-08-31)
+# 16. Netlify
 
-### O que foi feito
+**Uso:** site institucional.
 
-| Item | Estado |
-|---|---|
-| GTM instalado no `index.html` (GTM-WC2C397G) | ✅ |
-| Consent Mode v2 — defaults negados antes de qualquer tag | ✅ |
-| GTM noscript no `<body>` | ✅ |
-| `getUtms()` captura UTMs + gclid/gbraid/wbraid | ✅ |
-| `session_context` push ao carregar página | ✅ |
-| `section_view` — IntersectionObserver 9 seções (30% threshold) | ✅ |
-| `scroll_depth` — thresholds 25/50/75/90 | ✅ |
-| `offer_cta_click` — dataLayer.push nos CTAs | ✅ |
-| `whatsapp_click` — dataLayer.push nos links WA | ✅ |
-| Commit e push para `main` (HEAD: dc89c76) | ✅ |
+**Estado:** produção funcionando no domínio principal.
 
-### GTM Container — Versão 2 (publicada 31/08/2026)
+**Política de deploy:**
 
-| Item | Valor |
-|---|---|
-| Container ID | GTM-WC2C397G |
-| GA4 Measurement ID | G-2C2WWT3ZQG |
-| Versão publicada | 2 — Ativa |
-| Tags | GA4 Configuration, offer_cta_click, scroll_depth, section_view, whatsapp_click, Conversion Linker |
-| Acionadores | Custom Event para cada evento (4 total) |
-| Variável | dlv - cta_local (Data Layer Variable) |
+- testar local;
+- consolidar correções;
+- no máximo um Preview relevante por gate;
+- um deploy de produção por gate;
+- evitar gasto de créditos com ajustes sucessivos;
+- documentação canônica fora do bundle público;
+- assets não utilizados fora do deploy.
 
 ---
 
-## DECISÕES FECHADAS (Gate R3)
+# 17. Domínios
 
-| Decisão | Valor |
-|---|---|
-| Canal de validação | WhatsApp direto (sem checkout automatizado) |
-| Preço de teste | R$ 197 |
-| Critério mínimo de sucesso | Pelo menos 1 conversa qualificada + 1 compra confirmada |
-| Próximo passo após aprovação | Gate R4 — definir a jornada pós-compra |
+**Principal:**
 
----
+`portalcaminhodaconsciencia.com.br`
 
-## ESTADO DO GATE R3
+**Histórico:**
 
-| Item | Estado |
-|---|---|
-| Página em produção | ✅ — https://portalcaminhodaconsciencia.com.br |
-| Camada GTM + GA4 publicada (R3A) | ✅ — GTM-WC2C397G Versão 2 ativa |
-| Conversão `whatsapp_click` configurada no Ads (R3B) | ✅ — Código 7741395980, Ação secundária |
-| Campanha Search criada e validada (R3C) | ABERTO |
-| Primeiro tráfego orgânico/direto | PENDENTE |
-| Primeira conversa via WhatsApp | PENDENTE |
-| Primeira compra confirmada | PENDENTE |
-| Avaliação de copy e ajustes | PENDENTE |
+`portalanjosdaprosperidade.com.br`
+
+O domínio histórico, quando mantido, deve funcionar como:
+
+- proteção;
+- redirect;
+- SEO residual.
+
+Não deve servir experiência antiga concorrente.
 
 ---
 
-## BLOCKERS
+# 18. Mobile first
 
-Nenhum blocker ativo.
+**FECHADO:**
 
----
+Todo site, aplicativo, Radar, jornada ou produto digital deve ser projetado mobile first.
 
-## GATE R2 — Oferta Inicial e Página de Conversão — ✅ APROVADO (2026-08-31)
+Validar prioritariamente:
 
-**Aprovação:** Marcos — "R2B — PREVIEW APPROVED ✅" → R2C validado em produção.
-
-### Checklist de produção (R2C) — todos aprovados
-
-| Item | Resultado |
-|---|---|
-| Nova página servida em produção | ✅ |
-| HTTPS válido | ✅ |
-| Título: "Mapeamento Padrão Interrompido \| Portal Caminho da Consciência" | ✅ |
-| Canonical: https://portalcaminhodaconsciencia.com.br | ✅ |
-| OG title e OG URL corretos | ✅ |
-| JSON-LD presente | ✅ |
-| Meta Pixel 1566666134485463 ativo | ✅ |
-| Meta Pixel 4659045990859789 ativo | ✅ |
-| ViewContent disparando no page load | ✅ |
-| offer_cta_click implementado | ✅ |
-| whatsapp_click implementado | ✅ |
-| Número WhatsApp 55013996083913 correto | ✅ |
-| Zero referência a SEU_NUMERO | ✅ |
-| Zero referência a "Anjos da Prosperidade" | ✅ |
-| 9 seções presentes (hero→cta-final) | ✅ |
-| Footer presente | ✅ |
-| Zero erros críticos de console | ✅ |
-| Overflow horizontal | ✅ (falso positivo no sandbox — mobile validado em R2B) |
-| main local/remoto sincronizados | ✅ (HEAD: 8a9aac6) |
-
-### Deploy de produção
-
-| Item | Valor |
-|---|---|
-| Deploy ID | 6a95bbb85b045b000863b705 |
-| Estado | ready |
-| Branch | main |
-| HEAD no deploy | 8a9aac6 |
-| Domínio | https://portalcaminhodaconsciencia.com.br |
-
-### Estado final do Gate R2
-
-| Item | Estado |
-|---|---|
-| R2A — Auditoria da página atual | ✅ |
-| R2A — Aprovação do plano de mudança | ✅ |
-| Branch `feat/gate-r2-*` criada | ✅ |
-| R2B — Nova copy implementada | ✅ |
-| R2B — Identidade visual aplicada | ✅ |
-| R2B — CTA + WhatsApp funcionando | ✅ |
-| R2B — Tracking implementado | ✅ |
-| R2B — SEO completo | ✅ |
-| R2B — Mobile validado | ✅ |
-| R2B — Deploy Preview gerado e aprovado | ✅ |
-| Merge em `main` (--ff-only) | ✅ |
-| R2C — Deploy de produção validado | ✅ |
-| CURRENT.md atualizado | ✅ |
+- 360 px;
+- 375 px;
+- 430 px;
+- 768 px;
+- desktop.
 
 ---
 
-## GATE R1 — Rename Foundation — ✅ APROVADO (2026-08-31)
+# PARTE VI — TRACKING E MENSURAÇÃO
 
-| Item | Estado |
-|---|---|
-| GitHub renomeado para `portal-caminho-da-consciencia` | ✅ |
-| Pasta local renomeada | ✅ |
-| Remote local atualizado | ✅ |
-| Branch de migração criada e mergeada | ✅ |
-| `index.html` — título, OG, navbar, footer, copyright | ✅ |
-| `README.md` — conteúdo canônico | ✅ |
-| Netlify vinculado ao repo correto | ✅ |
-| Docs canônicos 01–05 em `/docs/canonical/` | ✅ |
-| Assets de marca em `/assets/brand/` | ✅ |
-| `CLAUDE.md` criado na raiz | ✅ |
-| Merge PR #1 em `main` | ✅ |
-| Domínio `portalcaminhodaconsciencia.com.br` ativo | ✅ |
+# 19. Infraestrutura vigente
+
+Implementado:
+
+- GTM;
+- GA4;
+- Consent Mode v2;
+- Conversion Linker;
+- Meta Pixel;
+- eventos próprios.
+
+Eventos principais:
+
+```text
+page_view
+scroll_depth
+section_view
+offer_cta_click
+whatsapp_click
+```
 
 ---
 
-## LINKS E REFERÊNCIAS
+# 20. Semântica comercial
 
-- Repositório: https://github.com/marvin-ds/portal-caminho-da-consciencia
-- Netlify project: https://app.netlify.com/projects/portal-caminho-da-consciencia
-- Produção: https://portalcaminhodaconsciencia.com.br (ativo, DNS propagado 2026-08-31)
-- Domínio antigo: https://portalanjosdaprosperidade.com.br (em desativação)
-- Deploy Preview R2B: https://6a9594058a0be08aa0146e88--portal-caminho-da-consciencia.netlify.app
-- GTM: https://tagmanager.google.com/#/container/accounts/6374341210/containers/262801474
-- GA4 Property: G-2C2WWT3ZQG (Stream ID: 15534016121)
+**FECHADO:**
+
+- `offer_cta_click` = intenção intermediária;
+- `whatsapp_click` = intenção comercial on-site;
+- `whatsapp_click` ≠ lead confirmado;
+- `whatsapp_click` ≠ venda;
+- `purchase` futuro = pagamento confirmado.
+
+---
+
+# 21. Conversões futuras
+
+Somente quando operação existir:
+
+```text
+generate_lead
+working_lead
+qualify_lead
+disqualify_lead
+close_convert_lead
+purchase
+refund
+```
+
+Não implementar prematuramente.
+
+---
+
+# 22. Atribuição
+
+Preservar quando tecnicamente aplicável:
+
+- UTMs;
+- `gclid`;
+- `gbraid`;
+- `wbraid`;
+- landing page;
+- CTA de origem.
+
+Objetivo futuro:
+
+> **origem → visita → CTA → WhatsApp → lead → venda → receita**
+
+---
+
+# PARTE VII — PRIORIDADES DOS PRÓXIMOS 7–14 DIAS
+
+# 23. P0 — Sincronizar documentação canônica
+
+Executar `DOC-SYNC` sem tocar código funcional.
+
+Resultado:
+
+- Documentos 00–06 corretos no repo;
+- versões antigas tratadas conscientemente;
+- README/índice documental alinhado;
+- CURRENT atualizado com commit real.
+
+---
+
+# 24. P0 — Concluir formação Sintonize
+
+- finalizar aulas;
+- concluir requisitos;
+- obter formalização/certificado;
+- registrar nomenclatura exata;
+- não antecipar título.
+
+---
+
+# 25. P0 — Crescer YouTube
+
+Enquanto a formação é concluída:
+
+- conteúdo diário/consistente conforme capacidade;
+- Shorts como laboratório;
+- 2 vídeos longos por semana como referência;
+- foco em cenas concretas;
+- “voltar ao mesmo lugar”;
+- consciência;
+- desenvolvimento pessoal;
+- espiritualidade aplicada;
+- análise 24h/72h;
+- coleta de linguagem real.
+
+Não transformar a semana em lançamento da Sintonize.
+
+---
+
+# 26. P1 — Depois da certificação
+
+Antes de escalar venda baseada em Sintonize:
+
+1. atualizar CURRENT;
+2. definir apresentação pública;
+3. definir se Sintonize integra o Mapeamento ou se será experiência separada;
+4. realizar aproximadamente 5–10 experiências de prática controlada;
+5. aprender tempo real, formulário, relatório, áudio e dúvidas;
+6. só depois revisar oferta/página.
+
+---
+
+# 27. P2 — Depois da prática controlada
+
+Se houver clareza:
+
+- abrir R4;
+- pagamento;
+- formulário;
+- CRM mínimo;
+- status de lead;
+- relatório autoral;
+- entrega;
+- reavaliação;
+- `purchase` confiável;
+- só então considerar Google Ads.
+
+---
+
+# PARTE VIII — DECISÕES FECHADAS
+
+# 28. Decisões vigentes
+
+1. **Portal Caminho da Consciência** é a marca principal.
+2. **Caminho** permanece singular.
+3. **Padrão Interrompido** é método autoral.
+4. Portal é maior que o método.
+5. Espiritualidade é explícita e aberta.
+6. A comunicação começa pela vida real.
+7. “Voltar ao mesmo lugar” é território de reconhecimento.
+8. YouTube é canal editorial prioritário.
+9. Shorts são laboratório.
+10. Longos constroem confiança e profundidade.
+11. A oferta pública atual é Mapeamento Padrão Interrompido — R$197.
+12. CTA atual é WhatsApp.
+13. Google Ads Search não é prioridade imediata.
+14. GTM/GA4/Consent/Conversion Linker estão na arquitetura vigente.
+15. `whatsapp_click` é conversão secundária.
+16. Sintonize é metodologia de terceiros.
+17. Sintonize não é a marca.
+18. 8 Prosperidades pertencem à arquitetura Sintonize quando referidas dessa forma.
+19. Protocolos Sintonize e Protocolos Padrão Interrompido são diferentes.
+20. Radar não será Mesa digital.
+21. Materiais Sintonize não serão digitalizados.
+22. Marcos não usará “terapeuta” publicamente.
+23. Certificação não será antecipada.
+24. Anjos Cabalísticos não são eixo de aquisição.
+25. Mobile first é obrigatório.
+26. Validar antes de sofisticar.
+27. Praticar antes de escalar.
+28. Aprender antes de automatizar.
+29. IA não substitui voz humana, legitimidade ou autoria.
+30. Meta de gestão do ciclo inicial permanece agressiva, sem ser promessa pública.
+
+---
+
+# PARTE IX — DECISÕES ABERTAS
+
+# 29. Abertas e relevantes
+
+1. formulação pública final da certificação;
+2. integração Sintonize × Mapeamento;
+3. manter R$197 depois de eventual integração;
+4. formato final do formulário;
+5. relatório autoral definitivo;
+6. política de reavaliação;
+7. primeiro Protocolo Padrão Interrompido;
+8. mapa autoral definitivo de domínios;
+9. momento do Radar;
+10. plataforma de pagamento;
+11. CRM mínimo;
+12. momento de ativação do Search;
+13. nome do quadro editorial recorrente;
+14. identidade visual definitiva de símbolo/logotipo;
+15. momento da Jornada;
+16. momento da comunidade.
+
+---
+
+# PARTE X — BLOCKERS E RISCOS
+
+# 30. Blockers reais
+
+**Nenhum blocker técnico crítico conhecido para manutenção do site ou produção de conteúdo.**
+
+---
+
+# 31. Pendências que não são blockers
+
+## Certificação Sintonize
+
+Pendente, mas não bloqueia:
+
+- conteúdo amplo;
+- YouTube;
+- método;
+- Portal;
+- documentação.
+
+Bloqueia apenas:
+
+- apresentação como certificado;
+- oferta que dependa explicitamente da habilitação ainda não formalizada.
+
+## Google Search
+
+Adiado por prioridade, não por falha técnica.
+
+## R4
+
+Adiado deliberadamente.
+
+---
+
+# 32. Riscos atuais
+
+- publicar certificação cedo demais;
+- misturar Sintonize com autoria do Portal;
+- colocar material protegido no repo;
+- digitalizar metodologia de terceiro;
+- voltar a foco excessivo em prosperidade financeira;
+- criar app antes de demanda;
+- tratar clique no WhatsApp como venda;
+- ativar mídia paga antes de operação pronta;
+- produzir conteúdo espiritual genérico de IA;
+- usar claims clínicos ou financeiros indevidos;
+- deixar o CURRENT novamente ficar desatualizado.
+
+---
+
+# PARTE XI — MÉTRICAS VIVAS
+
+# 33. Conteúdo
+
+Acompanhar:
+
+- publicações;
+- viewed/swiped;
+- retenção;
+- duração média;
+- CTR de longos;
+- comentários de reconhecimento;
+- compartilhamentos;
+- inscritos;
+- cliques;
+- linguagem espontânea;
+- temas vencedores;
+- análise 24h/72h.
+
+---
+
+# 34. Página
+
+Acompanhar:
+
+- `page_view`;
+- scroll;
+- `section_view`;
+- `offer_cta_click`;
+- `whatsapp_click`;
+- taxa página → WhatsApp;
+- origem/campanha.
+
+---
+
+# 35. Comercial futuro
+
+Quando R4 existir:
+
+- leads;
+- qualificados;
+- ofertas;
+- pagamentos;
+- conversão;
+- ticket;
+- receita;
+- reembolso;
+- origem;
+- CAC;
+- tempo de Marcos.
+
+---
+
+# 36. Sintonize pós-certificação
+
+Na prática controlada:
+
+- número de experiências;
+- tempo;
+- dificuldades;
+- dúvidas;
+- clareza;
+- qualidade da devolutiva;
+- necessidade de integração;
+- satisfação;
+- capacidade de repetição;
+- limites percebidos.
+
+---
+
+# PARTE XII — LINKS E AMBIENTES
+
+# 37. Links principais
+
+**Site:**
+
+`https://portalcaminhodaconsciencia.com.br`
+
+**GitHub:**
+
+`https://github.com/marvin-ds/portal-caminho-da-consciencia`
+
+**Local:**
+
+`C:\Projetos\portal-caminho-da-consciencia`
+
+**Netlify:**
+
+projeto da nova marca conectado ao site institucional; conferir nome/URL diretamente no painel antes de registrar dado transitório.
+
+---
+
+# 38. Branches
+
+**Produção:** `main`
+
+Cada gate deve registrar:
+
+- branch;
+- HEAD inicial;
+- HEAD final;
+- commits;
+- working tree;
+- local/remoto;
+- preview;
+- produção;
+- rollback.
+
+O hash atual deve ser lido do Git no início da sessão.
+
+---
+
+# PARTE XIII — REGRAS PARA AGENTES
+
+# 39. Antes de qualquer tarefa
+
+O agente deve identificar:
+
+1. objetivo;
+2. gate;
+3. documentos relevantes;
+4. estado real do repo;
+5. escopo permitido;
+6. escopo proibido;
+7. risco;
+8. critério de aceitação;
+9. testes;
+10. rollback.
+
+---
+
+# 40. Leitura obrigatória
+
+Se a tarefa envolver:
+
+- Sintonize;
+- Anjos;
+- 8 Prosperidades;
+- protocolos;
+- material de formação;
+- posicionamento de Marcos;
+
+> **ler Documento 00 primeiro.**
+
+Se envolver tecnologia:
+
+> **ler Documento 05 + CURRENT.**
+
+Se envolver copy:
+
+> **ler Documentos 01, 03, 04 + CURRENT.**
+
+---
+
+# 41. Proibições atuais
+
+Nenhum agente está autorizado, sem nova decisão explícita, a:
+
+- alterar site por causa da Sintonize;
+- adicionar Sintonize à oferta;
+- criar protocolo;
+- criar Radar;
+- criar app;
+- iniciar Google Ads;
+- criar checkout;
+- criar CRM;
+- versionar materiais da formação;
+- copiar protocolos;
+- criar banco de Anjos;
+- inventar certificação;
+- chamar Marcos de terapeuta;
+- fazer deploy de produção desnecessário.
+
+---
+
+# PARTE XIV — DECISION LOG ATUALIZADO
+
+# 42. Log resumido
+
+| Data | Decisão / evento | Estado | Impacto |
+|---|---|---|---|
+| 30/08/2026 | Marca alterada para Portal Caminho da Consciência | FECHADO | marca, docs, site e repo |
+| 30/08/2026 | “Caminho” permanece singular | FECHADO | posicionamento |
+| 30/08/2026 | Padrão Interrompido permanece método autoral | FECHADO | produtos e conteúdo |
+| 31/08/2026 | Gate R1 concluído | EXECUTADO | migração/fundação |
+| 31/08/2026 | Domínio principal definido e publicado | EXECUTADO | SEO, site e marca |
+| 31/08/2026 | Gate R2 aprovado | EXECUTADO | oferta/página |
+| 01/09/2026 | Gate R3A aprovado | EXECUTADO | GTM/GA4/Consent |
+| 01/09/2026 | Gate R3B aprovado | EXECUTADO | conversão secundária Ads |
+| 01/09/2026 | R3C Search adiado | FECHADO COMO PRIORIDADE | mídia paga |
+| 01/09/2026 | Acesso oficial à Sintonize confirmado | FATO | formação e futuro produto |
+| 01/09/2026 | Marcos não usará “terapeuta” publicamente | FECHADO | comunicação |
+| 01/09/2026 | Documento 00 adotado | FECHADO | governança e PI |
+| 01/09/2026 | 8 Prosperidades corrigidas como estrutura Sintonize | FECHADO | método, produto e conteúdo |
+| 01/09/2026 | Sintonize não será digitalizada | FECHADO | tecnologia e PI |
+| 01/09/2026 | Docs 01–05 revisados | PRODUZIDO | pacote canônico |
+| 01/09/2026 | CURRENT atualizado para V2.0 | PRODUZIDO | operação |
+
+---
+
+# PARTE XV — PRÓXIMA AÇÃO
+
+# 43. Próximo movimento recomendado
+
+Existem duas frentes paralelas, sem conflito.
+
+## Frente A — documentação
+
+> **GATE DOC-SYNC**
+
+Objetivo:
+
+- incorporar Documentos 00–06 atualizados ao repositório;
+- garantir hierarquia;
+- preservar histórico;
+- registrar commit real no CURRENT;
+- não alterar código funcional.
+
+## Frente B — crescimento
+
+> **Produzir e publicar conteúdos voltados a alcance qualificado e crescimento do YouTube enquanto Marcos conclui a formação.**
+
+---
+
+# 44. O que acontece depois
+
+Quando a certificação for formalizada:
+
+1. registrar o fato;
+2. confirmar nomenclatura;
+3. atualizar apresentação de Marcos;
+4. realizar prática controlada;
+5. decidir arquitetura da experiência Sintonize;
+6. somente então reabrir R4.
+
+---
+
+# 45. Critério para mudar prioridade
+
+A prioridade muda se:
+
+- produção quebrar;
+- surgir risco de dados;
+- certificação for formalizada;
+- oportunidade comercial real justificar;
+- dados de conteúdo apontarem direção clara;
+- Marcos tomar nova decisão estratégica.
+
+---
+
+# 46. Síntese operacional
+
+**Onde estamos:**
+
+> marca, site, oferta inicial e mensuração estão em produção; Search está preparado e adiado; a documentação canônica foi profundamente revisada; a formação Sintonize está na fase final.
+
+**O que vem agora:**
+
+> sincronizar o pacote documental no repositório, continuar crescimento orgânico no YouTube e concluir a certificação.
+
+**O que não vem agora:**
+
+> app, Radar, protocolos, campanha paga, integração Sintonize à página ou automação comercial.
+
+**Próximo gate técnico/documental:**
+
+> **DOC-SYNC — sincronização canônica 00–06.**
+
+**Próximo gatilho de produto:**
+
+> **certificação formal + prática controlada.**
+
+**Regra de execução:**
+
+> **Uma decisão por vez. Um estado verificável por vez. Um gate fechado antes de sofisticar.**
+
+---
+
+# 47. Governança do CURRENT
+
+Este arquivo deve permanecer curto o suficiente para leitura no início de cada sessão relevante.
+
+Quando crescer:
+
+- arquivar histórico encerrado;
+- manter estado atual;
+- preservar decisões que ainda governam;
+- remover tarefas concluídas do corpo principal;
+- não duplicar os Documentos 00–05;
+- atualizar links, gates e prioridades.
+
+O CURRENT não deve virar memória infinita.
+
+Deve permanecer:
+
+> **um painel operacional textual do presente.**
+
+---
+
+> **Fim do Documento 06 — CURRENT, Decisões e Plano Operacional Vivo — V2.0.**

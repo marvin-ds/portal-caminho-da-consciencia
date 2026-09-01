@@ -1,779 +1,1268 @@
 # PORTAL CAMINHO DA CONSCIÊNCIA
-## Documento 03 — Sistema Editorial, Aquisição e Experimentação — V1.0
+## Documento 03 — Sistema Editorial, Aquisição e Experimentação — V2.0
 
 **STATUS CANÔNICO:** sistema operacional oficial de comunicação, aquisição, aprendizado e crescimento  
-**DATA:** 30/08/2026  
-**HORIZONTE:** primeiros 90 dias + sistema editorial de longo prazo  
-**DOCUMENTO-PAI:** Documento 01 — Fundacional, Estratégico e Plano Executivo Canônico — V3.0  
-**DOCUMENTO RELACIONADO:** Documento 02 — Jornada de Transformação, Produtos, Serviços e Protocolos — V1.0
+**DATA:** 01/09/2026  
+**HORIZONTE:** próximos 7 dias + primeiros 90 dias + sistema editorial de longo prazo  
+**DOCUMENTOS SUPERIORES:** Documento 00 — Matriz de Governança Conceitual, Propriedade Intelectual e Posicionamento — V1.0; Documento 01 — Fundacional, Estratégico e Plano Executivo Canônico — V4.0  
+**DOCUMENTO RELACIONADO:** Documento 02 — Jornada de Transformação, Produtos, Serviços e Protocolos — V2.0  
+**SUBSTITUI:** Documento 03 — Sistema Editorial, Aquisição e Experimentação — V1.0
 
-> **Conteúdo não existe para preencher calendário. Existe para gerar reconhecimento, ampliar consciência, produzir confiança, revelar intenção e ensinar o negócio a servir melhor.**
+> **Conteúdo não existe para preencher calendário. Existe para gerar reconhecimento, ampliar consciência, produzir confiança, revelar intenção, ensinar o projeto e preparar próximos passos legítimos.**
 
 ---
 
 # Mapa do documento
 
-Este documento define como o **Portal Caminho da Consciência** transforma sua visão, seu método e suas ofertas em um sistema editorial capaz de atrair as pessoas certas, aprender com comportamento real, gerar demanda, construir confiança e conduzir o público para próximos passos legítimos da jornada.
+Esta V2.0 atualiza integralmente o sistema editorial do **Portal Caminho da Consciência** após:
 
-Ele consolida e revisa diretrizes editoriais, prompts, experimentos, calendário, aquisição orgânica e paga, pesquisa de intenção e análise de desempenho. O documento está organizado em dezoito partes:
+- criação do Documento 00;
+- revisão estratégica do Documento 01;
+- revisão da arquitetura de produtos no Documento 02;
+- acesso oficial de Marcos à formação **Mesa Radiônica Sintonize Prosperidade**;
+- análise dos principais materiais oficiais da formação;
+- separação conceitual entre Portal, Método Padrão Interrompido e Sintonize Prosperidade;
+- decisão de Marcos não adotar “terapeuta” como identidade profissional pública;
+- definição de que a certificação ainda está em fase final e não deve ser antecipada;
+- decisão de priorizar, nos próximos dias, **alcance e crescimento orgânico no YouTube**;
+- implementação da mensuração GTM + GA4 + Google Ads;
+- configuração de `whatsapp_click` como conversão secundária no Google Ads;
+- decisão de manter a campanha Google Search preparada, porém **adiada**.
 
-1. Função, escopo e regras superiores
-2. Papel do conteúdo no Caminho da Consciência
-3. Público editorial, estados de consciência e intenção
-4. Tese editorial, território verbal e Grandes Ideias
-5. Arquitetura de conteúdo YouTube-first
-6. Shorts/Reels: laboratório de reconhecimento
-7. Vídeos longos: confiança, categoria e aprofundamento
-8. Quadros editoriais recorrentes e séries
-9. Conteúdo espiritual e expansão de consciência
-10. Sistema de cenas de reconhecimento e TOM MARCOS
-11. IA visual e produção sem aparência de IA
-12. Funil editorial, CTAs e pontes para produtos
-13. Google Search, SEO e captura de intenção
-14. Experimentação, hipóteses e desenho de testes
-15. Métricas, análise 24h/72h e tomada de decisão
-16. Calendário, cadência e sistema de produção
-17. Biblioteca canônica de prompts
-18. Governança, limites e roadmap operacional
+O documento está organizado em dezenove partes:
+
+1. função, precedência e regras superiores;
+2. papel do conteúdo no Caminho da Consciência;
+3. público editorial, estados de consciência e intenção;
+4. tese editorial, território verbal e territórios de observação;
+5. arquitetura YouTube-first e prioridade dos próximos 7 dias;
+6. Shorts/Reels como laboratório de reconhecimento;
+7. vídeos longos como confiança, categoria e profundidade;
+8. quadros editoriais, séries e ecossistemas de ideias;
+9. espiritualidade, expansão da consciência e liberdade religiosa;
+10. conteúdo relacionado à Sintonize Prosperidade e materiais proprietários;
+11. cenas de reconhecimento e TOM MARCOS;
+12. IA visual, produção e uso responsável de fontes;
+13. funil editorial, CTAs e oferta vigente;
+14. Google Search, SEO e mídia paga;
+15. mensuração, atribuição e sinais comerciais;
+16. experimentação, hipóteses e desenho de testes;
+17. análise 24h/72h, métricas e tomada de decisão;
+18. calendário, sistema de produção e biblioteca de prompts;
+19. governança, compliance, roadmap e decisões.
 
 ---
 
 # 0. Função deste documento
 
-O Documento 01 define **quem somos, por que existimos e o que não pode ser perdido**. O Documento 02 define **como a pessoa evolui dentro do ecossistema**. Este Documento 03 define **como encontramos essa pessoa, como conversamos com ela, como aprendemos com sua resposta e como transformamos comunicação em aquisição responsável e dados de negócio**.
+O Documento 00 define **as fronteiras conceituais, de autoria, propriedade intelectual e posicionamento**.
 
-O Portal não deve operar conteúdo como uma linha de montagem de posts. Cada peça relevante deve cumprir pelo menos uma destas funções:
+O Documento 01 define **quem somos, por que existimos, o posicionamento e as regras estratégicas superiores**.
 
-- gerar reconhecimento;
-- nomear ou ampliar uma percepção;
-- revelar que uma repetição pode atravessar mais de uma área da vida;
-- ensinar uma forma de observar ou agir;
-- construir confiança no método e em Marcos;
-- demonstrar uma ferramenta, prática ou processo;
-- criar curiosidade legítima por um próximo passo;
-- responder a uma objeção;
-- capturar demanda existente;
-- gerar um dado útil para decidir o que produzir, vender ou desenvolver em seguida.
+O Documento 02 define **como a pessoa evolui pela jornada e quais produtos ou experiências podem ocupar cada etapa**.
 
-O sistema editorial deve funcionar como um ciclo:
+Este Documento 03 define:
 
-> **IDEIA → HIPÓTESE → EXPERIMENTO → ROTEIRO → PUBLICAÇÃO → COMPORTAMENTO → DADO → LEITURA → DECISÃO → PRÓXIMA HIPÓTESE**
+- como o Portal encontra pessoas;
+- como transforma vida real em conteúdo reconhecível;
+- como constrói audiência e confiança;
+- como diferencia aquisição ampla de conteúdo especializado;
+- como utiliza espiritualidade sem se tornar genérico ou dogmático;
+- como pode falar de Sintonize Prosperidade sem apropriar material de terceiros;
+- como transforma material de estudo em inspiração editorial original;
+- como constrói o canal de Marcos sem fabricar autoridade;
+- como converte atenção em próximos passos coerentes;
+- como Search e SEO complementam YouTube;
+- como mensura comportamento;
+- como testa hipóteses;
+- como aprende com dados;
+- como decide o que repetir, aprofundar, vender, adiar ou abandonar.
 
-## 0.1. Regra superior
+O sistema editorial funciona como um ciclo:
+
+> **OBSERVAÇÃO → IDEIA → HIPÓTESE → EXPERIMENTO → ROTEIRO → PUBLICAÇÃO → COMPORTAMENTO → DADO → LEITURA → DECISÃO → PRÓXIMA HIPÓTESE**
+
+Conteúdo é simultaneamente:
+
+- comunicação;
+- aquisição;
+- construção de marca;
+- pesquisa de mercado;
+- teste de linguagem;
+- aprendizagem de produto;
+- biblioteca cumulativa;
+- desenvolvimento de categoria.
+
+---
+
+## 0.1. Ordem de precedência
+
+Quando houver conflito:
+
+1. **Documento 00** prevalece em autoria, Sintonize, protocolos de terceiros, 8 Prosperidades, Anjos Cabalísticos, propriedade intelectual e apresentação pública de Marcos;
+2. **Documento 01** prevalece em propósito, posicionamento e direção estratégica;
+3. **Documento 02** prevalece em jornada, ofertas e estado de produtos;
+4. este Documento 03 governa comunicação, aquisição e experimentação;
+5. o CURRENT registra o estado operacional real e não transforma hipótese editorial em decisão canônica.
+
+---
+
+## 0.2. Regra superior
 
 > **Se o conteúdo não ajuda a pessoa a perceber, compreender, agir ou aprofundar algo relevante — e não ensina nada útil ao projeto — ele não merece existir apenas para manter frequência.**
 
-## 0.2. Regras imutáveis
+---
 
-- YouTube é o canal editorial prioritário; outras plataformas devem aproveitar e adaptar o que funciona, não criar quatro estratégias independentes.
-- Shorts são laboratório rápido de reconhecimento, linguagem, hooks e dor; vídeos longos constroem confiança, categoria, profundidade e conversão.
-- A aquisição começa pela vida real, não por jargão espiritual, energético ou metodológico.
-- O território **“voltar ao mesmo lugar”** continua sendo a principal porta de entrada de reconhecimento.
-- O **Método Padrão Interrompido** organiza o problema, mas não precisa aparecer no primeiro segundo de toda peça.
-- O **Portal Caminho da Consciência** representa uma jornada maior: reconhecer padrões é porta de entrada; consciência, transformação, integração e espiritualidade são o horizonte.
-- Conteúdo espiritual deve ser profundo sem ser dogmático e concreto sem prometer comprovação científica.
+## 0.3. Regras imutáveis
+
+- YouTube é o canal editorial prioritário.
+- Shorts são laboratório rápido de reconhecimento, linguagem, hooks e tensão.
+- Vídeos longos constroem confiança, categoria, profundidade e intenção.
+- A aquisição começa pela **vida real**, não por jargão espiritual, energético ou metodológico.
+- **“Voltar ao mesmo lugar”** permanece como principal território de reconhecimento.
+- O Método Padrão Interrompido organiza uma forma de observar a repetição; não precisa aparecer no primeiro segundo de cada peça.
+- O Portal Caminho da Consciência representa a jornada maior.
+- Sintonize Prosperidade é metodologia específica de terceiros e não define a totalidade da marca.
+- As 8 Prosperidades oficiais da Sintonize não são um mapa autoral do Padrão Interrompido.
+- Conteúdo inspirado pela formação deve ser **editorialmente transformado**, nunca copiado.
+- Apostilas, comandos, protocolos, listas proprietárias, gráficos e fichas não são matéria-prima para “copiar e publicar”.
+- Marcos não será apresentado como “terapeuta”.
+- Até a certificação ser formalmente concluída, não apresentar Marcos como certificado/formado/iniciado na Sintonize.
+- Conteúdo espiritual deve ser profundo sem ser dogmático e concreto sem se vestir de ciência.
 - Nenhum conteúdo pode parecer texto genérico de IA, copy intercambiável ou motivação pronta.
-- Marcos deve soar como uma pessoa contando algo importante para outra pessoa.
-- IA pode acelerar criação, pesquisa, variações e produção visual, mas não pode apagar observação humana, especificidade e verdade.
-- Views, seguidores e curtidas não substituem sinais de intenção, compra, uso, satisfação e continuidade.
-- Uma peça que gera menos alcance, mas traz compradores ou conversas qualificadas, pode ser comercialmente superior a uma peça viral.
-- Não criar urgência falsa, testemunho inventado, diagnóstico, promessa de cura, garantia financeira ou causalidade espiritual apresentada como fato.
+- Marcos deve soar como **uma pessoa contando algo importante para outra pessoa**.
+- IA pode acelerar pesquisa, organização, variações e produção; não pode substituir voz, observação ou autoria.
+- Views e seguidores não substituem intenção, conversa qualificada, compra, uso, satisfação e continuidade.
+- Uma peça de alcance menor pode ser mais valiosa se gerar pessoas certas.
+- Não usar medo espiritual para vender.
+- Não criar testemunho.
+- Não diagnosticar.
+- Não prometer cura.
+- Não garantir dinheiro, clientes, emprego ou resultado material.
+- Não apresentar causalidade espiritual como fato.
+- Não apresentar conteúdo proprietário de terceiros como criação do Portal.
 
 ---
 
 # PARTE I — O PAPEL DO CONTEÚDO NO CAMINHO DA CONSCIÊNCIA
 
-# 1. Conteúdo como primeira etapa da jornada
+# 1. Conteúdo como primeira experiência do Portal
 
-Na maioria dos casos, a pessoa não chega procurando “expansão da consciência”. Ela chega porque alguma coisa está doendo, incomodando ou se repetindo.
+Na maioria dos casos, a pessoa não chega procurando “expansão da consciência”, “radiestesia” ou “Método Padrão Interrompido”.
 
-Ela pensa coisas como:
+Ela chega porque alguma coisa está acontecendo.
+
+Ela pensa:
 
 - “De novo eu cheguei no fim do mês assim.”
 - “É o terceiro trabalho e eu estou sentindo a mesma coisa.”
-- “Eu prometi que dessa vez seria diferente.”
-- “Eu só volto a rezar quando tudo aperta.”
-- “Eu digo que vou colocar limite, mas na hora eu cedo.”
-- “Eu começo, melhoro, paro e volto ao ponto de antes.”
+- “Eu disse que dessa vez colocaria limite.”
+- “Eu comecei bem e larguei de novo.”
+- “Eu sei o que preciso fazer, mas continuo adiando.”
+- “Eu só lembro da minha prática espiritual quando tudo aperta.”
+- “Troquei de cenário, mas a sensação é parecida.”
 
-O conteúdo deve respeitar essa ordem psicológica. Primeiro a vida concreta. Depois a repetição. Depois a possibilidade de conexão. Só então o método, a consciência, a prática e a espiritualidade entram com profundidade.
+O conteúdo deve respeitar essa ordem:
 
-A sequência editorial canônica é:
+> **VIDA CONCRETA → RECONHECIMENTO → REPETIÇÃO → CONEXÃO → CONSCIÊNCIA → POSSIBILIDADE DE AÇÃO → PRÓXIMO PASSO**
 
-> **CENA → RECONHECIMENTO → REPETIÇÃO → CONEXÃO → SIGNIFICADO → POSSIBILIDADE DE AÇÃO → PRÓXIMO PASSO**
+A técnica entra depois.
 
-# 2. O conteúdo não vende apenas produtos; vende uma forma de olhar
+A metodologia entra quando ajuda a compreender.
 
-O Portal precisa construir uma categoria mental própria. A pessoa deve começar a reconhecer uma lógica:
+A espiritualidade entra quando amplia, e não quando tenta substituir a realidade.
+
+---
+
+# 2. O conteúdo vende uma forma de olhar antes de vender um produto
+
+A marca precisa construir uma categoria mental:
 
 > **“Talvez o problema que eu vejo não seja o único lugar onde isso aparece.”**
 
-A marca cresce quando o público aprende a fazer perguntas melhores sobre a própria vida, mesmo antes de comprar.
+O público deve aprender progressivamente a observar:
 
-O conteúdo precisa tornar familiar uma forma de observação:
+1. o que aconteceu;
+2. em que momento aquilo ficou perceptível;
+3. se já ocorreu antes;
+4. se aparece em outro domínio da vida;
+5. qual reação, escolha, adiamento, silêncio ou hábito parece se repetir;
+6. o que depende da pessoa;
+7. que prática pode ser útil;
+8. o que muda depois de um período de observação ou ação.
 
-1. o que aconteceu concretamente;
-2. se isso já aconteceu de outro jeito;
-3. onde mais aparece algo parecido;
-4. que reação, crença, escolha ou dinâmica parece atravessar essas situações;
-5. o que pode ser trabalhado na prática;
-6. o que muda depois de um período de prática;
-7. qual próximo nível de consciência ou aprofundamento aparece.
+Isso é construir autoridade por clareza, não por superioridade.
 
-# 3. O conteúdo também é pesquisa de mercado
+---
 
-Cada conteúdo relevante deve responder a pelo menos uma pergunta de negócio:
+# 3. O conteúdo é pesquisa de mercado
+
+Toda peça relevante deve testar pelo menos uma incerteza.
+
+Perguntas de negócio:
 
 - qual cena gera reconhecimento imediato?
-- qual área desperta mais comentários de identificação?
-- quais palavras o público usa para descrever a dor?
-- qual tensão produz mais retenção?
-- qual pergunta gera respostas longas?
-- qual conteúdo produz buscas, cliques ou mensagens?
-- qual objeção aparece antes da compra?
-- qual oferta parece consequência natural da conversa?
-- quais temas espirituais atraem profundidade e quais atraem apenas curiosidade vazia?
-- quais conteúdos trazem clientes que permanecem e avançam na jornada?
+- qual frase faz a pessoa comentar “sou eu”?
+- quais situações produzem retenção?
+- quais temas levam a vídeos longos?
+- quais cruzamentos entre domínios geram surpresa?
+- quais temas espirituais produzem profundidade?
+- quais atraem apenas curiosidade mística?
+- quais conteúdos levam à página?
+- quais geram WhatsApp?
+- quais geram conversa qualificada?
+- quais objeções aparecem?
+- que palavras o público usa?
+- qual conteúdo aproxima a pessoa do Mapeamento?
+- depois da certificação, que nível de interesse real existe pela Sintonize?
+- as pessoas compreendem a diferença entre método e ferramenta?
+- quais temas geram desejo de continuar caminhando, e não apenas resolver uma dor imediata?
 
-A pauta não é apenas um calendário. É uma bateria contínua de hipóteses.
+---
+
+# 4. O conteúdo deve aumentar autonomia
+
+O Portal não deve ensinar o público a pensar:
+
+> “Preciso perguntar ao Marcos o que significa tudo o que acontece comigo.”
+
+O objetivo é aumentar capacidade de observação.
+
+Conteúdo de qualidade ajuda a pessoa a:
+
+- notar;
+- comparar;
+- perguntar;
+- assumir responsabilidade;
+- diferenciar impressão de fato;
+- buscar ajuda adequada quando necessário;
+- reconhecer quando não precisa de nova intervenção.
 
 ---
 
 # PARTE II — PÚBLICO EDITORIAL, ESTADOS DE CONSCIÊNCIA E INTENÇÃO
 
-# 4. Público editorial principal
+# 5. Público editorial principal
 
-O público editorial prioritário é formado por adultos que percebem repetição, estagnação ou desconexão em uma ou mais áreas da vida e desejam compreender melhor o que está acontecendo sem necessariamente querer linguagem clínica, esotérica excessiva ou motivação genérica.
+Adultos que:
 
-Características frequentes:
+- percebem repetição, estagnação ou desconexão;
+- já tentaram mudar algo;
+- sentem que determinadas situações “voltam”;
+- têm abertura para autoconhecimento e espiritualidade;
+- valorizam vida real;
+- rejeitam promessa fácil;
+- podem rejeitar linguagem clínica;
+- podem rejeitar exagero esotérico;
+- querem compreender o próprio caso;
+- desejam mais consciência e coerência;
+- podem ter interesse espiritual sem desejar mudar de religião.
 
-- já tentaram mudar alguma situação mais de uma vez;
-- reconhecem que certos resultados reaparecem;
-- podem ter interesse por autoconhecimento, espiritualidade ou desenvolvimento pessoal;
-- rejeitam promessas exageradas;
-- querem aplicação na vida real;
-- têm perguntas sobre dinheiro, trabalho, relações, família, tempo, autocuidado ou espiritualidade;
-- podem chegar por uma dor concreta e só depois perceber dimensão transversal;
-- valorizam linguagem simples, explicação organizada e autonomia.
+Não é necessário conhecer:
 
-# 5. Estados editoriais da audiência
+- radiestesia;
+- Mesa Radiônica;
+- Sintonize;
+- auto-hipnose;
+- Padrão Interrompido.
 
-O mesmo tema deve ser tratado de maneiras diferentes conforme o estado da pessoa.
+Esses elementos são posteriores à necessidade concreta.
 
-## 5.1. Estado A — Dor sem nome
+---
 
-A pessoa sente o problema, mas ainda não o organiza como repetição.
+# 6. Estado A — Dor sem nome
 
-Conteúdo ideal:
+Pensamento:
 
-- cenas hiperconcretas;
-- perguntas de memória;
-- contradições;
+> **“Isso está me incomodando, mas eu nem sei explicar direito.”**
+
+Conteúdo:
+
+- cenas;
+- objetos;
 - frases internas;
-- micro-histórias.
+- pequenas decisões;
+- situações escondidas;
+- microcontradições.
 
 Objetivo:
 
 > **“Isso acontece comigo.”**
 
-CTA adequado:
+CTA:
 
-- comentar;
 - observar;
-- assistir a outro conteúdo relacionado.
+- comentar;
+- assistir a outro conteúdo.
 
-## 5.2. Estado B — Reconhecimento da repetição
+---
 
-A pessoa percebe que não é a primeira vez.
+# 7. Estado B — Reconhecimento da repetição
 
-Conteúdo ideal:
+Pensamento:
 
-- antes/depois que volta;
-- mudanças de cenário com reação semelhante;
-- duas situações separadas pelo tempo;
-- padrões de adiamento, ocultação, excesso, abandono ou repetição.
+> **“Não é a primeira vez.”**
+
+Conteúdo:
+
+- antes/depois;
+- ciclos;
+- cenários diferentes;
+- mesma reação;
+- adiamento;
+- silêncio;
+- excesso;
+- abandono;
+- recuo.
 
 Objetivo:
 
-> **“Isso já aconteceu antes.”**
+> **“Isso já aconteceu de outra forma.”**
 
-CTA adequado:
+CTA:
 
-- pergunta de auto-observação;
-- playlist;
-- conteúdo longo;
-- Radar quando disponível.
+- observar próxima ocorrência;
+- assistir a vídeo longo;
+- seguir série.
 
-## 5.3. Estado C — Conexão transversal
+---
 
-A pessoa começa a perceber que uma mesma dinâmica pode aparecer em áreas diferentes.
+# 8. Estado C — Conexão entre domínios
 
-Conteúdo ideal:
+Pensamento:
 
-- cruzamento de dinheiro + relacionamento;
+> **“Talvez isso apareça em mais de uma parte da minha vida.”**
+
+Conteúdo:
+
+- dinheiro + limites;
 - trabalho + família;
+- projeto + medo de exposição;
 - espiritualidade + rotina;
 - tempo + autocuidado;
-- limites + dinheiro;
-- controle + relacionamentos.
+- relacionamento + silêncio;
+- organização + adiamento.
 
 Objetivo:
 
-> **“Talvez isso não aconteça só aqui.”**
+> **“Talvez exista uma dinâmica parecida atravessando situações diferentes.”**
 
-CTA adequado:
+CTA:
 
+- vídeo do método;
 - Mapeamento;
-- Radar;
-- vídeo explicando o método.
+- futuro Radar.
 
-## 5.4. Estado D — Busca por compreensão e solução
+---
 
-A pessoa quer entender o próprio caso.
+# 9. Estado D — Busca por compreensão individual
 
-Conteúdo ideal:
+Pensamento:
 
-- como funciona um Mapeamento;
-- demonstração de processo;
-- estudos de caso responsáveis;
-- perguntas frequentes;
-- diferença entre mapa, diagnóstico e leitura;
-- limites do método;
-- o que acontece depois do Mapeamento.
+> **“Quero entender o meu caso.”**
+
+Conteúdo:
+
+- como funciona o Mapeamento;
+- o que ele entrega;
+- o que não entrega;
+- exemplos fictícios ou autorizados;
+- bastidores de organização;
+- FAQ;
+- diferença entre reflexão, mapeamento e diagnóstico;
+- como funciona relatório e áudio.
 
 Objetivo:
 
-> **“Quero entender o meu.”**
+> **“Isso pode me ajudar a organizar melhor o que estou vivendo.”**
 
-CTA adequado:
+CTA:
 
-- página da oferta;
+- página;
 - WhatsApp;
-- formulário;
-- checkout, conforme o fluxo vigente.
+- fluxo vigente de contato.
 
-## 5.5. Estado E — Desenvolvimento e aprofundamento
+---
 
-A pessoa já não busca apenas “resolver um problema”. Quer integrar aprendizados, sustentar mudanças e aprofundar consciência e espiritualidade.
+# 10. Estado E — Interesse por metodologia ou prática espiritual
 
-Conteúdo ideal:
+Esse estado não deve ser confundido com topo de funil.
 
-- prática;
-- revisão de escolhas;
-- disciplina espiritual;
-- sentido e valores;
-- integração entre fé e vida concreta;
-- silêncio, oração, meditação, estudo;
-- autonomia e amadurecimento.
+Depois de confiança, algumas pessoas desejarão saber:
 
-Objetivo:
+- que técnicas Marcos estuda;
+- o que é radiestesia;
+- o que é Mesa Radiônica;
+- o que é Sintonize Prosperidade;
+- como uma prática espiritual pode entrar numa experiência;
+- quais limites existem.
+
+Antes da certificação Sintonize:
+
+- não apresentar qualificação concluída;
+- não vender conteúdo como “autoridade certificada”;
+- não fazer demonstrações comerciais baseadas em habilitação ainda não formalizada.
+
+Depois da certificação:
+
+- explicar com atribuição;
+- comunicar como metodologia específica;
+- diferenciar claramente de Padrão Interrompido;
+- mostrar limites.
+
+---
+
+# 11. Estado F — Desenvolvimento e aprofundamento
+
+Pensamento:
 
 > **“Quero continuar caminhando.”**
 
-CTA adequado:
+Conteúdo:
 
-- jornada guiada;
+- prática;
+- disciplina;
+- valores;
+- escolhas;
+- espiritualidade aplicada;
+- silêncio;
+- oração;
+- meditação;
+- integração;
+- serviço;
+- autonomia;
+- amadurecimento.
+
+CTA:
+
+- conteúdo seguinte;
+- prática;
+- futura Jornada;
 - reavaliação;
-- comunidade;
-- encontro;
-- acompanhamento, conforme maturidade e elegibilidade.
+- comunidade quando existir.
 
 ---
 
-# PARTE III — TESE EDITORIAL, TERRITÓRIO VERBAL E GRANDES IDEIAS
+# PARTE III — TESE EDITORIAL, TERRITÓRIO VERBAL E TERRITÓRIOS DE OBSERVAÇÃO
 
-# 6. Tese editorial central
-
-A tese editorial principal continua sendo:
+# 12. Tese editorial central
 
 > **O cenário muda. O padrão volta. A consciência pode mudar o caminho.**
 
-Ela une a porta de entrada do **Padrão Interrompido** ao horizonte maior do **Caminho da Consciência**.
+Ela conecta:
 
-O território de aquisição continua sendo:
-
-> **“voltar ao mesmo lugar”**
-
-E a pergunta estratégica invisível permanece:
-
-> **“E se o problema que você percebe não for o único lugar onde esse padrão aparece?”**
-
-# 7. Grandes Ideias editoriais
-
-As Grandes Ideias são territórios de investigação, não slogans obrigatórios. Cada uma deve gerar dezenas de cenas e hipóteses.
-
-## GI-01 — O cenário mudou. A reação não.
-
-Usada para mostrar que mudanças externas podem não alterar automaticamente a forma interna de responder.
-
-Exemplos:
-
-- novo emprego, mesma sensação;
-- nova relação, mesmo silêncio;
-- renda maior, mesmo aperto;
-- nova rotina, mesmo abandono de si.
-
-## GI-02 — Você não voltou ao início; algo voltou a aparecer.
-
-Evita linguagem fatalista. Mostra que repetição pode ser percebida mais cedo e trabalhada.
-
-## GI-03 — O problema pode estar aparecendo em mais de uma área.
-
-É a Grande Ideia transversal por excelência.
-
-## GI-04 — O que você faz quando ninguém está olhando?
-
-Explora microdecisões, autoenganos, adiamentos, verificações, mensagens apagadas, desculpas e comportamentos silenciosos.
-
-## GI-05 — A mudança começa antes da mudança externa.
-
-Mostra percepção, escolha, preparação e consciência antes de resultados visíveis.
-
-## GI-06 — Prática espiritual que não toca a vida concreta vira fuga.
-
-Conecta espiritualidade com limites, ações, responsabilidade, conversa, organização e escolha.
-
-## GI-07 — Consciência não é pensar mais; é perceber antes.
-
-Trabalha reconhecimento precoce de automatismos e capacidade de escolha.
-
-## GI-08 — Você pode aprender a observar o próprio caminho.
-
-Constrói autonomia e evita dependência de facilitador.
-
-## GI-09 — Interromper um padrão não é o fim; é abrir espaço para outro modo de caminhar.
-
-Faz a ponte entre Método Padrão Interrompido e marca-mãe.
-
-## GI-10 — O que você chama de problema pode ser só o lugar mais visível.
-
-Útil para Mapeamento e Radar.
-
-# 8. Áreas de observação
-
-O sistema editorial pode trabalhar as oito áreas atualmente organizadas sob o nome **8 Prosperidades**, termo que continua vigente no método até decisão canônica posterior sobre nomenclatura:
-
-1. Financeira;
-2. Profissional e Criativa;
-3. Relacionamentos;
-4. Familiar e Ancestral;
-5. Saúde e Bem-estar;
-6. Emocional;
-7. Espiritual;
-8. Tempo e Liberdade.
-
-A comunicação de aquisição não precisa apresentar essa nomenclatura de imediato. A pessoa deve primeiro reconhecer a vida concreta.
+- problema concreto;
+- Método Padrão Interrompido;
+- Caminho da Consciência.
 
 ---
 
-# PARTE IV — ARQUITETURA YOUTUBE-FIRST
+# 13. Território verbal principal
 
-# 9. YouTube como canal editorial principal
+> **“Voltar ao mesmo lugar.”**
 
-O YouTube deve funcionar simultaneamente como:
+É preferível a iniciar aquisição com:
+
+- bloqueio;
+- frequência;
+- energia;
+- causa raiz;
+- prosperidade;
+- Anjo;
+- radiônica.
+
+Esses termos podem existir em contextos específicos, mas não são a principal porta de entrada.
+
+---
+
+# 14. Pergunta estratégica invisível
+
+> **“E se o problema que você percebe não for o único lugar onde esse padrão aparece?”**
+
+Essa pergunta deve aparecer em diferentes formas sem virar bordão repetitivo.
+
+---
+
+# 15. Grandes Ideias editoriais
+
+## GI-01 — O cenário mudou. A reação não.
+
+Mudanças externas nem sempre mudam automaticamente a forma de responder.
+
+## GI-02 — Não é voltar ao início; é perceber algo que voltou a aparecer.
+
+Evita fatalismo.
+
+## GI-03 — O problema pode estar aparecendo em mais de um domínio.
+
+Grande Ideia transversal.
+
+## GI-04 — A frase que você diz quando ninguém está ouvindo.
+
+Explora linguagem interna.
+
+## GI-05 — O que você faz no minuto anterior ao padrão?
+
+Foco no comportamento observável antes do resultado.
+
+## GI-06 — Você pode perceber antes.
+
+Consciência como aumento de escolha.
+
+## GI-07 — Prática espiritual que não toca a vida concreta pode virar fuga.
+
+Espiritualidade + responsabilidade.
+
+## GI-08 — Entender não é integrar.
+
+Ponte para prática.
+
+## GI-09 — Uma intervenção não é o fim do caminho.
+
+Ponte para reavaliação.
+
+## GI-10 — O problema mais visível pode não ser o único ponto relevante.
+
+Ponte para Mapeamento.
+
+## GI-11 — A vida muda de contexto e testa o que você realmente integrou.
+
+Útil para hábitos, trabalho, relações e espiritualidade.
+
+## GI-12 — Aprender a observar a própria vida é parte da transformação.
+
+Autonomia.
+
+---
+
+# 16. Territórios editoriais flexíveis
+
+O Portal pode organizar pauta em territórios editoriais como:
+
+- dinheiro e recursos;
+- trabalho, carreira e projetos;
+- criatividade e expressão;
+- relacionamentos;
+- família, história e aprendizados;
+- rotina, autocuidado e bem-estar cotidiano;
+- respostas internas, escolhas e comportamento;
+- espiritualidade;
+- tempo, liberdade e prioridades.
+
+Essa lista:
+
+- não é diagnóstico;
+- não é um mapa fechado do método;
+- não é a Roda oficial Sintonize;
+- pode evoluir conforme dados.
+
+---
+
+# 17. As 8 Prosperidades Sintonize no editorial
+
+Quando um conteúdo for **explicitamente sobre a Sintonize**, a estrutura oficial é:
+
+1. Financeira;
+2. Saúde;
+3. Relacionamentos;
+4. Emocional;
+5. Espiritual;
+6. Criativa;
+7. Tempo e Liberdade;
+8. Profissional.
+
+Regras:
+
+- atribuir à Sintonize;
+- não afirmar que foi criada pelo Padrão Interrompido;
+- não substituir os territórios editoriais amplos do Portal por essa Roda;
+- não utilizar “Familiar/Ancestral” como uma das 8 Prosperidades oficiais.
+
+---
+
+# PARTE IV — ARQUITETURA YOUTUBE-FIRST E PRIORIDADE DOS PRÓXIMOS 7 DIAS
+
+# 18. YouTube como canal principal
+
+YouTube deve funcionar como:
 
 - laboratório de linguagem;
 - biblioteca de autoridade;
 - mecanismo de descoberta;
 - construção de categoria;
-- demonstração de método;
+- construção de confiança;
+- arquivo cumulativo;
 - fonte de demanda;
-- ativo cumulativo de busca e recomendação.
+- ponte para Search;
+- base de reaproveitamento.
 
-A lógica é:
+Lógica:
 
-> **SHORT TESTA → LONGO APROFUNDA → PLAYLIST ORGANIZA → CTA CONDUZ → DADO RETORNA PARA A PAUTA**
+> **SHORT TESTA → LONGO APROFUNDA → PLAYLIST ORGANIZA → CTA CONDUZ → DADO VOLTA PARA A PAUTA**
 
-# 10. Papéis dos formatos
+---
 
-## 10.1. Shorts
+# 19. Prioridade editorial vigente
 
-Funções prioritárias:
+Durante aproximadamente os próximos sete dias, enquanto Marcos conclui a formação Sintonize:
 
-- testar hooks;
-- testar cenas;
-- testar dores;
-- testar linguagem;
-- testar cruzamentos entre áreas;
-- identificar temas que merecem vídeo longo;
-- gerar reconhecimento rápido;
-- levar para vídeo, playlist, Radar, Mapeamento ou página.
+> **PRIORIDADE = ALCANCE QUALIFICADO + CRESCIMENTO DO YOUTUBE + APRENDIZADO DE LINGUAGEM**
 
-Duração de referência:
+Não é prioridade:
 
-- 15–35 segundos na maioria dos testes;
-- até 45–60 segundos quando a história exigir e a retenção justificar.
+- intensificar venda da Sintonize;
+- transformar o canal em canal de Mesa Radiônica;
+- criar campanha paga só porque o tracking está pronto;
+- publicar conteúdo como se a certificação já estivesse formalizada;
+- ensinar protocolos da formação;
+- construir produto derivado.
 
-## 10.2. Vídeos longos
+---
 
-Funções prioritárias:
+# 20. Hipótese de mix editorial para esta janela
 
-- aprofundar uma Grande Ideia;
-- explicar o método;
-- responder objeções;
-- demonstrar processos;
-- construir confiança em Marcos;
-- organizar séries;
-- gerar busca;
-- conduzir para próximos passos comerciais ou editoriais.
+Ponto de partida operacional, sujeito a dados:
 
-Faixa inicial de referência:
+- **60–70%** reconhecimento concreto, cenas e repetição;
+- **15–20%** consciência, conexão entre domínios e Padrão Interrompido;
+- **10–20%** espiritualidade aplicada à vida real;
+- **até 10%** conteúdo de oferta, bastidor, método ou intenção comercial.
 
-- 8–18 minutos para vídeos de tese, explicação e problema;
-- 15–30 minutos para demonstração, workshop, estudo ou aprofundamento.
+Isso é hipótese operacional, não quota eterna.
 
-A duração é consequência do valor e da retenção, não uma meta rígida.
+Sintonize pode aparecer antes da certificação apenas como **contexto de estudo em andamento**, se houver motivo real; não precisa aparecer para o canal crescer.
 
-## 10.3. Community, Reels, TikTok e Stories
+---
 
-- **Community:** perguntas, enquetes, hipóteses, trechos, bastidores e continuidade de discussão.
-- **Reels/TikTok:** adaptação dos Shorts vencedores, respeitando linguagem de cada plataforma.
-- **Stories:** pesquisa qualitativa, proximidade, objeções, bastidores e conversão, sem exigir presença constante de Marcos.
+# 21. Cadência de referência
 
-# 11. Ecossistema de uma única ideia
+Enquanto houver qualidade e capacidade de análise:
 
-Uma ideia forte deve poder gerar:
+- Shorts: 1–2 por dia;
+- vídeos longos: 2 por semana;
+- Community: perguntas, enquetes e continuidade;
+- Reels/TikTok: reaproveitamento seletivo;
+- Stories: proximidade e pesquisa qualitativa.
 
-- 3–5 Shorts;
-- 1 vídeo longo;
-- 1 post de Community;
-- 1 carrossel ou post de apoio;
-- 1 pergunta para Stories;
-- 1 e-mail;
-- 1 possível anúncio;
-- 1 hipótese comercial.
+Frequência perde para:
 
-Não produzir peças isoladas sem relação quando uma Grande Ideia pode gerar um ecossistema coordenado.
+- naturalidade;
+- qualidade;
+- aprendizado;
+- retenção.
 
 ---
 
 # PARTE V — SHORTS / REELS: LABORATÓRIO DE RECONHECIMENTO
 
-# 12. Estrutura de referência
-
-Estrutura recomendada, sem transformar em fórmula rígida:
+# 22. Estrutura de referência
 
 > **CENA → PENSAMENTO → REPETIÇÃO → EXPANSÃO → PERGUNTA → CTA**
 
-## 12.1. Cena
+Não é fórmula rígida.
 
-Mostrar o segundo exato em que a pessoa percebe a dor.
+É um mapa para impedir que o conteúdo comece abstrato demais.
+
+---
+
+# 23. Cena
 
 Fraco:
 
-> “Você tem problemas financeiros?”
+> “Você repete padrões financeiros?”
 
 Forte:
 
-> “O dinheiro entrou sexta. Hoje é quarta e você já abriu a calculadora para descobrir como vai chegar até o próximo pagamento.”
+> “O dinheiro entrou na sexta. Na quarta você já abriu a calculadora para ver como chega até o próximo pagamento.”
 
-## 12.2. Pensamento
+Uma cena forte contém:
 
-Trazer a frase silenciosa.
+- momento;
+- objeto;
+- gesto;
+- pequena decisão;
+- frase interna;
+- sinal de repetição.
 
-Exemplos:
+---
 
-- “Dessa vez eu não vou contar para ninguém.”
-- “Depois eu vejo isso.”
-- “É melhor não tocar no assunto.”
-- “Na segunda eu começo de novo.”
+# 24. Pensamento
+
+A frase que a pessoa pensa:
+
+- “Depois eu resolvo.”
+- “Melhor não falar nada.”
+- “Na segunda eu começo.”
 - “Só preciso passar por este mês.”
+- “Dessa vez eu não vou contar.”
+- “Quando eu tiver mais tempo, eu faço.”
+- “Não é hora de mexer nisso.”
 
-## 12.3. Repetição
+---
 
-Mostrar que já aconteceu antes, sem decretar causa.
+# 25. Repetição
 
-## 12.4. Expansão
+Mostrar que existe histórico, sem decretar causa.
 
-Conectar outra área ou outro momento da vida.
+Exemplo:
 
-> “E talvez esse ‘depois eu resolvo’ não apareça só com dinheiro.”
+> “A parte curiosa é que você falou a mesma coisa no projeto anterior.”
 
-## 12.5. Pergunta
+---
 
-Abrir consciência, não fechar diagnóstico.
+# 26. Expansão
 
-> “Onde mais isso aparece?”
+Cruzar outro contexto:
 
-## 12.6. CTA
+> “E talvez esse ‘depois eu resolvo’ não apareça só no dinheiro.”
 
-Um único próximo passo coerente.
+Isso constrói categoria.
 
-# 13. Hooks prioritários
+---
 
-Tipos de hook:
+# 27. Pergunta
+
+Perguntas abertas:
+
+- “Onde mais isso aparece?”
+- “Quando foi a última vez que você fez exatamente isso?”
+- “O que você faz dois minutos antes de recuar?”
+- “Em que outra área você usa essa mesma frase?”
+- “O que mudaria se você percebesse isso uma hora antes?”
+
+---
+
+# 28. CTA
+
+Um único próximo passo:
+
+- observar;
+- comentar;
+- ver outro vídeo;
+- assistir ao longo;
+- abrir página;
+- WhatsApp quando a peça for de intenção.
+
+Não transformar Short em catálogo.
+
+---
+
+# 29. Hooks prioritários
 
 - cena concreta;
+- objeto;
 - pergunta de memória;
-- contradição;
+- contraste;
 - repetição temporal;
-- frase interna;
-- objeto cotidiano;
-- mudança externa x reação interna;
-- cruzamento inesperado entre duas áreas.
+- frase silenciosa;
+- mudança externa x reação parecida;
+- cruzamento inesperado;
+- consequência pequena.
 
 Exemplos:
 
 - “É o terceiro emprego. Em que momento todos eles começam a parecer iguais?”
-- “Seu salário aumentou. Por que você ainda sente que não pode respirar quando abre o aplicativo do banco?”
-- “A pessoa é outra. Por que você está escondendo as mesmas coisas?”
-- “Você começa uma prática espiritual quando tudo aperta. Quando melhora, some dela.”
-- “Tem uma frase que talvez você repita em várias áreas sem perceber: ‘depois eu resolvo’.”
-
-# 14. O que um Short não deve tentar fazer
-
-Um Short não precisa:
-
-- explicar o método inteiro;
-- falar das oito áreas;
-- ensinar três técnicas;
-- contar toda a história de Marcos;
-- vender todos os produtos;
-- apresentar a filosofia completa do Portal.
-
-Uma peça curta deve carregar **uma tensão, uma virada e um próximo passo**.
+- “Você escreveu a mensagem inteira, apagou e mandou só ‘tudo bem’.”
+- “Você faz uma oração longa no dia do medo. Três semanas depois, o caderno continua fechado.”
+- “Seu salário aumentou. Por que você ainda abre o banco com a mesma sensação?”
+- “Tem uma frase que talvez você use em várias áreas: ‘depois eu resolvo’.”
 
 ---
 
-# PARTE VI — VÍDEOS LONGOS: CONFIANÇA, CATEGORIA E APROFUNDAMENTO
+# 30. O que um Short não precisa fazer
 
-# 15. Packaging antes do roteiro
+- explicar Padrão Interrompido inteiro;
+- falar da Sintonize;
+- ensinar Anjos;
+- explicar 8 Prosperidades;
+- contar toda história de Marcos;
+- apresentar todas as técnicas;
+- vender tudo.
 
-Antes de escrever o vídeo longo, definir:
+Uma peça curta precisa carregar:
 
-- qual pergunta ele responde;
-- qual transformação cognitiva entrega;
-- título provável;
+> **uma tensão + uma virada + um próximo passo.**
+
+---
+
+# PARTE VI — VÍDEOS LONGOS: CONFIANÇA, CATEGORIA E PROFUNDIDADE
+
+# 31. Packaging antes do roteiro
+
+Antes de escrever:
+
+- hipótese;
+- público;
+- estado da audiência;
+- pergunta central;
+- transformação cognitiva;
+- título;
+- thumbnail;
 - promessa editorial legítima;
-- thumbnail/conceito visual;
-- público específico;
-- estágio da jornada;
-- CTA principal;
-- vídeo seguinte recomendado.
+- CTA;
+- próximo vídeo.
 
-Se o packaging não desperta curiosidade legítima e reconhecimento, o roteiro não salva o vídeo.
+Se embalagem não gera curiosidade legítima, roteiro não salva.
 
-# 16. Estrutura de referência para vídeo longo
+---
 
-1. **Hook:** tensão principal sem introdução protocolar.
-2. **Contrato:** o que a pessoa vai entender até o fim.
-3. **Cena ou história inicial:** materializar o problema.
-4. **Bloco 1:** o que normalmente se enxerga.
-5. **Micro-hook:** pergunta que abre o bloco seguinte.
-6. **Bloco 2:** onde a repetição aparece.
-7. **Bloco 3:** conexão transversal ou método.
-8. **Bloco 4:** o que pode ser observado ou praticado.
-9. **Limites e nuance:** o que não está sendo afirmado.
-10. **Síntese:** mudança de percepção.
-11. **CTA:** próximo passo único.
-12. **Ponte:** vídeo ou etapa seguinte.
+# 32. Estrutura de referência
 
-# 17. Famílias de vídeos longos
+1. hook;
+2. contrato;
+3. cena;
+4. bloco 1 — o que normalmente se enxerga;
+5. micro-hook;
+6. bloco 2 — repetição;
+7. bloco 3 — conexão;
+8. bloco 4 — o que observar ou praticar;
+9. limites e nuance;
+10. síntese;
+11. CTA;
+12. ponte para próximo conteúdo.
 
-## 17.1. Reconhecimento profundo
+---
 
-Exemplos:
+# 33. Famílias de vídeos longos
 
-- “Por que você muda a situação e acaba voltando ao mesmo lugar?”
+## 33.1. Reconhecimento profundo
+
+- “Por que você muda a situação e acaba voltando para um lugar parecido?”
 - “5 sinais de que o problema pode não estar só onde você está olhando.”
 
-## 17.2. Construção de categoria
+## 33.2. Categoria
 
 - “O que eu quero dizer quando falo em padrão recorrente.”
-- “Padrão não é destino: como observar repetição sem se rotular.”
+- “Padrão não é destino.”
 
-## 17.3. Método
+## 33.3. Método
 
 - “Como funciona o Método Padrão Interrompido.”
-- “O que acontece em um Mapeamento e o que ele não pretende dizer.”
+- “O que acontece em um Mapeamento — e o que ele não pretende dizer.”
 
-## 17.4. Demonstração
+## 33.4. Vida + consciência
 
-- exemplos fictícios claramente identificados;
-- casos autorizados e contextualizados;
-- walkthrough de ferramenta;
-- perguntas de mapeamento;
-- demonstração de processo, não espetáculo.
+- “Perceber antes muda o quê, na prática?”
+- “Por que entender não basta para integrar uma mudança?”
 
-## 17.5. Espiritualidade aplicada
+## 33.5. Espiritualidade aplicada
 
 - “O que significa ter uma prática espiritual quando a vida está normal?”
-- “Fé sem ação concreta: onde termina a confiança e começa a fuga?”
-- “Expansão de consciência sem misticismo obrigatório.”
+- “Quando a espiritualidade vira fuga da conversa que você precisa ter.”
+- “Expansão de consciência sem promessa de iluminação.”
 
-## 17.6. Marcos / investigação pessoal
+## 33.6. Bastidor de Marcos
 
-Usar em aproximadamente 10–15% da pauta, quando houver conexão real com a tese.
+Usar quando houver pertinência real, sem tornar o canal autobiográfico.
 
 ---
 
-# PARTE VII — QUADROS EDITORIAIS RECORRENTES E SÉRIES
+# 34. Longos sobre Sintonize — somente quando fizer sentido
 
-# 18. Por que criar quadros recorrentes
+Antes da certificação:
 
-Quadros criam memória, hábito e linguagem própria. O objetivo não é imitar programas tradicionais, mas transformar temas recorrentes em estruturas reconhecíveis.
+- conteúdo educativo não deve vender habilitação já concluída;
+- evitar walkthrough de ferramenta ou demonstração comercial da formação;
+- não ensinar conteúdo proprietário.
 
-# 19. Quadro principal — decisão ainda aberta
+Depois da certificação:
 
-O nome definitivo do primeiro quadro recorrente continua em aberto. Candidatos coerentes com o sistema:
+possíveis temas:
+
+- “O que é a Mesa Radiônica Sintonize Prosperidade e como eu a enxergo dentro do Portal.”
+- “Padrão Interrompido e Sintonize: por que não são a mesma coisa.”
+- “O que uma Mesa Radiônica não substitui.”
+- “Como espiritualidade e ação concreta podem coexistir numa experiência.”
+
+Não começar com Anjo, frequência ou promessa de resultado.
+
+---
+
+# PARTE VII — QUADROS, SÉRIES E ECOSSISTEMAS DE IDEIAS
+
+# 35. Quadro principal — decisão aberta
+
+Candidatos:
 
 - **Onde Isso Se Repete?**
 - **Voltou ao Mesmo Lugar?**
+- **O Que Está Se Repetindo?**
 - **Mapa do Padrão**
 - **Leitura do Padrão**
-- **O Que Está Se Repetindo?**
 
-Critérios para fechar:
+Critérios:
 
-- entendimento imediato;
-- memória;
-- possibilidade de virar série;
-- coerência com Portal Caminho da Consciência;
-- não restringir demais o tema;
-- funcionar em thumbnail, título e fala.
-
-# 20. Outras séries possíveis
-
-## 20.1. Duas áreas, um padrão
-
-Cruza duas áreas da vida e pergunta se existe uma dinâmica comum.
-
-## 20.2. A frase que volta
-
-Parte de frases internas recorrentes.
-
-## 20.3. Quando a vida melhora e você abandona...
-
-Série sobre sustentação de práticas, hábitos, limites e espiritualidade.
-
-## 20.4. Caminho da Consciência
-
-Série de aprofundamento com temas de percepção, prática, valores, espiritualidade e integração.
-
-## 20.5. Mapeando uma situação
-
-Demonstra como organizar uma questão sem prometer diagnóstico.
+- imediato;
+- memorável;
+- falável;
+- repetível;
+- não limitado demais;
+- coerente com a marca;
+- funciona em título e thumbnail.
 
 ---
 
-# PARTE VIII — CONTEÚDO ESPIRITUAL E EXPANSÃO DE CONSCIÊNCIA
+# 36. Séries possíveis
 
-# 21. Papel da espiritualidade no editorial
+## 36.1. Duas áreas, uma dinâmica
 
-A espiritualidade é parte legítima do Portal, mas não deve virar decoração mística nem atalho de aquisição.
+Cruza dois contextos.
 
-O conteúdo espiritual deve ajudar a pessoa a aproximar:
+## 36.2. A frase que volta
 
-- fé e vida concreta;
-- oração e ação;
+Parte de linguagem interna.
+
+## 36.3. O minuto anterior
+
+Mostra o comportamento antes da repetição.
+
+## 36.4. Quando a vida melhora e você abandona...
+
+Hábitos, espiritualidade, limites e práticas.
+
+## 36.5. Caminho da Consciência
+
+Conteúdo de desenvolvimento.
+
+## 36.6. Mapeando uma situação
+
+Demonstração educativa.
+
+## 36.7. Ferramentas do caminho
+
+Série futura para explicar técnicas específicas com contexto e atribuição.
+
+Sintonize poderá entrar aqui após certificação, não como “a verdade do Portal”.
+
+---
+
+# 37. Ecossistema de uma ideia
+
+Uma Grande Ideia forte pode gerar:
+
+- 4–8 Shorts;
+- 1–2 vídeos longos;
+- Community;
+- Stories;
+- carrossel;
+- e-mail;
+- FAQ;
+- peça comercial;
+- hipótese Search.
+
+Não transformar derivação em repetição mecânica.
+
+---
+
+# PARTE VIII — ESPIRITUALIDADE, EXPANSÃO DA CONSCIÊNCIA E LIBERDADE RELIGIOSA
+
+# 38. Papel da espiritualidade no editorial
+
+Espiritualidade é dimensão legítima do Portal.
+
+Ela deve aproximar:
+
+- fé e ação;
+- oração e responsabilidade;
 - valores e escolhas;
-- prática e consistência;
 - silêncio e observação;
-- sentido e responsabilidade;
-- espiritualidade e serviço;
-- consciência e liberdade.
+- sentido e serviço;
+- prática e disciplina;
+- espiritualidade e vida concreta.
 
-# 22. Três níveis de conteúdo espiritual
+---
 
-## 22.1. Entrada — vida concreta
+# 39. Três níveis de conteúdo espiritual
 
-Exemplo:
+## Entrada
 
-> “Você só lembra da sua prática espiritual quando a vida aperta?”
+Vida real.
 
-## 22.2. Desenvolvimento — reflexão e prática
+> “Você só lembra da sua prática espiritual quando tudo aperta?”
 
-Exemplo:
+## Desenvolvimento
 
-> “O que muda quando sua prática deixa de ser socorro e vira parte da sua rotina?”
+Prática e coerência.
 
-## 22.3. Aprofundamento — consciência, sentido e tradição
+> “O que muda quando sua prática deixa de ser socorro e vira parte da rotina?”
 
-Exemplo:
+## Aprofundamento
 
-> “Como aprofundar sua espiritualidade sem transformar toda experiência pessoal em verdade universal?”
+Sentido, estudo, discernimento e tradição.
 
-# 23. O que evitar
+> “Como aprofundar sua espiritualidade sem transformar experiência pessoal em verdade universal?”
+
+---
+
+# 40. Liberdade religiosa
+
+O conteúdo não exige mudança de religião.
+
+O Portal pode acolher pessoas:
+
+- cristãs;
+- espiritualistas;
+- de religiões de matriz africana;
+- sem filiação formal;
+- de outras tradições compatíveis com respeito mútuo.
+
+Não apropriar:
+
+- ritos;
+- títulos;
+- fundamentos iniciáticos;
+- cargos;
+- entidades;
+- orixás;
+- nkisis;
+
+como produtos genéricos.
+
+---
+
+# 41. O que evitar
 
 - “O universo colocou este vídeo para você.”
 - “Sua energia está bloqueada e por isso sua vida não anda.”
-- “Esta prática vai abrir seus caminhos financeiros.”
-- “Você está doente por causa de um bloqueio espiritual.”
-- “Seu orixá/entidade quer dizer...” sem contexto, legitimidade e base apropriada.
-- uso comercial de ritos ou fundamentos de tradições específicas sem formação e autorização.
-
-# 24. Linguagem segura e coerente
-
-Preferir:
-
-- “na minha experiência”;
-- “para quem se conecta com essa visão”;
-- “uma prática possível”;
-- “uma pergunta que pode ser útil”;
-- “dentro de uma leitura espiritual”;
-- “isso não substitui ação ou acompanhamento profissional quando necessário”.
+- “Essa oração vai abrir seus caminhos financeiros.”
+- “Sua doença tem origem espiritual.”
+- “Eu sei o que seu orixá quer.”
+- “Você está vibrando em frequência baixa e por isso...”
+- “Esse ritual vai atrair clientes.”
 
 ---
 
-# PARTE IX — SISTEMA DE CENAS DE RECONHECIMENTO E TOM MARCOS
+# 42. Linguagem preferível
 
-# 25. Regra editorial mais importante
+- “na minha experiência”;
+- “dentro dessa prática”;
+- “para quem se conecta com essa visão”;
+- “uma possibilidade de reflexão”;
+- “uma prática espiritual possível”;
+- “isso não substitui ação concreta”;
+- “isso não substitui acompanhamento profissional quando necessário”;
+- “na metodologia Sintonize, esse elemento é compreendido como...”, quando realmente necessário.
+
+---
+
+# PARTE IX — SINTONIZE PROSPERIDADE E USO EDITORIAL DE MATERIAL PROPRIETÁRIO
+
+# 43. Regra central
+
+> **Estudar uma metodologia não dá ao Portal autoria sobre ela.**
+
+A Sintonize pode:
+
+- enriquecer repertório de Marcos;
+- oferecer conceitos para reflexão;
+- ampliar compreensão de linguagem espiritual;
+- futuramente ser explicada como técnica utilizada por Marcos;
+- gerar conteúdo educativo contextualizado.
+
+Ela não pode ser:
+
+- copiada;
+- rebatizada;
+- convertida em “conteúdo do Padrão Interrompido”;
+- transformada em banco de posts;
+- digitalizada como produto do Portal.
+
+---
+
+# 44. Protocolo de transformação editorial
+
+Quando um material oficial da formação inspirar pauta:
+
+## Passo 1 — identificar o tema
+
+Exemplo interno:
+
+“crença de que só se ganha dinheiro trabalhando até a exaustão”.
+
+## Passo 2 — abstrair o tema
+
+“relação entre descanso, merecimento e produtividade”.
+
+## Passo 3 — procurar vida real
+
+“domingo à noite, a pessoa abre o notebook ‘só por meia hora’ porque descansar dá culpa”.
+
+## Passo 4 — escrever em linguagem original
+
+Não copiar frase da apostila.
+
+## Passo 5 — conectar à tese do Portal
+
+“onde mais você só se permite parar depois de estar no limite?”
+
+## Passo 6 — decidir se atribuição é necessária
+
+Se a peça ensina um conceito próprio da Sintonize, atribuir.
+
+Se a peça apenas usa um tema humano universal, criar conteúdo autoral sem copiar estrutura protegida.
+
+---
+
+# 45. O que pode inspirar conteúdo sem reprodução
+
+Temas amplos:
+
+- crenças;
+- medos;
+- habilidades;
+- gratidão;
+- escolhas;
+- trabalho;
+- dinheiro;
+- criatividade;
+- tempo;
+- relações;
+- prática espiritual;
+- fases da vida;
+- responsabilidade;
+- ação concreta.
+
+A fonte pode inspirar investigação.
+
+O conteúdo final precisa ser **novo, específico, humano e autoral**.
+
+---
+
+# 46. O que não deve ser convertido em pauta reproduzida
+
+- listas completas do Guia Consultivo;
+- comandos;
+- ativações;
+- protocolos;
+- fichas;
+- textos de relatório;
+- estrutura integral de sessão;
+- gráficos;
+- símbolos;
+- instruções proprietárias;
+- apostilas;
+- materiais de Anjos copiados em série;
+- conteúdo que ensine a formação sem autorização.
+
+---
+
+# 47. Anjos Cabalísticos — regra editorial
+
+Os Anjos Cabalísticos possuem:
+
+- alta relevância operacional dentro da Sintonize;
+- relevância média/alta em devolutiva quando utilizados;
+- relevância média em conteúdo especializado;
+- baixa relevância em aquisição ampla;
+- baixa relevância como identidade de marca.
+
+Os quatro destacados nos materiais da Sintonize:
+
+- 06 — Lelahel;
+- 08 — Cahetel/Caehtel;
+- 43 — Veuliah;
+- 71 — Haiaiel.
+
+Não usar como:
+
+- diagnóstico;
+- previsão;
+- definição de personalidade;
+- causa objetiva;
+- headline de massa apenas para clickbait.
+
+---
+
+# 48. Conteúdo especializado após certificação
+
+Depois da certificação, uma escada editorial possível:
+
+### Nível S1 — O que é / o que não é
+
+Explicação simples.
+
+### Nível S2 — Onde entra no Portal
+
+Diferença entre Padrão Interrompido e Sintonize.
+
+### Nível S3 — Como uma experiência é conduzida
+
+Sem publicar protocolo protegido.
+
+### Nível S4 — Elementos específicos
+
+Roda, ferramentas, Anjos ou outros componentes, sempre com atribuição e sem promessa extraordinária.
+
+### Nível S5 — Bastidores de prática e aprendizado
+
+Somente dentro dos limites éticos e de privacidade.
+
+---
+
+# PARTE X — CENAS DE RECONHECIMENTO E TOM MARCOS
+
+# 49. Regra editorial mais importante
 
 > **Não descreva o problema que a pessoa tem. Descreva a cena que ela esconde dos outros e a frase que ela diz para si mesma quando ninguém está ouvindo.**
 
-O efeito desejado é:
+Efeito:
 
 > **“Como é que ele sabe que eu faço isso?”**
 
-# 26. Anatomia de uma cena forte
+---
 
-Uma cena forte contém, quando possível:
+# 50. Anatomia de uma cena forte
+
+Quando possível:
 
 - lugar;
-- horário ou momento;
+- momento;
 - objeto;
 - gesto;
-- decisão;
-- frase interna;
-- consequência curta;
+- frase;
+- escolha;
+- pequena consequência;
 - pista de repetição.
 
-Exemplo financeiro:
+Exemplos:
 
-> “Você abriu o aplicativo do banco, viu o número, fechou e abriu de novo dois minutos depois como se ele pudesse ter mudado.”
+**Dinheiro**
 
-Exemplo profissional:
+> “Você viu o saldo, fechou o aplicativo e abriu de novo dois minutos depois como se o número pudesse mudar.”
 
-> “Domingo, 19h40. Você ainda nem entrou no trabalho e já está ensaiando o que vai dizer se seu chefe vier com aquela conversa de novo.”
+**Trabalho**
 
-Exemplo relacionamento:
+> “Domingo, 19h40. Você ainda nem entrou no trabalho e já está ensaiando o que vai dizer se aquela conversa acontecer de novo.”
 
-> “Você escreveu a mensagem inteira, apagou e mandou só ‘tudo bem’.”
+**Relacionamento**
 
-Exemplo tempo/liberdade:
+> “Você escreveu tudo o que queria dizer, apagou e mandou só ‘tudo bem’.”
 
-> “Você sentou para fazer uma coisa sua e, antes de começar, resolveu três coisas de todo mundo.”
+**Tempo**
 
-Exemplo espiritual:
+> “Você sentou para fazer uma coisa sua e resolveu três coisas dos outros antes de começar.”
 
-> “Você fez uma oração longa no dia do medo. Três semanas depois, o caderno continua no mesmo lugar, fechado.”
+**Espiritualidade**
 
-# 27. TOM MARCOS
+> “No dia do medo você fez uma oração longa. Três semanas depois, o caderno continua no mesmo lugar.”
 
-Regra oficial:
+---
+
+# 51. TOM MARCOS
 
 > **Uma pessoa contando algo importante para outra pessoa.**
 
 Marcos não deve soar como:
 
 - locutor;
-- coach;
 - professor de apostila;
+- terapeuta clínico;
 - guru;
+- coach;
 - copywriter;
-- personagem motivacional.
+- personagem místico.
 
-Entradas naturais:
+Entradas possíveis:
 
 - “Tem uma coisa que eu comecei a reparar...”
 - “Pensa numa situação...”
@@ -783,824 +1272,1206 @@ Entradas naturais:
 - “E aí vem a pergunta...”
 - “Talvez o problema não esteja exatamente onde você está olhando.”
 
-# 28. Teste de humanidade
+---
 
-Antes de publicar, perguntar:
+# 52. Posicionamento falado de Marcos
 
-1. Marcos diria isso para uma pessoa sentada à sua frente?
-2. Existe uma palavra que parece escrita, mas não falada?
-3. A frase está perfeita demais?
-4. O conteúdo começa com vida real ou com conceito?
-5. Qual detalhe torna essa peça impossível de ser intercambiável com qualquer perfil?
-6. Se retirarmos a identidade visual, ainda reconhecemos a voz?
+Antes da certificação:
 
-Regra de reprovação:
+- fundador do Portal Caminho da Consciência;
+- criador do Método Padrão Interrompido;
+- pesquisador/praticante de caminhos de desenvolvimento pessoal e espiritual;
+- pode mencionar que está concluindo formação específica se houver contexto real.
 
-> **Se parecer texto de IA, não está pronto. Se parecer uma copy que qualquer marca poderia publicar, não está pronto. Se Marcos não falaria aquilo naturalmente para uma pessoa sentada à sua frente, não está pronto.**
+Depois da certificação:
+
+usar o nome exato da qualificação sustentada pelo certificado.
+
+Não usar “terapeuta” como identidade pública padrão.
 
 ---
 
-# PARTE X — IA VISUAL E PRODUÇÃO SEM APARÊNCIA DE IA
+# 53. Teste de humanidade
 
-# 29. Função da IA visual
+Perguntar:
 
-IA visual pode acelerar testes de cenas, reduzir custo e permitir produzir situações difíceis de gravar rapidamente.
+1. Marcos diria isso numa conversa?
+2. A frase parece escrita demais?
+3. Começa por conceito ou vida?
+4. Existe detalhe específico?
+5. Se remover marca visual, ainda existe voz?
+6. Poderia ser publicado por qualquer perfil?
+7. Existe alguma palavra que parece copiada de formação?
+8. Estamos apresentando como nosso algo que pertence a terceiro?
 
-Ela é especialmente útil para:
+Regra:
 
-- cozinha, banco, escritório, ônibus, quarto, restaurante, armário, mensagens, rotina;
-- cenas sem necessidade de ator recorrente;
-- variações do mesmo hook;
-- peças de teste rápido;
-- apoio visual a narração humana.
+> **Se parecer texto de IA, não está pronto. Se parecer uma copy que qualquer marca poderia publicar, não está pronto. Se Marcos não falaria aquilo naturalmente para uma pessoa sentada à sua frente, não está pronto. Se parecer que estamos apresentando como nosso aquilo que pertence a uma formação, tradição ou metodologia de terceiros, também não está pronto.**
 
-# 30. Regra estética
+---
+
+# PARTE XI — IA VISUAL, PRODUÇÃO E USO RESPONSÁVEL DE FONTES
+
+# 54. Função da IA visual
+
+IA visual pode acelerar:
+
+- cenas;
+- testes;
+- variações;
+- contextos difíceis de gravar;
+- apoio a narração.
+
+Princípio:
 
 > **Vida observada, não propaganda de IA.**
 
-Evitar:
+---
 
-- pessoas perfeitas demais;
-- olhos e expressões dramáticas sem necessidade;
-- excesso de brilho, aura, asas, portais, chakras ou partículas;
-- imagens que parecem banco de imagem esotérico;
-- sequência de frases motivacionais sobre imagens aleatórias;
-- movimentos artificiais gratuitos;
-- música exageradamente épica;
-- texto em excesso na tela.
+# 55. Evitar
 
-Preferir:
-
-- gesto comum;
-- ambiente reconhecível;
-- luz plausível;
-- expressão contida;
-- objetos reais;
-- pequenos movimentos;
-- cortes com função narrativa;
-- narração humana ou voz coerente com a marca.
-
-# 31. Presença visual de Marcos
-
-Marcos deve ser usado estrategicamente para:
-
-- confiança;
-- explicação de método;
-- histórias pessoais pertinentes;
-- demonstração;
-- oferta;
-- posicionamento;
-- espiritualidade quando fizer sentido pessoalmente.
-
-O sistema não deve depender de sua presença em todas as peças.
+- pessoas perfeitas;
+- expressões exageradas;
+- asas e portais sem necessidade;
+- partículas;
+- aura;
+- chakras;
+- “mulher olhando para horizonte” genérica;
+- banco de imagem esotérico;
+- estética “coach místico”;
+- texto demais;
+- movimento gratuito;
+- trilha épica sem função.
 
 ---
 
-# PARTE XI — FUNIL EDITORIAL, CTAs E PONTES PARA PRODUTOS
+# 56. Preferir
 
-# 32. Funil principal
+- objeto reconhecível;
+- gesto comum;
+- ambiente cotidiano;
+- luz plausível;
+- detalhe;
+- ação pequena;
+- expressão contida;
+- cortes narrativos;
+- voz humana.
 
-O funil editorial deve refletir a jornada do Documento 02:
+---
 
-> **CONTEÚDO → CLAREZA → MAPEAMENTO → INTERVENÇÃO → PRÁTICA → REAVALIAÇÃO → CONTINUIDADE / APROFUNDAMENTO**
+# 57. Marcos em vídeo
 
-Quando o Radar estiver validado:
+Marcos é especialmente importante para:
+
+- confiança;
+- método;
+- filosofia;
+- espiritualidade pessoal;
+- bastidores reais;
+- oferta;
+- explicações;
+- demonstrações permitidas.
+
+O sistema não precisa de Marcos em todos os Shorts.
+
+---
+
+# 58. IA textual
+
+IA pode:
+
+- organizar hipóteses;
+- gerar variações;
+- pesquisar padrões de linguagem nos dados fornecidos;
+- estruturar roteiro;
+- revisar;
+- condensar;
+- auxiliar análise.
+
+IA não pode:
+
+- inventar experiência de Marcos;
+- inventar caso;
+- inventar certificação;
+- inventar resultado;
+- fingir leitura espiritual;
+- copiar material protegido;
+- transformar apostila em dataset público.
+
+---
+
+# PARTE XII — FUNIL EDITORIAL, CTAs E OFERTA VIGENTE
+
+# 59. Funil editorial
+
+> **CONTEÚDO → COMPREENSÃO → MAPEAMENTO → POSSÍVEL INTERVENÇÃO → PRÁTICA → REAVALIAÇÃO → INTEGRAÇÃO / APROFUNDAMENTO**
+
+Quando Radar existir:
 
 > **CONTEÚDO → RADAR → MAPEAMENTO → PRÓXIMO PASSO**
 
-# 33. CTA por estágio
+Sintonize não precisa aparecer em todas as rotas.
 
-## 33.1. Reconhecimento
+---
 
-- “Onde isso aparece para você?”
-- “Se isso já aconteceu mais de uma vez, observa a próxima vez que vier.”
-- “Tem outro vídeo aqui em que eu mostro como perceber quando isso cruza duas áreas.”
+# 60. Oferta vigente
 
-## 33.2. Clareza
+Em 01/09/2026:
 
-- assistir playlist;
-- responder pergunta;
-- acessar Radar;
-- baixar material.
+> **Mapeamento Padrão Interrompido — Individual — R$197**
 
-## 33.3. Intenção
+Página:
+
+> **portalcaminhodaconsciencia.com.br**
+
+Fluxo atual:
+
+> **CONTEÚDO / BUSCA → PÁGINA → WHATSAPP**
+
+A integração definitiva da Sintonize ao Mapeamento permanece aberta.
+
+Portanto, não escrever conteúdo como se a Sintonize já fosse componente obrigatório da oferta pública.
+
+---
+
+# 61. CTA por estado
+
+## Reconhecimento
+
+- observar;
+- comentar;
+- ver outro conteúdo.
+
+## Compreensão
+
+- assistir ao longo;
+- playlist;
+- conteúdo do método.
+
+## Intenção
 
 - conhecer o Mapeamento;
 - abrir página;
-- conversar no WhatsApp;
-- preencher formulário.
+- WhatsApp.
 
-## 33.4. Venda
+## Desenvolvimento
 
-CTA direto, simples, sem vergonha de existir quando a peça é comercial:
+- próxima prática;
+- vídeo;
+- futura jornada.
 
-- “Se você quer mapear isso no seu caso, o Mapeamento está disponível no link.”
+---
 
-# 34. Regra de um CTA
+# 62. CTA comercial
 
-Cada peça deve ter **um CTA principal**. CTAs secundários podem existir apenas quando não competirem com a ação principal.
+Quando a peça é de venda:
 
-# 35. Message match
+> **“Se você quer olhar para isso no seu caso, o Mapeamento está disponível no link.”**
 
-Anúncio, conteúdo, landing page e oferta devem falar da mesma tensão.
+Sem vergonha de vender.
 
-Se o Short começa com:
+Sem teatralizar escassez.
+
+---
+
+# 63. Message match
+
+A tensão precisa continuar entre:
+
+- conteúdo;
+- título;
+- página;
+- CTA;
+- WhatsApp.
+
+Se o conteúdo começa com:
 
 > “É o terceiro emprego e tudo começa a parecer igual.”
 
-A página seguinte não deve abrir com uma promessa genérica de “elevar sua consciência”. Deve continuar a conversa sobre repetição, trabalho e compreensão do caso.
+o destino não deve abrir com abstração espiritual genérica.
 
-# 36. Urgência legítima
+---
 
-O objetivo é a pessoa pensar:
+# 64. Urgência legítima
+
+Objetivo:
 
 > **“Eu preciso entender isso.”**
 
 Não:
 
-> “Preciso comprar antes que uma contagem inventada termine.”
-
-Escassez só deve ser usada quando real, verificável e operacionalmente necessária.
+> “Tenho medo de perder a vaga inventada.”
 
 ---
 
-# PARTE XII — GOOGLE SEARCH, SEO E CAPTURA DE INTENÇÃO
+# PARTE XIII — GOOGLE SEARCH, SEO E MÍDIA PAGA
 
-# 37. Papel do Google Search
+# 65. Papel do Search
 
-YouTube cria e amadurece demanda. Google Search captura demanda já existente.
+YouTube:
 
-A estratégia de Search deve priorizar pessoas que já procuram:
+- cria demanda;
+- amadurece linguagem;
+- constrói confiança.
 
-- entender uma repetição;
-- contratar uma leitura/mapeamento compatível com a oferta;
-- radiestesia ou mesa radiônica quando houver legitimidade operacional;
-- desenvolvimento espiritual ou autoconhecimento com intenção clara;
-- solução específica de alta intenção relacionada a uma oferta vigente.
+Search:
 
-# 38. Quatro camadas de palavras-chave
+- captura demanda já existente.
 
-## 38.1. Dor / problema
+---
 
-Exemplos conceituais:
+# 66. Estado atual da mídia paga
 
-- por que repito os mesmos erros;
-- por que sempre volto ao mesmo problema;
-- como quebrar padrões repetitivos;
-- como identificar padrões na minha vida.
+A infraestrutura de mensuração está preparada.
 
-## 38.2. Método / categoria
+A configuração de Search está especificada.
 
-- padrão repetitivo;
+A execução da campanha está **adiada por decisão estratégica**, não por blocker confirmado.
+
+Não é necessário ativar mídia apenas porque ela está pronta.
+
+---
+
+# 67. Camadas de pesquisa
+
+## Dor / problema
+
+- por que repito os mesmos padrões;
+- por que volto ao mesmo problema;
+- como parar de repetir;
+- como entender padrões da minha vida.
+
+## Categoria
+
 - padrões recorrentes;
+- autoconhecimento padrões;
 - quebra de padrões;
-- autoconhecimento padrões.
+- desenvolvimento pessoal e espiritual.
 
-## 38.3. Solução / serviço
+## Solução
 
-Conforme oferta real e linguagem permitida:
+Somente conforme oferta real:
 
 - mapeamento de padrões;
-- leitura radiestésica;
-- mesa radiônica online;
-- consulta de radiestesia.
+- Mesa Radiônica;
+- radiestesia;
+- experiência individual de desenvolvimento.
 
-## 38.4. Marca
+## Marca
 
 - Portal Caminho da Consciência;
 - Padrão Interrompido;
 - Mapeamento Padrão Interrompido.
 
-# 39. Regra de intenção
+---
 
-Para mídia paga com orçamento restrito, começar mais perto da contratação e da solução do que de palavras amplas de curiosidade.
+# 68. Termos Sintonize e radiestesia
 
-Classificar termos por:
+Depois da certificação e definição da oferta:
 
-- intenção comercial;
-- clareza de problema;
-- aderência à oferta;
-- volume;
-- CPC;
-- risco de política;
-- ambiguidade;
-- capacidade de message match.
+podem existir conteúdos e campanhas de alta intenção para pessoas que já pesquisam essas soluções.
 
-# 40. SEO editorial
+Regras:
 
-Vídeos longos e artigos podem construir biblioteca cumulativa em torno de perguntas reais.
-
-Estrutura de cluster:
-
-- pilar: padrões recorrentes e vida real;
-- clusters por área;
-- clusters de espiritualidade aplicada;
-- páginas de método;
-- páginas de oferta;
-- perguntas frequentes.
-
-O objetivo não é escrever para robô. A busca informa a pergunta; a resposta continua humana.
+- não usar promessa de cura;
+- não prometer prosperidade financeira;
+- não anunciar Marcos como terapeuta;
+- não confundir Sintonize com método próprio;
+- garantir message match na página.
 
 ---
 
-# PARTE XIII — EXPERIMENTAÇÃO, HIPÓTESES E DESENHO DE TESTES
+# 69. SEO editorial
 
-# 41. Todo teste começa por uma hipótese
+Clusters possíveis:
 
-Antes de produzir, registrar:
+- padrões recorrentes;
+- repetir os mesmos comportamentos;
+- trabalho;
+- dinheiro;
+- relacionamento;
+- espiritualidade aplicada;
+- Padrão Interrompido;
+- Mapeamento;
+- perguntas sobre Mesa/Radiestesia depois de operacionalmente legítimas.
 
-- hipótese;
+A busca informa a pergunta.
+
+A resposta continua humana.
+
+---
+
+# 70. Critério de ativação de mídia paga
+
+Search pode ser ativado quando houver:
+
+- oferta operacionalmente pronta;
+- capacidade de responder WhatsApp;
+- pagamento/entrega definidos;
+- mensuração válida;
+- clareza de página;
+- capacidade de registrar venda;
+- decisão consciente de orçamento.
+
+A certificação Sintonize só é requisito se a campanha vender uma oferta que dependa dela.
+
+---
+
+# PARTE XIV — MENSURAÇÃO, ATRIBUIÇÃO E SINAIS COMERCIAIS
+
+# 71. Camada de mensuração vigente
+
+Infraestrutura implantada:
+
+- Google Tag Manager;
+- GA4;
+- Consent Mode;
+- Conversion Linker;
+- integração com Google Ads;
+- preservação de parâmetros de aquisição conforme implementação vigente.
+
+Eventos editoriais/comerciais principais:
+
+- `page_view`;
+- `scroll_depth`;
+- `section_view`;
+- `offer_cta_click`;
+- `whatsapp_click`.
+
+---
+
+# 72. Semântica dos eventos
+
+## `page_view`
+
+Visita.
+
+Não é intenção comercial.
+
+## `scroll_depth`
+
+Sinal de consumo.
+
+Não é conversão.
+
+## `section_view`
+
+Ajuda a entender quais partes da página foram vistas.
+
+## `offer_cta_click`
+
+Intenção intermediária.
+
+Não deve ser confundida com lead.
+
+## `whatsapp_click`
+
+Sinal comercial mais forte on-site, mas ainda não é compra.
+
+No Google Ads, permanece como **conversão secundária**.
+
+---
+
+# 73. Eventos comerciais futuros
+
+Quando houver estrutura confiável:
+
+- `generate_lead`;
+- `qualify_lead`;
+- `disqualify_lead`;
+- `close_convert_lead`;
+- `purchase`;
+- `refund`.
+
+Regra:
+
+> **clique não é lead; lead não é venda; venda não é pagamento confirmado.**
+
+---
+
+# 74. Variáveis de aquisição prioritárias
+
+Preservar, quando aplicável:
+
+- `utm_source`;
+- `utm_medium`;
+- `utm_campaign`;
+- `utm_content`;
+- `utm_term`;
+- `gclid`;
+- `gbraid`;
+- `wbraid`;
+- landing page;
+- CTA de origem.
+
+O objetivo futuro é conectar:
+
+> **CONTEÚDO / BUSCA → VISITA → CTA → WHATSAPP → LEAD → VENDA → RECEITA**
+
+---
+
+# 75. Dados que não devem ir para analytics
+
+Não enviar:
+
+- conteúdo sensível do atendimento;
+- resposta espiritual individual;
+- diagnóstico inexistente;
+- texto íntimo de formulário;
+- informação clínica;
+- dados pessoais desnecessários.
+
+Analytics mede comportamento e aquisição, não o conteúdo privado da experiência.
+
+---
+
+# PARTE XV — EXPERIMENTAÇÃO, HIPÓTESES E DESENHO DE TESTES
+
+# 76. Todo teste começa com hipótese
+
+Registrar:
+
+- incerteza;
 - público;
-- tensão;
+- cena/tensão;
 - formato;
-- variável principal;
+- variável;
 - CTA;
-- métrica primária;
+- métrica;
 - sinal de sucesso;
-- decisão se vencer;
-- decisão se perder.
+- decisão possível.
 
-Exemplo:
+---
 
-> **Hipótese:** cenas financeiras de microevitação geram mais intenção de Mapeamento do que conteúdos abstratos sobre prosperidade.  
-> **Teste:** 4 Shorts com cenas concretas versus 4 Shorts conceituais.  
-> **Métrica primária:** cliques qualificados / mensagens / conversão, não views isoladas.  
-> **Decisão:** se a cena concreta vencer consistentemente, ampliar família e produzir vídeo longo + anúncio.
+# 77. Exemplo editorial
 
-# 42. Variáveis que podem ser testadas
+**Hipótese:** cenas de microevitação financeira geram mais identificação do que conteúdo abstrato sobre prosperidade.
+
+**Teste:** 4 Shorts concretos versus 4 peças conceituais.
+
+**Métrica:** retenção + comentários de identificação + intenção.
+
+**Decisão:** vencedor vira família, longo e potencial criativo comercial.
+
+---
+
+# 78. Exemplo espiritual
+
+**Hipótese:** espiritualidade aplicada à rotina gera audiência mais alinhada do que conteúdo místico abstrato.
+
+Testar:
+
+- “você só reza quando aperta”;
+- versus;
+- “3 sinais de expansão espiritual”.
+
+Observar:
+
+- retenção;
+- qualidade de comentários;
+- seguidores;
+- cliques;
+- perfil da conversa.
+
+---
+
+# 79. Exemplo Sintonize — somente após certificação
+
+**Hipótese:** explicar “o que é e o que não é a Sintonize” gera mais confiança do que conteúdo de ferramenta específica.
+
+Não testar:
+
+- “qual Anjo vai trazer prosperidade”.
+
+antes de existir razão editorial.
+
+---
+
+# 80. Variáveis testáveis
 
 - hook;
 - cena;
-- área;
-- cruzamento de áreas;
-- presença de Marcos versus IA visual;
+- domínio;
+- cruzamento;
+- presença Marcos / IA;
 - duração;
 - título;
 - thumbnail;
-- pergunta final;
+- pergunta;
 - CTA;
-- oferta de destino;
-- linguagem espiritual explícita versus implícita;
-- demonstração versus explicação;
-- preço e formato, nos testes comerciais apropriados.
+- destino;
+- nível de espiritualidade;
+- demonstração x explicação;
+- método explícito x implícito;
+- após certificação: Sintonize explícita x ferramenta secundária.
 
-Evitar alterar muitas variáveis simultaneamente quando o objetivo for aprender causa provável de diferença.
+---
 
-# 43. Hierarquia de evidência
+# 81. Hierarquia de evidência
 
 Do mais fraco ao mais forte:
 
-1. impressão pessoal;
+1. impressão;
 2. curtida;
 3. view;
 4. retenção;
 5. comentário de identificação;
-6. compartilhamento/salvamento;
+6. compartilhamento;
 7. clique;
-8. lead;
-9. conversa qualificada;
-10. compra;
-11. uso/conclusão;
-12. satisfação;
-13. recompra/continuidade;
-14. indicação.
+8. WhatsApp;
+9. lead;
+10. conversa qualificada;
+11. compra;
+12. pagamento;
+13. uso;
+14. satisfação;
+15. continuidade;
+16. indicação.
 
-A decisão depende da hipótese. Um teste de hook usa retenção. Um teste de oferta usa compra.
-
-# 44. Regra de não romantizar sinal fraco
-
-Não chamar de “validação”:
-
-- um vídeo viral sem intenção;
-- comentários de curiosidade sem clique;
-- leads sem compra;
-- compradores que pedem reembolso por desalinhamento;
-- interesse de amigos e familiares;
-- elogio ao visual sem compreensão da proposta.
+A métrica depende da hipótese.
 
 ---
 
-# PARTE XIV — MÉTRICAS, ANÁLISE 24H/72H E TOMADA DE DECISÃO
+# 82. Não chamar de validação
 
-# 45. Métricas por formato
+- viral sem intenção;
+- elogio ao visual;
+- comentário curioso;
+- lead que não qualifica;
+- conversa que não entende oferta;
+- venda que gera desalinhamento;
+- feedback de amigo;
+- número sem contexto.
 
-## 45.1. Shorts
+---
+
+# PARTE XVI — ANÁLISE 24H/72H, MÉTRICAS E TOMADA DE DECISÃO
+
+# 83. Shorts
 
 Observar:
 
-- viewed vs swiped away quando disponível;
+- viewed/swiped;
 - retenção inicial;
 - retenção média;
 - conclusão;
 - replays;
-- comentários de identificação;
+- comentários;
 - compartilhamentos;
-- cliques/visitas de perfil;
-- conversas ou vendas atribuíveis.
+- visitas;
+- cliques;
+- WhatsApp;
+- inscritos atribuíveis quando possível.
 
-## 45.2. Vídeos longos
+---
 
-- CTR de impressão;
-- retenção nos primeiros 30 segundos;
+# 84. Vídeos longos
+
+- CTR;
+- primeiros 30 segundos;
 - duração média;
-- curva de retenção;
-- momentos de queda;
-- comentários qualitativos;
-- cliques no CTA;
-- próximos vídeos assistidos;
-- leads/compras atribuíveis.
+- curva;
+- quedas;
+- comentários;
+- inscritos;
+- cliques;
+- próximos vídeos;
+- WhatsApp;
+- compras quando houver.
 
-## 45.3. Comercial
+---
 
-- CTR para página;
-- conversão da página;
-- conversas iniciadas;
-- conversão em compra;
-- CAC;
-- ticket médio;
+# 85. Métricas comerciais
+
+- visitas na página;
+- `offer_cta_click`;
+- `whatsapp_click`;
+- conversas reais;
+- leads qualificados;
+- compras;
+- valor;
+- CAC quando houver mídia;
+- origem;
 - reembolso;
-- origem do comprador;
-- avanço para próxima etapa.
+- avanço de jornada.
 
-# 46. Análise em 24 horas
+---
 
-Objetivo: detectar problema evidente e sinal inicial.
+# 86. Análise em 24 horas
 
 Perguntas:
 
-1. O hook segurou a pessoa certa?
+1. O hook segurou?
 2. A cena foi compreendida?
-3. Os comentários repetem a linguagem que esperávamos?
-4. A retenção caiu em algum ponto específico?
-5. O CTA gerou ação?
+3. A linguagem dos comentários confirma a hipótese?
+4. Onde caiu a retenção?
+5. O CTA funcionou?
 6. Houve sinal comercial?
-7. Existe algo operacionalmente errado — link, título, thumbnail, legenda, destino?
+7. Existe erro operacional?
 
-Decisões possíveis:
+Decisões:
 
-- não mexer e aguardar 72h;
-- corrigir erro técnico;
-- registrar hook promissor;
-- registrar cena fraca;
-- preparar variação, sem apagar o teste original.
+- aguardar;
+- corrigir erro;
+- registrar hook;
+- preparar variação;
+- não apagar o teste.
 
-# 47. Análise em 72 horas
+---
 
-Objetivo: comparar hipóteses e decidir próxima iteração.
+# 87. Análise em 72 horas
 
 Perguntas:
 
-1. Qual peça venceu dentro da família e por quê?
-2. O vencedor trouxe apenas alcance ou também intenção?
-3. Qual frase apareceu espontaneamente nos comentários?
-4. Qual área teve melhor combinação de retenção + intenção?
-5. Vale virar vídeo longo?
-6. Vale virar anúncio?
-7. Vale repetir com novo hook?
-8. Vale criar página/lead magnet específico?
-9. O teste contradiz alguma crença nossa?
-10. Qual é a próxima hipótese mais informada?
+1. Qual peça venceu dentro da família?
+2. Venceu em alcance ou intenção?
+3. Qual frase surgiu espontaneamente?
+4. Qual domínio respondeu melhor?
+5. Deve virar longo?
+6. Deve virar nova variação?
+7. Deve virar Search?
+8. Deve virar peça comercial?
+9. Qual hipótese caiu?
+10. Qual é a próxima incerteza relevante?
 
-# 48. Matriz de decisão editorial
+---
+
+# 88. Matriz de decisão
 
 ## Alto alcance + alta intenção
 
-Escalar, derivar, transformar em longo, anúncio e cluster.
+Escalar e derivar.
 
 ## Alto alcance + baixa intenção
 
-Usar para topo de funil, mas buscar ponte melhor; não confundir viralidade com venda.
+Topo de funil; melhorar ponte.
 
 ## Baixo alcance + alta intenção
 
-Peça potencialmente valiosa para mídia paga, Search, público menor ou venda direta.
+Possível peça comercial ou nicho valioso.
 
 ## Baixo alcance + baixa intenção
 
-Revisar hook, cena, tema ou abandonar família depois de teste suficiente.
+Revisar ou abandonar depois de teste suficiente.
 
-# 49. Registro mínimo por peça
+---
+
+# 89. Registro mínimo por peça
 
 - ID;
 - data;
 - formato;
 - Grande Ideia;
-- área;
-- estágio de jornada;
+- território;
+- estado da audiência;
 - hipótese;
 - hook;
 - CTA;
 - link;
 - métricas 24h;
 - métricas 72h;
-- comentários/linguagem;
+- comentários;
 - decisão;
 - próxima hipótese.
 
 ---
 
-# PARTE XV — CALENDÁRIO, CADÊNCIA E SISTEMA DE PRODUÇÃO
+# PARTE XVII — CALENDÁRIO, SISTEMA DE PRODUÇÃO E BIBLIOTECA DE PROMPTS
 
-# 50. Cadência inicial de referência
+# 90. Ciclo de 15 dias
 
-Para o primeiro ciclo de validação:
+A lógica de três fases permanece útil, mas precisa refletir o momento atual.
 
-- **Shorts:** até 2 por dia quando houver capacidade de qualidade e análise;
-- **vídeos longos:** 2 por semana;
-- **Community/Stories:** apoio à pesquisa, relacionamento e distribuição;
-- **Reels/TikTok:** reaproveitamento seletivo dos Shorts;
-- **Google Search:** iniciar quando oferta, página e tracking estiverem minimamente prontos.
+## Fase 1 — Reconhecimento
 
-Frequência não deve vencer qualidade nem aprendizado.
+- cenas;
+- linguagem;
+- dor;
+- repetição.
 
-# 51. Ciclo editorial de 15 dias
+## Fase 2 — Conexão e consciência
 
-A primeira bateria pode operar em três fases:
+- cruzamento;
+- Padrão Interrompido;
+- espiritualidade aplicada;
+- prática.
 
-## Fase 1 — Reconhecimento bruto
+## Fase 3 — Intenção
 
-Dias 1–5.
-
-Objetivo:
-
-- testar cenas fortes;
-- testar áreas;
-- descobrir linguagem;
-- evitar explicar cedo demais.
-
-## Fase 2 — Revelação do padrão
-
-Dias 6–10.
-
-Objetivo:
-
-- mostrar repetição;
-- cruzar áreas;
-- introduzir Padrão Interrompido de forma natural;
-- testar espiritualidade aplicada.
-
-## Fase 3 — Intenção e solução
-
-Dias 11–15.
-
-Objetivo:
-
-- explicar Mapeamento;
-- responder objeções;
-- demonstrar processo;
-- fazer CTA mais direto;
-- testar demanda paga.
-
-A planilha operacional de calendário deve ser atualizada para a nova marca e continuará fora dos documentos canônicos.
-
-# 52. Fluxo semanal de produção
-
-1. revisar dados da semana anterior;
-2. escolher 2–3 hipóteses prioritárias;
-3. selecionar Grandes Ideias e áreas;
-4. gerar variações de hook;
-5. escolher peças IA visual / Marcos / híbridas;
-6. escrever e auditar roteiros;
-7. produzir em lote;
-8. publicar;
-9. analisar 24h;
-10. analisar 72h;
-11. alimentar backlog com linguagem real;
-12. decidir longos, anúncios e próximos testes.
-
-# 53. Backlog vivo
-
-Manter listas separadas de:
-
-- cenas reais;
-- frases internas;
-- perguntas de comentários;
+- como funciona o Mapeamento;
 - objeções;
-- títulos;
-- hooks;
-- cruzamentos de áreas;
-- temas espirituais;
-- perguntas de Search;
-- ideias de demonstração;
-- cases autorizados;
-- resultados de testes.
+- processo;
+- CTA.
+
+Durante a semana de conclusão da formação, não transformar a Fase 3 em venda de Sintonize.
 
 ---
 
-# PARTE XVI — BIBLIOTECA CANÔNICA DE PROMPTS
+# 91. Fluxo semanal
 
-# 54. Regra para uso de prompts
+1. revisar dados;
+2. selecionar incertezas;
+3. escolher Grandes Ideias;
+4. escolher cenas;
+5. definir formatos;
+6. escrever hooks;
+7. auditar TOM MARCOS;
+8. auditar autoria/propriedade;
+9. produzir;
+10. publicar;
+11. analisar 24h;
+12. analisar 72h;
+13. alimentar backlog;
+14. decidir próximos longos e testes.
 
-Prompts são ferramentas. Eles não substituem julgamento editorial.
+---
 
-Todos os prompts abaixo herdam estas regras:
+# 92. Backlog vivo
 
-- Portal Caminho da Consciência como marca;
-- Método Padrão Interrompido como método;
-- “voltar ao mesmo lugar” como território de reconhecimento;
-- Caminho da Consciência como jornada maior;
+Manter:
+
+- cenas;
+- frases internas;
+- comentários;
+- objeções;
+- perguntas;
+- hooks;
+- títulos;
+- thumbnails;
+- cruzamentos;
+- temas espirituais;
+- temas Sintonize autorizáveis;
+- dúvidas Search;
+- casos autorizados;
+- resultados.
+
+Manter separado:
+
+> **INSIGHTS DE FONTE / FORMAÇÃO — NÃO PUBLICAR DIRETAMENTE**
+
+Isso reduz risco de copiar conteúdo protegido.
+
+---
+
+# 93. Biblioteca de prompts — regra geral
+
+Todos os prompts herdam:
+
+- Portal como marca;
+- Padrão Interrompido como método próprio;
+- Sintonize como metodologia de terceiros;
+- “voltar ao mesmo lugar” como território;
 - TOM MARCOS;
-- cenas concretas;
-- uma tensão por peça curta;
-- zero linguagem genérica de IA;
-- compliance espiritual, de saúde e financeiro;
-- CTA coerente com estágio da jornada;
-- conteúdo como experimento mensurável.
+- vida concreta;
+- zero diagnóstico;
+- zero promessa;
+- zero cópia de material protegido;
+- CTA coerente;
+- hipótese mensurável.
 
-## P1 — Descobrir a ferida que reage
+---
 
-**Objetivo:** transformar um tema amplo em cenas e tensões testáveis.
+## P1 — Encontrar a cena que reage
 
-**Prompt:**
+> Atue como investigador editorial do Portal Caminho da Consciência. Para o tema [TEMA], não me dê conceitos genéricos. Crie 10 cenas originais de vida real em que uma pessoa percebe esse tema. Para cada uma: momento, objeto/gesto, frase interna, comportamento observável, pista de repetição e possível conexão com outro domínio. Não copie wording de apostila, lista, protocolo ou material de terceiros. Escolha as 3 cenas com maior potencial de reconhecimento e declare a hipótese de cada uma.
 
-> Atue como investigador editorial do Portal Caminho da Consciência. Para o tema [TEMA], não me dê conceitos genéricos. Encontre 10 cenas específicas em que uma pessoa percebe esse problema na vida real. Para cada cena, informe: lugar/momento, objeto ou gesto, frase interna provável, o que ela tenta esconder ou adiar, sinal de repetição e possível conexão com outra área. Depois escolha as 3 cenas com maior potencial de reconhecimento imediato e explique qual hipótese cada uma testa. Não diagnostique e não atribua causa espiritual como fato.
+---
 
-## P2 — Roteiro de Short com reconhecimento + retenção + intenção
+## P2 — Short de reconhecimento
 
-**Prompt:**
+> Crie um Short para o Portal Caminho da Consciência sobre [TEMA]. Antes do roteiro: hipótese, público, estado da audiência, tensão, comportamento esperado e métrica. Use uma única tensão. Estrutura de referência: cena → pensamento → repetição → expansão → pergunta → CTA. 15–35s quando possível. TOM MARCOS. Sem jargão, diagnóstico, promessa, linguagem de IA ou apropriação de material de terceiros. Gere 3 hooks alternativos e diga o que cada um testa.
 
-> Crie um Short para o Portal Caminho da Consciência sobre [TEMA]. Antes do roteiro, declare: hipótese, área principal, estágio da jornada, comportamento esperado e métrica primária. Use uma única tensão. Estrutura de referência: cena → pensamento → repetição → expansão → pergunta → CTA. Duração preferencial 15–35s. O texto deve soar como Marcos falando com uma pessoa, sem frases perfeitas demais, jargão, motivação genérica ou promessa. O CTA deve ser [DESTINO]. Depois apresente 3 hooks alternativos e diga o que cada um testa.
+---
 
 ## P3 — TOM MARCOS
 
-**Prompt:**
+> Reescreva [TEXTO] no TOM MARCOS: uma pessoa contando algo importante para outra pessoa. Remova linguagem de locutor, coach, terapeuta clínico, guru, professor de apostila e IA. Transforme abstrações em fala natural. Se houver conceito de formação específica, mantenha atribuição correta ou retire o trecho se não for necessário. Ao final, revise como fala em voz alta.
 
-> Reescreva o texto abaixo no TOM MARCOS: uma pessoa contando algo importante para outra pessoa. Remova linguagem de copywriter, professor, guru e IA. Preserve a ideia, mas troque abstrações por fala natural, exemplos e pequenas pausas plausíveis. Não force bordões. Se Marcos provavelmente não falaria uma frase em voz alta, reescreva. Ao final, faça o teste: “isso parece conversa ou roteiro?” e ajuste até parecer conversa. Texto: [COLAR].
+---
 
-## P4 — Short com IA visual
+## P4 — IA visual
 
-**Prompt:**
+> Transforme [IDEIA] em Short de IA visual. Prioridade: vida observada. Defina hook, narração, cenas de 2–5s, gesto, objeto, ambiente, texto mínimo e CTA. Evite estética mística genérica. Se o tema for espiritual, use simbolismo apenas quando ele tiver função narrativa. A imagem deve parecer uma situação que poderia ter acontecido ontem.
 
-> Transforme esta ideia em um Short de IA visual para o Portal Caminho da Consciência. A prioridade é vida observada, não estética mística. Defina: 1) hook; 2) narração; 3) cenas de 2–5s; 4) ação concreta de cada personagem; 5) objetos e ambiente; 6) texto de tela mínimo; 7) transições com função; 8) CTA. Evite pessoas perfeitas, aura, asas, partículas, portais, chakras e imagens genéricas, exceto se o tema realmente exigir. A cena deve parecer algo que poderia ter acontecido ontem.
+---
 
 ## P5 — Vídeo longo YouTube
 
-**Prompt:**
+> Planeje vídeo longo sobre [TEMA]. Packaging primeiro: hipótese, público, estado, promessa legítima, 5 títulos, 3 thumbnails, CTA e próximo vídeo. Depois hook, contrato, cena, blocos, micro-hooks, exemplos, nuance, prática e CTA. Não fazer introdução protocolar. Se usar Sintonize, separar claramente o que é metodologia de terceiros, o que é interpretação de Marcos e o que é método próprio.
 
-> Planeje um vídeo longo YouTube para o Portal Caminho da Consciência sobre [TEMA]. Faça packaging antes do roteiro: hipótese, público, estágio de jornada, promessa editorial legítima, 5 títulos, 3 conceitos de thumbnail, CTA e vídeo seguinte. Depois estruture hook, contrato, cena inicial, blocos de valor, micro-hooks, loops legítimos, demonstração ou exemplos, limites/nuances, síntese e CTA. Não faça introdução protocolar. O vídeo deve entregar valor antes da oferta e construir a categoria do Portal sem transformar o método em jargão.
+---
 
-## P6 — Derivação de uma ideia em cinco experimentos
+## P6 — Cinco experimentos
 
-**Prompt:**
+> Pegue [GRANDE IDEIA] e gere 5 experimentos realmente diferentes. Mude uma variável principal por vez. Para cada um: hipótese, cena, formato, hook, CTA, métrica e aprendizado possível. Não gere cinco paráfrases.
 
-> Pegue a Grande Ideia [IDEIA] e derive 5 experimentos claramente diferentes para Shorts. Mude uma variável principal por vez: cena, hook, área, cruzamento, presença visual ou CTA. Para cada variação, declare hipótese, roteiro resumido, métrica primária e o que aprenderemos se vencer ou perder. Não gere cinco versões quase iguais.
+---
 
-## P7 — Grande Ideia para ecossistema semanal
+## P7 — Ecossistema semanal
 
-**Prompt:**
+> Transforme [GRANDE IDEIA] em ecossistema de 7 dias: Shorts, 2 longos, Community, Stories, e-mail/WhatsApp quando aplicável, peça comercial e hipótese Search. Organize por estado da audiência. Priorize alcance orgânico e aprendizado. Não force Sintonize se ela não for necessária ao tema.
 
-> Transforme [GRANDE IDEIA] em um ecossistema editorial de 7 dias para o Portal Caminho da Consciência: 8–10 Shorts possíveis, 2 vídeos longos, 2 Community posts, 3 perguntas de Stories, 1 e-mail, 1 peça comercial e 1 hipótese de Google Search. Organize por estágio da jornada e evite repetição de mensagem. Indique quais peças testam reconhecimento, categoria, intenção e conversão.
+---
 
-## P8 — Auditoria 15/10 antes de publicar
+## P8 — Auditoria 15/10
 
-**Prompt:**
+> Audite [PEÇA] em: especificidade, naturalidade, hook, tensão, virada, expansão, clareza, compliance, autoria, propriedade intelectual, estágio de jornada, message match e CTA. Dê nota. Reescreva tudo abaixo de 8. Reprove se parecer IA, copy genérica, fala não natural ou apropriação de material de terceiros.
 
-> Audite esta peça do Portal Caminho da Consciência como se a barra mínima fosse 15/10. Verifique: especificidade da cena, naturalidade do TOM MARCOS, força do hook, uma única tensão, clareza da virada, expansão transversal, compliance, ausência de linguagem genérica de IA, coerência com estágio de jornada, message match e CTA. Dê nota de 0–10 para cada critério. Reescreva somente o que estiver abaixo de 8 e explique em uma linha por que mudou.
+---
 
-## P9 — Experimento de negócio
+## P9 — Experimento comercial
 
-**Prompt:**
+> Transforme [IDEIA/OFERTA] em experimento comercial mínimo. Defina hipótese, público, problema, oferta, preço hipotético, canal, página, CTA, métricas, prazo e critérios. Verifique antes se a oferta existe e se Marcos possui habilitação/legitimidade necessárias. Não construir automação antes de validação.
 
-> Transforme a ideia [IDEIA/OFERTA] em um experimento comercial mínimo do Portal Caminho da Consciência. Defina hipótese, público, problema, oferta, preço hipotético, canal, criativos, página mínima, CTA, volume de teste, métricas, prazo, critérios de sucesso, critérios de revisão e o que NÃO devemos construir antes de validar. Priorize venda antes de automação e evidência de compra antes de sofisticação.
+---
 
 ## P10 — Análise 24h
 
-**Prompt:**
+> Analise [DADOS] considerando [HIPÓTESE]. Separe hook, retenção, reconhecimento, intenção, comentários e erros. Não declarar vencedor cedo. Diga manter, corrigir, preparar variação ou registrar aprendizado. Máximo 3 ações.
 
-> Analise os dados de 24h desta peça: [DADOS]. Considere a hipótese original [HIPÓTESE]. Separe: sinal de hook, sinal de retenção, sinal de reconhecimento, sinal comercial, comentários/linguagem e possíveis problemas técnicos. Não declare vencedor cedo demais. Diga: manter sem mexer, corrigir erro, preparar variação ou registrar aprendizado. Termine com no máximo 3 próximas ações.
+---
 
 ## P11 — Análise 72h
 
-**Prompt:**
+> Compare [DADOS] por hipótese, não só views. Classifique alcance/intenção, extraia linguagem, escolha o que deve virar longo, variação, Search, comercial ou abandono. Formule próxima hipótese.
 
-> Analise os dados de 72h de uma família de conteúdos do Portal Caminho da Consciência: [DADOS]. Compare peças pela hipótese e não apenas por views. Classifique cada uma em: alto alcance/alta intenção; alto alcance/baixa intenção; baixo alcance/alta intenção; baixo alcance/baixa intenção. Extraia linguagem real dos comentários, escolha o que deve virar longo, anúncio, variação ou ser abandonado e formule a próxima hipótese.
+---
 
-## P12 — Google Search de intenção
+## P12 — Search
 
-**Prompt:**
+> Para [OFERTA REAL], gere arquitetura de palavras-chave: dor, categoria, solução e marca. Classifique intenção, aderência, ambiguidade e risco. Não invente volume/CPC. Se a solução depender de Sintonize, confirme antes que certificação e oferta estejam efetivamente ativas.
 
-> Para a oferta [OFERTA], gere uma arquitetura inicial de palavras-chave para Google Search em quatro camadas: dor, categoria/método, solução/serviço e marca. Classifique cada termo hipotético por intenção comercial, aderência, ambiguidade e risco de política. Sugira negativas e possíveis grupos de anúncios. Não invente volume ou CPC; marque esses campos como “consultar Planejador/Ubersuggest” quando não houver dados.
+---
 
-## P13 — Calendário editorial de 15 dias
+## P13 — Calendário de 15 dias
 
-**Prompt:**
+> Gere calendário em três fases: reconhecimento, conexão/consciência, intenção. Até 2 Shorts/dia e 2 longos/semana se houver qualidade. Campos: ID, data, formato, Grande Ideia, território, estado, objetivo, título, hook, visual, CTA, hipótese, métrica e decisão. Não usar “8 Prosperidades” como mapa autoral do Portal. Não transformar formação Sintonize em pauta copiada.
 
-> Gere um calendário de 15 dias para o Portal Caminho da Consciência usando três fases: Dias 1–5 reconhecimento bruto; Dias 6–10 revelação do padrão; Dias 11–15 intenção e solução. Use até 2 Shorts por dia e 2 vídeos longos por semana, se houver capacidade. Para cada peça: ID, data, formato, Grande Ideia, área, estágio de jornada, objetivo, título, hook, presença visual, CTA, hipótese, métrica primária, prompt de produção e decisão esperada. Garanta variedade de áreas e pelo menos alguns cruzamentos transversais. Não faça a pauta parecer 30 variações da mesma frase.
+---
 
 ## P14 — Conteúdo espiritual responsável
 
-**Prompt:**
+> Crie conteúdo espiritual sobre [TEMA] no nível [entrada/desenvolvimento/aprofundamento]. Comece na vida concreta. Trate espiritualidade como prática, sentido e conexão. Não afirmar causa invisível como fato. Não prometer cura, dinheiro ou destino. Não apropriar ritos. Termine com pergunta que conecte crença e vida prática.
 
-> Crie conteúdo espiritual para o Portal Caminho da Consciência sobre [TEMA] em um dos níveis [entrada / desenvolvimento / aprofundamento]. Comece por vida concreta. Trate espiritualidade como caminho de sentido, prática e conexão, sem afirmar causalidade invisível como fato, sem prometer cura, dinheiro ou destino e sem apropriar ritos de tradições específicas. Inclua uma pergunta que leve a pessoa da crença para a vida prática.
+---
 
-## P15 — Transformar comentários em pauta
+## P15 — Comentários em pauta
 
-**Prompt:**
+> Analise [COMENTÁRIOS]. Agrupe por linguagem literal, cena, dor, desejo, objeção, estado e intenção. Preserve linguagem real. Gere hooks originais, temas de Shorts, longos, FAQ e hipótese de produto. Não inferir diagnóstico.
 
-> Analise estes comentários do público: [COLAR]. Agrupe por linguagem literal, dor, cena, objeção, desejo, estágio de jornada e intenção comercial. Preserve as frases reais. Extraia 10 hooks que usem a linguagem do público sem copiar de forma artificial. Identifique 3 temas para Shorts, 2 para vídeo longo, 1 FAQ de oferta e 1 hipótese de produto.
+---
 
-## P16 — Quadro editorial recorrente
+## P16 — Quadro recorrente
 
-**Prompt:**
+> Desenvolva episódio de [QUADRO]. Preserve elemento fixo sem soar mecânico. Cena → repetição → conexão → pergunta → CTA. Indique o que é fixo e o que varia.
 
-> Desenvolva um episódio do quadro [NOME DO QUADRO] para o Portal Caminho da Consciência. Mantenha a estrutura reconhecível da série sem tornar o texto mecânico. Comece por uma cena, mostre repetição, conecte outra área quando fizer sentido, abra uma pergunta e conduza para [CTA]. Indique o elemento fixo do quadro e o elemento que varia neste episódio.
+---
 
 ## P17 — Demonstração de Mapeamento
 
-**Prompt:**
+> Crie demonstração educativa do Mapeamento Padrão Interrompido usando caso fictício explicitamente identificado ou dados autorizados. Mostre perguntas, domínios, conexões possíveis e próximo passo. Sem diagnóstico. Sem afirmar causa absoluta. Sem usar ferramentas Sintonize como se fossem parte obrigatória da oferta atual.
 
-> Crie uma demonstração educativa de como o Mapeamento Padrão Interrompido organiza uma situação. Use um caso fictício claramente identificado ou dados autorizados. Mostre perguntas, áreas observadas, possíveis conexões e próximos passos sem diagnóstico, sem afirmar causa absoluta e sem apresentar leitura espiritual como fato verificável. O objetivo é tornar o processo compreensível e desejável, não misterioso.
+---
 
 ## P18 — Próxima melhor hipótese
 
-**Prompt:**
-
-> Considerando os últimos resultados editoriais, comerciais e qualitativos [DADOS], escolha a próxima hipótese de maior valor de informação para o Portal Caminho da Consciência. Explique: qual incerteza reduz, por que é mais importante agora, experimento mínimo, variável principal, métrica, duração e decisão possível. Evite testar algo que não altera uma decisão real.
+> A partir de [DADOS], escolha a hipótese de maior valor informacional. Diga qual incerteza reduz, experimento mínimo, variável, métrica, prazo e decisão. Evite teste que não muda decisão.
 
 ---
 
-# PARTE XVII — GOVERNANÇA EDITORIAL, COMPLIANCE E QUALIDADE
+## P19 — Transformar estudo Sintonize em conteúdo original
 
-# 55. Claims e linguagem proibida
+> Receba este INSIGHT RESUMIDO de um material Sintonize: [INSIGHT]. Não reproduza texto, lista, comando, protocolo, símbolo ou estrutura proprietária. Extraia apenas o tema humano/espiritual mais amplo. Gere 5 cenas originais de vida real e 3 perguntas editoriais alinhadas ao Portal. Se o conceito for específico da Sintonize e não puder ser dissociado da metodologia, marque “EXIGE ATRIBUIÇÃO” e não o apresente como Padrão Interrompido.
 
-Evitar afirmações como:
+---
+
+## P20 — Conteúdo educativo sobre Sintonize após certificação
+
+> Crie conteúdo sobre [TEMA SINTONIZE] assumindo que a certificação já foi formalmente confirmada no CURRENT. Explique de forma simples o que é, onde entra no Portal e o que não promete. Atribua a metodologia corretamente. Não ensinar protocolo protegido. Não usar “terapeuta” como identidade de Marcos. Não prometer cura, dinheiro, frequência científica ou resultado garantido.
+
+---
+
+# PARTE XVIII — GOVERNANÇA EDITORIAL, COMPLIANCE E ROADMAP
+
+# 94. Claims proibidos ou restritos
+
+Não publicar como afirmação comercial:
 
 - cura;
-- tratamento de doença;
-- diagnóstico psicológico ou médico;
-- garantia de prosperidade ou renda;
-- promessa de desbloqueio financeiro como resultado objetivo;
-- “causa raiz” apresentada como certeza;
-- “energia comprovada” sem base;
-- “100% de precisão”;
-- “o universo escolheu você” como fato;
-- leitura espiritual como previsão garantida;
-- urgência ou escassez fictícia.
-
-# 56. Depoimentos e estudos de caso
-
-- usar apenas depoimentos reais e autorizados;
-- contextualizar resultado;
-- não sugerir que um caso representa resultado típico;
-- não editar a ponto de alterar sentido;
-- deixar claro quando o exemplo for fictício/didático;
-- proteger informações pessoais.
-
-# 57. Relação com saúde e psicologia
-
-Conteúdo pode abordar:
-
-- rotina;
-- hábitos;
-- autocuidado;
-- pensamentos cotidianos;
-- comportamento observável;
-- escolhas;
-- estresse cotidiano em linguagem não clínica;
-- necessidade de buscar apoio apropriado.
-
-Não pode diagnosticar, tratar ou sugerir que prática espiritual substitui cuidado profissional.
-
-# 58. Relação com dinheiro
-
-Pode falar de:
-
-- comportamento;
-- organização;
-- sensação de aperto;
-- repetição de decisões;
-- adiamento;
-- conversa sobre dinheiro;
-- relação subjetiva com recursos.
-
-Não pode prometer enriquecimento, multiplicação, quitação ou retorno financeiro causado por método espiritual.
-
-# 59. Aprovação editorial
-
-Uma peça está pronta quando passa por cinco filtros:
-
-1. **humano:** parece vida real e voz real;
-2. **estratégico:** serve a uma hipótese ou etapa da jornada;
-3. **editorial:** hook, clareza, retenção e valor;
-4. **ético/compliance:** não ultrapassa limites;
-5. **comercial:** CTA e destino fazem sentido quando aplicável.
+- tratamento;
+- diagnóstico;
+- regeneração;
+- equilíbrio hormonal;
+- frequência espiritual como medição científica;
+- “causa raiz” como certeza;
+- “energia comprovada”;
+- 100% de precisão;
+- garantia de prosperidade;
+- garantia de clientes;
+- garantia de renda;
+- “abrir caminhos” como resultado financeiro garantido;
+- previsão absoluta;
+- destino definido por Anjo;
+- gênio contrário como diagnóstico;
+- urgência falsa.
 
 ---
 
-# PARTE XVIII — ROADMAP OPERACIONAL E DECISÕES ABERTAS
+# 95. Depoimentos
 
-# 60. Prioridades dos primeiros 30 dias
+- reais;
+- autorizados;
+- contextualizados;
+- sem edição que mude sentido;
+- sem números inventados;
+- sem inferir resultado típico;
+- sem “prova” de causalidade espiritual.
 
-- atualizar identidade editorial para Portal Caminho da Consciência;
-- substituir referências antigas em canais, descrições, templates e prompts;
-- atualizar a planilha de calendário de 15 dias;
-- executar a primeira bateria de 15 dias;
-- publicar Shorts diariamente dentro da capacidade de qualidade;
-- publicar 2 vídeos longos por semana;
-- registrar análise 24h e 72h;
-- abrir ou manter oferta do Mapeamento assim que operacionalmente pronta;
-- testar cenas em pelo menos quatro áreas;
-- testar pelo menos dois conteúdos transversais por semana;
-- testar conteúdo espiritual em nível de entrada sem transformar espiritualidade em clickbait;
-- registrar linguagem real de comentários, buscas, mensagens e clientes.
+Caso fictício deve ser marcado como fictício.
 
-# 61. Prioridades dos dias 31–60
+---
 
-- concentrar produção nas famílias com melhor combinação de retenção e intenção;
-- transformar vencedores em vídeos longos;
-- testar mídia paga apenas sobre mensagens com evidência;
-- estruturar Google Search de alta intenção;
-- criar demonstrações do Mapeamento;
-- testar pelo menos uma peça de venda direta por família vencedora;
-- decidir se o Radar melhora aquisição/qualificação o suficiente para justificar MVP;
-- documentar objeções e atualizar páginas/ofertas;
-- iniciar cluster SEO com perguntas validadas.
+# 96. Saúde e psicologia
 
-# 62. Prioridades dos dias 61–90
+Pode falar:
 
-- construir biblioteca de conteúdos vencedores;
-- concentrar investimento em canais/ângulos com economia viável;
-- integrar conteúdo, Search, landing pages e ofertas;
-- testar continuidade, Jornada ou comunidade se houver demanda;
-- criar sistema previsível de derivação de ideias;
-- automatizar relatórios e coleta de dados já compreendidos;
-- reduzir produção sem valor informacional;
-- revisar a tese editorial com base em compradores, não apenas audiência.
+- hábitos;
+- rotina;
+- autocuidado;
+- comportamento observável;
+- pensamentos cotidianos;
+- escolhas;
+- necessidade de buscar apoio.
 
-# 63. Decisões abertas
+Não pode:
 
-Continuam abertas até registro no CURRENT:
+- diagnosticar;
+- tratar;
+- usar doença como prova espiritual;
+- sugerir interrupção de tratamento;
+- vender prática como substituto.
 
-1. nome definitivo do primeiro quadro editorial recorrente;
-2. nome definitivo das atuais “8 Prosperidades”, caso seja alterado;
-3. cadência ótima de Shorts após primeiros ciclos;
-4. combinação ideal Marcos / IA visual / híbrido;
-5. momento de ativação do Radar;
-6. primeiro cluster de Google Search a receber mídia paga;
-7. grau de presença de conteúdo espiritual explícito no topo de funil;
-8. formato inicial de comunidade e aprofundamento;
-9. critérios quantitativos específicos por canal após formação de baseline;
-10. quais peças e séries merecem investimento de produção superior.
+---
 
-# 64. Decisões fechadas
+# 97. Dinheiro
+
+Pode falar:
+
+- decisões;
+- organização;
+- hábitos;
+- sensação de aperto;
+- escolhas;
+- comunicação;
+- trabalho;
+- relação subjetiva com recursos.
+
+Não pode prometer resultado financeiro por método espiritual.
+
+---
+
+# 98. Propriedade intelectual
+
+Antes de publicar conteúdo derivado de curso, formação ou material de terceiros:
+
+1. qual é o conceito?
+2. ele é específico da metodologia?
+3. estamos copiando formulação?
+4. estamos copiando sequência?
+5. estamos ensinando o método?
+6. precisa atribuição?
+7. pode ser transformado em tema humano amplo?
+8. o conteúdo final é realmente original?
+
+Na dúvida, não publicar.
+
+---
+
+# 99. Aprovação editorial
+
+Uma peça está pronta quando passa por seis filtros:
+
+1. **humano** — parece vida real;
+2. **estratégico** — testa algo;
+3. **editorial** — hook, clareza, retenção;
+4. **ético** — limites;
+5. **autoria** — não apropria material;
+6. **comercial** — CTA/destino coerentes.
+
+---
+
+# 100. Roadmap imediato — próximos 7 dias
+
+- publicar conteúdo orgânico;
+- priorizar cenas fortes;
+- 2 longos por semana;
+- testar pelo menos 3–4 territórios;
+- cruzar domínios;
+- produzir espiritualidade aplicada;
+- não vender certificação antecipada;
+- registrar comentários;
+- analisar 24h/72h;
+- ajustar calendário pelos dados;
+- concluir formação;
+- manter Google Ads adiado;
+- manter Radar adiado;
+- não criar protocolos;
+- não transformar Sintonize em eixo de aquisição.
+
+---
+
+# 101. Depois da certificação
+
+Após confirmação formal:
+
+- atualizar formulação pública de Marcos;
+- decidir primeiro conteúdo educativo Sintonize;
+- criar uma peça “o que é / o que não é” antes de aprofundar;
+- explicar diferença Padrão Interrompido x Sintonize;
+- não publicar comandos/protocolos;
+- realizar prática controlada conforme Documento 02;
+- observar linguagem dos participantes;
+- usar experiência real para melhorar conteúdo;
+- decidir posteriormente se haverá rota Search específica.
+
+---
+
+# 102. Dias 30–60
+
+Se houver sinais:
+
+- aprofundar famílias vencedoras;
+- transformar Shorts em longos;
+- criar demonstrações;
+- ajustar página;
+- iniciar Search somente quando operacionalmente desejado;
+- utilizar dados de WhatsApp;
+- começar cluster SEO;
+- testar conteúdo Sintonize especializado após certificação;
+- não criar produto digital derivado da formação.
+
+---
+
+# 103. Dias 60–90
+
+- consolidar biblioteca;
+- concentrar produção;
+- ativar mídia paga se economia e operação justificarem;
+- integrar conteúdo, Search e oferta;
+- testar continuidade somente com demanda;
+- automatizar coleta de dados já compreendida;
+- reduzir conteúdos sem valor;
+- revisar sistema com base em compradores e participantes reais.
+
+---
+
+# 104. Decisões fechadas
 
 - marca: **Portal Caminho da Consciência**;
-- método: **Padrão Interrompido**;
+- método próprio: **Padrão Interrompido**;
+- Sintonize: metodologia de terceiros;
 - YouTube-first;
-- Shorts como principal laboratório rápido;
-- vídeos longos como principal instrumento de aprofundamento e confiança;
-- território verbal: **“voltar ao mesmo lugar”**;
-- aquisição começa por cenas concretas;
-- espiritualidade é parte legítima da marca, sem imposição religiosa;
-- linguagem humana é regra canônica;
-- IA pode acelerar execução, nunca substituir especificidade e verdade;
-- conteúdo deve produzir aprendizado de negócio;
-- monetização deve seguir a jornada, não manipular a pessoa.
+- Shorts como laboratório rápido;
+- vídeos longos como confiança e profundidade;
+- “voltar ao mesmo lugar” como território de reconhecimento;
+- vida concreta antes do esotérico;
+- domínios editoriais flexíveis, não “8 Prosperidades do método”;
+- 8 Prosperidades somente como estrutura oficial Sintonize quando referida;
+- linguagem humana como regra;
+- IA como apoio;
+- Marcos não usa “terapeuta” como identidade pública;
+- certificação Sintonize não será antecipada;
+- Anjos não são eixo da marca;
+- materiais Sintonize não serão copiados;
+- Google Ads preparado e adiado;
+- `whatsapp_click` é sinal secundário, não venda;
+- prioridade imediata: crescimento orgânico do YouTube.
 
-# 65. Síntese canônica do sistema editorial
+---
+
+# 105. Decisões abertas
+
+1. nome definitivo do quadro recorrente;
+2. cadência ótima de Shorts;
+3. proporção ideal Marcos / IA / híbrido;
+4. mapa autoral definitivo de domínios do Padrão Interrompido;
+5. momento do Radar;
+6. formato da integração comercial Sintonize;
+7. grau de conteúdo Sintonize após certificação;
+8. grau de conteúdo sobre Anjos;
+9. primeiro cluster de Search a ativar;
+10. primeiro protocolo autoral;
+11. formato da Jornada;
+12. baseline de métricas por canal;
+13. quais séries receberão maior investimento.
+
+---
+
+# 106. Síntese canônica
 
 ## O que publicamos
 
-Conteúdo que começa na vida real, torna uma repetição observável, amplia uma pergunta e oferece um próximo passo útil.
+Conteúdo que começa na vida real, torna algo observável, mostra repetição, amplia uma pergunta e oferece um próximo passo coerente.
 
 ## O que queremos que a pessoa pense
 
 > **“Isso acontece comigo.”**  
 > **“Não é a primeira vez.”**  
-> **“Talvez isso apareça em mais de uma área.”**  
+> **“Talvez isso apareça em outros lugares.”**  
 > **“Quero entender melhor.”**  
 > **“Quero trabalhar isso.”**  
 > **“Quero continuar caminhando.”**
 
 ## O que queremos aprender
 
-Qual dor, cena, linguagem, método, oferta e canal realmente ajudam a pessoa e sustentam um negócio saudável.
+Que cenas, temas, perguntas, práticas, metodologias, ofertas e canais realmente:
 
-## A frase que organiza a comunicação
+- ajudam;
+- geram confiança;
+- geram intenção;
+- sustentam um negócio íntegro.
+
+## Frase editorial central
 
 > **O cenário muda. O padrão volta. A consciência pode mudar o caminho.**
 
-## A regra que organiza a criação
+## Regra de criação
 
-> **Se parecer texto de IA, não está pronto. Se parecer uma copy que qualquer marca poderia publicar, não está pronto. Se Marcos não falaria aquilo naturalmente para uma pessoa sentada à sua frente, não está pronto.**
+> **Se parecer texto de IA, não está pronto. Se parecer uma copy que qualquer marca poderia publicar, não está pronto. Se Marcos não falaria aquilo naturalmente para uma pessoa sentada à sua frente, não está pronto. Se parecer que estamos apresentando como nosso aquilo que pertence a uma formação, tradição ou metodologia de terceiros, também não está pronto.**
 
-## A regra que organiza o crescimento
+## Regra de crescimento
 
-> **Conteúdo gera reconhecimento. Reconhecimento gera dados. Dados melhoram a oferta. A oferta valida o negócio. O negócio sustenta o caminho.**
+> **Conteúdo gera reconhecimento. Reconhecimento gera aprendizado. Aprendizado melhora a oferta. A oferta valida o negócio. O negócio sustenta o caminho.**
 
 ---
 
-# 66. Encerramento e governança
+# 107. Governança da versão
 
-Este documento deve ser alterado quando houver mudança deliberada no sistema editorial, na estratégia de aquisição, na arquitetura de experimentação ou em regras de comunicação que afetem o projeto inteiro.
+Esta V2.0 substitui integralmente a V1.0.
 
-Atualizações de calendário, métricas correntes, resultados de testes, links, criativos e campanhas pertencem ao Documento 06 — CURRENT e aos artefatos operacionais correspondentes.
+Ela deve ser revisada quando houver mudança deliberada em:
 
-Toda mudança canônica deve registrar:
+- sistema editorial;
+- posicionamento público de Marcos;
+- certificação e uso editorial Sintonize;
+- política de propriedade intelectual;
+- oferta vigente;
+- papel do Search;
+- arquitetura de mensuração;
+- cadência estrutural;
+- sistema de prompts.
 
-- versão;
-- data;
-- decisão que motivou a mudança;
-- impacto em prompts, calendário, campanhas, páginas e demais documentos.
+Atualizações correntes de:
 
-**Fim do Documento 03 — Sistema Editorial, Aquisição e Experimentação — V1.0.**
+- calendário;
+- títulos;
+- métricas;
+- criativos;
+- campanhas;
+- links;
+- comentários;
+- resultados;
+
+pertencem ao CURRENT e aos artefatos operacionais.
+
+> **Fim do Documento 03 — Sistema Editorial, Aquisição e Experimentação — V2.0.**
