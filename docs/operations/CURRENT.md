@@ -176,7 +176,7 @@ Não é prioridade imediata:
 
 # 5. Documentos canônicos vigentes
 
-A arquitetura oficial agora possui oito documentos (00 a 06, com 03.A complementar):
+A arquitetura oficial agora possui nove documentos (00 a 06, com 03.A e 03.B complementares):
 
 | Documento | Versão atual | Função |
 |---|---:|---|
@@ -185,6 +185,7 @@ A arquitetura oficial agora possui oito documentos (00 a 06, com 03.A complement
 | 02 — Jornada, Produtos, Serviços e Protocolos | **V2.0** | jornada e ofertas |
 | 03 — Sistema Editorial, Aquisição e Experimentação | **V2.0** | conteúdo, crescimento e testes |
 | **03.A — Regra Complementar — Percepção Antes da Explicação** | **V1.0** | arquitetura psicológica do conteúdo; lido em conjunto com 03 |
+| **03.B — Mapa Editorial Mestre — Big Ideas, Cenas, Soluções, Oferta, Ganchos e Arquitetura de Aquisição** | **V1.0** | mapa operacional de aquisição; lido em conjunto com 03 e 03.A |
 | 04 — Identidade, Voz, Espiritualidade e Comunicação | **V2.0** | marca, voz, claims e apresentação |
 | 05 — Arquitetura Técnica, Dados e Ecossistema Digital | **V2.0** | tecnologia, dados e IA |
 | 06 — CURRENT, Decisões e Plano Operacional Vivo | **V2.0** | estado atual |
@@ -981,6 +982,8 @@ Nenhum agente está autorizado, sem nova decisão explícita, a:
 | 01/09/2026 | Sintonize não será digitalizada | FECHADO | tecnologia e PI |
 | 01/09/2026 | Docs 01–05 revisados | PRODUZIDO | pacote canônico |
 | 01/09/2026 | CURRENT atualizado para V2.0 | PRODUZIDO | operação |
+| 01/09/2026 | Documento 03.A incorporado ao repositório (V1.0) | EXECUTADO | arquitetura psicológica editorial |
+| 01/09/2026 | Documento 03.B incorporado ao repositório (V1.0) | EXECUTADO | mapa editorial mestre — Big Ideas, Cenas, Ganchos, Aquisição |
 
 ---
 
