@@ -14,7 +14,7 @@
 
 **Branch:** `main`
 
-**Etapa atual:** R3C — Criação da campanha Search (pausada) em andamento.
+**Etapa atual:** R3C — Especificação da campanha Search concluída. Execução deliberadamente adiada — sem gasto ativo.
 
 ---
 
@@ -56,11 +56,13 @@
 
 ---
 
-## GATE R3C — Validação da Campanha Search — EM ANDAMENTO (2026-08-31)
+## GATE R3C — Configuração Search — ESPECIFICAÇÃO CONCLUÍDA / EXECUÇÃO ADIADA (2026-08-31)
 
-**Objetivo:** Criar e configurar a primeira campanha Search no Google Ads. Campanha criada PAUSADA — ativar somente após revisão e aprovação de Marcos.
+**Objetivo:** Criar a campanha Search no Google Ads conforme spec abaixo. Execução adiada deliberadamente — nenhum gasto iniciado. Retomar quando houver decisão de ativar tráfego pago.
 
-**Critério de aprovação:** Campanha criada com todas as configs abaixo, revisada por Marcos, ativada com orçamento R$30/dia.
+**Status:** READY TO IMPLEMENT — blockers: nenhum.
+
+**Critério de aprovação:** Campanha criada pausada, revisada por Marcos, ativada com R$30/dia.
 
 **Branch:** `main`
 
@@ -158,14 +160,12 @@ Desc 2: Mapeamento individual com relatório e áudio personalizado. Conheça a 
 | Item | Estado |
 |---|---|
 | Spec aprovada por Marcos | ✅ |
-| Campanha criada (pausada) | PENDENTE |
-| Grupos e keywords configurados | PENDENTE |
-| RSAs criados | PENDENTE |
-| Negativas adicionadas | PENDENTE |
-| Assets configurados | PENDENTE |
-| Template de rastreamento aplicado | PENDENTE |
-| Revisão final por Marcos | PENDENTE |
-| Campanha ativada | PENDENTE |
+| Tracking pronto (whatsapp_click configurado) | ✅ |
+| Campanha criada na interface | AGUARDA DECISÃO DE ATIVAR TRÁFEGO |
+| Grupos, keywords, RSAs, assets, negativas | AGUARDA DECISÃO DE ATIVAR TRÁFEGO |
+| Campanha ativada | AGUARDA DECISÃO DE ATIVAR TRÁFEGO |
+
+> Nota: o alerta "Turn off ad blockers" observado durante acesso automatizado não foi confirmado como problema real no browser do operador — não é blocker do projeto.
 
 ---
 
