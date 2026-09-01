@@ -1,6 +1,45 @@
 # CURRENT — Portal Caminho da Consciência
 > Documento operacional vivo. Atualizar sempre que o estado mudar.
-> Não contrariar documentos canônicos 01–05.
+> Não contrariar documentos canônicos 00–05.
+
+---
+
+## FATOS CANÔNICOS — ATUALIZAÇÃO 01/09/2026
+
+| Fato | Estado |
+|---|---|
+| Documento 00 — Matriz de Governança Conceitual adotado | ✅ — `docs/canonical/00-matriz-governanca-conceitual.md` |
+| Acesso oficial de Marcos à formação Sintonize Prosperidade | ✅ confirmado |
+| Materiais oficiais da formação analisados como fonte primária | ✅ |
+| Fronteiras Portal / Padrão Interrompido / Sintonize estabelecidas | ✅ — ver Doc 00 |
+| 8 Prosperidades oficiais da Sintonize identificadas | ✅ — Financeira, Saúde, Relacionamentos, Emocional, Espiritual, Criativa, Tempo e Liberdade, Profissional |
+| Certificação Sintonize de Marcos | EM CONCLUSÃO — esperada ~7 dias; NÃO anunciar como concluída ainda |
+| Identidade pública de Marcos | "terapeuta" DESCARTADO — usar: Fundador do Portal + Criador do Método |
+| R3C (campanha Search) | READY TO IMPLEMENT / EXECUÇÃO ADIADA — nenhum gasto ativo |
+| Prioridade atual | Conteúdo e crescimento do YouTube — não depende da certificação |
+| Revisão coordenada dos Documentos 01–05 | PENDENTE — aguarda sessão específica |
+| Implementação de produto/site/Radar/banco | NÃO INICIADA — aguarda revisão documental |
+
+### Decisões fechadas pelo Documento 00
+
+- Marcos **não usará "terapeuta"** como identidade profissional pública do Portal
+- A Mesa Radiônica Sintonize Prosperidade é **modalidade de terceiros**, não criação do Portal
+- Os materiais oficiais Sintonize **não serão versionados em repositório público** (apostilas, protocolos, símbolos, fichas, comandos)
+- "Familiar/Ancestral" **não é a 8ª prosperidade oficial da Sintonize** — pode existir como tema transversal do Padrão Interrompido
+- O Radar **não é uma Mesa digital** e não "mede energia" — trabalha com autorrelato
+- **Até a certificação ser efetivamente emitida**, não apresentar Marcos como certificado/formado
+
+### Conflitos identificados nos Documentos 01–05 (a resolver na revisão)
+
+| Documento | Conflito potencial |
+|---|---|
+| Doc 01 | Pode misturar ecossistema, método e Sintonize sem as fronteiras do Doc 00 |
+| Doc 02 | Maior impacto: protocolos Sintonize e próprios do Portal provavelmente não separados formalmente; arquitetura de prosperidades pode usar a versão antiga (com Familiar/Ancestral) |
+| Doc 03 | Pode não ter a regra de transformação editorial (fonte ≠ copy pronta) |
+| Doc 04 | Posicionamento público de Marcos e matriz de linguagem interno/público provavelmente desatualizados |
+| Doc 05 | Regras de propriedade intelectual, repositórios e IA sobre materiais restritos provavelmente ausentes |
+
+> Não corrigir os Documentos 01–05 silenciosamente. Revisão será conduzida em sessão coordenada com Marcos.
 
 ---
 

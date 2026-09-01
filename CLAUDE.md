@@ -3,7 +3,9 @@
 ## Hierarquia de autoridade
 
 ```
-01 Fundacional / Estratégico       ← autoridade máxima
+00 Matriz de Governança Conceitual  ← fronteiras de autoria, PI e linguagem (transversal)
+↓
+01 Fundacional / Estratégico        ← autoridade estratégica máxima
 ↓
 02 Jornada / Produtos
 ↓
@@ -13,13 +15,16 @@
 ↓
 05 Arquitetura Técnica
 ↓
-CURRENT.md                         ← estado operacional, não contrariar 01–05
+CURRENT.md                          ← estado operacional, não contrariar 00–05
 ```
+
+> **Nota transitória:** O Doc 00 foi criado após análise dos materiais da formação Sintonize Prosperidade. Em conflitos sobre autoria, propriedade intelectual, fronteiras Portal/Padrão Interrompido/Sintonize, 8 Prosperidades, protocolos e posicionamento de Marcos, o Doc 00 prevalece sobre os demais até a revisão coordenada dos Docs 01–05.
 
 ## Documentos canônicos (`docs/canonical/`)
 
 | Arquivo | Função |
 |---|---|
+| `00-matriz-governanca-conceitual.md` | Fronteiras de autoria, PI, Sintonize, Radar, linguagem público/interno |
 | `01-fundacional-estrategico.md` | Propósito, visão, posicionamento, método, princípios |
 | `02-jornada-produtos-servicos-protocolos.md` | Jornada do cliente, ofertas, entregáveis, protocolos |
 | `03-sistema-editorial-aquisicao-experimentacao.md` | Conteúdo, funil, SEO, YouTube, CTAs, métricas |

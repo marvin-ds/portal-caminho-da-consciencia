@@ -1,0 +1,833 @@
+# PORTAL CAMINHO DA CONSCIÊNCIA
+## Documento 00 — Matriz de Governança Conceitual, Propriedade Intelectual e Posicionamento
+**Documento Canônico Transversal V1.0 — 01/09/2026**
+
+> “O que é nosso. O que vem de uma formação específica. O que pode ser público. O que precisa permanecer interno. E de que lugar Marcos fala.”
+
+**STATUS:** canônico transversal / chave de leitura dos Documentos 01–06  
+**FUNÇÃO:** impedir mistura de marca, método próprio, técnica de terceiros, propriedade intelectual, linguagem pública e operação interna  
+**MOMENTO:** criado após análise dos materiais primários da formação Mesa Radiônica Sintonize Prosperidade e dos materiais de Anjos Cabalísticos
+
+---
+
+# 0. Função deste documento
+
+Este Documento 00 existe para resolver uma questão transversal que os Documentos 01–06, isoladamente, não devem carregar: **as fronteiras conceituais e de propriedade entre o Portal Caminho da Consciência, o Método Padrão Interrompido, a Mesa Radiônica Sintonize Prosperidade, seus materiais oficiais e o papel público de Marcos.**
+
+Ele funciona como uma **matriz de governança e nomenclatura**.
+
+Não substitui:
+
+- o Documento 01, que continua sendo a autoridade estratégica do projeto;
+- o Documento 02, que detalha jornada, produtos, serviços e protocolos;
+- o Documento 03, que governa editorial, aquisição e experimentação;
+- o Documento 04, que governa identidade, voz, espiritualidade e claims;
+- o Documento 05, que governa arquitetura técnica e dados;
+- o Documento 06, que continua sendo o estado operacional vivo.
+
+### 0.1. Regra transitória
+
+Como este Documento 00 foi criado **depois** da análise aprofundada da formação Sintonize, ele funciona como **nota canônica de correção transversal** para qualquer trecho antigo dos Documentos 01–06 que ainda misture propriedade, nomenclatura ou escopo.
+
+Até a revisão coordenada dos demais documentos, **nestas matérias específicas prevalecem as fronteiras definidas aqui**.
+
+Depois da revisão, este documento permanece como mapa rápido de governança.
+
+---
+
+# 1. Arquitetura-mãe do ecossistema
+
+A arquitetura oficial passa a ser lida em quatro níveis distintos:
+
+## Nível 1 — PORTAL CAMINHO DA CONSCIÊNCIA
+
+**O ecossistema.**
+
+É a marca principal e o espaço maior no qual a pessoa entra para percorrer um caminho de desenvolvimento, aprendizado, transformação de padrões, prática, integração, expansão da consciência e aprofundamento espiritual.
+
+O Portal não pertence a uma única técnica, religião, cosmologia ou modalidade de atendimento.
+
+## Nível 2 — MÉTODO PADRÃO INTERROMPIDO
+
+**A estrutura própria de investigação e transformação.**
+
+É o método proprietário criado no contexto do Portal para organizar a percepção de repetições, conexões entre áreas da vida, escolha de intervenções, prática, reavaliação e aprofundamento.
+
+Definição simples:
+
+> **Perceber o que se repete. Compreender onde aparece. Mapear conexões. Intervir. Praticar. Reavaliar. Integrar. Aprofundar.**
+
+## Nível 3 — TÉCNICAS, PRÁTICAS E MODALIDADES
+
+**Os instrumentos que podem ser usados em determinadas etapas.**
+
+Entre eles podem existir, de acordo com competência, consentimento e adequação:
+
+- Mesa Radiônica Sintonize Prosperidade;
+- radiestesia/radiônica;
+- auto-hipnose;
+- meditação e visualização;
+- oração e práticas espirituais;
+- journaling;
+- práticas simbólicas;
+- ações concretas e comportamentais;
+- outras ferramentas legitimamente incorporadas no futuro.
+
+Nenhuma técnica é o Portal inteiro e nenhuma técnica, isoladamente, é o Método Padrão Interrompido.
+
+## Nível 4 — PRODUTOS E EXPERIÊNCIAS
+
+São as formas concretas de entrega ao público: conteúdo, Radar, Mapeamento, experiências individuais, jornadas, protocolos próprios, reavaliações, comunidade e futuras ofertas.
+
+Esses produtos podem combinar elementos do Método Padrão Interrompido com técnicas específicas, desde que a origem e os limites de cada uma permaneçam claros.
+
+---
+
+# 2. Matriz central de decisões conceituais
+
+| Elemento | O que é | Titularidade / origem | Uso público | Uso interno | Regra principal |
+|---|---|---|---|---|---|
+| **Portal Caminho da Consciência** | Marca e ecossistema maior | Projeto próprio | **ALTO** | **ALTO** | É a casa de tudo; não pode ser reduzido a uma técnica |
+| **Método Padrão Interrompido** | Método próprio de organização da jornada | Criação própria do projeto | **ALTO** | **ALTO** | Pode estruturar experiências, mas não apropriar técnicas de terceiros |
+| **Mesa Radiônica Sintonize Prosperidade** | Modalidade espiritual/radiônica específica | Formação/metodologia de terceiros | **MÉDIO**, após habilitação | **ALTO** | Apresentar sempre como técnica específica, nunca como criação do Portal |
+| **8 Prosperidades Sintonize** | Estrutura oficial da Mesa | Sintonize Prosperidade | **MÉDIO** quando contextual | **ALTO** na operação Sintonize | Não chamar de criação do Padrão Interrompido |
+| **Protocolos Sintonize** | Protocolos oficiais da formação | Sintonize Prosperidade | **BAIXO/MÉDIO** em visão geral | **ALTO** para praticante habilitado | Não copiar, rebatizar ou transformar em produto próprio |
+| **Protocolos Padrão Interrompido** | Protocolos autorais do Portal | Criação própria | **ALTO** quando validados | **ALTO** | Devem ser desenvolvidos de forma independente |
+| **Radar / Mapa digital** | Instrumento digital de autorrelato e reconhecimento | Criação própria | **ALTO** | **ALTO** | Não é Mesa digital e não “mede energia” |
+| **Anjos Cabalísticos 6, 8, 43 e 71** | Ferramentas específicas presentes na operação Sintonize | Sistema cabalístico utilizado pela formação | **BAIXO** na aquisição; **MÉDIO** em conteúdo especializado | **ALTO** quando indicados na sessão | Não são pilar da marca; explicar dentro da tradição/prática |
+| **72 Anjos Cabalísticos** | Material amplo de estudo e referência | Material de apoio/tradição utilizada | **BAIXO** | **MÉDIO** | Não transformar o Portal em marca de angelologia |
+| **Anjos da Consciência Divina / símbolos da formação** | Elementos próprios do sistema da formadora | Terceiros / material protegido | **BAIXO/MÉDIO** se autorizado e contextual | **ALTO** na prática autorizada | Não incorporar como identidade proprietária do Portal |
+| **Conteúdo do curso, apostilas, fichas, comandos, símbolos e protocolos** | Fonte primária de formação | Material protegido de terceiros | **NÃO** como reprodução | **RESTRITO** ao uso legítimo | Não versionar, copiar ou converter em produto/banco público |
+| **Espiritualidade do Portal** | Dimensão aberta de consciência, fé, sentido e conexão | Identidade própria | **ALTO** | **ALTO** | Não exige religião única nem transforma crença em prova científica |
+| **História e presença de Marcos** | Autoridade humana e experiência em desenvolvimento | Própria | **MÉDIO/ALTO** | **ALTO** | Marcos não é guru, clínico nem prova universal do método |
+
+---
+
+# 3. O que é o Portal Caminho da Consciência
+
+## 3.1. Definição canônica
+
+O **Portal Caminho da Consciência** é um ecossistema de desenvolvimento pessoal e espiritual aplicado à vida real.
+
+A proposta é ajudar pessoas a:
+
+- perceber repetições que antes pareciam fatos isolados;
+- ampliar consciência sobre escolhas, reações e áreas da vida;
+- encontrar formas responsáveis de trabalhar essas repetições;
+- incorporar práticas e ações concretas;
+- reavaliar o caminho;
+- aprofundar, quando desejado, a dimensão espiritual.
+
+## 3.2. O Portal NÃO é
+
+- uma escola de Mesa Radiônica;
+- uma clínica;
+- uma terapia;
+- uma religião;
+- um canal exclusivamente angelical;
+- um projeto de prosperidade apenas financeira;
+- uma marca da Sintonize Prosperidade;
+- uma plataforma que diagnostica “energia”;
+- uma promessa de cura, riqueza ou solução universal.
+
+## 3.3. Linguagem pública prioritária
+
+O Portal deve ser reconhecido primeiro por ideias como:
+
+- “voltar ao mesmo lugar”;
+- padrões que se repetem;
+- consciência aplicada à vida real;
+- transformação que precisa ser integrada;
+- espiritualidade com responsabilidade;
+- ação concreta acompanhando consciência.
+
+Frase filosófica vigente:
+
+> **“O cenário muda. O padrão volta. A consciência pode mudar o caminho.”**
+
+---
+
+# 4. O que é o Método Padrão Interrompido
+
+## 4.1. Definição
+
+O **Padrão Interrompido** é o método próprio que organiza a investigação e a jornada de transformação do Portal.
+
+Ele não precisa explicar metafisicamente por que tudo acontece. Sua função é organizar:
+
+1. **Reconhecimento** — perceber a cena ou o sinal concreto;
+2. **Repetição** — observar se já aconteceu de outras formas;
+3. **Conexão** — verificar se atravessa mais de uma área da vida;
+4. **Mapeamento** — organizar o que merece atenção;
+5. **Intervenção** — escolher uma prática ou técnica adequada;
+6. **Prática** — incorporar um novo movimento por um período;
+7. **Reavaliação** — observar mudanças, permanências e novas informações;
+8. **Integração e aprofundamento** — transformar percepção em caminho e, se desejado, ampliar consciência e espiritualidade.
+
+## 4.2. O que pertence ao método
+
+Pertencem ao Padrão Interrompido:
+
+- sua lógica de reconhecimento de padrões recorrentes;
+- seu território verbal;
+- sua arquitetura de jornada;
+- seus instrumentos autorais de reflexão e mapeamento;
+- o Radar e outros produtos digitais originais;
+- protocolos criados de forma independente pelo Portal;
+- formatos próprios de devolutiva, integração e reavaliação.
+
+## 4.3. O que NÃO pertence ao método
+
+Não pertencem ao Padrão Interrompido:
+
+- a Mesa Sintonize Prosperidade;
+- os protocolos oficiais Sintonize;
+- os símbolos da formação;
+- os comandos/ativações da formação;
+- a Roda oficial das 8 Prosperidades da Sintonize;
+- os Anjos da Consciência Divina da formadora;
+- materiais e tabelas proprietários do curso;
+- o sistema dos 72 Anjos Cabalísticos.
+
+O método pode **integrar uma experiência em que esses elementos sejam utilizados legitimamente**, mas não pode reivindicá-los como criação própria.
+
+---
+
+# 5. O que é a Mesa Radiônica Sintonize Prosperidade
+
+## 5.1. Definição de governança
+
+A **Mesa Radiônica Sintonize Prosperidade** é uma formação e metodologia específica de terceiros, utilizada por praticantes formados/iniciados nos termos definidos pela própria criadora.
+
+Dentro do Portal, ela deve ser tratada como:
+
+> **uma modalidade espiritual/radiônica específica que pode ser utilizada em determinadas experiências do Método Padrão Interrompido.**
+
+## 5.2. O que a formação organiza
+
+Os materiais oficiais apresentam, entre outros elementos:
+
+- oito áreas de prosperidade;
+- Roda da Prosperidade;
+- anamnese/intenção;
+- crenças, medos e faltas;
+- leis espirituais;
+- símbolos e geometrias;
+- arcanjos e Anjos Cabalísticos;
+- fases da vida;
+- protocolos por prosperidade;
+- ferramentas de harmonização/ativação;
+- devolutiva e práticas posteriores.
+
+## 5.3. As 8 Prosperidades oficiais
+
+Quando o projeto usar a expressão **“8 Prosperidades Sintonize”**, a referência correta é:
+
+1. Financeira;
+2. Saúde;
+3. Relacionamentos;
+4. Emocional;
+5. Espiritual;
+6. Criativa;
+7. Tempo e Liberdade;
+8. Profissional.
+
+### Decisão canônica
+
+**“Familiar/Ancestral” não é a oitava prosperidade oficial da Sintonize.**
+
+Pode continuar existindo como tema transversal ou campo de investigação próprio do Padrão Interrompido, sem ser apresentado como parte da Roda oficial das 8 Prosperidades.
+
+## 5.4. Mesa não é o negócio inteiro
+
+A Mesa pode ser uma ferramenta premium, profunda e diferenciadora.
+
+Mas o ativo maior do projeto continua sendo:
+
+> **Portal Caminho da Consciência + Método Padrão Interrompido + conteúdo + produtos + prática + reavaliação + comunidade + tecnologia.**
+
+---
+
+# 6. Protocolos: separação obrigatória
+
+## 6.1. Protocolos Sintonize
+
+São os protocolos, sequências e combinações de ferramentas pertencentes à formação Sintonize Prosperidade.
+
+Regras:
+
+- usar somente dentro da habilitação e condições da formação;
+- não reproduzir integralmente em páginas, cursos, PDFs públicos ou aplicativos;
+- não renomear como “Protocolo Padrão Interrompido”;
+- não transformar em banco de dados ou lógica de software comercial sem autorização específica;
+- não ensinar como conteúdo próprio do Portal.
+
+## 6.2. Protocolos Padrão Interrompido
+
+São protocolos originais, criados pelo Portal para integração, prática e reavaliação.
+
+Podem envolver, quando legítimo e sem copiar material protegido:
+
+- reflexão guiada;
+- meditação;
+- auto-hipnose dentro da competência real de Marcos;
+- journaling;
+- práticas simbólicas próprias;
+- oração aberta;
+- ações comportamentais;
+- acompanhamento e reavaliação.
+
+### Regra de autoria
+
+Um protocolo próprio só pode ser chamado de **Padrão Interrompido** quando sua estrutura, linguagem e conteúdo forem de autoria independente.
+
+---
+
+# 7. Radar e produtos digitais
+
+## 7.1. Radar
+
+O Radar é um instrumento digital autoral baseado em **autorrelato**.
+
+Ele pode dizer:
+
+> “Pelas suas respostas, esta repetição parece aparecer com mais força nestas áreas.”
+
+Não pode dizer:
+
+- “medimos sua energia”;
+- “detectamos sua frequência”;
+- “a IA identificou seu bloqueio energético”;
+- “seu chakra X está desequilibrado”;
+- “a Mesa foi reproduzida digitalmente”.
+
+## 7.2. Regra de dados e propriedade intelectual
+
+Os materiais protegidos da Sintonize não devem ser convertidos em:
+
+- banco de dados público;
+- corpus de produto;
+- regras automáticas do Radar;
+- prompts distribuídos;
+- API;
+- aplicativo que replique a Mesa;
+- dataset com comandos, símbolos, protocolos ou listas proprietárias.
+
+IA pode ajudar a **organizar trabalho próprio** e redigir entregas originais, desde que não reproduza ou transforme materiais protegidos em produto derivado.
+
+---
+
+# 8. Anjos Cabalísticos: lugar correto no ecossistema
+
+## 8.1. Relevância operacional
+
+Os materiais da Sintonize destacam quatro Anjos Cabalísticos específicos na ficha de atendimento:
+
+- **6 — Lelahel**;
+- **8 — Cahetel**;
+- **43 — Veuliah**;
+- **71 — Haiaiel**.
+
+Eles aparecem como ferramentas específicas dentro da prática Sintonize e possuem funções espirituais descritas pela formação.
+
+## 8.2. Uso público
+
+### Aquisição ampla
+**BAIXA prioridade.**
+
+Não usar angelologia como porta principal para público frio.
+
+### Conteúdo de aprofundamento
+**MÉDIA prioridade**, após haver contexto e interesse.
+
+Pode haver conteúdos educacionais como:
+
+- “Por que alguns sistemas espirituais usam arquétipos ou inteligências angelicais?”
+- “Qual é o papel dos Anjos Cabalísticos dentro da Sintonize Prosperidade?”
+- “O que muda entre uma prática espiritual e uma afirmação científica?”
+
+### Atendimento/devolutiva
+**ALTA relevância**, quando a ferramenta aparecer legitimamente na sessão.
+
+A linguagem deve ser:
+
+> “Dentro da prática Sintonize, foi trabalhado o Anjo X, associado a…”
+
+Evitar:
+
+> “O Anjo X provou que…”
+
+ou
+
+> “Você é assim porque nasceu sob…”
+
+como afirmação objetiva universal.
+
+## 8.3. Os 72 Anjos
+
+O material completo dos 72 é referência de estudo e aprofundamento, mas **não redefine o Portal como projeto de angelologia**.
+
+---
+
+# 9. O que pode ser público e o que deve permanecer interno
+
+## 9.1. Público — permitido e recomendado
+
+- propósito do Portal;
+- desenvolvimento pessoal e espiritual;
+- padrões recorrentes;
+- consciência e vida concreta;
+- Método Padrão Interrompido;
+- explicação geral de que certas experiências podem usar Mesa Radiônica Sintonize Prosperidade;
+- existência das 8 Prosperidades, com atribuição correta;
+- explicações gerais sobre radiestesia/radiônica como prática espiritual/complementar;
+- conteúdo educacional sobre espiritualidade, símbolos e Anjos Cabalísticos com contexto e cautela;
+- relato da formação/certificação de Marcos após conclusão formal;
+- o que a pessoa recebe em uma experiência;
+- práticas próprias do Portal;
+- limites claros do serviço.
+
+## 9.2. Público — somente com contexto e cautela
+
+- frequência;
+- energia;
+- chakras;
+- escala de Hawkins;
+- fases da vida;
+- ancestralidade;
+- “limpeza” e “harmonização”;
+- anjos e arcanjos;
+- gênio contrário;
+- símbolos e códigos;
+- “ativação”.
+
+Quando usados, devem ser apresentados como **linguagem e prática espiritual da modalidade**, não como medição científica ou diagnóstico objetivo.
+
+## 9.3. Interno / restrito
+
+- apostilas completas;
+- comandos e ativações exatas;
+- fichas oficiais integrais;
+- protocolos oficiais em detalhes;
+- imagens da Mesa e símbolos protegidos quando a autorização de reprodução não estiver explícita;
+- listas proprietárias de crenças/medos/faltas;
+- oráculos e materiais complementares da formação;
+- arquivos-fonte do curso;
+- prompts que reproduzam o conteúdo protegido;
+- qualquer base de dados que replique a metodologia.
+
+---
+
+# 10. Matriz de linguagem: interno versus público
+
+| Linguagem encontrada na formação | Tratamento no Portal público |
+|---|---|
+| “diagnóstico” | Preferir **mapeamento**, leitura, observação, ponto de atenção |
+| “cura” | Não usar como promessa; preferir cuidado, prática, integração, bem-estar percebido |
+| “regeneração celular” | Não usar como claim público |
+| “doença recorrente” | Não usar como alvo comercial da Mesa |
+| “equilíbrio hormonal” | Não usar como claim |
+| “frequência medida” / Hawkins | Se citado, deixar claro que pertence à cosmologia/prática; não apresentar como medição científica |
+| “atrair dinheiro/clientes” | Não prometer resultado; falar em relação com prosperidade, escolhas, clareza e ação |
+| “bloqueio identificado” | Preferir “ponto observado”, “tema que apareceu”, “hipótese de trabalho” |
+| “gênio contrário” | Contextualizar como conceito espiritual/tradicional, nunca diagnóstico da pessoa |
+| “anjo protege/garante” | Preferir “na tradição/prática, é associado a…” |
+| “terapeuta” | Não usar como identidade pública de Marcos |
+
+---
+
+# 11. Como Marcos se apresenta
+
+## 11.1. Decisão de posicionamento
+
+Embora a formação utilize o termo “terapeuta”, **Marcos não adotará “terapeuta” como identidade profissional pública do Portal**.
+
+Esta é uma decisão de posicionamento e prudência terminológica. O projeto não precisa ocupar uma identidade clínica ou aparentar vínculo com profissão regulamentada para comunicar aquilo que realmente faz.
+
+## 11.2. Posição pública permanente
+
+Marcos deve ser apresentado prioritariamente como:
+
+> **Marcos Vinicius — fundador do Portal Caminho da Consciência e criador do Método Padrão Interrompido.**
+
+Complementos possíveis, conforme contexto e comprovação:
+
+- pesquisador de padrões recorrentes e desenvolvimento pessoal e espiritual;
+- facilitador de experiências de autoconhecimento e desenvolvimento;
+- praticante de técnicas complementares compatíveis com sua formação real;
+- formado/certificado em Mesa Radiônica Sintonize Prosperidade, **após a conclusão formal**.
+
+## 11.3. Status durante os próximos dias
+
+Até a certificação ser concluída:
+
+**Pode dizer:**
+
+> “Estou concluindo oficialmente a formação Mesa Radiônica Sintonize Prosperidade.”
+
+**Não dizer:**
+
+- “sou certificado”;
+- “sou formado”;
+- “sou terapeuta Sintonize”;
+- “sou facilitador autorizado da formação”, salvo documento específico que comprove isso.
+
+## 11.4. Após a certificação
+
+Usar a nomenclatura exata sustentada pelo certificado.
+
+Formulação-base preferida:
+
+> **“Fundador do Portal Caminho da Consciência, criador do Método Padrão Interrompido e formado/certificado em Mesa Radiônica Sintonize Prosperidade.”**
+
+Se “praticante” for compatível com a documentação, pode ser usado:
+
+> **“Praticante certificado em Mesa Radiônica Sintonize Prosperidade.”**
+
+Evitar criar títulos que não constem da formação ou do certificado.
+
+## 11.5. O que Marcos nunca deve ser apresentado como
+
+- psicólogo;
+- médico;
+- profissional de saúde;
+- cientista;
+- diagnosticador clínico;
+- terapeuta como identidade principal do Portal;
+- sacerdote de tradição religiosa sem reconhecimento próprio da tradição;
+- guru;
+- mestre absoluto;
+- vidente que garante futuro;
+- prova viva de eficácia universal.
+
+---
+
+# 12. Como falar da Sintonize publicamente
+
+## 12.1. Formulação recomendada
+
+Após habilitação formal:
+
+> **“Em determinadas experiências, utilizo a Mesa Radiônica Sintonize Prosperidade, uma modalidade espiritual/radiônica na qual fui formalmente formado, como uma das ferramentas de trabalho dentro da jornada do Método Padrão Interrompido.”**
+
+## 12.2. Formulação a evitar
+
+> “Criei uma Mesa que mede seus bloqueios e descobre a causa do problema.”
+
+ou
+
+> “O Padrão Interrompido usa minha tecnologia Sintonize para medir sua frequência.”
+
+Essas frases confundem autoria, técnica, claim e evidência.
+
+## 12.3. Atribuição
+
+Sempre que a Sintonize for apresentada de forma relevante:
+
+- usar o nome correto da modalidade;
+- não sugerir autoria de Marcos;
+- não usar a marca “Anjos da Consciência Divina” como se pertencesse ao Portal;
+- respeitar os limites de reprodução definidos pela formação.
+
+---
+
+# 13. Conteúdo editorial: como usar a formação sem copiar a formação
+
+## 13.1. A formação pode inspirar temas
+
+Os materiais são uma fonte rica de temas como:
+
+- crenças;
+- medos;
+- faltas percebidas;
+- gratidão;
+- responsabilidade;
+- criatividade;
+- dinheiro;
+- espiritualidade;
+- escolhas;
+- persistência;
+- relacionamentos;
+- tempo e liberdade;
+- trabalho e propósito.
+
+## 13.2. Regra de transformação editorial
+
+Nunca fazer:
+
+> trecho da apostila → trocar algumas palavras → publicar.
+
+Fazer:
+
+> **tema da formação → cena real da vida → pensamento íntimo → repetição → pergunta de consciência → conteúdo original.**
+
+Exemplo:
+
+**Tema-fonte:** crença de que é preciso trabalhar excessivamente para merecer dinheiro.
+
+**Conteúdo Portal:**
+
+> “Você fecha o computador cansado e, mesmo assim, sente culpa só de pensar em descansar amanhã. Como se parar por algumas horas significasse que tudo vai desandar.”
+
+Isso mantém a originalidade editorial e o TOM MARCOS.
+
+## 13.3. Próximos sete dias
+
+Enquanto a certificação é finalizada, a prioridade editorial é:
+
+- alcance;
+- crescimento do canal;
+- cenas de reconhecimento;
+- padrões recorrentes;
+- consciência;
+- espiritualidade aplicada;
+- perguntas que fazem a pessoa olhar para a própria vida.
+
+Não é necessário colocar a Sintonize no centro dos conteúdos de aquisição agora.
+
+---
+
+# 14. Experiência do cliente: arquitetura recomendada
+
+Após certificação e validação operacional, uma experiência poderá combinar:
+
+### Camada A — Método Padrão Interrompido
+
+- demanda;
+- reconhecimento do padrão;
+- conexão entre áreas;
+- preparação do foco;
+- integração e reavaliação.
+
+### Camada B — Sintonize Prosperidade
+
+- aplicação da Mesa segundo a formação;
+- ferramentas e protocolos legítimos;
+- registro daquilo que foi trabalhado;
+- elementos espirituais próprios da modalidade.
+
+### Camada C — Devolutiva própria do Portal
+
+- relatório original;
+- áudio pessoal de Marcos;
+- síntese clara;
+- prática de integração;
+- ação concreta;
+- pontos para observação;
+- reavaliação futura.
+
+### Regra
+
+A Camada C não deve copiar o modelo oficial da formação. Deve ser uma entrega autoral do Portal que **registra, traduz e integra** a experiência, com atribuição correta quando mencionar ferramentas Sintonize.
+
+---
+
+# 15. Claims e responsabilidade
+
+## 15.1. Princípio
+
+A formação usa uma cosmologia e uma linguagem próprias. **Nem toda frase interna da formação é automaticamente uma frase publicável em site, anúncio ou YouTube.**
+
+O Portal mantém uma camada de compliance mais conservadora.
+
+## 15.2. Saúde
+
+Não usar comercialmente a Mesa para prometer:
+
+- cura;
+- tratamento;
+- diagnóstico;
+- regeneração celular;
+- equilíbrio hormonal;
+- solução de doença;
+- substituição de atendimento médico ou psicológico.
+
+## 15.3. Dinheiro e negócios
+
+Não prometer:
+
+- enriquecimento;
+- atração garantida de dinheiro;
+- aumento certo de faturamento;
+- obtenção garantida de clientes;
+- retorno financeiro específico.
+
+## 15.4. Espiritualidade
+
+Pode falar de:
+
+- fé;
+- conexão;
+- oração;
+- símbolos;
+- anjos;
+- energia como linguagem espiritual;
+- práticas de consciência;
+- sentido e desenvolvimento espiritual.
+
+Sempre deixando claro, quando necessário, que se trata de experiência, crença ou prática espiritual, não de comprovação científica.
+
+---
+
+# 16. Propriedade intelectual e repositórios
+
+## 16.1. Regra canônica
+
+Os materiais oficiais da Sintonize são tratados como **fonte primária protegida e de acesso restrito**.
+
+Não devem ser enviados para repositório público do Portal.
+
+## 16.2. Não versionar publicamente
+
+- apostila integral;
+- PDFs de apoio;
+- fichas oficiais;
+- tabelas de Anjos;
+- símbolos;
+- comandos;
+- ativações;
+- protocolos;
+- listas proprietárias;
+- imagens da Mesa quando a reprodução não estiver autorizada.
+
+## 16.3. Claude Code / Codex / IA
+
+Agentes podem conhecer a **regra de governança** e trabalhar com especificações próprias do Portal.
+
+Não devem receber a missão de:
+
+- digitalizar a formação;
+- transformar os protocolos oficiais em código;
+- extrair e versionar a apostila;
+- criar um “clone digital” da Mesa;
+- reproduzir símbolos ou comandos protegidos;
+- converter o Guia em banco de dados comercial.
+
+Se uma implementação depender de conteúdo Sintonize, ela deve parar e solicitar uma especificação autoral e autorizada.
+
+---
+
+# 17. Matriz de decisão rápida para qualquer nova ideia
+
+Antes de criar conteúdo, produto ou tecnologia, responder:
+
+1. **Isto pertence ao Portal, ao Padrão Interrompido ou à Sintonize?**
+2. **Quem é o titular da ideia, técnica, símbolo ou protocolo?**
+3. **Marcos está formalmente habilitado para usar isso?**
+4. **O uso é atendimento legítimo ou reprodução/adaptação do material?**
+5. **Pode ser público ou precisa permanecer interno?**
+6. **Estamos apresentando crença espiritual como crença ou como fato científico?**
+7. **Existe claim clínico, financeiro ou absoluto?**
+8. **A linguagem parece humana e compatível com o TOM MARCOS?**
+9. **A pessoa entende qual parte é Método Padrão Interrompido e qual parte é Sintonize?**
+10. **A implementação cria valor próprio ou apenas copia um material existente?**
+
+Se qualquer resposta estiver obscura, a ideia não está pronta para publicação ou desenvolvimento.
+
+---
+
+# 18. Decisões fechadas nesta versão
+
+**FECHADO — 01.** Portal Caminho da Consciência é a marca e o ecossistema principal.
+
+**FECHADO — 02.** Padrão Interrompido é o método próprio e não se confunde com a Mesa.
+
+**FECHADO — 03.** Sintonize Prosperidade é uma modalidade de terceiros integrada quando legítima, não uma criação do Portal.
+
+**FECHADO — 04.** As 8 Prosperidades oficiais da Sintonize são Financeira, Saúde, Relacionamentos, Emocional, Espiritual, Criativa, Tempo e Liberdade e Profissional.
+
+**FECHADO — 05.** Familiar/Ancestral pode existir como campo transversal do Padrão Interrompido, não como oitava prosperidade oficial Sintonize.
+
+**FECHADO — 06.** Protocolos Sintonize e Protocolos Padrão Interrompido são categorias distintas.
+
+**FECHADO — 07.** Radar não é Mesa digital e não mede energia.
+
+**FECHADO — 08.** Anjos Cabalísticos são relevantes principalmente na operação Sintonize e em conteúdo especializado, não como eixo principal de aquisição.
+
+**FECHADO — 09.** Materiais oficiais Sintonize permanecem restritos e não serão transformados em banco, app, curso ou produto derivado sem autorização.
+
+**FECHADO — 10.** Marcos não adotará “terapeuta” como identidade profissional pública do Portal.
+
+**FECHADO — 11.** Até a certificação formal, Marcos não será apresentado como certificado/formado na Sintonize.
+
+**FECHADO — 12.** Após a certificação, usar exatamente a titulação sustentada pelo documento recebido.
+
+**FECHADO — 13.** A linguagem pública do Portal pode ser espiritual, mas não converterá cosmologia em comprovação científica ou clínica.
+
+**FECHADO — 14.** Nos próximos sete dias, a prioridade é conteúdo de alcance e crescimento do YouTube, sem depender da Sintonize como gancho principal.
+
+---
+
+# 19. Decisões que permanecem abertas
+
+**ABERTO — A.** Formulação pública final do título de Marcos após recebimento do certificado.
+
+**ABERTO — B.** Nome comercial definitivo da primeira experiência que combinará Padrão Interrompido + Sintonize.
+
+**ABERTO — C.** Quais elementos da Sintonize serão mencionados na página de vendas após certificação e teste operacional.
+
+**ABERTO — D.** Qual será o formato autoral definitivo do relatório e da reavaliação.
+
+**ABERTO — E.** Em que momento os conteúdos especializados sobre radiestesia, Mesa e Anjos Cabalísticos entrarão no calendário editorial.
+
+**ABERTO — F.** Quais protocolos autorais do Padrão Interrompido serão criados e validados após os primeiros atendimentos.
+
+---
+
+# 20. Relação com os Documentos 01–06
+
+## Documento 01
+Deve ser revisado para refletir a separação entre ecossistema, método próprio e Sintonize, além da correção das 8 Prosperidades.
+
+## Documento 02
+É o documento com maior impacto. Deve separar formalmente produtos, protocolos próprios e protocolos Sintonize.
+
+## Documento 03
+Deve incorporar a regra de transformação editorial: fonte de formação não é copy pronta.
+
+## Documento 04
+Deve consolidar o novo posicionamento público de Marcos e a matriz de linguagem interno versus público.
+
+## Documento 05
+Deve incorporar as regras de propriedade intelectual, repositórios e uso de IA sobre materiais restritos.
+
+## Documento 06
+Deve registrar o estado real: acesso oficial, formação em conclusão, certificação ainda pendente até emissão formal, e próximos gates.
+
+---
+
+# 21. Fontes primárias que fundamentam esta matriz
+
+Esta matriz foi construída após análise dos materiais oficiais disponibilizados pelo usuário, em especial:
+
+- **APOSTILA WORD SINTONIZE FINAL.pdf** — formação Mesa Radiônica Sintonize Prosperidade, atualização agosto/2025;
+- **FICHA DE ATENDIMENTO SINTONIZE PROSPERIDADE.pdf** e versão complementar;
+- materiais de ativações, guia consultivo, modelo de relatório e protocolos enviados com a formação;
+- **72 ANJOS CABALÍSTICOS.docx**;
+- **ANJOS CABALISTICOS.pdf**, com os quatro anjos destacados na operação analisada.
+
+Pontos de fundamentação especialmente relevantes na apostila:
+
+- proteção autoral e limites de reprodução/uso — início da apostila;
+- definição das 8 Prosperidades e tipos de atendimento — capítulos iniciais;
+- Anjos Cabalísticos e ferramentas — seções específicas da formação;
+- protocolos das prosperidades — seção de protocolos;
+- passo a passo do atendimento — seção operacional final.
+
+---
+
+# 22. Síntese canônica
+
+A regra que deve sobreviver a qualquer expansão futura é:
+
+> **O Portal Caminho da Consciência é a casa.**  
+> **O Padrão Interrompido é o método próprio que organiza o caminho.**  
+> **A Sintonize Prosperidade é uma modalidade específica que pode ser utilizada dentro desse caminho.**  
+> **Os materiais, protocolos e símbolos da Sintonize continuam pertencendo à sua fonte.**  
+> **Marcos fala como fundador, criador do método e facilitador/praticante dentro das competências que efetivamente possui — nunca como personagem maior do que sua formação real.**
+
+E, para qualquer conteúdo, produto ou sistema:
+
+> **clareza de autoria, respeito à fonte, linguagem humana, espiritualidade responsável e ação concreta vêm antes de sofisticação comercial ou tecnológica.**
+
+**Fim do Documento 00 — Matriz de Governança Conceitual, Propriedade Intelectual e Posicionamento — V1.0.**
