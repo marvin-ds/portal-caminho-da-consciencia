@@ -299,27 +299,21 @@ Concluído:
 
 ## LGPD / Consent Mode v2 — Hardening de Privacidade
 
-**STATUS:** EM ANDAMENTO — local aprovado, pendente commit/deploy
+**STATUS:** ✅ PRODUCTION APPROVED
 
-Implementado localmente (sem commit):
+Concluído:
 
-- Google Consent Mode default alterado de `granted` para `denied`;
-- localStorage check: concede apenas se `pcc_consent === 'granted'`; valores inválidos tratados como ausência;
-- Meta Pixel condicionado a `pcc_consent === 'granted'` via `initMetaPixels()` idempotente;
-- `<noscript>` dos dois Pixels Meta removidos;
-- eventos diretos Meta (`offer_cta_click`, `whatsapp_click`) condicionados ao consentimento;
-- FAQ de privacidade corrigido;
-- botão "Preferências de cookies" no footer com `showBanner()`;
-- revogação `granted → denied` com reload automático; `denied → granted` sem reload;
-- `politica-de-privacidade.html` alinhada: Necessárias vs. Medição/publicidade, Aceitar/Recusar, armazenamento local, mecanismo de revogação.
+- Google Consent Mode default `denied` para os 4 sinais;
+- Meta Pixel condicionado via `initMetaPixels()` idempotente;
+- `<noscript>` dos dois Pixels removidos;
+- eventos CTA condicionados ao consentimento;
+- botão "Preferências de cookies" no footer;
+- revogação `granted → denied` com reload; `denied → granted` sem reload;
+- `politica-de-privacidade.html` com distinção Necessárias / Medição e publicidade;
+- 10 cenários aprovados localmente + smoke test em produção.
 
-Pendente:
-
-- commit único dos três arquivos (`index.html`, `politica-de-privacidade.html`, `CURRENT.md`);
-- push/deploy para produção;
-- smoke test de consentimento em produção.
-
-`origin/main`: `d123fef9a6955d1d39884313215452e0172fd0f4`
+`commit`: `9dc79347d65df09688751dcaff01491525dd275c`  
+`origin/main`: `9dc79347d65df09688751dcaff01491525dd275c`
 
 ---
 
@@ -1189,14 +1183,16 @@ Deve permanecer:
 - Política de Privacidade: distinção Necessárias / Medição e publicidade; Aceitar/Recusar explícitos; localStorage mencionado; Consent Mode avançado descrito corretamente.
 - Todos os 10 cenários testados localmente.
 
-**O que ficou pendente:**
-
-- commit único (`index.html`, `politica-de-privacidade.html`, `CURRENT.md`) → push → smoke test LGPD em produção.
+**O que ficou pendente:** nada — gate encerrado.
 
 **Branch:** `main`
-**HEAD local:** `d123fef9a6955d1d39884313215452e0172fd0f4`
-**origin/main:** `d123fef9a6955d1d39884313215452e0172fd0f4`
-**Working tree:** `M index.html` · `M politica-de-privacidade.html` · `M docs/operations/CURRENT.md`
-**Commit/push/deploy:** não realizado — aguardando autorização de Marcos.
+**HEAD:** `9dc79347d65df09688751dcaff01491525dd275c`
+**origin/main:** `9dc79347d65df09688751dcaff01491525dd275c`
+**Working tree:** limpo
+**Deploy:** produção `portalcaminhodaconsciencia.com.br` — aprovado
 **Blockers:** nenhum.
-**Próxima ação:** commit único dos 3 arquivos → push → smoke test LGPD/Consent em produção → `LGPD/CONSENT PRODUCTION APPROVED`.
+**Próxima ação:** foco em aquisição, conteúdo e conversão.
+
+---
+
+# GATE LGPD / CONSENT MODE V2 — APROVADO ✅
