@@ -284,6 +284,45 @@ Concluído:
 
 ---
 
+## Sales Page V2 — Mapeamento Padrão Interrompido
+
+**STATUS:** ✅ PRODUCTION APPROVED
+
+Concluído:
+
+- rewrite completo do `index.html` (22 blocos estruturais, 17 `section[id]`);
+- hero 4 linhas, Manrope, seções creme, FAQ accordion, Sintonize visível;
+- disclaimers, sectionMap atualizado;
+- validação completa em produção em `d123fef9a6955d1d39884313215452e0172fd0f4`.
+
+---
+
+## LGPD / Consent Mode v2 — Hardening de Privacidade
+
+**STATUS:** EM ANDAMENTO — local aprovado, pendente commit/deploy
+
+Implementado localmente (sem commit):
+
+- Google Consent Mode default alterado de `granted` para `denied`;
+- localStorage check: concede apenas se `pcc_consent === 'granted'`; valores inválidos tratados como ausência;
+- Meta Pixel condicionado a `pcc_consent === 'granted'` via `initMetaPixels()` idempotente;
+- `<noscript>` dos dois Pixels Meta removidos;
+- eventos diretos Meta (`offer_cta_click`, `whatsapp_click`) condicionados ao consentimento;
+- FAQ de privacidade corrigido;
+- botão "Preferências de cookies" no footer com `showBanner()`;
+- revogação `granted → denied` com reload automático; `denied → granted` sem reload;
+- `politica-de-privacidade.html` alinhada: Necessárias vs. Medição/publicidade, Aceitar/Recusar, armazenamento local, mecanismo de revogação.
+
+Pendente:
+
+- commit único dos três arquivos (`index.html`, `politica-de-privacidade.html`, `CURRENT.md`);
+- push/deploy para produção;
+- smoke test de consentimento em produção.
+
+`origin/main`: `d123fef9a6955d1d39884313215452e0172fd0f4`
+
+---
+
 # 8. Gates adiados / não iniciados
 
 ## R3C — Google Search
@@ -1134,3 +1173,30 @@ Deve permanecer:
 ---
 
 > **Fim do Documento 06 — CURRENT, Decisões e Plano Operacional Vivo — V2.0.**
+
+---
+
+# PARTE XVII — REGISTRO DE SESSÃO
+
+# 48. Sessão 02/09/2026 — Gate LGPD / Consent Mode v2
+
+**O que foi feito:**
+
+- Google Consent Mode: default `denied`; concessão apenas com `pcc_consent === 'granted'`; valores inválidos como ausência.
+- Meta Pixel: `initMetaPixels()` idempotente, flag `__pccMetaInitialized`; `<noscript>` removidos; eventos CTA condicionados.
+- Banner: `showBanner()` exposta; botão "Preferências de cookies" no footer.
+- Revogação: `granted → denied` dispara reload; `denied → granted` sem reload; escolha repetida sem duplicidade.
+- Política de Privacidade: distinção Necessárias / Medição e publicidade; Aceitar/Recusar explícitos; localStorage mencionado; Consent Mode avançado descrito corretamente.
+- Todos os 10 cenários testados localmente.
+
+**O que ficou pendente:**
+
+- commit único (`index.html`, `politica-de-privacidade.html`, `CURRENT.md`) → push → smoke test LGPD em produção.
+
+**Branch:** `main`
+**HEAD local:** `d123fef9a6955d1d39884313215452e0172fd0f4`
+**origin/main:** `d123fef9a6955d1d39884313215452e0172fd0f4`
+**Working tree:** `M index.html` · `M politica-de-privacidade.html` · `M docs/operations/CURRENT.md`
+**Commit/push/deploy:** não realizado — aguardando autorização de Marcos.
+**Blockers:** nenhum.
+**Próxima ação:** commit único dos 3 arquivos → push → smoke test LGPD/Consent em produção → `LGPD/CONSENT PRODUCTION APPROVED`.

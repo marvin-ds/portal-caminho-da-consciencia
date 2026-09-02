@@ -48,25 +48,25 @@
   <link rel="preload" href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:ital,wght@0,300;0,400;0,500;0,600;0,700;1,300;1,400;1,500&family=Manrope:wght@400;500;600&display=swap" as="style" onload="this.onload=null;this.rel='stylesheet'" />
   <noscript><link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:ital,wght@0,300;0,400;0,500;0,600;0,700;1,300;1,400;1,500&family=Manrope:wght@400;500;600&display=swap" /></noscript>
 
-  <!-- Consent Mode v2 — granted por padrão; banner revoga na primeira visita se recusado -->
+  <!-- Consent Mode v2 — denied por padrão; concede apenas se pcc_consent === 'granted' -->
   <script>
     window.dataLayer = window.dataLayer || [];
     function gtag(){dataLayer.push(arguments);}
     gtag('consent','default',{
-      analytics_storage:     'granted',
-      ad_storage:            'granted',
-      ad_user_data:          'granted',
-      ad_personalization:    'granted',
+      analytics_storage:     'denied',
+      ad_storage:            'denied',
+      ad_user_data:          'denied',
+      ad_personalization:    'denied',
       wait_for_update:       500
     });
     (function(){
       try {
-        if (localStorage.getItem('pcc_consent') === 'denied') {
+        if (localStorage.getItem('pcc_consent') === 'granted') {
           gtag('consent','update',{
-            analytics_storage:  'denied',
-            ad_storage:         'denied',
-            ad_user_data:       'denied',
-            ad_personalization: 'denied'
+            analytics_storage:  'granted',
+            ad_storage:         'granted',
+            ad_user_data:       'granted',
+            ad_personalization: 'granted'
           });
         }
       } catch(e) {}
@@ -80,23 +80,7 @@
   'https://www.googletagmanager.com/gtm.js?id='+i+dl;f.parentNode.insertBefore(j,f);
   })(window,document,'script','dataLayer','GTM-WC2C397G');</script>
 
-  <!-- Meta Pixel -->
-  <script>
-    !function(f,b,e,v,n,t,s)
-    {if(f.fbq)return;n=f.fbq=function(){n.callMethod?
-    n.callMethod.apply(n,arguments):n.queue.push(arguments)};
-    if(!f._fbq)f._fbq=n;n.push=n;n.loaded=!0;n.version='2.0';
-    n.queue=[];t=b.createElement(e);t.async=!0;
-    t.src=v;s=b.getElementsByTagName(e)[0];
-    s.parentNode.insertBefore(t,s)}(window, document,'script',
-    'https://connect.facebook.net/en_US/fbevents.js');
-    fbq('init', '1566666134485463');
-    fbq('init', '4659045990859789');
-  </script>
-  <noscript>
-    <img height="1" width="1" style="display:none" src="https://www.facebook.com/tr?id=1566666134485463&ev=PageView&noscript=1" />
-    <img height="1" width="1" style="display:none" src="https://www.facebook.com/tr?id=4659045990859789&ev=PageView&noscript=1" />
-  </noscript>
+  <!-- Meta Pixel — carregado condicionalmente via initMetaPixels() quando pcc_consent === 'granted' -->
 
   <style>
     *, *::before, *::after { box-sizing: border-box; margin: 0; padding: 0; }
@@ -955,6 +939,11 @@
       text-decoration: none;
     }
     .footer__links a:hover { color: var(--dourado); }
+    .footer__pref-btn {
+      background: none; border: none; padding: 0; cursor: pointer;
+      font-family: var(--ff-corpo); font-size: 0.9rem; color: var(--texto-muted);
+    }
+    .footer__pref-btn:hover { color: var(--dourado); }
     .footer__copy {
       font-size: 0.875rem;
       color: rgba(243,234,218,0.4);
@@ -1620,7 +1609,7 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
             <svg class="faq__chevron" viewBox="0 0 18 18" fill="none" aria-hidden="true"><path d="M4 6.5l5 5 5-5" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/></svg>
           </button>
           <div class="faq__body" id="faq-r9" role="region" aria-labelledby="faq-q9">
-            <p class="faq__resposta">As informações fornecidas são utilizadas exclusivamente para a elaboração do seu Mapeamento. Não são compartilhadas com terceiros nem usadas para outros fins. Consulte nossa <a href="/politica-de-privacidade.html">Política de Privacidade</a> para mais detalhes.</p>
+            <p class="faq__resposta">As informações que você envia para a realização do Mapeamento são utilizadas para analisar e organizar o seu caso. O site também pode utilizar tecnologias de análise e publicidade, como Google e Meta, de acordo com a sua escolha de consentimento. Para saber como os dados são tratados, consulte a <a href="/politica-de-privacidade.html">Política de Privacidade</a>.</p>
           </div>
         </div>
 
@@ -1668,6 +1657,7 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
       <a href="mailto:contato@portalcaminhodaconsciencia.com.br">Contato</a>
       <a href="/politica-de-privacidade.html">Política de Privacidade</a>
       <a href="/termos-de-uso.html">Termos de Uso</a>
+      <button type="button" class="footer__pref-btn" id="btn-pref-cookies">Preferências de cookies</button>
     </div>
     <p class="footer__copy">© <span id="ano"></span> Portal Caminho da Consciência.<br />Todos os direitos reservados.</p>
   </div>
@@ -1725,7 +1715,19 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
     var OFFER_VAL  = 197;
     var OFFER_CUR  = 'BRL';
 
-    if (typeof fbq === 'function') {
+    function initMetaPixels() {
+      if (window.__pccMetaInitialized) return;
+      window.__pccMetaInitialized = true;
+      !function(f,b,e,v,n,t,s)
+      {if(f.fbq)return;n=f.fbq=function(){n.callMethod?
+      n.callMethod.apply(n,arguments):n.queue.push(arguments)};
+      if(!f._fbq)f._fbq=n;n.push=n;n.loaded=!0;n.version='2.0';
+      n.queue=[];t=b.createElement(e);t.async=!0;
+      t.src=v;s=b.getElementsByTagName(e)[0];
+      s.parentNode.insertBefore(t,s)}(window,document,'script',
+      'https://connect.facebook.net/en_US/fbevents.js');
+      fbq('init', '1566666134485463');
+      fbq('init', '4659045990859789');
       fbq('track', 'ViewContent', Object.assign({
         content_name: OFFER_NAME,
         content_category: 'Desenvolvimento Pessoal',
@@ -1733,6 +1735,8 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
         currency: OFFER_CUR
       }, utms));
     }
+    window.__initMetaPixels = initMetaPixels;
+    try { if (localStorage.getItem('pcc_consent') === 'granted') { initMetaPixels(); } } catch(e) {}
 
     dataLayer.push({
       event: 'session_context',
@@ -1806,7 +1810,7 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
 
       if (el.classList.contains('js-cta')) {
         var local = el.getAttribute('data-local') || 'unknown';
-        if (typeof fbq === 'function') {
+        if (localStorage.getItem('pcc_consent') === 'granted' && typeof fbq === 'function') {
           fbq('trackCustom', 'offer_cta_click', { local: local });
         }
         dataLayer.push({
@@ -1821,7 +1825,7 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
 
       if (el.classList.contains('js-whatsapp')) {
         var wLocal = el.getAttribute('data-local') || 'unknown';
-        if (typeof fbq === 'function') {
+        if (localStorage.getItem('pcc_consent') === 'granted' && typeof fbq === 'function') {
           fbq('trackCustom', 'whatsapp_click', { local: wLocal });
         }
         dataLayer.push({
@@ -1886,21 +1890,39 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
       setTimeout(function () { banner.hidden = true; }, 400);
     }
 
+    function showBanner() {
+      banner.hidden = false;
+      setTimeout(function () { banner.classList.add('pcc-visible'); }, 50);
+    }
+    window.__showConsentBanner = showBanner;
+
     document.getElementById('pcc-accept').addEventListener('click', function () {
       try { localStorage.setItem(STORAGE_KEY, 'granted'); } catch(e) {}
       applyConsent('granted');
       hideBanner();
+      try { if (window.__initMetaPixels) window.__initMetaPixels(); } catch(e) {}
     });
 
     document.getElementById('pcc-decline').addEventListener('click', function () {
+      var prev;
+      try { prev = localStorage.getItem(STORAGE_KEY); } catch(e) { prev = null; }
       try { localStorage.setItem(STORAGE_KEY, 'denied'); } catch(e) {}
       applyConsent('denied');
-      hideBanner();
+      if (prev === 'granted') {
+        setTimeout(function () { window.location.reload(); }, 350);
+      } else {
+        hideBanner();
+      }
     });
+
+    var prefBtn = document.getElementById('btn-pref-cookies');
+    if (prefBtn) {
+      prefBtn.addEventListener('click', function () { showBanner(); });
+    }
 
     try { var stored = localStorage.getItem(STORAGE_KEY); } catch(e) { var stored = null; }
 
-    if (!stored) {
+    if (stored !== 'granted' && stored !== 'denied') {
       banner.hidden = false;
       setTimeout(function () { banner.classList.add('pcc-visible'); }, 1500);
     }
