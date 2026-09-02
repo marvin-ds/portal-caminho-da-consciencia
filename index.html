@@ -44,10 +44,16 @@
   }
   </script>
 
-  <!-- Google Fonts -->
+  <!-- Google Fonts — preconnect + preload woff2 críticos + carregamento não-bloqueante -->
   <link rel="preconnect" href="https://fonts.googleapis.com" />
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
-  <link href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:ital,wght@0,300;0,400;0,500;0,600;0,700;1,300;1,400;1,500&family=Lora:ital,wght@0,400;0,500;0,600;1,400;1,500&display=swap" rel="stylesheet" />
+  <!-- Preload dos arquivos woff2 usados acima da dobra (Lora regular + Cormorant Garamond regular/italic) -->
+  <link rel="preload" href="https://fonts.gstatic.com/s/lora/v37/0QIhMX1D_JOuMw_LIftL.woff2" as="font" type="font/woff2" crossorigin />
+  <link rel="preload" href="https://fonts.gstatic.com/s/cormorantgaramond/v21/co3ZmX5slCNuHLi8bLeY9MK7whWMhyjYrEtImSo.woff2" as="font" type="font/woff2" crossorigin />
+  <link rel="preload" href="https://fonts.gstatic.com/s/cormorantgaramond/v21/co3bmX5slCNuHLi8bLeY9MK7whWMhyjYqXtK.woff2" as="font" type="font/woff2" crossorigin />
+  <!-- Carregamento assíncrono da folha de estilos das fontes (evita render-blocking) -->
+  <link rel="preload" href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:ital,wght@0,300;0,400;0,500;0,600;0,700;1,300;1,400;1,500&family=Lora:ital,wght@0,400;0,500;0,600;1,400;1,500&display=swap" as="style" onload="this.onload=null;this.rel='stylesheet'" />
+  <noscript><link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:ital,wght@0,300;0,400;0,500;0,600;0,700;1,300;1,400;1,500&family=Lora:ital,wght@0,400;0,500;0,600;1,400;1,500&display=swap" /></noscript>
 
   <!-- Consent Mode v2 — defaults negados antes de qualquer tag de anúncio -->
   <script>
@@ -744,6 +750,8 @@
     </div>
   </nav>
 
+  <main>
+
   <!-- 2. Hero -->
   <section class="hero" id="hero">
     <div class="container">
@@ -1208,6 +1216,8 @@
     </div>
   </section>
 
+  </main>
+
   <!-- 19. Footer -->
   <footer class="footer">
     <div class="container">
@@ -1221,7 +1231,7 @@
         <a href="mailto:contato@portalcaminhodaconsciencia.com.br">Contato</a>
         <a href="#">Política de Privacidade</a>
       </div>
-      <p class="footer__texto" style="margin-top:1.5rem;font-size:0.72rem;opacity:0.45;">
+      <p class="footer__texto" style="margin-top:1.5rem;font-size:0.72rem;opacity:0.65;">
         © <span id="ano"></span> Portal Caminho da Consciência. Todos os direitos reservados.
       </p>
     </div>
