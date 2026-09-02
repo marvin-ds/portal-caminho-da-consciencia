@@ -99,6 +99,24 @@
     html { scroll-behavior: smooth; -webkit-text-size-adjust: 100%; }
     img, svg { display: block; max-width: 100%; }
 
+    /* ── Fallback @font-face com size-adjust para minimizar CLS no font swap ── */
+    @font-face {
+      font-family: 'Lora-Fallback';
+      src: local('Georgia'), local('Times New Roman'), local('serif');
+      size-adjust: 104%;
+      ascent-override: 90%;
+      descent-override: 23%;
+      line-gap-override: 0%;
+    }
+    @font-face {
+      font-family: 'Cormorant-Fallback';
+      src: local('Georgia'), local('Times New Roman'), local('serif');
+      size-adjust: 96%;
+      ascent-override: 87%;
+      descent-override: 20%;
+      line-gap-override: 0%;
+    }
+
     /* ── Tokens ─────────────────────────────────────────── */
     :root {
       --azul-noite:     #1A1938;
@@ -110,8 +128,8 @@
       --marrom:         #2B211B;
       --texto-muted:    rgba(243, 234, 218, 0.55);
 
-      --ff-titulo: 'Cormorant Garamond', Georgia, serif;
-      --ff-corpo:  'Lora', Georgia, serif;
+      --ff-titulo: 'Cormorant Garamond', 'Cormorant-Fallback', Georgia, serif;
+      --ff-corpo:  'Lora', 'Lora-Fallback', Georgia, serif;
 
       --max-w: 720px;
       --max-w-wide: 960px;
@@ -1231,7 +1249,7 @@
         <a href="mailto:contato@portalcaminhodaconsciencia.com.br">Contato</a>
         <a href="#">Política de Privacidade</a>
       </div>
-      <p class="footer__texto" style="margin-top:1.5rem;font-size:0.72rem;opacity:0.65;">
+      <p class="footer__texto" style="margin-top:1.5rem;font-size:0.72rem;">
         © <span id="ano"></span> Portal Caminho da Consciência. Todos os direitos reservados.
       </p>
     </div>
