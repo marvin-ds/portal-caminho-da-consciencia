@@ -55,17 +55,30 @@
   <link rel="preload" href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:ital,wght@0,300;0,400;0,500;0,600;0,700;1,300;1,400;1,500&family=Lora:ital,wght@0,400;0,500;0,600;1,400;1,500&display=swap" as="style" onload="this.onload=null;this.rel='stylesheet'" />
   <noscript><link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:ital,wght@0,300;0,400;0,500;0,600;0,700;1,300;1,400;1,500&family=Lora:ital,wght@0,400;0,500;0,600;1,400;1,500&display=swap" /></noscript>
 
-  <!-- Consent Mode v2 — defaults negados antes de qualquer tag de anúncio -->
+  <!-- Consent Mode v2 — granted por padrão; banner revoga na primeira visita se recusado -->
   <script>
     window.dataLayer = window.dataLayer || [];
     function gtag(){dataLayer.push(arguments);}
     gtag('consent','default',{
-      analytics_storage:     'denied',
-      ad_storage:            'denied',
-      ad_user_data:          'denied',
-      ad_personalization:    'denied',
+      analytics_storage:     'granted',
+      ad_storage:            'granted',
+      ad_user_data:          'granted',
+      ad_personalization:    'granted',
       wait_for_update:       500
     });
+    /* Se usuário já recusou em visita anterior, revogar dentro do wait_for_update */
+    (function(){
+      try {
+        if (localStorage.getItem('pcc_consent') === 'denied') {
+          gtag('consent','update',{
+            analytics_storage:  'denied',
+            ad_storage:         'denied',
+            ad_user_data:       'denied',
+            ad_personalization: 'denied'
+          });
+        }
+      } catch(e) {}
+    })();
   </script>
 
   <!-- Google Tag Manager -->
@@ -751,6 +764,45 @@
     @media (min-width: 1024px) {
       :root { --pad-x: 2rem; }
     }
+
+    /* ── Cookie Consent Banner ──────────────────────────── */
+    #pcc-banner {
+      position: fixed;
+      bottom: 0; left: 0; right: 0;
+      z-index: 9999;
+      background: #141230;
+      border-top: 1px solid rgba(201,162,93,0.25);
+      padding: 1rem 1.25rem;
+      display: flex;
+      flex-wrap: wrap;
+      gap: 0.75rem 1.25rem;
+      align-items: center;
+      justify-content: space-between;
+      font-family: var(--ff-corpo);
+      font-size: 0.8rem;
+      color: rgba(243,234,218,0.75);
+      line-height: 1.5;
+      transform: translateY(100%);
+      transition: transform 0.35s ease;
+    }
+    #pcc-banner.pcc-visible { transform: translateY(0); }
+    #pcc-banner p { flex: 1 1 260px; margin: 0; }
+    #pcc-banner a { color: var(--dourado); text-underline-offset: 3px; }
+    .pcc-btns { display: flex; gap: 0.6rem; flex-shrink: 0; }
+    .pcc-btn {
+      padding: 0.45rem 1rem;
+      border-radius: 4px;
+      font-family: var(--ff-corpo);
+      font-size: 0.78rem;
+      cursor: pointer;
+      border: 1px solid var(--dourado);
+      transition: background 0.2s, color 0.2s;
+      white-space: nowrap;
+    }
+    .pcc-btn--accept { background: var(--dourado); color: #141230; }
+    .pcc-btn--accept:hover { background: var(--champagne); border-color: var(--champagne); }
+    .pcc-btn--decline { background: transparent; color: rgba(243,234,218,0.7); border-color: rgba(201,162,93,0.4); }
+    .pcc-btn--decline:hover { border-color: var(--dourado); color: rgba(243,234,218,0.9); }
   </style>
 </head>
 <body>
@@ -1428,6 +1480,62 @@
           });
         }
       });
+    })();
+  </script>
+
+  <!-- Cookie Consent Banner -->
+  <div id="pcc-banner" role="region" aria-label="Aviso de cookies" hidden>
+    <p>
+      Este site usa cookies para análise e desempenho.
+      Ao continuar, você concorda com nossa
+      <a href="#" aria-label="Política de privacidade">Política de Privacidade</a>.
+    </p>
+    <div class="pcc-btns">
+      <button class="pcc-btn pcc-btn--decline" id="pcc-decline">Recusar cookies</button>
+      <button class="pcc-btn pcc-btn--accept" id="pcc-accept">Aceitar</button>
+    </div>
+  </div>
+
+  <script>
+    (function () {
+      var STORAGE_KEY = 'pcc_consent';
+      var banner = document.getElementById('pcc-banner');
+
+      function applyConsent(state) {
+        gtag('consent', 'update', {
+          analytics_storage:  state,
+          ad_storage:         state,
+          ad_user_data:       state,
+          ad_personalization: state
+        });
+      }
+
+      function hideBanner() {
+        banner.classList.remove('pcc-visible');
+        setTimeout(function () { banner.hidden = true; }, 400);
+      }
+
+      document.getElementById('pcc-accept').addEventListener('click', function () {
+        try { localStorage.setItem(STORAGE_KEY, 'granted'); } catch(e) {}
+        applyConsent('granted');
+        hideBanner();
+      });
+
+      document.getElementById('pcc-decline').addEventListener('click', function () {
+        try { localStorage.setItem(STORAGE_KEY, 'denied'); } catch(e) {}
+        applyConsent('denied');
+        hideBanner();
+      });
+
+      /* Mostrar banner apenas se sem escolha anterior */
+      try {
+        var stored = localStorage.getItem(STORAGE_KEY);
+      } catch(e) { var stored = null; }
+
+      if (!stored) {
+        banner.hidden = false;
+        setTimeout(function () { banner.classList.add('pcc-visible'); }, 1500);
+      }
     })();
   </script>
 
