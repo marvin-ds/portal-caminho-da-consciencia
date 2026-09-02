@@ -991,7 +991,7 @@ Nenhum agente está autorizado, sem nova decisão explícita, a:
 | 02/09/2026 | `politica-de-privacidade.html` criada | EXECUTADO | LGPD-compliant, 11 seções + disclaimer saúde + disclaimer plataformas |
 | 02/09/2026 | `termos-de-uso.html` criada | EXECUTADO | CDC art.49, PI, direito de arrependimento + disclaimer saúde + disclaimer plataformas |
 | 02/09/2026 | Links do footer e banner de cookies atualizados para as novas páginas legais | EXECUTADO | fim de `href="#"` nos links de privacidade |
-| 02/09/2026 | Sales Page V2 implementada localmente — rewrite completo do `index.html` | PENDENTE AUTORIZAÇÃO | 18 seções, arquitetura de persuasão, tracking preservado, Sintonize gate `hidden`, sem commit/deploy |
+| 02/09/2026 | Sales Page V2 — rodada final de refinamento implementada localmente | PENDENTE AUTORIZAÇÃO | 22 seções, novo hero (4 linhas sem CTA), Manrope, seções creme, FAQ accordion, Sintonize visível (sem `hidden`), disclaimers, sectionMap atualizado, sem commit/deploy |
 | 02/09/2026 | Assets de imagem implementados em `assets/images/` — 10 WebP de cenas + marcos-vinicius.webp | EXECUTADO | convertidos de PNG com Pillow, qualidade 85, mobile 4:5 + desktop 16:9; `<picture>` responsivo em todas as seções |
 
 ---
@@ -1017,6 +1017,44 @@ Objetivo:
 ## Frente B — crescimento
 
 > **Produzir e publicar conteúdos voltados a alcance qualificado e crescimento do YouTube enquanto Marcos conclui a formação.**
+
+---
+
+# PARTE XVI — REGISTRO DE SESSÃO
+
+# 44. Sessão 02/09/2026 — Rodada Final de Refinamento — Sales Page V2
+
+**O que foi feito:**
+
+Rewrite completo do `index.html` implementado localmente (sem commit, sem push, sem deploy).
+
+Mudanças principais:
+
+- **Tipografia:** fonte `Manrope` (400/500/600) adicionada como `--ff-corpo`; `Lora` removida; `Cormorant Garamond` mantida para headings/emocional
+- **Hero:** 4 linhas independentes sem CTA; `hero__bridge` substituindo âncora funcional
+- **Ordem de seções:** 22 seções — hero, dores, cena-dinheiro, agitação, cena-relacionamento, virada, cena-sobrecarga, microação, transformação (creme), mapeamento, como-funciona (merged com ferramentas), prova-processo, entregáveis, jornada (creme), portal, marcos, oferta, segurança, FAQ, cta-final, footer, disclaimers
+- **Seções removidas:** `cenas` card-grid, `prova-processo` section anterior, `limites` section standalone (integrada em `segurança`)
+- **Seções mescladas:** `como-funciona` + `ferramentas` → uma seção unificada
+- **Creme breaks:** `transformacao` (`#F3EADA`) e `jornada` (`#EDE4D0`) com paleta marrom/dourado-esc
+- **Mesa Radiônica Sintonize Prosperidade:** card visível (`hidden` removido), texto limitado e correto conforme Doc 00
+- **FAQ:** accordion acessível (`aria-expanded`, `aria-controls`, max-height JS), 9 perguntas + comentário `Em quanto tempo recebo?` preservado como pendência operacional
+- **Disclaimers:** bloco permanente após footer — aviso de finalidade + aviso de plataformas
+- **Imagens:** 4 cenas narrativas com `<img>` 16:9 (dinheiro, relacionamento, sobrecarga), prova-processo com `<picture>` responsivo (4:5 mobile / 16:9 desktop), marcos-vinicius 78% max 280px
+- **Variável CSS:** `--dourado-esc: #8B6914` adicionada para textos em fundo creme
+- **sectionMap:** atualizado para 17 entradas correspondendo às novas seções
+- **Tracking:** GTM, GA4, Consent Mode v2, Meta Pixel, IntersectionObserver, scroll_depth, offer_cta_click, whatsapp_click — todos preservados
+- **Regras respeitadas:** `purchase` e `close_convert_lead` não implementados; SLA de entrega não declarado; Marcos não apresentado como terapeuta ou certificado; Sintonize não como método próprio nem diagnóstico
+
+**O que ficou pendente:**
+
+- `Em quanto tempo recebo?` no FAQ — incluir somente após decisão operacional formal do prazo
+- Commit / push / deploy — aguardando autorização explícita de Marcos
+
+**Branch:** `main` (alteração local, não commitada)
+**Working tree:** `index.html` modificado localmente
+**Build/preview:** não testado em servidor — mudança estrutural aguarda aprovação antes de preview
+**Blockers:** nenhum técnico
+**Próxima ação:** Marcos revisa o checklist A–N abaixo e autoriza (ou solicita ajustes) antes de commit/deploy
 
 ---
 
