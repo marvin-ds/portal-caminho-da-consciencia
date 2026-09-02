@@ -2,7 +2,7 @@
 ## Documento 06 — CURRENT, Decisões e Plano Operacional Vivo — V2.0
 
 **STATUS:** documento operacional vivo  
-**DATA DE CORTE:** 01/09/2026  
+**DATA DE CORTE:** 02/09/2026  
 **HORIZONTE:** estado atual + próximos 7–14 dias  
 **FUNÇÃO:** manter Marcos, ChatGPT, Claude Code, Codex e demais agentes alinhados sobre o que é fato, o que está decidido, o que está pendente e qual é o próximo movimento  
 **SUBSTITUI:** Documento 06 — CURRENT — V1.0
@@ -984,6 +984,8 @@ Nenhum agente está autorizado, sem nova decisão explícita, a:
 | 01/09/2026 | CURRENT atualizado para V2.0 | PRODUZIDO | operação |
 | 01/09/2026 | Documento 03.A incorporado ao repositório (V1.0) | EXECUTADO | arquitetura psicológica editorial |
 | 01/09/2026 | Documento 03.B incorporado ao repositório (V1.0) | EXECUTADO | mapa editorial mestre — Big Ideas, Cenas, Ganchos, Aquisição |
+| 02/09/2026 | Copy da página de vendas reescrita e publicada em produção | EXECUTADO | nova baseline da página — branch `feat/copy-rewrite-pagina-vendas-2026-09-02`, HEAD `b48da53` |
+| 02/09/2026 | Áudio personalizado 8–15min passa a ser entregável formal do Mapeamento | FECHADO | Marcos assume operacionalmente para todos os compradores |
 
 ---
 
@@ -1041,11 +1043,11 @@ A prioridade muda se:
 
 **Onde estamos:**
 
-> marca, site, oferta inicial e mensuração estão em produção; Search está preparado e adiado; a documentação canônica foi profundamente revisada; a formação Sintonize está na fase final.
+> marca, site, oferta inicial, mensuração e nova copy da página de vendas estão em produção (HEAD `b48da53`); áudio personalizado é entregável formal do Mapeamento; Search está preparado e adiado; a documentação canônica foi profundamente revisada; a formação Sintonize está na fase final.
 
 **O que vem agora:**
 
-> sincronizar o pacote documental no repositório, continuar crescimento orgânico no YouTube e concluir a certificação.
+> validação em produção da nova página (mobile/desktop, CTAs, tracking), crescimento orgânico no YouTube e conclusão da certificação.
 
 **O que não vem agora:**
 
