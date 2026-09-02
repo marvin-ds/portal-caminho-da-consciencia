@@ -7,7 +7,6 @@
   <meta name="description" content="Você coloca situações da sua vida lado a lado para perceber o que se repete, onde isso aparece e o que merece sua atenção primeiro. Mapeamento Padrão Interrompido — Portal Caminho da Consciência." />
   <link rel="canonical" href="https://portalcaminhodaconsciencia.com.br" />
 
-  <!-- Open Graph -->
   <meta property="og:type" content="website" />
   <meta property="og:url" content="https://portalcaminhodaconsciencia.com.br" />
   <meta property="og:title" content="Mapeamento Padrão Interrompido | Portal Caminho da Consciência" />
@@ -16,12 +15,10 @@
   <meta property="og:locale" content="pt_BR" />
   <meta property="og:site_name" content="Portal Caminho da Consciência" />
 
-  <!-- Twitter Card -->
   <meta name="twitter:card" content="summary_large_image" />
   <meta name="twitter:title" content="Mapeamento Padrão Interrompido | Portal Caminho da Consciência" />
   <meta name="twitter:description" content="Você coloca situações da sua vida lado a lado para perceber o que se repete, onde isso aparece e o que merece sua atenção primeiro." />
 
-  <!-- JSON-LD -->
   <script type="application/ld+json">
   {
     "@context": "https://schema.org",
@@ -30,7 +27,7 @@
     "description": "Mapeamento individual para perceber o que se repete na vida e organizar o que merece atenção primeiro.",
     "provider": {
       "@type": "Person",
-      "name": "Marcos",
+      "name": "Marcos Vinicius",
       "url": "https://portalcaminhodaconsciencia.com.br"
     },
     "url": "https://portalcaminhodaconsciencia.com.br",
@@ -44,14 +41,11 @@
   }
   </script>
 
-  <!-- Google Fonts — preconnect + preload woff2 críticos + carregamento não-bloqueante -->
   <link rel="preconnect" href="https://fonts.googleapis.com" />
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
-  <!-- Preload dos arquivos woff2 usados acima da dobra (Lora regular + Cormorant Garamond regular/italic) -->
   <link rel="preload" href="https://fonts.gstatic.com/s/lora/v37/0QIhMX1D_JOuMw_LIftL.woff2" as="font" type="font/woff2" crossorigin />
   <link rel="preload" href="https://fonts.gstatic.com/s/cormorantgaramond/v21/co3ZmX5slCNuHLi8bLeY9MK7whWMhyjYrEtImSo.woff2" as="font" type="font/woff2" crossorigin />
   <link rel="preload" href="https://fonts.gstatic.com/s/cormorantgaramond/v21/co3bmX5slCNuHLi8bLeY9MK7whWMhyjYqXtK.woff2" as="font" type="font/woff2" crossorigin />
-  <!-- Carregamento assíncrono da folha de estilos das fontes (evita render-blocking) -->
   <link rel="preload" href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:ital,wght@0,300;0,400;0,500;0,600;0,700;1,300;1,400;1,500&family=Lora:ital,wght@0,400;0,500;0,600;1,400;1,500&display=swap" as="style" onload="this.onload=null;this.rel='stylesheet'" />
   <noscript><link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:ital,wght@0,300;0,400;0,500;0,600;0,700;1,300;1,400;1,500&family=Lora:ital,wght@0,400;0,500;0,600;1,400;1,500&display=swap" /></noscript>
 
@@ -66,7 +60,6 @@
       ad_personalization:    'granted',
       wait_for_update:       500
     });
-    /* Se usuário já recusou em visita anterior, revogar dentro do wait_for_update */
     (function(){
       try {
         if (localStorage.getItem('pcc_consent') === 'denied') {
@@ -107,12 +100,10 @@
   </noscript>
 
   <style>
-    /* ── Reset ─────────────────────────────────────────── */
     *, *::before, *::after { box-sizing: border-box; margin: 0; padding: 0; }
     html { scroll-behavior: smooth; -webkit-text-size-adjust: 100%; }
     img, svg { display: block; max-width: 100%; }
 
-    /* ── Fallback @font-face com size-adjust para minimizar CLS no font swap ── */
     @font-face {
       font-family: 'Lora-Fallback';
       src: local('Georgia'), local('Times New Roman'), local('serif');
@@ -130,7 +121,6 @@
       line-gap-override: 0%;
     }
 
-    /* ── Tokens ─────────────────────────────────────────── */
     :root {
       --azul-noite:     #1A1938;
       --azul-noite-alt: #141230;
@@ -139,24 +129,23 @@
       --champagne:      #F5DAB1;
       --creme:          #F3EADA;
       --marrom:         #2B211B;
-      --texto-muted:    rgba(243, 234, 218, 0.55);
+      --texto-muted:    rgba(243, 234, 218, 0.72);
 
       --ff-titulo: 'Cormorant Garamond', 'Cormorant-Fallback', Georgia, serif;
       --ff-corpo:  'Lora', 'Lora-Fallback', Georgia, serif;
 
-      --max-w: 720px;
+      --max-w:      680px;
       --max-w-wide: 960px;
-      --pad-x: 1.25rem;
-      --radius: 8px;
+      --pad-x:      1.25rem;
+      --radius:     8px;
     }
 
-    /* ── Base ───────────────────────────────────────────── */
     body {
       background: var(--azul-noite);
       color: var(--creme);
       font-family: var(--ff-corpo);
-      font-size: 1rem;
-      line-height: 1.75;
+      font-size: 1.125rem;
+      line-height: 1.7;
       -webkit-font-smoothing: antialiased;
     }
 
@@ -168,15 +157,19 @@
     }
     .container--wide { max-width: var(--max-w-wide); }
 
-    section { padding-block: 4rem; }
+    section { padding-block: 3rem; }
 
     h1, h2, h3 {
       font-family: var(--ff-titulo);
       line-height: 1.2;
       font-weight: 400;
     }
-    h1 { font-size: clamp(2.1rem, 6vw, 3.2rem); }
-    h2 { font-size: clamp(1.6rem, 4.5vw, 2.4rem); }
+    h1 { font-size: clamp(2rem, 6vw, 3rem); }
+    h2 { font-size: clamp(1.65rem, 4.5vw, 2.4rem); }
+    h3 { font-size: clamp(1.25rem, 3.5vw, 1.6rem); }
+
+    p { margin-bottom: 1rem; }
+    p:last-child { margin-bottom: 0; }
 
     .dourado   { color: var(--dourado); }
     .champagne { color: var(--champagne); }
@@ -188,10 +181,10 @@
       background: var(--dourado);
       margin-inline: auto;
       margin-block: 1.5rem;
-      opacity: 0.55;
+      opacity: 0.5;
     }
 
-    /* ── Botão CTA ──────────────────────────────────────── */
+    /* ── Botão CTA ───────────────────────────────────── */
     .btn-cta {
       display: inline-flex;
       align-items: center;
@@ -199,577 +192,769 @@
       background: var(--dourado);
       color: var(--marrom);
       font-family: var(--ff-corpo);
-      font-size: 1rem;
+      font-size: 1.0625rem;
       font-weight: 600;
       text-decoration: none;
-      padding: 0.9rem 1.75rem;
+      padding: 0.95rem 1.75rem;
       border-radius: var(--radius);
       border: none;
+      cursor: pointer;
       transition: opacity 0.2s, transform 0.15s;
+      line-height: 1.3;
     }
     .btn-cta:hover  { opacity: 0.88; transform: translateY(-1px); }
     .btn-cta:active { transform: translateY(0); }
 
     .btn-cta--outline {
       background: transparent;
-      border: 1.5px solid var(--dourado);
+      border: 1.5px solid rgba(201,162,93,0.55);
+      color: var(--champagne);
+      font-weight: 400;
+    }
+    .btn-cta--outline:hover {
+      border-color: var(--dourado);
       color: var(--dourado);
-    }
-    .btn-cta--outline:hover { background: var(--dourado); color: var(--marrom); }
-
-    /* ── Nav ────────────────────────────────────────────── */
-    .nav {
-      padding-block: 1.25rem;
-      border-bottom: 1px solid rgba(201,162,93,0.12);
-    }
-    .nav__inner {
-      display: flex;
-      align-items: center;
-      justify-content: space-between;
-      gap: 1rem;
-    }
-    .nav__logo {
-      font-family: var(--ff-titulo);
-      font-size: 1.05rem;
-      color: var(--dourado);
-      text-decoration: none;
-      font-weight: 500;
+      opacity: 1;
+      transform: none;
     }
 
-    /* ── Hero ───────────────────────────────────────────── */
+    /* ── Imagens de cena ────────────────────────────── */
+    .scene-break {
+      background: var(--azul-noite);
+      padding-block: 1.5rem 3rem;
+    }
+    .scene-picture {
+      display: block;
+      width: 100%;
+    }
+    .scene-image {
+      display: block;
+      width: 100%;
+      height: auto;
+      border-radius: var(--radius);
+    }
+
+    /* ── Hero ───────────────────────────────────────── */
     .hero {
-      padding-block: 5rem 4rem;
+      padding-block: 5rem 4.5rem;
       background: linear-gradient(155deg, var(--azul-noite-alt) 0%, var(--azul-noite) 65%);
     }
-    .hero__eyebrow {
-      font-size: 0.78rem;
-      letter-spacing: 0.2em;
-      text-transform: uppercase;
-      color: var(--dourado);
-      margin-bottom: 1.5rem;
-    }
-    .hero__frases { margin-bottom: 1.75rem; }
-    .hero__frases p {
+    .hero__headline {
       font-family: var(--ff-titulo);
-      font-size: clamp(1.35rem, 4vw, 2rem);
-      line-height: 1.45;
+      font-size: clamp(1.75rem, 5.5vw, 2.8rem);
+      line-height: 1.3;
       color: var(--creme);
-      margin-bottom: 0.2rem;
-    }
-    .hero__frase--virada {
-      color: var(--champagne) !important;
-      font-style: italic;
-      margin-top: 1.1rem !important;
-    }
-    .hero__descricao {
-      font-size: clamp(1rem, 2.5vw, 1.1rem);
-      color: var(--champagne);
-      max-width: 560px;
-      margin-bottom: 1.5rem;
-      line-height: 1.8;
-    }
-    .hero__oferta {
-      display: flex;
-      align-items: center;
-      gap: 1rem;
-      flex-wrap: wrap;
       margin-bottom: 1.75rem;
     }
-    .hero__oferta__preco {
+    .hero__headline em {
+      font-style: italic;
+      color: var(--champagne);
+      display: block;
+      margin-top: 0.6rem;
+    }
+    .hero__sub {
+      font-size: clamp(1rem, 3vw, 1.15rem);
+      color: var(--champagne);
+      line-height: 1.75;
+      margin-bottom: 1.25rem;
+      max-width: 580px;
+    }
+    .hero__ancora {
       font-family: var(--ff-titulo);
-      font-size: clamp(1.5rem, 4vw, 2rem);
-      color: var(--dourado);
+      font-size: clamp(1.1rem, 3vw, 1.4rem);
+      font-style: italic;
+      color: rgba(243,234,218,0.6);
+      margin-bottom: 2.25rem;
     }
-    .hero__oferta__formato {
-      font-size: 0.82rem;
-      color: var(--texto-muted);
-      letter-spacing: 0.05em;
+    .hero__cta-wrap { margin-top: 0.25rem; }
+
+    /* ── Dores ──────────────────────────────────────── */
+    .dores { background: var(--grafite); }
+    .dores__intro {
+      margin-bottom: 2.25rem;
     }
-    .hero__cta-group {
-      display: flex;
-      flex-direction: column;
-      gap: 0.75rem;
-      align-items: flex-start;
-    }
-    .hero__nota {
-      font-size: 0.8rem;
-      color: var(--texto-muted);
+    .dores__intro p {
+      color: var(--champagne);
       margin-top: 0.75rem;
     }
+    .dores__grid {
+      display: grid;
+      gap: 1rem;
+      margin-bottom: 2rem;
+    }
+    .dor-card {
+      background: rgba(26,25,56,0.5);
+      border-left: 2px solid rgba(201,162,93,0.35);
+      border-radius: 0 var(--radius) var(--radius) 0;
+      padding: 1.25rem 1.25rem 1.25rem 1.4rem;
+    }
+    .dor-card__titulo {
+      font-family: var(--ff-titulo);
+      font-size: 1.2rem;
+      color: var(--dourado);
+      margin-bottom: 0.6rem;
+      font-weight: 500;
+    }
+    .dor-card p {
+      font-size: 1rem;
+      color: var(--champagne);
+      line-height: 1.7;
+      margin-bottom: 0;
+    }
+    .dor-card__fala {
+      display: block;
+      margin-top: 0.6rem;
+      font-style: italic;
+      color: rgba(243,234,218,0.8);
+    }
+    .dores__fechamento {
+      font-family: var(--ff-titulo);
+      font-size: clamp(1.15rem, 3.5vw, 1.5rem);
+      font-style: italic;
+      color: var(--creme);
+      text-align: center;
+      padding: 1.5rem 1rem;
+      border-top: 1px solid rgba(201,162,93,0.2);
+      margin-top: 0.5rem;
+    }
 
-    /* ── Não precisa saber ──────────────────────────────── */
-    .nao-precisa { background: var(--grafite); }
-    .nao-precisa__intro { margin-bottom: 2rem; }
-    .nao-precisa__intro p { color: var(--champagne); margin-top: 0.75rem; }
-    .nao-precisa__lista {
+    /* ── Cenas ──────────────────────────────────────── */
+    .cenas { background: var(--azul-noite); padding-block: 2rem; }
+    .cenas__grid {
+      display: grid;
+      gap: 1rem;
+    }
+
+    /* ── Agitação ───────────────────────────────────── */
+    .agitacao { background: var(--azul-noite-alt); }
+    .agitacao__corpo {
+      color: var(--champagne);
+      line-height: 1.8;
+    }
+    .agitacao__intro {
+      font-family: var(--ff-titulo);
+      font-size: clamp(1.35rem, 4vw, 1.9rem);
+      color: var(--creme);
+      line-height: 1.35;
+      margin-bottom: 1.75rem;
+    }
+    .agitacao__lista {
       list-style: none;
       display: grid;
       gap: 0.65rem;
-      margin-bottom: 2rem;
+      margin-bottom: 1.75rem;
     }
-    .nao-precisa__item {
-      padding: 0.9rem 1.1rem 0.9rem 1.35rem;
-      background: rgba(26, 25, 56, 0.45);
-      border-left: 2px solid rgba(201,162,93,0.3);
-      border-radius: 0 var(--radius) var(--radius) 0;
-    }
-    .nao-precisa__item p { color: var(--champagne); font-size: 0.95rem; line-height: 1.65; }
-    .nao-precisa__gancho {
-      font-family: var(--ff-titulo);
-      font-size: clamp(1.15rem, 3vw, 1.5rem);
-      font-style: italic;
-      color: var(--creme);
-      text-align: center;
-      padding: 1.5rem;
-      border: 1px solid rgba(201,162,93,0.2);
-      border-radius: var(--radius);
-      margin-bottom: 1.5rem;
-    }
-    .nao-precisa__fechamento {
+    .agitacao__item {
+      padding-left: 1.2rem;
+      position: relative;
       color: var(--champagne);
-      line-height: 1.8;
-      font-size: 0.95rem;
+      font-size: 1.0625rem;
+      line-height: 1.7;
+    }
+    .agitacao__item::before {
+      content: '';
+      position: absolute;
+      left: 0;
+      top: 0.65em;
+      width: 5px;
+      height: 1px;
+      background: rgba(201,162,93,0.5);
+    }
+    .agitacao__fecha {
+      font-style: italic;
+      color: rgba(243,234,218,0.72);
+      font-size: 1rem;
+      border-top: 1px solid rgba(201,162,93,0.15);
+      padding-top: 1.25rem;
+      margin-top: 0.5rem;
     }
 
-    /* ── Lugar útil ─────────────────────────────────────── */
-    .lugar-util { background: var(--azul-noite); }
-    .lugar-util__intro { margin-bottom: 2.25rem; }
-    .lugar-util__intro p { color: var(--champagne); margin-top: 0.75rem; }
-    .lugar-util__pares { display: grid; gap: 1.25rem; margin-bottom: 2rem; }
-    .lugar-util__par { display: grid; gap: 0.5rem; }
-    .lugar-util__resultado {
-      padding: 0.85rem 1.2rem;
-      background: rgba(59, 53, 80, 0.4);
-      border-radius: var(--radius);
-      font-size: 0.93rem;
+    /* ── Virada ─────────────────────────────────────── */
+    .virada { background: var(--azul-noite); }
+    .virada__intro {
+      font-family: var(--ff-titulo);
+      font-size: clamp(1.4rem, 4vw, 2rem);
+      line-height: 1.3;
       color: var(--champagne);
+      margin-bottom: 1.75rem;
     }
-    .lugar-util__resultado strong {
-      display: block;
-      font-size: 0.72rem;
-      text-transform: uppercase;
-      letter-spacing: 0.1em;
-      color: var(--texto-muted);
-      font-style: normal;
-      margin-bottom: 0.3rem;
+    .virada__corpo { color: var(--champagne); }
+    .virada__pares {
+      list-style: none;
+      display: grid;
+      gap: 0.75rem;
+      margin: 1.5rem 0;
     }
-    .lugar-util__antes {
-      padding: 0.85rem 1.2rem;
-      background: rgba(201,162,93,0.08);
-      border-left: 2px solid var(--dourado);
-      border-radius: 0 var(--radius) var(--radius) 0;
-      font-size: 0.93rem;
-      font-style: italic;
+    .virada__par {
+      padding: 0.9rem 1.1rem;
+      background: rgba(59,53,80,0.4);
+      border-radius: var(--radius);
+      font-size: 1rem;
+      line-height: 1.65;
       color: var(--creme);
     }
-    .lugar-util__antes strong {
+    .virada__par strong {
       display: block;
-      font-size: 0.72rem;
+      font-size: 0.78rem;
       text-transform: uppercase;
       letter-spacing: 0.1em;
       color: var(--dourado);
-      font-style: normal;
+      font-weight: 400;
       margin-bottom: 0.3rem;
+      font-style: normal;
     }
-    .lugar-util__ressalva {
-      font-size: 0.95rem;
-      color: var(--champagne);
-      line-height: 1.8;
-      margin-bottom: 2rem;
-    }
-    .lugar-util__destaque {
-      text-align: center;
-      padding: 1.25rem;
-      border-top: 1px solid rgba(201,162,93,0.2);
-    }
-    .lugar-util__destaque p {
+    .virada__ancora {
       font-family: var(--ff-titulo);
-      font-size: clamp(1.2rem, 3.5vw, 1.75rem);
-      color: var(--dourado);
-      line-height: 1.4;
-    }
-
-    /* ── Microteste ─────────────────────────────────────── */
-    .microteste { background: var(--azul-noite-alt); }
-    .microteste__intro { text-align: center; margin-bottom: 2rem; }
-    .microteste__box {
-      background: rgba(59, 53, 80, 0.45);
+      font-size: clamp(1.2rem, 3.5vw, 1.65rem);
+      font-style: italic;
+      color: var(--creme);
+      text-align: center;
+      padding: 1.5rem 1rem;
       border: 1px solid rgba(201,162,93,0.18);
       border-radius: var(--radius);
-      padding: 2rem 1.75rem;
-      max-width: 560px;
-      margin-inline: auto;
+      margin: 1.75rem 0;
     }
-    .microteste__box p {
+    .virada__ressalva {
+      font-size: 1rem;
+      color: var(--texto-muted);
+      line-height: 1.7;
+      border-left: 2px solid rgba(201,162,93,0.2);
+      padding-left: 1rem;
+    }
+
+    /* ── Microteste ─────────────────────────────────── */
+    .microteste { background: var(--azul-noite-alt); }
+    .microteste__intro {
+      text-align: center;
+      margin-bottom: 1.75rem;
+    }
+    .microteste__intro p {
       color: var(--champagne);
-      margin-bottom: 1rem;
-      line-height: 1.8;
+      margin-top: 0.5rem;
     }
-    .microteste__box p:last-child { margin-bottom: 0; }
+    .microteste__box {
+      background: rgba(59,53,80,0.45);
+      border: 1px solid rgba(201,162,93,0.18);
+      border-radius: var(--radius);
+      padding: 1.75rem 1.5rem;
+    }
+    .microteste__passo {
+      margin-bottom: 1.25rem;
+    }
+    .microteste__passo:last-of-type { margin-bottom: 0; }
+    .microteste__num {
+      font-size: 0.78rem;
+      text-transform: uppercase;
+      letter-spacing: 0.12em;
+      color: var(--dourado);
+      margin-bottom: 0.35rem;
+    }
+    .microteste__passo p {
+      color: var(--champagne);
+      font-size: 1.0625rem;
+      line-height: 1.7;
+      margin-bottom: 0;
+    }
     .microteste__pergunta {
       font-family: var(--ff-titulo);
-      font-size: clamp(1.1rem, 3vw, 1.4rem);
+      font-size: clamp(1.1rem, 3.5vw, 1.4rem);
       font-style: italic;
       color: var(--creme);
-      border-left: 3px solid var(--dourado);
-      padding-left: 1rem;
-      margin-block: 1.25rem;
+      margin: 1.25rem 0 0.5rem;
+      padding-top: 1.25rem;
+      border-top: 1px solid rgba(201,162,93,0.15);
     }
-    .microteste__conclusao {
-      font-size: 0.88rem;
-      color: var(--texto-muted);
-      font-style: italic;
+    .microteste__bridge {
       margin-top: 1.5rem;
       text-align: center;
     }
-
-    /* ── Apresentação ───────────────────────────────────── */
-    .apresentacao { background: var(--grafite); }
-    .apresentacao__intro { text-align: center; margin-bottom: 2rem; }
-    .apresentacao__intro p { color: var(--champagne); max-width: 520px; margin-inline: auto; margin-top: 0.75rem; }
-    .apresentacao__corpo { max-width: 580px; margin-inline: auto; }
-    .apresentacao__corpo p { color: var(--champagne); margin-bottom: 1rem; line-height: 1.8; }
-    .apresentacao__resultado {
-      margin-top: 2rem;
-      padding: 1.5rem;
-      border: 1px solid rgba(201,162,93,0.25);
-      border-radius: var(--radius);
-      text-align: center;
-    }
-    .apresentacao__resultado p {
-      font-family: var(--ff-titulo);
-      font-size: clamp(1.1rem, 3vw, 1.4rem);
-      font-style: italic;
-      color: var(--creme);
-      margin: 0;
-    }
-
-    /* ── O que observo ──────────────────────────────────── */
-    .o-que-observo { background: var(--azul-noite); }
-    .o-que-observo__intro { text-align: center; margin-bottom: 2.5rem; }
-    .o-que-observo__intro p { color: var(--champagne); margin-top: 0.75rem; }
-    .observo-lista { list-style: none; display: grid; gap: 1rem; }
-    .observo-item {
-      background: rgba(59, 53, 80, 0.35);
-      border: 1px solid rgba(201,162,93,0.14);
-      border-radius: var(--radius);
-      padding: 1.25rem 1.5rem;
-    }
-    .observo-item__titulo {
-      font-family: var(--ff-titulo);
-      font-size: 1.1rem;
-      font-weight: 600;
-      color: var(--dourado);
-      margin-bottom: 0.4rem;
-    }
-    .observo-item p { font-size: 0.9rem; color: var(--champagne); line-height: 1.65; margin: 0; }
-
-    /* ── Entregáveis ────────────────────────────────────── */
-    .entregaveis { background: var(--azul-noite-alt); }
-    .entregaveis__intro { text-align: center; margin-bottom: 2.5rem; }
-    .entregaveis__intro p { color: var(--champagne); max-width: 480px; margin-inline: auto; margin-top: 0.75rem; }
-    .preco { text-align: center; margin-bottom: 2.5rem; }
-    .preco__valor {
-      font-family: var(--ff-titulo);
-      font-size: clamp(2rem, 5vw, 2.8rem);
-      color: var(--dourado);
-    }
-    .preco__nota { font-size: 0.8rem; color: var(--texto-muted); margin-top: 0.2rem; }
-    .lista-entregaveis { list-style: none; display: grid; gap: 0.75rem; margin-bottom: 2.5rem; }
-    .entregavel {
-      display: flex;
-      align-items: flex-start;
-      gap: 0.875rem;
-      background: rgba(59, 53, 80, 0.35);
-      border: 1px solid rgba(201,162,93,0.14);
-      border-radius: var(--radius);
-      padding: 1rem 1.25rem;
-    }
-    .entregavel__num {
-      font-family: var(--ff-titulo);
-      font-size: 1.4rem;
-      color: var(--dourado);
-      font-weight: 300;
-      flex-shrink: 0;
-      line-height: 1;
-      padding-top: 0.15rem;
-      min-width: 2rem;
-    }
-    .entregavel strong { display: block; color: var(--creme); font-size: 0.95rem; margin-bottom: 0.2rem; }
-    .entregavel span { font-size: 0.85rem; color: var(--texto-muted); }
-    .entregaveis__cta { text-align: center; }
-
-    /* ── O que pode mudar ───────────────────────────────── */
-    .pode-mudar { background: var(--grafite); }
-    .pode-mudar__intro { text-align: center; margin-bottom: 2rem; }
-    .pode-mudar__intro p { color: var(--champagne); max-width: 520px; margin-inline: auto; margin-top: 0.75rem; }
-    .pode-mudar__corpo { max-width: 580px; margin-inline: auto; }
-    .pode-mudar__corpo > p { color: var(--champagne); margin-bottom: 1rem; line-height: 1.8; }
-    .pode-mudar__lista {
-      list-style: none;
-      margin: 0.25rem 0 1.5rem;
-      display: grid;
-      gap: 0.45rem;
-    }
-    .pode-mudar__lista li {
-      display: flex;
-      gap: 0.75rem;
-      align-items: flex-start;
-      color: var(--creme);
-      font-size: 0.95rem;
-      line-height: 1.65;
-    }
-    .pode-mudar__lista li::before { content: '—'; color: var(--dourado); flex-shrink: 0; opacity: 0.65; }
-    .pode-mudar__tese {
-      font-family: var(--ff-titulo);
-      font-size: clamp(1.1rem, 3vw, 1.45rem);
-      font-style: italic;
-      color: var(--champagne);
-      text-align: center;
-      margin-top: 2rem;
-      padding: 1.25rem 1rem;
-      border-top: 1px solid rgba(201,162,93,0.2);
-    }
-
-    /* ── Por que R$197 ──────────────────────────────────── */
-    .porque-197 { background: var(--azul-noite); }
-    .porque-197__intro { text-align: center; margin-bottom: 2rem; }
-    .porque-197__intro p { color: var(--champagne); max-width: 480px; margin-inline: auto; margin-top: 0.75rem; }
-    .porque-197__corpo { max-width: 560px; margin-inline: auto; }
-    .porque-197__corpo > p { color: var(--champagne); margin-bottom: 0.75rem; line-height: 1.75; }
-    .porque-197__lista {
-      list-style: none;
-      margin: 0.5rem 0 2rem;
-      display: grid;
-      gap: 0.4rem;
-    }
-    .porque-197__lista li {
-      display: flex;
-      gap: 0.75rem;
-      align-items: flex-start;
-      font-size: 0.95rem;
-      color: var(--champagne);
-      line-height: 1.65;
-    }
-    .porque-197__lista li::before { content: '—'; color: var(--dourado); flex-shrink: 0; opacity: 0.65; }
-    .porque-197__cta-box {
-      text-align: center;
-      padding: 1.75rem 1.5rem;
-      background: rgba(59, 53, 80, 0.35);
-      border: 1px solid rgba(201,162,93,0.18);
-      border-radius: var(--radius);
-    }
-    .porque-197__cta-box__nome {
-      font-family: var(--ff-titulo);
-      font-size: clamp(1.3rem, 3.5vw, 1.7rem);
-      color: var(--creme);
-      margin-bottom: 0.25rem;
-    }
-    .porque-197__cta-box__preco {
-      font-family: var(--ff-titulo);
-      font-size: clamp(1.5rem, 4vw, 2rem);
-      color: var(--dourado);
-      margin-bottom: 0.5rem;
-    }
-    .porque-197__cta-box__formato { font-size: 0.8rem; color: var(--texto-muted); }
-
-    /* ── Qualificação ───────────────────────────────────── */
-    .qualificacao { background: var(--azul-noite-alt); }
-    .qualificacao__intro { text-align: center; margin-bottom: 2.5rem; }
-    .qualificacao__lista {
-      list-style: none;
-      display: grid;
-      gap: 0.75rem;
-      margin-bottom: 2rem;
-    }
-    .qualificacao__item {
-      display: flex;
-      align-items: flex-start;
-      gap: 0.875rem;
-      background: rgba(59, 53, 80, 0.35);
-      border-left: 2px solid rgba(201,162,93,0.3);
-      border-radius: 0 var(--radius) var(--radius) 0;
-      padding: 1rem 1.25rem;
-    }
-    .qualificacao__item p { font-size: 0.95rem; color: var(--champagne); line-height: 1.65; margin: 0; }
-    .qualificacao__gancho { text-align: center; margin-top: 1.75rem; }
-    .qualificacao__gancho p {
-      font-family: var(--ff-titulo);
-      font-size: clamp(1.1rem, 3vw, 1.45rem);
-      font-style: italic;
-      color: var(--creme);
-      margin-bottom: 0.75rem;
-    }
-    .qualificacao__gancho .qualificacao__suficiente {
-      font-family: var(--ff-corpo);
-      font-size: 0.95rem;
-      font-style: normal;
-      color: var(--champagne);
-    }
-
-    /* ── CTA Intermediário ──────────────────────────────── */
-    .cta-medio {
-      background: var(--azul-noite);
-      text-align: center;
-      padding-block: 3.5rem;
-    }
-    .cta-medio__nota { font-size: 0.78rem; color: var(--texto-muted); margin-top: 0.85rem; }
-
-    /* ── Onde o Mapeamento entra no Método ──────────────── */
-    .no-metodo { background: var(--grafite); }
-    .no-metodo__intro { text-align: center; margin-bottom: 2rem; }
-    .no-metodo__intro p { color: var(--champagne); max-width: 520px; margin-inline: auto; margin-top: 0.75rem; }
-    .no-metodo__jornada {
-      text-align: center;
-      margin-block: 1.75rem;
-      font-family: var(--ff-titulo);
-      font-size: clamp(1.05rem, 3vw, 1.35rem);
-      color: var(--dourado);
-      letter-spacing: 0.04em;
-      overflow-x: auto;
-      padding-block: 0.25rem;
-    }
-    .no-metodo__corpo { max-width: 560px; margin-inline: auto; }
-    .no-metodo__corpo p { color: var(--champagne); margin-bottom: 0.85rem; line-height: 1.8; }
-    .no-metodo__corpo p:last-child { margin-bottom: 0; }
-
-    /* ── Limites ────────────────────────────────────────── */
-    .limites { background: var(--azul-noite-alt); }
-    .limites__intro { text-align: center; margin-bottom: 2rem; }
-    .limites__intro p { color: var(--champagne); max-width: 460px; margin-inline: auto; margin-top: 0.75rem; font-size: 0.95rem; }
-    .lista-limites { list-style: none; display: grid; gap: 0.55rem; max-width: 520px; margin-inline: auto; }
-    .limite {
-      display: flex;
-      align-items: flex-start;
-      gap: 0.75rem;
-      background: rgba(26, 25, 56, 0.4);
-      border-radius: var(--radius);
-      padding: 0.7rem 1rem;
-    }
-    .limite__dash { color: var(--dourado); opacity: 0.65; flex-shrink: 0; margin-top: 0.2rem; }
-    .limite p { font-size: 0.9rem; color: var(--champagne); margin: 0; }
-    .limites__nota {
-      text-align: center;
-      margin-top: 1.75rem;
-      font-size: 0.9rem;
-      color: var(--champagne);
-      font-style: italic;
-      max-width: 460px;
-      margin-inline: auto;
-    }
-
-    /* ── Quem conduz ────────────────────────────────────── */
-    .quem-conduz { background: var(--azul-noite); }
-    .quem-conduz__inner { display: grid; gap: 2rem; align-items: start; }
-    .quem-conduz__avatar {
-      width: 90px; height: 90px;
-      border-radius: 50%;
-      background: var(--grafite);
-      border: 2px solid rgba(201,162,93,0.3);
-      display: flex; align-items: center; justify-content: center;
-      font-family: var(--ff-titulo);
-      font-size: 2.2rem;
-      color: var(--dourado);
-      flex-shrink: 0;
-    }
-    .quem-conduz__nome {
-      font-family: var(--ff-titulo);
-      font-size: clamp(1.8rem, 5vw, 2.4rem);
-      color: var(--dourado);
-      margin-bottom: 0.2rem;
-    }
-    .quem-conduz__titulo {
-      font-size: 0.78rem;
-      letter-spacing: 0.12em;
-      text-transform: uppercase;
+    .microteste__bridge p {
+      font-size: 1rem;
       color: var(--texto-muted);
+      margin-bottom: 1rem;
+    }
+
+    /* ── Transformação ──────────────────────────────── */
+    .transformacao { background: var(--grafite); }
+    .transformacao__intro { margin-bottom: 2rem; }
+    .transformacao__intro p { color: var(--champagne); margin-top: 0.75rem; }
+    .transformacao__pares {
+      display: grid;
+      gap: 1rem;
+      margin-bottom: 1.75rem;
+    }
+    .transf-par {
+      padding: 1.1rem 1.25rem;
+      background: rgba(26,25,56,0.45);
+      border-radius: var(--radius);
+    }
+    .transf-par__acao {
+      font-family: var(--ff-titulo);
+      font-size: 1.15rem;
+      color: var(--dourado);
+      margin-bottom: 0.35rem;
+      font-weight: 500;
+    }
+    .transf-par p {
+      font-size: 1rem;
+      color: var(--champagne);
+      line-height: 1.65;
+      margin-bottom: 0;
+    }
+    .transformacao__fecha {
+      font-size: 1rem;
+      color: var(--champagne);
+      line-height: 1.8;
+      border-top: 1px solid rgba(201,162,93,0.2);
+      padding-top: 1.5rem;
+    }
+    .transformacao__cta {
+      margin-top: 2rem;
+      text-align: center;
+    }
+
+    /* ── Mapeamento ─────────────────────────────────── */
+    .mapeamento { background: var(--azul-noite); }
+    .mapeamento__intro { margin-bottom: 1.75rem; }
+    .mapeamento__intro p { color: var(--champagne); margin-top: 0.75rem; }
+    .mapeamento__corpo { color: var(--champagne); line-height: 1.8; }
+    .mapeamento__meta {
+      font-family: var(--ff-titulo);
+      font-size: clamp(1.1rem, 3.5vw, 1.5rem);
+      font-style: italic;
+      color: var(--creme);
+      margin: 1.5rem 0;
+      padding: 1.25rem 1.5rem;
+      border-left: 2px solid var(--dourado);
+      background: rgba(59,53,80,0.25);
+      border-radius: 0 var(--radius) var(--radius) 0;
+    }
+
+    /* ── Como funciona ──────────────────────────────── */
+    .como-funciona { background: var(--azul-noite-alt); }
+    .como-funciona__intro { margin-bottom: 1.75rem; }
+    .como-funciona__intro p { color: var(--champagne); margin-top: 0.75rem; }
+    .processo-lista {
+      list-style: none;
+      display: grid;
+      gap: 1rem;
       margin-bottom: 1.5rem;
     }
-    .quem-conduz__bio p { color: var(--champagne); font-size: 0.95rem; line-height: 1.8; margin-bottom: 1rem; }
-    .quem-conduz__bio p:last-child { margin-bottom: 0; }
-
-    /* ── FAQ ────────────────────────────────────────────── */
-    .faq { background: var(--azul-noite-alt); }
-    .faq__intro { text-align: center; margin-bottom: 2.5rem; }
-    .faq__lista { display: grid; gap: 1rem; max-width: 620px; margin-inline: auto; }
-    .faq__item {
-      background: rgba(59, 53, 80, 0.35);
-      border: 1px solid rgba(201,162,93,0.14);
+    .processo-item {
+      display: grid;
+      grid-template-columns: auto 1fr;
+      gap: 1rem;
+      padding: 1.1rem 1.25rem;
+      background: rgba(59,53,80,0.35);
       border-radius: var(--radius);
-      padding: 1.25rem 1.5rem;
+    }
+    .processo-item__num {
+      font-family: var(--ff-titulo);
+      font-size: 1.35rem;
+      color: var(--dourado);
+      opacity: 0.6;
+      line-height: 1;
+      padding-top: 0.1rem;
+    }
+    .processo-item h3 {
+      font-size: 1.1rem;
+      color: var(--champagne);
+      margin-bottom: 0.3rem;
+    }
+    .processo-item p {
+      font-size: 1rem;
+      color: rgba(243,234,218,0.8);
+      line-height: 1.65;
+      margin-bottom: 0;
+    }
+    .como-funciona__integracao {
+      font-size: 1rem;
+      color: var(--texto-muted);
+      font-style: italic;
+      text-align: center;
+      margin-top: 1rem;
+    }
+
+    /* ── Ferramentas / Sintonize gate ───────────────── */
+    .ferramentas { background: var(--grafite); }
+    .ferramentas__intro { margin-bottom: 1.75rem; }
+    .ferramentas__intro p { color: var(--champagne); margin-top: 0.75rem; }
+    .ferramentas__lista {
+      list-style: none;
+      display: grid;
+      gap: 0.85rem;
+      margin-bottom: 1.5rem;
+    }
+    .ferramenta-item {
+      padding: 1rem 1.25rem;
+      background: rgba(26,25,56,0.4);
+      border-radius: var(--radius);
+    }
+    .ferramenta-item h3 {
+      font-size: 1.05rem;
+      color: var(--dourado);
+      margin-bottom: 0.3rem;
+    }
+    .ferramenta-item p {
+      font-size: 1rem;
+      color: var(--champagne);
+      line-height: 1.65;
+      margin-bottom: 0;
+    }
+    /* SINTONIZE_GATE — bloco oculto até confirmação formal da conclusão da formação */
+    /* Para ativar: remover o atributo [hidden] do elemento .sintonize-gate */
+    .sintonize-gate {
+      padding: 1.1rem 1.25rem 1.1rem 1rem;
+      background: rgba(26,25,56,0.4);
+      border-radius: var(--radius);
+      border-left: 2px solid rgba(201,162,93,0.25);
+    }
+    .sintonize-gate h3 { font-size: 1.05rem; color: var(--dourado); margin-bottom: 0.3rem; }
+    .sintonize-gate p { font-size: 1rem; color: var(--champagne); line-height: 1.65; margin-bottom: 0.5rem; }
+    .sintonize-gate p:last-child { margin-bottom: 0; }
+    .ferramentas__nota {
+      font-size: 1rem;
+      color: var(--texto-muted);
+      font-style: italic;
+      border-top: 1px solid rgba(201,162,93,0.15);
+      padding-top: 1rem;
+      margin-top: 0.5rem;
+    }
+
+    /* ── Prova de processo ──────────────────────────── */
+    .prova-processo { background: var(--azul-noite); }
+    .prova-processo__intro { margin-bottom: 1.75rem; }
+    .prova-processo__intro p { color: var(--champagne); margin-top: 0.75rem; }
+    .prova-processo__nota {
+      font-size: 0.9rem;
+      color: var(--texto-muted);
+      font-style: italic;
+      text-align: center;
+      margin-top: 1.25rem;
+    }
+    .prova-grid {
+      display: grid;
+      gap: 1rem;
+      margin-bottom: 1rem;
+    }
+
+    /* ── Entregáveis ────────────────────────────────── */
+    .entregaveis { background: var(--azul-noite-alt); }
+    .entregaveis__intro { margin-bottom: 1.75rem; }
+    .entregaveis__intro p { color: var(--champagne); margin-top: 0.75rem; }
+    .entregaveis__lista {
+      list-style: none;
+      display: grid;
+      gap: 0.85rem;
+    }
+    .entrega {
+      display: grid;
+      grid-template-columns: 2rem 1fr;
+      gap: 1rem;
+      padding: 1.15rem 1.25rem 1.15rem 1rem;
+      background: rgba(59,53,80,0.35);
+      border-radius: var(--radius);
+      align-items: start;
+    }
+    .entrega__num {
+      font-family: var(--ff-titulo);
+      font-size: 1.5rem;
+      color: var(--dourado);
+      opacity: 0.55;
+      line-height: 1;
+      padding-top: 0.1rem;
+    }
+    .entrega h3 {
+      font-size: 1.05rem;
+      color: var(--champagne);
+      margin-bottom: 0.3rem;
+    }
+    .entrega p {
+      font-size: 1rem;
+      color: rgba(243,234,218,0.78);
+      line-height: 1.65;
+      margin-bottom: 0;
+    }
+
+    /* ── Jornada ────────────────────────────────────── */
+    .jornada { background: var(--grafite); }
+    .jornada__intro { margin-bottom: 1.75rem; }
+    .jornada__intro p { color: var(--champagne); margin-top: 0.75rem; }
+    .jornada__lista {
+      list-style: none;
+      display: grid;
+      gap: 0.6rem;
+      margin: 1.5rem 0;
+    }
+    .jornada__item {
+      padding: 0.8rem 1.1rem 0.8rem 1rem;
+      background: rgba(26,25,56,0.4);
+      border-radius: var(--radius);
+      font-size: 1rem;
+      color: var(--champagne);
+      line-height: 1.65;
+    }
+    .jornada__fecha {
+      font-family: var(--ff-titulo);
+      font-size: clamp(1.1rem, 3.5vw, 1.45rem);
+      font-style: italic;
+      color: var(--creme);
+      text-align: center;
+      margin-top: 1.5rem;
+      line-height: 1.45;
+    }
+    .jornada__portal {
+      margin-top: 2.5rem;
+      padding-top: 2rem;
+      border-top: 1px solid rgba(201,162,93,0.18);
+    }
+    .jornada__portal h3 {
+      font-size: clamp(1.15rem, 3.5vw, 1.5rem);
+      color: var(--champagne);
+      margin-bottom: 1rem;
+    }
+    .jornada__portal p {
+      font-size: 1rem;
+      color: var(--champagne);
+      line-height: 1.75;
+    }
+
+    /* ── Marcos ─────────────────────────────────────── */
+    .marcos { background: var(--azul-noite); }
+    .marcos__inner {
+      display: flex;
+      flex-direction: column;
+      gap: 2rem;
+      align-items: start;
+    }
+    .marcos-photo {
+      display: block;
+      width: 100%;
+      max-width: 280px;
+      height: auto;
+      border-radius: var(--radius);
+      border: 1px solid rgba(201,162,93,0.2);
+      box-shadow: 0 4px 24px rgba(0,0,0,0.35);
+    }
+    .marcos__nome {
+      font-family: var(--ff-titulo);
+      font-size: 1.5rem;
+      color: var(--champagne);
+      margin-bottom: 0.15rem;
+    }
+    .marcos__titulo {
+      font-size: 0.9rem;
+      color: var(--texto-muted);
+      margin-bottom: 1.1rem;
+      line-height: 1.5;
+    }
+    .marcos__bio { color: var(--champagne); }
+    .marcos__bio p { font-size: 1rem; line-height: 1.75; }
+
+    /* ── Oferta ─────────────────────────────────────── */
+    .oferta { background: var(--azul-noite-alt); }
+    .oferta__intro { margin-bottom: 2rem; }
+    .oferta__intro p { color: var(--champagne); margin-top: 0.75rem; }
+    .oferta__card {
+      background: rgba(59,53,80,0.4);
+      border: 1px solid rgba(201,162,93,0.25);
+      border-radius: var(--radius);
+      padding: 1.75rem 1.5rem;
+      margin-bottom: 1.75rem;
+    }
+    .oferta__nome {
+      font-family: var(--ff-titulo);
+      font-size: 1.4rem;
+      color: var(--champagne);
+      margin-bottom: 0.25rem;
+    }
+    .oferta__subtitulo {
+      font-size: 0.9rem;
+      color: var(--texto-muted);
+      margin-bottom: 1.25rem;
+    }
+    .oferta__items {
+      list-style: none;
+      display: grid;
+      gap: 0.5rem;
+      margin-bottom: 1.5rem;
+    }
+    .oferta__items li {
+      font-size: 1rem;
+      color: var(--champagne);
+      padding-left: 1.2rem;
+      position: relative;
+      line-height: 1.6;
+    }
+    .oferta__items li::before {
+      content: '✦';
+      position: absolute;
+      left: 0;
+      color: var(--dourado);
+      font-size: 0.6rem;
+      top: 0.45em;
+    }
+    .oferta__preco-wrap {
+      border-top: 1px solid rgba(201,162,93,0.2);
+      padding-top: 1.25rem;
+      margin-top: 0.5rem;
+    }
+    .oferta__preco {
+      font-family: var(--ff-titulo);
+      font-size: clamp(1.75rem, 5vw, 2.2rem);
+      color: var(--dourado);
+      margin-bottom: 0.15rem;
+    }
+    .oferta__preco-detalhe {
+      font-size: 0.9rem;
+      color: var(--texto-muted);
+    }
+    .oferta__cta-wrap {
+      text-align: center;
+    }
+    .oferta__nota {
+      margin-top: 1.25rem;
+      font-size: 1rem;
+      color: var(--texto-muted);
+      line-height: 1.65;
+      text-align: center;
+    }
+
+    /* ── FAQ ────────────────────────────────────────── */
+    .faq { background: var(--grafite); }
+    .faq__intro { margin-bottom: 1.75rem; }
+    .faq__lista { display: grid; gap: 1.1rem; }
+    .faq__item {
+      padding: 1.25rem;
+      background: rgba(26,25,56,0.4);
+      border-radius: var(--radius);
     }
     .faq__pergunta {
       font-family: var(--ff-titulo);
-      font-size: 1.1rem;
-      color: var(--dourado);
-      margin-bottom: 0.6rem;
+      font-size: 1.15rem;
+      color: var(--champagne);
+      margin-bottom: 0.65rem;
+      line-height: 1.4;
     }
-    .faq__resposta { font-size: 0.9rem; color: var(--champagne); line-height: 1.7; margin: 0; }
-
-    /* ── Portal Entrada ─────────────────────────────────── */
-    .portal-entrada { background: var(--grafite); text-align: center; }
-    .portal-entrada__corpo { max-width: 520px; margin-inline: auto; }
-    .portal-entrada__titulo {
-      font-family: var(--ff-titulo);
-      font-size: clamp(1.6rem, 4.5vw, 2.2rem);
-      line-height: 1.2;
-      margin-bottom: 1rem;
+    .faq__resposta {
+      font-size: 1.0625rem;
+      color: rgba(243,234,218,0.82);
+      line-height: 1.75;
+      margin-bottom: 0;
     }
-    .portal-entrada__corpo p { color: var(--champagne); margin-bottom: 0.9rem; line-height: 1.8; }
-    .portal-entrada__corpo p:last-child { margin-bottom: 0; }
 
-    /* ── CTA Final ──────────────────────────────────────── */
-    .cta-final {
-      background: linear-gradient(155deg, var(--azul-noite-alt) 0%, var(--azul-noite) 100%);
+    /* ── Limites ─────────────────────────────────────── */
+    .limites { background: var(--azul-noite); }
+    .limites__intro { margin-bottom: 1.5rem; }
+    .limites__intro p { color: var(--champagne); margin-top: 0.75rem; }
+    .limites__positivo {
+      padding: 1.1rem 1.25rem;
+      background: rgba(59,53,80,0.35);
+      border-radius: var(--radius);
+      margin-bottom: 1.25rem;
+      color: var(--champagne);
+      font-size: 1rem;
+      line-height: 1.7;
+    }
+    .limites__negativo {
+      padding: 1.1rem 1.25rem;
+      background: rgba(26,25,56,0.35);
+      border-radius: var(--radius);
+      color: rgba(243,234,218,0.72);
+      font-size: 1rem;
+      line-height: 1.8;
+    }
+    .limites__negativo p { margin-bottom: 0; }
+    .limites__nota {
+      margin-top: 1.25rem;
+      font-size: 1rem;
+      color: var(--texto-muted);
+      font-style: italic;
       text-align: center;
-      padding-block: 5.5rem;
     }
-    .cta-final__headline { margin-bottom: 1rem; }
+
+    /* ── CTA Final ──────────────────────────────────── */
+    .cta-final { background: var(--azul-noite-alt); }
+    .cta-final__headline {
+      font-family: var(--ff-titulo);
+      font-size: clamp(1.65rem, 5vw, 2.4rem);
+      color: var(--creme);
+      line-height: 1.25;
+      margin-bottom: 0.25rem;
+    }
     .cta-final__corpo {
       color: var(--champagne);
-      max-width: 500px;
-      margin-inline: auto;
-      margin-bottom: 2.25rem;
-      line-height: 1.85;
+      margin: 1.75rem 0;
+      line-height: 1.8;
     }
-    .cta-final__corpo p { margin-bottom: 0.6rem; }
-    .cta-final__corpo p:last-child { margin-bottom: 0; }
-    .cta-final__nota { font-size: 0.78rem; color: var(--texto-muted); margin-top: 1rem; line-height: 1.7; }
+    .cta-final__oferta-resumo {
+      padding: 1.25rem;
+      background: rgba(59,53,80,0.35);
+      border: 1px solid rgba(201,162,93,0.2);
+      border-radius: var(--radius);
+      margin-bottom: 1.75rem;
+    }
+    .cta-final__oferta-resumo p {
+      font-size: 1rem;
+      color: var(--champagne);
+      line-height: 1.65;
+      margin-bottom: 0.3rem;
+    }
+    .cta-final__oferta-resumo strong {
+      color: var(--dourado);
+      display: block;
+      font-family: var(--ff-titulo);
+      font-size: 1.4rem;
+      margin-bottom: 0.35rem;
+    }
+    .cta-final__nota {
+      margin-top: 1.25rem;
+      font-size: 1rem;
+      color: var(--texto-muted);
+      text-align: center;
+      line-height: 1.65;
+    }
 
-    /* ── Footer ─────────────────────────────────────────── */
+    /* ── Footer ─────────────────────────────────────── */
     .footer {
       background: var(--azul-noite-alt);
-      border-top: 1px solid rgba(201,162,93,0.1);
+      border-top: 1px solid rgba(201,162,93,0.15);
       padding-block: 2.5rem;
       text-align: center;
     }
-    .footer__logo { font-family: var(--ff-titulo); font-size: 1.05rem; color: var(--dourado); margin-bottom: 0.75rem; }
-    .footer__texto { font-size: 0.8rem; color: var(--texto-muted); line-height: 1.65; }
-    .footer__links { margin-top: 1rem; display: flex; justify-content: center; gap: 1.25rem; flex-wrap: wrap; }
-    .footer__links a { font-size: 0.78rem; color: var(--texto-muted); text-decoration: none; }
+    .footer__logo {
+      font-family: var(--ff-titulo);
+      font-size: 1.1rem;
+      color: var(--dourado);
+      margin-bottom: 0.75rem;
+    }
+    .footer__texto {
+      font-size: 0.9rem;
+      color: var(--texto-muted);
+      line-height: 1.7;
+      margin-bottom: 1rem;
+    }
+    .footer__links {
+      display: flex;
+      flex-wrap: wrap;
+      gap: 0.75rem 1.5rem;
+      justify-content: center;
+      margin-bottom: 1.25rem;
+    }
+    .footer__links a {
+      font-size: 0.9rem;
+      color: var(--texto-muted);
+      text-decoration: none;
+    }
     .footer__links a:hover { color: var(--dourado); }
-
-    /* ── Responsivo ─────────────────────────────────────── */
-    @media (min-width: 480px) {
-      .hero__cta-group { flex-direction: row; align-items: center; }
-      .lugar-util__par { grid-template-columns: 1fr 1fr; }
-    }
-    @media (min-width: 768px) {
-      section { padding-block: 5.5rem; }
-      .hero { padding-block: 7rem 5.5rem; }
-      .observo-lista { grid-template-columns: 1fr 1fr; }
-      .quem-conduz__inner { grid-template-columns: 110px 1fr; }
-      .quem-conduz__avatar { width: 110px; height: 110px; font-size: 2.8rem; }
-    }
-    @media (min-width: 1024px) {
-      :root { --pad-x: 2rem; }
+    .footer__copy {
+      font-size: 0.875rem;
+      color: rgba(243,234,218,0.4);
     }
 
-    /* ── Cookie Consent Banner ──────────────────────────── */
+    /* ── Cookie Banner ──────────────────────────────── */
     #pcc-banner {
-      position: fixed;
-      bottom: 0; left: 0; right: 0;
-      z-index: 9999;
+      position: fixed; bottom: 0; left: 0; right: 0; z-index: 9999;
       background: #141230;
       border-top: 1px solid rgba(201,162,93,0.25);
       padding: 1rem 1.25rem;
@@ -779,765 +964,906 @@
       align-items: center;
       justify-content: space-between;
       font-family: var(--ff-corpo);
-      font-size: 0.8rem;
-      color: rgba(243,234,218,0.75);
-      line-height: 1.5;
+      font-size: 0.9rem;
+      color: rgba(243,234,218,0.8);
+      line-height: 1.55;
       transform: translateY(100%);
       transition: transform 0.35s ease;
     }
     #pcc-banner.pcc-visible { transform: translateY(0); }
-    #pcc-banner p { flex: 1 1 260px; margin: 0; }
-    #pcc-banner a { color: var(--dourado); text-underline-offset: 3px; }
-    .pcc-btns { display: flex; gap: 0.6rem; flex-shrink: 0; }
+    #pcc-banner a { color: var(--dourado); }
+    .pcc-btns { display: flex; gap: 0.6rem; flex-wrap: wrap; }
     .pcc-btn {
-      padding: 0.45rem 1rem;
-      border-radius: 4px;
+      padding: 0.55rem 1rem;
+      border-radius: 5px;
+      font-size: 0.875rem;
       font-family: var(--ff-corpo);
-      font-size: 0.78rem;
       cursor: pointer;
-      border: 1px solid var(--dourado);
-      transition: background 0.2s, color 0.2s;
-      white-space: nowrap;
+      border: 1.5px solid var(--dourado);
+      font-weight: 500;
     }
     .pcc-btn--accept { background: var(--dourado); color: #141230; }
-    .pcc-btn--accept:hover { background: var(--champagne); border-color: var(--champagne); }
-    .pcc-btn--decline { background: transparent; color: rgba(243,234,218,0.7); border-color: rgba(201,162,93,0.4); }
-    .pcc-btn--decline:hover { border-color: var(--dourado); color: rgba(243,234,218,0.9); }
+    .pcc-btn--decline { background: transparent; color: rgba(243,234,218,0.75); border-color: rgba(201,162,93,0.4); }
+
+    /* ── Responsive ─────────────────────────────────── */
+    @media (min-width: 480px) {
+      .cenas__grid { grid-template-columns: 1fr 1fr; }
+    }
+
+    @media (min-width: 640px) {
+      :root { --pad-x: 1.75rem; }
+      .dores__grid { grid-template-columns: 1fr 1fr; }
+      .prova-grid { max-width: 680px; }
+    }
+
+    @media (min-width: 768px) {
+      :root { --pad-x: 2rem; }
+      section { padding-block: 4rem; }
+      .hero { padding-block: 6rem 5rem; }
+      .marcos__inner { flex-direction: row; align-items: flex-start; gap: 2.5rem; }
+      .marcos-photo { max-width: 220px; flex-shrink: 0; }
+    }
   </style>
 </head>
 <body>
-  <!-- Google Tag Manager (noscript) -->
-  <noscript><iframe src="https://www.googletagmanager.com/ns.html?id=GTM-WC2C397G"
-  height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
 
-  <!-- Nav -->
-  <nav class="nav">
-    <div class="container container--wide nav__inner">
-      <a href="/" class="nav__logo">Portal Caminho da Consciência</a>
-      <a href="#cta-final" class="btn-cta btn-cta--outline js-scroll-cta" style="font-size:0.875rem;padding:0.5rem 1.1rem;">
-        Quero entender meu caso
-      </a>
-    </div>
-  </nav>
+<!-- Google Tag Manager (noscript) -->
+<noscript><iframe src="https://www.googletagmanager.com/ns.html?id=GTM-WC2C397G"
+height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
 
-  <main>
+<main>
 
-  <!-- 2. Hero -->
+  <!-- ── Hero ──────────────────────────────────────── -->
   <section class="hero" id="hero">
     <div class="container">
-      <p class="hero__eyebrow">Mapeamento Padrão Interrompido</p>
-      <div class="hero__frases">
-        <p>Você resolve uma coisa.</p>
-        <p>Meses depois, outra versão dela aparece.</p>
-        <p>O dinheiro entra — e a sensação de aperto volta.</p>
-        <p>A pessoa muda — e você começa a calar as mesmas coisas.</p>
-        <p>O emprego é outro — mas, depois de um tempo, você se sente preso de novo.</p>
-        <p>Você recomeça a rotina — e algumas semanas depois está prometendo começar outra vez.</p>
-        <p class="hero__frase--virada">Talvez você já consiga ver os episódios.<br />O que ainda não consegue enxergar é o que existe de parecido entre eles.</p>
-      </div>
-      <p class="hero__descricao">
-        O Mapeamento Padrão Interrompido coloca situações da sua vida lado a lado para ajudar você a perceber o que se repete, onde isso aparece e o que merece sua atenção primeiro.
+      <h1 class="hero__headline">
+        Você muda de emprego. Muda de relacionamento. Tenta organizar o dinheiro. Recomeça a rotina.
+        <em>Mas, depois de algum tempo, parece que a sua vida encontra um jeito de levar você de volta ao mesmo lugar.</em>
+      </h1>
+      <p class="hero__sub">
+        Se você está cansada de recomeçar coisas que jurava já ter resolvido, talvez exista algo acontecendo antes do problema aparecer.
       </p>
-      <div class="hero__oferta">
-        <span class="hero__oferta__preco">R$197</span>
-        <span class="hero__oferta__formato">Individual · Assíncrono</span>
-      </div>
-      <div class="hero__cta-group">
-        <a href="#cta-final" class="btn-cta js-cta js-scroll-cta" data-local="hero">
-          Quero entender meu caso →
+      <p class="hero__ancora">Você não precisa saber o nome disso ainda.</p>
+      <div class="hero__cta-wrap">
+        <a href="#dores" class="btn-cta btn-cta--outline js-scroll-cta">
+          Quero entender por que isso continua acontecendo ↓
         </a>
       </div>
-      <p class="hero__nota">Primeiro conversamos pelo WhatsApp. Você entende como funciona e vê se faz sentido para o seu momento.</p>
     </div>
   </section>
 
-  <!-- 3. Você não precisa saber o nome -->
-  <section class="nao-precisa" id="nao-precisa">
+  <!-- ── Dores ──────────────────────────────────────── -->
+  <section class="dores" id="dores">
     <div class="container">
-      <div class="nao-precisa__intro">
-        <h2>Você não precisa saber<br />o nome do que está acontecendo</h2>
+      <div class="dores__intro">
+        <h2>Talvez você não chame isso de padrão.<br /><span class="dourado">Você só sabe que está cansada.</span></h2>
         <div class="divisor"></div>
-        <p>Talvez você só saiba que está cansado de algumas coisas.</p>
       </div>
-      <ul class="nao-precisa__lista">
-        <li class="nao-precisa__item"><p>De receber e, pouco tempo depois, já estar fazendo conta para saber se o dinheiro vai dar.</p></li>
-        <li class="nao-precisa__item"><p>De dizer "claro, deixa comigo" e perceber tarde demais que assumiu mais do que podia.</p></li>
-        <li class="nao-precisa__item"><p>De escrever o que gostaria de dizer para alguém, apagar e mandar apenas "tudo bem".</p></li>
-        <li class="nao-precisa__item"><p>De salvar uma oportunidade de trabalho e nunca se candidatar.</p></li>
-        <li class="nao-precisa__item"><p>De começar um projeto cheio de vontade e perceber, semanas depois, que nem abre mais o arquivo.</p></li>
-        <li class="nao-precisa__item"><p>De colocar todo mundo na agenda — e tirar você quando falta espaço.</p></li>
+      <div class="dores__grid">
+
+        <div class="dor-card">
+          <p class="dor-card__titulo">Dinheiro que nunca parece suficiente</p>
+          <p>Você recebe, paga as contas, tenta se organizar. Por alguns dias parece que vai dar. Pouco depois está fazendo conta outra vez e pensando:
+            <span class="dor-card__fala">"Por que nunca sobra?"</span>
+          </p>
+        </div>
+
+        <div class="dor-card">
+          <p class="dor-card__titulo">Procrastinação</p>
+          <p>Você sabe exatamente o que precisa fazer. Mas passa o dia resolvendo outras coisas e aquilo que realmente importa continua para amanhã.</p>
+        </div>
+
+        <div class="dor-card">
+          <p class="dor-card__titulo">Medo de dizer não</p>
+          <p>Você responde "deixa comigo" antes mesmo de olhar sua agenda. Depois fica cansada, irritada e se pergunta por que sempre sobra tudo para você.</p>
+        </div>
+
+        <div class="dor-card">
+          <p class="dor-card__titulo">Relacionamentos</p>
+          <p>Você promete que dessa vez vai falar o que sente. Escreve a mensagem. Apaga. E responde:
+            <span class="dor-card__fala">"Tudo bem."</span>
+          </p>
+        </div>
+
+        <div class="dor-card">
+          <p class="dor-card__titulo">Trabalho</p>
+          <p>Você muda de emprego esperando finalmente sentir alívio. Alguns meses depois percebe que está se sentindo presa de novo.</p>
+        </div>
+
+        <div class="dor-card">
+          <p class="dor-card__titulo">Decisões difíceis de tomar</p>
+          <p>Você pesquisa, compara, pede opinião, tenta encontrar a decisão perfeita. Quando percebe, a oportunidade passou e você ainda não decidiu.</p>
+        </div>
+
+        <div class="dor-card">
+          <p class="dor-card__titulo">Espiritualidade</p>
+          <p>Você pede um sinal, uma direção, uma resposta. Mas talvez continue adiando justamente a conversa, escolha ou movimento que mais precisa olhar.</p>
+        </div>
+
+      </div>
+      <p class="dores__fechamento">O problema muda de nome. A sensação de voltar ao mesmo lugar continua.</p>
+    </div>
+  </section>
+
+  <!-- ── Cenas visuais ──────────────────────────────── -->
+  <section class="cenas" id="cenas" aria-hidden="true">
+    <div class="container container--wide">
+      <div class="cenas__grid">
+        <picture class="scene-picture">
+          <source media="(min-width: 768px)" srcset="/assets/images/cena-dinheiro-16x9.webp" width="1200" height="675" />
+          <img src="/assets/images/cena-dinheiro-4x5.webp"
+               alt="Mulher analisando contas e celular em casa, em uma cena de preocupação financeira cotidiana."
+               class="scene-image"
+               loading="lazy"
+               decoding="async"
+               width="900"
+               height="1124" />
+        </picture>
+        <picture class="scene-picture">
+          <source media="(min-width: 768px)" srcset="/assets/images/cena-trabalho-16x9.webp" width="1200" height="675" />
+          <img src="/assets/images/cena-trabalho-4x5.webp"
+               alt="Mulher sentada em um carro estacionado após o trabalho, em um momento de cansaço e reflexão."
+               class="scene-image"
+               loading="lazy"
+               decoding="async"
+               width="900"
+               height="1124" />
+        </picture>
+      </div>
+    </div>
+  </section>
+
+  <!-- ── Agitação ───────────────────────────────────── -->
+  <section class="agitacao" id="agitacao">
+    <div class="container">
+      <p class="agitacao__intro">O mais cansativo talvez nem seja o problema. É ter a sensação de já ter vivido aquilo antes.</p>
+      <div class="agitacao__corpo">
+        <p>Você já se prometeu coisas assim:</p>
+        <ul class="agitacao__lista">
+          <li class="agitacao__item">Vou me organizar melhor dessa vez.</li>
+          <li class="agitacao__item">Vou falar antes de acumular.</li>
+          <li class="agitacao__item">Vou olhar o dinheiro com mais atenção.</li>
+          <li class="agitacao__item">Vou terminar o que comecei.</li>
+          <li class="agitacao__item">Vou colocar limites.</li>
+          <li class="agitacao__item">Vou escolher diferente.</li>
+        </ul>
+        <p>E durante algum tempo realmente tenta.</p>
+        <p>Mas alguma parte da história começa novamente antes de você perceber.</p>
+        <p class="agitacao__fecha">Não porque você não se esforçou. Mas porque talvez exista mais coisa para observar do que o momento em que o problema ficou visível.</p>
+      </div>
+    </div>
+  </section>
+
+  <!-- ── Cena visual: relacionamento ──────────────────── -->
+  <div class="scene-break" aria-hidden="true">
+    <div class="container">
+      <picture class="scene-picture">
+        <source media="(min-width: 768px)" srcset="/assets/images/cena-relacionamento-16x9.webp" width="1200" height="675" />
+        <img src="/assets/images/cena-relacionamento-4x5.webp"
+             alt="Mulher olhando o celular à noite em um momento de hesitação antes de enviar uma mensagem."
+             class="scene-image"
+             loading="lazy"
+             decoding="async"
+             width="900"
+             height="1124" />
+      </picture>
+    </div>
+  </div>
+
+  <!-- ── Virada / Mecanismo ─────────────────────────── -->
+  <section class="virada" id="virada">
+    <div class="container">
+      <p class="virada__intro">Talvez você esteja tentando mudar<br />no lugar em que o problema termina.</p>
+      <div class="virada__corpo">
+        <p>Quando o dinheiro falta, você olha para o saldo. Quando o relacionamento desgasta, olha para a discussão. Quando abandona um projeto, olha para o dia em que parou.</p>
+        <p>Faz sentido. É onde o problema ficou visível.</p>
+        <p>Mas existe outra pergunta:</p>
+        <p><em>O que aconteceu antes?</em></p>
+      </div>
+      <ul class="virada__pares">
+        <li class="virada__par">
+          <strong>Antes da sobrecarga</strong>
+          qual foi o primeiro "sim" que você não precisava ter dado?
+        </li>
+        <li class="virada__par">
+          <strong>Antes do afastamento</strong>
+          qual foi a primeira coisa que você deixou de dizer?
+        </li>
+        <li class="virada__par">
+          <strong>Antes de abandonar o projeto</strong>
+          quando começou a evitar contato com ele?
+        </li>
+        <li class="virada__par">
+          <strong>Antes de não querer olhar a conta</strong>
+          o que já vinha acontecendo?
+        </li>
       </ul>
-      <blockquote class="nao-precisa__gancho">
-        Ou simplesmente de olhar para a própria vida e pensar:<br />
-        <span class="italic">"Por que eu volto aqui?"</span>
-      </blockquote>
-      <p class="nao-precisa__fechamento">Não é preciso concluir agora que todas essas situações têm a mesma causa. Mas, quando certas cenas começam a reaparecer, vale colocá-las lado a lado e olhar com mais atenção.</p>
+      <div class="virada__ancora">O problema aparece no final. O movimento começa antes.</div>
+      <p class="virada__ressalva">Isso não significa que todo problema é causado por você, nem que existe uma única explicação escondida por trás de tudo. Significa apenas que talvez exista mais coisa para observar do que o resultado final.</p>
     </div>
   </section>
 
-  <!-- 4. Talvez o lugar mais útil -->
-  <section class="lugar-util" id="lugar-util">
+  <!-- ── Cena visual: sobrecarga ──────────────────────── -->
+  <div class="scene-break" aria-hidden="true">
     <div class="container">
-      <div class="lugar-util__intro">
-        <h2>Talvez o lugar mais útil<br />para olhar não seja o final</h2>
-        <div class="divisor"></div>
-        <p>Quando o problema fica visível, faz sentido olhar para ali. Existe uma pergunta diferente.</p>
-      </div>
-      <div class="lugar-util__pares">
-        <div class="lugar-util__par">
-          <div class="lugar-util__resultado">
-            <strong>Onde você olha</strong>
-            Quando o mês aperta, você olha para o saldo.
-          </div>
-          <div class="lugar-util__antes">
-            <strong>A pergunta diferente</strong>
-            Antes de evitar olhar a conta, o que você já vinha percebendo?
-          </div>
-        </div>
-        <div class="lugar-util__par">
-          <div class="lugar-util__resultado">
-            <strong>Onde você olha</strong>
-            Quando a relação desgasta, olha para a discussão.
-          </div>
-          <div class="lugar-util__antes">
-            <strong>A pergunta diferente</strong>
-            Antes da discussão, quantas vezes você quis falar alguma coisa e preferiu ficar quieto?
-          </div>
-        </div>
-        <div class="lugar-util__par">
-          <div class="lugar-util__resultado">
-            <strong>Onde você olha</strong>
-            Quando abandona alguma coisa, olha para o dia em que parou.
-          </div>
-          <div class="lugar-util__antes">
-            <strong>A pergunta diferente</strong>
-            Antes de abandonar o projeto, quando você começou a se afastar dele?
-          </div>
-        </div>
-        <div class="lugar-util__par">
-          <div class="lugar-util__resultado">
-            <strong>Onde você olha</strong>
-            Quando está sobrecarregado, olha para a quantidade de coisas.
-          </div>
-          <div class="lugar-util__antes">
-            <strong>A pergunta diferente</strong>
-            Antes da sobrecarga, qual foi o primeiro "deixa comigo" que você respondeu sem olhar a agenda?
-          </div>
-        </div>
-      </div>
-      <p class="lugar-util__ressalva">Isso não prova uma causa. Não define quem você é. E não significa que tudo depende exclusivamente de você. Significa apenas que existe mais coisa para observar do que o resultado final.</p>
-      <div class="lugar-util__destaque">
-        <p>O problema aparece no final.<br /><span class="dourado">O padrão começa antes.</span></p>
-      </div>
+      <picture class="scene-picture">
+        <source media="(min-width: 768px)" srcset="/assets/images/cena-sobrecarga-16x9.webp" width="1200" height="675" />
+        <img src="/assets/images/cena-sobrecarga-4x5.webp"
+             alt="Mulher observando uma agenda cheia de compromissos em uma cena de sobrecarga cotidiana."
+             class="scene-image"
+             loading="lazy"
+             decoding="async"
+             width="900"
+             height="1124" />
+      </picture>
     </div>
-  </section>
+  </div>
 
-  <!-- 5. Microteste -->
+  <!-- ── Microteste ─────────────────────────────────── -->
   <section class="microteste" id="microteste">
     <div class="container">
       <div class="microteste__intro">
-        <h2>Faça um teste<br />antes de continuar</h2>
-        <div class="divisor"></div>
+        <h2>Faça um teste agora.</h2>
+        <p>Você não precisa de papel. Só de alguns segundos.</p>
       </div>
       <div class="microteste__box">
-        <p>Pense em uma situação que está incomodando você hoje.</p>
-        <p>Agora volte mentalmente para a última vez em que algo parecido aconteceu. Não precisa ser exatamente igual.</p>
-        <p>Pergunte:</p>
-        <p class="microteste__pergunta">O que eu fiz, pensei, aceitei, calei, evitei ou adiei nas duas situações?</p>
-        <p>Talvez nada apareça imediatamente. Talvez apareça alguma coisa. E talvez surja uma pergunta ainda mais interessante:</p>
-        <p class="microteste__pergunta">"Onde mais eu faço algo parecido?"</p>
-        <p class="microteste__conclusao">É justamente quando essa pergunta aparece que um mapeamento individual começa a fazer sentido.</p>
-      </div>
-    </div>
-  </section>
-
-  <!-- 6. Apresentação do Mapeamento -->
-  <section class="apresentacao" id="apresentacao">
-    <div class="container">
-      <div class="apresentacao__intro">
-        <h2>Mapeamento <span class="dourado">Padrão Interrompido</span></h2>
-        <div class="divisor"></div>
-        <p>Você traz as situações. Eu ajudo a colocá-las lado a lado.</p>
-      </div>
-      <div class="apresentacao__corpo">
-        <p>O Mapeamento é uma experiência individual para organizar aquilo que hoje pode estar aparecendo como episódios separados.</p>
-        <p>Você me conta o que está vivendo. Eu organizo essas informações, observo as repetições que aparecem no seu relato, comparo contextos e procuro possíveis conexões que merecem atenção.</p>
-        <p>O objetivo não é entregar um rótulo sobre você. É permitir que, ao final, você consiga dizer:</p>
-        <div class="apresentacao__resultado">
-          <p>"Agora eu enxergo melhor o que estava acontecendo e sei o que merece minha atenção primeiro."</p>
+        <div class="microteste__passo">
+          <p class="microteste__num">Passo 1</p>
+          <p>Pense em algo que incomoda hoje — uma situação que continua gerando tensão ou que não sai da sua cabeça.</p>
         </div>
+        <div class="microteste__passo">
+          <p class="microteste__num">Passo 2</p>
+          <p>Agora lembre a última vez em que algo parecido aconteceu. Pode ser o mesmo assunto ou uma área diferente, mas com a mesma sensação.</p>
+        </div>
+        <p class="microteste__pergunta">Nas duas situações: o que você fez, pensou, aceitou, calou, evitou ou adiou?</p>
+        <p class="microteste__pergunta">Onde mais algo parecido já aconteceu?</p>
       </div>
-    </div>
-  </section>
-
-  <!-- 7. O que eu vou observar -->
-  <section class="o-que-observo" id="o-que-observo">
-    <div class="container">
-      <div class="o-que-observo__intro">
-        <h2>O que eu vou observar<br />no seu caso</h2>
-        <div class="divisor"></div>
-        <p>Não existe uma resposta pronta antes de conhecer sua história.</p>
-      </div>
-      <ul class="observo-lista">
-        <li class="observo-item">
-          <p class="observo-item__titulo">O que está acontecendo agora</p>
-          <p>Qual situação trouxe você até aqui e onde ela está pesando mais.</p>
-        </li>
-        <li class="observo-item">
-          <p class="observo-item__titulo">O que parece estar se repetindo</p>
-          <p>Episódios que você próprio reconhece como parecidos, mesmo que tenham acontecido em momentos ou áreas diferentes.</p>
-        </li>
-        <li class="observo-item">
-          <p class="observo-item__titulo">O que acontece antes</p>
-          <p>Pequenas respostas, escolhas, silêncios, adiamentos ou movimentos que podem merecer observação.</p>
-        </li>
-        <li class="observo-item">
-          <p class="observo-item__titulo">Onde isso aparece</p>
-          <p>Dinheiro, trabalho, relações, rotina, projetos, família, autocuidado, espiritualidade ou outros contextos relevantes para você.</p>
-        </li>
-        <li class="observo-item">
-          <p class="observo-item__titulo">O que pode estar conectado</p>
-          <p>Possíveis relações entre situações — tratadas como pontos de observação, não como verdades escondidas.</p>
-        </li>
-        <li class="observo-item">
-          <p class="observo-item__titulo">O que merece atenção primeiro</p>
-          <p>Porque tentar trabalhar tudo ao mesmo tempo geralmente não produz clareza.</p>
-        </li>
-      </ul>
-    </div>
-  </section>
-
-  <!-- 8. Entregáveis -->
-  <section class="entregaveis" id="oferta">
-    <div class="container">
-      <div class="entregaveis__intro">
-        <h2>O que você <span class="dourado">recebe</span></h2>
-        <div class="divisor"></div>
-        <p>Um trabalho feito sobre o seu caso — não um PDF genérico.</p>
-      </div>
-      <div class="preco">
-        <p class="preco__valor">R$ 197</p>
-        <p class="preco__nota">Investimento único · Individual · Assíncrono</p>
-      </div>
-      <ul class="lista-entregaveis">
-        <li class="entregavel">
-          <span class="entregavel__num">01</span>
-          <div>
-            <strong>Leitura individual estruturada</strong>
-            <span>Seu relato é lido e organizado individualmente. Não existe um resultado automático escolhido a partir de uma lista de perfis.</span>
-          </div>
-        </li>
-        <li class="entregavel">
-          <span class="entregavel__num">02</span>
-          <div>
-            <strong>Mapa das repetições percebidas</strong>
-            <span>As situações relevantes são organizadas para mostrar onde existem recorrências, aproximações e pontos que merecem ser observados.</span>
-          </div>
-        </li>
-        <li class="entregavel">
-          <span class="entregavel__num">03</span>
-          <div>
-            <strong>Relatório autoral em PDF</strong>
-            <span>Você recebe o seu Mapeamento por escrito para poder reler, comparar com acontecimentos futuros e usar como referência.</span>
-          </div>
-        </li>
-        <li class="entregavel">
-          <span class="entregavel__num">04</span>
-          <div>
-            <strong>Áudio personalizado</strong>
-            <span>Uma devolutiva minha, de aproximadamente 8 a 15 minutos, complementando o relatório e falando diretamente sobre os pontos mais importantes do seu caso.</span>
-          </div>
-        </li>
-        <li class="entregavel">
-          <span class="entregavel__num">05</span>
-          <div>
-            <strong>Um primeiro próximo passo</strong>
-            <span>Quando fizer sentido, você recebe uma reflexão, prática ou ação inicial ligada ao que apareceu no Mapeamento. Não uma fórmula para mudar sua vida inteira. Um lugar concreto por onde começar.</span>
-          </div>
-        </li>
-      </ul>
-      <div class="entregaveis__cta">
-        <a href="#cta-final" class="btn-cta js-cta js-scroll-cta" data-local="entregaveis">
-          Quero entender meu caso →
+      <div class="microteste__bridge">
+        <p>Talvez você não encontre uma resposta imediatamente.<br />Mas se essa pergunta começou a abrir alguma coisa — é exatamente aí que o Mapeamento entra.</p>
+        <a href="#mapeamento" class="btn-cta btn-cta--outline js-scroll-cta">
+          Ver como o Mapeamento funciona ↓
         </a>
       </div>
     </div>
   </section>
 
-  <!-- 9. O que pode mudar -->
-  <section class="pode-mudar" id="pode-mudar">
+  <!-- ── Transformação percebida ────────────────────── -->
+  <section class="transformacao" id="transformacao">
     <div class="container">
-      <div class="pode-mudar__intro">
-        <h2>O que pode mudar<br />depois do Mapeamento?</h2>
+      <div class="transformacao__intro">
+        <h2>Imagine perceber <span class="dourado italic">antes.</span></h2>
         <div class="divisor"></div>
-        <p>Não posso prometer que um documento fará seus problemas desaparecerem. Essa nem seria uma promessa séria.</p>
+        <p>Não como uma promessa. Como uma possibilidade que começa a se abrir quando você passa a observar de outro lugar.</p>
       </div>
-      <div class="pode-mudar__corpo">
-        <p>O que buscamos é algo anterior: <strong style="color:var(--creme)">perceber mais cedo.</strong></p>
-        <p>Talvez você reconheça:</p>
-        <ul class="pode-mudar__lista">
-          <li>O "sim" antes da sobrecarga.</li>
-          <li>O silêncio antes do afastamento.</li>
-          <li>O adiamento antes de perder contato com um projeto.</li>
-          <li>O momento em que começa a evitar uma informação.</li>
-          <li>A frase que aparece em situações diferentes.</li>
-        </ul>
-        <p>Porque perceber mais cedo pode aumentar sua margem de escolha. Não garante que você fará diferente. Mas é muito difícil escolher uma resposta diferente quando você só percebe o que aconteceu depois que tudo terminou.</p>
-        <p class="pode-mudar__tese">Perceber mais cedo amplia a margem de escolha.<br />Não é garantia — é uma condição melhor para decidir.</p>
+      <div class="transformacao__pares">
+
+        <div class="transf-par">
+          <p class="transf-par__acao">Perceber o "sim" antes da sobrecarga.</p>
+          <p>Reconhecer que está prestes a assumir mais uma responsabilidade que vai custar sua semana — antes de responder.</p>
+        </div>
+
+        <div class="transf-par">
+          <p class="transf-par__acao">Perceber o silêncio antes do afastamento.</p>
+          <p>Notar que começou novamente a engolir coisas que gostaria de falar — antes que o distanciamento se instale.</p>
+        </div>
+
+        <div class="transf-par">
+          <p class="transf-par__acao">Perceber a fuga antes da bagunça crescer.</p>
+          <p>Notar quando começa a evitar olhar informações que precisa enfrentar — antes que o problema aumente.</p>
+        </div>
+
+        <div class="transf-par">
+          <p class="transf-par__acao">Perceber o abandono enquanto ainda é afastamento.</p>
+          <p>Reconhecer que está perdendo contato com um projeto antes de chamá-lo de mais uma coisa que não conseguiu terminar.</p>
+        </div>
+
+        <div class="transf-par">
+          <p class="transf-par__acao">Perceber a indecisão antes que a oportunidade passe.</p>
+          <p>Identificar quando a busca pela certeza começa a substituir a decisão — enquanto ainda há tempo de escolher.</p>
+        </div>
+
+      </div>
+      <div class="transformacao__fecha">
+        <p>Perceber antes não garante que você fará diferente. Mas aumenta a chance de você poder <em>escolher</em> antes que a história termine do mesmo jeito.</p>
+      </div>
+      <div class="transformacao__cta">
+        <a href="#oferta" class="btn-cta btn-cta--outline js-cta js-scroll-cta" data-local="pos_transformacao">
+          Conhecer o Mapeamento ↓
+        </a>
       </div>
     </div>
   </section>
 
-  <!-- 10. Por que R$197 -->
-  <section class="porque-197" id="porque-197">
+  <!-- ── Mapeamento ─────────────────────────────────── -->
+  <section class="mapeamento" id="mapeamento">
     <div class="container">
-      <div class="porque-197__intro">
-        <h2>Por que <span class="dourado">R$197</span>?</h2>
+      <div class="mapeamento__intro">
+        <h2>É para isso que existe o<br /><span class="dourado">Mapeamento Padrão Interrompido.</span></h2>
         <div class="divisor"></div>
-        <p>Porque você não está comprando um PDF.</p>
       </div>
-      <div class="porque-197__corpo">
-        <p>Existe uma pessoa do outro lado:</p>
-        <ul class="porque-197__lista">
-          <li>lendo o seu caso;</li>
-          <li>organizando as informações;</li>
-          <li>comparando situações;</li>
-          <li>procurando recorrências;</li>
-          <li>separando o que parece relevante do que não precisa ser transformado em explicação;</li>
-          <li>preparando sua devolutiva;</li>
-          <li>escrevendo seu relatório;</li>
-          <li>gravando seu áudio;</li>
-          <li>escolhendo o que merece ser observado primeiro.</li>
-        </ul>
-        <div class="porque-197__cta-box">
-          <p class="porque-197__cta-box__nome">Mapeamento Padrão Interrompido</p>
-          <p class="porque-197__cta-box__preco">R$197 · investimento único</p>
-          <span class="porque-197__cta-box__formato">Individual · Assíncrono</span>
+      <div class="mapeamento__corpo">
+        <p>Você traz situações da sua vida que hoje parecem confusas, separadas ou repetitivas.</p>
+        <p>Eu organizo essas informações, comparo contextos, observo recorrências e procuro pontos que talvez mereçam atenção antes do resultado final.</p>
+        <p>O objetivo não é colocar um rótulo em você.</p>
+      </div>
+      <div class="mapeamento__meta">
+        "Agora eu consigo enxergar melhor o que está acontecendo — e sei onde começar a prestar atenção."
+      </div>
+      <div class="mapeamento__corpo">
+        <p>Esse é o ponto de chegada que o Mapeamento busca.</p>
+      </div>
+    </div>
+  </section>
+
+  <!-- ── Como é feito ───────────────────────────────── -->
+  <section class="como-funciona" id="como-funciona">
+    <div class="container">
+      <div class="como-funciona__intro">
+        <h2>Como é feito o <span class="dourado">Mapeamento?</span></h2>
+        <div class="divisor"></div>
+        <p>O processo combina diferentes formas de observação e desenvolvimento para olhar o seu caso por mais de um ângulo.</p>
+      </div>
+      <ul class="processo-lista">
+        <li class="processo-item">
+          <span class="processo-item__num">01</span>
+          <div>
+            <h3>Leitura estruturada do seu relato</h3>
+            <p>Começa pelas informações que você fornece sobre situações reais da sua vida. Eu leio, organizo e comparo situações, momentos, respostas, repetições e possíveis pontos de atenção.</p>
+          </div>
+        </li>
+        <li class="processo-item">
+          <span class="processo-item__num">02</span>
+          <div>
+            <h3>Perguntas de aprofundamento</h3>
+            <p>Quando necessário, aprofundo aspectos específicos para separar aquilo que aconteceu no final daquilo que começou a aparecer antes.</p>
+          </div>
+        </li>
+        <li class="processo-item">
+          <span class="processo-item__num">03</span>
+          <div>
+            <h3>Práticas e ferramentas de autoconhecimento</h3>
+            <p>Recursos reflexivos utilizados quando ajudam a organizar melhor o que está sendo observado.</p>
+          </div>
+        </li>
+        <li class="processo-item">
+          <span class="processo-item__num">04</span>
+          <div>
+            <h3>Integração e devolutiva</h3>
+            <p>Os elementos relevantes são organizados em uma devolutiva única, em linguagem clara e relacionada ao seu caso específico.</p>
+          </div>
+        </li>
+      </ul>
+      <p class="como-funciona__integracao">Nenhuma ferramenta decide por você. Elas ajudam a ampliar aquilo que pode ser observado.</p>
+    </div>
+  </section>
+
+  <!-- ── Ferramentas (inclui Sintonize gateado) ─────── -->
+  <section class="ferramentas" id="ferramentas">
+    <div class="container">
+      <div class="ferramentas__intro">
+        <h2>O que pode ser <span class="dourado">utilizado no seu caso</span></h2>
+        <div class="divisor"></div>
+        <p>Dependendo do relato e do que emerge no processo, diferentes recursos podem ser acionados — sempre com clareza sobre o que cada um é e o que não é.</p>
+      </div>
+      <ul class="ferramentas__lista">
+        <li class="ferramenta-item">
+          <h3>Comparação e organização de padrões</h3>
+          <p>Identificação de recorrências entre situações distintas — quando a mesma resposta aparece em contextos diferentes.</p>
+        </li>
+        <li class="ferramenta-item">
+          <h3>Práticas reflexivas e de observação</h3>
+          <p>Exercícios e perguntas que ajudam a perceber antes de reagir — utilizados quando fazem sentido para o caso.</p>
+        </li>
+        <li class="ferramenta-item">
+          <h3>Referências de desenvolvimento pessoal e espiritual</h3>
+          <p>Caminhos, práticas e perspectivas que podem iluminar o que está sendo observado, sem impor uma crença única.</p>
+        </li>
+      </ul>
+
+      <!-- SINTONIZE_GATE: este bloco está oculto enquanto a formação não for formalmente concluída -->
+      <!-- Para ativar: remover o atributo hidden abaixo e confirmar autorização de Marcos -->
+      <div class="sintonize-gate" hidden>
+        <h3>Mesa Radiônica Sintonize Prosperidade</h3>
+        <p>Quando pertinente ao caso e com o seu consentimento, o Mapeamento também pode utilizar a Mesa Radiônica Sintonize Prosperidade — metodologia espiritual e radiônica na qual Marcos Vinicius possui formação específica concluída.</p>
+        <p>A Mesa é utilizada como ferramenta complementar dentro do processo. Ela não substitui a análise concreta da sua vida, não constitui diagnóstico e não é apresentada como forma de comprovar uma causa espiritual, energética ou oculta para seus problemas.</p>
+        <p>Nenhuma crença religiosa é exigida para participar.</p>
+      </div>
+
+      <p class="ferramentas__nota">Você não precisa seguir nenhuma religião ou adotar uma crença específica para realizar o Mapeamento.</p>
+    </div>
+  </section>
+
+  <!-- ── Prova de processo ──────────────────────────── -->
+  <section class="prova-processo" id="prova-processo">
+    <div class="container">
+      <div class="prova-processo__intro">
+        <h2>Isso é o que você recebe —<br /><span class="dourado">e é feito sobre o seu caso.</span></h2>
+        <div class="divisor"></div>
+        <p>Não é um resultado automático. Não é um perfil escolhido de uma lista. É um processo feito individualmente para você.</p>
+      </div>
+      <div class="prova-grid">
+        <picture class="scene-picture">
+          <source media="(min-width: 768px)" srcset="/assets/images/prova-processo-16x9.webp" width="1200" height="675" />
+          <img src="/assets/images/prova-processo-4x5.webp"
+               alt="Exemplo visual do Mapeamento Padrão Interrompido com relatório, anotações e devolutiva em áudio."
+               class="scene-image"
+               loading="lazy"
+               decoding="async"
+               width="900"
+               height="1124" />
+        </picture>
+      </div>
+      <p class="prova-processo__nota">Quando utilizarmos material demonstrativo, identificaremos claramente: "Exemplo demonstrativo. Cada Mapeamento é individual."</p>
+    </div>
+  </section>
+
+  <!-- ── Entregáveis ────────────────────────────────── -->
+  <section class="entregaveis" id="entregaveis">
+    <div class="container">
+      <div class="entregaveis__intro">
+        <h2>O que chega<br /><span class="dourado">até você</span></h2>
+        <div class="divisor"></div>
+      </div>
+      <ul class="entregaveis__lista">
+        <li class="entrega">
+          <span class="entrega__num">01</span>
+          <div>
+            <h3>Leitura individual do seu caso</h3>
+            <p>Eu leio e organizo pessoalmente aquilo que você compartilhou. Não existe resultado automático escolhido de uma lista de perfis.</p>
+          </div>
+        </li>
+        <li class="entrega">
+          <span class="entrega__num">02</span>
+          <div>
+            <h3>Seu Mapa de recorrências e pontos de atenção</h3>
+            <p>Uma organização clara das situações que merecem ser colocadas lado a lado — o que se repete, onde aparece e o que pode merecer sua atenção primeiro.</p>
+          </div>
+        </li>
+        <li class="entrega">
+          <span class="entrega__num">03</span>
+          <div>
+            <h3>Relatório personalizado</h3>
+            <p>Seu Mapeamento por escrito, para reler e usar como referência conforme novas situações aparecerem.</p>
+          </div>
+        </li>
+        <li class="entrega">
+          <span class="entrega__num">04</span>
+          <div>
+            <h3>Áudio meu para você</h3>
+            <p>Uma devolutiva personalizada — aproximadamente 8 a 15 minutos — destacando os pontos que considero mais importantes no seu caso. Todo o processo é feito individualmente para você e não exige chamada de vídeo.</p>
+          </div>
+        </li>
+        <li class="entrega">
+          <span class="entrega__num">05</span>
+          <div>
+            <h3>O primeiro lugar para começar</h3>
+            <p>Uma reflexão, prática, observação ou ação inicial relacionada ao que parece mais útil trabalhar primeiro.</p>
+          </div>
+        </li>
+      </ul>
+    </div>
+  </section>
+
+  <!-- ── Jornada + Portal ───────────────────────────── -->
+  <section class="jornada" id="jornada">
+    <div class="container">
+      <div class="jornada__intro">
+        <h2>Você não recebe apenas um mapa.<br /><span class="dourado">Você começa a enxergar a sua vida de outro lugar.</span></h2>
+        <div class="divisor"></div>
+        <p>O documento é uma parte da entrega. O valor maior está no que começa depois que certas coisas deixam de passar despercebidas.</p>
+      </div>
+      <p>Você pode começar a:</p>
+      <ul class="jornada__lista">
+        <li class="jornada__item">reconhecer determinadas respostas mais cedo, antes de já estar no meio delas;</li>
+        <li class="jornada__item">perceber quando uma situação conhecida está começando a se formar;</li>
+        <li class="jornada__item">formular perguntas melhores antes de reagir;</li>
+        <li class="jornada__item">comparar acontecimentos que antes pareciam totalmente separados;</li>
+        <li class="jornada__item">observar com mais clareza aquilo que merece ser trabalhado primeiro.</li>
+      </ul>
+      <p class="jornada__fecha">O mapa é o registro. A jornada começa quando você volta para a sua vida enxergando mais do que enxergava antes.</p>
+
+      <div class="jornada__portal">
+        <h3>O Mapeamento é um começo. Não precisa ser o fim.</h3>
+        <p>O Portal Caminho da Consciência foi criado em torno de uma jornada progressiva de percepção, prática, reavaliação e aprofundamento.</p>
+        <p>Depois do Mapeamento, você terá algo que antes talvez não tivesse: um ponto de partida organizado. A partir daí, algumas pessoas precisarão apenas observar e aplicar o primeiro passo. Outras podem perceber que desejam continuar aprofundando aquilo que apareceu.</p>
+        <p>À medida que novas práticas e caminhos estiverem disponíveis no Portal, eles poderão ser apresentados quando fizerem sentido para o seu momento. Você nunca entra em uma sequência automática ou obrigatória.</p>
+      </div>
+    </div>
+  </section>
+
+  <!-- ── Marcos Vinicius ────────────────────────────── -->
+  <section class="marcos" id="marcos">
+    <div class="container">
+      <div class="marcos__inner">
+        <img src="/assets/images/marcos-vinicius.webp"
+             alt="Marcos Vinicius, fundador do Portal Caminho da Consciência"
+             class="marcos-photo"
+             loading="lazy"
+             decoding="async"
+             width="800"
+             height="800" />
+        <div class="marcos__bio">
+          <p class="marcos__nome">Marcos Vinicius</p>
+          <p class="marcos__titulo">Fundador do Portal Caminho da Consciência · Criador do Método Padrão Interrompido</p>
+          <p>Eu comecei a olhar para repetição porque percebi isso primeiro na minha própria vida. Algumas coisas mudavam. Eu mudava. E, depois de algum tempo, certas dificuldades encontravam outra forma de aparecer.</p>
+          <p>Foi dessa investigação que nasceu o Método Padrão Interrompido.</p>
+          <p>Eu não sou terapeuta e não estou aqui como alguém que chegou ao fim de uma jornada. Estudo, observo, testo e organizo aquilo que aprendo para construir formas mais claras de olhar para a vida.</p>
+          <p>No Mapeamento, sou eu quem lê o seu relato, organiza o caso, prepara o relatório e grava sua devolutiva.</p>
         </div>
       </div>
     </div>
   </section>
 
-  <!-- 11. Qualificação -->
-  <section class="qualificacao" id="qualificacao">
+  <!-- ── Oferta (primeiro preço na página) ─────────── -->
+  <section class="oferta" id="oferta">
     <div class="container">
-      <div class="qualificacao__intro">
-        <h2>Talvez o Mapeamento<br /><span class="dourado">faça sentido para você se...</span></h2>
+      <div class="oferta__intro">
+        <h2>Mapeamento<br /><span class="dourado">Padrão Interrompido</span></h2>
+        <div class="divisor"></div>
+        <p>Feito individualmente, por escrito e em áudio, sobre o seu caso.</p>
+      </div>
+      <div class="oferta__card">
+        <p class="oferta__nome">Mapeamento Padrão Interrompido</p>
+        <p class="oferta__subtitulo">Individual · Entregável digital</p>
+        <ul class="oferta__items">
+          <li>Leitura e organização individual do seu caso</li>
+          <li>Mapa de recorrências e pontos de atenção</li>
+          <li>Relatório personalizado por escrito</li>
+          <li>Áudio de devolutiva pessoal (8–15 minutos)</li>
+          <li>Primeiro próximo passo indicado para o seu caso</li>
+        </ul>
+        <div class="oferta__preco-wrap">
+          <p class="oferta__preco">R$&nbsp;197</p>
+          <p class="oferta__preco-detalhe">Investimento único</p>
+        </div>
+      </div>
+      <div class="oferta__cta-wrap">
+        <a href="#" class="btn-cta js-cta js-whatsapp" data-local="oferta" id="btn-wa-oferta">
+          Quero conversar sobre o meu caso →
+        </a>
+      </div>
+      <p class="oferta__nota">A primeira conversa é pelo WhatsApp. Você explica brevemente o que está vivendo e eu digo se o Mapeamento faz sentido para esse momento. Sem compromisso automático.</p>
+    </div>
+  </section>
+
+  <!-- ── FAQ ───────────────────────────────────────── -->
+  <section class="faq" id="faq">
+    <div class="container">
+      <div class="faq__intro">
+        <h2>Perguntas <span class="dourado">frequentes</span></h2>
         <div class="divisor"></div>
       </div>
-      <ul class="qualificacao__lista">
-        <li class="qualificacao__item"><p>Você já resolveu problemas concretos, mas percebe que situações parecidas continuam aparecendo de outras formas.</p></li>
-        <li class="qualificacao__item"><p>Você consegue dizer o que está dando errado, mas não consegue perceber com clareza quando aquilo começa.</p></li>
-        <li class="qualificacao__item"><p>Você já leu, estudou ou buscou autoconhecimento e sente que entende muita coisa intelectualmente — mas ainda tem dificuldade de observar isso acontecendo na vida real.</p></li>
-        <li class="qualificacao__item"><p>Você percebe que algo se repete, mas não sabe se situações de áreas diferentes realmente têm alguma relação.</p></li>
-      </ul>
-      <div class="qualificacao__gancho">
-        <p>Ou você nem consegue falar em "padrão" ainda.<br />Só consegue dizer: <span class="italic">"Tem alguma coisa aqui que eu preciso entender melhor."</span></p>
-        <p class="qualificacao__suficiente">Isso já é suficiente para começar uma conversa.</p>
+      <div class="faq__lista">
+
+        <div class="faq__item">
+          <p class="faq__pergunta">Como é feito o Mapeamento?</p>
+          <p class="faq__resposta">Você compartilha situações reais da sua vida. A partir daí, organizo as informações, comparo contextos e recorrências, e preparo uma devolutiva individual — relatório por escrito e áudio pessoal. O processo é feito por mim, sobre o seu caso.</p>
+        </div>
+
+        <div class="faq__item">
+          <p class="faq__pergunta">Preciso fazer chamada de vídeo?</p>
+          <p class="faq__resposta">Não. O processo é realizado a partir das informações que você fornece. Você recebe o relatório e o áudio sem precisar marcar reunião ou aparecer ao vivo.</p>
+        </div>
+
+        <div class="faq__item">
+          <p class="faq__pergunta">Preciso acreditar em espiritualidade?</p>
+          <p class="faq__resposta">Não. O Portal trabalha com desenvolvimento pessoal e espiritual, mas nenhuma religião ou crença específica é exigida. Você não precisa compartilhar de nenhuma visão de mundo particular para participar.</p>
+        </div>
+
+        <div class="faq__item">
+          <p class="faq__pergunta">Vou descobrir a causa dos meus problemas?</p>
+          <p class="faq__resposta">Essa não é a promessa. Podem emergir recorrências e pontos de atenção que mereçam observação, mas o Mapeamento não apresenta uma hipótese como "a causa verdadeira" da sua vida. O objetivo é ajudar você a perceber e organizar melhor — não nomear uma causa única.</p>
+        </div>
+
+        <div class="faq__item">
+          <p class="faq__pergunta">O Mapeamento vai eliminar o que está se repetindo?</p>
+          <p class="faq__resposta">Não existe essa garantia. O primeiro objetivo é ajudar você a perceber e organizar melhor o que está acontecendo, aumentando a margem para respostas mais conscientes. O que você faz com isso é sua escolha.</p>
+        </div>
+
+        <div class="faq__item">
+          <p class="faq__pergunta">E se eu não souber explicar meu problema?</p>
+          <p class="faq__resposta">Não tem problema. Você não precisa chegar sabendo qual é o seu padrão. A função do processo é justamente organizar o que hoje pode estar confuso ou difícil de nomear.</p>
+        </div>
+
+        <div class="faq__item">
+          <p class="faq__pergunta">O que acontece depois que eu receber o Mapeamento?</p>
+          <p class="faq__resposta">Você recebe o material e começa pelo ponto indicado como mais útil de observar ou trabalhar. Não existe contratação automática. Se no futuro houver outro passo disponível no Portal que faça sentido para o seu caso, ele será apresentado com clareza. Você decide se quer continuar.</p>
+        </div>
+
+        <div class="faq__item">
+          <p class="faq__pergunta">O que acontece com as informações que eu compartilhar?</p>
+          <p class="faq__resposta">As informações fornecidas são utilizadas exclusivamente para a elaboração do seu Mapeamento. Não são compartilhadas com terceiros nem usadas para outros fins. Consulte nossa <a href="/politica-de-privacidade.html" style="color:var(--dourado);">Política de Privacidade</a> para mais detalhes.</p>
+        </div>
+
+        <!-- TODO: adicionar FAQ "Em quanto tempo recebo?" somente após definição operacional do prazo -->
+
       </div>
     </div>
   </section>
 
-  <!-- 12. CTA Intermediário -->
-  <section class="cta-medio" id="cta-medio">
-    <div class="container">
-      <a href="#cta-final" class="btn-cta js-cta js-scroll-cta" data-local="cta_medio">
-        Quero entender meu caso →
-      </a>
-      <p class="cta-medio__nota">Primeiro conversamos pelo WhatsApp. Sem compromisso automático.</p>
-    </div>
-  </section>
-
-  <!-- 13. Onde o Mapeamento entra no Método -->
-  <section class="no-metodo" id="no-metodo">
-    <div class="container">
-      <div class="no-metodo__intro">
-        <h2>Onde o Mapeamento entra<br />no <span class="dourado">Método</span></h2>
-        <div class="divisor"></div>
-        <p>O Mapeamento não pretende resolver toda a jornada de uma vez. Ele ocupa um lugar específico dentro do Método Padrão Interrompido.</p>
-      </div>
-      <p class="no-metodo__jornada">Perceber → Mapear → Intervir → Praticar → Reavaliar → Aprofundar</p>
-      <div class="no-metodo__corpo">
-        <p>Primeiro você percebe melhor o que está acontecendo. Depois organiza o que se repete. Só então faz sentido decidir o que merece ser trabalhado.</p>
-        <p>O Mapeamento começa por aí: perceber e organizar o seu caso antes de tentar mudar tudo novamente.</p>
-      </div>
-    </div>
-  </section>
-
-  <!-- 14. Limites -->
+  <!-- ── Limites ─────────────────────────────────────── -->
   <section class="limites" id="limites">
     <div class="container">
       <div class="limites__intro">
-        <h2>O que este trabalho <span class="dourado">não é</span></h2>
+        <h2>O que você pode esperar —<br /><span class="dourado">e o que não seria responsável prometer</span></h2>
         <div class="divisor"></div>
-        <p>Clareza também significa saber o limite daquilo que está sendo oferecido.</p>
       </div>
-      <p style="text-align:center;color:var(--champagne);font-size:0.9rem;margin-bottom:1.5rem;">O Mapeamento:</p>
-      <ul class="lista-limites">
-        <li class="limite"><span class="limite__dash">—</span><p>não é psicoterapia;</p></li>
-        <li class="limite"><span class="limite__dash">—</span><p>não é diagnóstico clínico;</p></li>
-        <li class="limite"><span class="limite__dash">—</span><p>não é tratamento médico ou psicológico;</p></li>
-        <li class="limite"><span class="limite__dash">—</span><p>não é perícia;</p></li>
-        <li class="limite"><span class="limite__dash">—</span><p>não é previsão;</p></li>
-        <li class="limite"><span class="limite__dash">—</span><p>não revela destino;</p></li>
-        <li class="limite"><span class="limite__dash">—</span><p>não identifica uma "causa secreta" da sua vida;</p></li>
-        <li class="limite"><span class="limite__dash">—</span><p>não promete eliminar padrões;</p></li>
-        <li class="limite"><span class="limite__dash">—</span><p>não promete transformação imediata;</p></li>
-        <li class="limite"><span class="limite__dash">—</span><p>não atribui automaticamente problemas concretos a causas energéticas ou espirituais;</p></li>
-        <li class="limite"><span class="limite__dash">—</span><p>não substitui acompanhamento médico, psicológico, jurídico, financeiro ou outro profissional quando necessário.</p></li>
-      </ul>
+      <div class="limites__positivo">
+        <strong>Você pode esperar:</strong> um olhar individual sobre o seu caso, organização cuidadosa das situações que você trouxer, devolutiva clara em texto e áudio, e um primeiro ponto de observação ou ação.
+      </div>
+      <div class="limites__negativo">
+        <p>O Mapeamento não é psicoterapia, diagnóstico, tratamento médico ou psicológico, perícia ou previsão.</p>
+        <p>Não revela destino. Não promete encontrar uma causa única. Não promete eliminar padrões ou produzir transformação imediata.</p>
+        <p>Não substitui profissionais de saúde, direito, finanças ou outras áreas quando necessários.</p>
+        <p>A dimensão espiritual, quando utilizada, não é apresentada como causa exclusiva de um problema concreto.</p>
+      </div>
       <p class="limites__nota">E você não precisa seguir nenhuma religião ou adotar uma crença específica para participar.</p>
     </div>
   </section>
 
-  <!-- 15. Marcos -->
-  <section class="quem-conduz" id="quem-conduz">
-    <div class="container">
-      <div class="quem-conduz__inner">
-        <div class="quem-conduz__avatar" aria-hidden="true">M</div>
-        <div class="quem-conduz__bio">
-          <h2 class="quem-conduz__nome">Marcos</h2>
-          <p class="quem-conduz__titulo">Fundador do Portal Caminho da Consciência · Criador do Método Padrão Interrompido</p>
-          <p>Eu não comecei a olhar para repetição porque tinha todas as respostas. Comecei porque percebi isso na minha própria vida.</p>
-          <p>Algumas coisas mudavam. Eu mudava. Mas, algum tempo depois, certas dificuldades encontravam outra forma de aparecer.</p>
-          <p>Em 2023, consegui fazer mudanças importantes nos meus hábitos, alimentação e organização. Depois, minha rotina mudou. E algumas dificuldades que eu achava que estavam resolvidas começaram a aparecer novamente. Aquilo me deixou com uma pergunta que acabou ficando muito maior: <em>O que volta quando o cenário muda?</em></p>
-          <p>Foi essa investigação que ajudou a dar origem ao Método Padrão Interrompido.</p>
-          <p>Eu não sou terapeuta e não quero ocupar esse lugar. Também não estou aqui como alguém que chegou ao fim de uma jornada. Estudo, observo, testo, organizo e procuro transformar aquilo que aprendo em formas mais claras de olhar para a vida. É desse lugar que eu faço o seu Mapeamento.</p>
-        </div>
-      </div>
-    </div>
-  </section>
-
-  <!-- 16. FAQ -->
-  <section class="faq" id="faq">
-    <div class="container">
-      <div class="faq__intro">
-        <h2>Perguntas frequentes</h2>
-        <div class="divisor"></div>
-      </div>
-      <div class="faq__lista">
-        <div class="faq__item">
-          <p class="faq__pergunta">Preciso fazer uma chamada de vídeo?</p>
-          <p class="faq__resposta">Não. O formato atual é assíncrono. O processo é realizado a partir das informações estruturadas que você fornece, seguido da elaboração da sua devolutiva.</p>
-        </div>
-        <div class="faq__item">
-          <p class="faq__pergunta">O que eu recebo?</p>
-          <p class="faq__resposta">Um relatório autoral em PDF, um áudio personalizado e, quando fizer sentido, uma reflexão, prática ou ação inicial relacionada ao que merece sua atenção primeiro.</p>
-        </div>
-        <div class="faq__item">
-          <p class="faq__pergunta">Preciso acreditar em espiritualidade?</p>
-          <p class="faq__resposta">Não. O Portal também trabalha com desenvolvimento espiritual, mas nenhuma religião ou crença específica é exigida para realizar o Mapeamento.</p>
-        </div>
-        <div class="faq__item">
-          <p class="faq__pergunta">Vou descobrir a causa dos meus problemas?</p>
-          <p class="faq__resposta">Essa não é a promessa. Podem aparecer recorrências e possíveis conexões que mereçam observação, mas o Mapeamento não apresenta uma hipótese como "a causa verdadeira" da sua vida.</p>
-        </div>
-        <div class="faq__item">
-          <p class="faq__pergunta">O Mapeamento vai eliminar meu padrão?</p>
-          <p class="faq__resposta">Não existe essa garantia. O objetivo inicial é ajudar você a perceber e organizar melhor o que está acontecendo, para que consiga identificar o que merece atenção primeiro.</p>
-        </div>
-        <div class="faq__item">
-          <p class="faq__pergunta">O que acontece depois que eu receber o Mapeamento?</p>
-          <p class="faq__resposta">Você recebe seu material para consultar e começa pelo ponto que foi indicado como mais útil para observar ou trabalhar. Não existe contratação automática nem próximo produto obrigatório. Se futuramente houver outro passo que faça sentido para o seu caso e esteja disponível no Portal, isso será apresentado com clareza. Você decide se quer continuar.</p>
-        </div>
-        <div class="faq__item">
-          <p class="faq__pergunta">Mas e se eu não souber explicar o meu problema?</p>
-          <p class="faq__resposta">Não tem problema. Você não precisa chegar sabendo qual é seu padrão. Na verdade, se já estivesse tudo claro, talvez nem precisasse de um Mapeamento. A função do processo é justamente organizar o que hoje pode estar confuso.</p>
-        </div>
-      </div>
-    </div>
-  </section>
-
-  <!-- 17. O Mapeamento é uma entrada -->
-  <section class="portal-entrada" id="portal-entrada">
-    <div class="container">
-      <div class="portal-entrada__corpo">
-        <h2 class="portal-entrada__titulo">O Mapeamento é uma entrada.<br /><span class="dourado">O Portal é o caminho.</span></h2>
-        <div class="divisor"></div>
-        <p>O Portal Caminho da Consciência é maior que esta primeira experiência.</p>
-        <p>O Mapeamento foi criado como um ponto de partida: ajudar você a enxergar melhor o que está acontecendo antes de decidir o que fazer com isso.</p>
-        <p>A partir daí, cada próximo passo deve existir apenas quando fizer sentido — para a pessoa e para o momento da jornada.</p>
-        <p>Você não entra em uma sequência obrigatória de produtos.</p>
-      </div>
-    </div>
-  </section>
-
-  <!-- 18. CTA Final -->
+  <!-- ── CTA Final ───────────────────────────────────── -->
   <section class="cta-final" id="cta-final">
     <div class="container">
       <h2 class="cta-final__headline">
-        Talvez você não precise<br /><span class="dourado">tentar tudo de novo.</span>
+        Talvez você não precise<br /><span class="dourado">começar tudo de novo.</span>
       </h2>
       <div class="divisor"></div>
       <div class="cta-final__corpo">
-        <p>Talvez precise enxergar melhor o que acontece antes.</p>
-        <p>Se dinheiro, trabalho, relações, rotina ou outras partes da sua vida continuam levando você para lugares conhecidos, podemos começar colocando essas situações lado a lado.</p>
-        <p>Sem diagnóstico. Sem fórmula pronta. Sem promessa de que existe uma única causa escondida por trás de tudo.</p>
-        <p>Só o seu caso, organizado com atenção suficiente para você enxergar melhor o que merece ser trabalhado primeiro.</p>
+        <p>Talvez precise perceber mais cedo onde a história começa a se repetir.</p>
+        <p>Se dinheiro, trabalho, relações, decisões, rotina ou outras partes da sua vida continuam levando você para lugares conhecidos, podemos começar organizando o seu caso.</p>
+        <p>Sem fórmula pronta. Sem um resultado automático. Sem promessa de uma explicação secreta. Com atenção suficiente para você enxergar o que hoje pode estar passando despercebido — e saber onde começar.</p>
       </div>
-      <a href="#" class="btn-cta js-cta js-whatsapp" data-local="cta-final" id="btn-wa-final">
-        Conversar sobre o meu caso →
-      </a>
-      <p class="cta-final__nota">
-        Mapeamento Padrão Interrompido — Individual<br />
-        Relatório autoral + áudio personalizado + primeiro próximo passo · R$197<br />
-        Primeiro conversamos pelo WhatsApp. Sem compromisso automático.
-      </p>
+      <div class="cta-final__oferta-resumo">
+        <strong>Mapeamento Padrão Interrompido</strong>
+        <p>Relatório personalizado + áudio de 8–15 min + primeiro próximo passo</p>
+        <p>R$ 197 · investimento único</p>
+      </div>
+      <div style="text-align:center;">
+        <a href="#" class="btn-cta js-cta js-whatsapp" data-local="cta-final" id="btn-wa-final">
+          Conversar sobre o meu caso →
+        </a>
+      </div>
+      <p class="cta-final__nota">Primeiro conversamos pelo WhatsApp. Sem compromisso automático.</p>
     </div>
   </section>
 
-  </main>
+</main>
 
-  <!-- 19. Footer -->
-  <footer class="footer">
-    <div class="container">
-      <p class="footer__logo">Portal Caminho da Consciência</p>
-      <p class="footer__texto">
-        O cenário muda. O padrão volta. A consciência pode mudar o caminho.<br />
-        Desenvolvimento pessoal e espiritual aplicado à vida real.<br />
-        Método Padrão Interrompido · portalcaminhodaconsciencia.com.br
-      </p>
-      <div class="footer__links">
-        <a href="mailto:contato@portalcaminhodaconsciencia.com.br">Contato</a>
-        <a href="#">Política de Privacidade</a>
-      </div>
-      <p class="footer__texto" style="margin-top:1.5rem;font-size:0.72rem;">
-        © <span id="ano"></span> Portal Caminho da Consciência. Todos os direitos reservados.
-      </p>
-    </div>
-  </footer>
-
-  <script>
-    (function () {
-      'use strict';
-
-      // Ano no footer
-      var anoEl = document.getElementById('ano');
-      if (anoEl) anoEl.textContent = new Date().getFullYear();
-
-      // UTM + Google Ads identifiers capture
-      function getUtms() {
-        var p = new URLSearchParams(window.location.search);
-        var keys = ['utm_source','utm_medium','utm_campaign','utm_content','utm_term',
-                    'gclid','gbraid','wbraid'];
-        var u = {};
-        keys.forEach(function(k){ if(p.get(k)) u[k] = p.get(k); });
-        return u;
-      }
-
-      var utms = getUtms();
-
-      // WhatsApp URL builder
-      function waUrl() {
-        var num = '55013996083913';
-        var msg = 'Olá, vi o Mapeamento Padrão Interrompido no Portal Caminho da Consciência e gostaria de entender se ele faz sentido para o meu caso.';
-        var url = 'https://wa.me/' + num + '?text=' + encodeURIComponent(msg);
-        if (Object.keys(utms).length) {
-          url += '&' + new URLSearchParams(utms).toString();
-        }
-        return url;
-      }
-
-      // Ajustar botão WhatsApp do CTA final
-      var btnFinal = document.getElementById('btn-wa-final');
-      if (btnFinal) {
-        btnFinal.href = waUrl();
-        btnFinal.target = '_blank';
-        btnFinal.rel = 'noopener noreferrer';
-      }
-
-      // Offer constants
-      var OFFER_ID   = 'mapping_pattern_interrupted_v1';
-      var OFFER_NAME = 'Mapeamento Padrão Interrompido';
-      var OFFER_VAL  = 197;
-      var OFFER_CUR  = 'BRL';
-
-      // Meta Pixel: ViewContent no page load
-      if (typeof fbq === 'function') {
-        fbq('track', 'ViewContent', Object.assign({
-          content_name: OFFER_NAME,
-          content_category: 'Desenvolvimento Pessoal',
-          value: OFFER_VAL,
-          currency: OFFER_CUR
-        }, utms));
-      }
-
-      // GA4/GTM: session_context
-      dataLayer.push({
-        event: 'session_context',
-        offer_id:     OFFER_ID,
-        offer_name:   OFFER_NAME,
-        offer_value:  OFFER_VAL,
-        offer_currency: OFFER_CUR,
-        gclid:        utms.gclid        || null,
-        gbraid:       utms.gbraid       || null,
-        wbraid:       utms.wbraid       || null,
-        utm_source:   utms.utm_source   || null,
-        utm_medium:   utms.utm_medium   || null,
-        utm_campaign: utms.utm_campaign || null,
-        utm_content:  utms.utm_content  || null,
-        utm_term:     utms.utm_term     || null
-      });
-
-      // Section view — IntersectionObserver
-      var sectionMap = {
-        'hero':          'hero',
-        'nao-precisa':   'nao_precisa_saber',
-        'lugar-util':    'lugar_util',
-        'microteste':    'microteste',
-        'apresentacao':  'apresentacao_mapeamento',
-        'o-que-observo': 'o_que_observo',
-        'oferta':        'entregaveis',
-        'pode-mudar':    'o_que_pode_mudar',
-        'porque-197':    'porque_197',
-        'qualificacao':  'qualificacao',
-        'cta-medio':     'cta_medio',
-        'no-metodo':     'no_metodo',
-        'limites':       'limites',
-        'quem-conduz':   'quem_conduz',
-        'faq':           'faq',
-        'portal-entrada':'portal_entrada',
-        'cta-final':     'cta_final'
-      };
-      if ('IntersectionObserver' in window) {
-        var sectionObserver = new IntersectionObserver(function(entries) {
-          entries.forEach(function(entry) {
-            if (entry.isIntersecting) {
-              var el = entry.target;
-              var key = el.id || el.className.split(' ')[0];
-              var name = sectionMap[key] || key;
-              dataLayer.push({ event: 'section_view', section_name: name });
-              sectionObserver.unobserve(el);
-            }
-          });
-        }, { threshold: 0.3 });
-        document.querySelectorAll('section').forEach(function(s) {
-          sectionObserver.observe(s);
-        });
-      }
-
-      // Scroll depth — 25 / 50 / 75 / 90
-      var scrollFired = {};
-      var thresholds  = [25, 50, 75, 90];
-      window.addEventListener('scroll', function() {
-        var pct = Math.round(
-          (window.scrollY / (document.documentElement.scrollHeight - window.innerHeight)) * 100
-        );
-        thresholds.forEach(function(t) {
-          if (!scrollFired[t] && pct >= t) {
-            scrollFired[t] = true;
-            dataLayer.push({ event: 'scroll_depth', scroll_depth_threshold: t });
-          }
-        });
-      }, { passive: true });
-
-      // Delegação de cliques
-      document.addEventListener('click', function(e) {
-        var el = e.target.closest('a, button');
-        if (!el) return;
-
-        // Scroll suave para âncora interna
-        if (el.classList.contains('js-scroll-cta')) {
-          var href = el.getAttribute('href');
-          if (href && href.startsWith('#')) {
-            var dest = document.querySelector(href);
-            if (dest) {
-              e.preventDefault();
-              dest.scrollIntoView({ behavior: 'smooth', block: 'start' });
-            }
-          }
-        }
-
-        // CTA genérico → offer_cta_click
-        if (el.classList.contains('js-cta')) {
-          var local = el.getAttribute('data-local') || 'unknown';
-          if (typeof fbq === 'function') {
-            fbq('trackCustom', 'offer_cta_click', { local: local });
-          }
-          dataLayer.push({
-            event:          'offer_cta_click',
-            cta_local:      local,
-            offer_id:       OFFER_ID,
-            offer_name:     OFFER_NAME,
-            offer_value:    OFFER_VAL,
-            offer_currency: OFFER_CUR
-          });
-        }
-
-        // WhatsApp direto → whatsapp_click
-        if (el.classList.contains('js-whatsapp')) {
-          var wLocal = el.getAttribute('data-local') || 'unknown';
-          if (typeof fbq === 'function') {
-            fbq('trackCustom', 'whatsapp_click', { local: wLocal });
-          }
-          dataLayer.push({
-            event:          'whatsapp_click',
-            cta_local:      wLocal,
-            offer_id:       OFFER_ID,
-            offer_name:     OFFER_NAME,
-            offer_value:    OFFER_VAL,
-            offer_currency: OFFER_CUR
-          });
-        }
-      });
-    })();
-  </script>
-
-  <!-- Cookie Consent Banner -->
-  <div id="pcc-banner" role="region" aria-label="Aviso de cookies" hidden>
-    <p>
-      Este site usa cookies para análise e desempenho.
-      Ao continuar, você concorda com nossa
-      <a href="#" aria-label="Política de privacidade">Política de Privacidade</a>.
+<!-- Footer -->
+<footer class="footer">
+  <div class="container">
+    <p class="footer__logo">Portal Caminho da Consciência</p>
+    <p class="footer__texto">
+      O cenário muda. O padrão volta. A consciência pode mudar o caminho.<br />
+      Desenvolvimento pessoal e espiritual aplicado à vida real.<br />
+      Método Padrão Interrompido · portalcaminhodaconsciencia.com.br
     </p>
-    <div class="pcc-btns">
-      <button class="pcc-btn pcc-btn--decline" id="pcc-decline">Recusar cookies</button>
-      <button class="pcc-btn pcc-btn--accept" id="pcc-accept">Aceitar</button>
+    <div class="footer__links">
+      <a href="mailto:contato@portalcaminhodaconsciencia.com.br">Contato</a>
+      <a href="/politica-de-privacidade.html">Política de Privacidade</a>
+      <a href="/termos-de-uso.html">Termos de Uso</a>
     </div>
+    <p class="footer__copy">© <span id="ano"></span> Portal Caminho da Consciência. Todos os direitos reservados.</p>
   </div>
+</footer>
 
-  <script>
-    (function () {
-      var STORAGE_KEY = 'pcc_consent';
-      var banner = document.getElementById('pcc-banner');
+<script>
+  (function () {
+    'use strict';
 
-      function applyConsent(state) {
-        gtag('consent', 'update', {
-          analytics_storage:  state,
-          ad_storage:         state,
-          ad_user_data:       state,
-          ad_personalization: state
+    var anoEl = document.getElementById('ano');
+    if (anoEl) anoEl.textContent = new Date().getFullYear();
+
+    function getUtms() {
+      var p = new URLSearchParams(window.location.search);
+      var keys = ['utm_source','utm_medium','utm_campaign','utm_content','utm_term',
+                  'gclid','gbraid','wbraid'];
+      var u = {};
+      keys.forEach(function(k){ if(p.get(k)) u[k] = p.get(k); });
+      return u;
+    }
+
+    var utms = getUtms();
+
+    function waUrl() {
+      var num = '55013996083913';
+      var msg = 'Olá, vi o Mapeamento Padrão Interrompido no Portal Caminho da Consciência e gostaria de entender se ele faz sentido para o meu caso.';
+      var url = 'https://wa.me/' + num + '?text=' + encodeURIComponent(msg);
+      if (Object.keys(utms).length) {
+        url += '&' + new URLSearchParams(utms).toString();
+      }
+      return url;
+    }
+
+    // Atribuir URL WhatsApp a todos os botões da classe js-whatsapp
+    var waHref = waUrl();
+    document.querySelectorAll('.js-whatsapp').forEach(function(btn) {
+      btn.href = waHref;
+      btn.target = '_blank';
+      btn.rel = 'noopener noreferrer';
+    });
+
+    var OFFER_ID   = 'mapping_pattern_interrupted_v1';
+    var OFFER_NAME = 'Mapeamento Padrão Interrompido';
+    var OFFER_VAL  = 197;
+    var OFFER_CUR  = 'BRL';
+
+    if (typeof fbq === 'function') {
+      fbq('track', 'ViewContent', Object.assign({
+        content_name: OFFER_NAME,
+        content_category: 'Desenvolvimento Pessoal',
+        value: OFFER_VAL,
+        currency: OFFER_CUR
+      }, utms));
+    }
+
+    dataLayer.push({
+      event: 'session_context',
+      offer_id:       OFFER_ID,
+      offer_name:     OFFER_NAME,
+      offer_value:    OFFER_VAL,
+      offer_currency: OFFER_CUR,
+      gclid:          utms.gclid        || null,
+      gbraid:         utms.gbraid       || null,
+      wbraid:         utms.wbraid       || null,
+      utm_source:     utms.utm_source   || null,
+      utm_medium:     utms.utm_medium   || null,
+      utm_campaign:   utms.utm_campaign || null,
+      utm_content:    utms.utm_content  || null,
+      utm_term:       utms.utm_term     || null
+    });
+
+    var sectionMap = {
+      'hero':           'hero',
+      'dores':          'dores',
+      'cenas':          'cenas',
+      'agitacao':       'agitacao',
+      'virada':         'virada',
+      'microteste':     'microteste',
+      'transformacao':  'transformacao',
+      'mapeamento':     'mapeamento',
+      'como-funciona':  'como_funciona',
+      'ferramentas':    'ferramentas',
+      'prova-processo': 'prova_processo',
+      'entregaveis':    'entregaveis',
+      'jornada':        'jornada',
+      'marcos':         'marcos',
+      'oferta':         'oferta',
+      'faq':            'faq',
+      'limites':        'limites',
+      'cta-final':      'cta_final'
+    };
+
+    if ('IntersectionObserver' in window) {
+      var sectionObserver = new IntersectionObserver(function(entries) {
+        entries.forEach(function(entry) {
+          if (entry.isIntersecting) {
+            var id = entry.target.id;
+            var name = sectionMap[id] || id;
+            dataLayer.push({ event: 'section_view', section_name: name });
+            sectionObserver.unobserve(entry.target);
+          }
+        });
+      }, { threshold: 0.3 });
+      document.querySelectorAll('section[id]').forEach(function(s) {
+        sectionObserver.observe(s);
+      });
+    }
+
+    var scrollFired = {};
+    var thresholds  = [25, 50, 75, 90];
+    window.addEventListener('scroll', function() {
+      var pct = Math.round(
+        (window.scrollY / (document.documentElement.scrollHeight - window.innerHeight)) * 100
+      );
+      thresholds.forEach(function(t) {
+        if (!scrollFired[t] && pct >= t) {
+          scrollFired[t] = true;
+          dataLayer.push({ event: 'scroll_depth', scroll_depth_threshold: t });
+        }
+      });
+    }, { passive: true });
+
+    document.addEventListener('click', function(e) {
+      var el = e.target.closest('a, button');
+      if (!el) return;
+
+      if (el.classList.contains('js-scroll-cta')) {
+        var href = el.getAttribute('href');
+        if (href && href.startsWith('#')) {
+          var dest = document.querySelector(href);
+          if (dest) {
+            e.preventDefault();
+            dest.scrollIntoView({ behavior: 'smooth', block: 'start' });
+          }
+        }
+      }
+
+      if (el.classList.contains('js-cta')) {
+        var local = el.getAttribute('data-local') || 'unknown';
+        if (typeof fbq === 'function') {
+          fbq('trackCustom', 'offer_cta_click', { local: local });
+        }
+        dataLayer.push({
+          event:          'offer_cta_click',
+          cta_local:      local,
+          offer_id:       OFFER_ID,
+          offer_name:     OFFER_NAME,
+          offer_value:    OFFER_VAL,
+          offer_currency: OFFER_CUR
         });
       }
 
-      function hideBanner() {
-        banner.classList.remove('pcc-visible');
-        setTimeout(function () { banner.hidden = true; }, 400);
+      if (el.classList.contains('js-whatsapp')) {
+        var wLocal = el.getAttribute('data-local') || 'unknown';
+        if (typeof fbq === 'function') {
+          fbq('trackCustom', 'whatsapp_click', { local: wLocal });
+        }
+        dataLayer.push({
+          event:          'whatsapp_click',
+          cta_local:      wLocal,
+          offer_id:       OFFER_ID,
+          offer_name:     OFFER_NAME,
+          offer_value:    OFFER_VAL,
+          offer_currency: OFFER_CUR
+        });
       }
+    });
+  })();
+</script>
 
-      document.getElementById('pcc-accept').addEventListener('click', function () {
-        try { localStorage.setItem(STORAGE_KEY, 'granted'); } catch(e) {}
-        applyConsent('granted');
-        hideBanner();
+<!-- Cookie Consent Banner -->
+<div id="pcc-banner" role="region" aria-label="Aviso de cookies" hidden>
+  <p>
+    Este site usa cookies para análise e desempenho.
+    Ao continuar, você concorda com nossa
+    <a href="/politica-de-privacidade.html" aria-label="Política de privacidade">Política de Privacidade</a>.
+  </p>
+  <div class="pcc-btns">
+    <button class="pcc-btn pcc-btn--decline" id="pcc-decline">Recusar cookies</button>
+    <button class="pcc-btn pcc-btn--accept" id="pcc-accept">Aceitar</button>
+  </div>
+</div>
+
+<script>
+  (function () {
+    var STORAGE_KEY = 'pcc_consent';
+    var banner = document.getElementById('pcc-banner');
+
+    function applyConsent(state) {
+      gtag('consent', 'update', {
+        analytics_storage:  state,
+        ad_storage:         state,
+        ad_user_data:       state,
+        ad_personalization: state
       });
+    }
 
-      document.getElementById('pcc-decline').addEventListener('click', function () {
-        try { localStorage.setItem(STORAGE_KEY, 'denied'); } catch(e) {}
-        applyConsent('denied');
-        hideBanner();
-      });
+    function hideBanner() {
+      banner.classList.remove('pcc-visible');
+      setTimeout(function () { banner.hidden = true; }, 400);
+    }
 
-      /* Mostrar banner apenas se sem escolha anterior */
-      try {
-        var stored = localStorage.getItem(STORAGE_KEY);
-      } catch(e) { var stored = null; }
+    document.getElementById('pcc-accept').addEventListener('click', function () {
+      try { localStorage.setItem(STORAGE_KEY, 'granted'); } catch(e) {}
+      applyConsent('granted');
+      hideBanner();
+    });
 
-      if (!stored) {
-        banner.hidden = false;
-        setTimeout(function () { banner.classList.add('pcc-visible'); }, 1500);
-      }
-    })();
-  </script>
+    document.getElementById('pcc-decline').addEventListener('click', function () {
+      try { localStorage.setItem(STORAGE_KEY, 'denied'); } catch(e) {}
+      applyConsent('denied');
+      hideBanner();
+    });
+
+    try { var stored = localStorage.getItem(STORAGE_KEY); } catch(e) { var stored = null; }
+
+    if (!stored) {
+      banner.hidden = false;
+      setTimeout(function () { banner.classList.add('pcc-visible'); }, 1500);
+    }
+  })();
+</script>
 
 </body>
 </html>

@@ -986,6 +986,13 @@ Nenhum agente está autorizado, sem nova decisão explícita, a:
 | 01/09/2026 | Documento 03.B incorporado ao repositório (V1.0) | EXECUTADO | mapa editorial mestre — Big Ideas, Cenas, Ganchos, Aquisição |
 | 02/09/2026 | Copy da página de vendas reescrita e publicada em produção | EXECUTADO | nova baseline da página — branch `feat/copy-rewrite-pagina-vendas-2026-09-02`, HEAD `b48da53` |
 | 02/09/2026 | Áudio personalizado 8–15min passa a ser entregável formal do Mapeamento | FECHADO | Marcos assume operacionalmente para todos os compradores |
+| 02/09/2026 | GA4 corrigido — Consent Mode v2 defaults alterados para 'granted' + banner LGPD implementado | EXECUTADO | analytics voltou a registrar dados; banner localStorage-based com Accept/Decline |
+| 02/09/2026 | Performance: Google Fonts async + preload woff2 + @font-face fallback CLS + landmark `<main>` + contrast footer | EXECUTADO | TBT 150→70ms; acessibilidade 89→92 |
+| 02/09/2026 | `politica-de-privacidade.html` criada | EXECUTADO | LGPD-compliant, 11 seções + disclaimer saúde + disclaimer plataformas |
+| 02/09/2026 | `termos-de-uso.html` criada | EXECUTADO | CDC art.49, PI, direito de arrependimento + disclaimer saúde + disclaimer plataformas |
+| 02/09/2026 | Links do footer e banner de cookies atualizados para as novas páginas legais | EXECUTADO | fim de `href="#"` nos links de privacidade |
+| 02/09/2026 | Sales Page V2 implementada localmente — rewrite completo do `index.html` | PENDENTE AUTORIZAÇÃO | 18 seções, arquitetura de persuasão, tracking preservado, Sintonize gate `hidden`, sem commit/deploy |
+| 02/09/2026 | Assets de imagem implementados em `assets/images/` — 10 WebP de cenas + marcos-vinicius.webp | EXECUTADO | convertidos de PNG com Pillow, qualidade 85, mobile 4:5 + desktop 16:9; `<picture>` responsivo em todas as seções |
 
 ---
 
