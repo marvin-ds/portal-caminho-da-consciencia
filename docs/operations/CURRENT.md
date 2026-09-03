@@ -156,10 +156,13 @@ A página vigente:
 
 ## P0 — próximos dias
 
-> **Crescimento orgânico do YouTube + conclusão da formação Sintonize + alinhamento documental.**
+> **Máquina editorial: 1 Short/Reel de reconhecimento silencioso por dia + 2 vídeos longos por semana. Infraestrutura técnica encerrada.**
+
+A página, o tracking e o consentimento estão em produção e aprovados. O foco sai de infraestrutura e vai para aquisição → audiência → reconhecimento → Mapeamento → conversão.
 
 Não é prioridade imediata:
 
+- alterações na sales page (somente com dado real);
 - Google Ads;
 - Radar;
 - app;
@@ -1186,13 +1189,58 @@ Deve permanecer:
 **O que ficou pendente:** nada — gate encerrado.
 
 **Branch:** `main`
-**HEAD:** `9dc79347d65df09688751dcaff01491525dd275c`
-**origin/main:** `9dc79347d65df09688751dcaff01491525dd275c`
+**HEAD:** `6d0d1db04971420ace087f2781b6ec6d5eefa3bd`
+**origin/main:** `6d0d1db04971420ace087f2781b6ec6d5eefa3bd`
 **Working tree:** limpo
 **Deploy:** produção `portalcaminhodaconsciencia.com.br` — aprovado
 **Blockers:** nenhum.
-**Próxima ação:** foco em aquisição, conteúdo e conversão.
+**Próxima ação:** máquina editorial — Shorts/Reels diários + vídeos longos.
 
 ---
 
 # GATE LGPD / CONSENT MODE V2 — APROVADO ✅
+
+---
+
+# PARTE XVIII — ESTADO DE ENTREGA
+
+# 49. Estado operacional — 03/09/2026
+
+**Para Codex ou qualquer agente que assuma a partir daqui:**
+
+## Estado técnico verificável
+
+| Item | Estado | Commit |
+|---|---|---|
+| Sales Page V2 | ✅ PRODUCTION APPROVED | `d123fef` |
+| LGPD / Consent Mode V2 | ✅ PRODUCTION APPROVED | `9dc7934` |
+| CURRENT.md atualizado | ✅ | `6d0d1db` |
+
+**Branch:** `main`  
+**HEAD / origin/main:** `6d0d1db04971420ace087f2781b6ec6d5eefa3bd`  
+**Working tree:** limpo  
+**Domínio:** `portalcaminhodaconsciencia.com.br`  
+**Deploy:** Netlify — `push main` = deploy automático de produção
+
+## Infraestrutura encerrada
+
+- `index.html` — não alterar por percepção estética ou hipótese; somente com dado real
+- `politica-de-privacidade.html` — alinhada à LGPD; não alterar sem mudança real de prática
+- GTM / GA4 / Consent Mode v2 / Meta Pixel — operacional; não reconfigurar sem gate explícito
+
+## Próximo ciclo (não técnico)
+
+Foco em **máquina editorial**:
+- 1 Short/Reel de reconhecimento silencioso por dia
+- 2 vídeos longos por semana
+- Acumular backlog; deixar dados indicarem o que ampliar
+- Não iniciar tráfego pago antes de dado que justifique
+
+## Restrições ativas para Codex
+
+1. Não alterar `index.html` sem instrução explícita de Marcos com dado real
+2. Não criar novo commit de código sem gate autorizado
+3. Não configurar `purchase` / `close_convert_lead` até integração de pagamento real
+4. Não usar "terapeuta" ou "certificado" antes de certificação formal
+5. Não adicionar material Sintonize ao repositório
+6. PROJECT TARGET CHECK FIRST — confirmar projeto/repo/branch antes de executar qualquer instrução anexada
