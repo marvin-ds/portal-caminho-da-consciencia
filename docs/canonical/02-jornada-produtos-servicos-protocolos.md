@@ -1,11 +1,11 @@
 # PORTAL CAMINHO DA CONSCIÊNCIA
-## Documento 02 — Jornada de Transformação, Produtos, Serviços e Protocolos — V2.3
+## Documento 02 — Jornada de Transformação, Produtos, Serviços e Protocolos — V2.4
 
 **STATUS CANÔNICO:** arquitetura oficial da experiência, jornada, produtos, serviços e protocolos do ecossistema  
 **DATA:** 04/09/2026  
 **HORIZONTE:** ciclo inicial de 90 dias + arquitetura de longo prazo  
-**DOCUMENTOS SUPERIORES:** Documento 00 — Matriz de Governança Conceitual, Propriedade Intelectual e Posicionamento — V1.3; Documento 01 — Fundacional, Estratégico e Plano Executivo Canônico — V4.3  
-**SUBSTITUI:** Documento 02 — V2.2
+**DOCUMENTOS SUPERIORES:** Documento 00 — Matriz de Governança Conceitual, Propriedade Intelectual e Posicionamento — V1.3; Documento 01 — Fundacional, Estratégico e Plano Executivo Canônico — V4.4  
+**SUBSTITUI:** Documento 02 — V2.3
 
 > **Do reconhecimento à transformação. Da transformação à integração. Da integração ao aprofundamento da consciência.**
 
@@ -15,7 +15,7 @@
 
 Este documento define **como uma pessoa evolui dentro do Portal Caminho da Consciência**, quais ofertas podem existir em cada etapa, como elas se conectam, quais metodologias podem ser utilizadas e quais fronteiras precisam ser preservadas para que o ecossistema seja útil, humano, responsável, sustentável e coerente.
 
-A V2.3 preserva essa arquitetura e incorpora a definição executiva da **Sessão Individual Sintonize Prosperidade** como oferta separada em `DESIGN_READY / PILOT_PENDING`, com formato assíncrono como padrão, atendimento ao vivo opcional, duas rotas de entrada e integração pós-sessão de 7 dias.
+A V2.4 preserva integralmente a Jornada, ofertas, preços e regras da V2.3 e acrescenta apenas a camada transversal aprovada da **Plataforma da Jornada**, com **Meu Caminho** como nome recomendado da experiência autenticada. A Plataforma não cria uma nova etapa da Jornada nem uma nova oferta: ela materializa continuidade, retomada, entregas, registros, progresso de alto nível e próximos passos legítimos quando essas funções forem úteis.
 
 O documento está organizado em dezoito partes:
 
@@ -114,7 +114,7 @@ Cria-se produto quando existem:
 - As **8 Prosperidades da Sintonize** pertencem à arquitetura oficial da própria Sintonize.
 - Protocolos oficiais Sintonize não são Protocolos Padrão Interrompido.
 - O Radar não é Mesa digital, pêndulo virtual, diagnóstico energético ou medidor de frequência.
-- Marcos não adotará “terapeuta” como identidade profissional pública do Portal.
+- Marcos não adotará "terapeuta" como identidade profissional pública do Portal.
 - Qualificação ou certificação específica só será comunicada depois de formalmente concluída.
 - O cliente deve compreender o que está comprando, como será conduzido e o que não está sendo prometido.
 - Personalização não pode ser simulada por automação.
@@ -151,13 +151,13 @@ Ela entra em um **caminho progressivo de percepção, aprendizado, transformaç�
 
 Esse caminho pode começar por uma situação extremamente concreta:
 
-- “Meu dinheiro melhora e depois volta a apertar.”
-- “Eu mudo de trabalho e algum tempo depois tudo começa a parecer igual.”
-- “Eu entro em relações diferentes e acabo fazendo as mesmas concessões.”
-- “Eu começo um projeto, avanço até certo ponto e travo.”
-- “Eu decido me cuidar e abandono quando a rotina muda.”
-- “Eu procuro espiritualidade quando a vida aperta e depois me afasto.”
-- “Eu sei o que deveria fazer, mas continuo adiando o mesmo movimento.”
+- "Meu dinheiro melhora e depois volta a apertar."
+- "Eu mudo de trabalho e algum tempo depois tudo começa a parecer igual."
+- "Eu entro em relações diferentes e acabo fazendo as mesmas concessões."
+- "Eu começo um projeto, avanço até certo ponto e travo."
+- "Eu decido me cuidar e abandono quando a rotina muda."
+- "Eu procuro espiritualidade quando a vida aperta e depois me afasto."
+- "Eu sei o que deveria fazer, mas continuo adiando o mesmo movimento."
 
 O papel do Portal é ajudar a pessoa a ampliar gradualmente a pergunta:
 
@@ -202,6 +202,35 @@ Essa separação é deliberada:
 - **esteira** descreve quais produtos podem ocupar cada etapa;
 - **ferramenta** descreve como determinado ponto pode ser trabalhado, quando pertinente.
 
+## 3.A. Plataforma da Jornada — camada transversal, não etapa
+
+A arquitetura digital autenticada do Portal passa a ser concebida como **Plataforma da Jornada**, com o nome recomendado **Meu Caminho** para a experiência do usuário.
+
+Ela não altera:
+
+- a Jornada pública de seis estágios;
+- a função de cada produto;
+- preços;
+- critérios de progressão;
+- autonomia para encerrar sem comprar outra oferta.
+
+Ela existe para responder, quando aplicável:
+
+> **onde a pessoa está → o que já realizou → o que está em andamento → quais registros/entregas possui → qual é a próxima ação legítima.**
+
+Princípios:
+
+- não começar por catálogo de produtos;
+- não estruturar o Portal como "curso → módulo → aula" por padrão;
+- mostrar prioritariamente experiências possuídas ou ativas;
+- permitir que "nenhum próximo produto" seja um estado válido;
+- compartilhar infraestrutura transversal sem misturar os dados íntimos de cada domínio;
+- preservar entrega humana no Mapeamento e na Sintonize;
+- não exigir login antes do primeiro valor de O Minuto Anterior;
+- usar autenticação/progresso somente quando a experiência justificar retorno, histórico, persistência ou entrega privada.
+
+A implementação e os contratos técnicos permanecem subordinados à SPEC transversal e aos Gates PJ-00/PJ-02.
+
 ---
 
 # PARTE II — JORNADA MACRO DO CLIENTE
@@ -210,7 +239,7 @@ Essa separação é deliberada:
 
 ## Estado da pessoa
 
-“Tenho um problema que dói, pesa, trava ou se repete — e quero uma resposta.”
+"Tenho um problema que dói, pesa, trava ou se repete — e quero uma resposta."
 
 Ela pode chegar pela dor, pela busca de intervenção, por uma técnica ou por uma pergunta de autoconhecimento.
 
@@ -233,13 +262,13 @@ Conteúdo, Google Search, YouTube Search, SEO, anúncios, indicação, lead magn
 
 ## Estado da pessoa
 
-> **“Isso sou eu.”**
+> **"Isso sou eu."**
 
 A comunicação descreve a dor concreta antes de explicar o padrão.
 
 ## Sequência comercial preferencial
 
-> **dor visceral → consequência concreta → consequência emocional → sensação de bloqueio/travamento → repetição → “de novo” → desejo de próximo passo.**
+> **dor visceral → consequência concreta → consequência emocional → sensação de bloqueio/travamento → repetição → "de novo" → desejo de próximo passo.**
 
 ## Transformação esperada
 
@@ -251,7 +280,7 @@ A pessoa consegue nomear melhor o que está vivendo e perceber pelo menos um mov
 
 ## Estado da pessoa
 
-> **“Quero entender como isso acontece no meu caso.”**
+> **"Quero entender como isso acontece no meu caso."**
 
 ## Oferta central
 
@@ -275,7 +304,7 @@ O objetivo é reconstruir episódios e organizar:
 
 ## Estado da pessoa
 
-> **“Agora quero fazer alguma coisa com isso.”**
+> **"Agora quero fazer alguma coisa com isso."**
 
 ## Gate de escolha
 
@@ -351,6 +380,8 @@ A esteira econômica e de transformação passa a ser:
 
 > **Conteúdo/Search → O Minuto Anterior → Produto por Dor (~R$97) → Mapeamento PI 2.0 (R$197 vigente) → Sintonize / Ciclo PI → Premium**
 
+**Meu Caminho não entra nessa seta como oferta.** É uma camada transversal de experiência que pode acompanhar várias dessas etapas sem fabricar progressão comercial.
+
 Esse fluxo não é obrigatório. Existem atalhos legítimos:
 
 - Busca por Mesa/Sintonize → página da técnica → triagem → Sintonize, quando pertinente;
@@ -424,7 +455,7 @@ Perguntas-base:
 
 - captar lead;
 - entregar valor imediato;
-- ensinar a linguagem do “minuto anterior”;
+- ensinar a linguagem do "minuto anterior";
 - preparar o Mapeamento;
 - servir como ponte para produtos por dor.
 
@@ -453,7 +484,7 @@ Estrutura de referência:
 
 Dor de entrada:
 
-> **“O dinheiro entra e some. Eu organizo, melhora um pouco e depois aperta de novo.”**
+> **"O dinheiro entra e some. Eu organizo, melhora um pouco e depois aperta de novo."**
 
 Objetivo não é prometer prosperidade. É ajudar a observar como a pessoa se relaciona com decisões, acompanhamento, medo, adiamento e respostas recorrentes ao dinheiro.
 
@@ -463,7 +494,7 @@ Preço de teste: **aproximadamente R$97**.
 
 Dor de entrada:
 
-> **“Eu sei o que preciso fazer. Só continuo deixando para depois.”**
+> **"Eu sei o que preciso fazer. Só continuo deixando para depois."**
 
 Só deve ser produzido depois de aprendermos com Dinheiro.
 
@@ -514,7 +545,7 @@ A pessoa deve receber:
 
 ## Resultado ideal
 
-> **“Agora eu consigo perceber melhor como isso começa e sei onde vale olhar ou experimentar algo diferente primeiro.”**
+> **"Agora eu consigo perceber melhor como isso começa e sei onde vale olhar ou experimentar algo diferente primeiro."**
 
 ---
 
@@ -539,7 +570,7 @@ Fluxo-base:
 
 # 20. O que o Mapeamento deve evitar
 
-- diagnosticar “bloqueios”;
+- diagnosticar "bloqueios";
 - procurar causa secreta;
 - transformar correlação em causalidade;
 - dizer que dois contextos têm necessariamente a mesma origem;
@@ -596,7 +627,7 @@ Fluxo preferencial:
 
 > **dor → esclarecimento de necessidade → limites → triagem → Sintonize / Mapeamento / ação concreta / outro encaminhamento.**
 
-Não dizer “você precisa de Sintonize” apenas porque a keyword contém “bloqueio”.
+Não dizer "você precisa de Sintonize" apenas porque a keyword contém "bloqueio".
 
 ---
 
@@ -634,7 +665,7 @@ O fluxo-base é:
 
 > **qualificação → pagamento → anamnese + consentimento → confirmação da intenção → sessão manual → Registro da Sua Sessão → áudio personalizado → integração de 7 dias → D7**
 
-“Assíncrono” não significa Mesa automática, IA, pêndulo virtual, atendimento em lote ou protocolo genérico.
+"Assíncrono" não significa Mesa automática, IA, pêndulo virtual, atendimento em lote ou protocolo genérico.
 
 ## 25.2. Modalidade opcional — ao vivo
 
@@ -717,7 +748,7 @@ Esses dados servem para aprendizado de produto e **não são instrumento clínic
 
 A formação foi informada como concluída em 03/09/2026. A titulação pública exata continua condicionada ao certificado/documento registrado no CURRENT.
 
-Marcos não adota “terapeuta” como identidade pública padrão.
+Marcos não adota "terapeuta" como identidade pública padrão.
 
 ---
 
@@ -817,7 +848,7 @@ Quando houver competência, consentimento e legitimidade:
 - radiestesia/radiônica quando legitimamente aplicáveis;
 - outras técnicas futuras adequadamente estudadas.
 
-Uma técnica pertencente à Sintonize não se torna “autoral” apenas porque foi combinada com outras.
+Uma técnica pertencente à Sintonize não se torna "autoral" apenas porque foi combinada com outras.
 
 ---
 
@@ -863,7 +894,7 @@ Arquitetura:
 4. prática/observação orientada;
 5. check-ins curtos quando necessários;
 6. reavaliação;
-7. mapa “antes × depois × próximo passo”.
+7. mapa "antes × depois × próximo passo".
 
 Sintonize pode integrar o Ciclo **quando pertinente**, sem se tornar obrigatória.
 
@@ -876,7 +907,7 @@ Preço de referência discutido: **R$897–1.197**, ainda hipótese de validaç�
 - cura;
 - resultado financeiro;
 - reconciliação;
-- “desbloqueio” garantido.
+- "desbloqueio" garantido.
 
 A duração define a experiência, não a promessa.
 
@@ -952,7 +983,7 @@ Possíveis formatos:
 
 Sempre que possível, **uma reavaliação básica deve estar incluída em intervenções e jornadas relevantes**.
 
-Isso evita transformar “medir o depois” em um upsell automático.
+Isso evita transformar "medir o depois" em um upsell automático.
 
 ---
 
@@ -962,7 +993,7 @@ Isso evita transformar “medir o depois” em um upsell automático.
 
 A recorrência do Portal não será construída sobre:
 
-> “Você precisa continuar porque algo ruim pode voltar se parar.”
+> "Você precisa continuar porque algo ruim pode voltar se parar."
 
 Ela deve existir porque a pessoa deseja:
 
@@ -1140,6 +1171,7 @@ Essa liberdade precisa ser preservada.
 | Radar | Futuro / não prioritário | A definir | Não desenvolver neste ciclo sem evidência de necessidade |
 | Comunidade | Futuro | A definir | Só com razão clara de permanência |
 | Formação Padrão Interrompido | Longo prazo | A definir | Somente após validação robusta do método |
+
 ---
 
 # 47. Regra de preço
@@ -1167,11 +1199,11 @@ Preço de uma metodologia específica também deve respeitar os limites comercia
 
 O Portal não pergunta primeiro:
 
-> “Qual upsell oferecemos?”
+> "Qual upsell oferecemos?"
 
 Pergunta:
 
-> **“Qual é o próximo passo legítimo para esta pessoa?”**
+> **"Qual é o próximo passo legítimo para esta pessoa?"**
 
 Possíveis respostas:
 
@@ -1462,7 +1494,7 @@ Quando surgir questão fora do escopo, reconhecer o limite.
 
 Uma oferta precisa ser redesenhada se sua lógica implícita for:
 
-> **“Você precisa voltar porque sem nós sua energia ficará vulnerável ou algo ruim acontecerá.”**
+> **"Você precisa voltar porque sem nós sua energia ficará vulnerável ou algo ruim acontecerá."**
 
 O objetivo é ampliar autonomia.
 
@@ -1507,6 +1539,18 @@ Se uma implementação depender desses conteúdos, deve ser interrompida até ex
 # PARTE XVII — ROADMAP DE IMPLEMENTAÇÃO
 
 # 65. Próximos 7 dias — prioridade vigente
+
+A execução passa a ter duas trilhas paralelas, sem interromper os produtos:
+
+### Trilha A — produtos
+
+Cada produto continua em seu chat e em seus gates próprios.
+
+### Trilha B — convergência transversal
+
+Executar **PJ-00 → PJ-01 → PJ-02** como sequência prioritariamente de inspeção e decisão. PJ-00 não autoriza migração, instalação, refactor transversal, DNS ou deploy.
+
+Se um produto ficar pronto antes do núcleo compartilhado, ele pode ser lançado de forma segura conforme sua SPEC, registrando dívida de convergência deliberada.
 
 Para a Sintonize, a prioridade passa a ser transformar a SPEC + Addendum em operação executável:
 
@@ -1632,14 +1676,14 @@ Se houver compra e valor percebido:
 # 71. O que não construir agora
 
 - dezenas de protocolos;
-- “Sintonize digital”;
+- "Sintonize digital";
 - pêndulo virtual;
 - banco de crenças extraído da formação;
 - curso próprio copiando Sintonize;
 - formação profissional Padrão Interrompido;
 - marketplace de terapeutas/facilitadores;
 - comunidade grande;
-- app complexo;
+- LMS genérico, catálogo autenticado ou app complexo sem necessidade comprovada;
 - múltiplas Mesas próprias;
 - certificação de terceiros;
 - franquia;
@@ -1673,7 +1717,7 @@ Se houver compra e valor percebido:
 
 **FECHADO — 09.** Mapeamento não é diagnóstico.
 
-**FECHADO — 10.** Marcos não usa “terapeuta” como identidade pública padrão.
+**FECHADO — 10.** Marcos não usa "terapeuta" como identidade pública padrão.
 
 **FECHADO — 11.** A autorização informada permite aplicação comercial da Sintonize e futuros derivados dentro dos limites reais, sem transferência de autoria da metodologia.
 
@@ -1709,7 +1753,31 @@ Se houver compra e valor percebido:
 
 ---
 
+**FECHADO — PLATAFORMA 01.** O conceito transversal aprovado é **Plataforma da Jornada**, não área de membros/LMS convencional.
+
+**FECHADO — PLATAFORMA 02.** **Meu Caminho** é o nome recomendado da experiência autenticada.
+
+**FECHADO — PLATAFORMA 03.** Meu Caminho não é produto, etapa nova ou obrigação de progressão.
+
+**FECHADO — PLATAFORMA 04.** O Minuto Anterior permanece sem login obrigatório antes da entrega de valor.
+
+**FECHADO — PLATAFORMA 05.** Produtos compartilham apenas contratos transversais; conteúdos íntimos permanecem em domínios próprios.
+
+**FECHADO — PLATAFORMA 06.** MakerKit Lite + construção própria foi escolhido para investigação brownfield, com decisão definitiva após PJ-00/PJ-02.
+
 # 73. Decisões abertas
+
+Além das decisões específicas de produto já registradas, permanecem abertas até PJ-00/PJ-02:
+
+- modo A/B/C de adoção do MakerKit Lite;
+- repositório/monorepo definitivo;
+- projeto Supabase e estratégia de ambientes;
+- modelo final de autenticação e vínculo contato ↔ identidade;
+- contratos finais de `orders`, `payments`, `entitlements`, `enrollments` e `deliveries`;
+- namespaces de rotas, storage e estratégia de deploy;
+- integração exata de cada produto com Meu Caminho.
+
+Esses itens não devem ser tratados como estado implementado antes dos gates.
 
 1. nomenclatura pública final da qualificação de Marcos após registro documental;
 2. SLA definitivo do assíncrono após piloto;
@@ -1754,10 +1822,10 @@ Antes de criar produto, responder:
 # 75. Relação com os demais documentos
 
 - **Documento 00** — governa fronteiras conceituais, autoria, propriedade intelectual, Sintonize e posicionamento.
-- **Documento 01 — V4.3** — governa propósito, estratégia e princípios.
+- **Documento 01 — V4.4** — governa propósito, estratégia e princípios.
 - **Documento 03** — deve transformar esta arquitetura em sistema editorial, aquisição e experimentação.
 - **Documento 04** — deve traduzir as ofertas em voz, identidade e comunicação responsável.
-- **Documento 05** — deve definir infraestrutura sem digitalizar material protegido.
+- **Documento 05** — governa infraestrutura; até PJ-00/PJ-02, a SPEC transversal da Plataforma da Jornada governa os detalhes de investigação sem transformar referência em implementação.
 - **Documento 06 — CURRENT** — registra status real, gates, preços vigentes, certificação, operação e próximos passos.
 
 ---
@@ -1766,27 +1834,27 @@ Antes de criar produto, responder:
 
 ## Entrada
 
-> **Descobrir:** “isso está doendo, travando ou se repetindo.”
+> **Descobrir:** "isso está doendo, travando ou se repetindo."
 
 ## Reconhecimento
 
-> **“Isso sou eu.”**
+> **"Isso sou eu."**
 
 ## Organização
 
-> **Mapear:** “agora consigo enxergar a sequência e o ponto que merece atenção.”
+> **Mapear:** "agora consigo enxergar a sequência e o ponto que merece atenção."
 
 ## Trabalho
 
-> **“Quero experimentar algo diferente nesse ponto.”**
+> **"Quero experimentar algo diferente nesse ponto."**
 
 ## Integração
 
-> **“Estou observando, praticando e reavaliando o que realmente muda.”**
+> **"Estou observando, praticando e reavaliando o que realmente muda."**
 
 ## Aprofundamento
 
-> **“Quero continuar meu desenvolvimento para além desta dor inicial.”**
+> **"Quero continuar meu desenvolvimento para além desta dor inicial."**
 
 ---
 
@@ -1826,7 +1894,7 @@ Antes de criar produto, responder:
 
 # 80. Governança da versão
 
-Esta V2.2 substitui integralmente a V2.1.
+Esta V2.4 substitui integralmente a V2.3.
 
 Ela deve ser revisada apenas quando houver mudança real na arquitetura de produto, incluindo:
 
@@ -1842,12 +1910,12 @@ Ela deve ser revisada apenas quando houver mudança real na arquitetura de produ
 
 Mudanças operacionais cotidianas pertencem ao CURRENT.
 
-# 80. Controle de versão — V2.3
+# 80. Controle de versão — V2.4
 
-**VERSÃO:** V2.3  
+**VERSÃO:** V2.4  
 **DATA:** 04/09/2026  
-**SUBSTITUI:** V2.2  
-**MOTIVO:** incorporar a Sessão Individual Sintonize Prosperidade assíncrona como oferta específica em piloto, com modalidade ao vivo opcional, preços de validação, entregáveis, duas rotas de entrada, métricas e gates atualizados.  
-**IMPACTO:** jornada TRABALHAR → INTEGRAR, esteira, preços/status, prática controlada e governança de continuidade.
+**SUBSTITUI:** V2.3  
+**MOTIVO:** incorporar a decisão transversal da Plataforma da Jornada / Meu Caminho sem alterar a Jornada pública, ofertas, preços ou mecanismos dos produtos.  
+**IMPACTO:** adiciona uma camada digital transversal de continuidade, explicita que Meu Caminho não é produto/etapa, registra a estratégia de convergência brownfield e cria dependência explícita dos Gates PJ-00/PJ-02 para integração técnica.
 
-**Fim do Documento 02 — Jornada de Transformação, Produtos, Serviços e Protocolos — V2.3.**
+**Fim do Documento 02 — Jornada de Transformação, Produtos, Serviços e Protocolos — V2.4.**
