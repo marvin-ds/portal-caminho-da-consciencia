@@ -41,9 +41,11 @@ CURRENT.md                          ← estado operacional, não contrariar 00�
 | `04-identidade-voz-espiritualidade-comunicacao.md` | Design, paleta, tipografia, voz, claims, compliance |
 | `05-arquitetura-tecnica-dados-ecossistema.md` | Infra, banco, deploy, integrações, LGPD, segurança |
 
-## Documento operacional (`docs/operations/`)
+## Documentos operacionais (`docs/operations/`)
 
-`CURRENT.md` — estado real do projeto agora: gate, branch, HEAD, deploys, blockers, pendências e próximos passos.
+- `CURRENT.md` — estado real do projeto agora: gate, branch, HEAD, deploys, blockers, pendências e próximos passos.
+- `SITE_INSTITUCIONAL_BASELINE.md` — baseline protegida do site institucional; rotas, arquivos, infra e SHAs de produção.
+- `EXECUTION_CONTEXT_AND_SITE_GUARDRAILS.md` — guardrails obrigatórios para Claude Code e todos os agentes: CTX-00, classificação de superfície (INSTITUTIONAL_NETLIFY / PRODUCT_APP_VERCEL), arquivos protegidos, regras de staging e Sintonize.
 
 ## Regras para Claude Code e agentes de IA
 

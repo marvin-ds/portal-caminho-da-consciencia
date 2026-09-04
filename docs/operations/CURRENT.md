@@ -1,11 +1,11 @@
 # PORTAL CAMINHO DA CONSCIÊNCIA
-## Documento 06 — CURRENT, Decisões e Plano Operacional Vivo — V2.2
+## Documento 06 — CURRENT, Decisões e Plano Operacional Vivo — V2.4
 
 **STATUS:** documento operacional vivo  
-**DATA DE CORTE:** 03/09/2026  
+**DATA DE CORTE:** 04/09/2026  
 **HORIZONTE:** estado atual + próximos 7–14 dias  
 **FUNÇÃO:** manter Marcos, ChatGPT, Claude Code, Codex e demais agentes alinhados sobre o que é fato, o que está decidido, o que está pendente e qual é o próximo movimento  
-**SUBSTITUI:** Documento 06 — CURRENT — V2.1
+**SUBSTITUI:** Documento 06 — CURRENT — V2.2/V2.3
 
 > **Onde estamos. O que já foi decidido. O que está pendente. Qual é o próximo movimento.**
 
@@ -203,7 +203,7 @@ Porta 2 é prioridade para conversão imediata. O orgânico continua trabalhando
 | 03.E — Execução Editorial | V1.1 | fila orgânica + comercial |
 | 04 — Identidade e Comunicação | V2.2 | linguagem visceral / claims |
 | 05 — Arquitetura Técnica | V2.0 | mantido até novo gate técnico |
-| 06 — CURRENT | V2.2 | este arquivo |
+| 06 — CURRENT | V2.4 | este arquivo |
 
 Não criar novo documento numerado enquanto esta arquitetura comportar as decisões.
 
@@ -1024,6 +1024,15 @@ Nenhum agente está autorizado, sem nova decisão explícita, a:
 | 03/09/2026 | Página do Mapeamento movida para `/mapeamento/` | EXECUTADO LOCALMENTE | baseline comercial preservada fora da raiz; pendente commit/deploy |
 | 03/09/2026 | Home institucional V1 implementada na raiz | EXECUTADO LOCALMENTE | `portal_home_v1`, CTA principal para `/mapeamento/`, ofertas não-live ocultas, tracking institucional; QA local básica aprovada; pendente revisão humana/commit/deploy |
 | 04/09/2026 | Patch mínimo pós-auditoria Home V1 | EXECUTADO LOCALMENTE | `favicon.ico` criado na raiz, `rel="icon"` adicionado em `/` e `/mapeamento/`, consentimento da Home passa a recarregar ao mudar de `granted` para `denied`; pendente revalidação Claude/commit/deploy |
+| 04/09/2026 | Home V1.1.1 — Experiência Viva | APROVADO ✅ | imagem cena-sobrecarga corrigida mobile (height:190px); rodapé com logo-simbolo 72px; links rodapé empilhados mobile; frase Sintonize removida do rodapé; SHA 78769c3 em produção |
+| 04/09/2026 | GATE SITE-FINAL-01 aberto | EM ANDAMENTO | separação definitiva Mapeamento/Sintonize; edições em mapeamento/index.html e termos-de-uso.html; branch fix/finalize-institutional-site |
+| 04/09/2026 | Separação Mapeamento/Sintonize no /mapeamento/ | EXECUTADO NO BRANCH | removida sintonize-card; continuidade e FAQ q4/q8 atualizados; Sintonize referenciada apenas como oferta distinta e futura |
+| 04/09/2026 | Termos de Uso alinhados ao Mapeamento atual | EXECUTADO NO BRANCH | data 04/09/2026; sec.2 com entregáveis completos + parágrafo de separação Sintonize; sec.4 cláusula geral; sec.5 entregáveis; sec.7 carve-out PI Sintonize terceiros |
+| 04/09/2026 | SITE_INSTITUCIONAL_BASELINE.md criado | EXECUTADO | baseline protegida do site institucional versioned em docs/operations/ |
+| 04/09/2026 | EXECUTION_CONTEXT_AND_SITE_GUARDRAILS.md criado | EXECUTADO | CTX-00, classificação de superfície, arquivos protegidos, regra de novos produtos, regra Sintonize |
+| 04/09/2026 | AGENTS.md criado | EXECUTADO | guardrails para Codex e demais agentes |
+| 04/09/2026 | CLAUDE.md atualizado | EXECUTADO | referências aos dois docs operacionais de guardrail |
+| 04/09/2026 | scripts/verify-institutional-baseline.ps1 criado | EXECUTADO | script PowerShell de verificação semântica e de integridade da baseline |
 
 ---
 
@@ -1102,4 +1111,4 @@ Deve permanecer:
 
 ---
 
-> **Fim do Documento 06 — CURRENT, Decisões e Plano Operacional Vivo — V2.2.**
+> **Fim do Documento 06 — CURRENT, Decisões e Plano Operacional Vivo — V2.4.**
