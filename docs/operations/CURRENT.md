@@ -1033,6 +1033,7 @@ Nenhum agente está autorizado, sem nova decisão explícita, a:
 | 04/09/2026 | AGENTS.md criado | EXECUTADO | guardrails para Codex e demais agentes |
 | 04/09/2026 | CLAUDE.md atualizado | EXECUTADO | referências aos dois docs operacionais de guardrail |
 | 04/09/2026 | scripts/verify-institutional-baseline.ps1 criado | EXECUTADO | script PowerShell de verificação semântica e de integridade da baseline |
+| 04/09/2026 | GATE SITE-FINAL-01 — merge e deploy | APROVADO ✅ | branch fix/finalize-institutional-site mergeado em main; push origin main; HEAD 341fe65; deploy Netlify disparado |
 
 ---
 

@@ -92,6 +92,6 @@ Qualquer alteração nas rotas protegidas exige:
 | Campo | Valor |
 |---|---|
 | INSTITUTIONAL_BASELINE_BEFORE_FINALIZATION | `78769c3e619ad6a342dd7226834aa29b9691a7af` |
-| FINAL_MAIN_HEAD | _a preencher após merge final_ |
-| FINAL_NETLIFY_DEPLOY_ID | _a preencher após deploy_ |
+| FINAL_MAIN_HEAD | `341fe650a47d24171a8659f12729eac97f755ee1` |
+| FINAL_NETLIFY_DEPLOY_ID | _verificar em painel Netlify após build_ |
 | DATA | 04/09/2026 |
