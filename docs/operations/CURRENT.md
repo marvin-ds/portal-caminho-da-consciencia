@@ -1,11 +1,11 @@
 # PORTAL CAMINHO DA CONSCIÊNCIA
-## Documento 06 — CURRENT, Decisões e Plano Operacional Vivo — V2.0
+## Documento 06 — CURRENT, Decisões e Plano Operacional Vivo — V2.2
 
 **STATUS:** documento operacional vivo  
-**DATA DE CORTE:** 02/09/2026  
+**DATA DE CORTE:** 03/09/2026  
 **HORIZONTE:** estado atual + próximos 7–14 dias  
 **FUNÇÃO:** manter Marcos, ChatGPT, Claude Code, Codex e demais agentes alinhados sobre o que é fato, o que está decidido, o que está pendente e qual é o próximo movimento  
-**SUBSTITUI:** Documento 06 — CURRENT — V1.0
+**SUBSTITUI:** Documento 06 — CURRENT — V2.1
 
 > **Onde estamos. O que já foi decidido. O que está pendente. Qual é o próximo movimento.**
 
@@ -92,23 +92,26 @@ Quando houver conflito:
 
 # 1. Identidade vigente
 
-**Marca principal:** Portal Caminho da Consciência
+**Marca principal:** Portal Caminho da Consciência  
+**Método autoral:** Método Padrão Interrompido 2.0  
+**Mecanismo central:** Ponto de Interrupção  
+**Unidade prática:** Sequência Recorrente Observável
 
-**Método autoral:** Método Padrão Interrompido
+**7 movimentos:**
 
-**Território verbal de aquisição:** “voltar ao mesmo lugar”
+> **PERCEBER → RECONSTRUIR → COMPARAR → LOCALIZAR → ESCOLHER → EXPERIMENTAR → REAVALIAR**
 
-**Jornada macro:**
+**Jornada pública:**
 
-> **Reconhecer → Compreender → Mapear → Intervir → Praticar → Reavaliar → Integrar → Aprofundar**
+> **DESCOBRIR → RECONHECER → MAPEAR → TRABALHAR → INTEGRAR → APROFUNDAR**
 
 **Frase filosófica:**
 
 > **O cenário muda. O padrão volta. A consciência pode mudar o caminho.**
 
-**Posicionamento:**
+**Regra comercial:**
 
-> ecossistema de desenvolvimento pessoal e espiritual aplicado à vida real, com método próprio, práticas, aprendizado, integração e aprofundamento progressivo.
+> **dor visceral → consequências → travamento/bloqueio percebido → repetição → “de novo” → próximo passo.**
 
 ---
 
@@ -116,62 +119,70 @@ Quando houver conflito:
 
 ## Portal Caminho da Consciência
 
-Marca e ecossistema maior.
+Ecossistema e caminho maior.
 
 ## Método Padrão Interrompido
 
-Método autoral do Portal.
+Método autoral de 7 movimentos.
+
+## Mapeamento Padrão Interrompido
+
+Produto autoral de organização do caso. Evolução para V2.0 aprovada; implementação ainda pendente.
 
 ## Mesa Radiônica Sintonize Prosperidade
 
-Metodologia/ferramenta espiritual específica de terceiros.
+Metodologia/ferramenta espiritual específica de terceiros. Formação informada como concluída.
 
 ## Regra
 
-> **Sintonize pode integrar determinadas experiências; não define a marca inteira e não pertence intelectualmente ao Portal.**
+> **Padrão Interrompido organiza, localiza, escolhe e reavalia. Sintonize pode trabalhar um ponto quando pertinente.**
 
 ---
 
-# 3. Oferta pública atual
+# 3. Ofertas e arquitetura comercial atual
 
-**Oferta:** Mapeamento Padrão Interrompido — Individual  
-**Preço público atual:** R$197  
-**Formato público atual:** experiência individual / assíncrona  
-**CTA comercial:** WhatsApp  
-**Página:** `https://portalcaminhodaconsciencia.com.br`
+## Oferta pública em produção
 
-A página vigente:
+**Mapeamento Padrão Interrompido — Individual — R$197**  
+Página: `https://portalcaminhodaconsciencia.com.br/mapeamento/`
 
-- já utiliza a nova marca;
-- não contém referências públicas indevidas à antiga identidade;
-- não utiliza depoimentos não autorizados;
-- não utiliza order bump;
-- não apresenta Sintonize como componente obrigatório;
-- foi validada em mobile e desktop;
-- possui tracking vigente.
+A página atual permanece baseline até a revisão deliberada para Mapeamento 2.0.
+
+## Próximas ofertas priorizadas
+
+1. **O Minuto Anterior** — lead magnet simples;
+2. **Produto Dinheiro** — primeiro infoproduto por dor, ~R$97 como hipótese de teste;
+3. **Produto Procrastinação** — segundo teste, somente depois de Dinheiro;
+4. **Sintonize Individual** — oferta a estruturar/validar;
+5. **Ciclo Padrão Interrompido — 21 dias** — flagship prioritário a pilotar;
+6. **Premium** — aprofundamento seletivo depois de validação.
+
+## Meta econômica
+
+Meta final: **R$30.000 líquidos em 90 dias**.  
+Meta operacional de planejamento: **aproximadamente R$45–47 mil de receita**, sujeita à margem real.
 
 ---
 
 # 4. Prioridade atual
 
-## P0 — próximos dias
+## P0
 
-> **Máquina editorial: 1 Short/Reel de reconhecimento silencioso por dia + 2 vídeos longos por semana. Infraestrutura técnica encerrada.**
+> **DOC-SYNC + MAPEAMENTO 2.0 + PRODUTO DINHEIRO + PRÁTICA SINTONIZE CONTROLADA + CRESCIMENTO YOUTUBE.**
 
-A página, o tracking e o consentimento estão em produção e aprovados. O foco sai de infraestrutura e vai para aquisição → audiência → reconhecimento → Mapeamento → conversão.
+## Regra comercial
 
-Não é prioridade imediata:
+Porta 2 é prioridade para conversão imediata. O orgânico continua trabalhando as quatro portas.
 
-- alterações na sales page (somente com dado real);
-- Google Ads;
-- Radar;
+## Não é prioridade imediata
+
 - app;
-- CRM próprio;
-- nova automação;
-- protocolo digital;
-- integração Sintonize ao site;
-- mudança da oferta;
-- Gate R4.
+- comunidade;
+- formação;
+- catálogo de protocolos;
+- automatização da Sintonize;
+- produto Procrastinação antes do gate de Dinheiro;
+- reconstrução técnica complexa sem oferta validada.
 
 ---
 
@@ -179,19 +190,22 @@ Não é prioridade imediata:
 
 # 5. Documentos canônicos vigentes
 
-A arquitetura oficial agora possui nove documentos (00 a 06, com 03.A e 03.B complementares):
-
-| Documento | Versão atual | Função |
+| Documento | Versão após esta revisão | Estado |
 |---|---:|---|
-| 00 — Matriz de Governança Conceitual, PI e Posicionamento | V1.0 | fronteiras Portal × Padrão Interrompido × Sintonize |
-| 01 — Fundacional, Estratégico e Plano Executivo | **V4.0** | propósito, estratégia e direção |
-| 02 — Jornada, Produtos, Serviços e Protocolos | **V2.0** | jornada e ofertas |
-| 03 — Sistema Editorial, Aquisição e Experimentação | **V2.0** | conteúdo, crescimento e testes |
-| **03.A — Regra Complementar — Percepção Antes da Explicação** | **V1.0** | arquitetura psicológica do conteúdo; lido em conjunto com 03 |
-| **03.B — Mapa Editorial Mestre — Big Ideas, Cenas, Soluções, Oferta, Ganchos e Arquitetura de Aquisição** | **V1.0** | mapa operacional de aquisição; lido em conjunto com 03 e 03.A |
-| 04 — Identidade, Voz, Espiritualidade e Comunicação | **V2.0** | marca, voz, claims e apresentação |
-| 05 — Arquitetura Técnica, Dados e Ecossistema Digital | **V2.0** | tecnologia, dados e IA |
-| 06 — CURRENT, Decisões e Plano Operacional Vivo | **V2.0** | estado atual |
+| 00 — Governança Conceitual | V1.2 | novo método / PI / Porta 2 |
+| 01 — Fundacional Estratégico | V4.2 | nova estratégia / meta / esteira |
+| 02 — Jornada, Produtos e Serviços | V2.2 | nova jornada / Mapeamento 2.0 / Ciclo |
+| 03 — Editorial e Aquisição | V2.2 | Porta 2 + orgânico 4 portas |
+| 03.A — Percepção Antes da Explicação | V1.0 | mantido |
+| 03.B — Mapa Editorial | V1.2 | dores viscerais / ofertas |
+| 03.C — Banco de Reels | V1.1 | camada comercial |
+| 03.D — Prompts / Search / Copy | V2.2 | novos prompts de resposta direta |
+| 03.E — Execução Editorial | V1.1 | fila orgânica + comercial |
+| 04 — Identidade e Comunicação | V2.2 | linguagem visceral / claims |
+| 05 — Arquitetura Técnica | V2.0 | mantido até novo gate técnico |
+| 06 — CURRENT | V2.2 | este arquivo |
+
+Não criar novo documento numerado enquanto esta arquitetura comportar as decisões.
 
 ---
 
@@ -287,39 +301,6 @@ Concluído:
 
 ---
 
-## Sales Page V2 — Mapeamento Padrão Interrompido
-
-**STATUS:** ✅ PRODUCTION APPROVED
-
-Concluído:
-
-- rewrite completo do `index.html` (22 blocos estruturais, 17 `section[id]`);
-- hero 4 linhas, Manrope, seções creme, FAQ accordion, Sintonize visível;
-- disclaimers, sectionMap atualizado;
-- validação completa em produção em `d123fef9a6955d1d39884313215452e0172fd0f4`.
-
----
-
-## LGPD / Consent Mode v2 — Hardening de Privacidade
-
-**STATUS:** ✅ PRODUCTION APPROVED
-
-Concluído:
-
-- Google Consent Mode default `denied` para os 4 sinais;
-- Meta Pixel condicionado via `initMetaPixels()` idempotente;
-- `<noscript>` dos dois Pixels removidos;
-- eventos CTA condicionados ao consentimento;
-- botão "Preferências de cookies" no footer;
-- revogação `granted → denied` com reload; `denied → granted` sem reload;
-- `politica-de-privacidade.html` com distinção Necessárias / Medição e publicidade;
-- 10 cenários aprovados localmente + smoke test em produção.
-
-`commit`: `9dc79347d65df09688751dcaff01491525dd275c`  
-`origin/main`: `9dc79347d65df09688751dcaff01491525dd275c`
-
----
-
 # 8. Gates adiados / não iniciados
 
 ## R3C — Google Search
@@ -338,18 +319,19 @@ Reabrir quando houver decisão deliberada de investir em tráfego pago.
 
 ## R4 — Operação Comercial e Entrega
 
-**STATUS:** NÃO INICIADO / ADIADO
+**STATUS:** PARCIALMENTE DESTRAVADO / AINDA NÃO ABERTO
 
-Não abrir ainda.
+A pré-condição “concluir a formação” foi satisfeita por informação de Marcos em 03/09/2026.
 
-Pré-condições:
+Pré-condições remanescentes:
 
-1. concluir formalmente a formação Sintonize;
-2. registrar certificação;
-3. decidir como Sintonize entra ou não na oferta;
-4. realizar prática controlada;
-5. fechar formulário, relatório, pagamento e entrega;
-6. só então estruturar operação comercial ampliada.
+1. registrar certificado/documento e nomenclatura exata, quando disponíveis;
+2. realizar prática controlada Sintonize;
+3. decidir se Sintonize será oferta separada, integrada ao Mapeamento ou ambas com escopos distintos;
+4. definir nome, preço, prazo, formulário e consentimento;
+5. fechar relatório/devolutiva autoral, pagamento e reavaliação;
+6. criar/revisar página com message match;
+7. só então abrir operação comercial ampliada e Search pago para o cluster correspondente.
 
 ---
 
@@ -359,22 +341,16 @@ Pré-condições:
 
 **Acesso oficial:** confirmado.
 
-**Estado:** formação em fase final.
+**Conclusão da formação:** informada por Marcos em 03/09/2026.
 
-**Expectativa operacional:** conclusão e formalização da certificação em aproximadamente 7 dias.
+**Certificado/documento e nomenclatura exata:** ainda precisam ser registrados no CURRENT quando disponíveis.
 
-Até a formalização:
+Consequência operacional:
 
-- não usar “certificado” como fato concluído;
-- não usar “formado” como fato concluído;
-- não apresentar Marcos como habilitado além do que já está documentalmente comprovado.
-
-Quando concluída:
-
-- registrar data;
-- registrar nomenclatura exata;
-- atualizar CURRENT;
-- revisar formulação pública.
+- requisito “concluir formação” do Gate R4 foi satisfeito;
+- Sintonize individual pode entrar em prática controlada e desenho de oferta;
+- não ampliar titulação pública além do que estiver documentalmente sustentado;
+- não escalar aquisição paga antes de oferta, página, preço e entrega estarem fechados.
 
 ---
 
@@ -476,6 +452,52 @@ Não transformar Anjos em:
 - destino;
 - promessa comercial;
 - eixo de crescimento do canal.
+
+---
+
+# 14.A. Mapa Mestre de Palavras-Chave — estado atual
+
+Em 03/09/2026 foi consolidado o arquivo:
+
+> **Mapa_Mestre_Palavras_Chave_Portal_Caminho_da_Consciencia_2026-09-03.xlsx**
+
+Snapshot:
+
+- **315** palavras-chave únicas;
+- **28** termos com dados do Planejador no levantamento anexado;
+- **91** classificados como Google Ads P1;
+- **118** como P2;
+- **77** como P3;
+- **12** excluídos/fora de escopo;
+- **17** futuros.
+
+Exemplos do Planejador:
+
+- limpeza energética — 1.600;
+- limpeza energética espiritual — 260;
+- bloqueio energético — 90;
+- bloqueio financeiro — 70;
+- limpeza energética pessoal — 40.
+
+Decisão:
+
+> **o Mapa Mestre é fonte operacional de demanda; não substitui Documento 00, Documento 02 ou Documento 04 para decidir escopo, oferta ou claim.**
+
+Negativas importantes para serviço Sintonize:
+
+- casa/ambiente;
+- empresa/comércio;
+- casal;
+- animais/plantas;
+- mesa quântica como sinônimo;
+- cura/diagnóstico/garantia.
+
+Arquitetura de aquisição adotada:
+
+1. técnica;
+2. intervenção;
+3. dor/repetição;
+4. compreensão individual.
 
 ---
 
@@ -640,73 +662,64 @@ Objetivo futuro:
 
 # 23. P0 — Sincronizar documentação canônica
 
-Executar `DOC-SYNC` sem tocar código funcional.
-
-Resultado:
-
-- Documentos 00–06 corretos no repo;
-- versões antigas tratadas conscientemente;
-- README/índice documental alinhado;
-- CURRENT atualizado com commit real.
+- gerar versões V1.2/V4.2/V2.2 etc.;
+- revisar links e referências no repositório;
+- não alterar Documento 03.A nem Documento 05 nesta rodada.
 
 ---
 
-# 24. P0 — Concluir formação Sintonize
+# 24. P0 — Mapeamento Padrão Interrompido 2.0
 
-- finalizar aulas;
-- concluir requisitos;
-- obter formalização/certificado;
-- registrar nomenclatura exata;
-- não antecipar título.
+Fechar:
 
----
-
-# 25. P0 — Crescer YouTube
-
-Enquanto a formação é concluída:
-
-- conteúdo diário/consistente conforme capacidade;
-- Shorts como laboratório;
-- 2 vídeos longos por semana como referência;
-- foco em cenas concretas;
-- “voltar ao mesmo lugar”;
-- consciência;
-- desenvolvimento pessoal;
-- espiritualidade aplicada;
-- análise 24h/72h;
-- coleta de linguagem real.
-
-Não transformar a semana em lançamento da Sintonize.
-
----
-
-# 26. P1 — Depois da certificação
-
-Antes de escalar venda baseada em Sintonize:
-
-1. atualizar CURRENT;
-2. definir apresentação pública;
-3. definir se Sintonize integra o Mapeamento ou se será experiência separada;
-4. realizar aproximadamente 5–10 experiências de prática controlada;
-5. aprender tempo real, formulário, relatório, áudio e dúvidas;
-6. só depois revisar oferta/página.
-
----
-
-# 27. P2 — Depois da prática controlada
-
-Se houver clareza:
-
-- abrir R4;
-- pagamento;
 - formulário;
-- CRM mínimo;
-- status de lead;
-- relatório autoral;
-- entrega;
-- reavaliação;
-- `purchase` confiável;
-- só então considerar Google Ads.
+- estrutura de 2–3 episódios;
+- Sequência Recorrente Observável;
+- Ponto de Interrupção;
+- Territórios provisórios;
+- plano de observação;
+- relatório/áudio;
+- gate de próximo passo.
+
+---
+
+# 25. P0 — Produto Dinheiro
+
+Construir MVP simples:
+
+- nome;
+- promessa delimitada;
+- 5–7 áudios;
+- exercícios;
+- workbook;
+- página de vendas;
+- checkout;
+- tracking;
+- criativos Porta 2;
+- política de reembolso/uso;
+- gate de CAC e satisfação.
+
+Preço inicial de referência: **R$97**, ainda sujeito ao teste.
+
+---
+
+# 26. P0 — Sintonize controlada
+
+- praticar dentro do escopo oficial;
+- registrar tempo, perguntas e devolutiva;
+- definir oferta individual somente depois de clareza operacional;
+- não automatizar a metodologia.
+
+---
+
+# 27. P1 — Conteúdo e aquisição
+
+- continuar YouTube-first;
+- revisar Calendário V4 para refletir Porta 2 comercial;
+- manter Portas 1, 3 e 4 organicamente;
+- usar Dinheiro e Procrastinação como territórios fortes de conteúdo;
+- ativar Search pago apenas quando oferta/página estiverem alinhadas;
+- medir compra, não apenas clique.
 
 ---
 
@@ -714,36 +727,24 @@ Se houver clareza:
 
 # 28. Decisões vigentes
 
-1. **Portal Caminho da Consciência** é a marca principal.
-2. **Caminho** permanece singular.
-3. **Padrão Interrompido** é método autoral.
-4. Portal é maior que o método.
-5. Espiritualidade é explícita e aberta.
-6. A comunicação começa pela vida real.
-7. “Voltar ao mesmo lugar” é território de reconhecimento.
-8. YouTube é canal editorial prioritário.
-9. Shorts são laboratório.
-10. Longos constroem confiança e profundidade.
-11. A oferta pública atual é Mapeamento Padrão Interrompido — R$197.
-12. CTA atual é WhatsApp.
-13. Google Ads Search não é prioridade imediata.
-14. GTM/GA4/Consent/Conversion Linker estão na arquitetura vigente.
-15. `whatsapp_click` é conversão secundária.
-16. Sintonize é metodologia de terceiros.
-17. Sintonize não é a marca.
-18. 8 Prosperidades pertencem à arquitetura Sintonize quando referidas dessa forma.
-19. Protocolos Sintonize e Protocolos Padrão Interrompido são diferentes.
-20. Radar não será Mesa digital.
-21. Materiais Sintonize não serão digitalizados.
-22. Marcos não usará “terapeuta” publicamente.
-23. Certificação não será antecipada.
-24. Anjos Cabalísticos não são eixo de aquisição.
-25. Mobile first é obrigatório.
-26. Validar antes de sofisticar.
-27. Praticar antes de escalar.
-28. Aprender antes de automatizar.
-29. IA não substitui voz humana, legitimidade ou autoria.
-30. Meta de gestão do ciclo inicial permanece agressiva, sem ser promessa pública.
+- marca = Portal Caminho da Consciência;
+- Método PI 2.0 com 7 movimentos;
+- Sequência Recorrente Observável = unidade prática;
+- Ponto de Interrupção = mecanismo central;
+- jornada = Descobrir → Reconhecer → Mapear → Trabalhar → Integrar → Aprofundar;
+- seis Territórios da Vida Real = mapa provisório a validar;
+- Porta 2 = prioridade comercial;
+- Porta 3 = aprofundamento da repetição e forte porta orgânica;
+- “bloqueio/travamento” = linguagem percebida, não diagnóstico;
+- Sintonize = ferramenta de intervenção possível, não componente obrigatório;
+- primeiro produto autoguiado = Dinheiro;
+- segundo teste = Procrastinação;
+- Mapeamento 2.0 = evolução aprovada da oferta atual;
+- Ciclo PI 21 dias = flagship prioritário a validar;
+- produto por dor = aproximadamente R$97 como hipótese inicial;
+- meta operacional de receita = aproximadamente R$45–47 mil para perseguir R$30 mil líquidos, conforme margem;
+- não criar novos documentos numerados sem necessidade;
+- não criar protocolos autorais antes de base de casos suficiente.
 
 ---
 
@@ -751,22 +752,21 @@ Se houver clareza:
 
 # 29. Abertas e relevantes
 
-1. formulação pública final da certificação;
-2. integração Sintonize × Mapeamento;
-3. manter R$197 depois de eventual integração;
-4. formato final do formulário;
-5. relatório autoral definitivo;
-6. política de reavaliação;
-7. primeiro Protocolo Padrão Interrompido;
-8. mapa autoral definitivo de domínios;
-9. momento do Radar;
-10. plataforma de pagamento;
-11. CRM mínimo;
-12. momento de ativação do Search;
-13. nome do quadro editorial recorrente;
-14. identidade visual definitiva de símbolo/logotipo;
-15. momento da Jornada;
-16. momento da comunidade.
+- nome definitivo do produto Dinheiro;
+- estrutura exata dos 5–7 dias;
+- checkout/plataforma do produto Dinheiro;
+- CAC máximo aceitável após observar margem real;
+- decisão de produzir Procrastinação após dados de Dinheiro;
+- preço/formato final Sintonize Individual;
+- titulação pública exata conforme certificado registrado;
+- página específica da Porta 2;
+- versão pública do Mapeamento 2.0;
+- piloto do Ciclo PI;
+- preço final do Ciclo;
+- desenho Premium;
+- validação dos seis Territórios após 20–30 Mapeamentos;
+- primeiro Protocolo PI autoral, somente se emergir dos casos;
+- necessidade de V2.1 do Documento 05 quando houver implementação técnica real.
 
 ---
 
@@ -780,20 +780,17 @@ Se houver clareza:
 
 # 31. Pendências que não são blockers
 
-## Certificação Sintonize
+## Registro documental da qualificação Sintonize
 
-Pendente, mas não bloqueia:
+A conclusão da formação foi informada.
 
-- conteúdo amplo;
-- YouTube;
-- método;
-- Portal;
-- documentação.
+Permanece pendente, quando aplicável, registrar:
 
-Bloqueia apenas:
+- certificado/documento;
+- data;
+- nomenclatura exata.
 
-- apresentação como certificado;
-- oferta que dependa explicitamente da habilitação ainda não formalizada.
+Isso não bloqueia prática controlada nem planejamento de oferta, mas bloqueia o uso público de uma titulação que ainda não esteja documentalmente sustentada.
 
 ## Google Search
 
@@ -807,14 +804,15 @@ Adiado deliberadamente.
 
 # 32. Riscos atuais
 
-- publicar certificação cedo demais;
+- publicar titulação não sustentada pelo documento disponível;
 - misturar Sintonize com autoria do Portal;
 - colocar material protegido no repo;
 - digitalizar metodologia de terceiro;
 - voltar a foco excessivo em prosperidade financeira;
 - criar app antes de demanda;
 - tratar clique no WhatsApp como venda;
-- ativar mídia paga antes de operação pronta;
+- ativar mídia paga antes de oferta, página e message match estarem prontos;
+- capturar keywords fora do escopo apenas por volume;
 - produzir conteúdo espiritual genérico de IA;
 - usar claims clínicos ou financeiros indevidos;
 - deixar o CURRENT novamente ficar desatualizado.
@@ -979,12 +977,12 @@ Se envolver copy:
 
 Nenhum agente está autorizado, sem nova decisão explícita, a:
 
-- alterar site por causa da Sintonize;
-- adicionar Sintonize à oferta;
+- alterar site para prometer Sintonize sem oferta aprovada;
+- adicionar Sintonize ao Mapeamento sem decisão explícita;
 - criar protocolo;
 - criar Radar;
 - criar app;
-- iniciar Google Ads;
+- iniciar Google Ads para cluster cuja oferta/página ainda não passou pelo gate;
 - criar checkout;
 - criar CRM;
 - versionar materiais da formação;
@@ -1018,17 +1016,14 @@ Nenhum agente está autorizado, sem nova decisão explícita, a:
 | 01/09/2026 | Sintonize não será digitalizada | FECHADO | tecnologia e PI |
 | 01/09/2026 | Docs 01–05 revisados | PRODUZIDO | pacote canônico |
 | 01/09/2026 | CURRENT atualizado para V2.0 | PRODUZIDO | operação |
-| 01/09/2026 | Documento 03.A incorporado ao repositório (V1.0) | EXECUTADO | arquitetura psicológica editorial |
-| 01/09/2026 | Documento 03.B incorporado ao repositório (V1.0) | EXECUTADO | mapa editorial mestre — Big Ideas, Cenas, Ganchos, Aquisição |
-| 02/09/2026 | Copy da página de vendas reescrita e publicada em produção | EXECUTADO | nova baseline da página — branch `feat/copy-rewrite-pagina-vendas-2026-09-02`, HEAD `b48da53` |
-| 02/09/2026 | Áudio personalizado 8–15min passa a ser entregável formal do Mapeamento | FECHADO | Marcos assume operacionalmente para todos os compradores |
-| 02/09/2026 | GA4 corrigido — Consent Mode v2 defaults alterados para 'granted' + banner LGPD implementado | EXECUTADO | analytics voltou a registrar dados; banner localStorage-based com Accept/Decline |
-| 02/09/2026 | Performance: Google Fonts async + preload woff2 + @font-face fallback CLS + landmark `<main>` + contrast footer | EXECUTADO | TBT 150→70ms; acessibilidade 89→92 |
-| 02/09/2026 | `politica-de-privacidade.html` criada | EXECUTADO | LGPD-compliant, 11 seções + disclaimer saúde + disclaimer plataformas |
-| 02/09/2026 | `termos-de-uso.html` criada | EXECUTADO | CDC art.49, PI, direito de arrependimento + disclaimer saúde + disclaimer plataformas |
-| 02/09/2026 | Links do footer e banner de cookies atualizados para as novas páginas legais | EXECUTADO | fim de `href="#"` nos links de privacidade |
-| 02/09/2026 | Sales Page V2 — rodada final de refinamento implementada localmente | PENDENTE AUTORIZAÇÃO | 22 seções, novo hero (4 linhas sem CTA), Manrope, seções creme, FAQ accordion, Sintonize visível (sem `hidden`), disclaimers, sectionMap atualizado, sem commit/deploy |
-| 02/09/2026 | Assets de imagem implementados em `assets/images/` — 10 WebP de cenas + marcos-vinicius.webp | EXECUTADO | convertidos de PNG com Pillow, qualidade 85, mobile 4:5 + desktop 16:9; `<picture>` responsivo em todas as seções |
+| 03/09/2026 | Conclusão da formação Sintonize informada por Marcos | FATO INFORMADO | habilita prática controlada e desenho de oferta |
+| 03/09/2026 | Mapa Mestre de Palavras-Chave consolidado | PRODUZIDO | 315 termos; Search/SEO/YouTube/copy |
+| 03/09/2026 | Arquitetura de quatro portas de aquisição adotada | FECHADO | técnica, intervenção, dor/repetição, compreensão |
+| 03/09/2026 | Revisão incremental 00/01/02/03/03B/03D/04/06 | PRODUZIDO | harmonização documental |
+| 03/09/2026 | Manutenção técnica SEO/WhatsApp + ADR Netlify/Vercel | EXECUTADO LOCALMENTE | `og:image`, `robots.txt`, `sitemap.xml`, WhatsApp `5513996899519`, ADR 0001; pendente commit/deploy |
+| 03/09/2026 | Página do Mapeamento movida para `/mapeamento/` | EXECUTADO LOCALMENTE | baseline comercial preservada fora da raiz; pendente commit/deploy |
+| 03/09/2026 | Home institucional V1 implementada na raiz | EXECUTADO LOCALMENTE | `portal_home_v1`, CTA principal para `/mapeamento/`, ofertas não-live ocultas, tracking institucional; QA local básica aprovada; pendente revisão humana/commit/deploy |
+| 04/09/2026 | Patch mínimo pós-auditoria Home V1 | EXECUTADO LOCALMENTE | `favicon.ico` criado na raiz, `rel="icon"` adicionado em `/` e `/mapeamento/`, consentimento da Home passa a recarregar ao mudar de `granted` para `denied`; pendente revalidação Claude/commit/deploy |
 
 ---
 
@@ -1036,115 +1031,53 @@ Nenhum agente está autorizado, sem nova decisão explícita, a:
 
 # 43. Próximo movimento recomendado
 
-Existem duas frentes paralelas, sem conflito.
+Executar em ordem:
 
-## Frente A — documentação
-
-> **GATE DOC-SYNC**
-
-Objetivo:
-
-- incorporar Documentos 00–06 atualizados ao repositório;
-- garantir hierarquia;
-- preservar histórico;
-- registrar commit real no CURRENT;
-- não alterar código funcional.
-
-## Frente B — crescimento
-
-> **Produzir e publicar conteúdos voltados a alcance qualificado e crescimento do YouTube enquanto Marcos conclui a formação.**
-
----
-
-# PARTE XVI — REGISTRO DE SESSÃO
-
-# 44. Sessão 02/09/2026 — Rodada Final de Refinamento — Sales Page V2
-
-**O que foi feito:**
-
-Rewrite completo do `index.html` implementado localmente (sem commit, sem push, sem deploy).
-
-Mudanças principais:
-
-- **Tipografia:** fonte `Manrope` (400/500/600) adicionada como `--ff-corpo`; `Lora` removida; `Cormorant Garamond` mantida para headings/emocional
-- **Hero:** 4 linhas independentes sem CTA; `hero__bridge` substituindo âncora funcional
-- **Ordem de seções:** 22 seções — hero, dores, cena-dinheiro, agitação, cena-relacionamento, virada, cena-sobrecarga, microação, transformação (creme), mapeamento, como-funciona (merged com ferramentas), prova-processo, entregáveis, jornada (creme), portal, marcos, oferta, segurança, FAQ, cta-final, footer, disclaimers
-- **Seções removidas:** `cenas` card-grid, `prova-processo` section anterior, `limites` section standalone (integrada em `segurança`)
-- **Seções mescladas:** `como-funciona` + `ferramentas` → uma seção unificada
-- **Creme breaks:** `transformacao` (`#F3EADA`) e `jornada` (`#EDE4D0`) com paleta marrom/dourado-esc
-- **Mesa Radiônica Sintonize Prosperidade:** card visível (`hidden` removido), texto limitado e correto conforme Doc 00
-- **FAQ:** accordion acessível (`aria-expanded`, `aria-controls`, max-height JS), 9 perguntas + comentário `Em quanto tempo recebo?` preservado como pendência operacional
-- **Disclaimers:** bloco permanente após footer — aviso de finalidade + aviso de plataformas
-- **Imagens:** 4 cenas narrativas com `<img>` 16:9 (dinheiro, relacionamento, sobrecarga), prova-processo com `<picture>` responsivo (4:5 mobile / 16:9 desktop), marcos-vinicius 78% max 280px
-- **Variável CSS:** `--dourado-esc: #8B6914` adicionada para textos em fundo creme
-- **sectionMap:** atualizado para 17 entradas correspondendo às novas seções
-- **Tracking:** GTM, GA4, Consent Mode v2, Meta Pixel, IntersectionObserver, scroll_depth, offer_cta_click, whatsapp_click — todos preservados
-- **Regras respeitadas:** `purchase` e `close_convert_lead` não implementados; SLA de entrega não declarado; Marcos não apresentado como terapeuta ou certificado; Sintonize não como método próprio nem diagnóstico
-
-**O que ficou pendente:**
-
-- `Em quanto tempo recebo?` no FAQ — incluir somente após decisão operacional formal do prazo
-- Commit / push / deploy — aguardando autorização explícita de Marcos
-
-**Branch:** `main` (alteração local, não commitada)
-**Working tree:** `index.html` modificado localmente
-**Build/preview:** não testado em servidor — mudança estrutural aguarda aprovação antes de preview
-**Blockers:** nenhum técnico
-**Próxima ação:** Marcos revisa o checklist A–N abaixo e autoriza (ou solicita ajustes) antes de commit/deploy
+1. **DOC-SYNC** — versionar esta revisão;
+2. **MAPEAMENTO 2.0** — fechar entrega antes de alterar página;
+3. **DINHEIRO MVP** — construir um único produto escalável;
+4. **SINTONIZE CONTROLADA** — aprender operação real;
+5. **CALENDÁRIO** — revisar V4 para a nova prioridade comercial;
+6. **TRÁFEGO DIRETO PEQUENO** — somente depois de página/checkout/tracking prontos;
+7. **CICLO PI** — pilotar 5–8 clientes depois de base mínima.
 
 ---
 
 # 44. O que acontece depois
 
-Quando a certificação for formalizada:
+Se Dinheiro validar compra + margem + satisfação:
 
-1. registrar o fato;
-2. confirmar nomenclatura;
-3. atualizar apresentação de Marcos;
-4. realizar prática controlada;
-5. decidir arquitetura da experiência Sintonize;
-6. somente então reabrir R4.
+- aumentar gradualmente tráfego;
+- usar compradores como fonte de linguagem e progressão;
+- decidir Procrastinação;
+- testar Mapeamento/Ciclo como continuidade.
+
+Se Dinheiro não validar:
+
+- revisar dor, promessa, página, produto e CAC antes de lançar o segundo tema.
 
 ---
 
 # 45. Critério para mudar prioridade
 
-A prioridade muda se:
+Mudar prioridade quando houver evidência comercial superior, não porque surgiu nova ideia.
 
-- produção quebrar;
-- surgir risco de dados;
-- certificação for formalizada;
-- oportunidade comercial real justificar;
-- dados de conteúdo apontarem direção clara;
-- Marcos tomar nova decisão estratégica.
+Indicadores:
+
+- compras;
+- margem;
+- satisfação;
+- conclusão;
+- CAC;
+- progressão;
+- horas de Marcos;
+- capacidade de escala.
 
 ---
 
 # 46. Síntese operacional
 
-**Onde estamos:**
-
-> marca, site, oferta inicial, mensuração e nova copy da página de vendas estão em produção (HEAD `b48da53`); áudio personalizado é entregável formal do Mapeamento; Search está preparado e adiado; a documentação canônica foi profundamente revisada; a formação Sintonize está na fase final.
-
-**O que vem agora:**
-
-> validação em produção da nova página (mobile/desktop, CTAs, tracking), crescimento orgânico no YouTube e conclusão da certificação.
-
-**O que não vem agora:**
-
-> app, Radar, protocolos, campanha paga, integração Sintonize à página ou automação comercial.
-
-**Próximo gate técnico/documental:**
-
-> **DOC-SYNC — sincronização canônica 00–06.**
-
-**Próximo gatilho de produto:**
-
-> **certificação formal + prática controlada.**
-
-**Regra de execução:**
-
-> **Uma decisão por vez. Um estado verificável por vez. Um gate fechado antes de sofisticar.**
+> **Dor primeiro. Porta 2 converte. Porta 3 aprofunda. Ponto de Interrupção organiza o método. Sintonize intervém quando pertinente. Produto por dor cria escala. Ciclo PI cria ticket e transformação guiada. Reavaliação protege a qualidade.**
 
 ---
 
@@ -1169,78 +1102,4 @@ Deve permanecer:
 
 ---
 
-> **Fim do Documento 06 — CURRENT, Decisões e Plano Operacional Vivo — V2.0.**
-
----
-
-# PARTE XVII — REGISTRO DE SESSÃO
-
-# 48. Sessão 02/09/2026 — Gate LGPD / Consent Mode v2
-
-**O que foi feito:**
-
-- Google Consent Mode: default `denied`; concessão apenas com `pcc_consent === 'granted'`; valores inválidos como ausência.
-- Meta Pixel: `initMetaPixels()` idempotente, flag `__pccMetaInitialized`; `<noscript>` removidos; eventos CTA condicionados.
-- Banner: `showBanner()` exposta; botão "Preferências de cookies" no footer.
-- Revogação: `granted → denied` dispara reload; `denied → granted` sem reload; escolha repetida sem duplicidade.
-- Política de Privacidade: distinção Necessárias / Medição e publicidade; Aceitar/Recusar explícitos; localStorage mencionado; Consent Mode avançado descrito corretamente.
-- Todos os 10 cenários testados localmente.
-
-**O que ficou pendente:** nada — gate encerrado.
-
-**Branch:** `main`
-**HEAD:** `6d0d1db04971420ace087f2781b6ec6d5eefa3bd`
-**origin/main:** `6d0d1db04971420ace087f2781b6ec6d5eefa3bd`
-**Working tree:** limpo
-**Deploy:** produção `portalcaminhodaconsciencia.com.br` — aprovado
-**Blockers:** nenhum.
-**Próxima ação:** máquina editorial — Shorts/Reels diários + vídeos longos.
-
----
-
-# GATE LGPD / CONSENT MODE V2 — APROVADO ✅
-
----
-
-# PARTE XVIII — ESTADO DE ENTREGA
-
-# 49. Estado operacional — 03/09/2026
-
-**Para Codex ou qualquer agente que assuma a partir daqui:**
-
-## Estado técnico verificável
-
-| Item | Estado | Commit |
-|---|---|---|
-| Sales Page V2 | ✅ PRODUCTION APPROVED | `d123fef` |
-| LGPD / Consent Mode V2 | ✅ PRODUCTION APPROVED | `9dc7934` |
-| CURRENT.md atualizado | ✅ | `6d0d1db` |
-
-**Branch:** `main`  
-**HEAD / origin/main:** `6d0d1db04971420ace087f2781b6ec6d5eefa3bd`  
-**Working tree:** limpo  
-**Domínio:** `portalcaminhodaconsciencia.com.br`  
-**Deploy:** Netlify — `push main` = deploy automático de produção
-
-## Infraestrutura encerrada
-
-- `index.html` — não alterar por percepção estética ou hipótese; somente com dado real
-- `politica-de-privacidade.html` — alinhada à LGPD; não alterar sem mudança real de prática
-- GTM / GA4 / Consent Mode v2 / Meta Pixel — operacional; não reconfigurar sem gate explícito
-
-## Próximo ciclo (não técnico)
-
-Foco em **máquina editorial**:
-- 1 Short/Reel de reconhecimento silencioso por dia
-- 2 vídeos longos por semana
-- Acumular backlog; deixar dados indicarem o que ampliar
-- Não iniciar tráfego pago antes de dado que justifique
-
-## Restrições ativas para Codex
-
-1. Não alterar `index.html` sem instrução explícita de Marcos com dado real
-2. Não criar novo commit de código sem gate autorizado
-3. Não configurar `purchase` / `close_convert_lead` até integração de pagamento real
-4. Não usar "terapeuta" ou "certificado" antes de certificação formal
-5. Não adicionar material Sintonize ao repositório
-6. PROJECT TARGET CHECK FIRST — confirmar projeto/repo/branch antes de executar qualquer instrução anexada
+> **Fim do Documento 06 — CURRENT, Decisões e Plano Operacional Vivo — V2.2.**

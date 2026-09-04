@@ -12,6 +12,9 @@
 03 Editorial / Aquisição
 03.A Regra Complementar — Percepção Antes da Explicação  ← lida em conjunto com 03
 03.B Mapa Editorial Mestre — Big Ideas, Cenas, Soluções, Oferta, Ganchos e Arquitetura de Aquisição  ← lido em conjunto com 03 e 03.A
+03.C Banco Operacional de Reels de Reconhecimento Silencioso  ← operacional editorial
+03.D Sistema Operacional de Prompts Editoriais, Search, Copy, SEO e IA  ← operacional editorial
+03.E Plano Operacional de Execução do Calendário Editorial e Backlog  ← operacional editorial
 ↓
 04 Identidade / Comunicação
 ↓
@@ -31,7 +34,10 @@ CURRENT.md                          ← estado operacional, não contrariar 00�
 | `02-jornada-produtos-servicos-protocolos.md` | Jornada do cliente, ofertas, entregáveis, protocolos |
 | `03-sistema-editorial-aquisicao-experimentacao.md` | Conteúdo, funil, SEO, YouTube, CTAs, métricas |
 | `03a-regra-complementar-percepcao-antes-da-explicacao.md` | Arquitetura psicológica do conteúdo — percepção antes da explicação; lida em conjunto com 03 |
-| `03b-mapa-editorial-mestre.md` | Big Ideas, Cenas, Soluções, Oferta, Ganchos e Arquitetura de Aquisição V1.0; lido em conjunto com 03 e 03.A |
+| `03b-mapa-editorial-mestre.md` | Big Ideas, Cenas, Soluções, Oferta, Ganchos e Arquitetura de Aquisição V1.2; lido em conjunto com 03 e 03.A |
+| `03c-banco-reels-reconhecimento-silencioso.md` | Banco operacional de Reels, cenas, dores, tensões, hooks, CTAs e microtransformações |
+| `03d-sistema-operacional-prompts-editoriais-search-ia.md` | Prompts editoriais, Search, copy, SEO e produção assistida por IA |
+| `03e-plano-operacional-execucao-calendario-editorial-backlog.md` | Plano operacional de calendário editorial e backlog gradual |
 | `04-identidade-voz-espiritualidade-comunicacao.md` | Design, paleta, tipografia, voz, claims, compliance |
 | `05-arquitetura-tecnica-dados-ecossistema.md` | Infra, banco, deploy, integrações, LGPD, segurança |
 
@@ -54,7 +60,7 @@ CRITÉRIO DE APROVAÇÃO:
 ```
 
 ### Durante a sessão
-- Para qualquer tarefa de roteiro, hook, Short, vídeo longo, anúncio, revisão ou auditoria editorial: ler **Documento 03 + Documento 03.A + Documento 03.B em conjunto**. O Documento 03 define o sistema editorial geral; o Documento 03.A esclarece que a arquitetura psicológica de percepção não deve ser transformada em fórmula rígida de roteiro; o Documento 03.B é o Mapa Editorial Mestre com Big Ideas, Cenas, Soluções, Oferta, Ganchos e Arquitetura de Aquisição.
+- Para qualquer tarefa de roteiro, hook, Short, vídeo longo, anúncio, revisão ou auditoria editorial: ler **Documento 03 + Documento 03.A + Documento 03.B** e, quando houver execução prática de conteúdo, também **03.C + 03.D + 03.E**. O Documento 03 define o sistema editorial geral; o Documento 03.A esclarece que a arquitetura psicológica de percepção não deve ser transformada em fórmula rígida de roteiro; o Documento 03.B é o Mapa Editorial Mestre; os Documentos 03.C, 03.D e 03.E operacionalizam Reels, prompts, Search, copy, SEO, calendário e backlog.
 - Documentos 01–05 são relativamente estáveis. Não alterá-los automaticamente.
 - Se houver conflito entre código e documento canônico, o código é o candidato a correção.
 - Se houver conflito entre `CURRENT.md` e 01–05, prevalece o documento canônico.

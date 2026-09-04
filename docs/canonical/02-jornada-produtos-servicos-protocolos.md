@@ -1,11 +1,11 @@
 # PORTAL CAMINHO DA CONSCIÊNCIA
-## Documento 02 — Jornada de Transformação, Produtos, Serviços e Protocolos — V2.0
+## Documento 02 — Jornada de Transformação, Produtos, Serviços e Protocolos — V2.2
 
 **STATUS CANÔNICO:** arquitetura oficial da experiência, jornada, produtos, serviços e protocolos do ecossistema  
-**DATA:** 01/09/2026  
+**DATA:** 03/09/2026  
 **HORIZONTE:** ciclo inicial de 90 dias + arquitetura de longo prazo  
-**DOCUMENTOS SUPERIORES:** Documento 00 — Matriz de Governança Conceitual, Propriedade Intelectual e Posicionamento — V1.0; Documento 01 — Fundacional, Estratégico e Plano Executivo Canônico — V4.0  
-**SUBSTITUI:** Documento 02 — V1.0
+**DOCUMENTOS SUPERIORES:** Documento 00 — Matriz de Governança Conceitual, Propriedade Intelectual e Posicionamento — V1.2; Documento 01 — Fundacional, Estratégico e Plano Executivo Canônico — V4.2  
+**SUBSTITUI:** Documento 02 — V2.1
 
 > **Do reconhecimento à transformação. Da transformação à integração. Da integração ao aprofundamento da consciência.**
 
@@ -15,7 +15,7 @@
 
 Este documento define **como uma pessoa evolui dentro do Portal Caminho da Consciência**, quais ofertas podem existir em cada etapa, como elas se conectam, quais metodologias podem ser utilizadas e quais fronteiras precisam ser preservadas para que o ecossistema seja útil, humano, responsável, sustentável e coerente.
 
-A V2.0 incorpora as decisões tomadas após a análise dos materiais oficiais da formação **Mesa Radiônica Sintonize Prosperidade**, a criação do Documento 00 e a atualização do Documento 01 para V4.0.
+A V2.2 preserva a arquitetura responsável das versões anteriores e incorpora o Método Padrão Interrompido 2.0, a nova Jornada de seis etapas, a Porta 2 como prioridade comercial, o Mapeamento 2.0, os produtos autoguiados por dor, o papel da Sintonize como possível intervenção e o Ciclo Padrão Interrompido de 21 dias como flagship a validar.
 
 O documento está organizado em dezoito partes:
 
@@ -126,15 +126,15 @@ Cria-se produto quando existem:
 
 ## 0.4. Estado de transição desta versão
 
-Em 01/09/2026:
+Em 03/09/2026:
 
 - o **Mapeamento Padrão Interrompido — Individual** está publicado como oferta de entrada por R$197;
-- a formação **Mesa Radiônica Sintonize Prosperidade** está em fase final de conclusão por Marcos;
-- a certificação ainda não deve ser tratada como concluída antes de sua formalização;
-- a forma definitiva como a Sintonize entrará no Mapeamento ou em outra oferta ainda será fechada;
-- a prioridade imediata é **crescimento e alcance orgânico no YouTube**, enquanto a formação é finalizada;
+- Marcos informou a **conclusão da formação Mesa Radiônica Sintonize Prosperidade** em 03/09/2026;
+- a titulação/certificação pública exata continua subordinada ao registro documental no CURRENT;
+- a Sintonize pode avançar para prática controlada e desenho de oferta individual, sem que isso torne sua integração ao Mapeamento obrigatória;
+- a prioridade imediata combina **crescimento orgânico no YouTube + prática controlada Sintonize + desenho responsável de oferta**;
 - tráfego pago Google Search está tecnicamente preparado, mas sua execução está deliberadamente adiada;
-- não será iniciada uma operação comercial ampliada baseada na Sintonize antes da conclusão formal da formação e da definição da experiência.
+- não será iniciada escala comercial baseada na Sintonize antes da prática controlada, definição da experiência, preço, página e fluxo de entrega.
 
 ---
 
@@ -184,245 +184,159 @@ Interromper uma repetição pode ser importante. Porém, o horizonte do ecossist
 
 # 3. Fórmula canônica da jornada
 
-A jornada completa do ecossistema é:
+A jornada pública passa a ser:
 
-> **RECONHECER → COMPREENDER → MAPEAR → INTERVIR → PRATICAR → REAVALIAR → INTEGRAR → APROFUNDAR**
+> **DESCOBRIR → RECONHECER → MAPEAR → TRABALHAR → INTEGRAR → APROFUNDAR**
 
-Para comunicação pública simplificada, quando necessário:
+Ela é diferente dos **7 movimentos internos do Método Padrão Interrompido**:
 
-> **PERCEBER → MAPEAR → TRABALHAR → PRATICAR → REAVALIAR → APROFUNDAR**
+> **PERCEBER → RECONSTRUIR → COMPARAR → LOCALIZAR → ESCOLHER → EXPERIMENTAR → REAVALIAR**
 
-A versão longa orienta produto e operação.
+Essa separação é deliberada:
 
-A versão curta orienta compreensão pública.
-
-Nenhuma etapa deve ser vendida como obrigatória para todas as pessoas.
+- **jornada** descreve a experiência do cliente dentro do Portal;
+- **método** descreve como o Padrão Interrompido organiza um caso e um ciclo de trabalho;
+- **esteira** descreve quais produtos podem ocupar cada etapa;
+- **ferramenta** descreve como determinado ponto pode ser trabalhado, quando pertinente.
 
 ---
 
 # PARTE II — JORNADA MACRO DO CLIENTE
 
-# 4. Estágio 1 — Reconhecimento
+# 4. Estágio 1 — Descobrir
 
 ## Estado da pessoa
 
-A pessoa ainda não procura “um método”. Ela percebe uma dor, repetição, estagnação, contradição ou desconexão.
+“Tenho um problema que dói, pesa, trava ou se repete — e quero uma resposta.”
 
-Pensamento típico:
+Ela pode chegar pela dor, pela busca de intervenção, por uma técnica ou por uma pergunta de autoconhecimento.
 
-> **“Por que isso está acontecendo comigo de novo?”**
+## Portas de entrada
 
-## Objetivo
+- Porta 1 — Técnica;
+- Porta 2 — Intervenção;
+- Porta 3 — Dor/Repetição;
+- Porta 4 — Compreensão.
 
-Ajudá-la a reconhecer uma cena concreta sem impor explicação espiritual, clínica ou comportamental pronta.
+A Porta 2 é a prioridade comercial. As quatro permanecem válidas organicamente.
 
-## O que oferecemos
+## Canais
 
-- Shorts;
-- vídeos longos no YouTube;
-- Reels e conteúdos derivados;
-- artigos e SEO quando fizer sentido;
-- perguntas de auto-observação;
-- histórias e demonstrações responsáveis;
-- conteúdos sobre consciência e espiritualidade aplicada à vida real.
+Conteúdo, Google Search, YouTube Search, SEO, anúncios, indicação, lead magnet e páginas específicas.
+
+---
+
+# 5. Estágio 2 — Reconhecer
+
+## Estado da pessoa
+
+> **“Isso sou eu.”**
+
+A comunicação descreve a dor concreta antes de explicar o padrão.
+
+## Sequência comercial preferencial
+
+> **dor visceral → consequência concreta → consequência emocional → sensação de bloqueio/travamento → repetição → “de novo” → desejo de próximo passo.**
 
 ## Transformação esperada
 
-De:
-
-> “Tenho um problema.”
-
-Para:
-
-> **“Talvez exista algo se repetindo aqui.”**
-
-## CTA natural
-
-- observar;
-- comentar;
-- responder uma pergunta;
-- assistir a conteúdo mais profundo;
-- conhecer o Mapeamento quando a necessidade de compreensão individual estiver clara.
+A pessoa consegue nomear melhor o que está vivendo e perceber pelo menos um movimento anterior.
 
 ---
 
-# 5. Estágio 2 — Compreensão inicial
+# 6. Estágio 3 — Mapear
 
 ## Estado da pessoa
 
-Ela reconhece uma repetição, mas ainda não consegue organizar o que ocorre, onde ocorre e como diferentes aspectos podem se conectar.
+> **“Quero entender como isso acontece no meu caso.”**
 
-Pensamento típico:
+## Oferta central
 
-> **“Talvez isso não esteja acontecendo só nesse ponto da minha vida.”**
+**Mapeamento Padrão Interrompido 2.0**.
 
-## Objetivo
+O objetivo é reconstruir episódios e organizar:
 
-Ampliar percepção sem criar diagnóstico.
-
-## Ferramentas possíveis
-
-- conteúdos aprofundados;
-- perguntas estruturadas;
-- checklists de auto-observação;
-- materiais gratuitos;
-- futuramente, Radar / Mapa da Repetição.
-
-## Transformação esperada
-
-De:
-
-> “Esse problema é isolado.”
-
-Para:
-
-> **“Talvez existam conexões que eu ainda não estou enxergando.”**
+- situação central;
+- 2–3 episódios comparáveis quando disponíveis;
+- Sequência Recorrente Observável;
+- movimento anterior;
+- possível Ponto de Interrupção;
+- Territórios da Vida Real relacionados;
+- prioridade de trabalho;
+- plano de observação;
+- rota recomendada.
 
 ---
 
-# 6. Estágio 3 — Mapeamento individual
+# 7. Estágio 4 — Trabalhar
 
 ## Estado da pessoa
 
-Ela deseja olhar para o próprio caso, e não apenas consumir explicações gerais.
+> **“Agora quero fazer alguma coisa com isso.”**
 
-Pensamento típico:
+## Gate de escolha
 
-> **“Quero entender melhor como isso aparece na minha vida.”**
+O próximo passo pode ser:
 
-## Objetivo
+- ação concreta;
+- produto autoguiado por dor;
+- aplicação individual Sintonize;
+- Ciclo Padrão Interrompido;
+- prática específica;
+- acompanhamento individual;
+- encaminhamento externo;
+- nenhum produto adicional.
 
-Organizar:
-
-- contexto;
-- repetições percebidas;
-- domínios da vida envolvidos;
-- possíveis conexões;
-- prioridades;
-- perguntas importantes;
-- próximos movimentos possíveis.
-
-## Oferta central atual
-
-> **Mapeamento Padrão Interrompido — Individual**
-
-O Mapeamento é a principal oferta humana de entrada do ciclo inicial.
-
-Ele deve funcionar como **ponte entre reconhecimento e decisão consciente sobre o que fazer depois**.
+A palavra-chave ou a sensação de bloqueio **não escolhe a ferramenta automaticamente**.
 
 ---
 
-# 7. Estágio 4 — Intervenção direcionada
+# 8. Estágio 5 — Integrar
 
-## Estado da pessoa
+A pessoa transforma observação e intervenção em experiência prática.
 
-Ela já possui mais clareza e deseja trabalhar um ponto específico.
+Elementos possíveis:
 
-Pensamento típico:
+- prática delimitada;
+- diário de sinais;
+- experimento de resposta nova;
+- reavaliação;
+- revisão do Ponto de Interrupção;
+- ajuste do próximo passo.
 
-> **“Entendi melhor o que está acontecendo. O que faz sentido trabalhar agora?”**
-
-## Objetivo
-
-Escolher uma experiência coerente com:
-
-- tema;
-- consentimento;
-- competência;
-- metodologia aplicável;
-- ação concreta necessária;
-- necessidade real de acompanhamento.
-
-A intervenção pode ocorrer por diferentes caminhos.
-
-Ela não precisa ser sempre energética, espiritual ou radiônica.
-
-Ela também não precisa existir se a pessoa já possui clareza suficiente para agir sozinha.
+Integração é aumento de autonomia, não dependência de novas sessões.
 
 ---
 
-# 8. Estágio 5 — Prática
+# 9. Estágio 6 — Aprofundar
 
-## Estado da pessoa
+A pessoa pode continuar em:
 
-Ela compreendeu algo, realizou uma experiência ou escolheu uma nova resposta, mas precisa testar isso na vida cotidiana.
+- novos territórios;
+- desenvolvimento pessoal;
+- espiritualidade;
+- acompanhamento premium;
+- experiências coletivas futuras;
+- práticas e estudos legítimos.
 
-Pensamento típico:
-
-> **“Como faço para isso não ficar só no entendimento?”**
-
-## Objetivo
-
-Transformar percepção em prática observável.
-
-Possíveis recursos:
-
-- pequenas ações;
-- journaling;
-- áudios;
-- meditação;
-- auto-hipnose dentro da competência de Marcos;
-- prática espiritual;
-- rotina de observação;
-- compromisso comportamental;
-- check-ins;
-- registro de situações concretas.
+O aprofundamento não precisa existir para todo cliente.
 
 ---
 
-# 9. Estágio 6 — Reavaliação
+# 10. Regra de progressão
 
-## Estado da pessoa
-
-Ela precisa diferenciar expectativa, impressão momentânea e mudança percebida ao longo do tempo.
-
-Pergunta central:
-
-> **“O que realmente mudou?”**
-
-## Objetivo
-
-Observar:
-
-- o que mudou;
-- o que não mudou;
-- o que deixou de ocorrer;
-- o que ainda se repete;
-- o que apareceu de outra forma;
-- o que a pessoa realmente praticou;
-- se existe próximo passo;
-- se não há necessidade de comprar mais nada.
+> **Cada etapa precisa entregar valor suficiente para justificar sua existência. O próximo produto só aparece quando existe uma próxima necessidade legítima.**
 
 ---
 
-# 10. Estágio 7 — Integração
+# 11. Regra de saída
 
-Integração significa transformar aprendizado pontual em repertório pessoal.
+A jornada é considerada bem-sucedida também quando a pessoa:
 
-A pessoa começa a perceber um padrão mais cedo, reconhece sinais, faz escolhas com mais consciência e incorpora práticas que já não dependem de uma intervenção constante.
-
-A integração é um critério de qualidade do Portal.
-
-Um produto que só gera dependência de nova sessão não cumpriu bem essa etapa.
-
----
-
-# 11. Estágio 8 — Aprofundamento
-
-Algumas pessoas desejarão continuar.
-
-Não porque “ainda estão bloqueadas”, mas porque desejam:
-
-- estudar;
-- aprofundar consciência;
-- fortalecer disciplina;
-- compreender outras áreas da vida;
-- cultivar espiritualidade;
-- participar de comunidade;
-- experimentar novas práticas;
-- desenvolver relação mais consciente com valores, serviço e sentido.
-
-O aprofundamento é desenvolvimento, não manutenção de problema.
+- encontra um próximo passo simples e não compra mais nada;
+- conclui que não precisa de intervenção;
+- é encaminhada para ajuda mais apropriada;
+- passa a perceber e decidir com maior autonomia.
 
 ---
 
@@ -430,18 +344,32 @@ O aprofundamento é desenvolvimento, não manutenção de problema.
 
 # 12. Visão geral da esteira
 
-| Camada | Necessidade | Oferta / experiência | Estado em 01/09/2026 |
+A esteira econômica e de transformação passa a ser:
+
+> **Conteúdo/Search → O Minuto Anterior → Produto por Dor (~R$97) → Mapeamento PI 2.0 (R$197 vigente) → Sintonize / Ciclo PI → Premium**
+
+Esse fluxo não é obrigatório. Existem atalhos legítimos:
+
+- Busca por Mesa/Sintonize → página da técnica → triagem → Sintonize, quando pertinente;
+- Busca por limpeza/bloqueio → página da Porta 2 → triagem → Sintonize ou Mapeamento;
+- Busca por padrões → Mapeamento;
+- comprador do produto de R$97 → pode continuar apenas se desejar.
+
+## 12.1. Estado das ofertas
+
+| Oferta | Papel | Estado | Preço |
 |---|---|---|---|
-| Descoberta | “Isso acontece comigo.” | Conteúdo YouTube e derivados | **ATIVO / PRIORIDADE** |
-| Compreensão | “Onde mais isso aparece?” | Conteúdo aprofundado / futuro Radar | **CONTEÚDO ATIVO; RADAR ADIADO** |
-| Profundidade | “Como isso aparece no meu caso?” | Mapeamento Padrão Interrompido — Individual | **PUBLICADO — R$197** |
-| Integração Sintonize | “Uma aplicação Sintonize faz sentido aqui?” | Experiência a definir após certificação | **EM DEFINIÇÃO** |
-| Intervenção autoral | “O que posso trabalhar agora?” | Futuro Protocolo Padrão Interrompido | **NÃO VALIDADO** |
-| Prática | “Como sustento nova resposta?” | Jornada 21–28 dias | **FUTURO / HIPÓTESE** |
-| Reavaliação | “O que mudou?” | Reavaliação Padrão Interrompido | **FUTURO** |
-| Continuidade | “Quero continuar me desenvolvendo.” | Comunidade / recorrência | **FUTURO** |
-| Profundidade humana | “Quero acompanhamento mais próximo.” | Acompanhamento individual | **FUTURO / LIMITADO** |
-| Formação | “Quero aprender o método.” | Formação do Padrão Interrompido | **LONGO PRAZO** |
+| O Minuto Anterior | entrada gratuita | prioridade de desenho | gratuito |
+| Produto Dinheiro | escala por dor | primeiro MVP | ~R$97 a testar |
+| Produto Procrastinação | escala por dor | segundo teste | ~R$97 a testar |
+| Mapeamento PI 2.0 | organização individual | evolução da oferta vigente | R$197 vigente |
+| Sintonize Individual | intervenção específica | prática/oferta a validar | aberto |
+| Ciclo PI — 21 dias | oferta principal | piloto prioritário | R$897–1.197 hipótese |
+| Premium | aprofundamento | futuro próximo após validação | R$1.497–1.997 hipótese |
+
+## 12.2. Regra de foco
+
+Não lançar simultaneamente toda a esteira. Primeiro validar **Dinheiro**, depois decidir Procrastinação e, em paralelo, evoluir Mapeamento/Sintonize/Ciclo com capacidade operacional real.
 
 ---
 
@@ -466,245 +394,175 @@ Ela pode:
 
 ---
 
-# PARTE IV — ENTRADA GRATUITA E RADAR
+# PARTE IV — ENTRADA GRATUITA E PRODUTOS AUTOGUIADOS
 
 # 14. Conteúdo como primeira experiência do produto
 
-Conteúdo não é apenas divulgação.
-
-Ele é a primeira experiência que a pessoa tem com a forma de observar proposta pelo Portal.
-
-Um bom conteúdo deve conseguir produzir pelo menos um destes movimentos:
-
-- reconhecimento;
-- uma pergunta melhor;
-- percepção de repetição;
-- ligação entre duas áreas;
-- desejo de observar;
-- desejo de aprofundar.
-
-Conteúdo não precisa ensinar metodologias proprietárias da Sintonize para cumprir essa função.
+Conteúdo continua sendo a primeira microexperiência do método: a pessoa percebe uma cena, reconstrói algo e leva uma pergunta útil.
 
 ---
 
-# 15. Radar / Mapa da Repetição
+# 15. O Minuto Anterior — entrada gratuita prioritária
 
 ## 15.1. Definição
 
-O Radar é uma futura ferramenta digital autoral baseada em **autorrelato**.
+Exercício simples de aproximadamente 5 minutos para a pessoa reconstruir uma situação recorrente.
 
-Sua função será organizar informações declaradas pela própria pessoa para facilitar uma primeira observação.
+Perguntas-base:
 
-## 15.2. O Radar pode
+1. O que aconteceu?
+2. O que aconteceu imediatamente antes?
+3. O que você pensou ou disse para si?
+4. O que fez?
+5. Isso já aconteceu de forma parecida?
+6. Qual foi o primeiro pequeno movimento observável?
 
-- organizar respostas;
-- reconhecer recorrências textuais ou temáticas;
-- apontar áreas de observação;
-- sugerir perguntas;
-- mostrar conexões possíveis;
-- preservar histórico;
-- comparar autorrelatos em momentos diferentes;
-- indicar conteúdo ou próximos passos.
+## 15.2. Papel
 
-## 15.3. O Radar não pode ser apresentado como
+- captar lead;
+- entregar valor imediato;
+- ensinar a linguagem do “minuto anterior”;
+- preparar o Mapeamento;
+- servir como ponte para produtos por dor.
 
-- Mesa Sintonize digital;
-- pêndulo virtual;
-- ferramenta que mede energia;
-- medidor de frequência;
-- Escala de Hawkins automatizada;
-- diagnóstico energético;
-- instrumento clínico;
-- reprodução digital do Guia Consultivo Sintonize;
-- banco dos protocolos oficiais da formação.
+## 15.3. Status
 
-## 15.4. Domínios da vida
-
-Até que o Método Padrão Interrompido possua um mapa próprio deliberadamente desenvolvido e validado, o Radar deve trabalhar com **domínios da vida / áreas de observação originais e funcionais**, sem copiar a Roda oficial das 8 Prosperidades da Sintonize.
-
-“Familiar/Ancestral” pode existir como tema transversal de observação, mas não deve ser apresentado como uma das oito prosperidades oficiais da Sintonize.
-
-## 15.5. Status
-
-**Planejado, não prioritário.**
-
-Não desenvolver MVP antes de existir evidência de que ele melhora aquisição, qualificação, experiência ou reavaliação de forma suficiente para justificar tecnologia.
+**Hipótese priorizada; ainda não implementada como produto canônico.**
 
 ---
 
-# PARTE V — MAPEAMENTO PADRÃO INTERROMPIDO
+# 15.A. Família de produtos autoguiados por dor
+
+Produtos simples, específicos e escaláveis, sem depender de atendimento individual.
+
+Estrutura de referência:
+
+- 5–7 dias;
+- 5–7 áudios de aproximadamente 8–15 minutos;
+- exercícios curtos;
+- PDF/workbook;
+- diário de observação;
+- prática diária;
+- reavaliação final;
+- CTA natural para próximo passo.
+
+## Primeiro produto — Dinheiro
+
+Dor de entrada:
+
+> **“O dinheiro entra e some. Eu organizo, melhora um pouco e depois aperta de novo.”**
+
+Objetivo não é prometer prosperidade. É ajudar a observar como a pessoa se relaciona com decisões, acompanhamento, medo, adiamento e respostas recorrentes ao dinheiro.
+
+Preço de teste: **aproximadamente R$97**.
+
+## Segundo produto — Procrastinação
+
+Dor de entrada:
+
+> **“Eu sei o que preciso fazer. Só continuo deixando para depois.”**
+
+Só deve ser produzido depois de aprendermos com Dinheiro.
+
+## Regra
+
+> **Uma dor por produto. Uma promessa delimitada. Uma microtransformação observável.**
+
+O antigo Radar continua como ideia futura e não é prioridade neste ciclo.
+
+---
+
+# PARTE V — MAPEAMENTO PADRÃO INTERROMPIDO 2.0
 
 # 16. Definição
 
-O **Mapeamento Padrão Interrompido** é uma experiência individual de organização e leitura estruturada de informações e repetições percebidas na vida da pessoa.
+O **Mapeamento Padrão Interrompido 2.0** é a experiência autoral individual que aplica os primeiros movimentos do Método Padrão Interrompido para organizar o caso da pessoa.
 
-Sua essência é autoral.
+Sua promessa responsável:
 
-Ele pode organizar:
-
-1. o que a pessoa está vivendo;
-2. o que ela própria reconhece como repetição;
-3. contextos em que isso aparece;
-4. domínios da vida relacionados;
-5. possíveis conexões;
-6. pontos que merecem aprofundamento;
-7. prioridades de observação;
-8. ações ou práticas que podem fazer sentido;
-9. o que deverá ser reavaliado depois.
-
-O Mapeamento não é:
-
-- diagnóstico;
-- perícia;
-- profecia;
-- leitura clínica;
-- sentença espiritual;
-- garantia de causalidade;
-- promessa de resultado.
+> **Organizar o que se repete, reconstruir como a situação chega até ali e localizar o primeiro ponto que merece atenção.**
 
 ---
 
-# 17. Oferta pública atual — V1
+# 17. Oferta pública e transição
 
-Em 01/09/2026, a página pública apresenta:
+A oferta pública vigente permanece:
 
 > **Mapeamento Padrão Interrompido — Individual — R$197**
 
-Essa é a oferta vigente até nova decisão.
-
-A página foi construída para trabalhar:
-
-- reconhecimento;
-- repetição;
-- organização individual;
-- relatório;
-- áudio;
-- primeiro próximo passo.
-
-A página **não promete Sintonize Prosperidade como componente obrigatório da entrega**.
-
-Portanto, a futura integração da Sintonize não deve ser assumida silenciosamente dentro desta oferta sem:
-
-1. conclusão formal da formação;
-2. decisão explícita de produto;
-3. definição de escopo;
-4. revisão da comunicação;
-5. atualização dos documentos correspondentes;
-6. teste operacional;
-7. consentimento adequado.
+Enquanto página, formulário e entrega não forem atualizados para a versão 2.0, o CURRENT deve distinguir **oferta pública vigente** de **arquitetura nova aprovada**.
 
 ---
 
-# 18. Formato assíncrono — base atual
+# 18. Entrega-base do Mapeamento 2.0
 
-## Fluxo proposto
+A pessoa deve receber:
 
-1. contato ou compra;
-2. confirmação da proposta;
-3. consentimento e orientações;
-4. formulário estruturado;
-5. leitura e organização das informações;
-6. mapeamento;
-7. elaboração da devolutiva;
-8. relatório;
-9. áudio personalizado;
-10. primeiro próximo passo;
-11. possibilidade de dúvida objetiva conforme política definida;
-12. registro para eventual reavaliação.
-
-## Entregáveis-base
-
-- síntese do contexto trazido pela pessoa;
-- organização das principais repetições;
-- áreas/domínios relacionados;
-- conexões que merecem atenção;
-- pontos prioritários;
-- relatório em PDF autoral;
-- áudio personalizado de aproximadamente 8–15 minutos;
-- uma prática, reflexão ou ação inicial;
-- indicação de próximo passo quando houver;
-- limites explícitos da entrega.
+1. **Situação central**;
+2. **episódios comparados**;
+3. **Sequência Recorrente Observável**;
+4. **movimento anterior**;
+5. **possível Ponto de Interrupção**;
+6. **Territórios da Vida Real relacionados**;
+7. **prioridade**;
+8. **rota recomendada**;
+9. **plano de observação de aproximadamente 7 dias**;
+10. **relatório autoral + áudio personalizado**.
 
 ## Resultado ideal
 
-Ao terminar, a pessoa deve pensar:
-
-> **“Agora eu consigo enxergar melhor o que estava acontecendo e sei o que merece minha atenção primeiro.”**
+> **“Agora eu consigo perceber melhor como isso começa e sei onde vale olhar ou experimentar algo diferente primeiro.”**
 
 ---
 
-# 19. Mapeamento ao vivo
+# 19. Formato operacional
 
-O formato ao vivo permanece como hipótese futura, não como oferta pública prioritária.
+Fluxo-base:
 
-Pode fazer sentido quando a pessoa desejar:
-
-- diálogo;
-- perguntas em tempo real;
-- aprofundamento de contexto;
-- construção conjunta de clareza;
-- interação maior com Marcos.
-
-Referência histórica de preço: **R$397**, ainda não validada.
-
-Esse preço não deve ser apresentado como definitivo sem decisão formal.
+1. compra/contato;
+2. consentimento e limites;
+3. formulário;
+4. seleção de situação central;
+5. reconstrução de episódios;
+6. comparação;
+7. localização de possível Ponto de Interrupção;
+8. priorização;
+9. relatório;
+10. áudio;
+11. plano curto de observação;
+12. gate de escolha do próximo passo.
 
 ---
 
 # 20. O que o Mapeamento deve evitar
 
-- excesso de páginas sem função;
-- linguagem genérica de IA;
-- linguagem esotérica incompreensível;
-- transformar todo dado em “bloqueio”;
-- causar medo para vender proteção ou nova sessão;
-- afirmar causalidade energética como fato;
-- utilizar vocabulário clínico;
-- apresentar interpretação espiritual como verdade absoluta;
-- confundir material oficial Sintonize com autoria do Padrão Interrompido;
-- copiar templates protegidos;
-- produzir “diagnóstico” automatizado.
+- diagnosticar “bloqueios”;
+- procurar causa secreta;
+- transformar correlação em causalidade;
+- dizer que dois contextos têm necessariamente a mesma origem;
+- embutir Sintonize sem consentimento e oferta explícita;
+- gerar relatório genérico por IA;
+- criar medo para vender continuidade;
+- prometer interrupção do padrão;
+- confundir Ponto de Interrupção com garantia de mudança.
 
 ---
 
-# PARTE VI — INTEGRAÇÃO POSSÍVEL COM SINTONIZE PROSPERIDADE
+# PARTE VI — SINTONIZE PROSPERIDADE COMO ROTA DE INTERVENÇÃO
 
 # 21. Lugar da Sintonize no ecossistema
 
 A **Mesa Radiônica Sintonize Prosperidade** é uma metodologia espiritual/radiônica específica de terceiros.
 
-Ela possui:
+No novo desenho:
 
-- linguagem própria;
-- estrutura própria;
-- Roda das 8 Prosperidades;
-- ferramentas próprias;
-- protocolos próprios;
-- comandos e ativações próprios;
-- materiais protegidos;
-- requisitos de formação definidos pela fonte.
+> **Padrão Interrompido organiza, localiza, escolhe e reavalia. Sintonize pode trabalhar um ponto quando houver pertinência.**
 
-Ela não é:
-
-- o Portal inteiro;
-- o Método Padrão Interrompido;
-- um ativo autoral do projeto;
-- uma tecnologia que o Portal pode digitalizar livremente.
-
-Depois da conclusão formal da formação, a Sintonize poderá ser utilizada em determinadas experiências quando houver:
-
-- pertinência;
-- consentimento;
-- formação concluída;
-- respeito aos limites da metodologia;
-- atribuição correta;
-- comunicação responsável.
+A Sintonize não é componente obrigatório do Mapeamento.
 
 ---
 
 # 22. As 8 Prosperidades oficiais da Sintonize
-
-Quando a expressão **8 Prosperidades Sintonize** for utilizada, a referência correta é:
 
 1. Financeira;
 2. Saúde;
@@ -715,143 +573,69 @@ Quando a expressão **8 Prosperidades Sintonize** for utilizada, a referência c
 7. Tempo e Liberdade;
 8. Profissional.
 
-Essas áreas pertencem à estrutura oficial da Sintonize.
-
-Elas não serão apresentadas como criação do Método Padrão Interrompido.
-
-A antiga arquitetura do Portal que unia Profissional + Criativa e incluía Familiar/Ancestral como oitava área deixa de ser utilizada como “8 Prosperidades”.
+Elas pertencem à Sintonize e não substituem os Territórios da Vida Real do Padrão Interrompido.
 
 ---
 
-# 23. Arquitetura recomendada de uma futura experiência integrada
+# 23. Porta 2 — triagem antes da ferramenta
 
-Após certificação e teste controlado, uma experiência poderá combinar três camadas claramente separadas.
+A Porta 2 recebe pessoas que usam linguagem como:
 
-## Camada A — Padrão Interrompido
+- limpeza energética;
+- bloqueio;
+- desbloqueio;
+- harmonização;
+- abrir caminhos;
+- vida travada;
+- sensação de peso.
 
-Responsável por:
+Fluxo preferencial:
 
-- contexto;
-- reconhecimento;
-- perguntas;
-- repetições;
-- domínios da vida;
-- prioridades;
-- objetivo do processo;
-- preparação para reavaliação.
+> **dor → esclarecimento de necessidade → limites → triagem → Sintonize / Mapeamento / ação concreta / outro encaminhamento.**
 
-## Camada B — Sintonize Prosperidade
-
-Quando explicitamente incluída e consentida:
-
-- aplicação da metodologia conforme formação;
-- uso das ferramentas autorizadas;
-- protocolos oficiais quando pertinentes;
-- registro interno do que foi utilizado;
-- respeito integral às instruções da formação.
-
-## Camada C — Devolutiva e integração do Portal
-
-Responsável por:
-
-- traduzir a experiência em linguagem humana;
-- organizar o que merece atenção;
-- separar prática espiritual de ação concreta;
-- entregar relatório autoral;
-- produzir áudio de Marcos;
-- indicar observações;
-- propor prática ou ação;
-- preparar reavaliação.
-
-> **A Camada C pode registrar o que ocorreu na Sintonize, mas não deve copiar o modelo oficial de relatório, os comandos ou os materiais proprietários.**
+Não dizer “você precisa de Sintonize” apenas porque a keyword contém “bloqueio”.
 
 ---
 
-# 24. Nome comercial da experiência integrada
+# 24. Formatos legítimos
 
-**ABERTO.**
+Dentro da formação analisada, a Sintonize contempla:
 
-Não está decidido se a experiência continuará se chamando apenas:
+- autoaplicação;
+- atendimento individual;
+- atendimento em grupo.
 
-> Mapeamento Padrão Interrompido
-
-ou se terá uma formulação como:
-
-> Mapeamento Padrão Interrompido com aplicação da Mesa Radiônica Sintonize Prosperidade
-
-ou outro nome.
-
-A decisão dependerá de:
-
-- certificação;
-- teste prático;
-- clareza para o público;
-- proporção real da Sintonize na experiência;
-- direitos de uso de nomenclatura;
-- impacto sobre posicionamento do Portal.
-
-Não decidir silenciosamente.
+Ela não deve ser ofertada como Sintonize para empresas, casais, plantas, animais, ambientes, desencarnados ou outros formatos fora do material oficial.
 
 ---
 
-# 25. Formatos Sintonize reconhecidos
+# 25. Atendimento individual
 
-A formação possui formatos próprios de aplicação, incluindo autoaplicação, atendimento individual e experiências em grupo, dentro dos limites definidos pela metodologia.
+É a primeira rota comercial Sintonize a ser estruturada e validada.
 
-Para o Portal:
+Exige:
 
-- autoaplicação pertence ao desenvolvimento e prática pessoal de Marcos;
-- aplicação individual poderá integrar uma oferta após habilitação formal;
-- experiências coletivas podem ser exploradas futuramente se houver demanda, competência e aderência às regras da metodologia;
-- formatos não previstos pela Sintonize não devem ser inventados e apresentados como “Sintonize”.
-
-Experiências de grupo são uma oportunidade futura de escala, mas **não são prioridade antes de validar a experiência individual**.
-
----
-
-# 26. Anjos Cabalísticos dentro da Sintonize
-
-Os Anjos Cabalísticos são componentes relevantes da cosmologia e operação da Sintonize.
-
-Os materiais analisados destacam especialmente:
-
-- 06 — Lelahel;
-- 08 — Cahetel/Caehtel;
-- 43 — Veuliah;
-- 71 — Haiaiel.
-
-No Portal:
-
-- relevância operacional Sintonize: alta;
-- relevância para devolutiva quando usados: média/alta;
-- relevância editorial especializada: média;
-- relevância para aquisição ampla: baixa;
-- relevância para identidade principal da marca: baixa.
-
-Eles não devem ser utilizados como:
-
-- diagnóstico;
-- explicação obrigatória da personalidade;
-- profecia;
-- prova de causa;
-- eixo principal da marca.
+- escopo claro;
+- consentimento;
+- atribuição;
+- preço e entrega definidos;
+- registro adequado;
+- limites de claims;
+- reavaliação quando integrada ao Portal.
 
 ---
 
-# 27. Formação e apresentação profissional de Marcos
+# 26. Atendimento em grupo
 
-Até a certificação ser formalmente concluída:
+É oportunidade futura de escala, não prioridade antes de a experiência individual demonstrar clareza e consistência.
 
-- não usar “certificado”;
-- não usar “formado” como fato concluído;
-- não usar “iniciado” sem confirmação correspondente;
-- não anunciar Sintonize como qualificação concluída.
+---
 
-Após conclusão:
+# 27. Apresentação profissional de Marcos
 
-- utilizar a nomenclatura exata sustentada pelo certificado;
-- manter a decisão de **não usar “terapeuta” como identidade profissional pública**;
-- preferir formulações como fundador, criador do método, praticante, facilitador ou qualificação específica devidamente sustentada.
+A formação foi informada como concluída em 03/09/2026. A titulação pública exata continua condicionada ao certificado/documento registrado no CURRENT.
+
+Marcos não adota “terapeuta” como identidade pública padrão.
 
 ---
 
@@ -981,84 +765,75 @@ Só deve ser produzido depois de a versão humana estar suficientemente compreen
 
 # PARTE VIII — JORNADA GUIADA DE PRÁTICA E INTEGRAÇÃO
 
-# 33. Função da Jornada 21–28 dias
+# 33. Ciclo Padrão Interrompido — 21 dias
 
-A Jornada existe para responder:
+O **Ciclo Padrão Interrompido** passa a ser a proposta prioritária de oferta principal a validar.
 
-> **“Eu entendi algo importante. Como transformo isso em uma prática real?”**
+Objetivo:
 
-Ela não é um desafio motivacional.
+> **aplicar um ciclo completo do método sobre um ponto delimitado.**
 
-Ela deve funcionar como ponte entre:
+Arquitetura:
 
-- percepção;
-- prática;
-- repetição consciente;
-- observação;
-- integração;
-- reavaliação.
+1. Mapeamento / situação central;
+2. Ponto de Interrupção;
+3. escolha de uma intervenção ou resposta;
+4. prática/observação orientada;
+5. check-ins curtos quando necessários;
+6. reavaliação;
+7. mapa “antes × depois × próximo passo”.
 
----
+Sintonize pode integrar o Ciclo **quando pertinente**, sem se tornar obrigatória.
 
-# 34. Arquitetura sugerida
+Preço de referência discutido: **R$897–1.197**, ainda hipótese de validação.
 
-## Fase 1 — Observar
+## 33.1. O que o Ciclo não promete
 
-Reconhecer cenas, pensamentos, gatilhos e automatismos.
+- resolver a vida em 21 dias;
+- interromper definitivamente um padrão;
+- cura;
+- resultado financeiro;
+- reconciliação;
+- “desbloqueio” garantido.
 
-## Fase 2 — Escolher
-
-Definir uma resposta alternativa, prática ou compromisso.
-
-## Fase 3 — Praticar
-
-Aplicar em situações reais.
-
-## Fase 4 — Sustentar
-
-Criar condições mínimas para continuar quando a rotina muda.
-
-## Fase 5 — Integrar
-
-Perceber o que foi aprendido e o que já começa a ser incorporado.
-
-## Fase 6 — Reavaliar
-
-Comparar com o ponto de partida.
+A duração define a experiência, não a promessa.
 
 ---
 
-# 35. Componentes possíveis
+# 34. Componentes possíveis do Ciclo
 
+- Mapeamento 2.0 ou atualização do mapa;
+- áudio de orientação;
+- diário simples;
 - prática diária curta;
-- áudio;
-- meditação;
-- auto-hipnose quando apropriada;
-- pergunta de journaling;
-- registro de cenas;
+- uma intervenção delimitada;
+- Sintonize, se escolhida e consentida;
 - ação concreta;
-- check-in semanal;
-- marcador de progresso;
-- microaulas;
-- reavaliação final.
-
-A Jornada deve ser **autoral**.
-
-Não reproduzir sequências, protocolos, comandos, textos ou materiais da Sintonize.
+- check-in;
+- reavaliação final;
+- devolutiva de integração.
 
 ---
 
-# 36. Preço e formato
+# 35. Gate de validação
 
-Referência histórica:
+O Ciclo só deve escalar depois de um piloto pequeno, preferencialmente 5–8 clientes, com registro de:
 
-> **R$297–497**
+- conclusão;
+- horas de Marcos;
+- clareza da proposta;
+- satisfação;
+- dificuldades;
+- percepção de valor;
+- continuidade desejada;
+- reembolso;
+- margem.
 
-Ainda é uma hipótese.
+---
 
-O produto não deve ser criado apenas porque essa faixa parece economicamente atraente.
+# 36. Relação com produtos autoguiados
 
-Primeiro deve haver demanda por prática e integração após experiências reais.
+O comprador de Dinheiro ou Procrastinação pode chegar ao Ciclo mais consciente e qualificado. Isso é uma possibilidade de progressão, não um upsell obrigatório.
 
 ---
 
@@ -1269,20 +1044,19 @@ Essa liberdade precisa ser preservada.
 
 | Oferta | Status atual | Referência | Observação |
 |---|---|---:|---|
-| Conteúdo | Ativo | Gratuito | Prioridade imediata |
-| Radar | Planejado | Gratuito | Não desenvolver agora |
-| Mapeamento Padrão Interrompido — Individual | Publicado | **R$197** | Oferta atual |
-| Mapeamento ao vivo | Hipótese | R$397 | Não validado |
-| Experiência integrada Padrão Interrompido + Sintonize | Em definição | A definir | Após certificação e teste |
-| Aplicação Sintonize individual | Em definição | A definir | Respeitar formação e posicionamento |
-| Experiência coletiva Sintonize | Futuro | A definir | Somente após validação individual |
-| Protocolos Padrão Interrompido | Não criados | A definir | Autoria independente |
-| Jornada 21–28 dias | Futuro | R$297–497 | Faixa histórica a validar |
-| Reavaliação completa | Futuro | A definir | Básica preferencialmente incluída |
-| Comunidade | Futuro | R$79–97/mês | Apenas com demanda de permanência |
-| Premium individual | Futuro | R$1.497+ | Conforme escopo |
-| Formação Padrão Interrompido | Longo prazo | A definir | Somente após validação robusta |
-
+| Conteúdo | Ativo | Gratuito | Aquisição, educação e pesquisa |
+| **O Minuto Anterior — 5 minutos** | Hipótese prioritária | Gratuito | Lead magnet simples; ainda não implementado |
+| **Produto Dinheiro** | Primeiro MVP a construir/testar | ~**R$97** | Dor específica; tráfego direto; preço é hipótese |
+| **Produto Procrastinação** | Segundo teste | ~**R$97** | Só construir depois de aprender com Dinheiro |
+| **Mapeamento Padrão Interrompido — Individual** | Publicado; V2.0 aprovado para implementação | **R$197 vigente** | Preço público não muda até nova decisão |
+| **Aplicação Sintonize individual** | A estruturar / validar | A definir | Formação informada como concluída; exige escopo, preço, página, consentimento e fluxo |
+| **Ciclo Padrão Interrompido — 21 dias** | Flagship a pilotar | **R$897–1.197** hipótese | Pilotar 5–8 clientes antes de escalar |
+| **Acompanhamento Caminho da Consciência / Premium** | Futuro próximo após validação | **R$1.497–1.997** hipótese | Nome, escopo e preço ainda abertos |
+| Sintonize em grupo | Futuro | A definir | Somente depois da validação individual |
+| Protocolos Padrão Interrompido | Não criados | A definir | Só depois de recorrência observada em casos reais |
+| Radar | Futuro / não prioritário | A definir | Não desenvolver neste ciclo sem evidência de necessidade |
+| Comunidade | Futuro | A definir | Só com razão clara de permanência |
+| Formação Padrão Interrompido | Longo prazo | A definir | Somente após validação robusta do método |
 ---
 
 # 47. Regra de preço
@@ -1638,34 +1412,41 @@ Se uma implementação depender desses conteúdos, deve ser interrompida até ex
 
 # 65. Próximos 7 dias — prioridade vigente
 
-Enquanto a formação Sintonize é finalizada:
+Com a conclusão informada da formação, a prioridade muda de “terminar a formação” para **transformar conhecimento concluído em operação responsável**:
 
-1. concluir as aulas restantes;
-2. não antecipar certificação;
-3. manter o site atual sem mudança comercial baseada na Sintonize;
-4. produzir conteúdo para alcance e crescimento do YouTube;
-5. trabalhar cenas concretas, repetição, consciência e espiritualidade ampla;
-6. coletar linguagem real do público;
-7. não iniciar Google Ads apenas porque a infraestrutura está pronta;
-8. não desenvolver Radar;
-9. não criar protocolos;
-10. não iniciar operação comercial ampliada baseada na Sintonize.
+1. registrar no CURRENT o estado da formação e a nomenclatura documental quando disponível;
+2. manter o Mapeamento Padrão Interrompido R$197 como oferta pública vigente até nova decisão;
+3. estruturar uma ficha/briefing autoral mínimo para prática Sintonize sem copiar material protegido;
+4. realizar prática controlada individual;
+5. medir tempo, clareza, dúvidas e qualidade da devolutiva;
+6. definir se Sintonize será oferta separada, integrada ou ambas com escopos diferentes;
+7. usar o Mapa Mestre de Palavras-Chave para compreender demanda, sem ativar campanha antes da página correta;
+8. preservar YouTube e conteúdo como aquisição contínua.
 
 ---
 
-# 66. Após certificação — Gate de habilitação
+# 66. Gate de habilitação documental e operacional
 
-Quando a certificação estiver formalmente concluída:
+A conclusão da formação foi informada. O gate agora possui duas camadas:
 
-1. registrar data e nomenclatura exata;
-2. atualizar Documento 00 se necessário;
-3. atualizar Documento 01 e este Documento 02 apenas se o certificado trouxer informação nova;
-4. definir formulação pública de Marcos;
-5. revisar como Sintonize pode ser mencionada na página;
-6. confirmar limites operacionais da formação;
-7. definir se a primeira experiência integrada manterá o nome Mapeamento Padrão Interrompido;
-8. criar ficha operacional privada;
-9. não publicar materiais proprietários.
+## 66.1. Camada documental
+
+- registrar certificado/documento, quando disponível;
+- registrar nomenclatura exata;
+- atualizar apresentação pública somente com o que for sustentado.
+
+## 66.2. Camada operacional
+
+- confirmar formato individual;
+- praticar;
+- definir formulário e consentimento;
+- definir relatório/devolutiva autoral;
+- definir preço e prazo;
+- definir política de dúvidas/reavaliação;
+- preparar página coerente com o cluster de busca;
+- só depois autorizar aquisição paga para a oferta.
+
+A conclusão da formação não equivale, por si só, a uma oferta pronta.
 
 ---
 
@@ -1767,61 +1548,64 @@ Se houver compra e valor percebido:
 
 **FECHADO — 01.** Portal Caminho da Consciência é o ecossistema maior.
 
-**FECHADO — 02.** Padrão Interrompido é método próprio.
+**FECHADO — 02.** Padrão Interrompido é o método próprio.
 
 **FECHADO — 03.** Sintonize Prosperidade é metodologia específica de terceiros.
 
 **FECHADO — 04.** As 8 Prosperidades oficiais da Sintonize são Financeira, Saúde, Relacionamentos, Emocional, Espiritual, Criativa, Tempo e Liberdade e Profissional.
 
-**FECHADO — 05.** A antiga lista do Portal não será mais chamada de 8 Prosperidades.
+**FECHADO — 05.** Domínios do Padrão Interrompido não serão chamados automaticamente de 8 Prosperidades.
 
 **FECHADO — 06.** Familiar/Ancestral pode continuar como tema transversal, não como oitava prosperidade Sintonize.
 
 **FECHADO — 07.** Protocolos Sintonize e Protocolos Padrão Interrompido são categorias distintas.
 
-**FECHADO — 08.** Nenhum Protocolo Padrão Interrompido é considerado validado nesta data.
+**FECHADO — 08.** Radar não é Mesa digital.
 
-**FECHADO — 09.** Radar é autoral e baseado em autorrelato.
+**FECHADO — 09.** Mapeamento não é diagnóstico.
 
-**FECHADO — 10.** Radar não é Mesa digital.
+**FECHADO — 10.** Marcos não usa “terapeuta” como identidade pública padrão.
 
 **FECHADO — 11.** Materiais Sintonize não serão transformados em software ou conteúdo derivado sem autorização.
 
-**FECHADO — 12.** Marcos não usará “terapeuta” como identidade profissional pública.
+**FECHADO — 12.** Anjos não são eixo principal da marca.
 
-**FECHADO — 13.** A certificação só será comunicada depois de formalizada.
+**FECHADO — 13.** Marcos informou a conclusão da formação Sintonize em 03/09/2026; a titulação pública exata depende do registro documental.
 
 **FECHADO — 14.** Mapeamento Padrão Interrompido — Individual permanece como oferta pública atual por R$197 até nova decisão.
 
-**FECHADO — 15.** A integração definitiva da Sintonize no Mapeamento ainda não está fechada.
+**FECHADO — 15.** A Sintonize individual passa a ser uma rota legítima de intervenção a estruturar e validar; sua integração definitiva ao Mapeamento continua aberta.
 
-**FECHADO — 16.** Conteúdo e crescimento orgânico no YouTube são prioridade imediata.
+**FECHADO — 16.** Sintonize em grupo é possibilidade futura prevista pela metodologia, não prioridade antes da validação individual.
 
-**FECHADO — 17.** Google Ads permanece preparado e adiado.
+**FECHADO — 17.** Busca por ambiente, empresa, casal, animais ou formatos incompatíveis não será convertida em oferta Sintonize.
 
 **FECHADO — 18.** Prática controlada precederá escala comercial baseada na Sintonize.
+
+**FECHADO — 19.** O Mapa Mestre de Palavras-Chave orienta aquisição e páginas, mas não escolhe a intervenção no lugar do processo de atendimento.
 
 ---
 
 # 73. Decisões abertas
 
-1. nomenclatura pública final da qualificação de Marcos após certificação;
-2. nome final da primeira experiência que integrar Padrão Interrompido e Sintonize;
-3. se o Mapeamento atual incorporará Sintonize ou se haverá oferta separada;
-4. se R$197 continuará adequado após eventual integração;
-5. desenho final do formulário;
-6. prazo operacional definitivo;
+1. nomenclatura pública final da qualificação de Marcos após registro documental;
+2. nome final da primeira experiência Sintonize individual;
+3. preço da experiência Sintonize individual;
+4. desenho final da Sintonize como intervenção separada ou explicitamente opcional depois do Mapeamento — nunca componente obrigatório;
+5. formulário autoral definitivo;
+6. prazo operacional da Sintonize individual;
 7. política de dúvidas pós-entrega;
-8. primeiro Protocolo Padrão Interrompido autoral;
-9. mapa próprio de domínios da vida;
-10. momento de desenvolvimento do Radar;
-11. formato da Jornada 21–28 dias;
-12. experiência coletiva Sintonize;
-13. momento da comunidade;
-14. desenho do acompanhamento premium;
-15. política de reavaliação;
+8. política de reavaliação;
+9. primeiro Protocolo Padrão Interrompido autoral;
+10. validação ou ajuste dos seis Territórios da Vida Real após aproximadamente 20–30 Mapeamentos;
+11. momento de desenvolvimento do Radar;
+12. escopo, preço e cadência final do **Ciclo Padrão Interrompido — 21 dias** após piloto;
+13. nome, preço e cadência de experiência coletiva Sintonize, se validada;
+14. momento da comunidade;
+15. desenho do acompanhamento premium;
 16. eventual formação futura do Método Padrão Interrompido;
-17. grau de conteúdo especializado sobre Anjos Cabalísticos.
+17. grau de conteúdo especializado sobre Anjos Cabalísticos;
+18. quais clusters de palavras-chave receberão página própria e quais serão apenas conteúdo.
 
 ---
 
@@ -1848,7 +1632,7 @@ Antes de criar produto, responder:
 # 75. Relação com os demais documentos
 
 - **Documento 00** — governa fronteiras conceituais, autoria, propriedade intelectual, Sintonize e posicionamento.
-- **Documento 01 — V4.0** — governa propósito, estratégia e princípios.
+- **Documento 01 — V4.2** — governa propósito, estratégia e princípios.
 - **Documento 03** — deve transformar esta arquitetura em sistema editorial, aquisição e experimentação.
 - **Documento 04** — deve traduzir as ofertas em voz, identidade e comunicação responsável.
 - **Documento 05** — deve definir infraestrutura sem digitalizar material protegido.
@@ -1858,65 +1642,69 @@ Antes de criar produto, responder:
 
 # 76. Síntese canônica da jornada
 
-## O que a pessoa encontra primeiro
+## Entrada
 
-> **Reconhecimento: “isso acontece comigo.”**
+> **Descobrir:** “isso está doendo, travando ou se repetindo.”
 
-## O que ela começa a compreender
+## Reconhecimento
 
-> **Compreensão: “talvez isso se conecte a outras partes da minha vida.”**
+> **“Isso sou eu.”**
 
-## O que o método organiza
+## Organização
 
-> **Mapeamento: “agora consigo enxergar melhor o meu caso.”**
+> **Mapear:** “agora consigo enxergar a sequência e o ponto que merece atenção.”
 
-## O que ela decide trabalhar
+## Trabalho
 
-> **Intervenção: “este é o ponto que faz sentido trabalhar agora.”**
+> **“Quero experimentar algo diferente nesse ponto.”**
 
-## O que transforma percepção em experiência
+## Integração
 
-> **Prática: “estou tentando responder de outra forma na vida real.”**
+> **“Estou observando, praticando e reavaliando o que realmente muda.”**
 
-## O que impede certeza cega
+## Aprofundamento
 
-> **Reavaliação: “o que realmente mudou?”**
-
-## O que dá continuidade sem dependência
-
-> **Integração: “estou incorporando o que aprendi.”**
-
-## O que abre a jornada maior
-
-> **Aprofundamento: “quero continuar aprendendo, desenvolvendo consciência e aprofundando minha espiritualidade.”**
+> **“Quero continuar meu desenvolvimento para além desta dor inicial.”**
 
 ---
 
-# 77. Arquitetura conceitual das três camadas
+# 77. Arquitetura conceitual das camadas
 
-> **Portal Caminho da Consciência = o ecossistema e o caminho maior.**
+> **Portal Caminho da Consciência = ecossistema.**
 
-> **Método Padrão Interrompido = o método autoral que organiza reconhecimento, investigação, prática, integração e reavaliação.**
+> **Método Padrão Interrompido = método autoral de 7 movimentos.**
 
-> **Sintonize Prosperidade = uma metodologia espiritual/radiônica específica que pode ser utilizada em determinadas experiências quando houver formação concluída, pertinência, consentimento e atribuição correta.**
+> **Sequência Recorrente Observável = unidade prática.**
+
+> **Ponto de Interrupção = mecanismo central.**
+
+> **Mapeamento = organização do caso.**
+
+> **Sintonize = possível ferramenta de intervenção.**
+
+> **Produtos autoguiados = escala por dores específicas.**
+
+> **Ciclo PI = aplicação guiada do método completo.**
+
+> **Premium = aprofundamento e maior continuidade quando legítima.**
 
 ---
 
 # 78. Frase que organiza os produtos
 
-> **Mapear para compreender. Intervir para experimentar. Praticar para integrar. Reavaliar para aprender. Aprofundar para continuar caminhando.**
+> **Perceber para localizar. Trabalhar para experimentar. Reavaliar para aprender. Integrar para continuar.**
 
 ---
 
 # 79. Regra final
 
-> **O Portal Caminho da Consciência não deve vender uma sequência de produtos. Deve construir uma sequência de próximos passos que façam sentido para a vida da pessoa — deixando claro o que é próprio do Portal, o que pertence a uma metodologia específica e quando o melhor próximo passo é não comprar nada.**
+> **O Portal não vende produtos em sequência por obrigação. Ele usa produtos diferentes para necessidades diferentes e protege a autonomia da pessoa em cada gate.**
 
 ---
 
 # 80. Governança da versão
 
-Esta V2.0 substitui integralmente a V1.0.
+Esta V2.2 substitui integralmente a V2.1.
 
 Ela deve ser revisada apenas quando houver mudança real na arquitetura de produto, incluindo:
 
@@ -1932,4 +1720,4 @@ Ela deve ser revisada apenas quando houver mudança real na arquitetura de produ
 
 Mudanças operacionais cotidianas pertencem ao CURRENT.
 
-> **Fim do Documento 02 — Jornada de Transformação, Produtos, Serviços e Protocolos — V2.0.**
+> **Fim do Documento 02 — Jornada de Transformação, Produtos, Serviços e Protocolos — V2.2.**

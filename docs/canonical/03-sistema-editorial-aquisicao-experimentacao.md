@@ -1,12 +1,12 @@
 # PORTAL CAMINHO DA CONSCIÊNCIA
-## Documento 03 — Sistema Editorial, Aquisição e Experimentação — V2.0
+## Documento 03 — Sistema Editorial, Aquisição e Experimentação — V2.2
 
 **STATUS CANÔNICO:** sistema operacional oficial de comunicação, aquisição, aprendizado e crescimento  
-**DATA:** 01/09/2026  
+**DATA:** 03/09/2026  
 **HORIZONTE:** próximos 7 dias + primeiros 90 dias + sistema editorial de longo prazo  
-**DOCUMENTOS SUPERIORES:** Documento 00 — Matriz de Governança Conceitual, Propriedade Intelectual e Posicionamento — V1.0; Documento 01 — Fundacional, Estratégico e Plano Executivo Canônico — V4.0  
-**DOCUMENTO RELACIONADO:** Documento 02 — Jornada de Transformação, Produtos, Serviços e Protocolos — V2.0  
-**SUBSTITUI:** Documento 03 — Sistema Editorial, Aquisição e Experimentação — V1.0
+**DOCUMENTOS SUPERIORES:** Documento 00 — Matriz de Governança Conceitual, Propriedade Intelectual e Posicionamento — V1.2; Documento 01 — Fundacional, Estratégico e Plano Executivo Canônico — V4.2  
+**DOCUMENTO RELACIONADO:** Documento 02 — Jornada de Transformação, Produtos, Serviços e Protocolos — V2.2  
+**SUBSTITUI:** Documento 03 — Sistema Editorial, Aquisição e Experimentação — V2.1
 
 > **Conteúdo não existe para preencher calendário. Existe para gerar reconhecimento, ampliar consciência, produzir confiança, revelar intenção, ensinar o projeto e preparar próximos passos legítimos.**
 
@@ -14,7 +14,7 @@
 
 # Mapa do documento
 
-Esta V2.0 atualiza integralmente o sistema editorial do **Portal Caminho da Consciência** após:
+Esta V2.2 preserva a base editorial das versões anteriores e incorpora as decisões estratégicas de 03/09/2026, incluindo:
 
 - criação do Documento 00;
 - revisão estratégica do Documento 01;
@@ -23,7 +23,7 @@ Esta V2.0 atualiza integralmente o sistema editorial do **Portal Caminho da Cons
 - análise dos principais materiais oficiais da formação;
 - separação conceitual entre Portal, Método Padrão Interrompido e Sintonize Prosperidade;
 - decisão de Marcos não adotar “terapeuta” como identidade profissional pública;
-- definição de que a certificação ainda está em fase final e não deve ser antecipada;
+- conclusão da formação Sintonize informada por Marcos em 03/09/2026, mantendo a titulação pública exata subordinada ao registro documental;
 - decisão de priorizar, nos próximos dias, **alcance e crescimento orgânico no YouTube**;
 - implementação da mensuração GTM + GA4 + Google Ads;
 - configuração de `whatsapp_click` como conversão secundária no Google Ads;
@@ -141,6 +141,18 @@ Quando houver conflito:
 - Não garantir dinheiro, clientes, emprego ou resultado material.
 - Não apresentar causalidade espiritual como fato.
 - Não apresentar conteúdo proprietário de terceiros como criação do Portal.
+
+---
+
+## 0.4. Regra comercial de aquisição — Porta 2 prioritária
+
+Para conteúdos, anúncios, páginas e Search com objetivo de conversão imediata, a ordem preferencial é:
+
+> **DOR PRIMÁRIA E VISCERAL → CONSEQUÊNCIAS CONCRETAS E EMOCIONAIS → SENSAÇÃO DE TRAVAMENTO/BLOQUEIO → AGITAÇÃO RESPONSÁVEL → REPETIÇÃO → “DE NOVO EU ESTOU AQUI” → “POR QUE ISSO SEMPRE VOLTA?” → PRÓXIMO PASSO.**
+
+A Porta 2 passa a ser a **prioridade comercial**, mas não substitui as demais portas no orgânico.
+
+“Bloqueio”, “travado” e “pesando” podem descrever a percepção do público. Não são diagnóstico automático nem prova de causalidade energética.
 
 ---
 
@@ -397,18 +409,14 @@ Depois de confiança, algumas pessoas desejarão saber:
 - como uma prática espiritual pode entrar numa experiência;
 - quais limites existem.
 
-Antes da certificação Sintonize:
-
-- não apresentar qualificação concluída;
-- não vender conteúdo como “autoridade certificada”;
-- não fazer demonstrações comerciais baseadas em habilitação ainda não formalizada.
-
-Depois da certificação:
+Após a conclusão informada da formação:
 
 - explicar com atribuição;
-- comunicar como metodologia específica;
+- comunicar a Sintonize como metodologia específica de terceiros;
 - diferenciar claramente de Padrão Interrompido;
-- mostrar limites.
+- mostrar limites e formatos reais;
+- usar titulação pública somente quando o CURRENT registrar a nomenclatura documental exata;
+- não ensinar protocolos protegidos.
 
 ---
 
@@ -447,136 +455,82 @@ CTA:
 
 # 12. Tese editorial central
 
+A tese continua sendo:
+
 > **O cenário muda. O padrão volta. A consciência pode mudar o caminho.**
 
-Ela conecta:
-
-- problema concreto;
-- Método Padrão Interrompido;
-- Caminho da Consciência.
+Mas a aquisição comercial não precisa começar pela tese. Em lead frio, a sequência mais forte é **dor → consequência → sensação de travamento → repetição → nova percepção**.
 
 ---
 
-# 13. Território verbal principal
+# 13. Dois territórios verbais complementares
+
+## 13.1. Território comercial imediato
+
+> **“Tem alguma coisa travando, pesando ou voltando.”**
+
+Usado para captar urgência percebida sem diagnosticar.
+
+## 13.2. Território autoral de aprofundamento
 
 > **“Voltar ao mesmo lugar.”**
 
-É preferível a iniciar aquisição com:
-
-- bloqueio;
-- frequência;
-- energia;
-- causa raiz;
-- prosperidade;
-- Anjo;
-- radiônica.
-
-Esses termos podem existir em contextos específicos, mas não são a principal porta de entrada.
+Usado para transformar a dor pontual em percepção de repetição e categoria.
 
 ---
 
 # 14. Pergunta estratégica invisível
 
-> **“E se o problema que você percebe não for o único lugar onde esse padrão aparece?”**
-
-Essa pergunta deve aparecer em diferentes formas sem virar bordão repetitivo.
+> **“Você está tentando resolver o que aparece no final — ou já percebeu como chega até ali?”**
 
 ---
 
 # 15. Grandes Ideias editoriais
 
-## GI-01 — O cenário mudou. A reação não.
+As Grandes Ideias existentes permanecem válidas. A V2.2 acrescenta cinco famílias de aquisição comercial:
 
-Mudanças externas nem sempre mudam automaticamente a forma de responder.
+## GI-C1 — A dor que volta
 
-## GI-02 — Não é voltar ao início; é perceber algo que voltou a aparecer.
+Resolver o episódio não encerra necessariamente a sensação de estar novamente no mesmo lugar.
 
-Evita fatalismo.
+## GI-C2 — O bloqueio percebido aparece como consequência
 
-## GI-03 — O problema pode estar aparecendo em mais de um domínio.
+A pessoa chama de “travamento” aquilo que sente quando tentativas, decisões e resultados voltam a parar em pontos parecidos.
 
-Grande Ideia transversal.
+## GI-C3 — Antes de “desbloquear”, localize
 
-## GI-04 — A frase que você diz quando ninguém está ouvindo.
+A urgência é legítima, mas a intervenção fica mais responsável quando existe clareza sobre o que será trabalhado.
 
-Explora linguagem interna.
+## GI-C4 — O custo invisível do “depois”
 
-## GI-05 — O que você faz no minuto anterior ao padrão?
+Adiamentos aparentemente pequenos acumulam consequência emocional, prática e material.
 
-Foco no comportamento observável antes do resultado.
+## GI-C5 — A intervenção certa depende do ponto certo
 
-## GI-06 — Você pode perceber antes.
+A mesma dor pode pedir Mapeamento, ação concreta, produto autoguiado, Sintonize, Ciclo ou outro encaminhamento.
 
-Consciência como aumento de escolha.
-
-## GI-07 — Prática espiritual que não toca a vida concreta pode virar fuga.
-
-Espiritualidade + responsabilidade.
-
-## GI-08 — Entender não é integrar.
-
-Ponte para prática.
-
-## GI-09 — Uma intervenção não é o fim do caminho.
-
-Ponte para reavaliação.
-
-## GI-10 — O problema mais visível pode não ser o único ponto relevante.
-
-Ponte para Mapeamento.
-
-## GI-11 — A vida muda de contexto e testa o que você realmente integrou.
-
-Útil para hábitos, trabalho, relações e espiritualidade.
-
-## GI-12 — Aprender a observar a própria vida é parte da transformação.
-
-Autonomia.
+As GI-01 a GI-12 anteriores continuam ativas como biblioteca do Portal.
 
 ---
 
 # 16. Territórios editoriais flexíveis
 
-O Portal pode organizar pauta em territórios editoriais como:
+Além dos territórios já utilizados, o editorial passa a observar o mapa provisório do Método Padrão Interrompido:
 
-- dinheiro e recursos;
-- trabalho, carreira e projetos;
-- criatividade e expressão;
-- relacionamentos;
-- família, história e aprendizados;
-- rotina, autocuidado e bem-estar cotidiano;
-- respostas internas, escolhas e comportamento;
-- espiritualidade;
-- tempo, liberdade e prioridades.
+- Recursos e Segurança;
+- Trabalho e Realização;
+- Relações e Limites;
+- Rotina e Prioridades;
+- Escolhas e Respostas Internas;
+- Sentido e Espiritualidade.
 
-Essa lista:
-
-- não é diagnóstico;
-- não é um mapa fechado do método;
-- não é a Roda oficial Sintonize;
-- pode evoluir conforme dados.
+Esse mapa não substitui categorias editoriais mais específicas e ainda deve ser validado em casos reais.
 
 ---
 
 # 17. As 8 Prosperidades Sintonize no editorial
 
-Quando um conteúdo for **explicitamente sobre a Sintonize**, a estrutura oficial é:
-
-1. Financeira;
-2. Saúde;
-3. Relacionamentos;
-4. Emocional;
-5. Espiritual;
-6. Criativa;
-7. Tempo e Liberdade;
-8. Profissional.
-
-Regras:
-
-- atribuir à Sintonize;
-- não afirmar que foi criada pelo Padrão Interrompido;
-- não substituir os territórios editoriais amplos do Portal por essa Roda;
-- não utilizar “Familiar/Ancestral” como uma das 8 Prosperidades oficiais.
+Quando o conteúdo for explicitamente sobre Sintonize, utilizar a nomenclatura oficial da metodologia e atribuir corretamente. As 8 Prosperidades não são o mapa autoral do Padrão Interrompido.
 
 ---
 
@@ -604,33 +558,28 @@ Lógica:
 
 # 19. Prioridade editorial vigente
 
-Durante aproximadamente os próximos sete dias, enquanto Marcos conclui a formação Sintonize:
+A prioridade editorial combina dois objetivos simultâneos:
 
-> **PRIORIDADE = ALCANCE QUALIFICADO + CRESCIMENTO DO YOUTUBE + APRENDIZADO DE LINGUAGEM**
+1. **crescimento orgânico qualificado no YouTube**;
+2. **aprendizado comercial sobre dores da Porta 2 e produtos da nova esteira**.
 
-Não é prioridade:
-
-- intensificar venda da Sintonize;
-- transformar o canal em canal de Mesa Radiônica;
-- criar campanha paga só porque o tracking está pronto;
-- publicar conteúdo como se a certificação já estivesse formalizada;
-- ensinar protocolos da formação;
-- construir produto derivado.
+Não transformar o canal em catálogo de limpeza energética ou Mesa Radiônica. Conteúdo orgânico continua cobrindo as quatro portas.
 
 ---
 
-# 20. Hipótese de mix editorial para esta janela
+# 20. Mix editorial de referência
 
-Ponto de partida operacional, sujeito a dados:
+Não é quota rígida. Ponto de partida:
 
-- **60–70%** reconhecimento concreto, cenas e repetição;
-- **15–20%** consciência, conexão entre domínios e Padrão Interrompido;
-- **10–20%** espiritualidade aplicada à vida real;
-- **até 10%** conteúdo de oferta, bastidor, método ou intenção comercial.
+- **45–55%** dor visceral, reconhecimento e repetição — Portas 2/3;
+- **20–25%** categoria, Ponto de Interrupção, método e compreensão — Porta 4;
+- **10–15%** técnica, Sintonize, radiestesia e educação de intervenção — Portas 1/2;
+- **10–15%** espiritualidade aplicada, aprofundamento e história/autoridade;
+- **peças comerciais específicas** podem concentrar-se fortemente na Porta 2.
 
-Isso é hipótese operacional, não quota eterna.
+No tráfego direto, a prioridade é muito mais clara:
 
-Sintonize pode aparecer antes da certificação apenas como **contexto de estudo em andamento**, se houver motivo real; não precisa aparecer para o canal crescer.
+> **Porta 2 → dor específica → produto/rota específica.**
 
 ---
 
@@ -859,15 +808,14 @@ Usar quando houver pertinência real, sem tornar o canal autobiográfico.
 
 # 34. Longos sobre Sintonize — somente quando fizer sentido
 
-Antes da certificação:
+Com a conclusão da formação informada por Marcos em 03/09/2026:
 
-- conteúdo educativo não deve vender habilitação já concluída;
-- evitar walkthrough de ferramenta ou demonstração comercial da formação;
-- não ensinar conteúdo proprietário.
+- conteúdos educativos podem explicar a metodologia e medir demanda;
+- a qualificação pública exata deve usar somente a nomenclatura sustentada pelo certificado/documento vigente;
+- evitar walkthrough que revele protocolo, comando, símbolo, ficha ou estrutura proprietária;
+- não transformar a conclusão da formação em claim de resultado.
 
-Depois da certificação:
-
-possíveis temas:
+Possíveis temas:
 
 - “O que é a Mesa Radiônica Sintonize Prosperidade e como eu a enxergo dentro do Portal.”
 - “Padrão Interrompido e Sintonize: por que não são a mesma coisa.”
@@ -932,7 +880,7 @@ Demonstração educativa.
 
 Série futura para explicar técnicas específicas com contexto e atribuição.
 
-Sintonize poderá entrar aqui após certificação, não como “a verdade do Portal”.
+Sintonize pode entrar aqui após a conclusão informada da formação, com atribuição, escopo e limites claros — nunca como “a verdade do Portal”.
 
 ---
 
@@ -1173,9 +1121,9 @@ Não usar como:
 
 ---
 
-# 48. Conteúdo especializado após certificação
+# 48. Conteúdo especializado sobre Sintonize após conclusão da formação
 
-Depois da certificação, uma escada editorial possível:
+Com a formação informada como concluída e respeitados certificado, escopo e propriedade intelectual, uma escada editorial possível:
 
 ### Nível S1 — O que é / o que não é
 
@@ -1276,16 +1224,13 @@ Entradas possíveis:
 
 # 52. Posicionamento falado de Marcos
 
-Antes da certificação:
+Base pública:
 
 - fundador do Portal Caminho da Consciência;
 - criador do Método Padrão Interrompido;
-- pesquisador/praticante de caminhos de desenvolvimento pessoal e espiritual;
-- pode mencionar que está concluindo formação específica se houver contexto real.
+- praticante de caminhos de desenvolvimento pessoal e espiritual.
 
-Depois da certificação:
-
-usar o nome exato da qualificação sustentada pelo certificado.
+A formação Sintonize foi informada como concluída em 03/09/2026. Ao mencioná-la publicamente, usar **somente o nome exato da qualificação sustentada pelo certificado/documento vigente**.
 
 Não usar “terapeuta” como identidade pública padrão.
 
@@ -1402,63 +1347,80 @@ IA não pode:
 
 # PARTE XII — FUNIL EDITORIAL, CTAs E OFERTA VIGENTE
 
-# 59. Funil editorial
+# 59. Funil editorial e comercial
 
-> **CONTEÚDO → COMPREENSÃO → MAPEAMENTO → POSSÍVEL INTERVENÇÃO → PRÁTICA → REAVALIAÇÃO → INTEGRAÇÃO / APROFUNDAMENTO**
+Não existe um único funil.
 
-Quando Radar existir:
+## Rota orgânica principal
 
-> **CONTEÚDO → RADAR → MAPEAMENTO → PRÓXIMO PASSO**
+> **CONTEÚDO → RECONHECIMENTO → REPETIÇÃO → COMPREENSÃO → MAPEAMENTO / PRÓXIMO PASSO**
 
-Sintonize não precisa aparecer em todas as rotas.
+## Rota de resposta direta por dor
+
+> **ANÚNCIO / SEARCH → DOR VISCERAL → PRODUTO AUTOGUIADO (~R$97) → MAPEAMENTO / CICLO / OUTRO PASSO**
+
+## Rota Porta 2
+
+> **SEARCH / CONTEÚDO → LIMPEZA / BLOQUEIO / DESTRAVAR → TRIAGEM → SINTONIZE / MAPEAMENTO / AÇÃO / OUTRO ENCAMINHAMENTO**
+
+## Rota técnica
+
+> **MESA / SINTONIZE / RADIESTESIA → PÁGINA ESPECÍFICA → ESCOPO → OFERTA, QUANDO OPERACIONAL**
 
 ---
 
-# 60. Oferta vigente
+# 60. Ofertas e estados
 
-Em 01/09/2026:
+## Oferta pública vigente
 
 > **Mapeamento Padrão Interrompido — Individual — R$197**
 
-Página:
+## Arquitetura aprovada para desenvolvimento
 
-> **portalcaminhodaconsciencia.com.br**
+- **O Minuto Anterior** — lead magnet;
+- **produto Dinheiro** — primeiro infoproduto a aproximadamente R$97;
+- **produto Procrastinação** — segundo teste;
+- **Mapeamento PI 2.0**;
+- **Sintonize Individual**;
+- **Ciclo Padrão Interrompido — 21 dias**;
+- **Premium**.
 
-Fluxo atual:
-
-> **CONTEÚDO / BUSCA → PÁGINA → WHATSAPP**
-
-A integração definitiva da Sintonize ao Mapeamento permanece aberta.
-
-Portanto, não escrever conteúdo como se a Sintonize já fosse componente obrigatório da oferta pública.
+Preço e página de ofertas ainda não publicadas devem continuar marcados como hipótese no CURRENT.
 
 ---
 
 # 61. CTA por estado
 
+## Dor/Porta 2
+
+- “Veja o próximo passo para esta situação.”
+- “Conheça a experiência específica para isso.”
+- “Entenda qual rota faz sentido antes de escolher a ferramenta.”
+
 ## Reconhecimento
 
 - observar;
 - comentar;
-- ver outro conteúdo.
+- salvar;
+- assistir a outro conteúdo.
 
 ## Compreensão
 
-- assistir ao longo;
-- playlist;
-- conteúdo do método.
+- O Minuto Anterior;
+- vídeo longo;
+- Mapeamento.
 
 ## Intenção
 
-- conhecer o Mapeamento;
-- abrir página;
-- WhatsApp.
+- página do produto por dor;
+- página do Mapeamento;
+- triagem Sintonize, quando publicada.
 
 ## Desenvolvimento
 
-- próxima prática;
-- vídeo;
-- futura jornada.
+- Ciclo PI;
+- reavaliação;
+- Premium quando pertinente.
 
 ---
 
@@ -1508,15 +1470,22 @@ Não:
 
 # 65. Papel do Search
 
-YouTube:
+YouTube e conteúdo orgânico:
 
-- cria demanda;
-- amadurece linguagem;
-- constrói confiança.
+- criam demanda;
+- amadurecem linguagem;
+- constroem confiança;
+- ajudam a pessoa a perceber antes de conhecer a técnica.
 
-Search:
+Search e SEO:
 
-- captura demanda já existente.
+- capturam demanda já existente;
+- revelam como o público nomeia a dor e a solução;
+- permitem construir páginas e conteúdos com message match.
+
+A pesquisa consolidada em 03/09/2026 mostrou que a demanda não se organiza apenas por “Mesa Radiônica”. Ela aparece também por **limpeza, bloqueio, prosperidade, vida travada, ciclos e padrões**.
+
+> **Busca é uma porta de entrada. Não é autorização para prometer o que não entregamos.**
 
 ---
 
@@ -1524,96 +1493,142 @@ Search:
 
 A infraestrutura de mensuração está preparada.
 
-A configuração de Search está especificada.
+A pesquisa de palavras-chave foi ampliada e consolidada em um **Mapa Mestre com 315 termos únicos**, combinando termos mapeados anteriormente, oportunidades novas e dados do Planejador de Palavras-Chave do Google Ads.
 
-A execução da campanha está **adiada por decisão estratégica**, não por blocker confirmado.
+No recorte do Planejador analisado em 03/09/2026, exemplos relevantes incluem:
 
-Não é necessário ativar mídia apenas porque ela está pronta.
+- `limpeza energética` — 1.600 buscas/mês no levantamento;
+- `limpeza energética espiritual` — 260;
+- `bloqueio energético` — 90;
+- `bloqueio financeiro` — 70;
+- `limpeza energética pessoal` — 40.
+
+Esses números são um snapshot do levantamento fornecido e devem ser revalidados antes de decisões futuras de orçamento.
+
+A campanha Search **não é considerada ativa por esta revisão**. A próxima decisão depende de oferta/página compatível com a intenção do cluster.
 
 ---
 
-# 67. Camadas de pesquisa
+# 67. Arquitetura de pesquisa — quatro portas de aquisição
 
-## Dor / problema
+## Porta 1 — Técnica conhecida
 
-- por que repito os mesmos padrões;
-- por que volto ao mesmo problema;
-- como parar de repetir;
-- como entender padrões da minha vida.
+Exemplos:
 
-## Categoria
+- mesa radiônica online;
+- Sintonize Prosperidade;
+- radiestesia online.
 
-- padrões recorrentes;
-- autoconhecimento padrões;
-- quebra de padrões;
-- desenvolvimento pessoal e espiritual.
+**Função:** capturar quem já conhece a técnica.
 
-## Solução
+## Porta 2 — Intervenção percebida — PRIORIDADE COMERCIAL
 
-Somente conforme oferta real:
+Exemplos:
 
+- limpeza energética;
+- limpeza energética pessoal;
+- bloqueio energético;
+- bloqueio financeiro;
+- desbloqueio energético;
+- harmonização energética;
+- abrir caminhos.
+
+**Função:** captar urgência e intenção de fazer algo agora.
+
+A página deve começar pela dor concreta e explicar limites antes de apresentar a ferramenta.
+
+## Porta 3 — Dor e repetição
+
+Exemplos:
+
+- meu dinheiro nunca sobra;
+- minha vida não anda;
+- repito os mesmos padrões;
+- sempre acontece a mesma coisa;
+- começo e não termino.
+
+**Função:** crescimento, reconhecimento e ponte da Porta 2 para a categoria autoral.
+
+## Porta 4 — Compreensão individual
+
+Exemplos:
+
+- como identificar padrões;
 - mapeamento de padrões;
-- Mesa Radiônica;
-- radiestesia;
-- experiência individual de desenvolvimento.
+- como entender meus padrões.
 
-## Marca
+**Função:** intenção natural para o Mapeamento.
 
-- Portal Caminho da Consciência;
-- Padrão Interrompido;
-- Mapeamento Padrão Interrompido.
+### Regra
+
+> **Keyword escolhe a intenção e a porta. Necessidade, escopo e consentimento escolhem o próximo passo.**
 
 ---
 
-# 68. Termos Sintonize e radiestesia
+# 68. Termos Sintonize, radiestesia, limpeza e bloqueios
 
-Depois da certificação e definição da oferta:
-
-podem existir conteúdos e campanhas de alta intenção para pessoas que já pesquisam essas soluções.
+Com a formação concluída, esses territórios podem ser explorados em conteúdo, SEO e preparação comercial, desde que a oferta real esteja definida.
 
 Regras:
 
-- não usar promessa de cura;
-- não prometer prosperidade financeira;
-- não anunciar Marcos como terapeuta;
-- não confundir Sintonize com método próprio;
-- garantir message match na página.
+- usar atribuição correta;
+- não anunciar Marcos como “terapeuta” por padrão;
+- não prometer cura, riqueza, clientes, emprego ou reconciliação;
+- tratar `bloqueio`, `limpeza`, `harmonização`, `abrir caminhos` e termos equivalentes como linguagem espiritual/complementar, não diagnóstico científico;
+- preferir `limpeza energética pessoal` a construções que possam soar clínicas, quando o contexto comercial for equivalente;
+- `mesa quântica` não é sinônimo de Sintonize;
+- termos de casa, ambiente, comércio, empresa, casal, animais e outros formatos fora do escopo devem ser negativos em campanhas de serviço Sintonize.
 
 ---
 
-# 69. SEO editorial
+# 69. SEO editorial e páginas por intenção
 
-Clusters possíveis:
+O SEO deve trabalhar clusters, não repetir uma única palavra em todo o site.
 
-- padrões recorrentes;
-- repetir os mesmos comportamentos;
-- trabalho;
-- dinheiro;
-- relacionamento;
-- espiritualidade aplicada;
-- Padrão Interrompido;
-- Mapeamento;
-- perguntas sobre Mesa/Radiestesia depois de operacionalmente legítimas.
+Clusters prioritários:
 
-A busca informa a pergunta.
+- padrões e ciclos;
+- vida travada / estagnação;
+- dinheiro e prosperidade;
+- trabalho e crescimento profissional;
+- relacionamentos e limites;
+- limpeza / bloqueios / harmonização;
+- Mesa Radiônica / Sintonize / radiestesia;
+- Mapeamento Padrão Interrompido;
+- espiritualidade aplicada.
 
-A resposta continua humana.
+### Regra de página
+
+Criar página própria quando houver:
+
+- intenção suficientemente distinta;
+- oferta real;
+- capacidade de entregar;
+- mensagem específica;
+- volume ou valor comercial que justifique.
+
+Não criar dezenas de páginas finas apenas para capturar variações semânticas.
+
+A busca informa a pergunta. A página responde a intenção. A copy continua humana.
 
 ---
 
 # 70. Critério de ativação de mídia paga
 
-Search pode ser ativado quando houver:
+Search pode ser ativado por cluster quando houver:
 
 - oferta operacionalmente pronta;
-- capacidade de responder WhatsApp;
-- pagamento/entrega definidos;
+- página/landing compatível com a intenção;
+- capacidade de responder WhatsApp ou fluxo de lead;
+- preço/pagamento/entrega definidos;
 - mensuração válida;
-- clareza de página;
+- negativas de escopo e claims;
 - capacidade de registrar venda;
 - decisão consciente de orçamento.
 
-A certificação Sintonize só é requisito se a campanha vender uma oferta que dependa dela.
+Não é necessário esperar que todos os clusters estejam prontos. Um grupo de intenção pode ser validado isoladamente.
+
+A formação Sintonize já não é o único gate; agora o gate principal é **operação + página + message match + mensuração**.
 
 ---
 
@@ -1775,7 +1790,7 @@ Observar:
 
 ---
 
-# 79. Exemplo Sintonize — somente após certificação
+# 79. Exemplo Sintonize — após conclusão da formação e confirmação de escopo
 
 **Hipótese:** explicar “o que é e o que não é a Sintonize” gera mais confiança do que conteúdo de ferramenta específica.
 
@@ -1803,7 +1818,7 @@ antes de existir razão editorial.
 - nível de espiritualidade;
 - demonstração x explicação;
 - método explícito x implícito;
-- após certificação: Sintonize explícita x ferramenta secundária.
+- Sintonize explícita x ferramenta secundária, quando o escopo permitir.
 
 ---
 
@@ -1980,30 +1995,28 @@ Revisar ou abandonar depois de teste suficiente.
 
 # 90. Ciclo de 15 dias
 
-A lógica de três fases permanece útil, mas precisa refletir o momento atual.
+O calendário precisa equilibrar:
 
-## Fase 1 — Reconhecimento
+1. crescimento orgânico;
+2. educação por nível de consciência;
+3. Search;
+4. aprendizado comercial;
+5. conversão.
 
-- cenas;
-- linguagem;
-- dor;
-- repetição.
+### Regra da V2.2
 
-## Fase 2 — Conexão e consciência
+A Porta 2 é prioritária nas **peças comerciais e nos testes de resposta direta**, mas o calendário orgânico não pode excluir Portas 1, 3 e 4.
 
-- cruzamento;
-- Padrão Interrompido;
-- espiritualidade aplicada;
-- prática.
+Ao abrir um novo ciclo, incluir explicitamente:
 
-## Fase 3 — Intenção
+- dores viscerais de Dinheiro e Procrastinação;
+- pontes Porta 2 → Porta 3;
+- conteúdos de método/Ponto de Interrupção;
+- educação Sintonize com atribuição;
+- conteúdo de intenção para Mapeamento;
+- ao menos um teste de oferta escalável quando operacionalmente pronto.
 
-- como funciona o Mapeamento;
-- objeções;
-- processo;
-- CTA.
-
-Durante a semana de conclusão da formação, não transformar a Fase 3 em venda de Sintonize.
+O Calendário V4 produzido antes desta decisão deve ser **reclassificado/revisado** antes de ser tratado como referência definitiva da nova arquitetura.
 
 ---
 
@@ -2050,6 +2063,30 @@ Manter separado:
 > **INSIGHTS DE FONTE / FORMAÇÃO — NÃO PUBLICAR DIRETAMENTE**
 
 Isso reduz risco de copiar conteúdo protegido.
+
+---
+
+# 92.A. Fonte de verdade das palavras-chave
+
+O sistema editorial não deve manter uma lista fixa duplicada de centenas de palavras dentro deste documento.
+
+A fonte operacional é:
+
+> **Mapa Mestre de Palavras-Chave — Portal Caminho da Consciência — 03/09/2026**
+
+A planilha contém classificação por cluster, intenção, Google Ads, YouTube Search, SEO, aderência, score estratégico, dados disponíveis do Planejador e observações de risco.
+
+Para produção de conteúdo, copy, página ou anúncio:
+
+1. escolher a intenção;
+2. consultar o Mapa Mestre;
+3. selecionar uma keyword principal;
+4. usar variações apenas quando naturais;
+5. garantir message match;
+6. registrar o desempenho real;
+7. atualizar a priorização com dados.
+
+Não transformar a planilha em script editorial mecânico.
 
 ---
 
@@ -2185,7 +2222,7 @@ Todos os prompts herdam:
 
 ---
 
-## P20 — Conteúdo educativo sobre Sintonize após certificação
+## P20 — Conteúdo educativo sobre Sintonize após conclusão da formação
 
 > Crie conteúdo sobre [TEMA SINTONIZE] assumindo que a certificação já foi formalmente confirmada no CURRENT. Explique de forma simples o que é, onde entra no Portal e o que não promete. Atribua a metodologia corretamente. Não ensinar protocolo protegido. Não usar “terapeuta” como identidade de Marcos. Não prometer cura, dinheiro, frequência científica ou resultado garantido.
 
@@ -2300,110 +2337,75 @@ Uma peça está pronta quando passa por seis filtros:
 
 ---
 
-# 100. Roadmap imediato — próximos 7 dias
+# 100. Roadmap imediato — próximos 7–15 dias
 
-- publicar conteúdo orgânico;
-- priorizar cenas fortes;
-- 2 longos por semana;
-- testar pelo menos 3–4 territórios;
-- cruzar domínios;
-- produzir espiritualidade aplicada;
-- não vender certificação antecipada;
-- registrar comentários;
-- analisar 24h/72h;
-- ajustar calendário pelos dados;
-- concluir formação;
-- manter Google Ads adiado;
-- manter Radar adiado;
-- não criar protocolos;
-- não transformar Sintonize em eixo de aquisição.
+- sincronizar documentos V2.2/V4.2;
+- revisar Mapeamento para versão 2.0;
+- desenhar O Minuto Anterior;
+- estruturar produto de Dinheiro ~R$97;
+- revisar calendário editorial para Porta 2 comercial;
+- manter YouTube-first;
+- praticar Sintonize de forma controlada;
+- preparar linguagem/página de Porta 2 sem claim indevido.
 
 ---
 
-# 101. Depois da certificação
+# 101. Dias 16–30
 
-Após confirmação formal:
-
-- atualizar formulação pública de Marcos;
-- decidir primeiro conteúdo educativo Sintonize;
-- criar uma peça “o que é / o que não é” antes de aprofundar;
-- explicar diferença Padrão Interrompido x Sintonize;
-- não publicar comandos/protocolos;
-- realizar prática controlada conforme Documento 02;
-- observar linguagem dos participantes;
-- usar experiência real para melhorar conteúdo;
-- decidir posteriormente se haverá rota Search específica.
+- lançar teste pequeno do produto Dinheiro;
+- medir compra, CAC, margem, conclusão e satisfação;
+- vender Mapeamento 2.0;
+- iniciar oferta Sintonize individual somente quando operacionalmente clara;
+- testar Search de alta intenção com orçamento controlado;
+- decidir Procrastinação com base em aprendizado.
 
 ---
 
-# 102. Dias 30–60
+# 102. Dias 31–60
 
-Se houver sinais:
-
-- aprofundar famílias vencedoras;
-- transformar Shorts em longos;
-- criar demonstrações;
-- ajustar página;
-- iniciar Search somente quando operacionalmente desejado;
-- utilizar dados de WhatsApp;
-- começar cluster SEO;
-- testar conteúdo Sintonize especializado após certificação;
-- não criar produto digital derivado da formação.
+- pilotar Ciclo PI — 21 dias;
+- consolidar a melhor rota comercial;
+- ampliar Search apenas com message match;
+- produzir Procrastinação se a lógica de produto por dor validar.
 
 ---
 
-# 103. Dias 60–90
+# 103. Dias 61–90
 
-- consolidar biblioteca;
-- concentrar produção;
-- ativar mídia paga se economia e operação justificarem;
-- integrar conteúdo, Search e oferta;
-- testar continuidade somente com demanda;
-- automatizar coleta de dados já compreendida;
-- reduzir conteúdos sem valor;
-- revisar sistema com base em compradores e participantes reais.
+- escalar o que demonstrou compra + margem + satisfação;
+- abrir Premium de forma seletiva;
+- cortar rotas fracas;
+- fechar CAC, LTV, ticket médio, margem e lucro líquido.
 
 ---
 
 # 104. Decisões fechadas
 
-- marca: **Portal Caminho da Consciência**;
-- método próprio: **Padrão Interrompido**;
-- Sintonize: metodologia de terceiros;
-- YouTube-first;
-- Shorts como laboratório rápido;
-- vídeos longos como confiança e profundidade;
-- “voltar ao mesmo lugar” como território de reconhecimento;
-- vida concreta antes do esotérico;
-- domínios editoriais flexíveis, não “8 Prosperidades do método”;
-- 8 Prosperidades somente como estrutura oficial Sintonize quando referida;
-- linguagem humana como regra;
-- IA como apoio;
-- Marcos não usa “terapeuta” como identidade pública;
-- certificação Sintonize não será antecipada;
-- Anjos não são eixo da marca;
-- materiais Sintonize não serão copiados;
-- Google Ads preparado e adiado;
-- `whatsapp_click` é sinal secundário, não venda;
-- prioridade imediata: crescimento orgânico do YouTube.
+- Porta 2 é prioridade comercial;
+- dor visceral vem antes da explicação de padrão em resposta direta;
+- Porta 3 aprofunda a repetição e continua forte organicamente;
+- Método PI opera com 7 movimentos;
+- Ponto de Interrupção é o mecanismo central;
+- primeiro produto escalável por dor = Dinheiro;
+- segundo teste = Procrastinação;
+- produto por dor deve ser específico, simples e aproximadamente R$97 como hipótese inicial;
+- Mapeamento evolui para 2.0;
+- Sintonize é possível ferramenta de intervenção, não componente obrigatório;
+- Ciclo PI 21 dias é a proposta prioritária de flagship a validar;
+- conteúdo orgânico continua cobrindo as quatro portas.
 
 ---
 
 # 105. Decisões abertas
 
-1. nome definitivo do quadro recorrente;
-2. cadência ótima de Shorts;
-3. proporção ideal Marcos / IA / híbrido;
-4. mapa autoral definitivo de domínios do Padrão Interrompido;
-5. momento do Radar;
-6. formato da integração comercial Sintonize;
-7. grau de conteúdo Sintonize após certificação;
-8. grau de conteúdo sobre Anjos;
-9. primeiro cluster de Search a ativar;
-10. primeiro protocolo autoral;
-11. formato da Jornada;
-12. baseline de métricas por canal;
-13. quais séries receberão maior investimento.
+- nome definitivo do produto Dinheiro;
+- copy/página e checkout do produto Dinheiro;
+- preço final Sintonize individual;
+- preço final Ciclo PI;
+- detalhes do Premium;
+- mapa definitivo dos Territórios da Vida Real após 20–30 Mapeamentos;
+- protocolo autoral que eventualmente nascerá dos casos reais;
+- momento de revisão técnica do Documento 05.
 
 ---
 
@@ -2411,43 +2413,32 @@ Se houver sinais:
 
 ## O que publicamos
 
-Conteúdo que começa na vida real, torna algo observável, mostra repetição, amplia uma pergunta e oferece um próximo passo coerente.
+Vida real, dor concreta, consequências, repetição, método, ferramentas e próximos passos — em níveis diferentes de consciência.
 
 ## O que queremos que a pessoa pense
 
-> **“Isso acontece comigo.”**  
-> **“Não é a primeira vez.”**  
-> **“Talvez isso apareça em outros lugares.”**  
-> **“Quero entender melhor.”**  
-> **“Quero trabalhar isso.”**  
-> **“Quero continuar caminhando.”**
+> **“Isso sou eu.”**  
+> **“Parece que isso me trava.”**  
+> **“De novo eu estou aqui.”**  
+> **“Agora eu quero entender ou trabalhar isso.”**
 
-## O que queremos aprender
+## Frase comercial estrutural
 
-Que cenas, temas, perguntas, práticas, metodologias, ofertas e canais realmente:
-
-- ajudam;
-- geram confiança;
-- geram intenção;
-- sustentam um negócio íntegro.
-
-## Frase editorial central
-
-> **O cenário muda. O padrão volta. A consciência pode mudar o caminho.**
+> **Dor primeiro. Repetição depois. Ferramenta somente quando fizer sentido.**
 
 ## Regra de criação
 
-> **Se parecer texto de IA, não está pronto. Se parecer uma copy que qualquer marca poderia publicar, não está pronto. Se Marcos não falaria aquilo naturalmente para uma pessoa sentada à sua frente, não está pronto. Se parecer que estamos apresentando como nosso aquilo que pertence a uma formação, tradição ou metodologia de terceiros, também não está pronto.**
+> **Percepção antes da explicação.**
 
 ## Regra de crescimento
 
-> **Conteúdo gera reconhecimento. Reconhecimento gera aprendizado. Aprendizado melhora a oferta. A oferta valida o negócio. O negócio sustenta o caminho.**
+> **Alcance qualificado + intenção + aprendizado comercial valem mais do que volume isolado.**
 
 ---
 
 # 107. Governança da versão
 
-Esta V2.0 substitui integralmente a V1.0.
+Esta V2.2 substitui integralmente a V2.1.
 
 Ela deve ser revisada quando houver mudança deliberada em:
 
@@ -2474,4 +2465,4 @@ Atualizações correntes de:
 
 pertencem ao CURRENT e aos artefatos operacionais.
 
-> **Fim do Documento 03 — Sistema Editorial, Aquisição e Experimentação — V2.0.**
+> **Fim do Documento 03 — Sistema Editorial, Aquisição e Experimentação — V2.2.**
