@@ -260,21 +260,13 @@ Não criar novo documento canônico numerado para a Plataforma da Jornada. A SPE
 
 # 6. Estado de incorporação no repositório
 
-As versões canônicas atualizadas até esta revisão foram produzidas. **Antes de assumir que V4.4/V2.4/V2.4 já estão versionadas no GitHub, verificar o repositório.** O DOC-SYNC anterior da Sintonize não prova automaticamente a incorporação destas três novas versões.
+**GATE DOC-SYNC — Meu Caminho — APROVADO ✅**
 
-Próxima ação documental recomendada:
-
-> **GATE DOC-SYNC — incorporar/versionar o pacote canônico 00–06 no repositório, em mudança docs-only, sem alterar site ou produto.**
-
-Critérios:
-
-- inventário dos arquivos existentes;
-- preservar histórico;
-- substituir versões obsoletas deliberadamente;
-- não apagar fontes necessárias sem registro;
-- atualizar README documental se aplicável;
-- atualizar CURRENT com commit/HEAD real;
-- working tree limpo ao final.
+- branch: `docs/meu-caminho-doc-sync`
+- HEAD do merge em `main`: `460ec42babfc93b1824f65f992a85f84017cc8b3`
+- arquivos alterados: `01-fundacional-estrategico.md` (V4.3→V4.4), `02-jornada-produtos-servicos-protocolos.md` (V2.3→V2.4), `CURRENT.md` (V2.3→V2.4)
+- working tree: limpo
+- deploy: nenhum (docs-only)
 
 ---
 
