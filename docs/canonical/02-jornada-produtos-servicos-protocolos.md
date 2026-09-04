@@ -1,11 +1,11 @@
 # PORTAL CAMINHO DA CONSCIÊNCIA
-## Documento 02 — Jornada de Transformação, Produtos, Serviços e Protocolos — V2.2
+## Documento 02 — Jornada de Transformação, Produtos, Serviços e Protocolos — V2.3
 
 **STATUS CANÔNICO:** arquitetura oficial da experiência, jornada, produtos, serviços e protocolos do ecossistema  
-**DATA:** 03/09/2026  
+**DATA:** 04/09/2026  
 **HORIZONTE:** ciclo inicial de 90 dias + arquitetura de longo prazo  
-**DOCUMENTOS SUPERIORES:** Documento 00 — Matriz de Governança Conceitual, Propriedade Intelectual e Posicionamento — V1.2; Documento 01 — Fundacional, Estratégico e Plano Executivo Canônico — V4.2  
-**SUBSTITUI:** Documento 02 — V2.1
+**DOCUMENTOS SUPERIORES:** Documento 00 — Matriz de Governança Conceitual, Propriedade Intelectual e Posicionamento — V1.3; Documento 01 — Fundacional, Estratégico e Plano Executivo Canônico — V4.3  
+**SUBSTITUI:** Documento 02 — V2.2
 
 > **Do reconhecimento à transformação. Da transformação à integração. Da integração ao aprofundamento da consciência.**
 
@@ -15,7 +15,7 @@
 
 Este documento define **como uma pessoa evolui dentro do Portal Caminho da Consciência**, quais ofertas podem existir em cada etapa, como elas se conectam, quais metodologias podem ser utilizadas e quais fronteiras precisam ser preservadas para que o ecossistema seja útil, humano, responsável, sustentável e coerente.
 
-A V2.2 preserva a arquitetura responsável das versões anteriores e incorpora o Método Padrão Interrompido 2.0, a nova Jornada de seis etapas, a Porta 2 como prioridade comercial, o Mapeamento 2.0, os produtos autoguiados por dor, o papel da Sintonize como possível intervenção e o Ciclo Padrão Interrompido de 21 dias como flagship a validar.
+A V2.3 preserva essa arquitetura e incorpora a definição executiva da **Sessão Individual Sintonize Prosperidade** como oferta separada em `DESIGN_READY / PILOT_PENDING`, com formato assíncrono como padrão, atendimento ao vivo opcional, duas rotas de entrada e integração pós-sessão de 7 dias.
 
 O documento está organizado em dezoito partes:
 
@@ -126,15 +126,18 @@ Cria-se produto quando existem:
 
 ## 0.4. Estado de transição desta versão
 
-Em 03/09/2026:
+Em 04/09/2026:
 
-- o **Mapeamento Padrão Interrompido — Individual** está publicado como oferta de entrada por R$197;
+- o **Mapeamento Padrão Interrompido — Individual** permanece oferta pública vigente por R$197 enquanto sua evolução 2.0 é construída em fluxo próprio;
 - Marcos informou a **conclusão da formação Mesa Radiônica Sintonize Prosperidade** em 03/09/2026;
 - a titulação/certificação pública exata continua subordinada ao registro documental no CURRENT;
-- a Sintonize pode avançar para prática controlada e desenho de oferta individual, sem que isso torne sua integração ao Mapeamento obrigatória;
-- a prioridade imediata combina **crescimento orgânico no YouTube + prática controlada Sintonize + desenho responsável de oferta**;
-- tráfego pago Google Search está tecnicamente preparado, mas sua execução está deliberadamente adiada;
-- não será iniciada escala comercial baseada na Sintonize antes da prática controlada, definição da experiência, preço, página e fluxo de entrega.
+- a **Sessão Individual Sintonize Prosperidade** já possui SPEC V1.0 + Addendum V1.1 e está em `DESIGN_READY / PILOT_PENDING`;
+- o formato padrão da Sessão Individual é **assíncrono, individual, manual e à distância**;
+- atendimento ao vivo existe apenas como modalidade opcional diferenciada;
+- preço inicial de validação: **R$297 assíncrono**; hipótese inicial: **R$397 ao vivo**;
+- a Sintonize pode receber demanda direta pela técnica ou ser apresentada opcionalmente depois do Mapeamento;
+- a prioridade da Sintonize agora é **fechar operação → realizar 5–10 práticas → validar primeiras sessões pagas → só depois página/live e aquisição**;
+- tráfego pago Google Search continua condicionado à oferta/página live e aos gates comerciais.
 
 ---
 
@@ -363,7 +366,7 @@ Esse fluxo não é obrigatório. Existem atalhos legítimos:
 | Produto Dinheiro | escala por dor | primeiro MVP | ~R$97 a testar |
 | Produto Procrastinação | escala por dor | segundo teste | ~R$97 a testar |
 | Mapeamento PI 2.0 | organização individual | evolução da oferta vigente | R$197 vigente |
-| Sintonize Individual | intervenção específica | prática/oferta a validar | aberto |
+| Sessão Individual Sintonize Prosperidade | intervenção específica | `DESIGN_READY / PILOT_PENDING` | **R$297 assíncrono**; **R$397 ao vivo** hipótese |
 | Ciclo PI — 21 dias | oferta principal | piloto prioritário | R$897–1.197 hipótese |
 | Premium | aprofundamento | futuro próximo após validação | R$1.497–1.997 hipótese |
 
@@ -611,17 +614,96 @@ Ela não deve ser ofertada como Sintonize para empresas, casais, plantas, animai
 
 # 25. Atendimento individual
 
-É a primeira rota comercial Sintonize a ser estruturada e validada.
+A primeira oferta comercial Sintonize do Portal está definida como:
 
-Exige:
+> # **Sessão Individual Sintonize Prosperidade**
 
-- escopo claro;
+**Estado:** `DESIGN_READY / PILOT_PENDING`.
+
+## 25.1. Formato padrão — assíncrono
+
+O atendimento padrão é:
+
+- individual;
+- à distância;
+- manual;
+- realizado por Marcos;
+- sem necessidade de o cliente permanecer em chamada durante a aplicação.
+
+O fluxo-base é:
+
+> **qualificação → pagamento → anamnese + consentimento → confirmação da intenção → sessão manual → Registro da Sua Sessão → áudio personalizado → integração de 7 dias → D7**
+
+“Assíncrono” não significa Mesa automática, IA, pêndulo virtual, atendimento em lote ou protocolo genérico.
+
+## 25.2. Modalidade opcional — ao vivo
+
+Pode existir uma modalidade:
+
+> **Sessão Individual Sintonize Prosperidade — Ao Vivo**
+
+Ela inclui presença síncrona e reserva de agenda, mas **não será apresentada como energeticamente superior** ao formato assíncrono.
+
+Hipótese inicial:
+
+- assíncrono: **R$297**;
+- ao vivo: **R$397**.
+
+Os valores permanecem sujeitos à validação econômica.
+
+## 25.3. Entregáveis mínimos
+
+O formato assíncrono deve incluir:
+
+- anamnese estruturada;
 - consentimento;
-- atribuição;
-- preço e entrega definidos;
-- registro adequado;
-- limites de claims;
-- reavaliação quando integrada ao Portal.
+- aplicação individual da Mesa;
+- **Registro da Sua Sessão**;
+- **áudio personalizado de devolutiva, referência inicial de 5–10 minutos**;
+- Plano de Integração de 7 dias;
+- check-in D7.
+
+Perguntas Divinas podem ser utilizadas quando cabíveis e dentro das regras da metodologia, mas não constituem o principal destaque comercial.
+
+## 25.4. Duas rotas de entrada
+
+### Rota A — direta
+
+> **Busca/indicação por Mesa Radiônica ou Sintonize → qualificação simples → Sessão Individual**
+
+Não exigir Mapeamento.
+
+### Rota B — pós-Mapeamento
+
+> **Mapeamento → Sintonize apresentada como possibilidade → escolha do cliente → Brief de Encaminhamento consentido → Sessão Individual**
+
+O Mapeamento não determina protocolo ou resultado da Mesa. A Sintonize não existe para confirmar o Mapeamento.
+
+## 25.5. Brief de Encaminhamento
+
+Quando a pessoa vier do Mapeamento, pode ser reaproveitado, com consentimento explícito, apenas um resumo mínimo:
+
+- situação central;
+- prioridade;
+- Ponto que merece observação;
+- Territórios relacionados;
+- motivo pelo qual Sintonize foi apresentada como possibilidade.
+
+Não transferir automaticamente relatório completo ou conteúdo íntimo desnecessário.
+
+## 25.6. SLA de referência
+
+Hipótese inicial de piloto:
+
+> **sessão realizada e devolutiva enviada em até 2 dias úteis após anamnese completa e pagamento confirmado.**
+
+Esse prazo deve ser validado antes de se tornar promessa definitiva.
+
+## 25.7. Reavaliação
+
+Antes da sessão e no D7, o Portal pode registrar, em escala subjetiva simples, clareza, peso percebido da questão e capacidade percebida de agir/observar.
+
+Esses dados servem para aprendizado de produto e **não são instrumento clínico, científico ou prova objetiva de eficácia energética**.
 
 ---
 
@@ -1049,7 +1131,8 @@ Essa liberdade precisa ser preservada.
 | **Produto Dinheiro** | Primeiro MVP a construir/testar | ~**R$97** | Dor específica; tráfego direto; preço é hipótese |
 | **Produto Procrastinação** | Segundo teste | ~**R$97** | Só construir depois de aprender com Dinheiro |
 | **Mapeamento Padrão Interrompido — Individual** | Publicado; V2.0 aprovado para implementação | **R$197 vigente** | Preço público não muda até nova decisão |
-| **Aplicação Sintonize individual** | A estruturar / validar | A definir | Formação informada como concluída; exige escopo, preço, página, consentimento e fluxo |
+| **Sessão Individual Sintonize Prosperidade — assíncrona** | `DESIGN_READY / PILOT_PENDING` | **R$297 validação** | Formato padrão; manual, à distância, Registro + áudio + integração + D7 |
+| **Sessão Individual Sintonize Prosperidade — ao vivo** | Opcional / piloto | **R$397 hipótese** | Modalidade síncrona diferenciada; validar demanda e tempo humano |
 | **Ciclo Padrão Interrompido — 21 dias** | Flagship a pilotar | **R$897–1.197** hipótese | Pilotar 5–8 clientes antes de escalar |
 | **Acompanhamento Caminho da Consciência / Premium** | Futuro próximo após validação | **R$1.497–1.997** hipótese | Nome, escopo e preço ainda abertos |
 | Sintonize em grupo | Futuro | A definir | Somente depois da validação individual |
@@ -1246,20 +1329,33 @@ IA não pode fingir que realizou uma leitura ou aplicação que não realizou.
 
 # 56. Métricas de prática controlada Sintonize
 
-Quando a formação estiver concluída e a prática começar:
+Na prática e nas primeiras sessões pagas, registrar:
 
-- número de atendimentos de prática;
-- tempo por sessão;
-- dificuldades operacionais;
+- `service_format`: `async` ou `live`;
+- número de atendimentos;
+- clareza da anamnese;
+- necessidade de pergunta de esclarecimento;
+- tempo entre anamnese pronta e entrega;
+- entrega dentro do SLA;
+- tempo de leitura da anamnese;
+- tempo de preparação;
+- tempo de Mesa;
+- tempo de registro;
+- tempo de áudio/devolutiva;
+- tempo de D7/admin;
+- tempo humano total;
 - compreensão do cliente;
+- percepção de personalização;
 - utilidade percebida;
 - qualidade da devolutiva;
-- dúvidas mais frequentes;
-- necessidade de material complementar;
-- aderência às orientações;
-- segurança de Marcos na condução;
+- resposta ao D7;
+- satisfação;
+- recomendação;
+- desejo de continuidade;
 - diferença percebida entre Mapeamento e Sintonize;
-- necessidade real de integração ou separação comercial.
+- economia e capacidade por formato.
+
+Conteúdo íntimo da sessão não acompanha essas métricas.
 
 ---
 
@@ -1412,61 +1508,74 @@ Se uma implementação depender desses conteúdos, deve ser interrompida até ex
 
 # 65. Próximos 7 dias — prioridade vigente
 
-Com a conclusão informada da formação, a prioridade muda de “terminar a formação” para **transformar conhecimento concluído em operação responsável**:
+Para a Sintonize, a prioridade passa a ser transformar a SPEC + Addendum em operação executável:
 
-1. registrar no CURRENT o estado da formação e a nomenclatura documental quando disponível;
-2. manter o Mapeamento Padrão Interrompido R$197 como oferta pública vigente até nova decisão;
-3. estruturar uma ficha/briefing autoral mínimo para prática Sintonize sem copiar material protegido;
-4. realizar prática controlada individual;
-5. medir tempo, clareza, dúvidas e qualidade da devolutiva;
-6. definir se Sintonize será oferta separada, integrada ou ambas com escopos diferentes;
-7. usar o Mapa Mestre de Palavras-Chave para compreender demanda, sem ativar campanha antes da página correta;
-8. preservar YouTube e conteúdo como aquisição contínua.
+1. sincronizar Documentos 00, 01, 02, 04, 05 e CURRENT;
+2. fechar SINT-00/SINT-P0 — governança e documentação;
+3. executar SINT-01/SINT-P1 — fluxo assíncrono, anamnese, consentimento, Registro, áudio, D7 e política operacional;
+4. definir SLA de piloto sem promessa maior que a capacidade real;
+5. preparar 5–10 práticas, majoritariamente assíncronas;
+6. registrar tempo humano e qualidade;
+7. manter modalidade ao vivo apenas opcional;
+8. não tornar página ou Home `live` antes dos gates.
 
 ---
 
 # 66. Gate de habilitação documental e operacional
 
-A conclusão da formação foi informada. O gate agora possui duas camadas:
+A conclusão da formação foi informada e a oferta já está desenhada. O gate agora possui três camadas:
 
 ## 66.1. Camada documental
 
 - registrar certificado/documento, quando disponível;
 - registrar nomenclatura exata;
+- preservar evidência da autorização informada;
 - atualizar apresentação pública somente com o que for sustentado.
 
-## 66.2. Camada operacional
+## 66.2. Camada operacional assíncrona
 
-- confirmar formato individual;
-- praticar;
-- definir formulário e consentimento;
-- definir relatório/devolutiva autoral;
-- definir preço e prazo;
-- definir política de dúvidas/reavaliação;
-- preparar página coerente com o cluster de busca;
-- só depois autorizar aquisição paga para a oferta.
+- anamnese final;
+- consentimento;
+- gate de clareza da intenção;
+- procedimento da sessão manual;
+- Registro da Sua Sessão;
+- áudio personalizado;
+- integração 7 dias;
+- D7;
+- política de reagendamento/cancelamento;
+- privacidade e retenção;
+- medição de tempo humano.
 
-A conclusão da formação não equivale, por si só, a uma oferta pronta.
+## 66.3. Camada comercial
+
+- validar práticas;
+- confirmar R$297 como preço inicial pago;
+- validar SLA;
+- testar modalidade ao vivo quando houver demanda;
+- fechar pagamento/agenda;
+- validar primeiras sessões pagas;
+- só então página/live e aquisição paga.
+
+A conclusão da formação e a existência da SPEC não equivalem, por si só, a uma oferta pública pronta.
 
 ---
 
 # 67. Prática controlada — antes de escalar
 
-Depois da habilitação formal, realizar uma primeira bateria controlada de aproximadamente **5–10 experiências de prática**, antes de escalar aquisição baseada na Sintonize.
+Executar aproximadamente **5–10 experiências de prática**, priorizando o formato assíncrono.
 
 Objetivos:
 
-- ganhar fluidez;
-- validar tempo;
-- testar formulário;
-- testar condução;
-- observar qualidade da devolutiva;
-- definir o que precisa entrar no relatório;
-- definir o que deve ficar apenas interno;
-- compreender dúvidas;
-- medir satisfação;
-- avaliar necessidade real da Sintonize dentro do Mapeamento;
-- decidir se as ofertas devem ser integradas ou separadas.
+- validar se a anamnese substitui adequadamente a conversa ao vivo;
+- medir quantos casos exigem esclarecimento;
+- validar SLA;
+- medir tempo humano total;
+- testar Registro da Sua Sessão;
+- testar áudio de 5–10 minutos;
+- medir percepção de personalização;
+- testar integração e D7;
+- comparar alguns casos ao vivo sem transformar o ao vivo em padrão;
+- confirmar limites de privacidade e armazenamento.
 
 Essas experiências devem ser registradas de forma ética e sem fabricar depoimentos ou resultados.
 
@@ -1558,7 +1667,7 @@ Se houver compra e valor percebido:
 
 **FECHADO — 06.** Familiar/Ancestral pode continuar como tema transversal, não como oitava prosperidade Sintonize.
 
-**FECHADO — 07.** Protocolos Sintonize e Protocolos Padrão Interrompido são categorias distintas.
+**FECHADO — 07.** Protocolos Sintonize, derivados baseados na formação e Protocolos Padrão Interrompido exigem origem/autoria claramente separadas.
 
 **FECHADO — 08.** Radar não é Mesa digital.
 
@@ -1566,7 +1675,7 @@ Se houver compra e valor percebido:
 
 **FECHADO — 10.** Marcos não usa “terapeuta” como identidade pública padrão.
 
-**FECHADO — 11.** Materiais Sintonize não serão transformados em software ou conteúdo derivado sem autorização.
+**FECHADO — 11.** A autorização informada permite aplicação comercial da Sintonize e futuros derivados dentro dos limites reais, sem transferência de autoria da metodologia.
 
 **FECHADO — 12.** Anjos não são eixo principal da marca.
 
@@ -1574,38 +1683,51 @@ Se houver compra e valor percebido:
 
 **FECHADO — 14.** Mapeamento Padrão Interrompido — Individual permanece como oferta pública atual por R$197 até nova decisão.
 
-**FECHADO — 15.** A Sintonize individual passa a ser uma rota legítima de intervenção a estruturar e validar; sua integração definitiva ao Mapeamento continua aberta.
+**FECHADO — 15.** A **Sessão Individual Sintonize Prosperidade** existe como oferta separada em `DESIGN_READY / PILOT_PENDING`.
 
-**FECHADO — 16.** Sintonize em grupo é possibilidade futura prevista pela metodologia, não prioridade antes da validação individual.
+**FECHADO — 16.** O formato padrão da Sessão Individual Sintonize é assíncrono, manual, individual e à distância.
 
-**FECHADO — 17.** Busca por ambiente, empresa, casal, animais ou formatos incompatíveis não será convertida em oferta Sintonize.
+**FECHADO — 17.** Atendimento ao vivo é modalidade opcional, não padrão e não prometida como superior.
 
-**FECHADO — 18.** Prática controlada precederá escala comercial baseada na Sintonize.
+**FECHADO — 18.** Preço inicial de validação assíncrono: R$297; hipótese ao vivo: R$397.
 
-**FECHADO — 19.** O Mapa Mestre de Palavras-Chave orienta aquisição e páginas, mas não escolhe a intervenção no lugar do processo de atendimento.
+**FECHADO — 19.** A Sintonize pode receber demanda direta pela técnica ou entrar opcionalmente após o Mapeamento.
+
+**FECHADO — 20.** Registro da Sua Sessão + áudio personalizado + integração 7 dias + D7 formam a entrega padrão assíncrona.
+
+**FECHADO — 21.** Perguntas Divinas não são destaque comercial principal.
+
+**FECHADO — 22.** Sintonize em grupo permanece possibilidade futura, não prioridade antes da validação individual.
+
+**FECHADO — 23.** Busca por ambiente, empresa, casal, animais ou formatos incompatíveis não será convertida em oferta Sintonize.
+
+**FECHADO — 24.** Prática controlada precede escala comercial.
+
+**FECHADO — 25.** Protocolos derivados ficam congelados até validação da sessão individual + DOC-SYNC.
+
+**FECHADO — 26.** O Mapa Mestre de Palavras-Chave orienta aquisição e páginas, mas não escolhe a intervenção no lugar do processo de atendimento.
 
 ---
 
 # 73. Decisões abertas
 
 1. nomenclatura pública final da qualificação de Marcos após registro documental;
-2. nome final da primeira experiência Sintonize individual;
-3. preço da experiência Sintonize individual;
-4. desenho final da Sintonize como intervenção separada ou explicitamente opcional depois do Mapeamento — nunca componente obrigatório;
-5. formulário autoral definitivo;
-6. prazo operacional da Sintonize individual;
-7. política de dúvidas pós-entrega;
-8. política de reavaliação;
-9. primeiro Protocolo Padrão Interrompido autoral;
-10. validação ou ajuste dos seis Territórios da Vida Real após aproximadamente 20–30 Mapeamentos;
-11. momento de desenvolvimento do Radar;
-12. escopo, preço e cadência final do **Ciclo Padrão Interrompido — 21 dias** após piloto;
-13. nome, preço e cadência de experiência coletiva Sintonize, se validada;
-14. momento da comunidade;
-15. desenho do acompanhamento premium;
-16. eventual formação futura do Método Padrão Interrompido;
-17. grau de conteúdo especializado sobre Anjos Cabalísticos;
-18. quais clusters de palavras-chave receberão página própria e quais serão apenas conteúdo.
+2. SLA definitivo do assíncrono após piloto;
+3. confirmação do preço R$297 depois das primeiras sessões pagas;
+4. preço definitivo da modalidade ao vivo;
+5. ferramenta de pagamento;
+6. ferramenta de agenda para a modalidade ao vivo;
+7. política final de cancelamento/reagendamento;
+8. política de retenção do conteúdo privado da sessão;
+9. momento em que a oferta poderá mudar para `live`;
+10. momento de Google Search para cluster Sintonize;
+11. primeiro protocolo derivado baseado na formação, somente após validação;
+12. validação ou ajuste dos seis Territórios da Vida Real após aproximadamente 20–30 Mapeamentos;
+13. momento de desenvolvimento do Radar;
+14. escopo, preço e cadência final do **Ciclo Padrão Interrompido — 21 dias** após piloto;
+15. nome, preço e cadência de experiência coletiva Sintonize, se validada;
+16. momento da comunidade;
+17. desenho do acompanhamento premium.
 
 ---
 
@@ -1632,7 +1754,7 @@ Antes de criar produto, responder:
 # 75. Relação com os demais documentos
 
 - **Documento 00** — governa fronteiras conceituais, autoria, propriedade intelectual, Sintonize e posicionamento.
-- **Documento 01 — V4.2** — governa propósito, estratégia e princípios.
+- **Documento 01 — V4.3** — governa propósito, estratégia e princípios.
 - **Documento 03** — deve transformar esta arquitetura em sistema editorial, aquisição e experimentação.
 - **Documento 04** — deve traduzir as ofertas em voz, identidade e comunicação responsável.
 - **Documento 05** — deve definir infraestrutura sem digitalizar material protegido.
@@ -1720,4 +1842,12 @@ Ela deve ser revisada apenas quando houver mudança real na arquitetura de produ
 
 Mudanças operacionais cotidianas pertencem ao CURRENT.
 
-> **Fim do Documento 02 — Jornada de Transformação, Produtos, Serviços e Protocolos — V2.2.**
+# 80. Controle de versão — V2.3
+
+**VERSÃO:** V2.3  
+**DATA:** 04/09/2026  
+**SUBSTITUI:** V2.2  
+**MOTIVO:** incorporar a Sessão Individual Sintonize Prosperidade assíncrona como oferta específica em piloto, com modalidade ao vivo opcional, preços de validação, entregáveis, duas rotas de entrada, métricas e gates atualizados.  
+**IMPACTO:** jornada TRABALHAR → INTEGRAR, esteira, preços/status, prática controlada e governança de continuidade.
+
+**Fim do Documento 02 — Jornada de Transformação, Produtos, Serviços e Protocolos — V2.3.**

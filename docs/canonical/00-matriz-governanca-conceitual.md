@@ -1,13 +1,13 @@
 # PORTAL CAMINHO DA CONSCIÊNCIA
 ## Documento 00 — Matriz de Governança Conceitual, Propriedade Intelectual e Posicionamento
-**Documento Canônico Transversal V1.2 — 03/09/2026**
+**Documento Canônico Transversal V1.3 — 04/09/2026**
 
 > “O que é nosso. O que vem de uma formação específica. O que pode ser público. O que precisa permanecer interno. E de que lugar Marcos fala.”
 
 **STATUS:** canônico transversal / chave de leitura dos Documentos 01–06  
 **FUNÇÃO:** impedir mistura de marca, método próprio, técnica de terceiros, propriedade intelectual, linguagem pública e operação interna  
-**MOMENTO:** revisão estratégica após consolidação do Método Padrão Interrompido 2.0, do conceito de Ponto de Interrupção, da nova Jornada do Portal, da prioridade comercial da Porta 2 e da nova esteira de ofertas escaláveis
-**SUBSTITUI:** Documento 00 — V1.1
+**MOMENTO:** revisão estratégica após consolidação do Método Padrão Interrompido 2.0, da nova Jornada do Portal e, em 04/09/2026, formalização da Sessão Individual Sintonize Prosperidade como oferta separada em piloto, com formato assíncrono como padrão e atendimento ao vivo opcional
+**SUBSTITUI:** Documento 00 — V1.2
 
 ---
 
@@ -92,7 +92,7 @@ Esses produtos podem combinar elementos do Método Padrão Interrompido com téc
 | **Método Padrão Interrompido** | Método próprio de organização da jornada | Criação própria do projeto | **ALTO** | **ALTO** | Pode estruturar experiências, mas não apropriar técnicas de terceiros |
 | **Mesa Radiônica Sintonize Prosperidade** | Modalidade espiritual/radiônica específica | Formação/metodologia de terceiros | **MÉDIO**, após habilitação | **ALTO** | Apresentar sempre como técnica específica, nunca como criação do Portal |
 | **8 Prosperidades Sintonize** | Estrutura oficial da Mesa | Sintonize Prosperidade | **MÉDIO** quando contextual | **ALTO** na operação Sintonize | Não chamar de criação do Padrão Interrompido |
-| **Protocolos Sintonize** | Protocolos oficiais da formação | Sintonize Prosperidade | **BAIXO/MÉDIO** em visão geral | **ALTO** para praticante habilitado | Não copiar, rebatizar ou transformar em produto próprio |
+| **Protocolos Sintonize** | Protocolos oficiais da formação | Sintonize Prosperidade | **BAIXO/MÉDIO** em visão geral | **ALTO** para praticante habilitado | Podem ser aplicados no atendimento; não rebatizar protocolo oficial como produto autoral próprio |
 | **Protocolos Padrão Interrompido** | Protocolos autorais do Portal | Criação própria | **ALTO** quando validados | **ALTO** | Devem ser desenvolvidos de forma independente |
 | **Radar / Mapa digital** | Instrumento digital de autorrelato e reconhecimento | Criação própria | **ALTO** | **ALTO** | Não é Mesa digital e não “mede energia” |
 | **Anjos Cabalísticos 6, 8, 43 e 71** | Ferramentas específicas presentes na operação Sintonize | Sistema cabalístico utilizado pela formação | **BAIXO** na aquisição; **MÉDIO** em conteúdo especializado | **ALTO** quando indicados na sessão | Não são pilar da marca; explicar dentro da tradição/prática |
@@ -217,7 +217,7 @@ Não pertencem ao Padrão Interrompido:
 - materiais e tabelas proprietários do curso;
 - o sistema dos 72 Anjos Cabalísticos.
 
-A Sintonize pode ser **uma ferramenta de intervenção escolhida depois da organização do caso**, mas nunca deve ser rebatizada como parte autoral do método.
+A Sintonize pode ocupar dois lugares legítimos no ecossistema: **uma oferta específica para quem já procura Mesa Radiônica/Sintonize** e **uma possibilidade de intervenção após o Mapeamento**, quando houver pertinência e escolha da pessoa. Em nenhum dos casos deve ser rebatizada como parte autoral do Método Padrão Interrompido.
 
 ---
 
@@ -229,7 +229,9 @@ A **Mesa Radiônica Sintonize Prosperidade** é uma formação e metodologia esp
 
 Dentro do Portal, ela deve ser tratada como:
 
-> **uma modalidade espiritual/radiônica específica que pode ser utilizada em determinadas experiências do Método Padrão Interrompido.**
+> **uma metodologia espiritual/radiônica específica que pode sustentar uma oferta própria do Portal ou ser utilizada como ferramenta de intervenção em outra etapa da jornada, sempre com atribuição correta, consentimento e escopo legítimo.**
+
+A Sessão Individual Sintonize Prosperidade **não é uma versão do Mapeamento Padrão Interrompido** e não exige que a pessoa passe pelo Mapeamento antes.
 
 ## 5.2. O que a formação organiza
 
@@ -274,21 +276,55 @@ Mas o ativo maior do projeto continua sendo:
 
 > **Portal Caminho da Consciência + Método Padrão Interrompido + conteúdo + produtos + prática + reavaliação + comunidade + tecnologia.**
 
+## 5.5. Autorização de uso informada por Marcos em 04/09/2026
+
+Para a governança atual do projeto, fica registrada como **premissa operacional informada por Marcos** que sua formação/habilitação autoriza:
+
+- divulgar atendimentos com a Sintonize Prosperidade;
+- utilizar e aplicar a metodologia e os protocolos oficiais durante os atendimentos;
+- utilizar as ferramentas e materiais necessários à prática;
+- estruturar comercialmente atendimentos próprios baseados na formação;
+- criar novos protocolos e formatos de atendimento baseados no conhecimento adquirido, respeitando a origem da metodologia e os direitos da marca.
+
+Essa autorização **não transfere a autoria da metodologia original**, não autoriza apresentar a Sintonize como criação do Portal e não deve ser interpretada como licença irrestrita para publicar ou redistribuir apostilas, comandos, símbolos, fichas ou materiais integrais.
+
+A evidência documental da formação e de qualquer autorização aplicável deve permanecer arquivada em ambiente privado. A titulação pública exata de Marcos continua subordinada ao documento/certificado efetivamente recebido.
+
+## 5.6. Oferta individual vigente em design/piloto
+
+Fica reconhecido como produto separado:
+
+> **Sessão Individual Sintonize Prosperidade**
+
+Estado nesta versão:
+
+- `DESIGN_READY / PILOT_PENDING`;
+- formato padrão: **assíncrono, individual, manual e à distância**;
+- aplicação realizada pessoalmente por Marcos;
+- não exige presença do cliente em chamada;
+- atendimento ao vivo: **opcional**, com preço e agenda diferenciados;
+- preço inicial de validação do formato assíncrono: **R$297**;
+- hipótese inicial do formato ao vivo: **R$397**;
+- nenhuma das duas modalidades deve ser tratada como `live` publicamente antes do gate operacional/comercial correspondente.
+
+O formato assíncrono não significa automação da Mesa. A personalização permanece na intenção do cliente, na aplicação manual, no registro da sessão, na devolutiva e na integração posterior.
+
 ---
 
 # 6. Protocolos: separação obrigatória
 
-## 6.1. Protocolos Sintonize
+## 6.1. Protocolos Sintonize oficiais
 
 São os protocolos, sequências e combinações de ferramentas pertencentes à formação Sintonize Prosperidade.
 
 Regras:
 
-- usar somente dentro da habilitação e condições da formação;
-- não reproduzir integralmente em páginas, cursos, PDFs públicos ou aplicativos;
-- não renomear como “Protocolo Padrão Interrompido”;
-- não transformar em banco de dados ou lógica de software comercial sem autorização específica;
-- não ensinar como conteúdo próprio do Portal.
+- podem ser aplicados por Marcos dentro do atendimento legítimo, conforme a autorização informada e as condições da formação;
+- permanecem identificados como protocolos da Sintonize;
+- não devem ser apresentados como criação do Portal ou do Método Padrão Interrompido;
+- não devem ser reproduzidos integralmente em páginas, cursos, PDFs públicos, apps ou bancos de dados;
+- não devem ser convertidos em lógica automática de software;
+- não devem ser ensinados como conteúdo autoral do Portal.
 
 ## 6.2. Protocolos Padrão Interrompido
 
@@ -308,6 +344,22 @@ Podem envolver, quando legítimo e sem copiar material protegido:
 ### Regra de autoria
 
 Um protocolo próprio só pode ser chamado de **Padrão Interrompido** quando sua estrutura, linguagem e conteúdo forem de autoria independente.
+
+## 6.3. Protocolos derivados baseados na formação Sintonize
+
+A autorização informada por Marcos permite considerar, no futuro, a criação de novos protocolos e atendimentos baseados no conhecimento adquirido na formação.
+
+Para evitar confusão de autoria, um protocolo derivado deve:
+
+1. ter documentação própria;
+2. declarar claramente sua relação/origem com a formação quando pertinente;
+3. não ser apresentado como protocolo oficial Sintonize se não for oficial;
+4. não ser chamado de Protocolo Padrão Interrompido se sua estrutura depender materialmente da Sintonize;
+5. não reproduzir publicamente comandos, símbolos ou materiais protegidos além do autorizado;
+6. possuir escopo, objetivo, consentimento, critérios de uso e reavaliação próprios;
+7. só entrar em desenvolvimento comercial depois da validação da Sessão Individual e do DOC-SYNC correspondente.
+
+> **Autorização para criar derivados não elimina a obrigação de separar autoria, origem, marca, promessa e responsabilidade.**
 
 ---
 
@@ -529,7 +581,7 @@ Evitar criar títulos que não constem da formação ou do certificado.
 
 Após habilitação formal:
 
-> **“Em determinadas experiências, utilizo a Mesa Radiônica Sintonize Prosperidade, uma modalidade espiritual/radiônica na qual fui formalmente formado, como uma das ferramentas de trabalho dentro da jornada do Método Padrão Interrompido.”**
+> **“Realizo atendimentos individuais com a Mesa Radiônica Sintonize Prosperidade, metodologia na qual concluí formação específica. A Sintonize mantém sua autoria e estrutura próprias; no Portal, a experiência pode incluir preparação, devolutiva e integração autorais ao redor da aplicação.”**
 
 ## 12.2. Formulação a evitar
 
@@ -667,12 +719,26 @@ A **Porta 2 é a prioridade comercial para conversão imediata**, sem eliminar p
 
 ## 14.3. Gate de escolha
 
-A porta de entrada **não decide automaticamente a ferramenta**. Depois de uma triagem ou Mapeamento compatível, o próximo passo pode ser:
+A porta de entrada **não decide automaticamente a ferramenta**.
+
+Existem duas situações distintas:
+
+### Demanda direta pela técnica
+
+Quem já procura especificamente Mesa Radiônica ou Sintonize pode seguir:
+
+> **busca/indicação → página da técnica → qualificação simples → Sessão Individual Sintonize**
+
+Não é necessário obrigar essa pessoa a passar pelo Mapeamento.
+
+### Demanda por dor, repetição ou compreensão
+
+Depois de conteúdo, produto por dor, triagem ou Mapeamento, o próximo passo pode ser:
 
 - uma ação concreta;
 - um produto autoguiado por dor específica;
 - Mapeamento Padrão Interrompido;
-- aplicação individual da Sintonize Prosperidade, quando pertinente;
+- Sessão Individual Sintonize Prosperidade, quando pertinente e escolhida pela pessoa;
 - Ciclo Padrão Interrompido;
 - outro acompanhamento do Portal;
 - encaminhamento externo;
@@ -682,9 +748,11 @@ A porta de entrada **não decide automaticamente a ferramenta**. Depois de uma t
 
 > **O Padrão Interrompido organiza, localiza, escolhe e reavalia.**
 >
-> **A Sintonize pode trabalhar um ponto, quando houver pertinência, consentimento e escopo legítimo.**
+> **A Sintonize pode trabalhar uma intenção ou um ponto quando pertinente, consentida e dentro de seu escopo.**
 
 A Sintonize não é componente obrigatório do Mapeamento e não deve ser embutida silenciosamente na oferta autoral.
+
+Quando a Sintonize for apresentada depois do Mapeamento, pode existir um **Brief de Encaminhamento** com consentimento explícito para reaproveitar apenas o resumo necessário. O Mapeamento não determina o protocolo da Mesa e a Mesa não existe para confirmar o Mapeamento.
 
 ---
 
@@ -804,13 +872,13 @@ Se qualquer resposta estiver obscura, a ideia não está pronta para publicaçã
 
 **FECHADO — 05.** Familiar/Ancestral pode existir como campo transversal do Padrão Interrompido, não como oitava prosperidade oficial Sintonize.
 
-**FECHADO — 06.** Protocolos Sintonize e Protocolos Padrão Interrompido são categorias distintas.
+**FECHADO — 06.** Protocolos Sintonize, protocolos derivados baseados na formação e Protocolos Padrão Interrompido são categorias que exigem identificação de origem e autoria.
 
 **FECHADO — 07.** Radar não é Mesa digital e não mede energia.
 
 **FECHADO — 08.** Anjos Cabalísticos são relevantes principalmente na operação Sintonize e em conteúdo especializado, não como eixo principal de aquisição.
 
-**FECHADO — 09.** Materiais oficiais Sintonize permanecem restritos e não serão transformados em banco, app, curso ou produto derivado sem autorização.
+**FECHADO — 09.** Materiais oficiais Sintonize permanecem restritos. A autorização informada permite uso/aplicação nos atendimentos e criação futura de derivados dentro dos limites reais, mas não transfere autoria nem autoriza redistribuição pública irrestrita.
 
 **FECHADO — 10.** Marcos não adotará “terapeuta” como identidade profissional pública do Portal.
 
@@ -830,20 +898,35 @@ Se qualquer resposta estiver obscura, a ideia não está pronta para publicaçã
 
 **FECHADO — 18.** A Sintonize pode ser estruturada como intervenção individual e, futuramente, coletiva nos formatos permitidos pela formação, sem se tornar a identidade total do Portal.
 
+**FECHADO — 19.** Existe uma oferta específica em design/piloto denominada **Sessão Individual Sintonize Prosperidade**.
+
+**FECHADO — 20.** O formato padrão dessa oferta é **assíncrono, individual, manual e à distância**; chamada ao vivo não é requisito.
+
+**FECHADO — 21.** Atendimento ao vivo é modalidade opcional com agenda e preço diferenciados; não será comunicado como energeticamente superior.
+
+**FECHADO — 22.** Preço inicial de validação do formato assíncrono: **R$297**. Hipótese inicial do formato ao vivo: **R$397**.
+
+**FECHADO — 23.** A Sessão Individual possui duas rotas legítimas: **demanda direta pela técnica** e **encaminhamento opcional após o Mapeamento**.
+
+**FECHADO — 24.** A devolutiva padrão do assíncrono deve conter **Registro da Sua Sessão + áudio personalizado**, além de integração de 7 dias e check-in D7.
+
+**FECHADO — 25.** Perguntas Divinas podem existir quando cabíveis, mas não serão o principal destaque comercial da oferta.
+
+**FECHADO — 26.** Protocolos derivados baseados na formação permanecem congelados comercialmente até validação da Sessão Individual e sincronização documental.
+
 ---
 
-## 18.A. Decisões estratégicas acrescentadas na V1.2
+## 18.A. Decisões estratégicas preservadas da V1.2
 
-- Método Padrão Interrompido passa a operar formalmente com 7 movimentos;
-- Sequência Recorrente Observável passa a ser unidade prática do método;
-- Ponto de Interrupção passa a ser o mecanismo autoral central;
-- os seis Territórios da Vida Real entram como mapa provisório a validar, não como estrutura definitiva;
-- Porta 2 torna-se prioridade comercial para resposta direta e conversão;
+- Método Padrão Interrompido opera formalmente com 7 movimentos;
+- Sequência Recorrente Observável é unidade prática do método;
+- Ponto de Interrupção é mecanismo autoral central;
+- os seis Territórios da Vida Real são mapa provisório a validar;
+- Porta 2 é prioridade comercial para resposta direta e conversão;
 - “bloqueio/travamento” pode ser usado como linguagem percebida, nunca como diagnóstico automático;
-- Sintonize permanece uma possível ferramenta de intervenção e não componente obrigatório do Mapeamento;
 - produtos autoguiados por dor específica podem integrar a esteira sem reproduzir conteúdo protegido da Sintonize;
 - o primeiro infoproduto de dor priorizado é Dinheiro; Procrastinação é o segundo teste;
-- o Ciclo Padrão Interrompido de 21 dias passa a ser a proposta prioritária de oferta principal a validar.
+- o Ciclo Padrão Interrompido de 21 dias permanece proposta prioritária de oferta principal a validar.
 
 ---
 
@@ -851,17 +934,17 @@ Se qualquer resposta estiver obscura, a ideia não está pronta para publicaçã
 
 **ABERTO — A.** Formulação pública final do título de Marcos após registro do certificado/documento e da nomenclatura exata no CURRENT.
 
-**ABERTO — B.** Nome comercial e preço da primeira oferta Sintonize individual do Portal.
+**ABERTO — B.** Confirmação do SLA definitivo do formato assíncrono após o piloto; referência inicial: até 2 dias úteis após anamnese completa e pagamento confirmado.
 
-**ABERTO — C.** Se a Sintonize será oferecida como experiência separada, integrada ao Mapeamento ou em ambas as rotas com escopos distintos.
+**ABERTO — C.** Preço definitivo da modalidade ao vivo após observar tempo humano e demanda; referência inicial: R$397.
 
-**ABERTO — D.** Quais elementos da Sintonize serão mencionados em páginas de vendas sem reproduzir materiais proprietários.
+**ABERTO — D.** Momento de tornar a Sessão Individual Sintonize Prosperidade `live` na Home, página própria e aquisição paga.
 
-**ABERTO — E.** Qual será o formato autoral definitivo do relatório e da reavaliação.
+**ABERTO — E.** Qual será o primeiro protocolo derivado baseado na formação a merecer desenvolvimento, somente depois dos gates de validação.
 
 **ABERTO — F.** Momento de abertura de experiência Sintonize em grupo, após prática individual controlada e validação operacional.
 
-**ABERTO — G.** Quais protocolos autorais do Padrão Interrompido serão criados e validados após os primeiros atendimentos.
+**ABERTO — G.** Quais protocolos autorais do Padrão Interrompido serão criados e validados após base suficiente de casos.
 
 **ABERTO — H.** Quais clusters de palavras-chave terão prioridade de investimento em Google Ads depois do gate comercial.
 
@@ -869,23 +952,15 @@ Se qualquer resposta estiver obscura, a ideia não está pronta para publicaçã
 
 # 20. Relação com os Documentos 01–06
 
-## Documento 01
-Deve ser revisado para refletir a separação entre ecossistema, método próprio e Sintonize, além da correção das 8 Prosperidades.
+Esta revisão foi sincronizada com:
 
-## Documento 02
-É o documento com maior impacto. Deve separar formalmente produtos, protocolos próprios e protocolos Sintonize.
+- **Documento 01 — V4.3:** estratégia e esteira econômica;
+- **Documento 02 — V2.3:** jornada, produto Sintonize, formatos e gates;
+- **Documento 04 — V2.3:** comunicação, claims, assíncrono × ao vivo e Perguntas Divinas;
+- **Documento 05 — V2.1:** fronteira entre Mesa manual e suporte digital administrativo;
+- **Documento 06 — CURRENT V2.3:** estado operacional e prioridades.
 
-## Documento 03
-Deve incorporar a regra de transformação editorial: fonte de formação não é copy pronta.
-
-## Documento 04
-Deve consolidar o novo posicionamento público de Marcos e a matriz de linguagem interno versus público.
-
-## Documento 05
-Deve incorporar as regras de propriedade intelectual, repositórios e uso de IA sobre materiais restritos.
-
-## Documento 06
-Deve registrar o estado real: acesso oficial, conclusão da formação informada, titulação documental ainda a registrar, arquitetura de keywords e próximos gates.
+Os Documentos 03/03.A–03.F permanecem válidos. Eles só precisarão de revisão específica se a mudança de estado da Sintonize para `live` exigir nova página, campanha ou regra editorial não coberta pelos frameworks atuais.
 
 ---
 
@@ -918,7 +993,7 @@ A regra que deve sobreviver a qualquer expansão futura é:
 > **A Sequência Recorrente Observável é a unidade prática.**  
 > **O Ponto de Interrupção é o mecanismo central de trabalho.**  
 > **O Mapeamento organiza o caso.**  
-> **A Sintonize Prosperidade é uma possível ferramenta de intervenção, pertencente à sua fonte.**  
+> **A Sintonize Prosperidade é metodologia de sua fonte e pode sustentar uma oferta própria do Portal ou uma intervenção opcional dentro da jornada.**  
 > **Produtos autoguiados podem resolver dores específicas e preparar próximos passos.**  
 > **O Ciclo Padrão Interrompido transforma o método completo em experiência guiada.**  
 > **A reavaliação protege o Portal de certeza cega e de dependência.**
@@ -931,4 +1006,12 @@ E, para qualquer conteúdo, produto ou sistema:
 
 > **clareza de autoria, respeito à fonte, linguagem humana, responsabilidade, ação concreta e reavaliação vêm antes de sofisticação comercial ou tecnológica.**
 
-**Fim do Documento 00 — Matriz de Governança Conceitual, Propriedade Intelectual e Posicionamento — V1.2.**
+# 23. Controle de versão — V1.3
+
+**VERSÃO:** V1.3  
+**DATA:** 04/09/2026  
+**SUBSTITUI:** V1.2  
+**MOTIVO:** incorporar a autorização de uso informada por Marcos e a definição da Sessão Individual Sintonize Prosperidade como oferta separada, assíncrona por padrão, com modalidade ao vivo opcional, duas rotas de entrada e governança para futuros protocolos derivados.  
+**IMPACTO:** autoria, PI, arquitetura de oferta Sintonize, relação com Mapeamento, comunicação, operação e tecnologia.
+
+**Fim do Documento 00 — Matriz de Governança Conceitual, Propriedade Intelectual e Posicionamento — V1.3.**
