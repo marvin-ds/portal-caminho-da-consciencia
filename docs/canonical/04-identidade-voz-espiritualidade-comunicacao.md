@@ -1,12 +1,12 @@
 # PORTAL CAMINHO DA CONSCIÊNCIA
-## Documento 04 — Identidade, Voz, Espiritualidade e Diretrizes de Comunicação — V2.2
+## Documento 04 — Identidade, Voz, Espiritualidade e Diretrizes de Comunicação — V2.3
 
 **STATUS CANÔNICO:** identidade visual e verbal oficial, regras de voz, espiritualidade, claims, apresentação pública e uso responsável de metodologias de terceiros  
-**DATA:** 03/09/2026  
+**DATA:** 04/09/2026  
 **HORIZONTE:** próximos 90 dias + base de longo prazo  
-**DOCUMENTOS SUPERIORES:** Documento 00 — Matriz de Governança Conceitual, Propriedade Intelectual e Posicionamento — V1.2; Documento 01 — Fundacional, Estratégico e Plano Executivo Canônico — V4.2  
-**DOCUMENTOS RELACIONADOS:** Documento 02 — Jornada de Transformação, Produtos, Serviços e Protocolos — V2.2; Documento 03 — Sistema Editorial, Aquisição e Experimentação — V2.2; Documento 05 — Arquitetura Técnica, Dados e Ecossistema Digital; Documento 06 — CURRENT  
-**SUBSTITUI:** Documento 04 — Identidade, Voz, Espiritualidade e Diretrizes de Comunicação — V2.1
+**DOCUMENTOS SUPERIORES:** Documento 00 — Matriz de Governança Conceitual, Propriedade Intelectual e Posicionamento — V1.3; Documento 01 — Fundacional, Estratégico e Plano Executivo Canônico — V4.3  
+**DOCUMENTOS RELACIONADOS:** Documento 02 — Jornada de Transformação, Produtos, Serviços e Protocolos — V2.3; Documento 03 — Sistema Editorial, Aquisição e Experimentação — V2.2; Documento 05 — Arquitetura Técnica, Dados e Ecossistema Digital — V2.1; Documento 06 — CURRENT — V2.3  
+**SUBSTITUI:** Documento 04 — Identidade, Voz, Espiritualidade e Diretrizes de Comunicação — V2.2
 
 > **A marca deve parecer humana antes de parecer perfeita, profunda antes de parecer mística, responsável antes de parecer poderosa e reconhecível antes de parecer sofisticada.**
 
@@ -14,11 +14,21 @@
 
 # Mapa do documento
 
-Esta V2.2 preserva a identidade consolidada e incorpora as decisões de 03/09/2026, especialmente:
+Esta V2.3 preserva a identidade consolidada e incorpora, além das decisões anteriores, a definição de 04/09/2026 da **Sessão Individual Sintonize Prosperidade** como oferta assíncrona por padrão, com atendimento ao vivo opcional e comunicação própria de formato, entrega e limites.
 
-- criação do Documento 00;
-- revisão do Documento 01 para V4.2;
-- revisão do Documento 02 para V2.2;
+Entre as decisões consolidadas estão:
+
+- criação e evolução do Documento 00;
+- Sessão Individual Sintonize Prosperidade em `DESIGN_READY / PILOT_PENDING`;
+- formato assíncrono como padrão e ao vivo como opcional;
+- R$297 como preço inicial de validação do assíncrono e R$397 como hipótese inicial do ao vivo;
+- Registro da Sua Sessão + áudio personalizado como devolutiva padrão do assíncrono;
+- Perguntas Divinas como recurso secundário, não eixo comercial;
+- duas rotas de entrada: demanda direta e pós-Mapeamento;
+- criação do Brief de Encaminhamento com consentimento;
+- autorização de uso informada por Marcos, sem transferência de autoria da metodologia;
+- revisão do Documento 01 para V4.3;
+- revisão do Documento 02 para V2.3;
 - revisão do Documento 03 para V2.2;
 - acesso oficial de Marcos à formação **Mesa Radiônica Sintonize Prosperidade**;
 - análise dos principais materiais oficiais da formação;
@@ -983,7 +993,10 @@ Espiritualidade retorna sempre para:
 
 A **Mesa Radiônica Sintonize Prosperidade** é uma metodologia/ferramenta espiritual específica de terceiros.
 
-Ela pode ocupar um lugar importante em determinadas experiências quando houver pertinência, consentimento, escopo claro e atribuição correta.
+Ela pode ocupar dois lugares legítimos:
+
+1. **oferta específica para quem já procura Mesa Radiônica/Sintonize**;
+2. **possibilidade de intervenção depois do Mapeamento**, quando houver pertinência, consentimento e escolha da pessoa.
 
 Ela não é:
 
@@ -996,11 +1009,15 @@ Ela não é:
 
 # 39. Forma de apresentação
 
-Com a conclusão da formação informada por Marcos em 03/09/2026 e quando aplicável:
+Com a conclusão da formação informada por Marcos e respeitada a titulação documental exata:
 
-> **“Em determinadas experiências, utilizo a Mesa Radiônica Sintonize Prosperidade, metodologia na qual concluí formação específica.”**
+> **“Realizo atendimentos individuais com a Mesa Radiônica Sintonize Prosperidade, metodologia na qual concluí formação específica. A aplicação é manual e personalizada, e a experiência do Portal acrescenta preparação, devolutiva e integração ao redor da sessão.”**
 
-Essa formulação é provisória. A apresentação pública deve usar o **nome exato da qualificação sustentada pelo certificado/documento vigente** e respeitar os direitos de uso reais.
+Para o formato assíncrono:
+
+> **“A sessão é realizada individualmente à distância, sem necessidade de você permanecer em chamada. Depois, você recebe o Registro da Sua Sessão e uma devolutiva personalizada.”**
+
+A apresentação pública deve usar o **nome exato da qualificação sustentada pelo certificado/documento vigente** e respeitar os direitos de uso reais.
 
 ---
 
@@ -1012,10 +1029,12 @@ Essa formulação é provisória. A apresentação pública deve usar o **nome e
 - “IA baseada na Sintonize.”
 - “Radar Sintonize.”
 - “Protocolo nosso” quando for oficial da formação.
-- cópia de comandos.
-- reprodução de símbolos.
-- reprodução de apostilas.
-- publicação de lista proprietária.
+- “Sessão ao vivo funciona melhor.”
+- “A sessão assíncrona é automática.”
+- “Você precisa estar conectado energeticamente em videochamada.”
+- “Três Perguntas Divinas incluídas como bônus.”
+- qualquer promessa de riqueza, cura, reconciliação, emprego ou resultado externo garantido.
+- cópia pública de comandos, símbolos, apostilas ou listas proprietárias além do autorizado.
 
 ---
 
@@ -1052,7 +1071,7 @@ Interno:
 
 Público:
 
-> **“trabalhar intenção, percepção e ações relacionadas a oportunidades, sem garantia de resultado.”**
+> **“trabalhar uma intenção relacionada a oportunidades, sem garantia de resultado externo.”**
 
 Interno:
 
@@ -1060,7 +1079,7 @@ Interno:
 
 Público:
 
-> **“prática espiritual descrita dessa forma dentro da metodologia, sem tratá-la como medição científica.”**
+> **“referência espiritual/radiestésica utilizada dentro da metodologia, sem tratá-la como medição científica.”**
 
 ---
 
@@ -1075,7 +1094,7 @@ Regra:
 Exemplos:
 
 - `bloqueio financeiro` pode aparecer em título, anúncio ou FAQ, mas a comunicação não deve afirmar que um bloqueio invisível foi objetivamente diagnosticado;
-- `limpeza energética` pode ser usada para descrever a intenção da prática, sem prometer “remover toda energia negativa”;
+- `limpeza energética` pode ser usada para reconhecer a intenção da pessoa, sem prometer remover toda energia negativa;
 - `abrir caminhos` pode ser tratada como linguagem espiritual de intenção e trabalho, não garantia de emprego, dinheiro ou oportunidade;
 - `prosperidade financeira` pode nomear a área trabalhada, sem prometer aumento de renda.
 
@@ -1083,18 +1102,102 @@ A keyword abre a conversa. O Portal mantém responsabilidade sobre a afirmação
 
 ---
 
-# 43. Comunicação Sintonize após a conclusão da formação
+# 43. Comunicação da Sessão Individual Sintonize Prosperidade
 
-Sequência recomendada:
+## 43.1. Estado de oferta
 
-1. registrar titulação documental exata no CURRENT;
-2. atualização discreta da apresentação;
-3. explicar “o que é / o que não é”;
-4. explicar onde entra no Portal;
-5. diferenciar de Padrão Interrompido;
-6. explicar formatos reais — individual e, quando houver oferta, grupo;
-7. criar páginas de intenção somente para serviços efetivamente disponíveis;
-8. nunca ensinar protocolo protegido.
+A oferta está em:
+
+> **`DESIGN_READY / PILOT_PENDING`**
+
+Não tratá-la como disponível na Home, anúncio ou página pública até mudança deliberada para `live`.
+
+## 43.2. Formato padrão
+
+O formato principal é:
+
+> **assíncrono + individual + manual + à distância**
+
+Mensagem-base:
+
+> **“Você envia sua intenção, Marcos realiza a aplicação individual da Mesa e depois você recebe uma devolutiva personalizada. Não é necessário permanecer em videochamada.”**
+
+O valor do assíncrono deve ser comunicado pela personalização e pela experiência, não pelo tempo em chamada.
+
+## 43.3. Modalidade ao vivo
+
+Existe como opção para quem prefere presença síncrona.
+
+Mensagem-base:
+
+> **“Se você prefere acompanhar a experiência em tempo real e conversar diretamente comigo, existe uma modalidade ao vivo com horário reservado.”**
+
+Regra:
+
+> **não criar hierarquia de eficácia entre assíncrono e ao vivo.**
+
+O diferencial do ao vivo é tempo reservado e interação, não promessa energética superior.
+
+## 43.4. Entregáveis que devem aparecer na comunicação
+
+No assíncrono:
+
+- anamnese/intenção;
+- aplicação individual e manual;
+- **Registro da Sua Sessão**;
+- **áudio personalizado**;
+- orientação de integração de 7 dias;
+- check-in D7.
+
+O Registro e o áudio devem ser apresentados como **devolutiva**, não como laudo ou diagnóstico.
+
+## 43.5. Perguntas Divinas
+
+Podem ser mencionadas em FAQ ou bloco secundário:
+
+> **“Quando fizer sentido e dentro dos limites da metodologia, a sessão também pode incluir até três Perguntas Divinas voltadas à própria vida do consulente.”**
+
+Não usar como headline, bônus, isca principal ou promessa oracular.
+
+## 43.6. Duas rotas de mensagem
+
+### Rota direta
+
+Quem busca `Mesa Radiônica`, `Sintonize Prosperidade`, `sessão mesa radiônica` ou equivalente pode ver a técnica já na primeira dobra.
+
+### Rota pós-Mapeamento
+
+Quando a pessoa vem do Mapeamento, a comunicação deve dizer que a Sintonize é **uma possibilidade de intervenção**, nunca uma conclusão obrigatória.
+
+O Mapeamento não diagnostica necessidade energética e a Sintonize não confirma automaticamente o Mapeamento.
+
+## 43.7. Preço na comunicação
+
+Durante a validação:
+
+- **assíncrono: R$297**;
+- **ao vivo: R$397 — hipótese inicial**.
+
+Não usar preço riscado falso nem transformar o ao vivo em âncora artificial.
+
+## 43.8. SLA
+
+Referência inicial de teste:
+
+> **devolutiva em até 2 dias úteis após anamnese completa e pagamento confirmado.**
+
+Só publicar esse prazo como promessa firme depois de confirmada a capacidade operacional.
+
+## 43.9. Autorização e autoria
+
+A autorização informada por Marcos permite estruturar e aplicar o atendimento e, futuramente, desenvolver derivados nos limites reais.
+
+Na comunicação, isso nunca deve virar:
+
+- coautoria da Sintonize original;
+- parceria oficial não documentada;
+- selo/chancela inventado;
+- publicação irrestrita de materiais do curso.
 
 ---
 
@@ -1877,7 +1980,7 @@ A assinatura deve manter clara a relação com o Portal sem transformar tudo em 
 - **[Nome do Produto Procrastinação]** — mesma família futura;
 - **Mapeamento Padrão Interrompido** — produto autoral do método;
 - **Ciclo Padrão Interrompido** — experiência autoral do método;
-- **Sintonize Prosperidade** — metodologia de terceiros utilizada por Marcos dentro do escopo legítimo;
+- **Sessão Individual Sintonize Prosperidade** — oferta de serviço do Portal baseada na metodologia de terceiros, com formato assíncrono padrão e ao vivo opcional;
 - **Acompanhamento Caminho da Consciência** — aprofundamento premium.
 
 ---
@@ -1894,9 +1997,19 @@ O produto deve ser reconhecido pela dor antes de exigir conhecimento do Método.
 
 Quando publicada, a oferta precisa distinguir visual e verbalmente:
 
-> **Portal Caminho da Consciência / Marcos Vinicius + Mesa Radiônica Sintonize Prosperidade**
+> **Sessão Individual Sintonize Prosperidade**  
+> **com Marcos Vinicius • Portal Caminho da Consciência**
 
-sem sugerir propriedade da metodologia.
+E, quando necessário para atribuição:
+
+> **Atendimento com a Mesa Radiônica Sintonize Prosperidade, metodologia de terceiros na qual Marcos concluiu formação específica.**
+
+Sem sugerir propriedade da metodologia.
+
+A modalidade deve ser informada com clareza:
+
+- **Assíncrona** — padrão;
+- **Ao Vivo** — opcional.
 
 ---
 
@@ -2110,38 +2223,44 @@ Esse é o domínio institucional canônico.
 5. método próprio: **Padrão Interrompido**;
 6. Sintonize é metodologia de terceiros;
 7. 8 Prosperidades pertencem à Sintonize quando referidas dessa forma;
-8. Protocolos Sintonize e Protocolos Padrão Interrompido são distintos;
+8. Protocolos Sintonize, derivados baseados na formação e Protocolos Padrão Interrompido exigem autoria/origem separadas;
 9. “voltar ao mesmo lugar” permanece território de reconhecimento;
 10. TOM MARCOS é regra estrutural;
 11. Marcos não usa “terapeuta” como identidade pública;
 12. conclusão da formação Sintonize foi informada; titulação pública exata depende do registro documental;
-13. Anjos Cabalísticos não são eixo da marca;
-14. identidade visual é premium, sóbria, quente e espiritual;
-15. Azul Noite Profundo #1A1938 é cor-mãe;
-16. Dourado #C9A25D, Creme #F3EADA e Champagne #F5DAB1 permanecem núcleo visual;
-17. Cormorant Garamond é serif principal;
-18. Lora é corpo preferencial;
-19. sans funcional é permitida;
-20. IA visual é ferramenta, não estética;
-21. mobile first é obrigatório;
-22. claims clínicos, financeiros garantidos e causalidade espiritual absoluta são proibidos;
-23. domínio principal: `portalcaminhodaconsciencia.com.br`;
-24. oferta pública vigente: Mapeamento Padrão Interrompido — R$197;
-25. Sintonize ainda não é componente obrigatório publicamente declarado da oferta;
-26. Google Search pago está tecnicamente preparado; ativação depende de oferta/página e cluster de intenção;
-27. prioridade imediata: crescimento orgânico do YouTube.
+13. autorização de aplicação e criação futura de derivados foi informada por Marcos, sem transferência de autoria da metodologia;
+14. Anjos Cabalísticos não são eixo da marca;
+15. identidade visual é premium, sóbria, quente e espiritual;
+16. Azul Noite Profundo #1A1938 é cor-mãe;
+17. Dourado #C9A25D, Creme #F3EADA e Champagne #F5DAB1 permanecem núcleo visual;
+18. Cormorant Garamond é serif principal;
+19. Lora é corpo preferencial;
+20. sans funcional é permitida;
+21. IA visual é ferramenta, não estética;
+22. mobile first é obrigatório;
+23. claims clínicos, financeiros garantidos e causalidade espiritual absoluta são proibidos;
+24. domínio principal: `portalcaminhodaconsciencia.com.br`;
+25. oferta pública vigente permanece governada pelo CURRENT;
+26. **Sessão Individual Sintonize Prosperidade** existe em `DESIGN_READY / PILOT_PENDING`;
+27. formato padrão Sintonize individual = assíncrono, manual, individual e à distância;
+28. modalidade ao vivo = opcional, sem promessa de maior eficácia;
+29. preço inicial assíncrono = R$297; hipótese ao vivo = R$397;
+30. devolutiva padrão assíncrona = Registro da Sua Sessão + áudio personalizado;
+31. Perguntas Divinas = recurso secundário, não headline/bônus principal;
+32. Sintonize pode receber demanda direta ou entrar opcionalmente após o Mapeamento;
+33. Google Search pago depende de oferta/página `live` e gate comercial.
 
 ---
 
-## 101.A. Decisões acrescentadas na V2.2
+## 101.A. Decisões preservadas da V2.2
 
 - Porta 2 é prioridade comercial;
-- dor visceral pode ser muito explícita em resposta direta;
+- dor visceral pode ser explícita em resposta direta;
 - “bloqueio/travamento” é linguagem percebida, não diagnóstico;
-- “voltar ao mesmo lugar” passa a ser principalmente ponte de aprofundamento e categoria;
+- “voltar ao mesmo lugar” é ponte de aprofundamento e categoria;
 - produto Dinheiro é o primeiro infoproduto priorizado;
 - Procrastinação é o segundo;
-- Mapeamento 2.0 e Ciclo PI passam a ter linguagem própria baseada em Ponto de Interrupção;
+- Mapeamento 2.0 e Ciclo PI usam linguagem própria baseada em Ponto de Interrupção;
 - páginas de oferta podem ser mais diretas que o site institucional, sem abandonar TOM MARCOS e compliance.
 
 ---
@@ -2157,11 +2276,13 @@ Esse é o domínio institucional canônico.
 7. biblioteca de ícones;
 8. design system técnico completo;
 9. grau de geometria espiritual;
-10. identidade visual de experiências Sintonize;
+10. identidade visual final da página/artefatos Sintonize;
 11. formulação pública final da qualificação após registro documental da nomenclatura exata;
-12. integração comercial definitiva Sintonize + Mapeamento;
-13. grau de presença de conteúdo sobre Anjos;
-14. identidade futura da Jornada e Comunidade.
+12. SLA definitivo do assíncrono após piloto;
+13. preço definitivo da modalidade ao vivo;
+14. momento de mudar a Sessão Individual Sintonize para `live`;
+15. grau de presença de conteúdo sobre Anjos;
+16. identidade futura da Jornada e Comunidade.
 
 ---
 
@@ -2203,7 +2324,7 @@ Esse é o domínio institucional canônico.
 
 # 104. Governança da versão
 
-Esta V2.2 substitui integralmente a V2.1.
+Esta V2.3 substitui integralmente a V2.2.
 
 Ela deve ser revisada quando houver mudança deliberada em:
 
@@ -2230,4 +2351,12 @@ Toda atualização canônica deve registrar:
 - impacto em tecnologia;
 - impacto em outros documentos.
 
-> **Fim do Documento 04 — Identidade, Voz, Espiritualidade e Diretrizes de Comunicação — V2.2.**
+## 105. Controle de versão — V2.3
+
+**VERSÃO:** V2.3  
+**DATA:** 04/09/2026  
+**SUBSTITUI:** V2.2  
+**MOTIVO:** incorporar a comunicação oficial da Sessão Individual Sintonize Prosperidade assíncrona, modalidade ao vivo opcional, entregáveis, Perguntas Divinas secundárias, duas rotas de entrada e nova premissa de autorização informada.  
+**IMPACTO:** copy, páginas futuras, FAQ, assinatura de produto, claims, message match e governança de autoria.
+
+**Fim do Documento 04 — Identidade, Voz, Espiritualidade e Diretrizes de Comunicação — V2.3.**

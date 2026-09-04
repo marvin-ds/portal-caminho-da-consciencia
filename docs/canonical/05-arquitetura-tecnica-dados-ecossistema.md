@@ -1,12 +1,12 @@
 # PORTAL CAMINHO DA CONSCIÊNCIA
-## Documento 05 — Arquitetura Técnica, Dados e Ecossistema Digital — V2.0
+## Documento 05 — Arquitetura Técnica, Dados e Ecossistema Digital — V2.1
 
 **STATUS CANÔNICO:** arquitetura técnica oficial, dados, integrações, mensuração, segurança, propriedade intelectual digital e regras de desenvolvimento assistido por IA  
-**DATA:** 01/09/2026  
+**DATA:** 04/09/2026  
 **HORIZONTE:** estado atual + primeiros 90 dias + arquitetura evolutiva de longo prazo  
-**DOCUMENTOS SUPERIORES:** Documento 00 — Matriz de Governança Conceitual, Propriedade Intelectual e Posicionamento — V1.0; Documento 01 — Fundacional, Estratégico e Plano Executivo Canônico — V4.0  
-**DOCUMENTOS RELACIONADOS:** Documento 02 — Jornada de Transformação, Produtos, Serviços e Protocolos — V2.0; Documento 03 — Sistema Editorial, Aquisição e Experimentação — V2.0; Documento 04 — Identidade, Voz, Espiritualidade e Diretrizes de Comunicação — V2.0; Documento 06 — CURRENT  
-**SUBSTITUI:** Documento 05 — Arquitetura Técnica, Dados e Ecossistema Digital — V1.0
+**DOCUMENTOS SUPERIORES:** Documento 00 — Matriz de Governança Conceitual, Propriedade Intelectual e Posicionamento — V1.3; Documento 01 — Fundacional, Estratégico e Plano Executivo Canônico — V4.3  
+**DOCUMENTOS RELACIONADOS:** Documento 02 — Jornada de Transformação, Produtos, Serviços e Protocolos — V2.3; Documento 03 — Sistema Editorial, Aquisição e Experimentação — V2.2; Documento 04 — Identidade, Voz, Espiritualidade e Diretrizes de Comunicação — V2.3; Documento 06 — CURRENT — V2.3  
+**SUBSTITUI:** Documento 05 — Arquitetura Técnica, Dados e Ecossistema Digital — V2.0
 
 > **Tecnologia a serviço da transformação. Dados a serviço da decisão. IA a serviço da execução. Nenhuma ferramenta acima da pessoa, da autoria ou da verdade.**
 
@@ -14,7 +14,7 @@
 
 # Mapa do documento
 
-Esta V2.0 reescreve integralmente a arquitetura técnica do **Portal Caminho da Consciência** após:
+Esta V2.1 preserva a arquitetura técnica da V2.0 e adiciona uma correção importante: **a metodologia Sintonize continua não automatizável, mas o fluxo administrativo, a entrega, o armazenamento privado, o D7 e a mensuração operacional da Sessão Individual podem ser apoiados digitalmente** sem simular a Mesa.
 
 - criação do Documento 00;
 - atualização dos Documentos 01–04;
@@ -30,7 +30,10 @@ Esta V2.0 reescreve integralmente a arquitetura técnica do **Portal Caminho da 
 - análise dos materiais oficiais da formação **Mesa Radiônica Sintonize Prosperidade**;
 - criação de fronteiras rígidas para materiais proprietários de terceiros;
 - definição de que Radar, IA, banco de dados e automações **não podem digitalizar, simular ou reproduzir a Sintonize**;
-- decisão de aguardar conclusão formal da formação e prática controlada antes de automatizar qualquer parte da experiência Sintonize;
+- conclusão da formação Sintonize informada por Marcos e definição da Sessão Individual em `DESIGN_READY / PILOT_PENDING`;
+- definição do formato assíncrono como padrão e do ao vivo como opcional;
+- definição de que **automação administrativa não é automação da Mesa**;
+- autorização informada para aplicação comercial e futuros derivados, sem transferência de autoria ou autorização para digitalizar protocolos;
 - decisão de não apresentar Marcos tecnicamente ou semanticamente como “terapeuta” em metadata, schema, perfis ou interfaces públicas.
 
 O documento está organizado em dezessete partes:
@@ -143,8 +146,9 @@ Quando houver conflito:
 - IA não finge ter realizado leitura humana.
 - IA não pode produzir “diagnóstico energético”.
 - Radar não mede energia, frequência, Hz ou nível de consciência.
-- Sintonize não será digitalizada.
-- Materiais proprietários da Sintonize não entram em repositório público, app, API, banco, embeddings ou dataset.
+- A **operação radiestésica da Sintonize não será digitalizada nem automatizada**.
+- Formulário, pagamento, agenda, status, entrega, notificações, armazenamento privado de devolutivas e D7 podem ser apoiados digitalmente quando houver necessidade e gate explícito.
+- Materiais proprietários integrais da Sintonize não entram em repositório público, app, API, embeddings, dataset ou lógica automática. O banco operacional pode registrar metadados e conteúdo autoral/privado da sessão somente quando necessário, com separação e acesso restrito.
 - As 8 Prosperidades Sintonize não viram schema autoral do Padrão Interrompido por padrão.
 - Protocolos Sintonize não viram regras de software autoral.
 - Marcos não será descrito em schema, metadata ou perfis como terapeuta clínico.
@@ -202,11 +206,16 @@ Implementados:
 
 ## 1.4. Sintonize Prosperidade
 
-- acesso oficial à formação confirmado;
-- formação em fase final;
-- certificação aguardando formalização;
-- nenhuma automação, app ou produto digital derivado da Sintonize está autorizado;
-- materiais analisados são fontes privadas de referência, não ativos de software.
+- conclusão da formação informada por Marcos em 03/09/2026;
+- titulação pública exata continua condicionada ao documento/certificado registrado no CURRENT;
+- Sessão Individual Sintonize Prosperidade: `DESIGN_READY / PILOT_PENDING`;
+- formato padrão: **assíncrono, individual, manual e à distância**;
+- modalidade ao vivo: opcional;
+- preço inicial de validação assíncrono: R$297; hipótese ao vivo: R$397;
+- nenhuma automação da leitura, do pêndulo, da escolha radiestésica ou da aplicação está autorizada;
+- automação administrativa/operacional ao redor da sessão pode ser construída quando fizer sentido;
+- materiais da formação permanecem fontes privadas, não corpus de software;
+- autorização de aplicação/uso e criação futura de derivados foi informada por Marcos, sem transferência de autoria da metodologia.
 
 ---
 
@@ -725,75 +734,133 @@ Tecnologia não deve:
 
 # 26. Sintonize Prosperidade — fronteira técnica
 
-A Sintonize é metodologia de terceiros.
+A Sintonize é metodologia de terceiros e sua aplicação permanece **humana e manual**.
 
 Regra canônica:
 
-> **não digitalizar a metodologia.**
+> **digitalizar a operação ao redor da sessão é permitido; digitalizar ou simular a Mesa não é.**
 
-Isso inclui proibição de transformar em:
+## 26.1. O que NÃO pode ser automatizado
 
-- app;
-- workflow automático;
-- engine de regras;
-- dataset;
-- embeddings;
-- vector database;
-- chatbot treinado na apostila;
-- “copiloto Sintonize” persistente;
-- API;
+- leitura radiestésica;
+- decisão do pêndulo;
+- seleção automática de ferramenta/protocolo;
+- ativação automática;
+- “engine Sintonize”;
 - pêndulo virtual;
 - Mesa digital;
-- automação de protocolos;
-- banco de comandos;
-- banco de Anjos derivado dos materiais para uso comercial próprio.
+- chatbot que executa a metodologia;
+- banco de comandos usado como motor de decisão;
+- IA que alegue ter realizado a sessão.
+
+## 26.2. O que PODE receber apoio digital
+
+Quando houver gate de implementação:
+
+- formulário/anamnese;
+- consentimento;
+- qualificação mínima;
+- pagamento;
+- agenda do formato ao vivo;
+- fila/status do assíncrono;
+- lembretes;
+- armazenamento privado do **Registro da Sua Sessão**;
+- armazenamento/entrega de áudio personalizado;
+- envio de devolutiva;
+- check-in D7;
+- baseline pré/D7;
+- métricas de tempo, SLA e satisfação;
+- Brief de Encaminhamento vindo do Mapeamento, com consentimento;
+- CRM administrativo sem conteúdo íntimo.
+
+## 26.3. Formato assíncrono
+
+O fato de o cliente não estar em chamada **não transforma o produto em digital ou automatizado**.
+
+Fluxo conceitual:
+
+```text
+intake_ready
+→ human_review
+→ optional_clarification
+→ manual_sintonize_session
+→ private_session_record
+→ personalized_audio
+→ delivery
+→ d7_checkin
+→ closed_or_followup
+```
+
+Nenhuma etapa entre `human_review` e `manual_sintonize_session` pode ser substituída por regra automática que simule a metodologia.
 
 ---
 
 # 27. Materiais privados de formação
 
-Se usados por Marcos para estudo:
+Se usados por Marcos para estudo e execução:
 
 - armazenamento privado;
 - acesso restrito;
-- fora do deploy;
+- fora do deploy público;
 - fora do Git público;
-- fora do banco de produção do Portal;
 - fora de logs;
-- fora de prompts persistentes distribuíveis.
+- fora de prompts persistentes distribuíveis;
+- fora de embeddings/datasets do Portal.
 
-Claude Code/Codex não devem receber esses arquivos como parte permanente do repositório.
+A autorização informada para utilizar os materiais na prática **não transforma o corpus da formação em dependência técnica do produto**.
 
-Quando uma tarefa precisar de uma conclusão derivada da formação:
+Quando uma tarefa de software precisar de uma regra operacional:
 
-> utilizar **Documento 00 + especificação autoral resumida**, não a apostila original como dependência de código.
+> utilizar **Documento 00 + SPEC/Addendum Sintonize + especificação operacional autoral**, e não a apostila original como engine de código.
 
 ---
 
-# 28. Relatórios e conteúdo Sintonize
+# 28. Registro, devolutiva e conteúdo Sintonize
 
 O sistema pode armazenar, quando legítimo e necessário:
 
-- que uma experiência utilizou Sintonize;
-- data;
-- versão operacional interna;
-- status de entrega;
-- referências resumidas autorizadas.
+### Administrativo
 
-Evitar armazenar em analytics:
+- `client_id`;
+- `service_format`;
+- data/status;
+- pagamento;
+- origem;
+- SLA;
+- consentimento;
+- status D7.
 
-- ferramenta espiritual específica acionada para uma pessoa;
-- conteúdo íntimo da sessão;
-- texto detalhado de crenças;
-- informação sensível sem necessidade.
+### Conteúdo privado da sessão
 
-Relatório autoral do Portal não deve copiar modelo oficial.
+- intenção;
+- notas privadas necessárias;
+- Registro da Sua Sessão;
+- áudio personalizado;
+- D7;
+- Brief de Encaminhamento consentido.
+
+Esses dois grupos **não devem compartilhar o mesmo nível de exposição**.
+
+Não enviar a analytics/publicidade:
+
+- intenção;
+- Perguntas Divinas;
+- crenças/medos/faltas;
+- ferramentas usadas;
+- leitura radiestésica;
+- conteúdo do áudio;
+- dados de saúde/espiritualidade;
+- texto do Mapeamento.
+
+O Registro da Sua Sessão é um artefato autoral da experiência do Portal e não deve copiar integralmente ficha/modelo oficial da formação.
 
 ---
 
-# 29. Protocolos Sintonize
+# 29. Protocolos Sintonize e derivados
 
-Não modelar protocolos oficiais como:
+## 29.1. Protocolos oficiais
+
+Não modelar protocolos oficiais como engine executável:
 
 ```text
 protocol_steps
@@ -802,9 +869,19 @@ angel_rules
 symbol_rules
 ```
 
-em software autoral do Portal.
+Protocolos oficiais permanecem na esfera da prática humana habilitada.
 
-Protocolos Sintonize permanecem na esfera da prática habilitada.
+## 29.2. Protocolos derivados futuros
+
+A autorização informada permite considerar derivados depois da validação da sessão individual.
+
+Mesmo nesses casos:
+
+- não criar engine automática;
+- documentar autoria/origem;
+- separar conteúdo público de conteúdo operacional restrito;
+- criar schemas apenas para dados autorais necessários à experiência, nunca para reproduzir a apostila;
+- exigir gate específico antes de banco, app ou automação.
 
 ---
 
@@ -890,6 +967,8 @@ A implementação depende de produto real.
 | Aquisição | leads, lead_sources, attribution |
 | Comercial | offers, orders, order_events, refunds |
 | Mapeamento | mapping_requests, inputs, deliveries, reassessments |
+| Sintonize administrativo | sintonize_requests, service_status, deliveries, checkins |
+| Sintonize privado | private_intakes, private_session_notes, private_deliveries |
 | Radar | radar_sessions, answers, result_snapshots |
 | Jornadas | journeys, enrollments, steps, checkins |
 | Comunicação | dispatches, preferences |
@@ -932,7 +1011,9 @@ São referências.
 - respostas de auto-observação;
 - práticas;
 - áudio personalizado;
-- conteúdo de mapeamento.
+- conteúdo de mapeamento;
+- intenção e conteúdo privado de sessão Sintonize;
+- Registro da Sua Sessão e áudio personalizado.
 
 ## Classe E — Proprietários de terceiros
 
@@ -975,6 +1056,15 @@ Perguntas:
 - o cliente precisa recuperar?
 
 Não guardar indefinidamente por padrão.
+
+Para Sintonize, definir separadamente antes de escala:
+
+- retenção administrativa;
+- retenção da anamnese privada;
+- retenção de notas da sessão;
+- retenção do Registro/áudio;
+- retenção do Brief vindo do Mapeamento;
+- exclusão/revogação quando aplicável.
 
 ---
 
@@ -1473,16 +1563,19 @@ Deve responder:
 
 # 65. Estado atual
 
-A oferta pública conduz para WhatsApp.
+A infraestrutura de pagamento de cada oferta **não deve ser presumida como integrada** sem confirmação no CURRENT.
 
-A infraestrutura de pagamento definitiva do Mapeamento **não deve ser presumida neste documento como já integrada**.
+Para a Sessão Individual Sintonize, a formação e o desenho da oferta já deixaram de ser blockers. O próximo gate comercial depende de:
 
-O Gate R4 de operação comercial foi deliberadamente adiado até:
+1. operação assíncrona fechada;
+2. 5–10 práticas;
+3. preço/SLA confirmados para piloto pago;
+4. política comercial;
+5. escolha de pagamento e, quando necessário, agenda;
+6. validação das primeiras sessões pagas;
+7. só depois página/live e aquisição ampliada.
 
-1. conclusão da formação Sintonize;
-2. revisão documental;
-3. definição da experiência;
-4. decisão operacional.
+A modalidade assíncrona não exige sistema complexo de agendamento; pode operar por fila/SLA.
 
 ---
 
@@ -1572,6 +1665,25 @@ Depois:
 - alerta de webhook;
 - relatório interno;
 - CRM sync.
+
+---
+
+# 71.A. Bons candidatos administrativos para Sintonize
+
+Depois de compreender a operação manual, podem ser automatizados:
+
+- confirmação de recebimento da anamnese;
+- aviso de pendência de informação;
+- status `intake_ready` / `delivery_sent`;
+- lembrete de SLA interno;
+- entrega de link/arquivo;
+- lembrete D7;
+- registro de resposta D7;
+- métricas de tempo e capacidade;
+- confirmação de pagamento;
+- agenda do formato ao vivo.
+
+Nenhuma dessas automações toma decisão radiestésica.
 
 ---
 
@@ -2168,61 +2280,59 @@ Checklist mínimo:
 
 # 105. Decisões fechadas
 
-1. marca: **Portal Caminho da Consciência**;
-2. domínio: `portalcaminhodaconsciencia.com.br`;
-3. repo: `marvin-ds/portal-caminho-da-consciencia`;
-4. pasta local: `C:\Projetos\portal-caminho-da-consciencia`;
-5. branch de produção: `main`;
-6. Netlify permanece camada institucional;
-7. Vercel é preferencial para aplicações dinâmicas futuras;
-8. Supabase é preferencial quando persistência/auth forem necessários;
-9. GitHub é fonte de verdade do código;
-10. Documento 06 — CURRENT é fonte do estado operacional;
-11. mobile first é obrigatório;
-12. GTM + GA4 + Consent Mode + Conversion Linker estão na arquitetura vigente;
-13. `whatsapp_click` é conversão secundária;
-14. Search pago está preparado e adiado;
-15. não existe blocker canônico de ad blocker;
-16. oferta atual: Mapeamento Padrão Interrompido — R$197;
-17. fluxo público atual: página → WhatsApp;
-18. plataforma de pagamento definitiva do Mapeamento não é presumida como integrada;
-19. Radar não é Mesa digital;
-20. Sintonize não será digitalizada;
-21. materiais Sintonize não entram em repo público, app, banco, embeddings ou dataset;
-22. 8 Prosperidades Sintonize não são taxonomia autoral do método;
-23. Protocolos Sintonize não serão reproduzidos em software autoral;
-24. Marcos não será classificado tecnicamente como terapeuta clínico;
-25. IA não substitui entrega humana quando esta faz parte da oferta;
-26. automação vem depois de compreensão;
-27. deploys devem respeitar economia de créditos e um gate por vez;
-28. documentação canônica não pertence ao bundle público do site;
-29. nenhuma nova app é prioridade nos próximos dias;
-30. prioridade imediata do projeto permanece conteúdo + conclusão da formação.
+1. domínio principal: `portalcaminhodaconsciencia.com.br`;
+2. repositório institucional permanece fonte de verdade do código;
+3. branch de produção: `main`;
+4. Netlify permanece camada institucional;
+5. Vercel é preferencial para aplicações dinâmicas quando necessárias, não por padrão;
+6. Supabase é preferencial quando persistência/auth forem realmente necessários;
+7. GitHub é fonte de verdade do código;
+8. Documento 06 — CURRENT é fonte do estado operacional;
+9. mobile first é obrigatório;
+10. GTM + GA4 + Consent Mode + Conversion Linker permanecem na arquitetura;
+11. `purchase` só representa compra confirmada;
+12. Radar não é Mesa digital;
+13. a operação radiestésica Sintonize não será digitalizada ou automatizada;
+14. fluxo administrativo/delivery/D7 Sintonize pode receber suporte digital;
+15. materiais oficiais integrais Sintonize não entram em repo público, app, embeddings ou dataset;
+16. conteúdo privado de sessão pode persistir apenas quando necessário, separado de analytics/CRM publicitário e com acesso restrito;
+17. 8 Prosperidades Sintonize não são taxonomia autoral do método;
+18. Protocolos Sintonize oficiais não serão reproduzidos como engine de software;
+19. protocolos derivados futuros exigem gate próprio e não autorizam engine automática;
+20. Sessão Individual Sintonize está `DESIGN_READY / PILOT_PENDING`;
+21. formato padrão Sintonize = assíncrono, manual, individual e à distância;
+22. ao vivo = modalidade opcional;
+23. baseline/D7 pode ser digital, mas não é métrica clínica/científica;
+24. Brief de Encaminhamento Mapeamento → Sintonize exige consentimento e minimização;
+25. Marcos não será classificado tecnicamente como terapeuta clínico;
+26. IA não substitui entrega humana quando esta faz parte da oferta;
+27. automação vem depois de compreensão;
+28. deploys respeitam gates e economia;
+29. documentação canônica não pertence ao bundle público do site;
+30. tecnologia da Sintonize deve reduzir fricção administrativa sem transformar a Mesa em software.
 
 ---
 
 # 106. Decisões abertas
 
-1. plataforma de pagamento operacional do Mapeamento;
+1. plataforma de pagamento operacional por oferta;
 2. CRM inicial;
-3. política formal de retenção;
-4. momento do Radar;
-5. mapa autoral definitivo de domínios;
-6. Vercel project structure futura;
-7. monorepo vs repos separados para apps;
+3. política formal de retenção, incluindo Sintonize privada;
+4. storage de Registro/áudio Sintonize, se necessário;
+5. se o MVP Sintonize precisa de banco próprio ou pode começar com ferramentas simples;
+6. ferramenta de agenda para a modalidade ao vivo;
+7. momento de área autenticada para entregas;
 8. e-mail transacional;
-9. storage de relatórios;
-10. área autenticada;
-11. Enhanced Conversions;
-12. importação offline de venda;
-13. momento de `purchase`;
-14. arquitetura de Jornada;
-15. arquitetura de comunidade;
-16. admin interno;
-17. PWA;
-18. integração comercial Sintonize;
-19. quanto da operação humana deverá ser apoiada por software;
-20. política de backup proporcional ao volume.
+9. Enhanced Conversions;
+10. importação offline de venda;
+11. momento do Radar;
+12. arquitetura de Jornada;
+13. arquitetura de comunidade;
+14. admin interno;
+15. PWA;
+16. quanto da operação humana deverá ser apoiada por software depois do piloto;
+17. política de backup proporcional ao volume;
+18. SLA técnico/comercial final da Sessão Sintonize assíncrona.
 
 ---
 
@@ -2320,4 +2430,12 @@ Toda revisão canônica deve registrar:
 - impacto nos demais documentos;
 - necessidade de migração técnica.
 
-> **Fim do Documento 05 — Arquitetura Técnica, Dados e Ecossistema Digital — V2.0.**
+# 109. Controle de versão — V2.1
+
+**VERSÃO:** V2.1  
+**DATA:** 04/09/2026  
+**SUBSTITUI:** V2.0  
+**MOTIVO:** separar formalmente “não automatizar a Mesa” de “poder digitalizar o fluxo administrativo”, incorporando o formato assíncrono Sintonize, dados privados, delivery, D7, Brief de Encaminhamento e autorização informada.  
+**IMPACTO:** dados, privacidade, automações, pagamentos, IA, armazenamento e fronteira técnica da Sintonize.
+
+**Fim do Documento 05 — Arquitetura Técnica, Dados e Ecossistema Digital — V2.1.**

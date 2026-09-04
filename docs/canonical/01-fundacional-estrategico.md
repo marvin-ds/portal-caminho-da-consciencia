@@ -1,13 +1,13 @@
 > **Por que existimos. Quem somos. O que acreditamos. O que estamos construindo.**
 
 # PORTAL CAMINHO DA CONSCIÊNCIA
-## Documento Fundacional, Estratégico e Plano Executivo Canônico — V4.2
+## Documento Fundacional, Estratégico e Plano Executivo Canônico — V4.3
 
 **STATUS:** canônico — referência estratégica principal do projeto  
-**DATA:** 03/09/2026  
+**DATA:** 04/09/2026  
 **HORIZONTE:** ciclo inicial de 90 dias + visão de longo prazo  
-**DOCUMENTO PRECEDENTE:** Documento 00 — Matriz de Governança Conceitual, Propriedade Intelectual e Posicionamento — V1.2  
-**SUBSTITUI:** Documento 01 — V4.1
+**DOCUMENTO PRECEDENTE:** Documento 00 — Matriz de Governança Conceitual, Propriedade Intelectual e Posicionamento — V1.3  
+**SUBSTITUI:** Documento 01 — V4.2
 
 > **Entrar no Portal é entrar em um caminho. O padrão pode ser a porta de entrada. A consciência é o horizonte maior.**
 
@@ -41,7 +41,7 @@ Este é o documento-mãe **estratégico** do Portal Caminho da Consciência. Ele
 
 Ele deve orientar decisões de produto, conteúdo, marca, tecnologia, operação, experiência, espiritualidade e monetização.
 
-A V4.2 preserva a base consolidada nas versões anteriores e incorpora as decisões de 03/09/2026: conclusão da formação Sintonize informada por Marcos, Método Padrão Interrompido 2.0, Ponto de Interrupção, nova Jornada, prioridade comercial da Porta 2 e esteira de produtos escaláveis por dor.
+A V4.3 preserva a base consolidada e incorpora as decisões de 04/09/2026 sobre a **Sessão Individual Sintonize Prosperidade**: oferta separada em design/piloto, formato assíncrono como padrão, atendimento ao vivo opcional, duas rotas legítimas de entrada e preço inicial de validação de R$297 para o assíncrono.
 
 O Documento 00 não substitui este Documento 01. Os dois exercem funções diferentes:
 
@@ -292,7 +292,7 @@ A função da história é humanizar e explicar a investigação, não monopoliz
 
 ---
 
-## 8. Formação Sintonize Prosperidade — estado em 03/09/2026
+## 8. Formação Sintonize Prosperidade — estado consolidado em 04/09/2026
 
 Marcos informou a **conclusão da formação Mesa Radiônica Sintonize Prosperidade**. Esse fato altera o estado estratégico do projeto: a Sintonize deixa de ser apenas uma possibilidade futura condicionada à conclusão das aulas e passa a poder ser **estruturada, praticada e validada operacionalmente** dentro dos limites da metodologia.
 
@@ -307,11 +307,19 @@ A palavra “terapeuta” continua não sendo adotada como identidade profission
 
 ### 8.1. Consequência estratégica da conclusão
 
-A Sintonize pode agora avançar para **prática controlada e desenho de oferta**, sem se tornar a marca inteira. A ordem continua:
+A Sintonize já avançou do simples “desenho de oferta” para uma **oferta especificada em estado `DESIGN_READY / PILOT_PENDING`**.
 
-> **legitimidade → prática real → clareza de entrega → oferta → página → aquisição → escala.**
+A ordem estratégica passa a ser:
+
+> **legitimidade → operação definida → prática real → validação paga → página/live → aquisição → escala.**
 
 Não inverter essa ordem por causa do volume de busca.
+
+### 8.2. Autorização informada e limites
+
+Marcos informou que sua formação/habilitação autoriza divulgar e aplicar a metodologia, utilizar os protocolos oficiais durante os atendimentos e estruturar novos formatos/protocolos baseados no conhecimento adquirido.
+
+Essa premissa permite o desenho da oferta e futuros derivados, mas **não transfere autoria da Sintonize**, não autoriza apresentar materiais oficiais como conteúdo próprio e não elimina a necessidade de preservar evidências documentais de formação/licença e a nomenclatura pública exata.
 
 ---
 
@@ -614,6 +622,37 @@ Materiais oficiais da Sintonize, incluindo apostilas, Mesa, gráficos, símbolos
 
 A formação pode legitimar o uso da técnica conforme suas regras; ela não transfere automaticamente a propriedade intelectual dos materiais.
 
+### 16.6. Sessão Individual Sintonize Prosperidade — decisão de produto
+
+Fica reconhecida como oferta específica do Portal:
+
+> **Sessão Individual Sintonize Prosperidade**
+
+Função estratégica:
+
+- capturar demanda de alta intenção por Mesa Radiônica/Sintonize;
+- oferecer uma intervenção humana e manual na etapa **TRABALHAR**;
+- gerar prática, casos, aprendizado operacional e receita;
+- integrar a experiência com preparação, devolutiva e reavaliação sem alterar a metodologia original.
+
+Arquitetura vigente de design/piloto:
+
+- **formato padrão:** assíncrono, individual, manual e à distância;
+- o cliente não precisa permanecer em chamada durante a aplicação;
+- **formato ao vivo:** opcional, com agenda e preço diferenciados;
+- preço inicial de validação assíncrono: **R$297**;
+- hipótese inicial ao vivo: **R$397**;
+- devolutiva padrão: **Registro da Sua Sessão + áudio personalizado**;
+- integração: orientação de 7 dias + check-in D7;
+- Perguntas Divinas: recurso secundário quando cabível, não eixo comercial.
+
+Existem duas rotas legítimas:
+
+1. **demanda direta pela técnica → Sintonize**, sem obrigatoriedade de Mapeamento;
+2. **Mapeamento → Sintonize como possibilidade**, com escolha e consentimento da pessoa.
+
+O estado da oferta permanece `DESIGN_READY / PILOT_PENDING`; essa definição **não autoriza publicação live ou escala antes dos gates operacionais**.
+
 ---
 
 # PARTE V — O CAMINHO DA CONSCIÊNCIA: JORNADA MACRO DE TRANSFORMAÇÃO
@@ -731,9 +770,20 @@ Não lançar vários produtos simultaneamente.
 
 Oferta individual autoral. Preço público vigente permanece **R$197** até decisão diferente.
 
-### 19.4. Sintonize Prosperidade — Individual
+### 19.4. Sessão Individual Sintonize Prosperidade
 
-Rota de intervenção específica, atribuída à metodologia de terceiros. Faixa de preço mencionada no planejamento permanece **hipótese a validar**, não preço canônico.
+Rota de intervenção específica, atribuída à metodologia de terceiros e já especificada em estado `DESIGN_READY / PILOT_PENDING`.
+
+Arquitetura comercial de validação:
+
+- **assíncrono — R$297** como preço inicial de validação;
+- **ao vivo — R$397** como hipótese inicial opcional;
+- aplicação sempre humana e manual;
+- Registro da Sua Sessão + áudio personalizado no assíncrono;
+- integração de 7 dias + D7;
+- entrada direta por busca da técnica ou entrada opcional após Mapeamento.
+
+Os valores ainda devem ser confirmados por economia real de tempo, satisfação e capacidade antes de escala.
 
 ### 19.5. Ciclo Padrão Interrompido — 21 dias
 
@@ -1556,10 +1606,11 @@ A conclusão da formação remove uma pré-condição, mas o Gate de escala aind
 
 1. registro documental da qualificação, quando aplicável;
 2. prática controlada;
-3. definição da oferta Sintonize individual;
-4. preço, formulário, pagamento, entrega e reavaliação;
-5. página/message match;
-6. só então aquisição paga em escala.
+3. execução de 5–10 práticas com prioridade assíncrona;
+4. fechamento operacional de formulário, pagamento, SLA, entrega e reavaliação;
+5. validação das primeiras sessões pagas;
+6. página/message match e mudança deliberada para `live`;
+7. só então aquisição paga em escala.
 
 ---
 
@@ -1567,21 +1618,22 @@ A conclusão da formação remove uma pré-condição, mas o Gate de escala aind
 
 1. nome definitivo do primeiro quadro editorial recorrente;
 2. formulação pública exata da qualificação de Marcos após registro do documento/certificado;
-3. desenho operacional final da Sintonize como intervenção separada ou explicitamente opcional, nunca componente obrigatório do Mapeamento;
-4. se o Mapeamento de R$197 continuará com o mesmo escopo após essa integração;
-5. validação ou ajuste dos seis Territórios da Vida Real após aproximadamente 20–30 Mapeamentos;
-6. primeiro Protocolo Padrão Interrompido verdadeiramente autoral a ser desenvolvido e validado;
-7. momento ideal de lançamento do Radar;
-8. escopo, preço e cadência definitiva do **Ciclo Padrão Interrompido — 21 dias**, após piloto;
-9. momento e proposta exata da comunidade recorrente;
-10. eventual formação futura de praticantes do Método Padrão Interrompido;
-11. identidade aspiracional/comunitária do participante;
-12. grau de exposição pública da trajetória espiritual pessoal de Marcos;
-13. momento adequado para testar experiências coletivas compatíveis com a Sintonize;
-14. grau de presença de conteúdos especializados sobre Anjos Cabalísticos dentro da biblioteca editorial;
-15. momento de ativação efetiva do Google Ads Search;
-16. nome e preço da primeira oferta Sintonize individual;
-17. quais clusters do Mapa Mestre receberão páginas próprias ou campanhas separadas.
+3. validação ou ajuste dos seis Territórios da Vida Real após aproximadamente 20–30 Mapeamentos;
+4. primeiro Protocolo Padrão Interrompido verdadeiramente autoral a ser desenvolvido e validado;
+5. momento ideal de lançamento do Radar;
+6. escopo, preço e cadência definitiva do **Ciclo Padrão Interrompido — 21 dias**, após piloto;
+7. momento e proposta exata da comunidade recorrente;
+8. eventual formação futura de praticantes do Método Padrão Interrompido;
+9. identidade aspiracional/comunitária do participante;
+10. grau de exposição pública da trajetória espiritual pessoal de Marcos;
+11. momento adequado para testar experiências coletivas compatíveis com a Sintonize;
+12. grau de presença de conteúdos especializados sobre Anjos Cabalísticos dentro da biblioteca editorial;
+13. momento de ativação efetiva do Google Ads Search;
+14. SLA definitivo da Sessão Individual Sintonize assíncrona após piloto;
+15. preço definitivo da modalidade Sintonize ao vivo após observar tempo e demanda;
+16. momento de tornar a Sessão Individual Sintonize `live`;
+17. primeiro protocolo derivado baseado na formação Sintonize, somente após validação da sessão individual e governança específica;
+18. quais clusters do Mapa Mestre receberão páginas próprias ou campanhas separadas.
 
 O nome principal da marca permanece fechado: **Portal Caminho da Consciência**.
 
@@ -1690,17 +1742,15 @@ Toda mudança deste documento deve registrar:
 - decisão que motivou a mudança;
 - impacto nos demais documentos.
 
-Esta V4.2 substitui a V4.1 como referência canônica do Documento 01 e preserva os fundamentos anteriores, acrescentando:
+Esta V4.3 substitui a V4.2 como referência canônica do Documento 01 e preserva os fundamentos anteriores, acrescentando:
 
-- Método Padrão Interrompido 2.0 com 7 movimentos;
-- Sequência Recorrente Observável e Ponto de Interrupção;
-- seis Territórios da Vida Real como mapa autoral provisório;
-- nova Jornada: Descobrir → Reconhecer → Mapear → Trabalhar → Integrar → Aprofundar;
-- Porta 2 como prioridade comercial, com dor visceral antes da repetição;
-- esteira com lead magnet, produtos autoguiados por dor, Mapeamento 2.0, Sintonize, Ciclo PI e Premium;
-- Dinheiro como primeiro infoproduto e Procrastinação como segundo teste;
-- Ciclo Padrão Interrompido de 21 dias como proposta prioritária de oferta principal;
-- meta operacional de aproximadamente R$45–47 mil de receita para perseguir R$30 mil líquidos, conforme margem real;
-- plano executivo de 90 dias reorganizado em validação de oferta, flagship e escala.
+- Sessão Individual Sintonize Prosperidade como oferta específica em `DESIGN_READY / PILOT_PENDING`;
+- formato assíncrono como padrão e atendimento ao vivo como opcional;
+- R$297 como preço inicial de validação assíncrono e R$397 como hipótese inicial do ao vivo;
+- duas rotas legítimas: demanda direta pela técnica e pós-Mapeamento;
+- Registro da Sua Sessão + áudio personalizado + integração 7 dias + D7 como arquitetura da entrega;
+- autorização de aplicação/uso e criação futura de derivados registrada como premissa informada por Marcos, sem transferência de autoria;
+- protocolos derivados congelados até validação da sessão individual e governança específica;
+- ordem estratégica Sintonize: operação → prática → validação paga → página/live → aquisição.
 
-> **Fim do Documento 01 — Fundacional / Estratégico — V4.2.**
+> **Fim do Documento 01 — Fundacional / Estratégico — V4.3.**
