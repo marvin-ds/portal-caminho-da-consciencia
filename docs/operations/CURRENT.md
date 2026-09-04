@@ -5,7 +5,7 @@
 **DATA DE CORTE:** 04/09/2026  
 **HORIZONTE:** estado atual + próximos 7–14 dias  
 **FUNÇÃO:** manter Marcos, ChatGPT, Claude Code, Codex e demais agentes alinhados sobre o que é fato, o que está decidido, o que está pendente e qual é o próximo movimento  
-**SUBSTITUI:** Documento 06 — CURRENT — V2.2/V2.3
+**SUBSTITUI:** Documento 06 — CURRENT — V2.3
 
 > **Onde estamos. O que já foi decidido. O que está pendente. Qual é o próximo movimento.**
 
@@ -111,7 +111,7 @@ Quando houver conflito:
 
 **Regra comercial:**
 
-> **dor visceral → consequências → travamento/bloqueio percebido → repetição → “de novo” → próximo passo.**
+> **dor visceral → consequências → travamento/bloqueio percebido → repetição → "de novo" → próximo passo.**
 
 ---
 
@@ -141,6 +141,18 @@ Estado: `DESIGN_READY / PILOT_PENDING`.
 
 Formato padrão: **assíncrono, individual, manual e à distância**.  
 Modalidade ao vivo: **opcional**.
+
+## Plataforma da Jornada / Meu Caminho
+
+Decisão transversal aprovada em 04/09/2026:
+
+- conceito: **Plataforma da Jornada**;
+- experiência autenticada: **Meu Caminho** (nome recomendado);
+- fundação escolhida para investigação: **MakerKit Lite + construção própria**;
+- estratégia: brownfield e incremental;
+- estado: **ARQUITETURA APROVADA / INVENTÁRIO PENDENTE / NÃO IMPLEMENTADO**;
+- próximo gate: **PJ-00 — Inventário e Convergência Arquitetural**;
+- nenhuma migração, novo repo, alteração de Supabase, auth, DNS ou deploy está autorizada antes do inventário/ADR.
 
 ## Regra
 
@@ -197,7 +209,7 @@ Meta operacional de planejamento: **aproximadamente R$45–47 mil de receita**, 
 
 ## P0
 
-> **FECHAR HOME MOBILE + EXECUTAR PRODUTOS NOS CHATS EXCLUSIVOS + PREPARAR PILOTO SINTONIZE ASSÍNCRONO + MANTER CONTEÚDO/ACQUISIÇÃO ORGÂNICA.**
+> **FECHAR O QUE JÁ ESTÁ EM EXECUÇÃO + MANTER PRODUTOS EM CHATS EXCLUSIVOS + COLOCAR O CALENDÁRIO DE CONTEÚDO EM PRODUÇÃO + EXECUTAR PJ-00 EM TRILHA PARALELA, SEM REESCREVER OS PRODUTOS.**
 
 Para Sintonize, a ordem é:
 
@@ -223,30 +235,32 @@ Porta 2 permanece forte para conversão; Porta 1 pode captar intenção direta p
 
 # 5. Documentos canônicos vigentes
 
-| Documento | Versão após esta revisão | Estado |
+| Documento | Versão vigente | Estado |
 |---|---:|---|
-| 00 — Governança Conceitual | V1.3 | Sintonize como metodologia de terceiros / Sessão Individual separada |
-| 01 — Fundacional Estratégico | V4.3 | Sessão Individual Sintonize / esteira econômica / meta R$30k |
-| 02 — Jornada, Produtos e Serviços | V2.3 | Sessão Individual definida / R$297 async / R$397 ao vivo / 2 rotas |
-| 03 — Editorial e Aquisição | V2.2 | Porta 2 + orgânico 4 portas |
+| 00 — Governança Conceitual | V1.3 | mantido |
+| 01 — Fundacional Estratégico | **V4.4** | Plataforma da Jornada incorporada estrategicamente |
+| 02 — Jornada, Produtos e Serviços | **V2.4** | Meu Caminho incorporado como camada transversal |
+| 02.A — Framework de Produtos | V1.0 | mantido |
+| 03 — Editorial e Aquisição | V2.2 | mantido |
 | 03.A — Percepção Antes da Explicação | V1.0 | mantido |
-| 03.B — Mapa Editorial | V1.2 | dores viscerais / ofertas |
-| 03.C — Banco de Reels | V1.1 | camada comercial |
-| 03.D — Prompts / Search / Copy | V2.2 | novos prompts de resposta direta |
-| 03.E — Execução Editorial | V1.1 | fila orgânica + comercial |
-| 04 — Identidade e Comunicação | V2.2 | linguagem visceral / claims |
-| 05 — Arquitetura Técnica | V2.0 | mantido até novo gate técnico |
-| 06 — CURRENT | V2.4 | este arquivo |
+| 03.B — Mapa Editorial | V1.2 | mantido |
+| 03.C — Banco de Reels | V1.1 | mantido |
+| 03.D — Prompts / Search / Copy | V2.2 | mantido |
+| 03.E — Execução Editorial | V1.1 | mantido |
+| 03.F — Páginas / Oferta / Conversão | V1.0 | mantido |
+| 04 — Identidade e Comunicação | V2.3 | mantido |
+| 05 — Arquitetura Técnica | V2.1 | **aguarda PJ-00/PJ-02 antes de nova versão** |
+| 06 — CURRENT | **V2.4** | este arquivo |
 
-Não criar novo documento numerado enquanto esta arquitetura comportar as decisões.
+**SPEC transversal vigente:** Plataforma da Jornada **Meu Caminho** — MakerKit Lite + Construção Própria — V1.0.
+
+Não criar novo documento canônico numerado para a Plataforma da Jornada. A SPEC transversal governa a investigação técnica até o ADR/PJ-02.
 
 ---
 
 # 6. Estado de incorporação no repositório
 
-As versões revisadas 00–06 foram produzidas no ciclo documental atual.
-
-**Antes de assumir que todas estão versionadas no GitHub, verificar o repositório.**
+As versões canônicas atualizadas até esta revisão foram produzidas. **Antes de assumir que V4.4/V2.4/V2.4 já estão versionadas no GitHub, verificar o repositório.** O DOC-SYNC anterior da Sintonize não prova automaticamente a incorporação destas três novas versões.
 
 Próxima ação documental recomendada:
 
@@ -350,6 +364,27 @@ Reabrir quando houver decisão deliberada de investir em tráfego pago.
 
 ---
 
+## PJ-00 — Plataforma da Jornada — Inventário e Convergência
+
+**STATUS:** READY TO EXECUTE / READ-ONLY
+
+Objetivo:
+
+- inventariar repos, apps, Vercel, Supabase, schemas, migrations, auth, contacts, consents, storage, pagamentos, webhooks, e-mails e integrações dos quatro produtos;
+- identificar duplicações e componentes reutilizáveis;
+- recomendar Modo A/B/C de adoção do MakerKit Lite;
+- produzir `PJ-00_INVENTARIO_ARQUITETURAL.md`.
+
+**Proibido neste gate:** criar/migrar infraestrutura, instalar MakerKit em produção, alterar DNS, refatorar auth, mover produto ou aplicar migrations.
+
+Próxima sequência:
+
+> **PJ-00 → PJ-01 → PJ-02**
+
+Somente após ADR aprovado começar refactor transversal.
+
+---
+
 ## R4 — Operação Comercial e Entrega
 
 **STATUS:** PARCIALMENTE DESTRAVADO / EXECUÇÃO POR PRODUTO
@@ -397,7 +432,7 @@ Consequência:
 
 **FECHADO:**
 
-> **Marcos não adotará “terapeuta” como identidade profissional pública.**
+> **Marcos não adotará "terapeuta" como identidade profissional pública.**
 
 Posicionamento-base:
 
@@ -670,13 +705,29 @@ Objetivo futuro:
 
 # 23. P0 — Sincronizar documentação canônica
 
-- gerar versões V1.2/V4.2/V2.2 etc.;
-- revisar links e referências no repositório;
-- não alterar Documento 03.A nem Documento 05 nesta rodada.
+- confirmar que o DOC-SYNC anterior da Sintonize foi incorporado corretamente ao repositório;
+- incorporar **Documento 01 V4.4**, **Documento 02 V2.4** e **CURRENT V2.4** em mudança docs-only;
+- preservar 00 V1.3, 02.A V1.0, família 03 vigente, 04 V2.3 e 05 V2.1;
+- revisar links/referências ativas que apontem para 01 V4.3, 02 V2.3 ou CURRENT V2.3;
+- **não criar Documento 05 V2.2 antes de PJ-00/PJ-02**.
 
 ---
 
-# 24. P0 — Mapeamento Padrão Interrompido 2.0
+# 24. P0 — Plataforma da Jornada — PJ-00
+
+Executar em trilha paralela, sem interromper os chats de produto:
+
+- inventário somente leitura;
+- nenhum novo repo por suposição;
+- nenhum MakerKit instalado em produção;
+- nenhum Supabase/schema/auth alterado;
+- mapear os quatro produtos e contratos transversais;
+- recomendar Modo A/B/C;
+- produzir inventário e parar para decisão.
+
+---
+
+# 25. P0 — Mapeamento Padrão Interrompido 2.0
 
 Fechar:
 
@@ -691,7 +742,7 @@ Fechar:
 
 ---
 
-# 25. P0 — Produto Dinheiro
+# 26. P0 — Produto Dinheiro
 
 Construir MVP simples:
 
@@ -711,7 +762,7 @@ Preço inicial de referência: **R$97**, ainda sujeito ao teste.
 
 ---
 
-# 26. P0 — Sintonize controlada
+# 27. P0 — Sintonize controlada
 
 - incorporar SPEC V1.0 + Addendum V1.1;
 - fechar operação assíncrona;
@@ -725,7 +776,7 @@ Preço inicial de referência: **R$97**, ainda sujeito ao teste.
 
 ---
 
-# 27. P1 — Conteúdo e aquisição
+# 28. P1 — Conteúdo e aquisição
 
 - continuar YouTube-first;
 - revisar Calendário V4 para refletir Porta 2 comercial;
@@ -738,7 +789,7 @@ Preço inicial de referência: **R$97**, ainda sujeito ao teste.
 
 # PARTE VIII — DECISÕES FECHADAS
 
-# 28. Decisões vigentes
+# 29. Decisões vigentes
 
 - marca = Portal Caminho da Consciência;
 - Método PI 2.0 com 7 movimentos;
@@ -749,7 +800,7 @@ Preço inicial de referência: **R$97**, ainda sujeito ao teste.
 - Porta 2 = prioridade comercial;
 - Porta 3 = forte porta orgânica de aprofundamento;
 - Porta 1 pode converter diretamente para Sintonize quando a oferta estiver live;
-- “bloqueio/travamento” = linguagem percebida, não diagnóstico;
+- "bloqueio/travamento" = linguagem percebida, não diagnóstico;
 - Sintonize = metodologia específica e oferta de intervenção possível, não componente obrigatório do Mapeamento;
 - Sessão Individual Sintonize = `DESIGN_READY / PILOT_PENDING`;
 - Sintonize padrão = assíncrona, manual, individual e à distância;
@@ -765,10 +816,21 @@ Preço inicial de referência: **R$97**, ainda sujeito ao teste.
 - Mapeamento 2.0 possui SPEC e construção em fluxo próprio;
 - Ciclo PI 21 dias = flagship futuro a validar;
 - não criar novos protocolos autorais sem base de casos suficiente.
+- Plataforma da Jornada = decisão transversal aprovada;
+- Meu Caminho = nome recomendado da experiência autenticada;
+- Meu Caminho não é novo produto nem nova etapa da Jornada;
+- MakerKit Lite + construção própria = fundação escolhida para investigação, não instalação autorizada;
+- adoção = brownfield, por gates;
+- PJ-00 é somente inventário/convergência;
+- O Minuto Anterior continua sem login obrigatório antes do valor;
+- ANTES DO APERTO é primeiro candidato forte ao shell autenticado completo;
+- dados íntimos continuam separados por domínio;
+- pedido ≠ pagamento ≠ entitlement ≠ enrollment ≠ progresso ≠ conclusão ≠ entrega;
+- LMS genérico, marketplace, gamificação, comunidade e app nativo ficam fora da V1.
 
 ---
 
-# 29. Abertas e relevantes
+# 30. Abertas e relevantes
 
 - titulação pública exata conforme certificado registrado;
 - SLA definitivo Sintonize assíncrono;
@@ -778,6 +840,13 @@ Preço inicial de referência: **R$97**, ainda sujeito ao teste.
 - agenda do ao vivo;
 - política final de cancelamento/reagendamento;
 - política de retenção do conteúdo privado;
+- Modo A/B/C de adoção do MakerKit Lite;
+- repo/monorepo definitivo da Plataforma;
+- projeto Supabase definitivo/compartilhamento após inventário;
+- modelo final de auth e identity linking;
+- contratos finais de orders/payments/entitlements/enrollments/deliveries;
+- namespaces finais de rotas, storage, ambientes e deploy;
+- momento exato de ativação pública do Meu Caminho.
 - momento de tornar a oferta Sintonize `live`;
 - página Sintonize;
 - Search Sintonize;
@@ -790,13 +859,13 @@ Preço inicial de referência: **R$97**, ainda sujeito ao teste.
 
 # PARTE X — BLOCKERS E RISCOS
 
-# 30. Blockers reais
+# 31. Blockers reais
 
 **Nenhum blocker técnico crítico conhecido para manutenção do site ou produção de conteúdo.**
 
 ---
 
-# 31. Pendências que não são blockers
+# 32. Pendências que não são blockers
 
 ## Registro documental da qualificação Sintonize
 
@@ -820,7 +889,7 @@ Adiado deliberadamente.
 
 ---
 
-# 32. Riscos atuais
+# 33. Riscos atuais
 
 - publicar titulação não sustentada pelo documento disponível;
 - misturar Sintonize com autoria do Portal;
@@ -839,7 +908,7 @@ Adiado deliberadamente.
 
 # PARTE XI — MÉTRICAS VIVAS
 
-# 33. Conteúdo
+# 34. Conteúdo
 
 Acompanhar:
 
@@ -858,7 +927,7 @@ Acompanhar:
 
 ---
 
-# 34. Página
+# 35. Página
 
 Acompanhar:
 
@@ -872,7 +941,7 @@ Acompanhar:
 
 ---
 
-# 35. Comercial futuro
+# 36. Comercial futuro
 
 Quando R4 existir:
 
@@ -890,7 +959,7 @@ Quando R4 existir:
 
 ---
 
-# 36. Sintonize — piloto e validação
+# 37. Sintonize — piloto e validação
 
 Registrar:
 
@@ -915,7 +984,7 @@ Registrar:
 
 # PARTE XII — LINKS E AMBIENTES
 
-# 37. Links principais
+# 38. Links principais
 
 **Site:**
 
@@ -935,7 +1004,7 @@ projeto da nova marca conectado ao site institucional; conferir nome/URL diretam
 
 ---
 
-# 38. Branches
+# 39. Branches
 
 **Produção:** `main`
 
@@ -957,7 +1026,7 @@ O hash atual deve ser lido do Git no início da sessão.
 
 # PARTE XIII — REGRAS PARA AGENTES
 
-# 39. Antes de qualquer tarefa
+# 40. Antes de qualquer tarefa
 
 O agente deve identificar:
 
@@ -974,7 +1043,7 @@ O agente deve identificar:
 
 ---
 
-# 40. Leitura obrigatória
+# 41. Leitura obrigatória
 
 Se a tarefa envolver:
 
@@ -997,7 +1066,7 @@ Se envolver copy:
 
 ---
 
-# 41. Proibições atuais
+# 42. Proibições atuais
 
 Nenhum agente está autorizado, sem nova decisão explícita, a:
 
@@ -1018,12 +1087,12 @@ Nenhum agente está autorizado, sem nova decisão explícita, a:
 
 # PARTE XIV — DECISION LOG ATUALIZADO
 
-# 42. Log resumido
+# 43. Log resumido
 
 | Data | Decisão / evento | Estado | Impacto |
 |---|---|---|---|
 | 30/08/2026 | Marca alterada para Portal Caminho da Consciência | FECHADO | marca, docs, site e repo |
-| 30/08/2026 | “Caminho” permanece singular | FECHADO | posicionamento |
+| 30/08/2026 | "Caminho" permanece singular | FECHADO | posicionamento |
 | 30/08/2026 | Padrão Interrompido permanece método autoral | FECHADO | produtos e conteúdo |
 | 31/08/2026 | Gate R1 concluído | EXECUTADO | migração/fundação |
 | 31/08/2026 | Domínio principal definido e publicado | EXECUTADO | SEO, site e marca |
@@ -1032,7 +1101,7 @@ Nenhum agente está autorizado, sem nova decisão explícita, a:
 | 01/09/2026 | Gate R3B aprovado | EXECUTADO | conversão secundária Ads |
 | 01/09/2026 | R3C Search adiado | FECHADO COMO PRIORIDADE | mídia paga |
 | 01/09/2026 | Acesso oficial à Sintonize confirmado | FATO | formação e futuro produto |
-| 01/09/2026 | Marcos não usará “terapeuta” publicamente | FECHADO | comunicação |
+| 01/09/2026 | Marcos não usará "terapeuta" publicamente | FECHADO | comunicação |
 | 01/09/2026 | Documento 00 adotado | FECHADO | governança e PI |
 | 01/09/2026 | 8 Prosperidades corrigidas como estrutura Sintonize | FECHADO | método, produto e conteúdo |
 | 01/09/2026 | Sintonize não será digitalizada | FECHADO | tecnologia e PI |
@@ -1042,41 +1111,37 @@ Nenhum agente está autorizado, sem nova decisão explícita, a:
 | 03/09/2026 | Mapa Mestre de Palavras-Chave consolidado | PRODUZIDO | 315 termos; Search/SEO/YouTube/copy |
 | 03/09/2026 | Arquitetura de quatro portas de aquisição adotada | FECHADO | técnica, intervenção, dor/repetição, compreensão |
 | 03/09/2026 | Revisão incremental 00/01/02/03/03B/03D/04/06 | PRODUZIDO | harmonização documental |
-| 03/09/2026 | Manutenção técnica SEO/WhatsApp + ADR Netlify/Vercel | EXECUTADO LOCALMENTE | `og:image`, `robots.txt`, `sitemap.xml`, WhatsApp `5513996899519`, ADR 0001; pendente commit/deploy |
-| 03/09/2026 | Página do Mapeamento movida para `/mapeamento/` | EXECUTADO LOCALMENTE | baseline comercial preservada fora da raiz; pendente commit/deploy |
-| 03/09/2026 | Home institucional V1 implementada na raiz | EXECUTADO LOCALMENTE | `portal_home_v1`, CTA principal para `/mapeamento/`, ofertas não-live ocultas, tracking institucional; QA local básica aprovada; pendente revisão humana/commit/deploy |
-| 04/09/2026 | Patch mínimo pós-auditoria Home V1 | EXECUTADO LOCALMENTE | `favicon.ico` criado na raiz, `rel="icon"` adicionado em `/` e `/mapeamento/`, consentimento da Home passa a recarregar ao mudar de `granted` para `denied`; pendente revalidação Claude/commit/deploy |
-| 04/09/2026 | Home V1.1.1 — Experiência Viva | APROVADO ✅ | imagem cena-sobrecarga corrigida mobile (height:190px); rodapé com logo-simbolo 72px; links rodapé empilhados mobile; frase Sintonize removida do rodapé; SHA 78769c3 em produção |
-| 04/09/2026 | GATE SITE-FINAL-01 aberto | EM ANDAMENTO | separação definitiva Mapeamento/Sintonize; edições em mapeamento/index.html e termos-de-uso.html; branch fix/finalize-institutional-site |
-| 04/09/2026 | Separação Mapeamento/Sintonize no /mapeamento/ | EXECUTADO NO BRANCH | removida sintonize-card; continuidade e FAQ q4/q8 atualizados; Sintonize referenciada apenas como oferta distinta e futura |
-| 04/09/2026 | Termos de Uso alinhados ao Mapeamento atual | EXECUTADO NO BRANCH | data 04/09/2026; sec.2 com entregáveis completos + parágrafo de separação Sintonize; sec.4 cláusula geral; sec.5 entregáveis; sec.7 carve-out PI Sintonize terceiros |
-| 04/09/2026 | SITE_INSTITUCIONAL_BASELINE.md criado | EXECUTADO | baseline protegida do site institucional versioned em docs/operations/ |
-| 04/09/2026 | EXECUTION_CONTEXT_AND_SITE_GUARDRAILS.md criado | EXECUTADO | CTX-00, classificação de superfície, arquivos protegidos, regra de novos produtos, regra Sintonize |
-| 04/09/2026 | AGENTS.md criado | EXECUTADO | guardrails para Codex e demais agentes |
-| 04/09/2026 | CLAUDE.md atualizado | EXECUTADO | referências aos dois docs operacionais de guardrail |
-| 04/09/2026 | scripts/verify-institutional-baseline.ps1 criado | EXECUTADO | script PowerShell de verificação semântica e de integridade da baseline |
-| 04/09/2026 | GATE SITE-FINAL-01 — merge e deploy | APROVADO ✅ | branch fix/finalize-institutional-site mergeado em main; push origin main; HEAD 341fe65; deploy Netlify disparado |
+| 04/09/2026 | Sessão Individual Sintonize Prosperidade especificada | PRODUZIDO | produto humano/manual em piloto |
+| 04/09/2026 | Formato padrão Sintonize alterado para assíncrono | FECHADO | operação, oferta, capacidade |
+| 04/09/2026 | Ao vivo definido como opcional | FECHADO | preço/agenda diferenciados |
+| 04/09/2026 | R$297 assíncrono e R$397 ao vivo como referências de validação | FECHADO/HIPÓTESE | economia do piloto |
+| 04/09/2026 | Registro + áudio + integração + D7 definidos como entrega padrão | FECHADO | experiência Sintonize |
+| 04/09/2026 | Rotas direta e pós-Mapeamento definidas | FECHADO | jornada e message match |
+| 04/09/2026 | Protocolos derivados congelados até validação + DOC-SYNC | FECHADO | governança |
 
 ---
 
 # PARTE XV — PRÓXIMA AÇÃO
 
-# 43. Próximo movimento recomendado
+# 44. Próximo movimento recomendado
 
-Executar em paralelo coordenado, sem misturar os chats de produto:
+Existem três trilhas paralelas, sem conflito:
 
-1. **HOME** — concluir revisão smartphone e gate final no chat técnico;
-2. **O MINUTO ANTERIOR** — seguir gates próprios no chat exclusivo;
-3. **ANTES DO APERTO** — seguir a partir do AA-02 no chat exclusivo;
-4. **MAPEAMENTO 2.0** — seguir gates MP no chat exclusivo;
-5. **SINTONIZE** — executar SINT-00/SINT-P0 e SINT-01/SINT-P1, depois 5–10 práticas assíncronas;
-6. **CONTEÚDO** — manter produção/aquisição orgânica;
-7. **TRÁFEGO PAGO** — somente para ofertas/páginas efetivamente prontas e `live`;
-8. **CICLO PI** — depois de base operacional suficiente.
+### Trilha A — produtos
 
----
+Cada produto continua em seu chat exclusivo e em seus gates próprios. Não parar lançamento seguro apenas para esperar Meu Caminho.
 
-# 44. O que acontece depois
+### Trilha B — conteúdo
+
+Finalizar preparação e colocar o Calendário de Conteúdos em produção, mantendo aprendizado 24h/72h.
+
+### Trilha C — convergência transversal
+
+Executar agora **PJ-00 — Inventário e Convergência Arquitetural**, somente leitura. Depois, PJ-01 e PJ-02 definirão a adoção real do MakerKit Lite e os contratos transversais.
+
+> **Produto continua andando. Convergência evita duplicação. Nenhuma implementação transversal antes do inventário/ADR.**
+
+# 45. O que acontece depois
 
 Se Dinheiro validar compra + margem + satisfação:
 
@@ -1091,7 +1156,7 @@ Se Dinheiro não validar:
 
 ---
 
-# 45. Critério para mudar prioridade
+# 46. Critério para mudar prioridade
 
 Mudar prioridade quando houver evidência comercial superior, não porque surgiu nova ideia.
 
@@ -1108,13 +1173,13 @@ Indicadores:
 
 ---
 
-# 46. Síntese operacional
+# 47. Síntese operacional
 
 > **Dor primeiro. Porta 2 converte. Porta 3 aprofunda. Ponto de Interrupção organiza o método. Sintonize intervém quando pertinente. Produto por dor cria escala. Ciclo PI cria ticket e transformação guiada. Reavaliação protege a qualidade.**
 
 ---
 
-# 47. Governança do CURRENT
+# 48. Governança do CURRENT
 
 Este arquivo deve permanecer curto o suficiente para leitura no início de cada sessão relevante.
 
@@ -1134,5 +1199,13 @@ Deve permanecer:
 > **um painel operacional textual do presente.**
 
 ---
+
+# 49. Controle de versão — V2.4
+
+**VERSÃO:** V2.4  
+**DATA:** 04/09/2026  
+**SUBSTITUI:** V2.3  
+**MOTIVO:** registrar a decisão transversal aprovada da Plataforma da Jornada / Meu Caminho e abrir PJ-00 sem transformar arquitetura futura em estado implementado.  
+**IMPACTO:** snapshot, prioridades, versões canônicas, gates, decision log e regras de execução. Documento 05 permanece V2.1 até PJ-00/PJ-02.
 
 > **Fim do Documento 06 — CURRENT, Decisões e Plano Operacional Vivo — V2.4.**

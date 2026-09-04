@@ -1,13 +1,13 @@
 > **Por que existimos. Quem somos. O que acreditamos. O que estamos construindo.**
 
 # PORTAL CAMINHO DA CONSCIÊNCIA
-## Documento Fundacional, Estratégico e Plano Executivo Canônico — V4.3
+## Documento Fundacional, Estratégico e Plano Executivo Canônico — V4.4
 
 **STATUS:** canônico — referência estratégica principal do projeto  
 **DATA:** 04/09/2026  
 **HORIZONTE:** ciclo inicial de 90 dias + visão de longo prazo  
 **DOCUMENTO PRECEDENTE:** Documento 00 — Matriz de Governança Conceitual, Propriedade Intelectual e Posicionamento — V1.3  
-**SUBSTITUI:** Documento 01 — V4.2
+**SUBSTITUI:** Documento 01 — V4.3
 
 > **Entrar no Portal é entrar em um caminho. O padrão pode ser a porta de entrada. A consciência é o horizonte maior.**
 
@@ -41,7 +41,7 @@ Este é o documento-mãe **estratégico** do Portal Caminho da Consciência. Ele
 
 Ele deve orientar decisões de produto, conteúdo, marca, tecnologia, operação, experiência, espiritualidade e monetização.
 
-A V4.3 preserva a base consolidada e incorpora as decisões de 04/09/2026 sobre a **Sessão Individual Sintonize Prosperidade**: oferta separada em design/piloto, formato assíncrono como padrão, atendimento ao vivo opcional, duas rotas legítimas de entrada e preço inicial de validação de R$297 para o assíncrono.
+A V4.4 preserva integralmente a base estratégica consolidada até a V4.3 e incorpora uma nova decisão transversal de 04/09/2026: a aprovação conceitual da **Plataforma da Jornada**, cuja experiência autenticada é recomendada como **Meu Caminho**. A Plataforma não é um novo produto comercial nem altera a Jornada pública; ela é uma camada digital progressiva para continuidade, acesso, histórico, entregas, retomada e reavaliação quando essas funções realmente agregarem valor. A fundação técnica escolhida para investigação é **MakerKit Lite + construção própria**, com adoção brownfield e decisão definitiva somente após os Gates PJ-00/PJ-02.
 
 O Documento 00 não substitui este Documento 01. Os dois exercem funções diferentes:
 
@@ -84,8 +84,8 @@ Sempre que houver conflito entre uma ideia nova, uma sugestão de IA, uma tendê
 - Experiência espiritual, prática complementar e crença não serão apresentadas como comprovação científica.
 - Saúde física ou mental não será diagnosticada, tratada ou explicada por causalidade espiritual na comunicação comercial do Portal.
 - Nenhum conteúdo deve parecer genérico, mecanicamente otimizado ou escrito por inteligência artificial.
-- Marcos não será apresentado como guru, mestre absoluto, sacerdote sem reconhecimento de tradição, cientista, psicólogo, médico ou alguém que “já resolveu tudo”.
-- **“Terapeuta” não será a identidade profissional pública adotada por Marcos**, ainda que esse termo apareça em materiais de determinadas formações.
+- Marcos não será apresentado como guru, mestre absoluto, sacerdote sem reconhecimento de tradição, cientista, psicólogo, médico ou alguém que "já resolveu tudo".
+- **"Terapeuta" não será a identidade profissional pública adotada por Marcos**, ainda que esse termo apareça em materiais de determinadas formações.
 - Nenhuma técnica, tradição, metodologia, símbolo, protocolo ou material de terceiros será apropriado, renomeado, digitalizado ou apresentado como criação do Portal sem direito e legitimidade compatíveis.
 - A Mesa Radiônica Sintonize Prosperidade é uma metodologia específica de terceiros e não é sinônimo do Portal nem do Método Padrão Interrompido.
 - As **8 Prosperidades da Sintonize** pertencem à arquitetura da própria Sintonize e não serão apresentadas como criação do Método Padrão Interrompido.
@@ -241,9 +241,9 @@ Posicionamento-base vigente:
 
 Quando pertinente e verdadeiro, Marcos pode comunicar formações e práticas específicas que efetivamente concluiu e está legitimado a utilizar. Essas técnicas não definem sua identidade pública e não devem ser apresentadas como base exclusiva de autoridade.
 
-### 7.1. Decisão sobre o termo “terapeuta”
+### 7.1. Decisão sobre o termo "terapeuta"
 
-Embora determinadas formações utilizem a palavra “terapeuta” para designar seus praticantes, Marcos **não adotará esse termo como identidade profissional pública do Portal**.
+Embora determinadas formações utilizem a palavra "terapeuta" para designar seus praticantes, Marcos **não adotará esse termo como identidade profissional pública do Portal**.
 
 Isso evita confusão com atuação clínica e preserva o posicionamento desejado: desenvolvimento pessoal e espiritual, facilitação de processos, práticas complementares e investigação estruturada de padrões, sem reivindicar atividade psicológica, médica ou clínica.
 
@@ -262,7 +262,7 @@ Conforme contexto, poderão ser usados termos como:
 - profeta de resultados;
 - autoridade clínica;
 - terapeuta clínico;
-- “cientista da energia”;
+- "cientista da energia";
 - representante de religião sem legitimidade formal;
 - personagem artificial criado para vender;
 - exemplo obrigatório de transformação concluída;
@@ -296,18 +296,18 @@ A função da história é humanizar e explicar a investigação, não monopoliz
 
 Marcos informou a **conclusão da formação Mesa Radiônica Sintonize Prosperidade**. Esse fato altera o estado estratégico do projeto: a Sintonize deixa de ser apenas uma possibilidade futura condicionada à conclusão das aulas e passa a poder ser **estruturada, praticada e validada operacionalmente** dentro dos limites da metodologia.
 
-A conclusão informada não autoriza inventar titulação. Antes de usar publicamente “formado”, “certificado”, “iniciado”, “facilitador” ou outra denominação específica, o Documento 06 — CURRENT deve registrar:
+A conclusão informada não autoriza inventar titulação. Antes de usar publicamente "formado", "certificado", "iniciado", "facilitador" ou outra denominação específica, o Documento 06 — CURRENT deve registrar:
 
 - documento/certificado recebido, quando aplicável;
 - data efetiva;
 - nomenclatura exata sustentada;
 - eventuais limites de uso relevantes.
 
-A palavra “terapeuta” continua não sendo adotada como identidade profissional pública do Portal.
+A palavra "terapeuta" continua não sendo adotada como identidade profissional pública do Portal.
 
 ### 8.1. Consequência estratégica da conclusão
 
-A Sintonize já avançou do simples “desenho de oferta” para uma **oferta especificada em estado `DESIGN_READY / PILOT_PENDING`**.
+A Sintonize já avançou do simples "desenho de oferta" para uma **oferta especificada em estado `DESIGN_READY / PILOT_PENDING`**.
 
 A ordem estratégica passa a ser:
 
@@ -357,7 +357,7 @@ Não é necessário que a pessoa conheça radiestesia, Mesa Radiônica, hipnose,
 
 ### 10.1. Características frequentes
 
-- dizem “eu já tentei de tudo” ou “não sei por que volto para o mesmo lugar”;
+- dizem "eu já tentei de tudo" ou "não sei por que volto para o mesmo lugar";
 - mudam o cenário, mas reconhecem sensações, escolhas ou reações semelhantes;
 - vivem repetições em dinheiro, trabalho, projetos, relações, família, autocuidado, tempo ou espiritualidade;
 - sentem que precisam compreender algo mais profundo sobre a própria forma de viver;
@@ -384,31 +384,31 @@ Essas expansões não são prioridade imediata.
 
 ## 11. Problema central
 
-O Portal não começa pela palavra “padrão”. Para aquisição e conversão, começa pela **dor que a pessoa sente na pele**.
+O Portal não começa pela palavra "padrão". Para aquisição e conversão, começa pela **dor que a pessoa sente na pele**.
 
 A pessoa pode chegar pensando:
 
-- “o dinheiro entra e some”;
-- “eu recebo e já começo a fazer conta para durar”;
-- “eu sempre digo sim e depois fico sobrecarregada”;
-- “eu sei o que preciso fazer e continuo deixando para depois”;
-- “eu começo projetos e abandono quando preciso avançar”;
-- “eu escrevo o que sinto, apago e mando ‘tudo bem’”;
-- “eu escolho pessoas diferentes e termino sentindo algo muito parecido”;
-- “parece que minha vida não anda”.
+- "o dinheiro entra e some";
+- "eu recebo e já começo a fazer conta para durar";
+- "eu sempre digo sim e depois fico sobrecarregada";
+- "eu sei o que preciso fazer e continuo deixando para depois";
+- "eu começo projetos e abandono quando preciso avançar";
+- "eu escrevo o que sinto, apago e mando 'tudo bem'";
+- "eu escolho pessoas diferentes e termino sentindo algo muito parecido";
+- "parece que minha vida não anda".
 
 Essas consequências produzem emoções concretas: insegurança, culpa, vergonha, frustração, cansaço, medo de errar, sensação de incapacidade, ressentimento e perda de confiança em si.
 
 É nesse ponto que surge uma linguagem natural do público:
 
-> **“Parece que alguma coisa está travando.”**  
-> **“É como se eu estivesse bloqueada.”**  
-> **“Eu resolvo e depois volta.”**
+> **"Parece que alguma coisa está travando."**  
+> **"É como se eu estivesse bloqueada."**  
+> **"Eu resolvo e depois volta."**
 
 O Portal não transforma essa sensação em diagnóstico. Ele aprofunda a pergunta:
 
-> **“De novo eu estou aqui.”**  
-> **“Por que isso sempre volta?”**
+> **"De novo eu estou aqui."**  
+> **"Por que isso sempre volta?"**
 
 A partir daí, o Método Padrão Interrompido ajuda a reconstruir **como a pessoa chega até esse lugar e onde existe um ponto realista para experimentar algo diferente**.
 
@@ -416,28 +416,28 @@ A partir daí, o Método Padrão Interrompido ajuda a reconstruir **como a pesso
 
 ## 12. Arquitetura verbal de aquisição: dor primeiro, repetição depois
 
-“Voltar ao mesmo lugar” continua sendo um dos territórios autorais mais fortes do Portal, porém **deixa de ser obrigatoriamente a primeira frase comercial**.
+"Voltar ao mesmo lugar" continua sendo um dos territórios autorais mais fortes do Portal, porém **deixa de ser obrigatoriamente a primeira frase comercial**.
 
 Para lead frio e resposta direta, a ordem preferencial passa a ser:
 
-> **DOR PRIMÁRIA E VISCERAL → CONSEQUÊNCIAS CONCRETAS E EMOCIONAIS → SENSAÇÃO DE TRAVAMENTO/BLOQUEIO → AGITAÇÃO RESPONSÁVEL → REPETIÇÃO → “DE NOVO EU ESTOU AQUI” → “POR QUE ISSO SEMPRE VOLTA?” → PRÓXIMO PASSO.**
+> **DOR PRIMÁRIA E VISCERAL → CONSEQUÊNCIAS CONCRETAS E EMOCIONAIS → SENSAÇÃO DE TRAVAMENTO/BLOQUEIO → AGITAÇÃO RESPONSÁVEL → REPETIÇÃO → "DE NOVO EU ESTOU AQUI" → "POR QUE ISSO SEMPRE VOLTA?" → PRÓXIMO PASSO.**
 
 ### 12.1. Regra da Porta 2
 
-A **Porta 2 — Intervenção percebida** torna-se a principal porta comercial porque parte de uma necessidade mais urgente: “eu quero destravar, aliviar, limpar, harmonizar ou fazer alguma coisa com isso”.
+A **Porta 2 — Intervenção percebida** torna-se a principal porta comercial porque parte de uma necessidade mais urgente: "eu quero destravar, aliviar, limpar, harmonizar ou fazer alguma coisa com isso".
 
-Isso não significa abrir conteúdo dizendo que a pessoa “tem um bloqueio energético”. Significa usar a linguagem da própria experiência dela para gerar reconhecimento.
+Isso não significa abrir conteúdo dizendo que a pessoa "tem um bloqueio energético". Significa usar a linguagem da própria experiência dela para gerar reconhecimento.
 
-### 12.2. Papel de “voltar ao mesmo lugar”
+### 12.2. Papel de "voltar ao mesmo lugar"
 
-Depois da dor e da consequência, o território “voltar ao mesmo lugar” aprofunda a compreensão e conecta Porta 2 à Porta 3.
+Depois da dor e da consequência, o território "voltar ao mesmo lugar" aprofunda a compreensão e conecta Porta 2 à Porta 3.
 
 Frases-base:
 
-- “Você organiza, melhora por um tempo e depois aperta de novo.”
-- “Você diz que dessa vez vai colocar limite. Quando percebe, já assumiu tudo.”
-- “O projeto é novo. O ‘depois eu faço’ continua igual.”
-- “A pessoa é outra. A mensagem apagada parece familiar.”
+- "Você organiza, melhora por um tempo e depois aperta de novo."
+- "Você diz que dessa vez vai colocar limite. Quando percebe, já assumiu tudo."
+- "O projeto é novo. O 'depois eu faço' continua igual."
+- "A pessoa é outra. A mensagem apagada parece familiar."
 
 ### 12.3. Frase filosófica
 
@@ -472,7 +472,7 @@ Mesa Radiônica, radiestesia, auto-hipnose, meditação, oração, práticas esp
 
 ### 13.2. O significado estratégico do nome
 
-“Portal” representa entrada e passagem. “Caminho” representa processo, direção, continuidade e responsabilidade pessoal. “Consciência” representa a capacidade de perceber melhor, ampliar escolha, aprender com a experiência e aprofundar a relação consigo, com a vida e, quando desejado, com o Divino.
+"Portal" representa entrada e passagem. "Caminho" representa processo, direção, continuidade e responsabilidade pessoal. "Consciência" representa a capacidade de perceber melhor, ampliar escolha, aprender com a experiência e aprofundar a relação consigo, com a vida e, quando desejado, com o Divino.
 
 O nome não promete iluminação, despertar ou superioridade espiritual. Ele comunica que existe um percurso possível e que a pessoa é participante ativa desse percurso.
 
@@ -492,13 +492,13 @@ Sua evolução central é abandonar uma arquitetura ampla demais e trabalhar com
 
 Exemplo:
 
-> pedido → “deixa comigo” → aceita sem olhar a agenda → reorganiza o que era seu → sobrecarga → ressentimento.
+> pedido → "deixa comigo" → aceita sem olhar a agenda → reorganiza o que era seu → sobrecarga → ressentimento.
 
 ### 14.2. Mecanismo central — Ponto de Interrupção
 
 > **O primeiro ponto suficientemente observável e trabalhável da sequência em que uma resposta, escolha, ação ou prática diferente pode ser experimentada.**
 
-No exemplo anterior, o Ponto de Interrupção pode estar na **pausa antes do “sim”**, e não na sobrecarga que só aparece no final.
+No exemplo anterior, o Ponto de Interrupção pode estar na **pausa antes do "sim"**, e não na sobrecarga que só aparece no final.
 
 O Ponto de Interrupção:
 
@@ -520,13 +520,13 @@ O Ponto de Interrupção:
 
 ### 14.4. Promessa responsável
 
-> **Sair de “por que isso acontece comigo de novo?” para “agora eu consigo perceber como isso começa e onde posso começar a fazer diferente”.**
+> **Sair de "por que isso acontece comigo de novo?" para "agora eu consigo perceber como isso começa e onde posso começar a fazer diferente".**
 
 ### 14.5. O que o método não afirma
 
 - que toda repetição tem causa única;
 - que existe um diagnóstico oculto;
-- que um “bloqueio” explica objetivamente a vida da pessoa;
+- que um "bloqueio" explica objetivamente a vida da pessoa;
 - que a Sintonize pertence ao método;
 - que uma intervenção garante interrupção do padrão;
 - que prática espiritual substitui ajuda médica, psicológica, jurídica, financeira ou profissional apropriada.
@@ -680,7 +680,7 @@ Canais:
 
 Ela pensa:
 
-> **“Isso sou eu.”**
+> **"Isso sou eu."**
 
 Aqui entram cenas viscerais, consequências, emoções, sensação de travamento e pequenas microtransformações.
 
@@ -688,7 +688,7 @@ Aqui entram cenas viscerais, consequências, emoções, sensação de travamento
 
 Ela pensa:
 
-> **“Quero entender como isso acontece no meu caso.”**
+> **"Quero entender como isso acontece no meu caso."**
 
 O Mapeamento Padrão Interrompido organiza episódios, sequência, possíveis conexões, Ponto de Interrupção e prioridade.
 
@@ -706,7 +706,7 @@ Depois existe um **gate de escolha**. O próximo passo pode ser:
 
 ### 17.5. Integrar
 
-A pessoa pratica, observa e reavalia. Integração não significa “manter tratamento”; significa aumentar capacidade de perceber e responder de forma mais consciente.
+A pessoa pratica, observa e reavalia. Integração não significa "manter tratamento"; significa aumentar capacidade de perceber e responder de forma mais consciente.
 
 ### 17.6. Aprofundar
 
@@ -722,7 +722,7 @@ Quem desejar pode continuar em desenvolvimento pessoal, espiritualidade, novas �
 
 ## 18. O negócio que estamos construindo
 
-O Portal não deve ser estruturado como “Marcos vendendo horas”. A arquitetura desejada é:
+O Portal não deve ser estruturado como "Marcos vendendo horas". A arquitetura desejada é:
 
 > **Conteúdo / Search → entrada gratuita ou produto por dor → Mapeamento → intervenção quando pertinente → Ciclo PI → aprofundamento/premium opcional.**
 
@@ -740,7 +740,7 @@ A esteira passa a combinar **escala por dor específica + organização individu
 
 **O Minuto Anterior — exercício de 5 minutos** — hipótese prioritária de lead magnet simples.
 
-Objetivo: ajudar a pessoa a reconstruir uma situação, observar o primeiro movimento e preparar a pergunta “como isso acontece no meu caso?”.
+Objetivo: ajudar a pessoa a reconstruir uma situação, observar o primeiro movimento e preparar a pergunta "como isso acontece no meu caso?".
 
 ### 19.2. Infoprodutos autoguiados por dor — aproximadamente R$97
 
@@ -859,7 +859,7 @@ A pessoa já procura Mesa Radiônica, Sintonize, radiestesia ou atendimento seme
 
 ### Porta 2 — Intervenção
 
-A pessoa procura ou sente necessidade de limpeza, bloqueio, desbloqueio, harmonização, abrir caminhos ou “destravar” algo.
+A pessoa procura ou sente necessidade de limpeza, bloqueio, desbloqueio, harmonização, abrir caminhos ou "destravar" algo.
 
 > **Esta é a principal porta comercial para conversão mais imediata.**
 
@@ -867,7 +867,7 @@ A comunicação deve começar pela dor visceral e pelas consequências — não 
 
 ### Porta 3 — Dor/Repetição
 
-A pessoa percebe vida travada, ciclos, “sempre acontece a mesma coisa”, “de novo estou aqui”.
+A pessoa percebe vida travada, ciclos, "sempre acontece a mesma coisa", "de novo estou aqui".
 
 É a principal ponte de aprofundamento da Porta 2 e uma grande porta orgânica de crescimento.
 
@@ -883,7 +883,7 @@ A pessoa procura mapeamento, identificar padrões ou entender o próprio caso.
 
 Fluxo:
 
-> **dor visceral → consequência → emoção → sensação de bloqueio/travamento → repetição → “de novo” → desejo de compreender/trabalhar → próximo passo.**
+> **dor visceral → consequência → emoção → sensação de bloqueio/travamento → repetição → "de novo" → desejo de compreender/trabalhar → próximo passo.**
 
 ### 21.2. Regra orgânica
 
@@ -915,7 +915,7 @@ Para vídeos com Marcos, o texto deve soar como conversa íntima, individual e n
 
 Evitar:
 
-- “Olá, seja muito bem-vindo...”;
+- "Olá, seja muito bem-vindo...";
 - introduções protocolares;
 - frases perfeitas demais;
 - listas faladas artificialmente;
@@ -927,11 +927,11 @@ Evitar:
 
 Preferir entradas como:
 
-- “Tem uma coisa que eu comecei a reparar...”;
-- “Pensa numa situação...”;
-- “Olha que curioso...”;
-- “Agora presta atenção numa coisa...”;
-- “Talvez o problema não esteja exatamente onde você está olhando.”
+- "Tem uma coisa que eu comecei a reparar...";
+- "Pensa numa situação...";
+- "Olha que curioso...";
+- "Agora presta atenção numa coisa...";
+- "Talvez o problema não esteja exatamente onde você está olhando."
 
 ### 22.2. Teste de aprovação
 
@@ -939,7 +939,7 @@ Preferir entradas como:
 2. Parece uma primeira resposta padrão de IA?
 3. Existe uma cena, observação ou linguagem específica o suficiente para parecer vida real?
 4. Marcos diria isso naturalmente para uma única pessoa sentada à sua frente?
-5. O conteúdo está mostrando um caminho real ou apenas prometendo “expansão de consciência” de forma abstrata?
+5. O conteúdo está mostrando um caminho real ou apenas prometendo "expansão de consciência" de forma abstrata?
 6. Estamos usando linguagem de uma formação de terceiros como se fosse nossa?
 
 Se as respostas forem inadequadas, o conteúdo não está pronto.
@@ -952,23 +952,23 @@ Se as respostas forem inadequadas, o conteúdo não está pronto.
 
 O efeito desejado é:
 
-> **“Como é que ele sabe que eu faço isso?”**
+> **"Como é que ele sabe que eu faço isso?"**
 
 Exemplo financeiro:
 
-> “O dinheiro entrou sexta. Hoje é quarta e você já abriu a calculadora para descobrir como vai chegar até o próximo pagamento.”
+> "O dinheiro entrou sexta. Hoje é quarta e você já abriu a calculadora para descobrir como vai chegar até o próximo pagamento."
 
 Exemplo profissional:
 
-> “Você passou três semanas organizando o projeto. Agora que chegou a hora de mostrar para alguém, começou a mexer no logo de novo.”
+> "Você passou três semanas organizando o projeto. Agora que chegou a hora de mostrar para alguém, começou a mexer no logo de novo."
 
 Exemplo familiar:
 
-> “Você saiu da casa dos seus pais há anos. Mas uma ligação de quatro minutos ainda consegue fazer você se sentir com quinze.”
+> "Você saiu da casa dos seus pais há anos. Mas uma ligação de quatro minutos ainda consegue fazer você se sentir com quinze."
 
 Exemplo espiritual:
 
-> “Você começa uma prática espiritual quando a vida aperta. Quando melhora, abandona. Quando aperta novamente, procura outra.”
+> "Você começa uma prática espiritual quando a vida aperta. Quando melhora, abandona. Quando aperta novamente, procura outra."
 
 ---
 
@@ -980,7 +980,7 @@ O conteúdo deve respeitar uma progressão de profundidade.
 
 - cenas reais;
 - repetição;
-- “voltar ao mesmo lugar”;
+- "voltar ao mesmo lugar";
 - pensamentos íntimos;
 - situações concretas.
 
@@ -1044,7 +1044,7 @@ Ela é uma referência, não uma prisão criativa.
 
 O ponto crucial é a expansão transversal:
 
-> “E talvez esse ‘depois eu resolvo’ não apareça só com dinheiro.”
+> "E talvez esse 'depois eu resolvo' não apareça só com dinheiro."
 
 Essa passagem transforma conteúdo de dor isolada em construção da categoria Padrão Interrompido.
 
@@ -1056,11 +1056,11 @@ Existe uma segunda expansão possível depois da identificação do padrão: mos
 
 O desejo comercial ideal não é:
 
-> “Preciso comprar antes que as vagas acabem.”
+> "Preciso comprar antes que as vagas acabem."
 
 É:
 
-> **“Eu preciso entender isso.”**
+> **"Eu preciso entender isso."**
 
 A urgência legítima aparece quando a pessoa percebe:
 
@@ -1104,11 +1104,11 @@ A espiritualidade do Portal deve tocar a vida concreta.
 
 Perguntas possíveis:
 
-- “O que essa repetição revela sobre aquilo que você diz valorizar?”
-- “Sua prática espiritual existe só quando a vida aperta?”
-- “O que você pede em oração e evita fazer quando aparece uma oportunidade de agir?”
-- “Que tipo de pessoa você está tentando se tornar?”
-- “O que significa, na prática, viver de uma forma mais coerente com aquilo em que você diz acreditar?”
+- "O que essa repetição revela sobre aquilo que você diz valorizar?"
+- "Sua prática espiritual existe só quando a vida aperta?"
+- "O que você pede em oração e evita fazer quando aparece uma oportunidade de agir?"
+- "Que tipo de pessoa você está tentando se tornar?"
+- "O que significa, na prática, viver de uma forma mais coerente com aquilo em que você diz acreditar?"
 
 ### 27.2. Liberdade religiosa
 
@@ -1118,7 +1118,7 @@ O trabalho deve respeitar cristãos, religiões de matriz africana, espiritualis
 
 ### 27.3. Expansão de consciência
 
-No Portal, “expansão de consciência” não será usada como promessa de estado superior, iluminação, despertar garantido ou poder especial.
+No Portal, "expansão de consciência" não será usada como promessa de estado superior, iluminação, despertar garantido ou poder especial.
 
 Será entendida de forma prática e espiritual: ampliar percepção, enxergar conexões antes invisíveis, questionar automatismos, aumentar capacidade de escolha, desenvolver responsabilidade sobre a própria vida e aprofundar relação com sentido e espiritualidade.
 
@@ -1149,7 +1149,7 @@ Nenhuma técnica deverá ser apresentada como capaz de resolver universalmente q
 
 ### 28.1. Regra para linguagem interna de uma formação
 
-Materiais de formação podem utilizar expressões como “cura”, “regeneração”, “frequência”, “bloqueio”, “doença”, “atração”, “limpeza”, “harmonização”, “salto quântico” ou outras formulações próprias de sua cosmologia.
+Materiais de formação podem utilizar expressões como "cura", "regeneração", "frequência", "bloqueio", "doença", "atração", "limpeza", "harmonização", "salto quântico" ou outras formulações próprias de sua cosmologia.
 
 Essas expressões **não migram automaticamente para claims públicos do Portal**.
 
@@ -1204,7 +1204,7 @@ Não utilizar esses elementos para diagnosticar pessoas, determinar destino de f
 ## 29. Tradições religiosas e propriedade intelectual
 
 - não copiar nomes, símbolos, protocolos ou sistemas proprietários sem autorização;
-- não transformar fundamentos religiosos iniciáticos em “produto do Portal”;
+- não transformar fundamentos religiosos iniciáticos em "produto do Portal";
 - não apresentar formação de terceiros como criação própria;
 - não confundir direito de praticar uma metodologia com propriedade sobre seus materiais;
 - quando necessário, desenvolver sistemas próprios a partir de princípios legitimamente disponíveis e conteúdo original;
@@ -1262,14 +1262,14 @@ IA pode acelerar produção, pesquisa e desenvolvimento, mas não pode apagar a 
 
 | Risco | Possível consequência | Regra de mitigação |
 | --- | --- | --- |
-| Nome/posicionamento amplo demais | marca abstrata ou “espiritual genérica” | ligar consciência a vida concreta, jornada e método |
+| Nome/posicionamento amplo demais | marca abstrata ou "espiritual genérica" | ligar consciência a vida concreta, jornada e método |
 | Sintonize ocupar a marca inteira | voltar a restringir o Portal a uma técnica | manter hierarquia Portal > método próprio > técnica específica |
 | Confundir 8 Prosperidades com método próprio | erro de autoria e posicionamento | atribuir as 8 áreas à Sintonize quando usadas |
 | Copiar protocolos/material da formação | risco jurídico, ético e reputacional | aplicar Documento 00 e manter fontes fora de produto/código público |
-| Usar “terapeuta” como identidade pública | confusão clínica e de posicionamento | usar fundador, praticante, facilitador ou nomenclatura adequada |
+| Usar "terapeuta" como identidade pública | confusão clínica e de posicionamento | usar fundador, praticante, facilitador ou nomenclatura adequada |
 | Promessas espirituais absolutas | perda de confiança e risco de plataforma | linguagem de experiência, possibilidade, prática e percepção |
 | Aproximação de saúde/psicologia | risco reputacional e regulatório | não diagnosticar, não tratar, não substituir profissional adequado |
-| Linguagem “quântica” ou de frequência como ciência | ceticismo e fragilidade de marca | separar espiritualidade de validação científica |
+| Linguagem "quântica" ou de frequência como ciência | ceticismo e fragilidade de marca | separar espiritualidade de validação científica |
 | Angelologia dominar a aquisição | estreitamento da marca | manter anjos como conteúdo especializado, não eixo central |
 | Certificação antecipada | perda de credibilidade | só comunicar qualificação após formalização |
 | Dependência de Marcos | dificuldade de escala | produtos digitais próprios, comunidade e experiências coletivas quando validadas |
@@ -1401,7 +1401,7 @@ Não escalar por CTR ou leads. Exigir compra real + margem + satisfação sufici
 - crescimento de inscritos;
 - origem dos acessos;
 - custo por lead quando houver mídia paga;
-- compreensão espontânea do conceito “Caminho da Consciência”.
+- compreensão espontânea do conceito "Caminho da Consciência".
 
 ### 37.2. Comercial
 
@@ -1505,6 +1505,26 @@ Agentes não têm autoridade para alterar silenciosamente:
 
 Quando a tarefa envolver Sintonize, propriedade intelectual, protocolos, Anjos, 8 Prosperidades ou apresentação de Marcos, o **Documento 00 deve ser lido antes da implementação**.
 
+### 38.4. Plataforma da Jornada — decisão estratégica transversal
+
+Fica aprovada conceitualmente a evolução de uma eventual "área de membros" para uma **Plataforma da Jornada**, com a experiência autenticada recomendada como **Meu Caminho**.
+
+Princípios estratégicos:
+
+- a unidade principal continua sendo a progressão da pessoa pela Jornada, não curso, módulo ou catálogo;
+- **Meu Caminho não é uma nova etapa da Jornada nem um produto comercial isolado**;
+- cursos, áudios, relatórios, experiências digitais e entregas humanas são veículos dentro do caminho, quando aplicável;
+- a plataforma deve priorizar: onde a pessoa está, o que está em andamento, o que já recebeu e qual é a próxima ação legítima;
+- a home autenticada não deve virar vitrine agressiva de upsells;
+- O Minuto Anterior continua com valor antes do login;
+- experiências que realmente exigem persistência, retomada, progresso, histórico ou entrega privada podem usar a camada autenticada;
+- Mapeamento e Sintonize permanecem humanos nas partes que a oferta define como humanas;
+- a Plataforma não autoriza LMS genérico, gamificação, comunidade, marketplace, aplicativo nativo ou outras funções sem demanda real.
+
+A decisão técnica de adoção do MakerKit Lite é **brownfield-aware**: primeiro inventariar o que já existe, depois escolher fundação direta, integração seletiva ou referência arquitetural. Nenhuma reescrita transversal está autorizada antes do PJ-00/PJ-02.
+
+A Especificação Transversal da Plataforma da Jornada governa os detalhes enquanto o Documento 05 aguarda a decisão arquitetural dos primeiros gates.
+
 ---
 
 ## 39. Arquitetura documental do projeto
@@ -1547,7 +1567,7 @@ Planilhas, pesquisas, calendários, relatórios, fontes de formação e arquivos
 
 Até que os dados justifiquem, não são prioridade:
 
-- plataforma complexa com dezenas de funções;
+- plataforma genérica ou LMS complexo com dezenas de funções antes de evidência de uso;
 - comunidade grande antes de haver razão de permanência;
 - formação/certificação de praticantes do Padrão Interrompido;
 - marketplace de terapeutas ou facilitadores;
@@ -1573,7 +1593,7 @@ Durante este ciclo:
 
 - lançar **um** produto autoguiado por vez;
 - Dinheiro vem antes de Procrastinação;
-- não lançar comunidade, app, formação ou catálogo de protocolos para “completar a esteira”;
+- não lançar comunidade, aplicativo nativo, LMS genérico, formação ou catálogo de protocolos para "completar a esteira";
 - não criar vários order bumps antes de validar a oferta principal;
 - não automatizar a Sintonize;
 - não criar novos Protocolos Padrão Interrompido antes de observar recorrência em aproximadamente 20–30 casos reais.
@@ -1590,7 +1610,7 @@ Durante este ciclo:
 - conclusão da formação: **informada por Marcos em 03/09/2026**;
 - certificado/titulação exata: registrar no CURRENT quando o documento estiver disponível;
 - prática controlada: próxima etapa antes de escala comercial;
-- identidade pública: Marcos continua sem adotar “terapeuta” como título padrão.
+- identidade pública: Marcos continua sem adotar "terapeuta" como título padrão.
 
 ### 41.2. Tráfego pago
 
@@ -1600,7 +1620,18 @@ Durante este ciclo:
 - blocker técnico: nenhum confirmado;
 - pré-condição: rota de oferta e página compatíveis com cada cluster de intenção.
 
-### 41.3. Operação comercial ampliada
+### 41.3. Plataforma da Jornada / Meu Caminho
+
+- decisão conceitual: **APROVADA**;
+- nome interno da arquitetura: **Plataforma da Jornada**;
+- nome recomendado da experiência autenticada: **Meu Caminho**;
+- fundação escolhida para investigação: **MakerKit Lite + construção própria**;
+- estratégia: brownfield, incremental e sem parar os quatro produtos em andamento;
+- próximo gate: **PJ-00 — Inventário e Convergência Arquitetural**;
+- modo definitivo de adoção, repositório, Supabase, auth, schemas, rotas e contratos técnicos: **não fechados até PJ-00/PJ-02**;
+- estado operacional: **não implementado / não live**.
+
+### 41.4. Operação comercial ampliada
 
 A conclusão da formação remove uma pré-condição, mas o Gate de escala ainda depende de:
 
@@ -1634,6 +1665,8 @@ A conclusão da formação remove uma pré-condição, mas o Gate de escala aind
 16. momento de tornar a Sessão Individual Sintonize `live`;
 17. primeiro protocolo derivado baseado na formação Sintonize, somente após validação da sessão individual e governança específica;
 18. quais clusters do Mapa Mestre receberão páginas próprias ou campanhas separadas.
+19. modo A/B/C de adoção do MakerKit Lite, repositório e arquitetura definitivos após PJ-00/PJ-02.
+20. momento e escopo exatos de ativação pública do Meu Caminho após validação técnica e de uso.
 
 O nome principal da marca permanece fechado: **Portal Caminho da Consciência**.
 
@@ -1742,15 +1775,16 @@ Toda mudança deste documento deve registrar:
 - decisão que motivou a mudança;
 - impacto nos demais documentos.
 
-Esta V4.3 substitui a V4.2 como referência canônica do Documento 01 e preserva os fundamentos anteriores, acrescentando:
+Esta V4.4 substitui a V4.3 como referência canônica do Documento 01 e preserva integralmente as decisões anteriores, acrescentando apenas a decisão estratégica transversal sobre a Plataforma da Jornada:
 
-- Sessão Individual Sintonize Prosperidade como oferta específica em `DESIGN_READY / PILOT_PENDING`;
-- formato assíncrono como padrão e atendimento ao vivo como opcional;
-- R$297 como preço inicial de validação assíncrono e R$397 como hipótese inicial do ao vivo;
-- duas rotas legítimas: demanda direta pela técnica e pós-Mapeamento;
-- Registro da Sua Sessão + áudio personalizado + integração 7 dias + D7 como arquitetura da entrega;
-- autorização de aplicação/uso e criação futura de derivados registrada como premissa informada por Marcos, sem transferência de autoria;
-- protocolos derivados congelados até validação da sessão individual e governança específica;
-- ordem estratégica Sintonize: operação → prática → validação paga → página/live → aquisição.
+- **Plataforma da Jornada** como camada digital progressiva do ecossistema;
+- **Meu Caminho** como nome recomendado da experiência autenticada;
+- Plataforma como infraestrutura de continuidade, não novo produto nem nova etapa da Jornada;
+- **MakerKit Lite + construção própria** como fundação escolhida para investigação, sem transplante cego;
+- estratégia brownfield e incremental;
+- valor antes do login no gratuito;
+- proibição de LMS genérico, catálogo como home, gamificação e complexidade sem demanda;
+- PJ-00/PJ-02 como gates antes de decisões técnicas definitivas;
+- continuidade dos produtos em seus próprios gates, sem paralisar lançamentos para esperar Meu Caminho.
 
-> **Fim do Documento 01 — Fundacional / Estratégico — V4.3.**
+> **Fim do Documento 01 — Fundacional / Estratégico — V4.4.**
