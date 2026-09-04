@@ -170,14 +170,13 @@
     .brand-mark {
       width: 32px;
       height: 32px;
-      border: 1px solid rgba(201, 162, 93, .62);
       border-radius: 50%;
+      overflow: hidden;
+      flex-shrink: 0;
       display: grid;
       place-items: center;
-      color: var(--gold);
-      font-family: "Lora", Georgia, serif;
-      font-size: .95rem;
     }
+    .brand-mark img { width: 32px; height: 32px; display: block; object-fit: cover; }
     .nav-toggle {
       width: 52px;
       height: 52px;
@@ -327,7 +326,7 @@
       box-shadow: var(--shadow);
       background: var(--mist);
     }
-    .hero-media img { width: 100%; aspect-ratio: 4 / 5; object-fit: cover; }
+    .hero-media img { width: 100%; aspect-ratio: 16 / 9; object-fit: cover; }
 
     .card-grid { display: grid; gap: 16px; margin-top: 28px; }
     .card {
@@ -529,17 +528,18 @@
       .hero { padding-block: 84px 96px; }
       h1 { max-width: 13ch; font-size: clamp(3.5rem, 6.2vw, 4.5rem); }
       h2 { font-size: clamp(2.65rem, 4.5vw, 3.25rem); }
-      .hero-grid { grid-template-columns: minmax(0, 1.2fr) minmax(280px, .8fr); }
-      .hero-media img { aspect-ratio: 4 / 5; }
+      .hero-grid { grid-template-columns: minmax(0, 1.2fr) minmax(260px, .72fr); }
+      .hero-media img { aspect-ratio: 16 / 9; }
       .cta-row { display: flex; align-items: center; }
       .card-grid { grid-template-columns: repeat(2, minmax(0, 1fr)); gap: 20px; }
       .steps { grid-template-columns: repeat(2, minmax(0, 1fr)); }
-      .image-row { grid-template-columns: minmax(0, 1fr) minmax(260px, .75fr); }
+      .image-row { grid-template-columns: minmax(0, 1fr) minmax(240px, .68fr); }
       .banner-actions { display: flex; justify-content: flex-end; }
       #pcc-banner { left: auto; max-width: 620px; }
     }
 
     @media (min-width: 1024px) {
+      .hero-media { max-height: 380px; }
       .nav-toggle { display: none; }
       .site-nav {
         position: static;
@@ -565,6 +565,10 @@
       .steps { grid-template-columns: repeat(3, minmax(0, 1fr)); }
     }
 
+    @media (max-width: 767px) {
+      .hero-media { max-height: 200px; }
+      .soft-image:not(.marcos-img) { max-height: 190px; }
+    }
     @media (max-width: 480px) {
       .btn { width: 100%; }
       .brand { max-width: 230px; }
@@ -587,7 +591,7 @@
   <header class="site-header">
     <div class="header-inner">
       <a class="brand" href="/" aria-label="Portal Caminho da Consciência">
-        <span class="brand-mark" aria-hidden="true">P</span>
+        <span class="brand-mark" aria-hidden="true"><img src="/assets/brand/logos/logo-simbolo.png" alt="" width="32" height="32" /></span>
         <span>Portal Caminho da Consciência</span>
       </a>
       <button class="nav-toggle" type="button" aria-expanded="false" aria-controls="site-nav" aria-label="Abrir menu">
@@ -608,7 +612,6 @@
     <section class="hero" id="hero">
       <div class="container hero-grid">
         <div class="hero-copy">
-          <p class="eyebrow">Desenvolvimento pessoal e espiritual aplicado à vida real</p>
           <h1>Você muda o cenário. Mas algumas situações encontram outro jeito de voltar.</h1>
           <p class="hero-sub">O Portal Caminho da Consciência ajuda você a perceber o que se repete, organizar o que hoje parece confuso e encontrar próximos passos mais conscientes, com estrutura, vida real e sem promessas fáceis.</p>
           <div class="cta-row">
@@ -618,10 +621,7 @@
           <p class="trust">Você não precisa conhecer o Método nem aderir a uma crença específica para começar.</p>
         </div>
         <figure class="hero-media">
-          <picture>
-            <source media="(min-width: 768px)" srcset="/assets/images/cena-trabalho-16x9.webp" />
-            <img src="/assets/images/cena-trabalho-4x5.webp" alt="Mesa de trabalho com caderno e celular, sugerindo uma cena cotidiana de observação." width="900" height="1125" />
-          </picture>
+          <img src="/assets/images/cena-trabalho-16x9.webp" alt="Mesa de trabalho com caderno e celular, sugerindo uma cena cotidiana de observação." width="1600" height="900" />
         </figure>
       </div>
     </section>
@@ -629,7 +629,7 @@
     <section class="section" id="recognition">
       <div class="container">
         <div class="reading">
-          <p class="eyebrow">Reconhecimento</p>
+          <p class="eyebrow">Você percebe isso acontecendo?</p>
           <h2>Talvez você não chame isso de padrão. Talvez só perceba que está acontecendo de novo.</h2>
           <p class="muted">Às vezes o cenário muda, mas uma sensação conhecida volta a aparecer.</p>
         </div>
@@ -644,7 +644,7 @@
 
     <section class="section section--deep" id="new_perception">
       <div class="container reading">
-        <p class="eyebrow">Uma virada de olhar</p>
+        <p class="eyebrow">O que acontece antes</p>
         <h2>O problema aparece no final.</h2>
         <p>O aperto. A discussão. A sobrecarga. O abandono. A decisão que não foi tomada.</p>
         <p class="muted">Mas muitas situações não chegam ali de uma vez. Antes da parte visível, podem existir pequenos movimentos, respostas, silêncios, adiamentos ou escolhas que normalmente passam despercebidos.</p>
@@ -656,7 +656,6 @@
     <section class="section section--light" id="portal">
       <div class="container">
         <div class="reading">
-          <p class="eyebrow">O Portal</p>
           <h2>Um caminho para observar melhor a própria vida sem transformar tudo em uma explicação pronta.</h2>
           <p>O Portal Caminho da Consciência é um ecossistema de desenvolvimento pessoal e espiritual aplicado à vida real.</p>
           <p>Aqui, o ponto de partida não é dizer a você qual é o seu problema. É ajudar a organizar situações concretas, perceber repetições quando elas realmente existem, experimentar próximos passos e reavaliar o que aconteceu depois.</p>
@@ -714,7 +713,6 @@
     <section class="section" id="jornada">
       <div class="container">
         <div class="reading">
-          <p class="eyebrow">Jornada</p>
           <h2>Entrar no Portal é entrar em um caminho.</h2>
         </div>
         <ol class="steps" aria-label="Jornada do Portal">
@@ -779,7 +777,7 @@
 
     <section class="section section--light" id="limites">
       <div class="container reading">
-        <p class="eyebrow">Responsabilidade</p>
+        <p class="eyebrow">O que não fazemos</p>
         <h2>Profundidade sem promessa fácil.</h2>
         <p>O Portal trabalha desenvolvimento pessoal, auto-observação, práticas e espiritualidade com responsabilidade.</p>
         <p>Não oferecemos diagnóstico médico ou psicológico. Não prometemos cura, enriquecimento, reconciliação, emprego, prosperidade garantida ou uma explicação espiritual definitiva para o que acontece na sua vida.</p>
@@ -820,7 +818,6 @@
 
     <section class="section section--deep" id="final_cta">
       <div class="container reading">
-        <p class="eyebrow">Próximo passo</p>
         <h2>Você não precisa entender a vida inteira para começar a olhar um pouco antes.</h2>
         <p class="muted">Escolha um próximo passo que faça sentido para o momento em que você está.</p>
         <div class="cta-row">
@@ -835,7 +832,7 @@
     <div class="container footer-grid">
       <div>
         <p class="footer-logo">Portal Caminho da Consciência</p>
-        <p class="copy">Desenvolvimento pessoal e espiritual aplicado à vida real.</p>
+        <p class="copy">Da vida concreta à consciência. Da consciência a um novo jeito de caminhar.</p>
       </div>
       <nav class="footer-links" aria-label="Links do rodapé">
         <a href="/">Início</a>
