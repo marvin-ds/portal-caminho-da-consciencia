@@ -1,11 +1,11 @@
 # PORTAL CAMINHO DA CONSCIÊNCIA
-## Documento 06 — CURRENT, Decisões e Plano Operacional Vivo — V2.2
+## Documento 06 — CURRENT, Decisões e Plano Operacional Vivo — V2.3
 
 **STATUS:** documento operacional vivo  
-**DATA DE CORTE:** 03/09/2026  
+**DATA DE CORTE:** 04/09/2026  
 **HORIZONTE:** estado atual + próximos 7–14 dias  
 **FUNÇÃO:** manter Marcos, ChatGPT, Claude Code, Codex e demais agentes alinhados sobre o que é fato, o que está decidido, o que está pendente e qual é o próximo movimento  
-**SUBSTITUI:** Documento 06 — CURRENT — V2.1
+**SUBSTITUI:** Documento 06 — CURRENT — V2.2
 
 > **Onde estamos. O que já foi decidido. O que está pendente. Qual é o próximo movimento.**
 
@@ -1024,6 +1024,9 @@ Nenhum agente está autorizado, sem nova decisão explícita, a:
 | 03/09/2026 | Página do Mapeamento movida para `/mapeamento/` | EXECUTADO LOCALMENTE | baseline comercial preservada fora da raiz; pendente commit/deploy |
 | 03/09/2026 | Home institucional V1 implementada na raiz | EXECUTADO LOCALMENTE | `portal_home_v1`, CTA principal para `/mapeamento/`, ofertas não-live ocultas, tracking institucional; QA local básica aprovada; pendente revisão humana/commit/deploy |
 | 04/09/2026 | Patch mínimo pós-auditoria Home V1 | EXECUTADO LOCALMENTE | `favicon.ico` criado na raiz, `rel="icon"` adicionado em `/` e `/mapeamento/`, consentimento da Home passa a recarregar ao mudar de `granted` para `denied`; pendente revalidação Claude/commit/deploy |
+| 04/09/2026 | Home V1.1 auditada — PR #3 — deploy preview `6a9aa456e453c710d2cd27eb` | APROVADO | zero eyebrows, tracking completo, motion, mobile, performance OK |
+| 04/09/2026 | Home V1.1.1 patch — commit `c65c1a0` — branch `feat/home-experiencia-viva-v1` | EXECUTADO | card Sintonize `is-building` (sem link/offer_id), FAQ 4→8 perguntas, footer nota de responsabilidade, hero container `aspect-ratio: 16/9`, cena-sobrecarga restaurada, `sintonize-info` removida, metadata title/OG/Twitter corrigidos |
+| 04/09/2026 | PR #3 mergeado para `main` — merge commit `62bb6caa` | EXECUTADO | produção (`portalcaminhodaconsciencia.com.br`) atualizada para V1.1.1; deploy Netlify em andamento |
 
 ---
 
