@@ -39,15 +39,15 @@ foreach ($f in $required) {
 }
 
 # ── Home: proteção de infra ────────────────────────────────────────────────────
-$home = Get-Content (Join-Path $Root "index.html") -Raw -ErrorAction SilentlyContinue
+$homeHtml = Get-Content (Join-Path $Root "index.html") -Raw -ErrorAction SilentlyContinue
 
-Check "HOME-GTM"       "Home contém GTM"                ($home -match "GTM-WC2C397G")
-Check "HOME-GA4"       "Home contém GA4"                ($home -match "googletagmanager\.com")
-Check "HOME-PIXEL"     "Home contém Meta Pixel"         ($home -match "fbq\('init'")
-Check "HOME-CANONICAL" "Home contém canonical tag"      ($home -match '<link rel="canonical"')
-Check "HOME-OG"        "Home contém OG tags"            ($home -match 'property="og:')
-Check "HOME-JSONLD"    "Home contém JSON-LD"            ($home -match 'application/ld\+json')
-Check "HOME-PAGE-ID"   "Home contém PAGE_ID tracking"  ($home -match "portal_home_v1")
+Check "HOME-GTM"       "Home contém GTM"                ($homeHtml -match "GTM-WC2C397G")
+Check "HOME-GA4"       "Home contém GA4"                ($homeHtml -match "googletagmanager\.com")
+Check "HOME-PIXEL"     "Home contém Meta Pixel"         ($homeHtml -match "fbq\('init'")
+Check "HOME-CANONICAL" "Home contém canonical tag"      ($homeHtml -match '<link rel="canonical"')
+Check "HOME-OG"        "Home contém OG tags"            ($homeHtml -match 'property="og:')
+Check "HOME-JSONLD"    "Home contém JSON-LD"            ($homeHtml -match 'application/ld\+json')
+Check "HOME-PAGE-ID"   "Home contém PAGE_ID tracking"  ($homeHtml -match "portal_home_v1")
 
 # ── Mapeamento: separação Sintonize ───────────────────────────────────────────
 $map = Get-Content (Join-Path $Root "mapeamento/index.html") -Raw -ErrorAction SilentlyContinue
