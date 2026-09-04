@@ -12,14 +12,14 @@
   <meta property="og:url" content="https://portalcaminhodaconsciencia.com.br/" />
   <meta property="og:title" content="Portal Caminho da Consciência" />
   <meta property="og:description" content="Desenvolvimento pessoal e espiritual aplicado à vida real, com uma forma estruturada de observar o que se repete." />
-  <meta property="og:image" content="https://portalcaminhodaconsciencia.com.br/assets/images/cena-trabalho-16x9.webp" />
+  <meta property="og:image" content="https://portalcaminhodaconsciencia.com.br/assets/images/home/hero-cenario-v2.webp" />
   <meta property="og:locale" content="pt_BR" />
   <meta property="og:site_name" content="Portal Caminho da Consciência" />
 
   <meta name="twitter:card" content="summary_large_image" />
   <meta name="twitter:title" content="Portal Caminho da Consciência" />
   <meta name="twitter:description" content="Perceba o que se repete e encontre próximos passos mais conscientes para a vida real." />
-  <meta name="twitter:image" content="https://portalcaminhodaconsciencia.com.br/assets/images/cena-trabalho-16x9.webp" />
+  <meta name="twitter:image" content="https://portalcaminhodaconsciencia.com.br/assets/images/home/hero-cenario-v2.webp" />
 
   <script type="application/ld+json">
   {
@@ -107,7 +107,7 @@
 
     :root {
       --night: #1A1938;
-      --night-deep: #0F0D14;
+      --night-deep: #211F45;
       --mist: #3B3550;
       --gold: #C9A25D;
       --gold-readable: #765B2F;
@@ -582,6 +582,227 @@
         animation-iteration-count: 1 !important;
       }
     }
+
+    .site-header { transition: background .2s ease, border-color .2s ease; }
+    .header-inner { min-height: 78px; transition: min-height .22s ease, padding .22s ease; }
+    .brand-mark, .brand-mark img { transition: width .22s ease, height .22s ease; }
+    .site-header.is-compact .header-inner { min-height: 62px; }
+    .site-header.is-compact .brand-mark,
+    .site-header.is-compact .brand-mark img { width: 28px; height: 28px; }
+    .site-header.is-compact .nav-toggle { width: 46px; height: 46px; }
+    .read-progress {
+      position: absolute;
+      left: 0;
+      right: 0;
+      bottom: -1px;
+      height: 2px;
+      background: rgba(201, 162, 93, .16);
+      overflow: hidden;
+    }
+    .read-progress span {
+      display: block;
+      height: 100%;
+      width: 100%;
+      background: var(--gold);
+      transform: scaleX(0);
+      transform-origin: left center;
+    }
+    .site-nav { background: #211F45; }
+    .section--deep, .footer { background: var(--night-deep); }
+    .hero {
+      background:
+        radial-gradient(circle at 94% 10%, rgba(201, 162, 93, .12), transparent 34%),
+        linear-gradient(180deg, #1A1938 0%, #211F45 100%);
+    }
+    .hero-media { border-color: rgba(245, 218, 177, .22); }
+    .hero-media img { transform: scale(1.015); }
+    .trust { max-width: 42ch; }
+    .scene-list {
+      display: grid;
+      gap: 0;
+      margin-top: 34px;
+      border-top: 1px solid rgba(245, 218, 177, .2);
+    }
+    .scene-line {
+      padding: 20px 0;
+      border-bottom: 1px solid rgba(245, 218, 177, .16);
+      color: var(--cream);
+      font-size: clamp(1.2rem, 4.8vw, 1.5rem);
+      line-height: 1.45;
+    }
+    .scene-line::before {
+      content: "";
+      display: block;
+      width: 38px;
+      height: 2px;
+      margin-bottom: 12px;
+      background: var(--gold);
+    }
+    .section--light .scene-line,
+    .section--parchment .scene-line { color: var(--ink); border-color: rgba(43, 33, 27, .16); }
+    .principle-strip, .method-flow {
+      display: grid;
+      gap: 16px;
+      margin-top: 28px;
+    }
+    .method-move {
+      padding-block: 18px;
+      border-top: 1px solid var(--line);
+    }
+    .method-move:last-child { border-bottom: 1px solid var(--line); }
+    .method-move h3 { color: var(--champagne); }
+    .section--light .method-move h3,
+    .section--parchment .method-move h3 { color: var(--ink); }
+    .flow-demo {
+      position: relative;
+      display: grid;
+      gap: 10px;
+      margin: 30px 0;
+      padding-left: 18px;
+    }
+    .flow-demo::before {
+      content: "";
+      position: absolute;
+      left: 6px;
+      top: 16px;
+      bottom: 16px;
+      width: 2px;
+      background: rgba(43, 33, 27, .16);
+    }
+    .flow-step {
+      position: relative;
+      padding: 12px 14px;
+      border-radius: var(--radius);
+      background: rgba(255, 255, 255, .38);
+      border: 1px solid rgba(43, 33, 27, .12);
+      font-weight: 600;
+    }
+    .flow-step::before {
+      content: "";
+      position: absolute;
+      left: -18px;
+      top: 50%;
+      width: 12px;
+      height: 12px;
+      border-radius: 50%;
+      background: var(--parchment);
+      border: 2px solid var(--gold-readable);
+      transform: translateY(-50%);
+    }
+    .flow-step.is-focus {
+      background: var(--night);
+      color: var(--cream);
+      border-color: var(--gold);
+      box-shadow: 0 14px 32px rgba(26, 25, 56, .18);
+    }
+    .journey-path {
+      list-style: none;
+      padding: 0;
+      margin-top: 34px;
+      display: grid;
+      gap: 0;
+      counter-reset: journey;
+      border-left: 2px solid rgba(201, 162, 93, .26);
+    }
+    .journey-step {
+      position: relative;
+      padding: 0 0 28px 28px;
+      counter-increment: journey;
+    }
+    .journey-step::before {
+      content: counter(journey);
+      position: absolute;
+      left: -17px;
+      top: 0;
+      width: 32px;
+      height: 32px;
+      display: grid;
+      place-items: center;
+      border-radius: 50%;
+      background: var(--night);
+      border: 1px solid var(--gold);
+      color: var(--champagne);
+      font-size: .9rem;
+      font-weight: 600;
+    }
+    .journey-step p { color: var(--muted); font-size: 1rem; }
+    .router-grid { display: grid; gap: 16px; margin-top: 30px; }
+    .status-badge {
+      width: max-content;
+      display: inline-flex;
+      align-items: center;
+      min-height: 30px;
+      padding: 5px 10px;
+      border-radius: 999px;
+      background: rgba(201, 162, 93, .16);
+      color: var(--gold-readable);
+      font-size: .78rem;
+      font-weight: 700;
+      letter-spacing: .04em;
+      text-transform: uppercase;
+    }
+    .route-card.is-building {
+      background: rgba(255, 255, 255, .28);
+    }
+    .route-state {
+      margin-top: auto;
+      color: rgba(43, 33, 27, .68);
+      font-weight: 600;
+    }
+    .route-card { transition: transform .16s ease, box-shadow .16s ease, border-color .16s ease; }
+    .route-card:hover { transform: translateY(-2px) scale(1.01); box-shadow: 0 18px 40px rgba(26, 25, 56, .12); }
+    .route-card:active { transform: scale(.985); }
+    .marcos-section .reading { max-width: 820px; }
+    .marcos-portrait {
+      width: min(68vw, 240px);
+      margin: 24px auto;
+      border-radius: var(--radius);
+      overflow: hidden;
+      border: 1px solid rgba(43, 33, 27, .16);
+      background: rgba(255, 255, 255, .38);
+    }
+    .marcos-portrait img {
+      width: 100%;
+      height: min(85vw, 300px);
+      object-fit: cover;
+      object-position: center top;
+    }
+    .motion-ready .reveal-item {
+      opacity: 0;
+      transform: translateY(14px);
+      transition: opacity 520ms ease, transform 520ms cubic-bezier(.2,.7,.2,1);
+    }
+    .motion-ready .reveal-item.is-visible { opacity: 1; transform: translateY(0); }
+    .motion-ready .reveal-image { transform: scale(1.025); transition: transform 900ms cubic-bezier(.2,.7,.2,1), opacity 520ms ease; }
+    .motion-ready .reveal-image.is-visible { transform: scale(1); }
+    @media (min-width: 768px) {
+      .scene-list { grid-template-columns: repeat(2, minmax(0, 1fr)); border-left: 1px solid rgba(245, 218, 177, .14); }
+      .scene-line { padding: 24px; border-right: 1px solid rgba(245, 218, 177, .14); }
+      .method-flow, .router-grid { grid-template-columns: repeat(3, minmax(0, 1fr)); }
+      .journey-path {
+        grid-template-columns: repeat(6, minmax(0, 1fr));
+        border-left: 0;
+        border-top: 2px solid rgba(201, 162, 93, .26);
+        padding-top: 26px;
+      }
+      .journey-step { padding: 20px 16px 0 0; }
+      .journey-step::before { left: 0; top: -43px; }
+      .marcos-portrait { width: min(34vw, 330px); margin: 28px 0; }
+    }
+    @media (max-width: 767px) {
+      .header-inner { min-height: 76px; }
+      .site-header.is-compact .header-inner { min-height: 60px; }
+      .hero { padding-top: 46px; }
+      .marcos-section { padding-top: 58px; }
+    }
+    @media (prefers-reduced-motion: reduce) {
+      .motion-ready .reveal-item,
+      .motion-ready .reveal-image {
+        opacity: 1 !important;
+        transform: none !important;
+      }
+      .read-progress span { transition: none !important; }
+    }
   </style>
 </head>
 <body>
@@ -606,6 +827,7 @@
         <a class="nav-cta js-route-cta" data-offer-id="mapping_pattern_interrupted_v1" data-offer-name="Mapeamento Padrão Interrompido" data-local="header" href="/mapeamento/">Comece por aqui</a>
       </nav>
     </div>
+    <div class="read-progress" aria-hidden="true"><span id="read-progress-bar"></span></div>
   </header>
 
   <main id="conteudo">
@@ -613,15 +835,15 @@
       <div class="container hero-grid">
         <div class="hero-copy">
           <h1>Você muda o cenário. Mas algumas situações encontram outro jeito de voltar.</h1>
-          <p class="hero-sub">O Portal Caminho da Consciência ajuda você a perceber o que se repete, organizar o que hoje parece confuso e encontrar próximos passos mais conscientes, com estrutura, vida real e sem promessas fáceis.</p>
+          <p class="hero-sub">Quando uma situação volta em outra forma, olhar apenas para o resultado pode não ser suficiente. O Portal ajuda você a observar o que acontece antes, organizar o que se repete e encontrar um próximo passo possível — com vida real, estrutura e sem promessas fáceis.</p>
           <div class="cta-row">
             <a class="btn btn-primary js-route-cta" data-offer-id="mapping_pattern_interrupted_v1" data-offer-name="Mapeamento Padrão Interrompido" data-local="hero" href="/mapeamento/">Quero entender meu caso</a>
-            <a class="btn btn-secondary" href="#comece">Ver os caminhos</a>
+            <a class="btn btn-secondary" href="#comece">Ver por onde começar</a>
           </div>
-          <p class="trust">Você não precisa conhecer o Método nem aderir a uma crença específica para começar.</p>
+          <p class="trust">Você não precisa aderir a uma crença específica para começar.</p>
         </div>
         <figure class="hero-media">
-          <img src="/assets/images/cena-trabalho-16x9.webp" alt="Mesa de trabalho com caderno e celular, sugerindo uma cena cotidiana de observação." width="1600" height="900" />
+          <img class="js-parallax" src="/assets/images/home/hero-cenario-v2.webp" alt="Pessoa em uma pausa real entre ambientes, como quem percebe algo antes de seguir." width="1600" height="900" />
         </figure>
       </div>
     </section>
@@ -629,25 +851,23 @@
     <section class="section" id="recognition">
       <div class="container">
         <div class="reading">
-          <p class="eyebrow">Você percebe isso acontecendo?</p>
           <h2>Talvez você não chame isso de padrão. Talvez só perceba que está acontecendo de novo.</h2>
           <p class="muted">Às vezes o cenário muda, mas uma sensação conhecida volta a aparecer.</p>
         </div>
-        <div class="card-grid card-grid--four">
-          <article class="card scene-card"><strong>O dinheiro entra. Você respira. Pouco depois já está fazendo conta outra vez.</strong></article>
-          <article class="card scene-card"><strong>Você muda de trabalho, mas algum tempo depois volta a sentir que está assumindo mais do que consegue sustentar.</strong></article>
-          <article class="card scene-card"><strong>A pessoa muda, a história muda, mas você percebe outra vez aquela conversa que ficou para depois.</strong></article>
-          <article class="card scene-card"><strong>Você começa com vontade. Um dia deixa para amanhã. Quando percebe, já perdeu contato com aquilo de novo.</strong></article>
+        <div class="scene-list">
+          <article class="scene-line">O dinheiro entra. Você respira. Pouco depois já está fazendo conta outra vez.</article>
+          <article class="scene-line">Você muda de trabalho, mas algum tempo depois volta a sentir que está assumindo mais do que consegue sustentar.</article>
+          <article class="scene-line">A pessoa muda, a história muda, mas você percebe outra vez aquela conversa que ficou para depois.</article>
+          <article class="scene-line">Você começa com vontade. Um dia deixa para amanhã. Quando percebe, já perdeu contato com aquilo de novo.</article>
         </div>
       </div>
     </section>
 
     <section class="section section--deep" id="new_perception">
       <div class="container reading">
-        <p class="eyebrow">O que acontece antes</p>
         <h2>O problema aparece no final.</h2>
         <p>O aperto. A discussão. A sobrecarga. O abandono. A decisão que não foi tomada.</p>
-        <p class="muted">Mas muitas situações não chegam ali de uma vez. Antes da parte visível, podem existir pequenos movimentos, respostas, silêncios, adiamentos ou escolhas que normalmente passam despercebidos.</p>
+        <p class="muted">Mas muitas situações não chegam ali de uma vez. Antes da parte visível, podem existir pequenos movimentos, respostas, silêncios, adiamentos ou escolhas que passam despercebidos.</p>
         <p class="muted">Perceber mais cedo não garante que tudo mude. Mas pode aumentar a margem de escolha.</p>
         <div class="quote-band">O cenário muda. O padrão volta. A consciência pode mudar o caminho.</div>
       </div>
@@ -656,15 +876,9 @@
     <section class="section section--light" id="portal">
       <div class="container">
         <div class="reading">
-          <h2>Um caminho para observar melhor a própria vida sem transformar tudo em uma explicação pronta.</h2>
-          <p>O Portal Caminho da Consciência é um ecossistema de desenvolvimento pessoal e espiritual aplicado à vida real.</p>
-          <p>Aqui, o ponto de partida não é dizer a você qual é o seu problema. É ajudar a organizar situações concretas, perceber repetições quando elas realmente existem, experimentar próximos passos e reavaliar o que aconteceu depois.</p>
-          <p>Espiritualidade pode fazer parte desse caminho para quem desejar. Ela não é uma condição para entrar.</p>
-        </div>
-        <div class="card-grid card-grid--three">
-          <article class="card principle"><strong>Vida real antes do conceito</strong></article>
-          <article class="card principle"><strong>Percepção antes da explicação</strong></article>
-          <article class="card principle"><strong>Próximo passo antes da promessa</strong></article>
+          <h2>Um caminho para observar melhor a própria vida.</h2>
+          <p>O Portal Caminho da Consciência parte da vida concreta. Em vez de dizer qual é o seu problema, ajuda a reconstruir situações, perceber repetições quando elas realmente existem e experimentar próximos passos com mais consciência.</p>
+          <p>A espiritualidade pode fazer parte desse caminho para quem desejar. Não é uma condição para entrar.</p>
         </div>
       </div>
     </section>
@@ -672,41 +886,32 @@
     <section class="section" id="metodo">
       <div class="container">
         <div class="reading">
-          <p class="eyebrow">Método Padrão Interrompido</p>
-          <h2>O Método Padrão Interrompido organiza uma pergunta simples: como eu chego até aqui?</h2>
-          <p class="muted">O Método Padrão Interrompido é a estrutura autoral do Portal para organizar situações que se repetem, reconstruir o que aconteceu antes da consequência visível, comparar episódios e localizar um ponto que possa ser observado e trabalhado na vida real.</p>
-          <p class="muted">Ele não procura decretar uma causa secreta sobre você. Não é diagnóstico. É uma forma estruturada de observar, experimentar e reavaliar.</p>
+          <h2>E se, em vez de olhar só para o resultado, você voltasse alguns passos?</h2>
+          <p class="muted">Às vezes, o que mais ajuda não é procurar uma explicação maior, mas reconstruir o que aconteceu antes: o que você fez, adiou, aceitou, evitou ou repetiu.</p>
+          <p class="muted">Quando colocamos episódios lado a lado, alguns movimentos ficam mais visíveis. Essa é a lógica que organizamos no Método Padrão Interrompido.</p>
         </div>
-        <ol class="steps" aria-label="Sete movimentos do Método Padrão Interrompido">
-          <li class="step"><span class="step-num">1</span><div><h3>Perceber</h3><p>Reconhecer que algo dói, pesa, trava ou se repete.</p></div></li>
-          <li class="step"><span class="step-num">2</span><div><h3>Reconstruir</h3><p>Voltar alguns passos antes da consequência visível.</p></div></li>
-          <li class="step"><span class="step-num">3</span><div><h3>Comparar</h3><p>Olhar episódios diferentes sem forçar uma explicação única.</p></div></li>
-          <li class="step"><span class="step-num">4</span><div><h3>Localizar</h3><p>Encontrar um ponto suficientemente observável.</p></div></li>
-          <li class="step"><span class="step-num">5</span><div><h3>Escolher</h3><p>Definir um primeiro movimento possível.</p></div></li>
-          <li class="step"><span class="step-num">6</span><div><h3>Experimentar</h3><p>Testar algo diferente na vida real.</p></div></li>
-          <li class="step"><span class="step-num">7</span><div><h3>Reavaliar</h3><p>Observar o que mudou, o que não mudou e o que pede continuidade.</p></div></li>
-        </ol>
+        <div class="method-flow" aria-label="Explicação simplificada da lógica do Método">
+          <article class="method-move"><h3>Voltar alguns passos</h3><p class="muted">Reconstruir o que aconteceu antes.</p></article>
+          <article class="method-move"><h3>Comparar episódios</h3><p class="muted">Perceber semelhanças sem forçar uma causa única.</p></article>
+          <article class="method-move"><h3>Encontrar onde ainda existe margem</h3><p class="muted">Observar um ponto em que outra resposta pode ser experimentada.</p></article>
+        </div>
       </div>
     </section>
 
     <section class="section section--parchment" id="ponto">
-      <div class="container image-row">
+      <div class="container">
         <div class="reading">
-          <p class="eyebrow">Ponto de Interrupção</p>
           <h2>Você não precisa esperar chegar ao final para começar a observar.</h2>
-          <p>Ponto de Interrupção é o primeiro ponto suficientemente observável e trabalhável de uma sequência em que uma resposta, escolha, ação ou prática diferente pode ser experimentada.</p>
-          <div class="sequence" aria-label="Exemplo de sequência recorrente">
-            <div class="sequence-item">Pedido chega</div>
-            <div class="sequence-item is-focus">“deixa comigo”</div>
-            <div class="sequence-item">agenda lota</div>
-            <div class="sequence-item">cansaço aumenta</div>
-            <div class="sequence-item">sobrecarga aparece</div>
+          <div class="flow-demo" aria-label="Exemplo de sequência recorrente">
+            <div class="flow-step">Pedido chega</div>
+            <div class="flow-step is-focus">“deixa comigo”</div>
+            <div class="flow-step">agenda lota</div>
+            <div class="flow-step">cansaço aumenta</div>
+            <div class="flow-step">sobrecarga aparece</div>
           </div>
-          <p class="muted">O ponto não é uma causa definitiva. É um lugar possível para prestar atenção e testar alguma coisa diferente.</p>
+          <p class="muted">Nesse exemplo, o “deixa comigo” aparece antes da sobrecarga. Isso não significa que ele seja a causa. É apenas um ponto observável em que talvez exista margem para testar outra resposta.</p>
+          <p class="muted">No Método Padrão Interrompido, chamamos esse tipo de ponto de possível Ponto de Interrupção.</p>
         </div>
-        <figure class="soft-image">
-          <img src="/assets/images/cena-sobrecarga-16x9.webp" alt="Pessoa em uma situação cotidiana de sobrecarga, com objetos de trabalho sobre a mesa." width="1200" height="675" loading="lazy" />
-        </figure>
       </div>
     </section>
 
@@ -714,14 +919,15 @@
       <div class="container">
         <div class="reading">
           <h2>Entrar no Portal é entrar em um caminho.</h2>
+          <p class="muted">Você pode começar pela percepção de uma situação concreta e aprofundar apenas quando fizer sentido.</p>
         </div>
-        <ol class="steps" aria-label="Jornada do Portal">
-          <li class="step"><span class="step-num">1</span><div><h3>Descobrir</h3><p>Algo dói, pesa, trava ou se repete.</p></div></li>
-          <li class="step"><span class="step-num">2</span><div><h3>Reconhecer</h3><p>“Isso acontece comigo.”</p></div></li>
-          <li class="step"><span class="step-num">3</span><div><h3>Mapear</h3><p>“Quero entender como isso acontece no meu caso.”</p></div></li>
-          <li class="step"><span class="step-num">4</span><div><h3>Trabalhar</h3><p>Escolher uma ação, experiência ou ferramenta adequada.</p></div></li>
-          <li class="step"><span class="step-num">5</span><div><h3>Integrar</h3><p>Observar, praticar e reavaliar na vida real.</p></div></li>
-          <li class="step"><span class="step-num">6</span><div><h3>Aprofundar</h3><p>Continuar o desenvolvimento pessoal e espiritual quando fizer sentido.</p></div></li>
+        <ol class="journey-path" aria-label="Jornada do Portal">
+          <li class="journey-step"><h3>Descobrir</h3><p>Algo dói, pesa, trava ou se repete.</p></li>
+          <li class="journey-step"><h3>Reconhecer</h3><p>Você percebe que não é a primeira vez.</p></li>
+          <li class="journey-step"><h3>Mapear</h3><p>Organizar como isso acontece no seu caso.</p></li>
+          <li class="journey-step"><h3>Trabalhar</h3><p>Escolher uma ação, experiência ou ferramenta.</p></li>
+          <li class="journey-step"><h3>Integrar</h3><p>Observar, praticar e reavaliar na vida real.</p></li>
+          <li class="journey-step"><h3>Aprofundar</h3><p>Continuar quando houver sentido.</p></li>
         </ol>
       </div>
     </section>
@@ -729,23 +935,25 @@
     <section class="section section--light" id="comece">
       <div class="container">
         <div class="reading">
-          <p class="eyebrow">Como você quer começar?</p>
-          <h2>Você não precisa começar pelo mesmo lugar que outra pessoa.</h2>
-          <p>Escolha o caminho que mais combina com o que você precisa hoje.</p>
+          <h2>Como você quer começar?</h2>
+          <p>Você não precisa começar pelo mesmo lugar que outra pessoa. Escolha o próximo passo que mais combina com o que você precisa agora.</p>
         </div>
-        <div class="card-grid">
-          <article class="card route-card">
-            <p class="route-kicker">Quero entender como isso acontece no meu caso</p>
-            <h3>Mapeamento Padrão Interrompido</h3>
-            <p>Uma experiência individual para organizar episódios, reconstruir o que acontece antes e localizar o primeiro ponto que merece atenção.</p>
-            <p class="route-price">R$197</p>
-            <a class="btn btn-primary js-route-cta" data-offer-id="mapping_pattern_interrupted_v1" data-offer-name="Mapeamento Padrão Interrompido" data-local="route_card_mapping" href="/mapeamento/">Conhecer o Mapeamento</a>
+        <div class="router-grid">
+          <article class="card route-card is-building" data-offer-id="minute_before_free_v1" data-offer-status="building">
+            <span class="status-badge">Gratuito</span>
+            <h3>O Minuto Anterior</h3>
+            <p>Um exercício curto para voltar ao momento anterior à consequência e observar o que costuma passar despercebido.</p>
+            <p class="route-state">Em preparação.</p>
           </article>
-          <article class="card route-card" id="sintonize">
-            <p class="route-kicker">Estou procurando Mesa Radiônica / Sintonize Prosperidade</p>
-            <h3>Entenda como ela se encaixa</h3>
-            <p>A Mesa Radiônica Sintonize Prosperidade pode ocupar um lugar delimitado dentro de determinadas experiências quando houver adequação, escopo, consentimento e operação compatíveis.</p>
-            <a class="btn btn-secondary" href="#sintonize-info">Entender o papel da Sintonize</a>
+          <article class="card route-card is-building" data-offer-id="before_the_squeeze_v1" data-offer-status="building">
+            <h3>ANTES DO APERTO</h3>
+            <p>Uma experiência guiada para quem percebe que o dinheiro começa a apertar antes de entender como chegou ali.</p>
+            <p class="route-state">Em preparação.</p>
+          </article>
+          <article class="card route-card" data-offer-id="mapping_pattern_interrupted_v1" data-offer-status="live">
+            <h3>Mapeamento Padrão Interrompido</h3>
+            <p>Uma experiência individual para reconstruir episódios, comparar repetições e organizar um próximo ponto de atenção.</p>
+            <a class="btn btn-primary js-route-cta" data-offer-id="mapping_pattern_interrupted_v1" data-offer-name="Mapeamento Padrão Interrompido" data-local="route_card_mapping" href="/mapeamento/">Conhecer o Mapeamento</a>
           </article>
         </div>
       </div>
@@ -753,65 +961,51 @@
 
     <section class="section" id="sintonize-info">
       <div class="container reading">
-        <p class="eyebrow">Sintonize Prosperidade</p>
-        <h2>Uma metodologia específica pode fazer parte do caminho. Ela não é o Portal inteiro.</h2>
-        <p class="muted">A Mesa Radiônica Sintonize Prosperidade é uma metodologia específica de terceiros. Dentro do Portal, ela pode ser utilizada em determinadas experiências quando houver adequação, escopo, consentimento e operação compatíveis.</p>
-        <p class="muted">Ela não é o Método Padrão Interrompido, não é uma “Mesa do Portal” e não é uma explicação automática para qualquer dificuldade.</p>
+        <h2>E onde entra a Sintonize Prosperidade?</h2>
+        <p class="muted">A Mesa Radiônica Sintonize Prosperidade é uma metodologia específica de terceiros que pode ser utilizada em determinadas experiências quando houver adequação, escopo e consentimento.</p>
+        <p class="muted">Ela não define o Portal nem substitui o Método Padrão Interrompido. É uma ferramenta possível dentro do caminho, quando fizer sentido.</p>
       </div>
     </section>
 
-    <section class="section section--parchment" id="marcos">
-      <div class="container image-row">
+    <section class="section section--parchment marcos-section" id="marcos">
+      <div class="container">
         <div class="reading">
-          <p class="eyebrow">Sobre Marcos</p>
           <h2>Quem está por trás do Portal</h2>
           <p>Eu sou Marcos Vinicius, fundador do Portal Caminho da Consciência e criador do Método Padrão Interrompido.</p>
+          <figure class="marcos-portrait">
+            <img src="/assets/images/marcos-vinicius.webp" alt="Marcos Vinicius, fundador do Portal Caminho da Consciência." width="800" height="800" loading="eager" />
+          </figure>
           <p>Este projeto nasceu de uma pergunta que fui levando para a própria vida: por que mudar o cenário nem sempre muda a forma como algumas situações voltam a aparecer?</p>
-          <p>Meu trabalho aqui não é ocupar o lugar de quem tem uma resposta pronta sobre a vida das pessoas. É organizar perguntas, experiências e caminhos que ajudem a perceber melhor o que acontece, experimentar próximos passos e continuar aprendendo com o que muda, ou não muda, depois.</p>
+          <p>Eu não parto do lugar de quem tem todas as respostas. O Portal nasce dessa investigação, do estudo e da tentativa de organizar caminhos que possam ser úteis sem transformar hipótese em certeza.</p>
         </div>
-        <figure class="soft-image marcos-img">
-          <img src="/assets/images/marcos-vinicius.webp" alt="Marcos Vinicius, fundador do Portal Caminho da Consciência." width="800" height="1000" loading="lazy" />
-        </figure>
       </div>
     </section>
 
     <section class="section section--light" id="limites">
       <div class="container reading">
-        <p class="eyebrow">O que não fazemos</p>
         <h2>Profundidade sem promessa fácil.</h2>
-        <p>O Portal trabalha desenvolvimento pessoal, auto-observação, práticas e espiritualidade com responsabilidade.</p>
-        <p>Não oferecemos diagnóstico médico ou psicológico. Não prometemos cura, enriquecimento, reconciliação, emprego, prosperidade garantida ou uma explicação espiritual definitiva para o que acontece na sua vida.</p>
-        <p>Quando uma situação pede ação concreta ou ajuda especializada, o caminho responsável inclui reconhecer isso.</p>
+        <p>O Portal trabalha percepção, práticas e desenvolvimento pessoal e espiritual. Não oferece diagnóstico médico ou psicológico e não substitui atendimento profissional quando necessário. Também não promete cura, enriquecimento ou resultados garantidos.</p>
       </div>
     </section>
 
     <section class="section" id="faq">
       <div class="container reading">
-        <p class="eyebrow">Perguntas frequentes</p>
         <h2>Algumas respostas para começar com clareza.</h2>
         <details>
           <summary>Preciso acreditar em espiritualidade para participar?</summary>
-          <p>Não. O Portal é aberto a pessoas com diferentes formas de compreender espiritualidade, inclusive a quem quer começar apenas pela observação da vida concreta.</p>
+          <p>Não. A espiritualidade pode fazer parte do caminho para quem desejar, mas não é condição para começar.</p>
         </details>
         <details>
           <summary>Isso é terapia?</summary>
-          <p>Não. O Portal não se apresenta como clínica nem como terapia. As experiências trabalham auto-observação, desenvolvimento pessoal, práticas e caminhos de aprofundamento dentro do escopo descrito em cada oferta.</p>
+          <p>Não. O Portal trabalha desenvolvimento pessoal, auto-observação e práticas complementares. Não oferece diagnóstico médico ou psicológico e não substitui acompanhamento profissional.</p>
         </details>
         <details>
-          <summary>O que é o Método Padrão Interrompido?</summary>
-          <p>É a estrutura autoral do Portal para organizar situações recorrentes, reconstruir o que acontece antes da consequência visível, comparar episódios, localizar um ponto de atenção, experimentar e reavaliar.</p>
+          <summary>O Mapeamento é uma Mesa Radiônica?</summary>
+          <p>Não. O Mapeamento Padrão Interrompido é uma experiência autoral de organização do caso. A Sintonize Prosperidade é uma metodologia específica de terceiros que pode ser utilizada em determinadas experiências, quando pertinente.</p>
         </details>
         <details>
-          <summary>O que é o Mapeamento Padrão Interrompido?</summary>
-          <p>É uma experiência individual para organizar o seu caso, sem funcionar como diagnóstico ou sentença sobre você.</p>
-        </details>
-        <details>
-          <summary>O Portal é uma Mesa Radiônica?</summary>
-          <p>Não. O Portal é um ecossistema maior. A Sintonize Prosperidade é uma metodologia específica de terceiros que pode ocupar um lugar delimitado dentro de determinadas experiências quando pertinente.</p>
-        </details>
-        <details>
-          <summary>Por onde eu começo?</summary>
-          <p>Use a seção “Como você quer começar?” para escolher a rota disponível que mais combina com o que precisa hoje. Se já quer organizar seu caso de forma individual, conheça o Mapeamento.</p>
+          <summary>Qual é a diferença entre O Minuto Anterior, ANTES DO APERTO e o Mapeamento?</summary>
+          <p>O Minuto Anterior é uma entrada gratuita e breve. ANTES DO APERTO trabalha uma dor específica ligada ao dinheiro. O Mapeamento é individual e organiza como a repetição aparece no seu caso.</p>
         </details>
       </div>
     </section>
@@ -822,7 +1016,7 @@
         <p class="muted">Escolha um próximo passo que faça sentido para o momento em que você está.</p>
         <div class="cta-row">
           <a class="btn btn-primary js-route-cta" data-offer-id="mapping_pattern_interrupted_v1" data-offer-name="Mapeamento Padrão Interrompido" data-local="final_cta" href="/mapeamento/">Quero entender meu caso</a>
-          <a class="btn btn-secondary" href="#comece">Ver os caminhos</a>
+          <a class="btn btn-secondary" href="#comece">Ver por onde começar</a>
         </div>
       </div>
     </section>
@@ -832,7 +1026,7 @@
     <div class="container footer-grid">
       <div>
         <p class="footer-logo">Portal Caminho da Consciência</p>
-        <p class="copy">Da vida concreta à consciência. Da consciência a um novo jeito de caminhar.</p>
+        <p class="copy">Perceber o que se repete. Caminhar com mais consciência.</p>
       </div>
       <nav class="footer-links" aria-label="Links do rodapé">
         <a href="/">Início</a>
@@ -857,7 +1051,7 @@
   <script>
     (function() {
       var PAGE_ID = 'portal_home_v1';
-      var VARIANT_ID = 'institutional_base_v1';
+      var VARIANT_ID = 'institutional_experiencia_viva_v1_1';
       var routes = {
         mapping: {
           id: 'mapping_pattern_interrupted_v1',
@@ -880,7 +1074,10 @@
       };
 
       document.getElementById('ano').textContent = new Date().getFullYear();
+      document.documentElement.classList.add('motion-ready');
 
+      var header = document.querySelector('.site-header');
+      var progressBar = document.getElementById('read-progress-bar');
       var nav = document.getElementById('site-nav');
       var toggle = document.querySelector('.nav-toggle');
       if (toggle && nav) {
@@ -978,10 +1175,16 @@
 
       var scrollFired = {};
       var thresholds = [25, 50, 75, 90];
-      window.addEventListener('scroll', function() {
+      function handleScroll() {
         var max = document.documentElement.scrollHeight - window.innerHeight;
+        var pct = max > 0 ? Math.round((window.scrollY / max) * 100) : 0;
+        if (header) {
+          header.classList.toggle('is-compact', window.scrollY > 80);
+        }
+        if (progressBar) {
+          progressBar.style.transform = 'scaleX(' + Math.max(0, Math.min(1, pct / 100)) + ')';
+        }
         if (max <= 0) return;
-        var pct = Math.round((window.scrollY / max) * 100);
         thresholds.forEach(function(t) {
           if (!scrollFired[t] && pct >= t) {
             scrollFired[t] = true;
@@ -993,7 +1196,67 @@
             });
           }
         });
-      }, { passive: true });
+      }
+      window.addEventListener('scroll', handleScroll, { passive: true });
+      handleScroll();
+
+      var reduceMotion = window.matchMedia && window.matchMedia('(prefers-reduced-motion: reduce)').matches;
+      var revealSelectors = [
+        'main h2',
+        '.hero-copy',
+        '.hero-media',
+        '.scene-line',
+        '.quote-band',
+        '.method-move',
+        '.flow-step',
+        '.journey-step',
+        '.route-card',
+        'details',
+        '.marcos-portrait'
+      ];
+      var revealItems = Array.prototype.slice.call(document.querySelectorAll(revealSelectors.join(',')));
+      revealItems.forEach(function(el, index) {
+        el.classList.add(el.matches('.hero-media, .marcos-portrait') ? 'reveal-image' : 'reveal-item');
+        el.style.transitionDelay = Math.min(350, (index % 5) * 70) + 'ms';
+      });
+      if (reduceMotion) {
+        revealItems.forEach(function(el) { el.classList.add('is-visible'); el.style.transitionDelay = '0ms'; });
+      } else if ('IntersectionObserver' in window) {
+        var revealObserver = new IntersectionObserver(function(entries) {
+          entries.forEach(function(entry) {
+            if (entry.isIntersecting) {
+              entry.target.classList.add('is-visible');
+              revealObserver.unobserve(entry.target);
+            }
+          });
+        }, { threshold: 0.14, rootMargin: '0px 0px -8% 0px' });
+        revealItems.forEach(function(el) { revealObserver.observe(el); });
+      } else {
+        revealItems.forEach(function(el) { el.classList.add('is-visible'); });
+      }
+
+      var parallaxItems = Array.prototype.slice.call(document.querySelectorAll('.js-parallax'));
+      var parallaxActive = false;
+      var parallaxFrame = null;
+      if (!reduceMotion && parallaxItems.length) {
+        var parallaxObserver = new IntersectionObserver(function(entries) {
+          parallaxActive = entries.some(function(entry) { return entry.isIntersecting; });
+        }, { threshold: 0 });
+        parallaxItems.forEach(function(el) { parallaxObserver.observe(el); });
+        window.addEventListener('scroll', function() {
+          if (!parallaxActive || parallaxFrame) return;
+          parallaxFrame = requestAnimationFrame(function() {
+            parallaxFrame = null;
+            parallaxItems.forEach(function(el) {
+              var rect = el.getBoundingClientRect();
+              if (rect.bottom < 0 || rect.top > window.innerHeight) return;
+              var distance = ((rect.top + rect.height / 2) - window.innerHeight / 2) / window.innerHeight;
+              var maxMove = window.innerWidth < 768 ? 6 : 12;
+              el.style.transform = 'translateY(' + (distance * maxMove).toFixed(2) + 'px) scale(1.015)';
+            });
+          });
+        }, { passive: true });
+      }
 
       document.addEventListener('click', function(e) {
         var el = e.target.closest('.js-route-cta');
