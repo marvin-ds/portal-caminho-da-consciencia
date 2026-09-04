@@ -1,12 +1,12 @@
 # PORTAL CAMINHO DA CONSCIÊNCIA
-## Documento 03.B — Mapa Editorial Mestre — Big Ideas, Cenas, Soluções, Oferta, Ganchos e Arquitetura de Aquisição — V1.0
+## Documento 03.B — Mapa Editorial Mestre — Big Ideas, Cenas, Soluções, Oferta, Ganchos e Arquitetura de Aquisição — V1.2
 
 **STATUS CANÔNICO:** mapa editorial mestre complementar aos Documentos 03 e 03.A  
-**DATA:** 01/09/2026  
-**DOCUMENTO-PAI:** Documento 03 — Sistema Editorial, Aquisição e Experimentação — V2.0  
+**DATA:** 03/09/2026  
+**DOCUMENTO-PAI:** Documento 03 — Sistema Editorial, Aquisição e Experimentação — V2.2  
 **REGRA EDITORIAL COMPLEMENTAR OBRIGATÓRIA:** Documento 03.A — Regra Complementar de Arquitetura de Conteúdo — Percepção Antes da Explicação — V1.0  
-**DOCUMENTOS SUPERIORES:** Documento 00 — Matriz de Governança Conceitual, Propriedade Intelectual e Posicionamento — V1.0; Documento 01 — Fundacional, Estratégico e Plano Executivo Canônico — V4.0; Documento 02 — Jornada de Transformação, Produtos, Serviços e Protocolos — V2.0  
-**DOCUMENTO RELACIONADO:** Documento 04 — Identidade, Voz, Espiritualidade e Diretrizes de Comunicação — V2.0  
+**DOCUMENTOS SUPERIORES:** Documento 00 — Matriz de Governança Conceitual, Propriedade Intelectual e Posicionamento — V1.2; Documento 01 — Fundacional, Estratégico e Plano Executivo Canônico — V4.2; Documento 02 — Jornada de Transformação, Produtos, Serviços e Protocolos — V2.2  
+**DOCUMENTO RELACIONADO:** Documento 04 — Identidade, Voz, Espiritualidade e Diretrizes de Comunicação — V2.2  
 **FUNÇÃO CANÔNICA:** transformar as diretrizes editoriais do Portal em um sistema operacional de Big Ideas, cenas, movimentos anteriores, soluções, oferta, ganchos, prioridades, teses e arquitetura de aquisição, preservando percepção antes da explicação e evitando fórmulas rígidas de roteiro.
 
 > **PERCEPÇÃO ANTES DA EXPLICAÇÃO. DESCOBERTA ANTES DA METODOLOGIA.**
@@ -76,6 +76,18 @@ O teste é simples: ao final do conteúdo, a pessoa deve ter **ganhado alguma ca
 - Espiritualidade entra como dimensão possível de prática, sentido e observação, nunca como causalidade factual ou substituto de ação concreta.
 - O Mapeamento organiza o caso; não revela uma verdade escondida sobre a pessoa.
 - O CTA nasce do desejo de compreender melhor o próprio caso, não do medo de ter um “problema oculto”.
+
+---
+
+## 0.6. Regra comercial V1.2 — Porta 2 como prioridade
+
+Para aquisição com objetivo de venda, a peça deve poder seguir esta progressão:
+
+> **DOR VISCERAL → CONSEQUÊNCIA CONCRETA → CONSEQUÊNCIA EMOCIONAL → SENSAÇÃO DE TRAVAMENTO/BLOQUEIO → REPETIÇÃO → “DE NOVO” → PRÓXIMO PASSO.**
+
+A Porta 2 recebe a urgência. A Porta 3 transforma urgência em percepção de repetição. A Porta 4 organiza. A Porta 1 captura demanda técnica já existente.
+
+A palavra “bloqueio” descreve percepção ou busca; não autoriza diagnóstico.
 
 ---
 
@@ -307,6 +319,25 @@ O teste é simples: ao final do conteúdo, a pessoa deve ter **ganhado alguma ca
 
 ---
 
+# PARTE 1.A — 8 BIG IDEAS COMERCIAIS PRIORITÁRIAS
+
+1. **O dinheiro não precisa acabar para o medo começar.**
+2. **A sobrecarga começa antes de a agenda ficar impossível.**
+3. **O “depois eu faço” cobra juros em tempo, culpa e oportunidades.**
+4. **A conversa não expressada continua ocupando espaço mesmo depois do “tudo bem”.**
+5. **Você pode chamar de bloqueio; primeiro vamos localizar onde a situação começa a travar.**
+6. **Resolver a urgência não responde por que ela volta.**
+7. **A intervenção certa depende do ponto certo.**
+8. **De novo eu estou aqui — mas desta vez posso perceber antes.**
+
+## Fórmula de agitação responsável
+
+Não exagerar medo. Aumentar clareza de consequência:
+
+> **o que acontece → o que isso custa → como isso faz a pessoa se sentir → como reaparece → por que vale agir agora.**
+
+---
+
 # PARTE 2 — 40 SITUAÇÕES, CENAS E MOVIMENTOS ANTERIORES
 
 A tabela abaixo é um **banco de observação**, não um banco de diagnósticos. “Movimento anterior” significa apenas algo observável que pode merecer comparação.
@@ -371,237 +402,130 @@ A tabela abaixo é um **banco de observação**, não um banco de diagnósticos.
 
 ---
 
-# PARTE 3 — SOLUÇÕES LEGÍTIMAS POR NÍVEL
+# PARTE 2.A — MATRIZ COMERCIAL: DOR → BLOQUEIO PERCEBIDO → REPETIÇÃO
 
-## Nível 1 — Conteúdo gratuito
+| Dor primária | Consequência concreta | Consequência emocional | Linguagem percebida | Ponte para repetição | Próximo passo possível |
+|---|---|---|---|---|---|
+| dinheiro entra e some | saldo aperta cedo, contas viram urgência | medo, vergonha, insegurança | “minha vida financeira está travada” | “você organiza e depois volta a apertar?” | Produto Dinheiro / Mapeamento |
+| não consegue guardar | segurança fica sempre para depois | frustração, medo de faltar | “não consigo destravar” | “todo mês termina do mesmo jeito?” | Produto Dinheiro |
+| diz sim para tudo | agenda enche e prioridades próprias somem | cansaço, ressentimento, culpa | “não consigo colocar limite” | “quando percebe, já assumiu tudo de novo?” | Mapeamento / Ciclo |
+| procrastina | prazo aproxima e decisão continua parada | culpa, ansiedade cotidiana, perda de confiança | “eu travo” | “o ‘depois’ aparece em quantas áreas?” | Produto Procrastinação |
+| começa e não termina | projetos ficam incompletos | frustração, vergonha de se expor | “parece que algo me bloqueia” | “o que acontece quando chega a hora de avançar?” | Produto Procrastinação / Mapeamento |
+| não fala o que sente | mensagens apagadas, conflitos acumulados | solidão, ressentimento, insegurança | “eu não consigo me expressar” | “é outra pessoa, mas o silêncio volta?” | Mapeamento / Ciclo |
+| vida profissional não anda | oportunidades adiadas, mesmo papel nos empregos | desânimo, sensação de pouco valor | “meu caminho profissional está bloqueado” | “o cenário muda e o lugar assumido volta?” | Mapeamento / Sintonize quando pertinente |
+| sente necessidade de limpeza | busca alívio ou reorganização espiritual | peso, desconexão, urgência | “preciso limpar/desbloquear” | “isso aparece junto de qual situação concreta?” | Triagem Porta 2 / Sintonize |
 
-**Problema:** a pessoa percebe a consequência, mas ainda não observa com clareza os movimentos anteriores.  
-**Percepção necessária:** nenhuma.  
-**Mecanismo:** cena, reconhecimento, pergunta e comparação.  
-**Resultado realista:** notar algo que antes passava despercebido.  
-**Formatos:** Shorts, vídeos longos, posts, exercícios breves.  
-**Não pretende:** resolver o caso, diagnosticar ou descobrir causa.
-
-Soluções editoriais:
-- Pergunta do minuto anterior — reconstruir o que aconteceu pouco antes.
-- “Onde mais isso aparece?” — comparar contextos sem afirmar causalidade.
-- Linha da situação — situação → resposta → consequência, sem transformar a sequência em explicação total.
-- Revisão de uma repetição — colocar episódio atual e anterior lado a lado.
-- Pergunta pós-crise — “o que começou antes de ficar impossível ignorar?”
-- Diário de cenas — registrar situação, frase interna, resposta e consequência.
-
-## Nível 2 — Mapeamento Padrão Interrompido — Individual
-
-**Problema:** episódios parecem soltos ou a pessoa percebe repetição, mas não consegue organizar o próprio caso.  
-**Mecanismo:** coleta estruturada → organização → comparação → possíveis conexões → prioridade → devolutiva individual.  
-**Resultado realista:** mais clareza sobre o que merece observação primeiro.  
-**Formato atual:** assíncrono, relatório autoral + áudio personalizado + reflexão/prática/ação inicial.  
-**Não pretende:** cura, diagnóstico, previsão, causa secreta ou garantia de mudança.
-
-## Nível 3 — Prática
-
-Após existir clareza suficiente, entram práticas pequenas e observáveis, por exemplo:
-- diário de sinais;
-- pausa antes de responder a pedidos, mensagens ou decisões;
-- revisão semanal de cenas familiares;
-- experimento de resposta nova em situação delimitada;
-- oração, meditação ou reflexão, quando desejadas, vinculadas a uma questão concreta e sem substituir ação necessária.
-
-## Nível 4 — Jornada futura
-
-Necessidade: sustentar observação, prática e reavaliação por semanas. Estrutura possível:
-
-> **Observar → Escolher → Praticar → Reavaliar → Integrar**
-
-A duração de 21–28 dias, se adotada futuramente, representa duração da experiência, nunca promessa de resultado.
-
-## Nível 5 — Aprofundamento
-
-Continuidade para quem deseja desenvolvimento pessoal e espiritual depois de trabalhar temas iniciais. Pode incluir novos domínios da vida, valores, sentido, prática, comunidade e acompanhamento, sempre preservando autonomia.
-
-### Ordem operacional recomendada
-
-> **Agora:** conteúdo + Mapeamento.  
-> **Depois de validação:** prática + reavaliação.  
-> **Depois de repetibilidade comprovada:** Jornada.  
-> **Só depois:** recorrência/comunidade/aprofundamento estruturado.
+> **A coluna “linguagem percebida” nunca equivale a um diagnóstico do Portal.**
 
 ---
 
-# PARTE 4 — OFERTA RECONSTRUÍDA
+# PARTE 3 — SOLUÇÕES LEGÍTIMAS POR NÍVEL
 
-## 4.1. Nome
+## Nível 0 — Entrada gratuita
 
-> **Mapeamento Padrão Interrompido — Individual**
+**O Minuto Anterior**: exercício simples para a pessoa reconstruir uma cena e perceber um primeiro movimento.
 
-Descritor recomendado:
+## Nível 1 — Produto autoguiado por dor
 
-> **Uma experiência individual para organizar o que parece estar se repetindo na sua vida e o que merece atenção primeiro.**
+Produto específico, aproximadamente R$97 como hipótese inicial.
 
-O nome deve ser mantido porque conecta ao método proprietário, comunica organização e reforça a individualização da entrega.
+Prioridade:
 
-## 4.2. 10 headlines
+1. Dinheiro;
+2. Procrastinação.
 
-1. **Uma coisa é perceber que isso está acontecendo de novo. Outra é organizar o que se repete no seu caso.**
-2. **Você já reconheceu a consequência. Agora vale olhar o que acontece antes dela.**
-3. **Algumas situações parecem desconectadas até você colocá-las lado a lado.**
-4. **Se você está cansada de resolver episódios e depois encontrar outra versão do mesmo incômodo, comece pelo mapa.**
-5. **Você não precisa de mais uma explicação genérica. Precisa enxergar melhor a sua própria sequência.**
-6. **O que volta na sua vida — e o que acontece antes de você perceber?**
-7. **Antes da próxima tentativa, organize o que aconteceu nas anteriores.**
-8. **Talvez o problema que mais incomoda não seja o único lugar onde essa forma de responder aparece.**
-9. **Mapeie antes de tentar mudar tudo de uma vez.**
-10. **Conteúdo pode fazer você se reconhecer. O Mapeamento existe para organizar o que é específico do seu caso.**
+Objetivo: entregar uma pequena transformação sem exigir atendimento individual.
 
-## 4.3. 10 subheadlines
+## Nível 2 — Mapeamento Padrão Interrompido 2.0
 
-1. Uma experiência individual para organizar situações, recorrências percebidas, possíveis conexões e o que merece sua atenção primeiro.
-2. Você traz o que está vivendo. Marcos organiza as informações, compara episódios e devolve um mapa claro — sem diagnóstico, sentença ou causa secreta.
-3. Relatório autoral + áudio personalizado para quem quer sair da sensação de “de novo isso” e olhar o próprio caso com mais clareza.
-4. O objetivo não é dizer quem você é. É ajudá-la a enxergar melhor o que vem acontecendo.
-5. Um processo estruturado para quem já percebe alguma repetição, mas ainda não consegue organizar onde ela começa, onde aparece e o que priorizar.
-6. Sem previsão. Sem diagnóstico. Sem promessa de resultado. Com contexto, perguntas, organização e um primeiro próximo passo.
-7. Para quem pensa: “eu sei que isso acontece; só não consigo entender direito como”.
-8. Transforme episódios soltos em um mapa de observação que ajude a decidir o que merece atenção primeiro.
-9. Antes de procurar mais uma ferramenta, organize o que suas tentativas anteriores já mostram.
-10. Uma devolutiva humana e individual, não um relatório automático sobre quem você é.
+Organiza episódios, Sequência Recorrente Observável, possível Ponto de Interrupção e rota recomendada.
 
-## 4.4. Promessa central
+## Nível 3 — Intervenção
 
-> **Ajudar você a organizar o que está vivendo, reconhecer recorrências que já percebe — ou começa a perceber — e identificar o que merece sua atenção primeiro.**
+Pode incluir:
 
-A promessa não é “interromper o padrão”. É oferecer **estrutura para enxergar melhor o próprio caso**.
+- ação concreta;
+- prática autoral;
+- Sintonize, quando pertinente;
+- outro recurso legítimo.
 
-## 4.5. Mecanismo
+## Nível 4 — Ciclo Padrão Interrompido — 21 dias
 
-1. a pessoa relata situações concretas;
-2. os episódios são organizados;
-3. são comparadas cenas, respostas e movimentos anteriores;
-4. são observadas recorrências percebidas;
-5. são levantadas possíveis conexões entre contextos;
-6. são priorizados pontos de observação;
-7. Marcos devolve relatório + áudio individual;
-8. é indicado um primeiro próximo passo possível quando fizer sentido.
+Aplicação guiada do método completo:
 
-## 4.6. Problema central
+> **mapear → localizar → trabalhar → praticar → reavaliar.**
 
-> **A pessoa percebe a consequência, mas tem dificuldade para organizar os episódios, os movimentos anteriores e as possíveis conexões do próprio caso.**
+## Nível 5 — Premium / aprofundamento
 
-## 4.7. Lacuna comercial
+Para casos em que continuidade individual faz sentido.
 
-> **Conteúdo pode fazer você se reconhecer. O Mapeamento existe para organizar aquilo que, na sua história, está espalhado entre situações diferentes.**
+### Regra
 
-## 4.8. Entregáveis
-- formulário estruturado;
-- leitura individual das informações;
-- organização das situações mais relevantes;
-- recorrências percebidas;
-- movimentos anteriores que merecem observação;
-- possíveis conexões entre áreas, sem forçar causa comum;
-- prioridades;
-- relatório autoral em PDF;
-- áudio personalizado de aproximadamente 8–15 minutos;
-- uma pergunta, reflexão, prática ou ação inicial;
-- indicação de próximo passo apenas quando houver motivo.
+> **Não vender intervenção antes de existir clareza suficiente sobre o que será trabalhado, exceto quando a própria busca técnica permite uma oferta específica e os limites estão claros.**
 
-## 4.9. Benefícios
-- sair da sensação difusa de “de novo isso”;
-- colocar episódios lado a lado;
-- perceber detalhes antes ignorados;
-- separar consequência de sequência;
-- organizar prioridades;
-- reduzir a tentação de tentar muitas ferramentas ao mesmo tempo;
-- chegar à próxima decisão com perguntas melhores;
-- ter um registro individual que possa servir de referência futura.
+---
 
-## 4.10. O que a pessoa leva
+# PARTE 4 — ARQUITETURA DE OFERTAS E COPY
 
-> **Um mapa do que merece ser observado — não uma sentença sobre quem ela é.**
+## 4.1. Oferta pública vigente
 
-## 4.11. O que isso não é
-- diagnóstico;
-- terapia;
-- avaliação clínica;
-- previsão;
-- leitura de destino;
-- descoberta de causa secreta;
-- promessa de cura, riqueza, reconciliação ou resultado;
-- relatório automático de IA;
-- reprodução da Sintonize Prosperidade.
+> **Mapeamento Padrão Interrompido — Individual — R$197**
 
-## 4.12. Redutores de risco
-- escopo explicado antes da contratação;
-- exemplo claro do tipo de entrega;
-- limites explícitos;
-- prazo de entrega informado;
-- devolutiva humana identificável;
-- política de cancelamento/reembolso coerente com a legislação e com o fluxo operacional;
-- nenhuma obrigação de comprar continuidade;
-- possibilidade legítima de a análise não sustentar uma conexão relevante entre situações.
+A página atual continua válida até sua revisão para Mapeamento 2.0.
 
-## 4.13. Objeções centrais
+## 4.2. Mapeamento 2.0 — nova promessa
 
-**“E se eu não tiver um padrão?”**  
-O Mapeamento não precisa provar que existe um. Ele organiza o que você relata e pode concluir que não há evidência suficiente para tratar situações como uma repetição relevante.
+> **Organizar o que se repete, reconstruir como a situação chega até ali e localizar o primeiro ponto que merece atenção.**
 
-**“Isso vai me dizer por que tudo acontece?”**  
-Não. O objetivo é organizar observações e possíveis conexões, não determinar uma causa absoluta.
+Entregas centrais:
 
-**“É terapia?”**  
-Não. O escopo é desenvolvimento pessoal e organização de observações, sem diagnóstico ou tratamento clínico.
+- situação;
+- episódios;
+- sequência;
+- movimento anterior;
+- Ponto de Interrupção;
+- prioridade;
+- plano de observação;
+- relatório e áudio.
 
-**“É Mesa Radiônica?”**  
-Não como componente obrigatório da oferta vigente.
+## 4.3. Produto Dinheiro — resposta direta
 
-**“Vou precisar contar minha vida inteira?”**  
-Não. Apenas o que for necessário ao escopo do tema trazido.
+Ângulo de entrada:
 
-**“É feito por IA?”**  
-IA pode apoiar processos internos quando apropriado, mas a entrega comercial é individual, conduzida e devolvida por Marcos.
+> **“O dinheiro entra e some. Você organiza, melhora um pouco e depois aperta de novo.”**
 
-**“E depois?”**  
-Pode existir apenas uma reflexão, prática ou próximo passo. Não há obrigação de continuidade.
+A copy deve vender uma experiência curta de observação e reorganização de respostas, não “prosperidade garantida”.
 
-## 4.14. Diferenciais
-- consequência + movimento anterior;
-- comparação entre contextos;
-- visão multiarea sem forçar causa única;
-- método autoral estruturado;
-- devolutiva humana;
-- relatório + áudio;
-- autonomia como objetivo;
-- sem diagnóstico, guruísmo ou promessa esotérica;
-- reavaliação como princípio da jornada.
+## 4.4. Produto Procrastinação — segundo teste
 
-## 4.15. Justificativa de R$197
+Ângulo:
 
-> **R$197 não é o preço de um PDF. É o valor de uma leitura individual estruturada, do tempo humano de organização do seu caso e de uma devolutiva feita para você.**
+> **“Você sabe o que precisa fazer. Só continua deixando para depois — até o ‘depois’ começar a custar prazo, oportunidade e confiança em você.”**
 
-## 4.16. CTA
+Não produzir antes de aprender com Dinheiro.
 
-Principal: **Quero mapear o meu caso**
+## 4.5. Sintonize Individual
 
-Alternativas:
-- **Quero entender melhor o que se repete**
-- **Quero organizar o que estou vivendo**
-- **Conhecer o Mapeamento**
-- **Falar sobre o meu Mapeamento**
+Copy começa pela dor e pela intenção legítima de intervenção. A metodologia é atribuída corretamente e não promete cura, dinheiro ou resultado garantido.
 
-## 4.17. Garantia, cancelamento e escassez
+## 4.6. Ciclo PI — 21 dias
 
-Não usar garantia de resultado. A política deve acompanhar a legislação aplicável e o fluxo real da entrega individual. Escassez só pode existir quando refletir capacidade verdadeira de Marcos para analisar e devolver os casos com qualidade.
+Promessa de referência:
 
-## 4.18. Próximo passo
+> **Escolher um ponto real da sequência, trabalhar esse ponto, praticar e reavaliar o que realmente muda.**
 
-Nenhum upsell obrigatório. Após o Mapeamento pode existir prática individual, reavaliação, conteúdo ou futura experiência — somente quando fizer sentido para o caso e para a fase operacional do Portal.
+## 4.7. CTA comercial
 
-## Versão-síntese da oferta
+A comunicação não precisa esconder que vende.
 
-> **Mapeamento Padrão Interrompido — Individual — R$197**  
-> Você percebe os episódios. Talvez ainda não consiga organizar o que acontece antes deles, o que se repete e o que merece atenção primeiro.  
-> O Mapeamento é uma experiência individual e humana para colocar situações lado a lado, observar recorrências percebidas e possíveis conexões e devolver um mapa claro do que vale olhar primeiro.  
-> Você recebe relatório autoral + áudio personalizado + uma reflexão, prática ou ação inicial quando fizer sentido.  
-> Não é diagnóstico, previsão, terapia, causa secreta ou promessa de resultado. É clareza organizada sobre aquilo que você trouxe.
+Exemplos:
+
+- “Quero começar por esta dor.”
+- “Quero organizar meu caso.”
+- “Quero entender qual próximo passo faz sentido.”
+- “Conhecer a experiência.”
+
+A suavidade continua no tom, não na falta de clareza.
 
 ---
 
@@ -735,6 +659,31 @@ Os ganchos abaixo foram reconstruídos para variar porta narrativa. Não devem s
 98. **Você fecha o banco quando aperta e apaga a mensagem quando a conversa incomoda. Não estou dizendo que é a mesma causa. Só perguntando: o movimento te parece familiar?**
 99. **Dinheiro, trabalho e relacionamento parecem assuntos diferentes. A palavra “depois” aparece nos três?**
 100. **O problema que mais incomoda pode não ser o único lugar onde essa forma de responder aparece.**
+
+---
+
+# PARTE 5.A — 20 GANCHOS DE PORTA 2 / DOR VISCERAL
+
+1. **Você recebeu há poucos dias e já está calculando como chegar ao próximo pagamento.**
+2. **O dinheiro não acabou ainda. A tranquilidade já.**
+3. **Você organiza a vida financeira e, alguns meses depois, está fazendo a mesma conta de novo.**
+4. **O “depois eu vejo” parece pequeno até virar boleto, prazo e medo.**
+5. **Você sabe o que precisa fazer. O problema é quantas vezes já disse “amanhã”.**
+6. **A tarefa não ficou difícil hoje. Ela só está parada tempo suficiente para começar a pesar.**
+7. **Você disse “sim” antes de olhar a agenda. Agora não sabe onde encaixar o que era seu.**
+8. **Você queria dizer não. O “claro” saiu primeiro.**
+9. **Você escreveu tudo. Apagou. A conversa terminou sem a parte mais importante.**
+10. **Outra relação, a mesma sensação de ter que engolir o que precisa dizer.**
+11. **Parece que sua vida profissional está travada. Em que ponto você costuma recuar quando uma oportunidade aparece?**
+12. **Você chama de bloqueio. Eu começaria procurando a primeira coisa que acontece antes de você parar.**
+13. **Você resolve a urgência. O que te assusta é ela voltar com outra roupa.**
+14. **O problema não é só estar cansada. É perceber que já está dizendo “eu faço” de novo.**
+15. **Quando você finalmente olha, o problema já está grande. O que aconteceu antes?**
+16. **Não é falta de vontade. É o custo acumulado de mais um “depois”.**
+17. **Você não precisa descobrir uma causa secreta para começar a localizar onde trava.**
+18. **Antes de procurar mais uma técnica, vale saber qual ponto você realmente quer trabalhar.**
+19. **“De novo eu estou aqui” não precisa ser sentença. Pode ser informação.**
+20. **A pergunta não é só “como desbloquear?”. É “o que exatamente está travando — e onde isso começa?”.**
 
 ---
 
@@ -1060,6 +1009,78 @@ O Mapeamento entra porque a pessoa começou a perceber alguma recorrência e des
 
 ---
 
+# PARTE 12 — MAPA DE AQUISIÇÃO ORIENTADO POR PALAVRAS-CHAVE
+
+## 12.1. Fonte operacional
+
+Este Mapa Editorial passa a trabalhar em conjunto com o **Mapa Mestre de Palavras-Chave — 03/09/2026**, com 315 termos únicos consolidados.
+
+A planilha é a fonte operacional para volume, CPC, competição, prioridade e classificação por canal. Este documento continua sendo a fonte de **Big Ideas, cenas, tensão, microtransformação e ponte para oferta**.
+
+> **Keyword escolhe a porta. A cena faz a pessoa entrar.**
+
+## 12.2. Quatro portas
+
+| Porta | Exemplo de linguagem | Função editorial | Próximo passo natural |
+|---|---|---|---|
+| Técnica | mesa radiônica, Sintonize, radiestesia | educar e capturar intenção pronta | Sintonize quando publicada |
+| Intervenção | limpeza energética, bloqueio, desbloqueio, harmonização | traduzir solução percebida em escopo responsável | Sintonize / conteúdo de esclarecimento |
+| Dor e repetição | vida travada, ciclos, sempre acontece a mesma coisa | reconhecimento e categoria | conteúdo + Mapeamento |
+| Compreensão | mapeamento de padrões, como descobrir meus padrões | intenção individual | Mapeamento Padrão Interrompido |
+
+## 12.3. Regra para conteúdo orgânico
+
+A existência de keyword **não revoga Percepção Antes da Explicação**.
+
+Mesmo quando o termo principal é “bloqueio financeiro”, um Short pode começar pela cena:
+
+> “O salário aumentou. Por que o imprevisto ainda produz a mesma reação?”
+
+A keyword pode entrar no título, descrição, pergunta ou contexto, sem precisar virar rótulo na primeira frase.
+
+## 12.4. Regra para copy e página
+
+Em páginas de alta intenção, a ordem pode ser mais explícita:
+
+> **intenção da busca → promessa legítima → escopo → como funciona → limites → prova/clareza → CTA.**
+
+A página de `mesa radiônica online` não deve parecer página genérica de “padrões”.
+
+A página de `vida travada` não deve abrir prometendo limpeza energética sem que a pessoa tenha procurado isso.
+
+## 12.5. Territórios de oportunidade adicionados
+
+Além das cenas já existentes, priorizar testes editoriais para:
+
+- vida travada / vida estagnada;
+- minha vida não sai do lugar;
+- sempre acontece a mesma coisa;
+- ciclos repetitivos;
+- abrir caminhos;
+- bloqueio de prosperidade;
+- merecimento;
+- limpeza energética pessoal;
+- bloqueio energético;
+- bloqueio financeiro;
+- Sintonize Prosperidade / Mesa Radiônica, em conteúdo de intenção.
+
+Esses territórios não substituem as 20 Big Ideas. Eles fornecem **linguagem de demanda** para escolher onde aplicá-las.
+
+## 12.6. Negativas editoriais/comerciais
+
+Não converter em oferta Sintonize:
+
+- limpeza de casa/ambiente;
+- comércio/empresa;
+- casal;
+- animais/plantas;
+- mesa quântica como sinônimo;
+- cura, diagnóstico ou garantia material.
+
+Podem ser tratados em FAQ educativo quando houver valor, mas não como promessa de serviço inexistente.
+
+---
+
 # AUDITORIA ANTI-FÓRMULA
 
 - Nem todo conteúdo começa pela dor. Pode começar por objeto, gesto, silêncio, frase, contradição, repetição, consequência ou memória.
@@ -1157,4 +1178,4 @@ Novas cenas, objeções, frases internas, ganchos e famílias vencedoras podem s
 
 ---
 
-**Fim do Documento 03.B — Mapa Editorial Mestre — V1.0.**
+**Fim do Documento 03.B — Mapa Editorial Mestre — V1.2.**

@@ -1,12 +1,13 @@
 # PORTAL CAMINHO DA CONSCIÊNCIA
 ## Documento 00 — Matriz de Governança Conceitual, Propriedade Intelectual e Posicionamento
-**Documento Canônico Transversal V1.0 — 01/09/2026**
+**Documento Canônico Transversal V1.2 — 03/09/2026**
 
 > “O que é nosso. O que vem de uma formação específica. O que pode ser público. O que precisa permanecer interno. E de que lugar Marcos fala.”
 
 **STATUS:** canônico transversal / chave de leitura dos Documentos 01–06  
 **FUNÇÃO:** impedir mistura de marca, método próprio, técnica de terceiros, propriedade intelectual, linguagem pública e operação interna  
-**MOMENTO:** criado após análise dos materiais primários da formação Mesa Radiônica Sintonize Prosperidade e dos materiais de Anjos Cabalísticos
+**MOMENTO:** revisão estratégica após consolidação do Método Padrão Interrompido 2.0, do conceito de Ponto de Interrupção, da nova Jornada do Portal, da prioridade comercial da Porta 2 e da nova esteira de ofertas escaláveis
+**SUBSTITUI:** Documento 00 — V1.1
 
 ---
 
@@ -149,34 +150,61 @@ Frase filosófica vigente:
 
 # 4. O que é o Método Padrão Interrompido
 
-## 4.1. Definição
+## 4.1. Definição canônica — Método Padrão Interrompido 2.0
 
-O **Padrão Interrompido** é o método próprio que organiza a investigação e a jornada de transformação do Portal.
+O **Método Padrão Interrompido** é o método autoral do Portal para **organizar situações que se repetem, reconstruir como a pessoa chega até a consequência visível, localizar o ponto mais cedo e trabalhável da sequência e experimentar uma resposta diferente com reavaliação posterior**.
 
-Ele não precisa explicar metafisicamente por que tudo acontece. Sua função é organizar:
+Ele não procura provar uma “causa raiz” secreta. Não promete descobrir uma verdade escondida sobre a pessoa. Sua unidade prática de observação é a **Sequência Recorrente Observável**.
 
-1. **Reconhecimento** — perceber a cena ou o sinal concreto;
-2. **Repetição** — observar se já aconteceu de outras formas;
-3. **Conexão** — verificar se atravessa mais de uma área da vida;
-4. **Mapeamento** — organizar o que merece atenção;
-5. **Intervenção** — escolher uma prática ou técnica adequada;
-6. **Prática** — incorporar um novo movimento por um período;
-7. **Reavaliação** — observar mudanças, permanências e novas informações;
-8. **Integração e aprofundamento** — transformar percepção em caminho e, se desejado, ampliar consciência e espiritualidade.
+> **Sequência Recorrente Observável = uma ordem de fatos, respostas, escolhas, silêncios, adiamentos, excessos, recuos ou hábitos que aparece de forma suficientemente parecida em dois ou mais episódios e merece comparação.**
 
-## 4.2. O que pertence ao método
+O mecanismo central do método é o **Ponto de Interrupção**:
+
+> **o primeiro ponto suficientemente observável e trabalhável da sequência em que uma resposta, escolha, ação ou prática diferente pode ser experimentada.**
+
+“Ponto de Interrupção” não significa causa única, origem definitiva nem garantia de mudança. É um **ponto de trabalho e teste**.
+
+## 4.2. Os 7 movimentos do método
+
+1. **PERCEBER** — separar o que aconteceu, o que foi sentido e o que foi interpretado;
+2. **RECONSTRUIR** — voltar aos minutos, horas ou decisões anteriores à consequência;
+3. **COMPARAR** — colocar episódios lado a lado e procurar semelhanças observáveis;
+4. **LOCALIZAR** — identificar o possível Ponto de Interrupção;
+5. **ESCOLHER** — decidir o próximo passo mais coerente: ação, prática, intervenção, encaminhamento ou apenas observação;
+6. **EXPERIMENTAR** — testar uma resposta ou intervenção delimitada na vida real;
+7. **REAVALIAR** — verificar o que mudou, o que não mudou, o que foi aprendido e qual é o próximo ciclo.
+
+A **integração** não é um oitavo movimento obrigatório. Ela é o resultado acumulado de ciclos em que a pessoa percebe, experimenta e reavalia com maior consciência.
+
+## 4.3. O que pertence ao método
 
 Pertencem ao Padrão Interrompido:
 
-- sua lógica de reconhecimento de padrões recorrentes;
-- seu território verbal;
-- sua arquitetura de jornada;
-- seus instrumentos autorais de reflexão e mapeamento;
-- o Radar e outros produtos digitais originais;
-- protocolos criados de forma independente pelo Portal;
-- formatos próprios de devolutiva, integração e reavaliação.
+- a lógica dos 7 movimentos;
+- a definição de Sequência Recorrente Observável;
+- o conceito autoral de Ponto de Interrupção;
+- instrumentos próprios de reconstrução, comparação, priorização e reavaliação;
+- o Mapeamento Padrão Interrompido e suas futuras versões;
+- o Ciclo Padrão Interrompido e outros produtos autorais que utilizem o método;
+- protocolos autorais desenvolvidos de forma independente e validados com casos reais;
+- formatos próprios de devolutiva, prática e reavaliação.
 
-## 4.3. O que NÃO pertence ao método
+## 4.4. Territórios autorais provisórios
+
+O método pode utilizar, em fase de validação, seis **Territórios da Vida Real**:
+
+1. Recursos e Segurança;
+2. Trabalho e Realização;
+3. Relações e Limites;
+4. Rotina e Prioridades;
+5. Escolhas e Respostas Internas;
+6. Sentido e Espiritualidade.
+
+Essa arquitetura é **autoral e provisória**. Deve ser testada em aproximadamente 20–30 Mapeamentos antes de ser tratada como mapa definitivo do método.
+
+Família, história e aprendizados anteriores podem funcionar como lentes transversais, sem criar artificialmente uma “prosperidade” adicional.
+
+## 4.5. O que NÃO pertence ao método
 
 Não pertencem ao Padrão Interrompido:
 
@@ -189,7 +217,7 @@ Não pertencem ao Padrão Interrompido:
 - materiais e tabelas proprietários do curso;
 - o sistema dos 72 Anjos Cabalísticos.
 
-O método pode **integrar uma experiência em que esses elementos sejam utilizados legitimamente**, mas não pode reivindicá-los como criação própria.
+A Sintonize pode ser **uma ferramenta de intervenção escolhida depois da organização do caso**, mas nunca deve ser rebatizada como parte autoral do método.
 
 ---
 
@@ -382,7 +410,7 @@ O material completo dos 72 é referência de estudo e aprofundamento, mas **não
 - existência das 8 Prosperidades, com atribuição correta;
 - explicações gerais sobre radiestesia/radiônica como prática espiritual/complementar;
 - conteúdo educacional sobre espiritualidade, símbolos e Anjos Cabalísticos com contexto e cautela;
-- relato da formação/certificação de Marcos após conclusão formal;
+- relato da formação concluída por Marcos, usando apenas a nomenclatura sustentada pelo certificado/documento vigente;
 - o que a pessoa recebe em uma experiência;
 - práticas próprias do Portal;
 - limites claros do serviço.
@@ -455,24 +483,17 @@ Complementos possíveis, conforme contexto e comprovação:
 - pesquisador de padrões recorrentes e desenvolvimento pessoal e espiritual;
 - facilitador de experiências de autoconhecimento e desenvolvimento;
 - praticante de técnicas complementares compatíveis com sua formação real;
-- formado/certificado em Mesa Radiônica Sintonize Prosperidade, **após a conclusão formal**.
+- formado/certificado em Mesa Radiônica Sintonize Prosperidade **somente se essa for a nomenclatura exata sustentada pelo certificado/documento vigente**.
 
-## 11.3. Status durante os próximos dias
+## 11.3. Estado após a conclusão informada da formação
 
-Até a certificação ser concluída:
+Em 03/09/2026, Marcos informou a **conclusão da formação Mesa Radiônica Sintonize Prosperidade**.
 
-**Pode dizer:**
+Essa conclusão autoriza a revisão estratégica do ecossistema e a preparação de experiências compatíveis com a metodologia, mas a **titulação pública exata** continua subordinada ao registro, no Documento 06 — CURRENT, do certificado/documento efetivamente recebido e da nomenclatura que ele sustenta.
 
-> “Estou concluindo oficialmente a formação Mesa Radiônica Sintonize Prosperidade.”
+Até esse registro documental, não ampliar a formulação pública para títulos não comprovados.
 
-**Não dizer:**
-
-- “sou certificado”;
-- “sou formado”;
-- “sou terapeuta Sintonize”;
-- “sou facilitador autorizado da formação”, salvo documento específico que comprove isso.
-
-## 11.4. Após a certificação
+## 11.4. Após o registro da certificação/titulação no CURRENT
 
 Usar a nomenclatura exata sustentada pelo certificado.
 
@@ -531,6 +552,43 @@ Sempre que a Sintonize for apresentada de forma relevante:
 
 ---
 
+## 12.4. Palavras-chave não redefinem escopo nem autoria
+
+Palavras pesquisadas no Google ou YouTube representam **a linguagem da demanda**, não uma autorização para ampliar o que o Portal ou a Sintonize efetivamente oferecem.
+
+Regra:
+
+> **Keyword é linguagem de busca; não é diagnóstico, claim, licença, escopo de atendimento nem prova de eficácia.**
+
+Assim:
+
+- termos como `limpeza energética`, `bloqueio energético`, `bloqueio financeiro`, `desbloqueio energético`, `abrir caminhos` e `prosperidade financeira` podem ser utilizados como linguagem de aquisição quando houver serviço real, contexto e claims responsáveis;
+- termos como `limpeza energética em casa`, `limpeza de ambiente`, `para comércio`, `para empresa`, `para casal`, `animais` e equivalentes não ampliam o escopo da Sintonize e devem ser excluídos de campanhas de serviço quando incompatíveis com a metodologia;
+- `mesa quântica` e `limpeza energética quântica` não são sinônimos de Sintonize;
+- termos de cura, tratamento, diagnóstico, garantia de prosperidade ou resultado material permanecem proibidos como claims.
+
+O **Mapa Mestre de Palavras-Chave — 03/09/2026** é fonte operacional de demanda. Este Documento 00 continua sendo a fonte superior para decidir o que pode ou não ser prometido, vendido ou atribuído.
+
+---
+
+# 12.A. Linguagem de dor visceral, travamento e bloqueio percebido
+
+A comunicação comercial pode ser explícita sobre a dor que a pessoa sente na vida real:
+
+- “o dinheiro acaba antes do mês”;
+- “eu sempre digo sim e depois me arrependo”;
+- “eu começo e não termino”;
+- “eu apago o que queria dizer e mando ‘tudo bem’”;
+- “eu organizo, melhora um pouco e depois trava de novo”.
+
+A ordem preferencial de aquisição comercial é:
+
+> **dor concreta → consequência → emoção → sensação de travamento → repetição → busca por próximo passo.**
+
+A palavra **bloqueio** é permitida como linguagem de percepção, de busca ou de uma metodologia que a utilize legitimamente. Ela não deve ser convertida em afirmação objetiva do tipo “você tem um bloqueio energético que causa seu problema”.
+
+---
+
 # 13. Conteúdo editorial: como usar a formação sem copiar a formação
 
 ## 13.1. A formação pode inspirar temas
@@ -571,54 +629,62 @@ Exemplo:
 
 Isso mantém a originalidade editorial e o TOM MARCOS.
 
-## 13.3. Próximos sete dias
+## 13.3. Estado editorial após a conclusão da formação
 
-Enquanto a certificação é finalizada, a prioridade editorial é:
+A conclusão informada da formação elimina a necessidade de tratar a Sintonize apenas como estudo em andamento. Ainda assim, ela **não deve substituir a vida concreta como principal porta de aquisição**.
 
-- alcance;
-- crescimento do canal;
-- cenas de reconhecimento;
-- padrões recorrentes;
-- consciência;
-- espiritualidade aplicada;
-- perguntas que fazem a pessoa olhar para a própria vida.
+O sistema editorial passa a trabalhar quatro portas legítimas:
 
-Não é necessário colocar a Sintonize no centro dos conteúdos de aquisição agora.
+1. **técnica conhecida** — Mesa Radiônica / Sintonize / radiestesia;
+2. **intervenção percebida** — limpeza, harmonização, bloqueio, desbloqueio;
+3. **dor e repetição** — vida travada, ciclos, padrões, “sempre acontece a mesma coisa”;
+4. **busca de compreensão individual** — mapeamento, entender o próprio caso.
+
+A porta escolhida deve conduzir à oferta real correspondente, sem misturar Mapeamento e Sintonize apenas para aproveitar volume de busca.
 
 ---
 
 # 14. Experiência do cliente: arquitetura recomendada
 
-Após certificação e validação operacional, uma experiência poderá combinar:
+A arquitetura evolutiva passa a separar com clareza **método, porta comercial, produto e ferramenta de intervenção**.
 
-### Camada A — Método Padrão Interrompido
+## 14.1. Regra de entrada comercial
 
-- demanda;
-- reconhecimento do padrão;
-- conexão entre áreas;
-- preparação do foco;
-- integração e reavaliação.
+Para lead frio, a comunicação pode começar explicitamente por:
 
-### Camada B — Sintonize Prosperidade
+> **DOR PRIMÁRIA E VISCERAL → CONSEQUÊNCIAS CONCRETAS E EMOCIONAIS → SENSAÇÃO DE TRAVAMENTO/BLOQUEIO → AGITAÇÃO RESPONSÁVEL DA DOR → REPETIÇÃO → “DE NOVO EU ESTOU AQUI” → “POR QUE ISSO SEMPRE VOLTA?” → PRÓXIMO PASSO.**
 
-- aplicação da Mesa segundo a formação;
-- ferramentas e protocolos legítimos;
-- registro daquilo que foi trabalhado;
-- elementos espirituais próprios da modalidade.
+“Bloqueio”, “travado”, “pesando” e termos semelhantes podem representar **a percepção do público**. Não autorizam diagnóstico energético, causalidade espiritual factual ou promessa de desbloqueio garantido.
 
-### Camada C — Devolutiva própria do Portal
+## 14.2. Quatro portas
 
-- relatório original;
-- áudio pessoal de Marcos;
-- síntese clara;
-- prática de integração;
-- ação concreta;
-- pontos para observação;
-- reavaliação futura.
+- **Porta 1 — Técnica:** pessoa procura Mesa, Sintonize ou radiestesia;
+- **Porta 2 — Intervenção:** pessoa procura limpeza, bloqueio, desbloqueio, harmonização, abrir caminhos ou sente que algo precisa ser destravado;
+- **Porta 3 — Dor/Repetição:** pessoa percebe ciclos, vida travada, “de novo eu estou aqui”;
+- **Porta 4 — Compreensão:** pessoa quer mapear, identificar padrões ou entender o próprio caso.
 
-### Regra
+A **Porta 2 é a prioridade comercial para conversão imediata**, sem eliminar produção orgânica para as demais portas.
 
-A Camada C não deve copiar o modelo oficial da formação. Deve ser uma entrega autoral do Portal que **registra, traduz e integra** a experiência, com atribuição correta quando mencionar ferramentas Sintonize.
+## 14.3. Gate de escolha
+
+A porta de entrada **não decide automaticamente a ferramenta**. Depois de uma triagem ou Mapeamento compatível, o próximo passo pode ser:
+
+- uma ação concreta;
+- um produto autoguiado por dor específica;
+- Mapeamento Padrão Interrompido;
+- aplicação individual da Sintonize Prosperidade, quando pertinente;
+- Ciclo Padrão Interrompido;
+- outro acompanhamento do Portal;
+- encaminhamento externo;
+- ou nenhum produto adicional.
+
+## 14.4. Relação Padrão Interrompido × Sintonize
+
+> **O Padrão Interrompido organiza, localiza, escolhe e reavalia.**
+>
+> **A Sintonize pode trabalhar um ponto, quando houver pertinência, consentimento e escopo legítimo.**
+
+A Sintonize não é componente obrigatório do Mapeamento e não deve ser embutida silenciosamente na oferta autoral.
 
 ---
 
@@ -748,29 +814,56 @@ Se qualquer resposta estiver obscura, a ideia não está pronta para publicaçã
 
 **FECHADO — 10.** Marcos não adotará “terapeuta” como identidade profissional pública do Portal.
 
-**FECHADO — 11.** Até a certificação formal, Marcos não será apresentado como certificado/formado na Sintonize.
+**FECHADO — 11.** Marcos informou a conclusão da formação Sintonize em 03/09/2026; a titulação pública exata depende do registro documental no CURRENT.
 
-**FECHADO — 12.** Após a certificação, usar exatamente a titulação sustentada pelo documento recebido.
+**FECHADO — 12.** Após o registro do certificado/documento, usar exatamente a titulação que ele sustenta.
 
 **FECHADO — 13.** A linguagem pública do Portal pode ser espiritual, mas não converterá cosmologia em comprovação científica ou clínica.
 
-**FECHADO — 14.** Nos próximos sete dias, a prioridade é conteúdo de alcance e crescimento do YouTube, sem depender da Sintonize como gancho principal.
+**FECHADO — 14.** O Portal trabalha quatro portas de aquisição: técnica, intervenção, dor/repetição e compreensão individual.
+
+**FECHADO — 15.** Palavra-chave é linguagem de demanda, não autorização para ampliar escopo, promessa ou propriedade intelectual.
+
+**FECHADO — 16.** Termos de ambiente, empresa, casal, animais ou outros formatos incompatíveis com a Sintonize não serão transformados em oferta apenas porque possuem volume de busca.
+
+**FECHADO — 17.** O Mapa Mestre de Palavras-Chave — 03/09/2026 é o artefato operacional de referência para Search, YouTube, SEO, copy e páginas, subordinado aos Documentos 00–04.
+
+**FECHADO — 18.** A Sintonize pode ser estruturada como intervenção individual e, futuramente, coletiva nos formatos permitidos pela formação, sem se tornar a identidade total do Portal.
+
+---
+
+## 18.A. Decisões estratégicas acrescentadas na V1.2
+
+- Método Padrão Interrompido passa a operar formalmente com 7 movimentos;
+- Sequência Recorrente Observável passa a ser unidade prática do método;
+- Ponto de Interrupção passa a ser o mecanismo autoral central;
+- os seis Territórios da Vida Real entram como mapa provisório a validar, não como estrutura definitiva;
+- Porta 2 torna-se prioridade comercial para resposta direta e conversão;
+- “bloqueio/travamento” pode ser usado como linguagem percebida, nunca como diagnóstico automático;
+- Sintonize permanece uma possível ferramenta de intervenção e não componente obrigatório do Mapeamento;
+- produtos autoguiados por dor específica podem integrar a esteira sem reproduzir conteúdo protegido da Sintonize;
+- o primeiro infoproduto de dor priorizado é Dinheiro; Procrastinação é o segundo teste;
+- o Ciclo Padrão Interrompido de 21 dias passa a ser a proposta prioritária de oferta principal a validar.
 
 ---
 
 # 19. Decisões que permanecem abertas
 
-**ABERTO — A.** Formulação pública final do título de Marcos após recebimento do certificado.
+**ABERTO — A.** Formulação pública final do título de Marcos após registro do certificado/documento e da nomenclatura exata no CURRENT.
 
-**ABERTO — B.** Nome comercial definitivo da primeira experiência que combinará Padrão Interrompido + Sintonize.
+**ABERTO — B.** Nome comercial e preço da primeira oferta Sintonize individual do Portal.
 
-**ABERTO — C.** Quais elementos da Sintonize serão mencionados na página de vendas após certificação e teste operacional.
+**ABERTO — C.** Se a Sintonize será oferecida como experiência separada, integrada ao Mapeamento ou em ambas as rotas com escopos distintos.
 
-**ABERTO — D.** Qual será o formato autoral definitivo do relatório e da reavaliação.
+**ABERTO — D.** Quais elementos da Sintonize serão mencionados em páginas de vendas sem reproduzir materiais proprietários.
 
-**ABERTO — E.** Em que momento os conteúdos especializados sobre radiestesia, Mesa e Anjos Cabalísticos entrarão no calendário editorial.
+**ABERTO — E.** Qual será o formato autoral definitivo do relatório e da reavaliação.
 
-**ABERTO — F.** Quais protocolos autorais do Padrão Interrompido serão criados e validados após os primeiros atendimentos.
+**ABERTO — F.** Momento de abertura de experiência Sintonize em grupo, após prática individual controlada e validação operacional.
+
+**ABERTO — G.** Quais protocolos autorais do Padrão Interrompido serão criados e validados após os primeiros atendimentos.
+
+**ABERTO — H.** Quais clusters de palavras-chave terão prioridade de investimento em Google Ads depois do gate comercial.
 
 ---
 
@@ -792,7 +885,7 @@ Deve consolidar o novo posicionamento público de Marcos e a matriz de linguagem
 Deve incorporar as regras de propriedade intelectual, repositórios e uso de IA sobre materiais restritos.
 
 ## Documento 06
-Deve registrar o estado real: acesso oficial, formação em conclusão, certificação ainda pendente até emissão formal, e próximos gates.
+Deve registrar o estado real: acesso oficial, conclusão da formação informada, titulação documental ainda a registrar, arquitetura de keywords e próximos gates.
 
 ---
 
@@ -821,13 +914,21 @@ Pontos de fundamentação especialmente relevantes na apostila:
 A regra que deve sobreviver a qualquer expansão futura é:
 
 > **O Portal Caminho da Consciência é a casa.**  
-> **O Padrão Interrompido é o método próprio que organiza o caminho.**  
-> **A Sintonize Prosperidade é uma modalidade específica que pode ser utilizada dentro desse caminho.**  
-> **Os materiais, protocolos e símbolos da Sintonize continuam pertencendo à sua fonte.**  
-> **Marcos fala como fundador, criador do método e facilitador/praticante dentro das competências que efetivamente possui — nunca como personagem maior do que sua formação real.**
+> **O Padrão Interrompido é o método autoral.**  
+> **A Sequência Recorrente Observável é a unidade prática.**  
+> **O Ponto de Interrupção é o mecanismo central de trabalho.**  
+> **O Mapeamento organiza o caso.**  
+> **A Sintonize Prosperidade é uma possível ferramenta de intervenção, pertencente à sua fonte.**  
+> **Produtos autoguiados podem resolver dores específicas e preparar próximos passos.**  
+> **O Ciclo Padrão Interrompido transforma o método completo em experiência guiada.**  
+> **A reavaliação protege o Portal de certeza cega e de dependência.**
+
+Na aquisição comercial:
+
+> **dor visceral primeiro; sensação de travamento depois; repetição como descoberta; método e ferramenta entram quando ajudam a pessoa a avançar.**
 
 E, para qualquer conteúdo, produto ou sistema:
 
-> **clareza de autoria, respeito à fonte, linguagem humana, espiritualidade responsável e ação concreta vêm antes de sofisticação comercial ou tecnológica.**
+> **clareza de autoria, respeito à fonte, linguagem humana, responsabilidade, ação concreta e reavaliação vêm antes de sofisticação comercial ou tecnológica.**
 
-**Fim do Documento 00 — Matriz de Governança Conceitual, Propriedade Intelectual e Posicionamento — V1.0.**
+**Fim do Documento 00 — Matriz de Governança Conceitual, Propriedade Intelectual e Posicionamento — V1.2.**

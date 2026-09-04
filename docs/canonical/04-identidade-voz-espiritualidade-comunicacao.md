@@ -1,12 +1,12 @@
 # PORTAL CAMINHO DA CONSCIÊNCIA
-## Documento 04 — Identidade, Voz, Espiritualidade e Diretrizes de Comunicação — V2.0
+## Documento 04 — Identidade, Voz, Espiritualidade e Diretrizes de Comunicação — V2.2
 
 **STATUS CANÔNICO:** identidade visual e verbal oficial, regras de voz, espiritualidade, claims, apresentação pública e uso responsável de metodologias de terceiros  
-**DATA:** 01/09/2026  
+**DATA:** 03/09/2026  
 **HORIZONTE:** próximos 90 dias + base de longo prazo  
-**DOCUMENTOS SUPERIORES:** Documento 00 — Matriz de Governança Conceitual, Propriedade Intelectual e Posicionamento — V1.0; Documento 01 — Fundacional, Estratégico e Plano Executivo Canônico — V4.0  
-**DOCUMENTOS RELACIONADOS:** Documento 02 — Jornada de Transformação, Produtos, Serviços e Protocolos — V2.0; Documento 03 — Sistema Editorial, Aquisição e Experimentação — V2.0; Documento 05 — Arquitetura Técnica, Dados e Ecossistema Digital; Documento 06 — CURRENT  
-**SUBSTITUI:** Documento 04 — Identidade, Voz, Espiritualidade e Diretrizes de Comunicação — V1.0
+**DOCUMENTOS SUPERIORES:** Documento 00 — Matriz de Governança Conceitual, Propriedade Intelectual e Posicionamento — V1.2; Documento 01 — Fundacional, Estratégico e Plano Executivo Canônico — V4.2  
+**DOCUMENTOS RELACIONADOS:** Documento 02 — Jornada de Transformação, Produtos, Serviços e Protocolos — V2.2; Documento 03 — Sistema Editorial, Aquisição e Experimentação — V2.2; Documento 05 — Arquitetura Técnica, Dados e Ecossistema Digital; Documento 06 — CURRENT  
+**SUBSTITUI:** Documento 04 — Identidade, Voz, Espiritualidade e Diretrizes de Comunicação — V2.1
 
 > **A marca deve parecer humana antes de parecer perfeita, profunda antes de parecer mística, responsável antes de parecer poderosa e reconhecível antes de parecer sofisticada.**
 
@@ -14,19 +14,19 @@
 
 # Mapa do documento
 
-Esta V2.0 atualiza integralmente a identidade e as regras de comunicação do **Portal Caminho da Consciência** após:
+Esta V2.2 preserva a identidade consolidada e incorpora as decisões de 03/09/2026, especialmente:
 
 - criação do Documento 00;
-- revisão do Documento 01 para V4.0;
-- revisão do Documento 02 para V2.0;
-- revisão do Documento 03 para V2.0;
+- revisão do Documento 01 para V4.2;
+- revisão do Documento 02 para V2.2;
+- revisão do Documento 03 para V2.2;
 - acesso oficial de Marcos à formação **Mesa Radiônica Sintonize Prosperidade**;
 - análise dos principais materiais oficiais da formação;
 - análise dos materiais de Anjos Cabalísticos relacionados à Sintonize;
 - separação conceitual entre **Portal Caminho da Consciência**, **Método Padrão Interrompido** e **Sintonize Prosperidade**;
 - correção da antiga associação das “8 Prosperidades” ao método próprio;
 - decisão de Marcos de **não utilizar “terapeuta” como identidade profissional pública**;
-- definição de que a certificação Sintonize está em fase final e não deve ser antecipada;
+- conclusão da formação Sintonize informada em 03/09/2026, mantendo a titulação pública exata subordinada ao documento/certificado registrado no CURRENT;
 - prioridade imediata de crescimento orgânico no YouTube;
 - migração pública da marca para `portalcaminhodaconsciencia.com.br`;
 - página do **Mapeamento Padrão Interrompido — Individual — R$197** publicada;
@@ -540,6 +540,28 @@ maior a necessidade de contexto.
 
 ---
 
+## 18.1. Matriz de palavras-chave comerciais
+
+| Palavra / família | Pode aparecer? | Regra |
+|---|---|---|
+| `bloqueio`, `travado`, `destravar` | sim | percepção/busca; não diagnóstico |
+| `limpeza energética` | sim | prática espiritual/complementar; explicar escopo |
+| `desbloqueio energético` | sim | termo de busca; evitar garantia |
+| `bloqueio financeiro` | sim | linguagem de busca/percepção; não afirmar causa |
+| `abrir caminhos` | sim, com contexto | linguagem espiritual; não prometer emprego/dinheiro |
+| `prosperidade` | sim | não prometer renda ou resultado |
+| `Mesa Radiônica` | sim | técnica de terceiros, atribuição correta |
+| `Sintonize Prosperidade` | sim | metodologia específica; atribuição e escopo |
+| `Ponto de Interrupção` | sim | conceito autoral do Método PI |
+| `Sequência Recorrente Observável` | sim | conceito autoral; linguagem mais educativa |
+| `cura`, `tratar`, `diagnóstico` | não como claim | restringido/proibido conforme contexto |
+
+### Regra de SEO/Search
+
+A linguagem que existe na busca pode ser capturada mesmo quando não é a formulação preferida da marca, desde que a página **corrija expectativa e não confirme uma afirmação indevida**.
+
+---
+
 # 19. Vocabulário que não deve ser claim central
 
 - diagnóstico energético;
@@ -558,6 +580,47 @@ maior a necessidade de contexto.
 - 100% de precisão;
 - resultado garantido;
 - “funciona para qualquer pessoa”.
+
+---
+
+# 19.A. Arquitetura verbal comercial V2.2
+
+A comunicação de resposta direta deve seguir, quando aderente:
+
+> **DOR PRIMÁRIA E VISCERAL → CONSEQUÊNCIA CONCRETA → CONSEQUÊNCIA EMOCIONAL → SENSAÇÃO DE TRAVAMENTO/BLOQUEIO → REPETIÇÃO → “DE NOVO” → PRÓXIMO PASSO.**
+
+### Dor visceral significa especificidade
+
+Preferir:
+
+> “Você recebeu há poucos dias e já está fazendo conta para durar.”
+
+em vez de:
+
+> “Você tem problemas de prosperidade.”
+
+Preferir:
+
+> “Você sabe o que precisa fazer e continua transferindo para amanhã.”
+
+em vez de:
+
+> “Você sofre de autossabotagem.”
+
+### Bloqueio como percepção
+
+Permitido:
+
+- “parece que alguma coisa trava”;
+- “você sente que não consegue sair do lugar”;
+- “muita gente procura isso como ‘bloqueio financeiro’”;
+- “na Sintonize, esta linguagem pode aparecer dentro do contexto da metodologia”.
+
+Evitar:
+
+- “você tem um bloqueio energético” como diagnóstico;
+- “esse bloqueio causa sua falta de dinheiro”;
+- “vou desbloquear sua prosperidade”.
 
 ---
 
@@ -631,24 +694,34 @@ Marca:
 
 # 23. Linguagem de reconhecimento
 
-A comunicação deve preferir:
+O primeiro objetivo é a pessoa pensar:
 
-- o momento;
-- o gesto;
-- a mensagem apagada;
-- o aplicativo aberto;
-- a agenda;
-- a desculpa;
-- o “depois”;
-- o silêncio;
-- o padrão que volta.
+> **“Isso sou eu.”**
 
-Antes de:
+Em comercial, os próximos pensamentos desejados são:
 
-- prosperidade;
-- expansão;
-- vibração;
-- desbloqueio.
+> **“É exatamente assim que isso pesa na minha vida.”**  
+> **“Parece que tem alguma coisa me travando.”**  
+> **“De novo eu estou aqui.”**  
+> **“Eu preciso fazer alguma coisa com isso.”**
+
+A comunicação pode agitar a dor mostrando:
+
+- custo em dinheiro;
+- custo em tempo;
+- custo em oportunidades;
+- custo emocional;
+- desgaste de confiança;
+- repetição.
+
+Não agitar com:
+
+- ameaça espiritual;
+- vergonha humilhante;
+- culpa moral;
+- doença;
+- catástrofe inventada;
+- promessa de salvação.
 
 ---
 
@@ -702,41 +775,34 @@ A formação usar “terapeuta” internamente não obriga Marcos a adotar esse 
 
 # 27. Estado da formação Sintonize
 
-Em 01/09/2026:
+Em 03/09/2026, Marcos informou a **conclusão da formação Mesa Radiônica Sintonize Prosperidade**.
 
-- acesso oficial confirmado;
-- maior parte da formação já assistida;
-- conclusão final em andamento;
-- certificação esperada aproximadamente nos próximos 7 dias;
-- certificação ainda não deve ser comunicada como concluída.
+A comunicação pode deixar de usar “estou finalizando a formação”. Porém, antes de publicar uma titulação específica, deve existir registro no CURRENT da nomenclatura sustentada pelo documento/certificado correspondente.
 
-Antes da conclusão, permitido:
+Continua proibido usar a conclusão para sugerir:
 
-> **“Estou finalizando minha formação em Mesa Radiônica Sintonize Prosperidade.”**
-
-Somente se houver motivo contextual.
-
-Não usar:
-
-> “Sou certificado em Sintonize Prosperidade.”
-
-antes da formalização.
+- autoridade clínica;
+- diagnóstico;
+- superioridade espiritual;
+- garantia de prosperidade;
+- pertencimento ou título que o documento não sustente.
 
 ---
 
-# 28. Depois da certificação
+# 28. Formulação pública após registro documental
 
-A formulação pública deve utilizar o texto exato que puder ser sustentado.
+Usar o texto exato que puder ser sustentado pelo documento recebido e registrado no CURRENT.
 
-Exemplo provisório, apenas se o certificado sustentar:
+Formulação-base, somente se compatível com o documento:
 
 > **“Marcos Vinicius — fundador do Portal Caminho da Consciência, criador do Método Padrão Interrompido e formado em Mesa Radiônica Sintonize Prosperidade.”**
 
-Não transformar “formado” em:
+Não transformar “formado” ou “certificado” em:
 
 - terapeuta clínico;
 - especialista em saúde;
-- autoridade universal espiritual.
+- autoridade universal espiritual;
+- promessa de eficácia.
 
 ---
 
@@ -917,7 +983,7 @@ Espiritualidade retorna sempre para:
 
 A **Mesa Radiônica Sintonize Prosperidade** é uma metodologia/ferramenta espiritual específica de terceiros.
 
-Ela pode futuramente ocupar um lugar importante em determinadas experiências.
+Ela pode ocupar um lugar importante em determinadas experiências quando houver pertinência, consentimento, escopo claro e atribuição correta.
 
 Ela não é:
 
@@ -930,11 +996,11 @@ Ela não é:
 
 # 39. Forma de apresentação
 
-Depois da certificação e quando aplicável:
+Com a conclusão da formação informada por Marcos em 03/09/2026 e quando aplicável:
 
 > **“Em determinadas experiências, utilizo a Mesa Radiônica Sintonize Prosperidade, metodologia na qual concluí formação específica.”**
 
-A formulação deve ser ajustada ao certificado e aos direitos de uso reais.
+Essa formulação é provisória. A apresentação pública deve usar o **nome exato da qualificação sustentada pelo certificado/documento vigente** e respeitar os direitos de uso reais.
 
 ---
 
@@ -998,28 +1064,37 @@ Público:
 
 ---
 
-# 42. Comunicação antes da certificação
+# 42. Linguagem de busca versus linguagem de claim
 
-Durante os próximos dias:
+Uma palavra pode ser válida como **termo de busca** e ainda exigir cuidado na copy.
 
-- não vender Sintonize como oferta central;
-- não afirmar certificação;
-- não publicar demonstração comercial como profissional já habilitado;
-- focar crescimento do YouTube;
-- produzir conteúdo amplo sobre vida, repetição, consciência e espiritualidade.
+Regra:
+
+> **Repetir a linguagem da pessoa não significa confirmar a interpretação dela como fato.**
+
+Exemplos:
+
+- `bloqueio financeiro` pode aparecer em título, anúncio ou FAQ, mas a comunicação não deve afirmar que um bloqueio invisível foi objetivamente diagnosticado;
+- `limpeza energética` pode ser usada para descrever a intenção da prática, sem prometer “remover toda energia negativa”;
+- `abrir caminhos` pode ser tratada como linguagem espiritual de intenção e trabalho, não garantia de emprego, dinheiro ou oportunidade;
+- `prosperidade financeira` pode nomear a área trabalhada, sem prometer aumento de renda.
+
+A keyword abre a conversa. O Portal mantém responsabilidade sobre a afirmação que faz.
 
 ---
 
-# 43. Comunicação depois da certificação
+# 43. Comunicação Sintonize após a conclusão da formação
 
 Sequência recomendada:
 
-1. atualização discreta da apresentação;
-2. explicar “o que é / o que não é”;
-3. explicar onde entra no Portal;
-4. diferenciar de Padrão Interrompido;
-5. só depois aprofundar ferramentas específicas;
-6. nunca ensinar protocolo protegido.
+1. registrar titulação documental exata no CURRENT;
+2. atualização discreta da apresentação;
+3. explicar “o que é / o que não é”;
+4. explicar onde entra no Portal;
+5. diferenciar de Padrão Interrompido;
+6. explicar formatos reais — individual e, quando houver oferta, grupo;
+7. criar páginas de intenção somente para serviços efetivamente disponíveis;
+8. nunca ensinar protocolo protegido.
 
 ---
 
@@ -1141,26 +1216,28 @@ Quando ultrapassar escopo:
 
 # 50. Dinheiro e prosperidade
 
-Não usar:
+É permitido ser explícito sobre a dor financeira:
 
-- atrair R$ X;
-- desbloquear riqueza;
-- garantir prosperidade;
-- limpar bloqueio e o dinheiro virá;
-- atrair clientes;
-- quitar dívidas por prática;
-- frequência da abundância comprovada.
+- dinheiro entra e some;
+- medo de faltar;
+- viver fazendo conta;
+- dificuldade de guardar;
+- dívidas recorrentes;
+- dificuldade de cobrar;
+- sensação de vida financeira travada.
 
-Pode usar:
+É permitido vender um produto autoguiado que ajude a pessoa a **observar, organizar e experimentar respostas diferentes** diante dessas situações.
 
-- relação com dinheiro;
-- decisões;
-- organização;
-- padrões percebidos;
-- sensação de aperto;
-- trabalho;
-- escolhas;
-- prosperidade como tema espiritual, sem garantia material.
+Não prometer:
+
+- aumentar renda;
+- eliminar dívida;
+- atrair dinheiro;
+- abrir caminho financeiro como resultado certo;
+- desbloquear prosperidade de forma garantida;
+- retorno financeiro pelo uso da Sintonize ou do Método.
+
+O produto de Dinheiro deve vender **clareza, observação, prática e reorganização de respostas**, não riqueza.
 
 ---
 
@@ -1228,15 +1305,21 @@ Quando utilizada:
 
 # 55. Urgência e escassez
 
-Só usar quando real.
+Urgência pode nascer da própria dor:
 
-Preferência:
+> **“Isso já está custando dinheiro, tempo, paz, oportunidade ou confiança em você.”**
 
-> **“Eu preciso entender isso.”**
+Essa é urgência legítima quando a consequência está realmente descrita.
 
-e não:
+Não criar:
 
-> “Se eu não comprar agora, algo ruim acontece.”
+- ameaça espiritual;
+- “se não comprar agora vai piorar”;
+- escassez fictícia;
+- medo de perder proteção;
+- cronômetro sem razão.
+
+Produtos digitais escaláveis não devem fingir escassez de vagas. Serviços com capacidade humana podem comunicar limite real.
 
 ---
 
@@ -1652,54 +1735,57 @@ Evitar:
 
 # 81. Site
 
-O site deve:
+O site institucional deve explicar:
 
-- priorizar mobile;
-- usar hero escuro;
-- alternar blocos claros;
-- manter CTA claro;
-- usar tipografia legível;
-- mostrar método e limites;
-- preservar marca nova;
-- evitar retorno visual à antiga identidade angelical.
+- o ecossistema;
+- o Método Padrão Interrompido;
+- o papel das quatro portas;
+- o que é autoral e o que é metodologia de terceiros;
+- próximos passos disponíveis.
 
-Domínio canônico:
-
-> **https://portalcaminhodaconsciencia.com.br**
+O site não precisa usar copy de resposta direta em todas as seções. Páginas específicas podem ser mais viscerais.
 
 ---
 
-# 82. Página do Mapeamento
+# 82. Páginas de oferta
 
-A oferta pública atual deve apresentar:
+Cada página deve refletir a intenção que trouxe a pessoa.
 
-> **Mapeamento Padrão Interrompido — Individual**
+## Produto Dinheiro
 
-Sem afirmar Sintonize como componente obrigatório enquanto isso não for formalmente decidido.
+Começar por dor financeira visceral, consequências e sensação de travamento. Só depois apresentar mecanismo e produto.
 
-Se a oferta mudar, página, claims e Documentos 02/04 precisam ser atualizados de forma coordenada.
+## Produto Procrastinação
+
+Começar pelo custo do “depois”, tarefas acumuladas, oportunidades e perda de confiança.
+
+## Mapeamento PI 2.0
+
+Começar pela repetição e desejo de compreender o próprio caso. Explicar Sequência e Ponto de Interrupção.
+
+## Sintonize
+
+Começar pela necessidade/intentão legítima e explicar a metodologia, escopo, limites e atribuição.
+
+## Ciclo PI
+
+Começar pelo desejo de trabalhar um ponto já reconhecido e praticar/reavaliar.
 
 ---
 
 # 83. YouTube
 
-Thumbnails:
+O YouTube continua humano, amplo e educativo. A Porta 2 pode gerar muitas pautas, mas o canal não deve parecer catálogo de bloqueios ou limpeza energética.
 
-- uma ideia;
-- texto curto;
-- contraste;
-- rosto de Marcos quando útil;
-- objeto/cena;
-- evitar misticismo genérico;
-- ouro como acento.
+Combinar:
 
-Vídeos:
-
-- intro curta;
-- identidade discreta;
-- cenário real;
-- gráficos simples;
-- sem abertura longa de logo.
+- dor visceral;
+- repetição;
+- método;
+- Search;
+- técnicas;
+- espiritualidade;
+- história e autoridade.
 
 ---
 
@@ -1758,81 +1844,65 @@ Evitar:
 
 # 87. Anúncios
 
-Ordem:
+Em tráfego direto, ser mais explícito que no orgânico.
 
-1. cena;
-2. tensão;
-3. reconhecimento;
-4. virada;
-5. próximo passo.
+Estrutura preferencial:
 
-Não tentar explicar toda filosofia.
+> **cena/dor → consequência → emoção → travamento percebido → repetição → promessa delimitada → CTA.**
+
+O anúncio deve vender a próxima experiência, não uma cosmologia inteira.
 
 ---
 
-# 88. Search pago
+# 88. Search pago e message match
 
-Quando ativado:
+- keyword de Porta 2 precisa chegar a página de Porta 2;
+- keyword de Mesa/Sintonize precisa chegar a página que explica a técnica;
+- keyword de padrões precisa chegar a conteúdo/Mapeamento compatível;
+- produto Dinheiro precisa receber tráfego de dor financeira compatível;
+- não comprar tráfego para termos fora do escopo apenas por volume.
 
-- message match;
-- claims compatíveis;
-- sem uso oportunista de “cura”, “dinheiro” ou “espiritualidade”;
-- termos Sintonize/radiestesia somente quando oferta e certificação estiverem adequadas.
+> **A copy pode usar a palavra pesquisada e, ao mesmo tempo, corrigir seu significado quando necessário.**
 
 ---
 
 # PARTE XV — IDENTIDADE DE PRODUTOS E SISTEMAS DE TERCEIROS
 
-# 89. Arquitetura de marca
+# 89. Arquitetura de marca dos produtos
 
-> **Portal Caminho da Consciência**  
-> → Método Padrão Interrompido  
-> → Mapeamento / Radar / Protocolos / Jornada / Reavaliação / Comunidade
+A assinatura deve manter clara a relação com o Portal sem transformar tudo em um único nome.
 
-Sintonize entra como:
-
-> **metodologia específica utilizada em determinada experiência**
-
-e não como subproduto autoral.
-
----
-
-# 90. Assinatura de produto
-
-> **Mapeamento Padrão Interrompido**  
-> uma experiência do Portal Caminho da Consciência
+- **O Minuto Anterior** — entrada gratuita do Portal;
+- **[Nome do Produto Dinheiro]** — produto por dor, “uma experiência do Portal Caminho da Consciência”;
+- **[Nome do Produto Procrastinação]** — mesma família futura;
+- **Mapeamento Padrão Interrompido** — produto autoral do método;
+- **Ciclo Padrão Interrompido** — experiência autoral do método;
+- **Sintonize Prosperidade** — metodologia de terceiros utilizada por Marcos dentro do escopo legítimo;
+- **Acompanhamento Caminho da Consciência** — aprofundamento premium.
 
 ---
 
-# 91. Assinatura com Sintonize — futura
+# 90. Assinatura de produtos por dor
 
-Quando houver decisão formal:
+Evitar nomes abstratos demais. O nome pode ser emocional/comercial, desde que a promessa seja delimitada.
 
-> **Mapeamento Padrão Interrompido**  
-> com aplicação da Mesa Radiônica Sintonize Prosperidade
+O produto deve ser reconhecido pela dor antes de exigir conhecimento do Método.
 
-somente se:
+---
 
-- isso representar a entrega real;
-- certificação estiver concluída;
-- uso da nomenclatura estiver autorizado;
-- comunicação tiver sido atualizada.
+# 91. Assinatura com Sintonize
+
+Quando publicada, a oferta precisa distinguir visual e verbalmente:
+
+> **Portal Caminho da Consciência / Marcos Vinicius + Mesa Radiônica Sintonize Prosperidade**
+
+sem sugerir propriedade da metodologia.
 
 ---
 
 # 92. Co-branding
 
-Nunca criar impressão de:
-
-- sociedade;
-- chancela;
-- parceria;
-- certificação institucional;
-- propriedade;
-
-que não existam.
-
-A marca Sintonize deve ser tratada com atribuição factual.
+Não usar logotipos, símbolos, selos ou materiais da Sintonize sem autorização correspondente. Atribuição textual e nome oficial não equivalem a licença de co-branding visual.
 
 ---
 
@@ -2044,7 +2114,7 @@ Esse é o domínio institucional canônico.
 9. “voltar ao mesmo lugar” permanece território de reconhecimento;
 10. TOM MARCOS é regra estrutural;
 11. Marcos não usa “terapeuta” como identidade pública;
-12. certificação Sintonize não pode ser antecipada;
+12. conclusão da formação Sintonize foi informada; titulação pública exata depende do registro documental;
 13. Anjos Cabalísticos não são eixo da marca;
 14. identidade visual é premium, sóbria, quente e espiritual;
 15. Azul Noite Profundo #1A1938 é cor-mãe;
@@ -2058,8 +2128,21 @@ Esse é o domínio institucional canônico.
 23. domínio principal: `portalcaminhodaconsciencia.com.br`;
 24. oferta pública vigente: Mapeamento Padrão Interrompido — R$197;
 25. Sintonize ainda não é componente obrigatório publicamente declarado da oferta;
-26. Google Search pago está preparado e adiado;
+26. Google Search pago está tecnicamente preparado; ativação depende de oferta/página e cluster de intenção;
 27. prioridade imediata: crescimento orgânico do YouTube.
+
+---
+
+## 101.A. Decisões acrescentadas na V2.2
+
+- Porta 2 é prioridade comercial;
+- dor visceral pode ser muito explícita em resposta direta;
+- “bloqueio/travamento” é linguagem percebida, não diagnóstico;
+- “voltar ao mesmo lugar” passa a ser principalmente ponte de aprofundamento e categoria;
+- produto Dinheiro é o primeiro infoproduto priorizado;
+- Procrastinação é o segundo;
+- Mapeamento 2.0 e Ciclo PI passam a ter linguagem própria baseada em Ponto de Interrupção;
+- páginas de oferta podem ser mais diretas que o site institucional, sem abandonar TOM MARCOS e compliance.
 
 ---
 
@@ -2075,7 +2158,7 @@ Esse é o domínio institucional canônico.
 8. design system técnico completo;
 9. grau de geometria espiritual;
 10. identidade visual de experiências Sintonize;
-11. formulação pública final da qualificação após certificação;
+11. formulação pública final da qualificação após registro documental da nomenclatura exata;
 12. integração comercial definitiva Sintonize + Mapeamento;
 13. grau de presença de conteúdo sobre Anjos;
 14. identidade futura da Jornada e Comunidade.
@@ -2120,7 +2203,7 @@ Esse é o domínio institucional canônico.
 
 # 104. Governança da versão
 
-Esta V2.0 substitui integralmente a V1.0.
+Esta V2.2 substitui integralmente a V2.1.
 
 Ela deve ser revisada quando houver mudança deliberada em:
 
@@ -2147,4 +2230,4 @@ Toda atualização canônica deve registrar:
 - impacto em tecnologia;
 - impacto em outros documentos.
 
-> **Fim do Documento 04 — Identidade, Voz, Espiritualidade e Diretrizes de Comunicação — V2.0.**
+> **Fim do Documento 04 — Identidade, Voz, Espiritualidade e Diretrizes de Comunicação — V2.2.**
