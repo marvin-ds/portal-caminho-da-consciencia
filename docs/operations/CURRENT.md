@@ -170,8 +170,9 @@ Estado operacional:
 - Supabase produção = definido, ainda não criado;
 - DNS app = definido, ainda não configurado;
 - Magic Link = aprovado, ainda não configurado em produção;
-- **DOC-SYNC CANÔNICO = EM EXECUÇÃO**;
-- **PJ-03A = BLOQUEADO até DOC-SYNC aprovado, auditado, commitado e enviado ao remoto**.
+- **DOC-SYNC CANÔNICO = APROVADO ✅**;
+- **DOC-GIT-01 = APROVADO ✅** — branch `docs/pj02-canonical-sync` publicada, SHA `c040d17`;
+- **PJ-03A = BLOQUEADO até merge do pacote documental em main e verificação**.
 
 ## Regra
 
@@ -183,10 +184,10 @@ Estado operacional:
 
 ## Estado das principais ofertas
 
-1. **O Minuto Anterior** — SPEC MVP V1.0 criada; produto gratuito em fluxo próprio de construção/implementação.
-2. **ANTES DO APERTO** — SPEC V1.1; Gates **AA-00 Demanda ✅** e **AA-01 Oferta ✅**; construção restante em chat exclusivo.
-3. **Mapeamento Padrão Interrompido 2.0** — SPEC de design/oferta/operação criada; construção em chat exclusivo; preço vigente do produto atual: R$197 até nova decisão.
-4. **Sessão Individual Sintonize Prosperidade** — SPEC V1.0 + Addendum V1.1; `DESIGN_READY / PILOT_PENDING`.
+1. **O Minuto Anterior** — SPEC MVP V1.1; produto gratuito em fluxo próprio de construção/implementação.
+2. **ANTES DO APERTO** — SPEC MVP V1.2; Gates **AA-00 Demanda ✅** e **AA-01 Oferta ✅**; construção restante em chat exclusivo.
+3. **Mapeamento Padrão Interrompido 2.0** — SPEC V1.1; construção em chat exclusivo; preço vigente do produto atual: R$197 até nova decisão.
+4. **Sessão Individual Sintonize Prosperidade** — SPEC V1.0 + Addendum V1.1 + Integração V1.2; `DESIGN_READY / PILOT_PENDING`.
 5. **Ciclo Padrão Interrompido — 21 dias** — flagship futuro a pilotar depois da base operacional necessária.
 6. **Premium** — aprofundamento seletivo futuro.
 
@@ -285,18 +286,14 @@ Não criar novo Documento 07. A SPEC transversal V1.1 governa a execução técn
 
 # 6. Estado de incorporação no repositório
 
-As versões canônicas atualizadas até esta revisão foram produzidas. **Antes de assumir que V4.4/V2.5/V2.5 já estão versionadas no GitHub, verificar o repositório.** O DOC-SYNC anterior da Sintonize não prova automaticamente a incorporação destas três novas versões.
+As versões canônicas foram versionadas no repositório via DOC-GIT-01 APROVADO ✅. Branch `docs/pj02-canonical-sync`, commit `c040d1799c1dbb6529760c4c5a8017b85695eb15`, auditada e pendente de merge em main.
 
-Próxima ação documental recomendada:
+Estado atual:
 
-> **GATE DOC-SYNC — incorporar/versionar o pacote canônico 00–06 no repositório, em mudança docs-only, sem alterar site ou produto.**
-
-Critérios:
-
-- inventário dos arquivos existentes;
-- preservar histórico;
-- substituir versões obsoletas deliberadamente;
-- não apagar fontes necessárias sem registro;
+- 01 V4.5, 02 V2.5, 05 V2.2, SPEC Transversal V1.1, ADR APROVADO, SPECs dos quatro produtos: todos commitados;
+- CURRENT V2.5: versionado;
+- merge em main: pendente de autorização pós-auditoria;
+- PJ-03A: bloqueado até merge verificado.
 - atualizar README documental se aplicável;
 - atualizar CURRENT com commit/HEAD real;
 - working tree limpo ao final.
@@ -401,15 +398,11 @@ PJ-02       ✅ APROVADO
 ADR         ✅ APROVADO
 ```
 
-**Estado atual:** DOC-SYNC CANÔNICO EM EXECUÇÃO.
+**Estado atual:** DOC-SYNC CANÔNICO APROVADO ✅. DOC-GIT-01 APROVADO ✅.
 
 **Próximo gate técnico:** PJ-03A — Bootstrap local.
 
-**Gate:** BLOQUEADO até:
-1. conclusão deste DOC-SYNC;
-2. auditoria documental;
-3. aprovação;
-4. commit/push documental.
+**Gate:** BLOQUEADO até: merge do pacote documental (`docs/pj02-canonical-sync`) em main e verificação do merge.
 
 Sequência posterior:
 
@@ -744,24 +737,19 @@ Objetivo futuro:
 
 # PARTE VII — PRIORIDADES DOS PRÓXIMOS 7–14 DIAS
 
-# 23. P0 — Sincronizar documentação canônica
+# 23. CONCLUÍDO — Sincronizar documentação canônica
 
-- confirmar que o DOC-SYNC anterior da Sintonize foi incorporado corretamente ao repositório;
-- incorporar **Documento 01 V4.4**, **Documento 02 V2.5** e **CURRENT V2.5** em mudança docs-only;
-- preservar 00 V1.3, 02.A V1.0, família 03 vigente, 04 V2.3 e 05 V2.1;
-- revisar links/referências ativas que apontem para 01 V4.3, 02 V2.3 ou CURRENT V2.3;
-- **não criar Documento 05 V2.2 antes de PJ-00/PJ-02**.
+DOC-SYNC canônico pós-PJ-02 executado e aprovado. Pacote entregue via DOC-GIT-01:
+- 01 V4.5, 02 V2.5, 05 V2.2, SPEC Transversal V1.1, ADR APROVADO, SPECs dos quatro produtos e CURRENT V2.5 commitados em `docs/pj02-canonical-sync`;
+- auditoria ChatGPT concluída com PASS WITH MINOR PATCHES;
+- micro-patch DOC-GIT-01A aplicado;
+- merge em main pendente de autorização.
 
 ---
 
-# 24. P0 — DOC-SYNC PÓS-PJ-02
+# 24. CONCLUÍDO — DOC-SYNC PÓS-PJ-02
 
-- reconciliar 01, 02, 05, SPEC transversal e SPECs dos quatro produtos;
-- atualizar CURRENT por último;
-- auditar conflitos e estados transitórios;
-- não implementar infraestrutura;
-- não iniciar PJ-03A;
-- status esperado: **DOC-SYNC — READY FOR REVIEW**.
+DOC-SYNC APROVADO ✅. DOC-GIT-01 APROVADO ✅. Branch publicada. Aguardando merge em main para desbloqueio do PJ-03A.
 
 ---
 
@@ -1162,7 +1150,8 @@ Nenhum agente está autorizado, sem nova decisão explícita, a:
 | 04/09/2026 | Rotas direta e pós-Mapeamento definidas | FECHADO | jornada e message match |
 | 04/09/2026 | Protocolos derivados congelados até validação + DOC-SYNC | FECHADO | governança |
 | 05/09/2026 | PJ-02 / ADR-PLATAFORMA-JORNADA-001 aprovado | FECHADO | arquitetura definitiva da Plataforma |
-| 05/09/2026 | DOC-SYNC canônico pós-PJ-02 iniciado | EM EXECUÇÃO | documentação |
+| 05/09/2026 | DOC-SYNC canônico pós-PJ-02 | APROVADO | documentação |
+| 05/09/2026 | DOC-GIT-01 — branch docs/pj02-canonical-sync publicada | APROVADO | documentação |
 
 ---
 
@@ -1248,9 +1237,9 @@ Deve permanecer:
 # 49. Controle de versão — V2.5
 
 **VERSÃO:** V2.5  
-**DATA:** 04/09/2026  
-**SUBSTITUI:** V2.3  
-**MOTIVO:** reconciliar o estado operacional após aprovação do PJ-02 / ADR-PLATAFORMA-JORNADA-001 e registrar o DOC-SYNC como gate bloqueador de PJ-03A.  
+**DATA:** 05/09/2026  
+**SUBSTITUI:** V2.4  
+**MOTIVO:** reconciliar o estado operacional após aprovação do PJ-02 / ADR-PLATAFORMA-JORNADA-001 e registrar o DOC-SYNC e DOC-GIT-01 como aprovados; PJ-03A bloqueado até merge em main.  
 **IMPACTO:** snapshot, versões canônicas, gates, decisões técnicas fechadas, sequência pós-ADR e contratos transversais dos produtos.
 
 > **Fim do Documento 06 — CURRENT, Decisões e Plano Operacional Vivo — V2.5.**

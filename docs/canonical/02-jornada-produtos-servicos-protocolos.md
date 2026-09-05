@@ -4,7 +4,7 @@
 **STATUS CANÔNICO:** arquitetura oficial da experiência, jornada, produtos, serviços e protocolos do ecossistema  
 **DATA:** 05/09/2026  
 **HORIZONTE:** ciclo inicial de 90 dias + arquitetura de longo prazo  
-**DOCUMENTOS SUPERIORES:** Documento 00 — Matriz de Governança Conceitual, Propriedade Intelectual e Posicionamento — V1.3; Documento 01 — Fundacional, Estratégico e Plano Executivo Canônico — V4.4  
+**DOCUMENTOS SUPERIORES:** Documento 00 — Matriz de Governança Conceitual, Propriedade Intelectual e Posicionamento — V1.3; Documento 01 — Fundacional, Estratégico e Plano Executivo Canônico — V4.5  
 **SUBSTITUI:** Documento 02 — V2.4
 
 > **Do reconhecimento à transformação. Da transformação à integração. Da integração ao aprofundamento da consciência.**
@@ -15,7 +15,7 @@
 
 Este documento define **como uma pessoa evolui dentro do Portal Caminho da Consciência**, quais ofertas podem existir em cada etapa, como elas se conectam, quais metodologias podem ser utilizadas e quais fronteiras precisam ser preservadas para que o ecossistema seja útil, humano, responsável, sustentável e coerente.
 
-A V2.5 preserva integralmente a Jornada, ofertas, preços e regras da V2.4 e acrescenta apenas a camada transversal aprovada da **Plataforma da Jornada**, com **Meu Caminho** como nome recomendado da experiência autenticada. A Plataforma não cria uma nova etapa da Jornada nem uma nova oferta: ela materializa continuidade, retomada, entregas, registros, progresso de alto nível e próximos passos legítimos quando essas funções forem úteis.
+A V2.5 preserva integralmente a Jornada, ofertas, preços e regras da V2.4 e acrescenta apenas a camada transversal aprovada da **Plataforma da Jornada**, com **Meu Caminho** como nome aprovado para a experiência autenticada da V1. A Plataforma não cria uma nova etapa da Jornada nem uma nova oferta: ela materializa continuidade, retomada, entregas, registros, progresso de alto nível e próximos passos legítimos quando essas funções forem úteis.
 
 O documento está organizado em dezoito partes:
 
@@ -1754,7 +1754,7 @@ Se houver compra e valor percebido:
 
 **FECHADO — PLATAFORMA 01.** O conceito transversal aprovado é **Plataforma da Jornada**, não área de membros/LMS convencional.
 
-**FECHADO — PLATAFORMA 02.** **Meu Caminho** é o nome recomendado da experiência autenticada.
+**FECHADO — PLATAFORMA 02.** **Meu Caminho** é o nome aprovado para a experiência autenticada da V1.
 
 **FECHADO — PLATAFORMA 03.** Meu Caminho não é produto, etapa nova ou obrigação de progressão.
 
@@ -1821,7 +1821,7 @@ Antes de criar produto, responder:
 # 75. Relação com os demais documentos
 
 - **Documento 00** — governa fronteiras conceituais, autoria, propriedade intelectual, Sintonize e posicionamento.
-- **Documento 01 — V4.4** — governa propósito, estratégia e princípios.
+- **Documento 01 — V4.5** — governa propósito, estratégia e princípios.
 - **Documento 03** — deve transformar esta arquitetura em sistema editorial, aquisição e experimentação.
 - **Documento 04** — deve traduzir as ofertas em voz, identidade e comunicação responsável.
 - **Documento 05 V2.2** — governa a arquitetura técnica pós-PJ-02; a SPEC transversal governa contratos de execução e o ADR permanece a fonte da decisão arquitetural.
@@ -2022,7 +2022,7 @@ delivery
 
 # 80. Governança da versão
 
-Esta V2.5 substitui integralmente a V2.3.
+Esta V2.5 substitui integralmente a V2.4.
 
 Ela deve ser revisada apenas quando houver mudança real na arquitetura de produto, incluindo:
 
@@ -2041,8 +2041,8 @@ Mudanças operacionais cotidianas pertencem ao CURRENT.
 # 80. Controle de versão — V2.5
 
 **VERSÃO:** V2.5  
-**DATA:** 04/09/2026  
-**SUBSTITUI:** V2.3  
+**DATA:** 05/09/2026  
+**SUBSTITUI:** V2.4  
 **MOTIVO:** reconciliar a Jornada após o PJ-02 / ADR-PLATAFORMA-JORNADA-001 aprovado, removendo estados investigativos da Plataforma.  
 **IMPACTO:** mantém a Jornada pública e as ofertas intactas, mas fecha Meu Caminho como interface autenticada V1, define os contratos transversais dos produtos e proíbe infraestrutura paralela por produto.
 
