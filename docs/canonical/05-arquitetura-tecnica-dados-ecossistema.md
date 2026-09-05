@@ -1,12 +1,12 @@
 # PORTAL CAMINHO DA CONSCIÊNCIA
-## Documento 05 — Arquitetura Técnica, Dados e Ecossistema Digital — V2.1
+## Documento 05 — Arquitetura Técnica, Dados e Ecossistema Digital — V2.2
 
 **STATUS CANÔNICO:** arquitetura técnica oficial, dados, integrações, mensuração, segurança, propriedade intelectual digital e regras de desenvolvimento assistido por IA  
-**DATA:** 04/09/2026  
+**DATA:** 05/09/2026  
 **HORIZONTE:** estado atual + primeiros 90 dias + arquitetura evolutiva de longo prazo  
-**DOCUMENTOS SUPERIORES:** Documento 00 — Matriz de Governança Conceitual, Propriedade Intelectual e Posicionamento — V1.3; Documento 01 — Fundacional, Estratégico e Plano Executivo Canônico — V4.3  
-**DOCUMENTOS RELACIONADOS:** Documento 02 — Jornada de Transformação, Produtos, Serviços e Protocolos — V2.3; Documento 03 — Sistema Editorial, Aquisição e Experimentação — V2.2; Documento 04 — Identidade, Voz, Espiritualidade e Diretrizes de Comunicação — V2.3; Documento 06 — CURRENT — V2.3  
-**SUBSTITUI:** Documento 05 — Arquitetura Técnica, Dados e Ecossistema Digital — V2.0
+**DOCUMENTOS SUPERIORES:** Documento 00 — Matriz de Governança Conceitual, Propriedade Intelectual e Posicionamento — V1.3; Documento 01 — Fundacional, Estratégico e Plano Executivo Canônico — V4.5  
+**DOCUMENTOS RELACIONADOS:** Documento 02 — Jornada de Transformação, Produtos, Serviços e Protocolos — V2.5; Documento 03 — Sistema Editorial, Aquisição e Experimentação — V2.2; Documento 04 — Identidade, Voz, Espiritualidade e Diretrizes de Comunicação — V2.3; Documento 06 — CURRENT — V2.5  
+**SUBSTITUI:** Documento 05 — Arquitetura Técnica, Dados e Ecossistema Digital — V2.1
 
 > **Tecnologia a serviço da transformação. Dados a serviço da decisão. IA a serviço da execução. Nenhuma ferramenta acima da pessoa, da autoria ou da verdade.**
 
@@ -14,7 +14,7 @@
 
 # Mapa do documento
 
-Esta V2.1 preserva a arquitetura técnica da V2.0 e adiciona uma correção importante: **a metodologia Sintonize continua não automatizável, mas o fluxo administrativo, a entrega, o armazenamento privado, o D7 e a mensuração operacional da Sessão Individual podem ser apoiados digitalmente** sem simular a Mesa.
+Esta V2.2 parte da V2.1 e incorpora a arquitetura definitiva aprovada no PJ-02, preservando tudo que continua válido, e adiciona uma correção importante: **a metodologia Sintonize continua não automatizável, mas o fluxo administrativo, a entrega, o armazenamento privado, o D7 e a mensuração operacional da Sessão Individual podem ser apoiados digitalmente** sem simular a Mesa.
 
 - criação do Documento 00;
 - atualização dos Documentos 01–04;
@@ -522,46 +522,272 @@ Regra preferencial:
 
 ---
 
-# 16. Vercel — aplicações dinâmicas futuras
+# 16. Vercel — Plataforma da Jornada aprovada
 
-Vercel é preferencial quando existir necessidade real de:
+O PJ-02 aprovou uma única Plataforma da Jornada para todas as experiências dinâmicas da V1.
 
-- rotas server-side;
-- APIs;
-- autenticação;
-- funções;
-- app state;
-- Supabase;
-- experiência dinâmica.
+```text
+repo:   portal-caminho-da-consciencia-app
+host:   Vercel — 1 projeto
+domain: app.portalcaminhodaconsciencia.com.br
+```
 
-Possíveis aplicações:
+Responsabilidades:
 
-- Radar;
-- área autenticada;
-- jornadas;
-- reavaliações;
-- painel do usuário;
-- webhooks, quando a arquitetura justificar.
+- Meu Caminho;
+- Auth;
+- experiências dinâmicas;
+- estado e progresso;
+- entregas privadas;
+- webhooks;
+- integração dos produtos.
 
-Não migrar o site institucional apenas por uniformidade.
+O site institucional permanece no Netlify. Nenhum produto cria projeto Vercel próprio.
 
 ---
 
-# 17. Subdomínios
+# 17. Domínios e topologia aprovada
 
-Padrão preferencial:
-
-| Uso | Padrão |
+| Uso | Padrão canônico |
 |---|---|
-| Institucional | `portalcaminhodaconsciencia.com.br` |
-| Aplicação | `app.portalcaminhodaconsciencia.com.br` |
-| Radar | `/radar` ou subdomínio se houver justificativa |
-| Conteúdo | preferir domínio principal |
-| Campanhas | domínio principal + UTMs |
+| Institucional / marketing | `portalcaminhodaconsciencia.com.br` — Netlify |
+| Plataforma da Jornada | `app.portalcaminhodaconsciencia.com.br` — Vercel |
+| O Minuto Anterior dinâmico | `/minuto-anterior` no app |
+| Meu Caminho | `/meu-caminho` no app |
+| Produtos autenticados | rotas sob `/meu-caminho/*` quando aplicável |
 
-Decidir subdomínio apenas quando existir aplicação.
+O subdomínio da Plataforma é decisão aprovada, embora DNS e projeto Vercel ainda dependam de implementação no gate correspondente.
 
 ---
+
+
+# PARTE III-A — ARQUITETURA DEFINITIVA DA PLATAFORMA DA JORNADA — PJ-02
+
+# 17.A. Fonte de verdade
+
+A arquitetura transversal foi aprovada no:
+
+> **ADR-PLATAFORMA-JORNADA-001 — PJ-02 — APROVADO**
+
+O ADR fecha as decisões de arquitetura da V1. Este Documento 05 materializa essas decisões como política técnica canônica.
+
+# 17.B. Fundação MakerKit
+
+```text
+MakerKit Lite
+Modo A — Fundação Direta
+base commit: c5cba64391a80620309c4178163dc2df42568d1b
+licença: MIT
+estratégia: Template Copy controlado
+```
+
+Não manter dependência operacional obrigatória do upstream após bootstrap.
+
+Baseline:
+
+```text
+MakerKit c5cba64
++ specs estáveis
++ lockfile regenerado
++ validação técnica
+```
+
+# 17.C. Runtime e monorepo
+
+```text
+Node.js 24.x
+pnpm 11.18.0
+Turborepo
+```
+
+A compatibilidade `pnpm 11.18.0 + Vercel` deve ser comprovada no PJ-03C. Isso é pendência de implementação, não decisão arquitetural aberta.
+
+Packages `@kit/*` úteis do MakerKit podem ser preservados. Packages `@portal/*` devem surgir sob demanda por responsabilidade coesa, não uma package por tabela.
+
+# 17.D. Shared Kernel conceitual
+
+```text
+IDENTITY
+auth.users
+accounts
+contacts
+identity_links
+
+PRIVACY
+consents
+privacy_requests
+
+COMMERCE
+products
+offers
+orders
+payments
+payment_events
+webhook_receipts
+
+ACCESS
+entitlements
+enrollments
+
+DELIVERY
+deliveries
+delivery_assets
+
+COMMUNICATION
+communication_dispatches
+
+AUDIT
+audit_events
+```
+
+A lista define contratos, não obrigação de criar todas as packages/tabelas no bootstrap.
+
+# 17.E. Domínios privados
+
+- `minute_before_*`;
+- `before_the_squeeze_*`;
+- `mapping_*`;
+- `sintonize_*`.
+
+> **Compartilhar infraestrutura. Não misturar significado.**
+
+# 17.F. Auth V1
+
+```text
+Magic Link / passwordless = ON
+Password Auth = OFF
+Google OAuth = OUT V1
+MFA = disponível, não obrigatório
+```
+
+Password OFF implica remover/ocultar:
+- reset de senha;
+- alteração de senha;
+- cadastro por senha;
+- E2E upstream baseado em password.
+
+O retorno após Magic Link deve preservar contexto.
+
+# 17.G. Identity claiming
+
+Para registros pré-auth:
+
+```text
+registro pré-auth
+↓
+claim token opaco forte
+↓
+hash persistido + TTL + uso único
+↓
+Magic Link
+↓
+identidade verificada
+↓
+claim server-side idempotente
+↓
+associação auditada
+```
+
+Nunca associar conteúdo sensível apenas por coincidência de e-mail.
+
+# 17.H. Storage privado e signed URLs
+
+Entregas pessoais são privadas por padrão.
+
+Persistir:
+- `object_path`;
+- metadata necessária.
+
+Não persistir signed URL permanente.
+
+Signed URL:
+- criada sob demanda;
+- TTL curto;
+- ownership server-side;
+- helper compartilhado da Plataforma.
+
+# 17.I. Logging e PII redaction
+
+Pino permanece.
+
+Antes de produção, redaction é obrigatória.
+
+Nunca logar:
+- tokens;
+- cookies;
+- Authorization;
+- senha;
+- OTP;
+- conteúdo íntimo;
+- conteúdo de Mapeamento;
+- conteúdo Sintonize.
+
+# 17.J. E-mail
+
+```text
+AUTH          → Supabase Auth + Resend SMTP
+TRANSACTIONAL → Resend SDK/API
+MARKETING     → Brevo
+```
+
+Marketing requer consentimento próprio.
+
+# 17.K. Checkout e webhooks
+
+Checkout permanece externo e o provider não está fechado.
+
+A Plataforma depende de adapter.
+
+```text
+checkout
+↓
+webhook
+↓
+webhook_receipt
+↓
+payment_event
+↓
+payment
+↓
+entitlement
+↓
+enrollment quando necessário
+```
+
+# 17.L. Analytics autenticado
+
+Usar allowlist explícita.
+
+Permitidos, quando necessários:
+- `experience_started`;
+- `step_completed`;
+- `delivery_viewed`;
+- `completed`.
+
+Nunca enviar respostas, reflexões, intake, conteúdo de Mapeamento, conteúdo Sintonize, Classe D ou PII textual.
+
+# 17.M. Sequência pós-ADR
+
+```text
+DOC-SYNC aprovado
+↓
+commit/push documental
+↓
+PJ-03A — Bootstrap local
+↓
+PJ-03B — Supabase Foundation
+↓
+PJ-03C — Vercel Preview
+↓
+PJ-03D — Identity/Auth Core
+↓
+PJ-04 — Security / Shared Kernel
+↓
+Integration Contracts dos produtos
+```
+
+Nenhuma etapa abaixo de DOC-SYNC é considerada implementada nesta versão.
+
 
 # PARTE IV — APLICAÇÕES E REGRA DE PRODUTO DIGITAL
 
@@ -590,18 +816,26 @@ Nunca:
 
 ---
 
-# 20. Área autenticada
+# 20. Meu Caminho — experiência autenticada da V1
 
-Criar somente quando a pessoa tiver razão real para voltar, como:
+**Meu Caminho** é o nome aprovado da interface autenticada da Plataforma.
 
-- jornada ativa;
-- histórico;
-- materiais;
-- reavaliação;
-- compras;
-- comunidade.
+Não é:
+- novo produto;
+- nova etapa da Jornada;
+- LMS;
+- catálogo;
+- marketplace.
 
-Login sem valor recorrente é custo.
+Deve responder:
+- onde a pessoa está;
+- o que está ativo;
+- de onde continuar;
+- o que recebeu;
+- seus registros;
+- qual a próxima ação legítima.
+
+A entrada pública canônica de autenticação é `/entrar`.
 
 ---
 
@@ -927,19 +1161,41 @@ A conclusão da certificação Sintonize:
 
 # PARTE VI — DADOS, SUPABASE, MODELAGEM E CLASSIFICAÇÃO
 
-# 32. Supabase como base preferencial futura
+# 32. Supabase — arquitetura aprovada
 
-Supabase permanece opção preferencial para:
+A Plataforma utilizará:
 
+> **1 projeto Supabase canônico de produção para toda a Plataforma da Jornada.**
+
+Responsabilidades:
+
+- Supabase Auth;
 - PostgreSQL;
-- auth;
-- storage controlado;
-- funções associadas;
-- RLS.
+- Row Level Security;
+- Storage;
+- shared kernel;
+- domínios específicos dos produtos.
 
-Não criar projeto Supabase apenas porque a stack prevê um.
+Nenhum produto cria Supabase próprio.
 
-A implementação depende de produto real.
+Ambientes:
+
+```text
+LOCAL
+Supabase CLI + Docker
+dados fictícios
+
+PREVIEW
+Vercel Preview
+banco isolado
+nunca usar production service_role
+
+PRODUCTION
+Vercel Production
+Supabase Production canônico
+```
+
+Supabase Branching versus staging isolado continua decisão operacional futura baseada em plano/custo, sem reabrir a arquitetura-mãe.
 
 ---
 
@@ -1029,16 +1285,19 @@ Classe E não pertence ao banco do produto.
 
 # 36. Row Level Security
 
-Se Supabase for usado:
+RLS é obrigação arquitetural:
 
 - RLS por padrão;
-- usuário vê somente seus dados;
-- anon não acessa PII;
+- negative tests obrigatórios;
+- User A não acessa dados de User B;
+- anon sem PII;
 - compra não é editável pelo cliente;
-- service role somente server-side;
+- `service_role` somente server-side;
 - admin fora do browser;
 - tokens públicos com TTL e escopo mínimo;
-- storage com políticas.
+- Storage com políticas e ownership explícito.
+
+A viabilidade dessa capacidade foi comprovada localmente no PJ-01V.1.
 
 ---
 
@@ -2280,12 +2539,33 @@ Checklist mínimo:
 
 # 105. Decisões fechadas
 
-1. domínio principal: `portalcaminhodaconsciencia.com.br`;
-2. repositório institucional permanece fonte de verdade do código;
-3. branch de produção: `main`;
-4. Netlify permanece camada institucional;
-5. Vercel é preferencial para aplicações dinâmicas quando necessárias, não por padrão;
-6. Supabase é preferencial quando persistência/auth forem realmente necessários;
+1. arquitetura-mãe: **1 Portal público + 1 Plataforma da Jornada**;
+2. domínio institucional: `portalcaminhodaconsciencia.com.br`;
+3. repo institucional: `portal-caminho-da-consciencia`, Netlify, branch `main`;
+4. repo da Plataforma: `portal-caminho-da-consciencia-app` — definido, ainda a criar no PJ-03A;
+5. host da Plataforma: **1 projeto Vercel** — definido, ainda a criar/configurar;
+6. domínio da Plataforma: `app.portalcaminhodaconsciencia.com.br` — definido, DNS ainda a configurar;
+7. **MakerKit Lite — Modo A / Fundação Direta**, commit-base `c5cba64391a80620309c4178163dc2df42568d1b`, MIT, Template Copy;
+8. Turborepo preservado;
+9. runtime: Node.js 24.x + pnpm 11.18.0;
+10. lockfile upstream não é baseline; será regenerado a partir das specs estáveis;
+11. Next.js 16.3.0 e `@next/bundle-analyzer` 16.3.0 comprovados;
+12. **1 Supabase canônico de produção** para toda a Plataforma;
+13. Auth V1: Magic Link/passwordless ON; Password OFF; Google OAuth fora da V1; MFA disponível, não obrigatório;
+14. `/entrar` é a entrada pública canônica;
+15. CAPTCHA: local/test OFF; Preview conforme necessidade; Production com anti-abuso quando exposição justificar;
+16. shared kernel transversal + domínios privados por produto;
+17. `order ≠ payment ≠ entitlement ≠ enrollment ≠ progress ≠ completion ≠ delivery`;
+18. `contact_id` isolado não concede acesso autenticado;
+19. identity claiming exige token opaco forte, hash, TTL, uso único, ownership, idempotência e auditoria;
+20. Storage privado por padrão para entregas pessoais; persistir `object_path + metadata`, signed URL sob demanda e TTL curto;
+21. Pino mantido com PII redaction obrigatória antes de produção;
+22. e-mail: Supabase Auth + Resend SMTP para AUTH; Resend API/SDK para TRANSACTIONAL; Brevo para MARKETING;
+23. checkout externo via adapter; provider continua aberto;
+24. webhooks: assinatura, raw body quando necessário, event_id, idempotência e retry-safe;
+25. RLS por padrão com negative tests;
+26. analytics autenticado por allowlist de eventos; nunca conteúdo íntimo/PII;
+27. nenhum produto cria app, Vercel, Supabase, Auth ou fundação transversal paralelos;
 7. GitHub é fonte de verdade do código;
 8. Documento 06 — CURRENT é fonte do estado operacional;
 9. mobile first é obrigatório;
@@ -2408,7 +2688,7 @@ Atualizar este documento apenas quando houver mudança deliberada em:
 - regras de IA;
 - princípios de ambiente/deploy.
 
-Mudanças correntes pertencem ao CURRENT:
+A V2.2 incorpora a arquitetura definitivamente aprovada pelo PJ-02. Mudanças correntes pertencem ao CURRENT:
 
 - HEAD;
 - branch;
@@ -2430,12 +2710,12 @@ Toda revisão canônica deve registrar:
 - impacto nos demais documentos;
 - necessidade de migração técnica.
 
-# 109. Controle de versão — V2.1
+# 109. Controle de versão — V2.2
 
-**VERSÃO:** V2.1  
-**DATA:** 04/09/2026  
-**SUBSTITUI:** V2.0  
+**VERSÃO:** V2.2  
+**DATA:** 05/09/2026  
+**SUBSTITUI:** V2.1  
 **MOTIVO:** separar formalmente “não automatizar a Mesa” de “poder digitalizar o fluxo administrativo”, incorporando o formato assíncrono Sintonize, dados privados, delivery, D7, Brief de Encaminhamento e autorização informada.  
 **IMPACTO:** dados, privacidade, automações, pagamentos, IA, armazenamento e fronteira técnica da Sintonize.
 
-**Fim do Documento 05 — Arquitetura Técnica, Dados e Ecossistema Digital — V2.1.**
+**Fim do Documento 05 — Arquitetura Técnica, Dados e Ecossistema Digital — V2.2.**

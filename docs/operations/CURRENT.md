@@ -1,11 +1,11 @@
 # PORTAL CAMINHO DA CONSCIÊNCIA
-## Documento 06 — CURRENT, Decisões e Plano Operacional Vivo — V2.4
+## Documento 06 — CURRENT, Decisões e Plano Operacional Vivo — V2.5
 
 **STATUS:** documento operacional vivo  
-**DATA DE CORTE:** 04/09/2026  
+**DATA DE CORTE:** 05/09/2026  
 **HORIZONTE:** estado atual + próximos 7–14 dias  
 **FUNÇÃO:** manter Marcos, ChatGPT, Claude Code, Codex e demais agentes alinhados sobre o que é fato, o que está decidido, o que está pendente e qual é o próximo movimento  
-**SUBSTITUI:** Documento 06 — CURRENT — V2.3
+**SUBSTITUI:** Documento 06 — CURRENT — V2.4
 
 > **Onde estamos. O que já foi decidido. O que está pendente. Qual é o próximo movimento.**
 
@@ -111,7 +111,7 @@ Quando houver conflito:
 
 **Regra comercial:**
 
-> **dor visceral → consequências → travamento/bloqueio percebido → repetição → "de novo" → próximo passo.**
+> **dor visceral → consequências → travamento/bloqueio percebido → repetição → “de novo” → próximo passo.**
 
 ---
 
@@ -144,15 +144,35 @@ Modalidade ao vivo: **opcional**.
 
 ## Plataforma da Jornada / Meu Caminho
 
-Decisão transversal aprovada em 04/09/2026:
+**PJ-02 / ADR-PLATAFORMA-JORNADA-001: APROVADO.**
 
-- conceito: **Plataforma da Jornada**;
-- experiência autenticada: **Meu Caminho** (nome recomendado);
-- fundação escolhida para investigação: **MakerKit Lite + construção própria**;
-- estratégia: brownfield e incremental;
-- estado: **ARQUITETURA APROVADA / INVENTÁRIO PENDENTE / NÃO IMPLEMENTADO**;
-- próximo gate: **PJ-00 — Inventário e Convergência Arquitetural**;
-- nenhuma migração, novo repo, alteração de Supabase, auth, DNS ou deploy está autorizada antes do inventário/ADR.
+Decisões fechadas:
+
+- arquitetura: **1 Portal público + 1 Plataforma da Jornada**;
+- experiência autenticada V1: **Meu Caminho**;
+- repo institucional: `portal-caminho-da-consciencia` → Netlify → `portalcaminhodaconsciencia.com.br`;
+- repo app: `portal-caminho-da-consciencia-app` → Vercel → `app.portalcaminhodaconsciencia.com.br`;
+- MakerKit Lite: **Modo A — Fundação Direta**, commit `c5cba64391a80620309c4178163dc2df42568d1b`, MIT, Template Copy;
+- runtime: Node.js 24.x + pnpm 11.18.0 + Turborepo;
+- Supabase: **1 projeto canônico de produção para toda a Plataforma**;
+- Auth V1: Magic Link/passwordless ON; Password OFF; Google OAuth fora da V1;
+- shared kernel + domínios privados por produto;
+- Storage privado + signed URLs curtas;
+- e-mail: Supabase Auth/Resend SMTP + Resend transactional + Brevo marketing;
+- checkout externo por adapter;
+- RLS + negative tests obrigatórios;
+- Pino com PII redaction obrigatória antes de produção.
+
+Estado operacional:
+- arquitetura = aprovada;
+- repo app = definido, ainda não criado;
+- Vercel = definido, ainda não criado;
+- Supabase produção = definido, ainda não criado;
+- DNS app = definido, ainda não configurado;
+- Magic Link = aprovado, ainda não configurado em produção;
+- **DOC-SYNC CANÔNICO = APROVADO ✅**;
+- **DOC-GIT-01 = APROVADO ✅** — branch `docs/pj02-canonical-sync` publicada, SHA `c040d17`;
+- **PJ-03A = BLOQUEADO até merge do pacote documental em main e verificação**.
 
 ## Regra
 
@@ -164,10 +184,10 @@ Decisão transversal aprovada em 04/09/2026:
 
 ## Estado das principais ofertas
 
-1. **O Minuto Anterior** — SPEC MVP V1.0 criada; produto gratuito em fluxo próprio de construção/implementação.
-2. **ANTES DO APERTO** — SPEC V1.1; Gates **AA-00 Demanda ✅** e **AA-01 Oferta ✅**; construção restante em chat exclusivo.
-3. **Mapeamento Padrão Interrompido 2.0** — SPEC de design/oferta/operação criada; construção em chat exclusivo; preço vigente do produto atual: R$197 até nova decisão.
-4. **Sessão Individual Sintonize Prosperidade** — SPEC V1.0 + Addendum V1.1; `DESIGN_READY / PILOT_PENDING`.
+1. **O Minuto Anterior** — SPEC MVP V1.1; produto gratuito em fluxo próprio de construção/implementação.
+2. **ANTES DO APERTO** — SPEC MVP V1.2; Gates **AA-00 Demanda ✅** e **AA-01 Oferta ✅**; construção restante em chat exclusivo.
+3. **Mapeamento Padrão Interrompido 2.0** — SPEC V1.1; construção em chat exclusivo; preço vigente do produto atual: R$197 até nova decisão.
+4. **Sessão Individual Sintonize Prosperidade** — SPEC V1.0 + Addendum V1.1 + Integração V1.2; `DESIGN_READY / PILOT_PENDING`.
 5. **Ciclo Padrão Interrompido — 21 dias** — flagship futuro a pilotar depois da base operacional necessária.
 6. **Premium** — aprofundamento seletivo futuro.
 
@@ -209,7 +229,7 @@ Meta operacional de planejamento: **aproximadamente R$45–47 mil de receita**, 
 
 ## P0
 
-> **FECHAR O QUE JÁ ESTÁ EM EXECUÇÃO + MANTER PRODUTOS EM CHATS EXCLUSIVOS + COLOCAR O CALENDÁRIO DE CONTEÚDO EM PRODUÇÃO + EXECUTAR PJ-00 EM TRILHA PARALELA, SEM REESCREVER OS PRODUTOS.**
+> **CONCLUIR E AUDITAR O DOC-SYNC PÓS-PJ-02 + MANTER PRODUTOS EM CHATS EXCLUSIVOS + COLOCAR O CALENDÁRIO DE CONTEÚDO EM PRODUÇÃO. PJ-03A PERMANECE BLOQUEADO ATÉ APROVAÇÃO DOCUMENTAL.**
 
 Para Sintonize, a ordem é:
 
@@ -238,8 +258,8 @@ Porta 2 permanece forte para conversão; Porta 1 pode captar intenção direta p
 | Documento | Versão vigente | Estado |
 |---|---:|---|
 | 00 — Governança Conceitual | V1.3 | mantido |
-| 01 — Fundacional Estratégico | **V4.4** | Plataforma da Jornada incorporada estrategicamente |
-| 02 — Jornada, Produtos e Serviços | **V2.4** | Meu Caminho incorporado como camada transversal |
+| 01 — Fundacional Estratégico | **V4.5** | arquitetura PJ-02 incorporada estrategicamente |
+| 02 — Jornada, Produtos e Serviços | **V2.5** | Meu Caminho incorporado como camada transversal |
 | 02.A — Framework de Produtos | V1.0 | mantido |
 | 03 — Editorial e Aquisição | V2.2 | mantido |
 | 03.A — Percepção Antes da Explicação | V1.0 | mantido |
@@ -249,24 +269,34 @@ Porta 2 permanece forte para conversão; Porta 1 pode captar intenção direta p
 | 03.E — Execução Editorial | V1.1 | mantido |
 | 03.F — Páginas / Oferta / Conversão | V1.0 | mantido |
 | 04 — Identidade e Comunicação | V2.3 | mantido |
-| 05 — Arquitetura Técnica | V2.1 | **aguarda PJ-00/PJ-02 antes de nova versão** |
-| 06 — CURRENT | **V2.4** | este arquivo |
+| 05 — Arquitetura Técnica | **V2.2** | arquitetura definitiva pós-PJ-02 |
+| 06 — CURRENT | **V2.5** | este arquivo |
 
-**SPEC transversal vigente:** Plataforma da Jornada **Meu Caminho** — MakerKit Lite + Construção Própria — V1.0.
+**SPEC transversal vigente:** Plataforma da Jornada **Meu Caminho** — Arquitetura de Execução Aprovada — **V1.1**.
 
-Não criar novo documento canônico numerado para a Plataforma da Jornada. A SPEC transversal governa a investigação técnica até o ADR/PJ-02.
+**SPECs de produto reconciliadas nesta rodada:**
+- O Minuto Anterior — V1.1;
+- ANTES DO APERTO — V1.2;
+- Mapeamento Padrão Interrompido 2.0 — V1.1;
+- Sintonize — SPEC V1.0 + Addendum V1.1 + Addendum de Integração V1.2.
+
+Não criar novo Documento 07. A SPEC transversal V1.1 governa a execução técnica em conjunto com o Documento 05 V2.2 e o ADR aprovado.
 
 ---
 
 # 6. Estado de incorporação no repositório
 
-**GATE DOC-SYNC — Meu Caminho — APROVADO ✅**
+As versões canônicas foram versionadas no repositório via DOC-GIT-01 APROVADO ✅. Branch `docs/pj02-canonical-sync`, commit `c040d1799c1dbb6529760c4c5a8017b85695eb15`, auditada e pendente de merge em main.
 
-- branch: `docs/meu-caminho-doc-sync`
-- HEAD do merge em `main`: `460ec42babfc93b1824f65f992a85f84017cc8b3`
-- arquivos alterados: `01-fundacional-estrategico.md` (V4.3→V4.4), `02-jornada-produtos-servicos-protocolos.md` (V2.3→V2.4), `CURRENT.md` (V2.3→V2.4)
-- working tree: limpo
-- deploy: nenhum (docs-only)
+Estado atual:
+
+- 01 V4.5, 02 V2.5, 05 V2.2, SPEC Transversal V1.1, ADR APROVADO, SPECs dos quatro produtos: todos commitados;
+- CURRENT V2.5: versionado;
+- merge em main: pendente de autorização pós-auditoria;
+- PJ-03A: bloqueado até merge verificado.
+- atualizar README documental se aplicável;
+- atualizar CURRENT com commit/HEAD real;
+- working tree limpo ao final.
 
 ---
 
@@ -356,24 +386,36 @@ Reabrir quando houver decisão deliberada de investir em tráfego pago.
 
 ---
 
-## PJ-00 — Plataforma da Jornada — Inventário e Convergência
+## Gates Plataforma da Jornada
 
-**STATUS:** READY TO EXECUTE / READ-ONLY
+```text
+PJ-00       ✅ APROVADO
+PJ-00Δ      ✅ APROVADO
+PJ-01       ✅ APROVADO
+PJ-01V      ✅ APROVADO
+PJ-01V.1    ✅ APROVADO
+PJ-02       ✅ APROVADO
+ADR         ✅ APROVADO
+```
 
-Objetivo:
+**Estado atual:** DOC-SYNC CANÔNICO APROVADO ✅. DOC-GIT-01 APROVADO ✅.
 
-- inventariar repos, apps, Vercel, Supabase, schemas, migrations, auth, contacts, consents, storage, pagamentos, webhooks, e-mails e integrações dos quatro produtos;
-- identificar duplicações e componentes reutilizáveis;
-- recomendar Modo A/B/C de adoção do MakerKit Lite;
-- produzir `PJ-00_INVENTARIO_ARQUITETURAL.md`.
+**Próximo gate técnico:** PJ-03A — Bootstrap local.
 
-**Proibido neste gate:** criar/migrar infraestrutura, instalar MakerKit em produção, alterar DNS, refatorar auth, mover produto ou aplicar migrations.
+**Gate:** BLOQUEADO até: merge do pacote documental (`docs/pj02-canonical-sync`) em main e verificação do merge.
 
-Próxima sequência:
+Sequência posterior:
 
-> **PJ-00 → PJ-01 → PJ-02**
+```text
+PJ-03A — Bootstrap local
+PJ-03B — Supabase Foundation
+PJ-03C — Vercel Preview
+PJ-03D — Identity/Auth Core
+PJ-04  — Security / Shared Kernel
+Integration Contracts dos produtos
+```
 
-Somente após ADR aprovado começar refactor transversal.
+Não iniciar PJ-03A nesta rodada.
 
 ---
 
@@ -424,7 +466,7 @@ Consequência:
 
 **FECHADO:**
 
-> **Marcos não adotará "terapeuta" como identidade profissional pública.**
+> **Marcos não adotará “terapeuta” como identidade profissional pública.**
 
 Posicionamento-base:
 
@@ -695,27 +737,19 @@ Objetivo futuro:
 
 # PARTE VII — PRIORIDADES DOS PRÓXIMOS 7–14 DIAS
 
-# 23. P0 — Sincronizar documentação canônica
+# 23. CONCLUÍDO — Sincronizar documentação canônica
 
-- confirmar que o DOC-SYNC anterior da Sintonize foi incorporado corretamente ao repositório;
-- incorporar **Documento 01 V4.4**, **Documento 02 V2.4** e **CURRENT V2.4** em mudança docs-only;
-- preservar 00 V1.3, 02.A V1.0, família 03 vigente, 04 V2.3 e 05 V2.1;
-- revisar links/referências ativas que apontem para 01 V4.3, 02 V2.3 ou CURRENT V2.3;
-- **não criar Documento 05 V2.2 antes de PJ-00/PJ-02**.
+DOC-SYNC canônico pós-PJ-02 executado e aprovado. Pacote entregue via DOC-GIT-01:
+- 01 V4.5, 02 V2.5, 05 V2.2, SPEC Transversal V1.1, ADR APROVADO, SPECs dos quatro produtos e CURRENT V2.5 commitados em `docs/pj02-canonical-sync`;
+- auditoria ChatGPT concluída com PASS WITH MINOR PATCHES;
+- micro-patch DOC-GIT-01A aplicado;
+- merge em main pendente de autorização.
 
 ---
 
-# 24. P0 — Plataforma da Jornada — PJ-00
+# 24. CONCLUÍDO — DOC-SYNC PÓS-PJ-02
 
-Executar em trilha paralela, sem interromper os chats de produto:
-
-- inventário somente leitura;
-- nenhum novo repo por suposição;
-- nenhum MakerKit instalado em produção;
-- nenhum Supabase/schema/auth alterado;
-- mapear os quatro produtos e contratos transversais;
-- recomendar Modo A/B/C;
-- produzir inventário e parar para decisão.
+DOC-SYNC APROVADO ✅. DOC-GIT-01 APROVADO ✅. Branch publicada. Aguardando merge em main para desbloqueio do PJ-03A.
 
 ---
 
@@ -792,7 +826,7 @@ Preço inicial de referência: **R$97**, ainda sujeito ao teste.
 - Porta 2 = prioridade comercial;
 - Porta 3 = forte porta orgânica de aprofundamento;
 - Porta 1 pode converter diretamente para Sintonize quando a oferta estiver live;
-- "bloqueio/travamento" = linguagem percebida, não diagnóstico;
+- “bloqueio/travamento” = linguagem percebida, não diagnóstico;
 - Sintonize = metodologia específica e oferta de intervenção possível, não componente obrigatório do Mapeamento;
 - Sessão Individual Sintonize = `DESIGN_READY / PILOT_PENDING`;
 - Sintonize padrão = assíncrona, manual, individual e à distância;
@@ -808,12 +842,17 @@ Preço inicial de referência: **R$97**, ainda sujeito ao teste.
 - Mapeamento 2.0 possui SPEC e construção em fluxo próprio;
 - Ciclo PI 21 dias = flagship futuro a validar;
 - não criar novos protocolos autorais sem base de casos suficiente.
-- Plataforma da Jornada = decisão transversal aprovada;
-- Meu Caminho = nome recomendado da experiência autenticada;
+- Plataforma da Jornada = arquitetura transversal aprovada;
+- Meu Caminho = nome aprovado da experiência autenticada V1;
 - Meu Caminho não é novo produto nem nova etapa da Jornada;
-- MakerKit Lite + construção própria = fundação escolhida para investigação, não instalação autorizada;
-- adoção = brownfield, por gates;
-- PJ-00 é somente inventário/convergência;
+- MakerKit Lite = Modo A / Fundação Direta;
+- commit-base = `c5cba64391a80620309c4178163dc2df42568d1b`;
+- 2 repos = institucional + app;
+- 1 projeto Vercel para a Plataforma;
+- 1 Supabase canônico de produção;
+- Auth V1 = Magic Link/passwordless;
+- PJ-02/ADR = aprovado;
+- PJ-03A = bloqueado até DOC-SYNC aprovado;
 - O Minuto Anterior continua sem login obrigatório antes do valor;
 - ANTES DO APERTO é primeiro candidato forte ao shell autenticado completo;
 - dados íntimos continuam separados por domínio;
@@ -832,7 +871,7 @@ Preço inicial de referência: **R$97**, ainda sujeito ao teste.
 - agenda do ao vivo;
 - política final de cancelamento/reagendamento;
 - política de retenção do conteúdo privado;
-- Modo A/B/C de adoção do MakerKit Lite;
+- detalhes de implementação dos packages e migrations por gate, sem reabrir o Modo A aprovado;
 - repo/monorepo definitivo da Plataforma;
 - projeto Supabase definitivo/compartilhamento após inventário;
 - modelo final de auth e identity linking;
@@ -1084,7 +1123,7 @@ Nenhum agente está autorizado, sem nova decisão explícita, a:
 | Data | Decisão / evento | Estado | Impacto |
 |---|---|---|---|
 | 30/08/2026 | Marca alterada para Portal Caminho da Consciência | FECHADO | marca, docs, site e repo |
-| 30/08/2026 | "Caminho" permanece singular | FECHADO | posicionamento |
+| 30/08/2026 | “Caminho” permanece singular | FECHADO | posicionamento |
 | 30/08/2026 | Padrão Interrompido permanece método autoral | FECHADO | produtos e conteúdo |
 | 31/08/2026 | Gate R1 concluído | EXECUTADO | migração/fundação |
 | 31/08/2026 | Domínio principal definido e publicado | EXECUTADO | SEO, site e marca |
@@ -1093,7 +1132,7 @@ Nenhum agente está autorizado, sem nova decisão explícita, a:
 | 01/09/2026 | Gate R3B aprovado | EXECUTADO | conversão secundária Ads |
 | 01/09/2026 | R3C Search adiado | FECHADO COMO PRIORIDADE | mídia paga |
 | 01/09/2026 | Acesso oficial à Sintonize confirmado | FATO | formação e futuro produto |
-| 01/09/2026 | Marcos não usará "terapeuta" publicamente | FECHADO | comunicação |
+| 01/09/2026 | Marcos não usará “terapeuta” publicamente | FECHADO | comunicação |
 | 01/09/2026 | Documento 00 adotado | FECHADO | governança e PI |
 | 01/09/2026 | 8 Prosperidades corrigidas como estrutura Sintonize | FECHADO | método, produto e conteúdo |
 | 01/09/2026 | Sintonize não será digitalizada | FECHADO | tecnologia e PI |
@@ -1110,6 +1149,9 @@ Nenhum agente está autorizado, sem nova decisão explícita, a:
 | 04/09/2026 | Registro + áudio + integração + D7 definidos como entrega padrão | FECHADO | experiência Sintonize |
 | 04/09/2026 | Rotas direta e pós-Mapeamento definidas | FECHADO | jornada e message match |
 | 04/09/2026 | Protocolos derivados congelados até validação + DOC-SYNC | FECHADO | governança |
+| 05/09/2026 | PJ-02 / ADR-PLATAFORMA-JORNADA-001 aprovado | FECHADO | arquitetura definitiva da Plataforma |
+| 05/09/2026 | DOC-SYNC canônico pós-PJ-02 | APROVADO | documentação |
+| 05/09/2026 | DOC-GIT-01 — branch docs/pj02-canonical-sync publicada | APROVADO | documentação |
 
 ---
 
@@ -1129,7 +1171,7 @@ Finalizar preparação e colocar o Calendário de Conteúdos em produção, mant
 
 ### Trilha C — convergência transversal
 
-Executar agora **PJ-00 — Inventário e Convergência Arquitetural**, somente leitura. Depois, PJ-01 e PJ-02 definirão a adoção real do MakerKit Lite e os contratos transversais.
+Concluir e auditar este **DOC-SYNC CANÔNICO PÓS-PJ-02**. Somente após aprovação documental, commit e push liberar **PJ-03A — Bootstrap local**.
 
 > **Produto continua andando. Convergência evita duplicação. Nenhuma implementação transversal antes do inventário/ADR.**
 
@@ -1192,12 +1234,12 @@ Deve permanecer:
 
 ---
 
-# 49. Controle de versão — V2.4
+# 49. Controle de versão — V2.5
 
-**VERSÃO:** V2.4  
-**DATA:** 04/09/2026  
-**SUBSTITUI:** V2.3  
-**MOTIVO:** registrar a decisão transversal aprovada da Plataforma da Jornada / Meu Caminho e abrir PJ-00 sem transformar arquitetura futura em estado implementado.  
-**IMPACTO:** snapshot, prioridades, versões canônicas, gates, decision log e regras de execução. Documento 05 permanece V2.1 até PJ-00/PJ-02.
+**VERSÃO:** V2.5  
+**DATA:** 05/09/2026  
+**SUBSTITUI:** V2.4  
+**MOTIVO:** reconciliar o estado operacional após aprovação do PJ-02 / ADR-PLATAFORMA-JORNADA-001 e registrar o DOC-SYNC e DOC-GIT-01 como aprovados; PJ-03A bloqueado até merge em main.  
+**IMPACTO:** snapshot, versões canônicas, gates, decisões técnicas fechadas, sequência pós-ADR e contratos transversais dos produtos.
 
-> **Fim do Documento 06 — CURRENT, Decisões e Plano Operacional Vivo — V2.4.**
+> **Fim do Documento 06 — CURRENT, Decisões e Plano Operacional Vivo — V2.5.**
