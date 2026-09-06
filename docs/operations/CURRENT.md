@@ -150,7 +150,7 @@ Decisão transversal aprovada em 04/09/2026:
 - experiência autenticada: **Meu Caminho** (nome recomendado);
 - fundação: **MakerKit Lite + construção própria** — Modo A (Fundação Direta);
 - estratégia: brownfield e incremental;
-- estado: **PJ-03C CONCLUÍDO — PREVIEW VERCEL ATIVO — aguardando aprovação de Marcos**;
+- estado: **PJ-03C APROVADO ✅ ENCERRADO — PREVIEW VERCEL ATIVO — main `4349c1c`**;
 - ADR: `docs/adr/ADR-PLATAFORMA-JORNADA-001.md` — aprovado em 05/09/2026 (ChatGPT);
 - repo da Plataforma: `https://github.com/marvin-ds/portal-caminho-da-consciencia-app`;
 - branch de feature: `feat/pj03c-vercel-preview` (HEAD: 375a239);
@@ -485,10 +485,11 @@ Entregável: `docs/adr/ADR-PLATAFORMA-JORNADA-001.md` (arquivo local, não commi
 
 ## PJ-03C — Vercel Preview
 
-**STATUS:** CONCLUÍDO TECNICAMENTE — AGUARDANDO APROVAÇÃO DE MARCOS ⏳
+**STATUS:** GATE PJ-03C — APROVADO ✅ — ENCERRADO (06/09/2026)
 
-- Branch: `feat/pj03c-vercel-preview`
-- HEAD: `375a239` (LOCAL=REMOTE ✅)
+- Branch: `feat/pj03c-vercel-preview` → mergeada em `main` ✅
+- HEAD final da main: `4349c1c924844c475b4e3a1f7b2d776dc36b190e`
+- LOCAL=REMOTE: MATCH=YES ✅
 - Preview URL: `https://portal-caminho-da-consciencia-2iishxf3g-marvin-ds-projects.vercel.app`
 - Deployment ID: `dpl_9Y17QuuAMY8DepbvVGRpQbefaWqM` — READY ✅
 - Node 24.x + pnpm 11.18.0 + Turborepo ✅
@@ -496,9 +497,7 @@ Entregável: `docs/adr/ADR-PLATAFORMA-JORNADA-001.md` (arquivo local, não commi
 - Target: Preview (não production) ✅
 - Domínio customizado: NÃO configurado ✅
 - Supabase cloud: NÃO usado ✅
-- Restrições PJ-03C: todas mantidas ✅
 - Documentação: `docs/operations/PJ-03C_VERCEL_PREVIEW.md` (app repo)
-- NÃO mergeado em main — aguarda aprovação de Marcos
 
 ---
 
@@ -1243,7 +1242,7 @@ Nenhum agente está autorizado, sem nova decisão explícita, a:
 | 05/09/2026 | Modo A — Fundação Direta | FECHADO ✅ | MakerKit Lite MIT, Next.js 16.3.0, Supabase, Magic Link |
 | 05/09/2026 | PJ-03A — Bootstrap repo Plataforma | APROVADO ✅ | repo privado criado; byte-equivalent ao upstream; main publicada |
 | 05/09/2026 | PJ-03B — Supabase Foundation Local | APROVADO ✅ | reset, RLS 7/7, typegen, build 20 rotas; mergeado em main |
-| 06/09/2026 | PJ-03C — Vercel Preview | CONCLUÍDO ⏳ APROVAÇÃO | 21 rotas, Node 24, pnpm 11.18, Turborepo; Preview URL ativa |
+| 06/09/2026 | PJ-03C — Vercel Preview | APROVADO ✅ ENCERRADO | 21 rotas, Node 24, pnpm 11.18, Turborepo; main HEAD 4349c1c |
 
 ---
 
@@ -1263,14 +1262,20 @@ Finalizar preparação e colocar o Calendário de Conteúdos em produção, mant
 
 ### Trilha C — convergência transversal
 
-PJ-00 ✅, PJ-01 ✅, PJ-01V ✅, PJ-01V.1 ✅, PJ-02 ✅, PJ-03A ✅, PJ-03B ✅, PJ-03C ⏳ — concluídos / em aprovação.
+PJ-00 ✅, PJ-01 ✅, PJ-01V ✅, PJ-01V.1 ✅, PJ-02 ✅, PJ-03A ✅, PJ-03B ✅, PJ-03C ✅ — todos concluídos.
 
-**Próximo passo imediato:** Aprovação de Marcos para o PJ-03C.
+**Baseline canônica atual da Plataforma:**
+- repo: `https://github.com/marvin-ds/portal-caminho-da-consciencia-app`
+- branch: `main`
+- HEAD: `4349c1c924844c475b4e3a1f7b2d776dc36b190e`
 
-Após aprovação:
-1. Merge `feat/pj03c-vercel-preview` → `main` (app repo)
-2. Registrar SHA final da main
-3. Abrir PJ-03D — Auth (Supabase Auth + Magic Link + RLS em Preview)
+**Próximo gate:** PJ-03D — Identity/Auth Core
+- Magic Link / passwordless em ambiente Preview isolado
+- Rota `/entrar` (adaptação de `/auth/sign-in`)
+- Identidade / ownership / RLS
+- SEM Supabase de produção
+- SEM configurar domínio customizado
+- SEM iniciar PJ-03E ou produtos
 
 # 45. O que acontece depois
 
