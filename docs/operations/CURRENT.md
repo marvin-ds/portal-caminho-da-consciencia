@@ -173,7 +173,7 @@ Estado operacional:
 - **DOC-SYNC CANÔNICO = APROVADO ✅**;
 - **DOC-GIT-01 = APROVADO ✅** — branch `docs/pj02-canonical-sync` publicada, SHA `c040d17`;
 - **PJ-03A = APROVADO ✅** — provenance byte-equivalente ao upstream `c5cba64`; baseline local canônica aprovada 06/09/2026; commits `61db6ba` (provenance) e `3d62a41` (bootstrap).
-- **PUBLICAÇÃO CONTROLADA DO REPO = PENDENTE** — aguardando autorização explícita para criar `marvin-ds/portal-caminho-da-consciencia-app` e publicar baseline.
+- **PUBLICAÇÃO CONTROLADA DO REPO = APROVADO ✅** — `marvin-ds/portal-caminho-da-consciencia-app` criado PRIVATE; `main` publicada 06/09/2026; LOCAL=REMOTE `3d62a41`; read-back 2 commits verificados.
 
 ## Regra
 
