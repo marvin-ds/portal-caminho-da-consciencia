@@ -172,7 +172,8 @@ Estado operacional:
 - Magic Link = aprovado, ainda não configurado em produção;
 - **DOC-SYNC CANÔNICO = APROVADO ✅**;
 - **DOC-GIT-01 = APROVADO ✅** — branch `docs/pj02-canonical-sync` publicada, SHA `c040d17`;
-- **PJ-03A = BLOQUEADO até merge do pacote documental em main e verificação**.
+- **PJ-03A = APROVADO ✅** — provenance byte-equivalente ao upstream `c5cba64`; baseline local canônica aprovada 06/09/2026; commits `61db6ba` (provenance) e `3d62a41` (bootstrap).
+- **PUBLICAÇÃO CONTROLADA DO REPO = PENDENTE** — aguardando autorização explícita para criar `marvin-ds/portal-caminho-da-consciencia-app` e publicar baseline.
 
 ## Regra
 
@@ -229,7 +230,7 @@ Meta operacional de planejamento: **aproximadamente R$45–47 mil de receita**, 
 
 ## P0
 
-> **CONCLUIR E AUDITAR O DOC-SYNC PÓS-PJ-02 + MANTER PRODUTOS EM CHATS EXCLUSIVOS + COLOCAR O CALENDÁRIO DE CONTEÚDO EM PRODUÇÃO. PJ-03A PERMANECE BLOQUEADO ATÉ APROVAÇÃO DOCUMENTAL.**
+> **PJ-03A APROVADO ✅. PRÓXIMO: PUBLICAÇÃO CONTROLADA DO REPO `marvin-ds/portal-caminho-da-consciencia-app` (requer autorização explícita) → PJ-03B. MANTER PRODUTOS EM CHATS EXCLUSIVOS. COLOCAR O CALENDÁRIO DE CONTEÚDO EM PRODUÇÃO.**
 
 Para Sintonize, a ordem é:
 
@@ -293,7 +294,7 @@ Estado atual:
 - 01 V4.5, 02 V2.5, 05 V2.2, SPEC Transversal V1.1, ADR APROVADO, SPECs dos quatro produtos: todos commitados;
 - CURRENT V2.5: versionado;
 - merge em main: pendente de autorização pós-auditoria;
-- PJ-03A: bloqueado até merge verificado.
+- PJ-03A: APROVADO ✅ — baseline local aprovada 06/09/2026.
 - atualizar README documental se aplicável;
 - atualizar CURRENT com commit/HEAD real;
 - working tree limpo ao final.
@@ -398,11 +399,11 @@ PJ-02       ✅ APROVADO
 ADR         ✅ APROVADO
 ```
 
-**Estado atual:** DOC-SYNC CANÔNICO APROVADO ✅. DOC-GIT-01 APROVADO ✅.
+**Estado atual:** DOC-SYNC CANÔNICO APROVADO ✅. DOC-GIT-01 APROVADO ✅. DOC-GIT-02 APROVADO ✅. PJ-03A APROVADO ✅.
 
-**Próximo gate técnico:** PJ-03A — Bootstrap local.
+**Próximo gate técnico:** PUBLICAÇÃO CONTROLADA DO REPO — criar `marvin-ds/portal-caminho-da-consciencia-app` e publicar baseline PJ-03A. Requer autorização explícita.
 
-**Gate:** BLOQUEADO até: merge do pacote documental (`docs/pj02-canonical-sync`) em main e verificação do merge.
+**Após publicação verificada:** PJ-03B — Supabase Foundation.
 
 Sequência posterior:
 
@@ -415,7 +416,7 @@ PJ-04  — Security / Shared Kernel
 Integration Contracts dos produtos
 ```
 
-Não iniciar PJ-03A nesta rodada.
+PJ-03A APROVADO ✅ — 06/09/2026. Provenance TREE_MATCH=YES. Próximo: Publicação Controlada do Repo (autorização pendente).
 
 ---
 
@@ -749,7 +750,7 @@ DOC-SYNC canônico pós-PJ-02 executado e aprovado. Pacote entregue via DOC-GIT-
 
 # 24. CONCLUÍDO — DOC-SYNC PÓS-PJ-02
 
-DOC-SYNC APROVADO ✅. DOC-GIT-01 APROVADO ✅. Branch publicada. Aguardando merge em main para desbloqueio do PJ-03A.
+DOC-SYNC APROVADO ✅. DOC-GIT-01 APROVADO ✅. DOC-GIT-02 APROVADO ✅. PJ-03A APROVADO ✅ — 06/09/2026. Baseline local `portal-caminho-da-consciencia-app` aprovada. Próximo: Publicação Controlada do Repo (autorização pendente).
 
 ---
 
@@ -852,7 +853,7 @@ Preço inicial de referência: **R$97**, ainda sujeito ao teste.
 - 1 Supabase canônico de produção;
 - Auth V1 = Magic Link/passwordless;
 - PJ-02/ADR = aprovado;
-- PJ-03A = bloqueado até DOC-SYNC aprovado;
+- PJ-03A = APROVADO ✅ — baseline local canônica aprovada 06/09/2026;
 - O Minuto Anterior continua sem login obrigatório antes do valor;
 - ANTES DO APERTO é primeiro candidato forte ao shell autenticado completo;
 - dados íntimos continuam separados por domínio;
@@ -1239,7 +1240,7 @@ Deve permanecer:
 **VERSÃO:** V2.5  
 **DATA:** 05/09/2026  
 **SUBSTITUI:** V2.4  
-**MOTIVO:** reconciliar o estado operacional após aprovação do PJ-02 / ADR-PLATAFORMA-JORNADA-001 e registrar o DOC-SYNC e DOC-GIT-01 como aprovados; PJ-03A bloqueado até merge em main.  
+**MOTIVO:** registrar PJ-03A APROVADO ✅ (06/09/2026), DOC-GIT-02 APROVADO ✅, e abertura do gate de Publicação Controlada do Repo como próximo passo obrigatório antes do PJ-03B.  
 **IMPACTO:** snapshot, versões canônicas, gates, decisões técnicas fechadas, sequência pós-ADR e contratos transversais dos produtos.
 
 > **Fim do Documento 06 — CURRENT, Decisões e Plano Operacional Vivo — V2.5.**
