@@ -230,7 +230,7 @@ Meta operacional de planejamento: **aproximadamente R$45–47 mil de receita**, 
 
 ## P0
 
-> **PJ-03A APROVADO ✅. PRÓXIMO: PUBLICAÇÃO CONTROLADA DO REPO `marvin-ds/portal-caminho-da-consciencia-app` (requer autorização explícita) → PJ-03B. MANTER PRODUTOS EM CHATS EXCLUSIVOS. COLOCAR O CALENDÁRIO DE CONTEÚDO EM PRODUÇÃO.**
+> **PJ-03B APROVADO ✅. PRÓXIMO: PJ-03C — Vercel Preview (requer autorização explícita de Marcos). MANTER PRODUTOS EM CHATS EXCLUSIVOS. COLOCAR O CALENDÁRIO DE CONTEÚDO EM PRODUÇÃO.**
 
 Para Sintonize, a ordem é:
 
@@ -399,24 +399,23 @@ PJ-02       ✅ APROVADO
 ADR         ✅ APROVADO
 ```
 
-**Estado atual:** DOC-SYNC CANÔNICO APROVADO ✅. DOC-GIT-01 APROVADO ✅. DOC-GIT-02 APROVADO ✅. PJ-03A APROVADO ✅.
+**Estado atual:** DOC-SYNC CANÔNICO APROVADO ✅. DOC-GIT-01 APROVADO ✅. DOC-GIT-02 APROVADO ✅. PJ-03A APROVADO ✅. PUBLICAÇÃO CONTROLADA APROVADA ✅. PJ-03B APROVADO ✅.
 
-**Próximo gate técnico:** PUBLICAÇÃO CONTROLADA DO REPO — criar `marvin-ds/portal-caminho-da-consciencia-app` e publicar baseline PJ-03A. Requer autorização explícita.
-
-**Após publicação verificada:** PJ-03B — Supabase Foundation.
+**Próximo gate técnico:** PJ-03C — Vercel Preview (requer autorização explícita de Marcos).
 
 Sequência posterior:
 
 ```text
-PJ-03A — Bootstrap local
-PJ-03B — Supabase Foundation
-PJ-03C — Vercel Preview
+PJ-03A — Bootstrap local                 ✅ APROVADO 06/09/2026
+PUBLICAÇÃO CONTROLADA — GitHub           ✅ APROVADO 06/09/2026
+PJ-03B — Supabase Foundation             ✅ APROVADO 06/09/2026
+PJ-03C — Vercel Preview                  ⏳ AGUARDANDO AUTORIZAÇÃO
 PJ-03D — Identity/Auth Core
 PJ-04  — Security / Shared Kernel
 Integration Contracts dos produtos
 ```
 
-PJ-03A APROVADO ✅ — 06/09/2026. Provenance TREE_MATCH=YES. Próximo: Publicação Controlada do Repo (autorização pendente).
+PJ-03B APROVADO ✅ — 06/09/2026. DB reset PASS. RLS 7/7 PASS (negativos obrigatórios confirmados: anon bloqueado, cross-user bloqueado). Types gerados. typecheck 8/8 PASS. Build PASS. REAL_SECRETS=0. Branch `feat/pj03b-supabase-foundation` HEAD `8a34d3b162a33046009e9588027d483fa6527d90` publicada em `marvin-ds/portal-caminho-da-consciencia-app`. LOCAL=REMOTE MATCH=YES.
 
 ---
 
