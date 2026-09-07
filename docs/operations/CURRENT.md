@@ -5,7 +5,7 @@
 **DATA DE CORTE:** 07/09/2026  
 **HORIZONTE:** estado atual + próximos 7–14 dias  
 **FUNÇÃO:** manter Marcos, ChatGPT, Claude Code, Codex e demais agentes alinhados sobre o que é fato, o que está decidido, o que está pendente e qual é o próximo movimento  
-**SUBSTITUI:** Documento 06 — CURRENT — V2.5
+**SUBSTITUI:** Documento 06 — CURRENT — V2.7
 
 > **Onde estamos. O que já foi decidido. O que está pendente. Qual é o próximo movimento.**
 
