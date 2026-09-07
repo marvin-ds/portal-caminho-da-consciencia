@@ -150,13 +150,13 @@ Decisão transversal aprovada em 04/09/2026:
 - experiência autenticada: **Meu Caminho** (nome recomendado);
 - fundação: **MakerKit Lite + construção própria** — Modo A (Fundação Direta);
 - estratégia: brownfield e incremental;
-- estado: **PJ-03C APROVADO ✅ ENCERRADO — PREVIEW VERCEL ATIVO — main `4349c1c`**;
+- estado: **PJ-03D FECHADO ✅ — aguardando aprovação de Marcos para merge em main**;
 - ADR: `docs/adr/ADR-PLATAFORMA-JORNADA-001.md` — aprovado em 05/09/2026 (ChatGPT);
 - repo da Plataforma: `https://github.com/marvin-ds/portal-caminho-da-consciencia-app`;
-- branch de feature: `feat/pj03c-vercel-preview` (HEAD: 375a239);
+- branch de feature: `feat/pj03d-identity-auth` (HEAD: `25708c2`);
 - Preview URL: `https://portal-caminho-da-consciencia-2iishxf3g-marvin-ds-projects.vercel.app`;
-- main da Plataforma: HEAD `2b8d8dd114c8a1c3ce8bde1c80e148141c5003de` (PJ-03B mergeado);
-- próximo gate: **PJ-03C merger em main** (após aprovação) → **PJ-03D Auth**.
+- main da Plataforma: HEAD `4349c1c924844c475b4e3a1f7b2d776dc36b190e` (PJ-03C mergeado);
+- próximo gate: **aprovação PJ-03D → merge em main → PJ-04**.
 
 ## Regra
 
@@ -1243,6 +1243,7 @@ Nenhum agente está autorizado, sem nova decisão explícita, a:
 | 05/09/2026 | PJ-03A — Bootstrap repo Plataforma | APROVADO ✅ | repo privado criado; byte-equivalent ao upstream; main publicada |
 | 05/09/2026 | PJ-03B — Supabase Foundation Local | APROVADO ✅ | reset, RLS 7/7, typegen, build 20 rotas; mergeado em main |
 | 06/09/2026 | PJ-03C — Vercel Preview | APROVADO ✅ ENCERRADO | 21 rotas, Node 24, pnpm 11.18, Turborepo; main HEAD 4349c1c |
+| 07/09/2026 | PJ-03D — Identity/Auth Core | FECHADO ✅ aguard. merge | Magic Link E2E, claim service, redirect security, ownership guard; HEAD 25708c2 |
 
 ---
 
@@ -1266,12 +1267,12 @@ PJ-00 ✅, PJ-01 ✅, PJ-01V ✅, PJ-01V.1 ✅, PJ-02 ✅, PJ-03A ✅, PJ-03B �
 
 **Baseline canônica atual da Plataforma:**
 - repo: `https://github.com/marvin-ds/portal-caminho-da-consciencia-app`
-- branch: `main`
-- HEAD: `4349c1c924844c475b4e3a1f7b2d776dc36b190e`
+- branch feature: `feat/pj03d-identity-auth` — HEAD `25708c2`
+- main HEAD: `4349c1c924844c475b4e3a1f7b2d776dc36b190e`
 
-**Próximo gate:** PJ-03D — Identity/Auth Core
-- Magic Link / passwordless em ambiente Preview isolado
-- Rota `/entrar` (adaptação de `/auth/sign-in`)
+**Gate atual:** PJ-03D — Identity/Auth Core — FECHADO, aguardando aprovação de Marcos
+- Magic Link E2E + security boundaries (PJ-03D-R + PJ-03D-R2) concluídos
+- Próxima ação: aprovação de Marcos → merge `feat/pj03d-identity-auth` → main → abrir PJ-04
 - Identidade / ownership / RLS
 - SEM Supabase de produção
 - SEM configurar domínio customizado
