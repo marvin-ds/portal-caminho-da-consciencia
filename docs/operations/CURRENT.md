@@ -181,7 +181,7 @@ Estado operacional:
 - Preview URL: `https://portal-caminho-da-consciencia-6wudy41k4-marvin-ds-projects.vercel.app`.
 - **PJ-04-00 = APROVADO ✅** (07/09/2026) — Inventário arquitetural e plano de execução; decisões: Eduzz, sem webhook stub, nomes canônicos SPEC; sequência PJ-04-01→02→03 aprovada.
 - **PJ-04-01 = APROVADO ✅ INTEGRADO** (07/09/2026) — guard `type=recovery` em `/auth/confirm`; E2E skip V1 contract; PR #1 mergeado; deploy guard `main=false` ativo; main HEAD `ab6c7de`.
-- **PJ-04-02 = EM ANDAMENTO** (07/09/2026) — Commerce Eduzz + Access; branch `feat/pj04-02-commerce-access` HEAD `690cbca`; PR #2 Draft https://github.com/marvin-ds/portal-caminho-da-consciencia-app/pull/2; Supabase Preview 11 tabelas (RLS ativo); 26/26 testes pass; typecheck 0 erros; deploy guard `main=false` ATIVO; STOP — sem merge, sem Production, sem Supabase Production, sem PJ-04-03; aguarda aprovação de Marcos no PR #2.
+- **PJ-04-02 = EM ANDAMENTO / CORREÇÕES R1 APLICADAS** (07/09/2026) — branch `feat/pj04-02-commerce-access` HEAD `854224a`; PR #2 Draft https://github.com/marvin-ds/portal-caminho-da-consciencia-app/pull/2; Supabase Preview 13 tabelas (migration 000006 aplicada); 26/26 testes unitários pass; typecheck 0 erros; build 24 rotas; deploy guard `main=false` ATIVO; STOP — sem merge, sem Production, sem PJ-04-03; aguarda auditoria de Marcos no diff R1.
 
 ## Regra
 
