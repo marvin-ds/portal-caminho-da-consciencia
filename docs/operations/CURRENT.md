@@ -1,8 +1,8 @@
 # PORTAL CAMINHO DA CONSCIÊNCIA
-## Documento 06 — CURRENT, Decisões e Plano Operacional Vivo — V2.5
+## Documento 06 — CURRENT, Decisões e Plano Operacional Vivo — V2.7
 
 **STATUS:** documento operacional vivo  
-**DATA DE CORTE:** 06/09/2026  
+**DATA DE CORTE:** 07/09/2026  
 **HORIZONTE:** estado atual + próximos 7–14 dias  
 **FUNÇÃO:** manter Marcos, ChatGPT, Claude Code, Codex e demais agentes alinhados sobre o que é fato, o que está decidido, o que está pendente e qual é o próximo movimento  
 **SUBSTITUI:** Documento 06 — CURRENT — V2.5
@@ -111,7 +111,7 @@ Quando houver conflito:
 
 **Regra comercial:**
 
-> **dor visceral → consequências → travamento/bloqueio percebido → repetição → "de novo" → próximo passo.**
+> **dor visceral → consequências → travamento/bloqueio percebido → repetição → “de novo” → próximo passo.**
 
 ---
 
@@ -144,19 +144,41 @@ Modalidade ao vivo: **opcional**.
 
 ## Plataforma da Jornada / Meu Caminho
 
-Decisão transversal aprovada em 04/09/2026:
+**PJ-02 / ADR-PLATAFORMA-JORNADA-001: APROVADO.**
 
-- conceito: **Plataforma da Jornada**;
-- experiência autenticada: **Meu Caminho** (nome recomendado);
-- fundação: **MakerKit Lite + construção própria** — Modo A (Fundação Direta);
-- estratégia: brownfield e incremental;
-- estado: **PJ-03D FECHADO ✅ INTEGRADO — main HEAD `8b0518d`**;
-- ADR: `docs/adr/ADR-PLATAFORMA-JORNADA-001.md` — aprovado em 05/09/2026 (ChatGPT);
-- repo da Plataforma: `https://github.com/marvin-ds/portal-caminho-da-consciencia-app`;
-- branch: `main` (HEAD: `037c4d2`);
-- Preview URL pós-isolamento: `https://portal-caminho-da-consciencia-6wudy41k4-marvin-ds-projects.vercel.app`;
-- main da Plataforma: HEAD `037c4d2` (PJ-03D integrado + doc update);
-- próximo gate: **PJ-04**.
+Decisões fechadas:
+
+- arquitetura: **1 Portal público + 1 Plataforma da Jornada**;
+- experiência autenticada V1: **Meu Caminho**;
+- repo institucional: `portal-caminho-da-consciencia` → Netlify → `portalcaminhodaconsciencia.com.br`;
+- repo app: `portal-caminho-da-consciencia-app` → Vercel → `app.portalcaminhodaconsciencia.com.br`;
+- MakerKit Lite: **Modo A — Fundação Direta**, commit `c5cba64391a80620309c4178163dc2df42568d1b`, MIT, Template Copy;
+- runtime: Node.js 24.x + pnpm 11.18.0 + Turborepo;
+- Supabase: **1 projeto canônico de produção para toda a Plataforma**;
+- Auth V1: Magic Link/passwordless ON; Password OFF; Google OAuth fora da V1;
+- shared kernel + domínios privados por produto;
+- Storage privado + signed URLs curtas;
+- e-mail: Supabase Auth/Resend SMTP + Resend transactional + Brevo marketing;
+- checkout externo por adapter;
+- RLS + negative tests obrigatórios;
+- Pino com PII redaction obrigatória antes de produção.
+
+Estado operacional:
+- arquitetura = aprovada;
+- repo app = criado ✅ — `marvin-ds/portal-caminho-da-consciencia-app` (PRIVATE, Vercel);
+- Supabase = Preview ativo `mjotjtcpivxwilwtnltm` (sa-east-1) — NÃO é projeto de produção;
+- DNS app = definido, ainda não configurado (bloqueado até gate de produção);
+- Auth V1 Preview = Magic Link ativo ✅; `PASSWORDLESS_APP_VERIFIED`; `PASSWORD_GRANT_REJECTED_OBSERVED`; `PASSWORD_BACKEND_UNVERIFIED`;
+- deploy guard = `vercel.json git.deploymentEnabled.main: false` ATIVO ✅ — main não aciona Production;
+- env vars = escopo Production removido das 3 variáveis Supabase ✅; `NEXT_PUBLIC_SUPABASE_ANON_KEY` corrigido ✅;
+- **DOC-SYNC CANÔNICO = APROVADO ✅**;
+- **DOC-GIT-01 = APROVADO ✅** — branch `docs/pj02-canonical-sync` publicada, SHA `c040d17`;
+- **PJ-03A = APROVADO ✅** — provenance byte-equivalente ao upstream `c5cba64`; baseline local canônica aprovada 06/09/2026;
+- **PUBLICAÇÃO CONTROLADA DO REPO = APROVADO ✅** — `marvin-ds/portal-caminho-da-consciencia-app` criado PRIVATE; `main` publicada 06/09/2026;
+- **PJ-03B = APROVADO ✅** (06/09/2026) — Supabase Foundation; RLS 7/7 PASS; typegen; build 20 rotas; HEAD `8a34d3b` mergeado;
+- **PJ-03C = APROVADO ✅** (06/09/2026) — Vercel Preview; 21 rotas; Node 24; pnpm 11.18; HEAD `4349c1c`;
+- **PJ-03D = APROVADO ✅ INTEGRADO** (07/09/2026) — Identity/Auth Core; Magic Link E2E; claim service; redirect security; ownership UNIQUE+exception; race condition DB; pt-BR; deploy guard; env vars isolados; main HEAD `037c4d2`;
+- Preview URL: `https://portal-caminho-da-consciencia-6wudy41k4-marvin-ds-projects.vercel.app`.
 
 ## Regra
 
@@ -168,10 +190,10 @@ Decisão transversal aprovada em 04/09/2026:
 
 ## Estado das principais ofertas
 
-1. **O Minuto Anterior** — SPEC MVP V1.0 criada; produto gratuito em fluxo próprio de construção/implementação.
-2. **ANTES DO APERTO** — SPEC V1.1; Gates **AA-00 Demanda ✅** e **AA-01 Oferta ✅**; construção restante em chat exclusivo.
-3. **Mapeamento Padrão Interrompido 2.0** — SPEC de design/oferta/operação criada; construção em chat exclusivo; preço vigente do produto atual: R$197 até nova decisão.
-4. **Sessão Individual Sintonize Prosperidade** — SPEC V1.0 + Addendum V1.1; `DESIGN_READY / PILOT_PENDING`.
+1. **O Minuto Anterior** — SPEC MVP V1.1; produto gratuito em fluxo próprio de construção/implementação.
+2. **ANTES DO APERTO** — SPEC MVP V1.2; Gates **AA-00 Demanda ✅** e **AA-01 Oferta ✅**; construção restante em chat exclusivo.
+3. **Mapeamento Padrão Interrompido 2.0** — SPEC V1.1; construção em chat exclusivo; preço vigente do produto atual: R$197 até nova decisão.
+4. **Sessão Individual Sintonize Prosperidade** — SPEC V1.0 + Addendum V1.1 + Integração V1.2; `DESIGN_READY / PILOT_PENDING`.
 5. **Ciclo Padrão Interrompido — 21 dias** — flagship futuro a pilotar depois da base operacional necessária.
 6. **Premium** — aprofundamento seletivo futuro.
 
@@ -213,7 +235,7 @@ Meta operacional de planejamento: **aproximadamente R$45–47 mil de receita**, 
 
 ## P0
 
-> **FECHAR O QUE JÁ ESTÁ EM EXECUÇÃO + MANTER PRODUTOS EM CHATS EXCLUSIVOS + COLOCAR O CALENDÁRIO DE CONTEÚDO EM PRODUÇÃO + EXECUTAR PJ-00 EM TRILHA PARALELA, SEM REESCREVER OS PRODUTOS.**
+> **PJ-03D APROVADO ✅ INTEGRADO. PRÓXIMO: PJ-04 — Security / Shared Kernel (planejamento/inventário). MANTER PRODUTOS EM CHATS EXCLUSIVOS. COLOCAR O CALENDÁRIO DE CONTEÚDO EM PRODUÇÃO.**
 
 Para Sintonize, a ordem é:
 
@@ -242,8 +264,8 @@ Porta 2 permanece forte para conversão; Porta 1 pode captar intenção direta p
 | Documento | Versão vigente | Estado |
 |---|---:|---|
 | 00 — Governança Conceitual | V1.3 | mantido |
-| 01 — Fundacional Estratégico | **V4.4** | Plataforma da Jornada incorporada estrategicamente |
-| 02 — Jornada, Produtos e Serviços | **V2.4** | Meu Caminho incorporado como camada transversal |
+| 01 — Fundacional Estratégico | **V4.5** | arquitetura PJ-02 incorporada estrategicamente |
+| 02 — Jornada, Produtos e Serviços | **V2.5** | Meu Caminho incorporado como camada transversal |
 | 02.A — Framework de Produtos | V1.0 | mantido |
 | 03 — Editorial e Aquisição | V2.2 | mantido |
 | 03.A — Percepção Antes da Explicação | V1.0 | mantido |
@@ -253,26 +275,31 @@ Porta 2 permanece forte para conversão; Porta 1 pode captar intenção direta p
 | 03.E — Execução Editorial | V1.1 | mantido |
 | 03.F — Páginas / Oferta / Conversão | V1.0 | mantido |
 | 04 — Identidade e Comunicação | V2.3 | mantido |
-| 05 — Arquitetura Técnica | V2.1 | **aguarda DOC-SYNC pós-PJ-02 para V2.2** |
-| 06 — CURRENT | **V2.5** | este arquivo |
+| 05 — Arquitetura Técnica | **V2.2** | arquitetura definitiva pós-PJ-02 |
+| 06 — CURRENT | **V2.7** | este arquivo |
 
-**SPEC transversal vigente:** Plataforma da Jornada **Meu Caminho** — MakerKit Lite + Construção Própria — V1.0.
+**SPEC transversal vigente:** Plataforma da Jornada **Meu Caminho** — Arquitetura de Execução Aprovada — **V1.1**.
 
-**ADR vigente:** `docs/adr/ADR-PLATAFORMA-JORNADA-001.md` — aprovado 05/09/2026. Governa todas as decisões arquiteturais da Plataforma até revisão deliberada.
+**SPECs de produto reconciliadas nesta rodada:**
+- O Minuto Anterior — V1.1;
+- ANTES DO APERTO — V1.2;
+- Mapeamento Padrão Interrompido 2.0 — V1.1;
+- Sintonize — SPEC V1.0 + Addendum V1.1 + Addendum de Integração V1.2.
 
-Não criar novo documento canônico numerado para a Plataforma da Jornada. A SPEC transversal + ADR governam até DOC-SYNC + PJ-03A.
+Não criar novo Documento 07. A SPEC transversal V1.1 governa a execução técnica em conjunto com o Documento 05 V2.2 e o ADR aprovado.
 
 ---
 
 # 6. Estado de incorporação no repositório
 
-**GATE DOC-SYNC — Meu Caminho — APROVADO ✅**
+As versões canônicas foram versionadas no repositório via DOC-GIT-01 APROVADO ✅. Branch `docs/pj02-canonical-sync`, commit `c040d1799c1dbb6529760c4c5a8017b85695eb15`, auditada e integrada.
 
-- branch: `docs/meu-caminho-doc-sync`
-- HEAD do merge em `main`: `460ec42babfc93b1824f65f992a85f84017cc8b3`
-- arquivos alterados: `01-fundacional-estrategico.md` (V4.3→V4.4), `02-jornada-produtos-servicos-protocolos.md` (V2.3→V2.4), `CURRENT.md` (V2.3→V2.4)
-- working tree: limpo
-- deploy: nenhum (docs-only)
+Estado atual:
+
+- 01 V4.5, 02 V2.5, 05 V2.2, SPEC Transversal V1.1, ADR APROVADO, SPECs dos quatro produtos: commitados ✅;
+- CURRENT V2.7: branch `docs/pj03d-doc-sync` — delta PJ-03C/PJ-03D aplicado sobre baseline V2.5;
+- merge `docs/pj03d-doc-sync` em main: autorizado por Marcos — executar após leitura final;
+- app repo main HEAD: `037c4d2` (`marvin-ds/portal-caminho-da-consciencia-app`).
 
 ---
 
@@ -362,142 +389,33 @@ Reabrir quando houver decisão deliberada de investir em tráfego pago.
 
 ---
 
-## PJ-00 — Plataforma da Jornada — Inventário e Convergência
+## Gates Plataforma da Jornada
 
-**STATUS:** APROVADO ✅ (04/09/2026 — PJ-00Δ concluído)
+```text
+PJ-00       ✅ APROVADO
+PJ-00Δ      ✅ APROVADO
+PJ-01       ✅ APROVADO
+PJ-01V      ✅ APROVADO
+PJ-01V.1    ✅ APROVADO
+PJ-02       ✅ APROVADO
+ADR         ✅ APROVADO
+```
 
-Entregável: `docs/operations/PJ-00_INVENTARIO_ARQUITETURAL.md` (arquivo local, não commitado).
+**Estado atual:** DOC-SYNC CANÔNICO APROVADO ✅. DOC-GIT-01 APROVADO ✅. DOC-GIT-02 APROVADO ✅. PJ-03A ✅. PJ-03B ✅. PJ-03C ✅. PJ-03D ✅ INTEGRADO.
 
-**Achados principais:**
-- GREENFIELD ABSOLUTO confirmado para todos os 4 produtos em todos os repos locais e GitHub.
-- Nenhum repo `portal-caminho-da-consciencia-app` existe ainda.
-- `vdf-apps` e `quiz-padrao-interrompido` excluídos como referência — projetos separados.
-- MakerKit Modo A/B/C: **OPEN — pendente PJ-01**.
-- Trilha MA (O Minuto Anterior / Codex): repo = `portal-caminho-da-consciencia`, branch = `docs/minuto-anterior-ma01`, HEAD = afbf374. Sem app repo separado. App/Supabase/auth definitivos bloqueados até PJ-02.
+**Próximo gate técnico:** PJ-04 — Security / Shared Kernel (planejamento/inventário).
 
-**Proibido até PJ-02:** criar/migrar infraestrutura, instalar MakerKit em produção, alterar DNS, criar Supabase do Portal, refatorar auth, aplicar migrations.
+Sequência:
 
-Próxima sequência:
-
-> **PJ-01 → PJ-02 → Documento 05 V2.2 + SPEC deltas**
-
-Somente após ADR (PJ-02) aprovado começar refactor transversal.
-
----
-
-## PJ-01 — Auditoria MakerKit Lite
-
-**STATUS:** PASS WITH CONDITIONS ✅ (auditoria ChatGPT concluída)
-
-Entregável: `docs/operations/PJ-01_MAKERKIT_AUDIT.md` (arquivo local, não commitado).
-
-Recomendação: **MODO A — Fundação Direta** (MIT, gratuito).  
-Ref: `makerkit/nextjs-saas-starter-kit-lite`, HEAD `c5cba64`.
-
----
-
-## PJ-01V — Validação Executável MakerKit Lite (toolchain)
-
-**STATUS:** PASS WITH RISKS ⚠️ (auditoria ChatGPT concluída)
-
-Entregável: `docs/operations/PJ-01V_VALIDACAO_EXECUTAVEL_MAKERKIT.md` (arquivo local, não commitado).
-
-Toolchain validado (install, lint, typecheck, build, unit tests).  
-Supabase/Auth/RLS: BLOQUEADO por Docker offline — transferido para PJ-01V.1.  
-Achado: lockfile commitado continha `next` e `@next/bundle-analyzer` como `16.3.0-preview.10`; versões estáveis confirmadas após regeneração.
-
----
-
-## PJ-01V.1 — Validação Executável: Supabase / Auth / RLS
-
-**STATUS:** PASS WITH CONDITIONS ✅ (auditoria ChatGPT concluída — 05/09/2026)
-
-Entregável: `docs/operations/PJ-01V1_VALIDACAO_SUPABASE_AUTH_RLS.md` (arquivo local, não commitado).
-
-**Executado em:** 05/09/2026  
-**Lab:** `C:\Projetos\_labs\portal-pj01-makerkit-lite` (descartável)  
-**Supabase local:** portas 57321–57326 (isolado de marvin-sites e daqui)
-
-**Resultados:**
-- Docker ativo, sem interferência de containers externos ✅
-- Supabase local iniciado + migrations aplicadas + typegen ✅
-- Trigger `auth.users → accounts` comprovado ✅
-- Magic Link: OTP enviado via API → email no Mailpit → sessão estabelecida → `/home` acessível ✅
-  - Form UI: interferência potencial de CAPTCHA (sem chave definida) — não bloqueou validação da API
-- Rota protegida sem auth: `/home → /auth/sign-in?next=/home` ✅
-- Rota protegida com auth: dashboard renderizado ✅
-- Logout: `POST /logout → 204` + post-logout redireciona para sign-in ✅
-- RLS própria conta: User A → 1 row ✅
-- RLS negativo leitura: User A lê User B → 0 rows ✅
-- RLS negativo update: User A atualiza User B → 0 rows affected ✅
-- ANON: `permission denied for schema public (42501)` ✅
-- E2E: 1/8 passou (`Protected routes → sign-in redirect`); 6/8 falharam por config (`NEXT_PUBLIC_AUTH_PASSWORD=false` — E2E padrão assume password auth, não Magic Link) ⚠️
-- Versões: `next 16.3.0`, `@next/bundle-analyzer 16.3.0` (estáveis) ✅
-
----
-
-## PJ-02 — ADR Arquitetural da Plataforma da Jornada
-
-**STATUS:** GATE PJ-02 — APROVADO ✅ (05/09/2026 — ChatGPT)
-
-Entregável: `docs/adr/ADR-PLATAFORMA-JORNADA-001.md` (arquivo local, não commitado — 33.967 bytes).
-
-**Arquitetura aprovada:**
-- MakerKit Lite — Modo A (Fundação Direta) ✅
-- Next.js 16.3.0, React 19.2.8, TypeScript 7.0.2, Tailwind 4.3.3, Turborepo 2.10.8, pnpm 11.18.0
-- Supabase: 1 projeto de produção, Magic Link / passwordless, RLS obrigatório
-- Repo separado para a Plataforma (criado em PJ-03A ✅)
-- Stack fullstack: Portal = Netlify (estático) / Plataforma = Vercel (Next.js)
-- Auth canônica: `/entrar` (adaptação de `/auth/sign-in`)
-- `account_image` mantido; `contact_id` documentado
-
-**PJ-02B — Verificação de integridade:** CONFIRMADA ✅
-- CURRENT.md: PROTECTED FOREIGN BASELINE preexistente ao PJ-02A
-- 12/12 correções do patch confirmadas por grep
-
----
-
-## PJ-03A — Bootstrap local do repositório da Plataforma
-
-**STATUS:** APROVADO ✅ (05/09/2026)
-
-- Repo criado: `https://github.com/marvin-ds/portal-caminho-da-consciencia-app` (privado)
-- Bootstrap byte-equivalent ao upstream MakerKit Lite HEAD `c5cba64`
-- Provenance verificada — main publicada com MATCH LOCAL=REMOTE ✅
-- Worktree ativo: `C:\Projetos\_worktrees\portal-app-pj03b`
-
----
-
-## PJ-03B — Supabase Foundation Local
-
-**STATUS:** APROVADO ✅ (05/09/2026)
-
-- Reset reproduzível do DB local ✅
-- RLS: 7/7 testes PASS (NEG e POS obrigatórios) ✅
-- Typegen: `database.types.ts` gerado e commitado ✅
-- Build: 20 rotas, typecheck 8/8 ✅
-- Tabelas de produto: 0 ✅
-- Cloud drift: 0 (Supabase demo keys, sem secret real) ✅
-- Merge: `feat/pj03b-supabase-foundation` → `main` com --no-ff ✅
-- main HEAD: `2b8d8dd114c8a1c3ce8bde1c80e148141c5003de` — MATCH LOCAL=REMOTE ✅
-
----
-
-## PJ-03C — Vercel Preview
-
-**STATUS:** GATE PJ-03C — APROVADO ✅ — ENCERRADO (06/09/2026)
-
-- Branch: `feat/pj03c-vercel-preview` → mergeada em `main` ✅
-- HEAD final da main: `4349c1c924844c475b4e3a1f7b2d776dc36b190e`
-- LOCAL=REMOTE: MATCH=YES ✅
-- Preview URL: `https://portal-caminho-da-consciencia-2iishxf3g-marvin-ds-projects.vercel.app`
-- Deployment ID: `dpl_9Y17QuuAMY8DepbvVGRpQbefaWqM` — READY ✅
-- Node 24.x + pnpm 11.18.0 + Turborepo ✅
-- 21 rotas compiladas (static + PPR + dynamic) ✅
-- Target: Preview (não production) ✅
-- Domínio customizado: NÃO configurado ✅
-- Supabase cloud: NÃO usado ✅
-- Documentação: `docs/operations/PJ-03C_VERCEL_PREVIEW.md` (app repo)
+```text
+PJ-03A — Bootstrap local                 ✅ APROVADO 06/09/2026
+PUBLICAÇÃO CONTROLADA — GitHub           ✅ APROVADO 06/09/2026
+PJ-03B — Supabase Foundation             ✅ APROVADO 06/09/2026
+PJ-03C — Vercel Preview                  ✅ APROVADO 06/09/2026
+PJ-03D — Identity/Auth Core              ✅ APROVADO 07/09/2026 — INTEGRADO
+PJ-04  — Security / Shared Kernel        ⏳ PRÓXIMO — planejamento autorizado
+Integration Contracts dos produtos
+```
 
 ---
 
@@ -548,7 +466,7 @@ Consequência:
 
 **FECHADO:**
 
-> **Marcos não adotará "terapeuta" como identidade profissional pública.**
+> **Marcos não adotará “terapeuta” como identidade profissional pública.**
 
 Posicionamento-base:
 
@@ -819,27 +737,19 @@ Objetivo futuro:
 
 # PARTE VII — PRIORIDADES DOS PRÓXIMOS 7–14 DIAS
 
-# 23. P0 — Sincronizar documentação canônica
+# 23. CONCLUÍDO — Sincronizar documentação canônica
 
-- confirmar que o DOC-SYNC anterior da Sintonize foi incorporado corretamente ao repositório;
-- incorporar **Documento 01 V4.4**, **Documento 02 V2.4** e **CURRENT V2.4** em mudança docs-only;
-- preservar 00 V1.3, 02.A V1.0, família 03 vigente, 04 V2.3 e 05 V2.1;
-- revisar links/referências ativas que apontem para 01 V4.3, 02 V2.3 ou CURRENT V2.3;
-- **não criar Documento 05 V2.2 antes de PJ-00/PJ-02**.
+DOC-SYNC canônico pós-PJ-02 executado e aprovado. Pacote entregue via DOC-GIT-01:
+- 01 V4.5, 02 V2.5, 05 V2.2, SPEC Transversal V1.1, ADR APROVADO, SPECs dos quatro produtos e CURRENT V2.5 commitados em `docs/pj02-canonical-sync`;
+- auditoria ChatGPT concluída com PASS WITH MINOR PATCHES;
+- micro-patch DOC-GIT-01A aplicado;
+- merge em main pendente de autorização.
 
 ---
 
-# 24. P0 — Plataforma da Jornada — PJ-00
+# 24. CONCLUÍDO — DOC-SYNC PÓS-PJ-02
 
-Executar em trilha paralela, sem interromper os chats de produto:
-
-- inventário somente leitura;
-- nenhum novo repo por suposição;
-- nenhum MakerKit instalado em produção;
-- nenhum Supabase/schema/auth alterado;
-- mapear os quatro produtos e contratos transversais;
-- recomendar Modo A/B/C;
-- produzir inventário e parar para decisão.
+DOC-SYNC APROVADO ✅. DOC-GIT-01 APROVADO ✅. DOC-GIT-02 APROVADO ✅. PJ-03A APROVADO ✅ — 06/09/2026. Baseline local `portal-caminho-da-consciencia-app` aprovada. Próximo: Publicação Controlada do Repo (autorização pendente).
 
 ---
 
@@ -916,7 +826,7 @@ Preço inicial de referência: **R$97**, ainda sujeito ao teste.
 - Porta 2 = prioridade comercial;
 - Porta 3 = forte porta orgânica de aprofundamento;
 - Porta 1 pode converter diretamente para Sintonize quando a oferta estiver live;
-- "bloqueio/travamento" = linguagem percebida, não diagnóstico;
+- “bloqueio/travamento” = linguagem percebida, não diagnóstico;
 - Sintonize = metodologia específica e oferta de intervenção possível, não componente obrigatório do Mapeamento;
 - Sessão Individual Sintonize = `DESIGN_READY / PILOT_PENDING`;
 - Sintonize padrão = assíncrona, manual, individual e à distância;
@@ -932,12 +842,21 @@ Preço inicial de referência: **R$97**, ainda sujeito ao teste.
 - Mapeamento 2.0 possui SPEC e construção em fluxo próprio;
 - Ciclo PI 21 dias = flagship futuro a validar;
 - não criar novos protocolos autorais sem base de casos suficiente.
-- Plataforma da Jornada = decisão transversal aprovada;
-- Meu Caminho = nome recomendado da experiência autenticada;
+- Plataforma da Jornada = arquitetura transversal aprovada;
+- Meu Caminho = nome aprovado da experiência autenticada V1;
 - Meu Caminho não é novo produto nem nova etapa da Jornada;
-- MakerKit Lite + construção própria = fundação escolhida para investigação, não instalação autorizada;
-- adoção = brownfield, por gates;
-- PJ-00 é somente inventário/convergência;
+- MakerKit Lite = Modo A / Fundação Direta;
+- commit-base = `c5cba64391a80620309c4178163dc2df42568d1b`;
+- 2 repos = institucional + app;
+- 1 projeto Vercel para a Plataforma;
+- 1 Supabase canônico de produção;
+- Auth V1 = Magic Link/passwordless;
+- PJ-02/ADR = aprovado;
+- PJ-03A = APROVADO ✅ — baseline local canônica aprovada 06/09/2026;
+- PJ-03B = APROVADO ✅ — Supabase Foundation; RLS 7/7 PASS; typegen; build 20 rotas;
+- PJ-03C = APROVADO ✅ — Vercel Preview ativo; 21 rotas; Node 24; HEAD `4349c1c`;
+- PJ-03D = APROVADO ✅ INTEGRADO — Identity/Auth Core; Magic Link E2E comprovado; claim service; redirect security; ownership UNIQUE+exception; race condition DB; pt-BR; deploy guard `main=false`; env vars Production isolados; main HEAD `037c4d2`;
+- Auth V1 Preview = `PASSWORDLESS_APP_VERIFIED` (Magic Link); `PASSWORD_GRANT_REJECTED_OBSERVED` (grant_type=password → HTTP 400); `PASSWORD_BACKEND_UNVERIFIED` (bloqueio GoTrue server-side não comprovado);
 - O Minuto Anterior continua sem login obrigatório antes do valor;
 - ANTES DO APERTO é primeiro candidato forte ao shell autenticado completo;
 - dados íntimos continuam separados por domínio;
@@ -956,7 +875,8 @@ Preço inicial de referência: **R$97**, ainda sujeito ao teste.
 - agenda do ao vivo;
 - política final de cancelamento/reagendamento;
 - política de retenção do conteúdo privado;
-- repo/monorepo definitivo da Plataforma (criar em PJ-03A — pós DOC-SYNC);
+- detalhes de implementação dos packages e migrations por gate, sem reabrir o Modo A aprovado;
+- repo/monorepo definitivo da Plataforma;
 - projeto Supabase definitivo/compartilhamento após inventário;
 - modelo final de auth e identity linking;
 - contratos finais de orders/payments/entitlements/enrollments/deliveries;
@@ -1207,7 +1127,7 @@ Nenhum agente está autorizado, sem nova decisão explícita, a:
 | Data | Decisão / evento | Estado | Impacto |
 |---|---|---|---|
 | 30/08/2026 | Marca alterada para Portal Caminho da Consciência | FECHADO | marca, docs, site e repo |
-| 30/08/2026 | "Caminho" permanece singular | FECHADO | posicionamento |
+| 30/08/2026 | “Caminho” permanece singular | FECHADO | posicionamento |
 | 30/08/2026 | Padrão Interrompido permanece método autoral | FECHADO | produtos e conteúdo |
 | 31/08/2026 | Gate R1 concluído | EXECUTADO | migração/fundação |
 | 31/08/2026 | Domínio principal definido e publicado | EXECUTADO | SEO, site e marca |
@@ -1216,7 +1136,7 @@ Nenhum agente está autorizado, sem nova decisão explícita, a:
 | 01/09/2026 | Gate R3B aprovado | EXECUTADO | conversão secundária Ads |
 | 01/09/2026 | R3C Search adiado | FECHADO COMO PRIORIDADE | mídia paga |
 | 01/09/2026 | Acesso oficial à Sintonize confirmado | FATO | formação e futuro produto |
-| 01/09/2026 | Marcos não usará "terapeuta" publicamente | FECHADO | comunicação |
+| 01/09/2026 | Marcos não usará “terapeuta” publicamente | FECHADO | comunicação |
 | 01/09/2026 | Documento 00 adotado | FECHADO | governança e PI |
 | 01/09/2026 | 8 Prosperidades corrigidas como estrutura Sintonize | FECHADO | método, produto e conteúdo |
 | 01/09/2026 | Sintonize não será digitalizada | FECHADO | tecnologia e PI |
@@ -1233,17 +1153,12 @@ Nenhum agente está autorizado, sem nova decisão explícita, a:
 | 04/09/2026 | Registro + áudio + integração + D7 definidos como entrega padrão | FECHADO | experiência Sintonize |
 | 04/09/2026 | Rotas direta e pós-Mapeamento definidas | FECHADO | jornada e message match |
 | 04/09/2026 | Protocolos derivados congelados até validação + DOC-SYNC | FECHADO | governança |
-| 05/09/2026 | PJ-01 auditado pelo ChatGPT — PASS WITH CONDITIONS | APROVADO | Modo A recomendado; 5 correções aplicadas |
-| 05/09/2026 | PJ-01V executado — PASS WITH RISKS | APROVADO | toolchain local validado; lockfile preview.10 → estável |
-| 05/09/2026 | PJ-01V.1 executado — Supabase/Auth/RLS local | PASS WITH CONDITIONS ✅ | todos os checks críticos comprovados; CAPTCHA a investigar; E2E parcial por config |
-| 05/09/2026 | PJ-01V.1 aprovado pelo ChatGPT | APROVADO ✅ | Magic Link + RLS + Trigger comprovados; PJ-02 desbloqueado |
-| 05/09/2026 | PJ-02 — ADR Arquitetural criado e auditado | APROVADO ✅ | arquitetura-mãe da Plataforma aprovada; 12 correções PJ-02A aplicadas |
-| 05/09/2026 | PJ-02B — Verificação de integridade executada | CONFIRMADO ✅ | CURRENT = PROTECTED FOREIGN BASELINE; 12/12 correções presentes |
-| 05/09/2026 | Modo A — Fundação Direta | FECHADO ✅ | MakerKit Lite MIT, Next.js 16.3.0, Supabase, Magic Link |
-| 05/09/2026 | PJ-03A — Bootstrap repo Plataforma | APROVADO ✅ | repo privado criado; byte-equivalent ao upstream; main publicada |
-| 05/09/2026 | PJ-03B — Supabase Foundation Local | APROVADO ✅ | reset, RLS 7/7, typegen, build 20 rotas; mergeado em main |
-| 06/09/2026 | PJ-03C — Vercel Preview | APROVADO ✅ ENCERRADO | 21 rotas, Node 24, pnpm 11.18, Turborepo; main HEAD 4349c1c |
-| 07/09/2026 | PJ-03D — Identity/Auth Core | APROVADO ✅ INTEGRADO | Magic Link E2E, claim service, redirect security, ownership UNIQUE+exception, race condition DB, pt-BR; `PASSWORDLESS_APP_VERIFIED`; `PASSWORD_GRANT_REJECTED_OBSERVED`; `PASSWORD_BACKEND_UNVERIFIED`; deploy guard `main=false`; isolamento vars Production APLICADO ✅; `NEXT_PUBLIC_SUPABASE_ANON_KEY` corrigido |
+| 05/09/2026 | PJ-02 / ADR-PLATAFORMA-JORNADA-001 aprovado | FECHADO | arquitetura definitiva da Plataforma |
+| 05/09/2026 | DOC-SYNC canônico pós-PJ-02 | APROVADO | documentação |
+| 05/09/2026 | DOC-GIT-01 — branch docs/pj02-canonical-sync publicada | APROVADO | documentação |
+| 06/09/2026 | PJ-03B — Supabase Foundation | APROVADO ✅ | RLS 7/7 PASS; typegen; build 20 rotas; mergeado em main |
+| 06/09/2026 | PJ-03C — Vercel Preview | APROVADO ✅ ENCERRADO | 21 rotas; Node 24; pnpm 11.18; Turborepo; main HEAD `4349c1c` |
+| 07/09/2026 | PJ-03D — Identity/Auth Core | APROVADO ✅ INTEGRADO | Magic Link E2E; claim service; redirect security; ownership UNIQUE+exception; race condition DB; pt-BR; `PASSWORDLESS_APP_VERIFIED`; `PASSWORD_GRANT_REJECTED_OBSERVED`; `PASSWORD_BACKEND_UNVERIFIED`; deploy guard `main=false`; env vars Production isolados; `NEXT_PUBLIC_SUPABASE_ANON_KEY` corrigido; main HEAD `037c4d2` |
 
 ---
 
@@ -1263,25 +1178,17 @@ Finalizar preparação e colocar o Calendário de Conteúdos em produção, mant
 
 ### Trilha C — convergência transversal
 
-PJ-00 ✅, PJ-01 ✅, PJ-01V ✅, PJ-01V.1 ✅, PJ-02 ✅, PJ-03A ✅, PJ-03B ✅, PJ-03C ✅ — todos concluídos.
+PJ-00 ✅, PJ-01 ✅, PJ-01V ✅, PJ-01V.1 ✅, PJ-02 ✅, PJ-03A ✅, PJ-03B ✅, PJ-03C ✅, PJ-03D ✅ INTEGRADO — todos concluídos.
 
 **Baseline canônica atual da Plataforma:**
 - repo: `https://github.com/marvin-ds/portal-caminho-da-consciencia-app`
-- branch PJ-03D integrada: `feat/pj03d-identity-auth` — HEAD `8b0518d`
-- main HEAD: `8b0518dd955c8a40de74700aa280455aff8d4b4e`
+- main HEAD: `037c4d2df001262511d06d847b9b4f59545cd07c`
+- deploy guard ativo: `git.deploymentEnabled.main: false`
+- Preview URL: `https://portal-caminho-da-consciencia-6wudy41k4-marvin-ds-projects.vercel.app`
 
-**Gate atual:** PJ-03D — Identity/Auth Core — INTEGRADO ✅ CI verde ✅
-- Magic Link E2E + security (R2+R3) + pt-BR + concorrência DB + deploy guard aplicado
-- `PASSWORDLESS_APP_VERIFIED` — app V1 usa Magic Link, sem senha na UI
-- `PASSWORD_GRANT_REJECTED_OBSERVED` — `grant_type=password` retornou HTTP 400 / `invalid_credentials` no Preview
-- `PASSWORD_BACKEND_UNVERIFIED` — bloqueio server-side GoTrue não comprovado; decisão de validação futura
-- Deploy guard: `vercel.json git.deploymentEnabled.main=false` — auto-deploy da main bloqueado; guard permanece até gate de produção
-- Env vars Supabase Preview: escopo Production removido ✅ | `NEXT_PUBLIC_SUPABASE_ANON_KEY` corrigido ✅
-- Próxima ação: abrir PJ-04
-- Identidade / ownership / RLS
-- SEM Supabase de produção
-- SEM configurar domínio customizado
-- SEM iniciar PJ-03E ou produtos
+**Próximo passo:** PJ-04 — Security / Shared Kernel — planejamento/inventário autorizado por Marcos. Não implementar automaticamente — preparar escopo a partir da SPEC transversal V1.1, Documento 05 V2.2 e ADR vigentes.
+
+> **Produto continua andando. Convergência evita duplicação. Nenhuma implementação transversal antes do inventário do gate correspondente.**
 
 # 45. O que acontece depois
 
@@ -1342,12 +1249,12 @@ Deve permanecer:
 
 ---
 
-# 49. Controle de versão — V2.4
+# 49. Controle de versão — V2.7
 
 **VERSÃO:** V2.7  
 **DATA:** 07/09/2026  
-**SUBSTITUI:** V2.6  
-**MOTIVO:** registrar PJ-03C (Vercel Preview — APROVADO), PJ-03D (Identity/Auth Core — APROVADO ✅ INTEGRADO), deploy guard `main=false` ativo, isolamento de variáveis Supabase Production APLICADO, `NEXT_PUBLIC_SUPABASE_ANON_KEY` corrigido, nova Preview URL pós-isolamento. Atualizar estado da Plataforma e próximos passos.  
-**IMPACTO:** gates, decision log, estado da Plataforma da Jornada, env vars, Preview URL, próxima ação (PJ-04).
+**SUBSTITUI:** V2.5  
+**MOTIVO:** registrar PJ-03B, PJ-03C e PJ-03D APROVADOS ✅ INTEGRADOS; deploy guard `main=false` ativo; env vars Supabase Preview — escopo Production removido; `NEXT_PUBLIC_SUPABASE_ANON_KEY` corrigido; `PASSWORDLESS_APP_VERIFIED`, `PASSWORD_GRANT_REJECTED_OBSERVED`, `PASSWORD_BACKEND_UNVERIFIED`; Preview URL `6wudy41k4`; app repo main HEAD `037c4d2`; próximo gate PJ-04.  
+**IMPACTO:** gates da Plataforma, estado operacional, decisões técnicas, decision log, Trilha C e prioridade atual.
 
 > **Fim do Documento 06 — CURRENT, Decisões e Plano Operacional Vivo — V2.7.**
