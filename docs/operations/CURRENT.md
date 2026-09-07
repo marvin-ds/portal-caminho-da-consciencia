@@ -1294,7 +1294,7 @@ Nenhum agente está autorizado, sem nova decisão explícita, a:
 | 06/09/2026 | PJ-03C — Vercel Preview | APROVADO ✅ ENCERRADO | 21 rotas, Node 24, pnpm 11.18, Turborepo; main HEAD 4349c1c |
 | 07/09/2026 | PJ-03D — Identity/Auth Core | APROVADO ✅ INTEGRADO | Magic Link E2E, claim service, redirect security, ownership UNIQUE+exception, race condition DB, pt-BR; `PASSWORDLESS_APP_VERIFIED`; `PASSWORD_GRANT_REJECTED_OBSERVED`; `PASSWORD_BACKEND_UNVERIFIED`; deploy guard `main=false`; isolamento vars pendente |
 | 07/09/2026 | PJ-04-00 — Inventário Security/Shared Kernel | APROVADO ✅ base de planejamento | Schema, gaps, Eduzz, nomes canônicos SPEC, sequência PJ-04-01→02→03 |
-| 07/09/2026 | PJ-04-01 — Fronteiras de Segurança e Identity Claim | EM ANDAMENTO | Recovery guard ✅; E2E 2/2 ✅; typecheck ✅; lint ✅; SHA LOCAL=REMOTE `3caa3c3`; Preview pendente (sem PR); merge aguarda aprovação Marcos |
+| 07/09/2026 | PJ-04-01 — Fronteiras de Segurança e Identity Claim | APROVADO PARA MERGE — AGUARDANDO MARCOS | Recovery guard ✅; E2E 2/2 ✅; build Preview READY ✅; guard confirmado no Preview ✅; Supabase client init ✅; PR Draft #1; HEAD `e09ce48` |
 
 ---
 
@@ -1321,14 +1321,15 @@ PJ-00 ✅, PJ-01 ✅, PJ-01V ✅, PJ-01V.1 ✅, PJ-02 ✅, PJ-03A ✅, PJ-03B �
 - main HEAD: `037c4d2df001262511d06d847b9b4f59545cd07c` (base do PJ-04-01)
 - branch ativa: `feat/pj04-01-security-claims` — HEAD `3caa3c393f78deff9b0b6cb4c97bad853c52b660`
 
-**Gate atual:** PJ-04-01 — Fronteiras de Segurança e Identity Claim — EM ANDAMENTO
-- Recovery guard `type=recovery` implementado e testado (2/2 E2E ✅)
+**Gate atual:** PJ-04-01 — APROVADO PARA MERGE — AGUARDANDO MARCOS
+- Recovery guard: implementado, testado local (2/2) e confirmado no Preview ✅
+- Build Preview READY: `dpl_H8zfvECacZdsmHXwPsDL9JsEoQKQ` — 22 rotas ✅
+- Preview URL: `https://portal-caminho-da-consciencia-4u3t1lrsh-marvin-ds-projects.vercel.app`
+- PR Draft: [#1](https://github.com/marvin-ds/portal-caminho-da-consciencia-app/pull/1) — HEAD `e09ce48`
+- CI TypeScript: PASS ✅ / `PASSWORDLESS_APP_VERIFIED` ✅ / `PASSWORD_BACKEND_UNVERIFIED` (caveat PJ-03D)
 - Deploy guard `git.deploymentEnabled.main=false` ATIVO ✅
-- `PASSWORDLESS_APP_VERIFIED` ✅ / `PASSWORD_BACKEND_UNVERIFIED` (caveat PJ-03D — não reabrir)
-- Vercel Preview: não auto-acionado; requer PR ou `vercel deploy` manual
-- Próxima ação: Marcos autoriza criação do PR → Preview → aprovação → merge em `main`
-- SEM merge sem aprovação
-- SEM PJ-04-02 sem nova autorização explícita
+- Próxima ação: Marcos decide merge — aprovar PR #1 → merge em `main` → registrar `PJ-04-01 APROVADO ✅`
+- SEM merge sem aprovação / SEM PJ-04-02 sem nova autorização explícita
 
 # 45. O que acontece depois
 
