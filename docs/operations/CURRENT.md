@@ -1,5 +1,5 @@
 # PORTAL CAMINHO DA CONSCIÊNCIA
-## Documento 06 — CURRENT, Decisões e Plano Operacional Vivo — V2.7
+## Documento 06 — CURRENT, Decisões e Plano Operacional Vivo — V2.8
 
 **STATUS:** documento operacional vivo  
 **DATA DE CORTE:** 07/09/2026  
@@ -179,6 +179,8 @@ Estado operacional:
 - **PJ-03C = APROVADO ✅** (06/09/2026) — Vercel Preview; 21 rotas; Node 24; pnpm 11.18; HEAD `4349c1c`;
 - **PJ-03D = APROVADO ✅ INTEGRADO** (07/09/2026) — Identity/Auth Core; Magic Link E2E; claim service; redirect security; ownership UNIQUE+exception; race condition DB; pt-BR; deploy guard; env vars isolados; main HEAD `037c4d2`;
 - Preview URL: `https://portal-caminho-da-consciencia-6wudy41k4-marvin-ds-projects.vercel.app`.
+- **PJ-04-00 = APROVADO ✅** (07/09/2026) — Inventário arquitetural e plano de execução; decisões: Eduzz, sem webhook stub, nomes canônicos SPEC; sequência PJ-04-01→02→03 aprovada.
+- **PJ-04-01 = APROVADO ✅ INTEGRADO** (07/09/2026) — guard `type=recovery` em `/auth/confirm`; E2E skip V1 contract; PR #1 mergeado; deploy guard `main=false` ativo; main HEAD `ab6c7de`.
 
 ## Regra
 
@@ -235,7 +237,7 @@ Meta operacional de planejamento: **aproximadamente R$45–47 mil de receita**, 
 
 ## P0
 
-> **PJ-03D APROVADO ✅ INTEGRADO. PRÓXIMO: PJ-04 — Security / Shared Kernel (planejamento/inventário). MANTER PRODUTOS EM CHATS EXCLUSIVOS. COLOCAR O CALENDÁRIO DE CONTEÚDO EM PRODUÇÃO.**
+> **PJ-04-01 APROVADO ✅ INTEGRADO. PRÓXIMO: PJ-04-02 — Commerce Eduzz (nova autorização de Marcos). MANTER PRODUTOS EM CHATS EXCLUSIVOS. COLOCAR O CALENDÁRIO DE CONTEÚDO EM PRODUÇÃO.**
 
 Para Sintonize, a ordem é:
 
@@ -297,9 +299,8 @@ As versões canônicas foram versionadas no repositório via DOC-GIT-01 APROVADO
 Estado atual:
 
 - 01 V4.5, 02 V2.5, 05 V2.2, SPEC Transversal V1.1, ADR APROVADO, SPECs dos quatro produtos: commitados ✅;
-- CURRENT V2.7: branch `docs/pj03d-doc-sync` — delta PJ-03C/PJ-03D aplicado sobre baseline V2.5;
-- merge `docs/pj03d-doc-sync` em main: autorizado por Marcos — executar após leitura final;
-- app repo main HEAD: `037c4d2` (`marvin-ds/portal-caminho-da-consciencia-app`).
+- CURRENT V2.8: branch `docs/pj04-01-current-v2.8` — delta PJ-04-00/PJ-04-01 aplicado sobre baseline V2.7;
+- app repo main HEAD: `ab6c7de` (`marvin-ds/portal-caminho-da-consciencia-app`) — pós-merge PR #1.
 
 ---
 
@@ -401,9 +402,9 @@ PJ-02       ✅ APROVADO
 ADR         ✅ APROVADO
 ```
 
-**Estado atual:** DOC-SYNC CANÔNICO APROVADO ✅. DOC-GIT-01 APROVADO ✅. DOC-GIT-02 APROVADO ✅. PJ-03A ✅. PJ-03B ✅. PJ-03C ✅. PJ-03D ✅ INTEGRADO.
+**Estado atual:** DOC-SYNC CANÔNICO APROVADO ✅. DOC-GIT-01 APROVADO ✅. DOC-GIT-02 APROVADO ✅. PJ-03A ✅. PJ-03B ✅. PJ-03C ✅. PJ-03D ✅ INTEGRADO. PJ-04-00 ✅. PJ-04-01 ✅ INTEGRADO.
 
-**Próximo gate técnico:** PJ-04 — Security / Shared Kernel (planejamento/inventário).
+**Próximo gate técnico:** PJ-04-02 — Commerce Eduzz (aguarda nova autorização de Marcos).
 
 Sequência:
 
@@ -413,7 +414,9 @@ PUBLICAÇÃO CONTROLADA — GitHub           ✅ APROVADO 06/09/2026
 PJ-03B — Supabase Foundation             ✅ APROVADO 06/09/2026
 PJ-03C — Vercel Preview                  ✅ APROVADO 06/09/2026
 PJ-03D — Identity/Auth Core              ✅ APROVADO 07/09/2026 — INTEGRADO
-PJ-04  — Security / Shared Kernel        ⏳ PRÓXIMO — planejamento autorizado
+PJ-04-00 — Inventário / Plano            ✅ APROVADO 07/09/2026
+PJ-04-01 — Fronteiras de Segurança       ✅ APROVADO 07/09/2026 — INTEGRADO
+PJ-04-02 — Commerce Eduzz               ⏳ PRÓXIMO — aguarda autorização de Marcos
 Integration Contracts dos produtos
 ```
 
@@ -856,6 +859,8 @@ Preço inicial de referência: **R$97**, ainda sujeito ao teste.
 - PJ-03B = APROVADO ✅ — Supabase Foundation; RLS 7/7 PASS; typegen; build 20 rotas;
 - PJ-03C = APROVADO ✅ — Vercel Preview ativo; 21 rotas; Node 24; HEAD `4349c1c`;
 - PJ-03D = APROVADO ✅ INTEGRADO — Identity/Auth Core; Magic Link E2E comprovado; claim service; redirect security; ownership UNIQUE+exception; race condition DB; pt-BR; deploy guard `main=false`; env vars Production isolados; main HEAD `037c4d2`;
+- PJ-04-00 = APROVADO ✅ — Inventário arquitetural e plano de gates; Eduzz como provider; nomes canônicos SPEC Transversal V1.1; sequência PJ-04-01→02→03;
+- PJ-04-01 = APROVADO ✅ INTEGRADO — guard `type=recovery` antes de `verifyTokenHash()`; E2E skip V1 contract; CI TypeScript PASS; deploy guard ativo; PR #1 mergeado; main HEAD `ab6c7de`;
 - Auth V1 Preview = `PASSWORDLESS_APP_VERIFIED` (Magic Link); `PASSWORD_GRANT_REJECTED_OBSERVED` (grant_type=password → HTTP 400); `PASSWORD_BACKEND_UNVERIFIED` (bloqueio GoTrue server-side não comprovado);
 - O Minuto Anterior continua sem login obrigatório antes do valor;
 - ANTES DO APERTO é primeiro candidato forte ao shell autenticado completo;
@@ -1159,6 +1164,8 @@ Nenhum agente está autorizado, sem nova decisão explícita, a:
 | 06/09/2026 | PJ-03B — Supabase Foundation | APROVADO ✅ | RLS 7/7 PASS; typegen; build 20 rotas; mergeado em main |
 | 06/09/2026 | PJ-03C — Vercel Preview | APROVADO ✅ ENCERRADO | 21 rotas; Node 24; pnpm 11.18; Turborepo; main HEAD `4349c1c` |
 | 07/09/2026 | PJ-03D — Identity/Auth Core | APROVADO ✅ INTEGRADO | Magic Link E2E; claim service; redirect security; ownership UNIQUE+exception; race condition DB; pt-BR; `PASSWORDLESS_APP_VERIFIED`; `PASSWORD_GRANT_REJECTED_OBSERVED`; `PASSWORD_BACKEND_UNVERIFIED`; deploy guard `main=false`; env vars Production isolados; `NEXT_PUBLIC_SUPABASE_ANON_KEY` corrigido; main HEAD `037c4d2` |
+| 07/09/2026 | PJ-04-00 — Inventário / Plano | APROVADO ✅ | Eduzz como provider; sem webhook stub; nomes canônicos SPEC; sequência PJ-04-01→02→03 |
+| 07/09/2026 | PJ-04-01 — Fronteiras de Segurança | APROVADO ✅ INTEGRADO | guard `type=recovery`; E2E skip V1; PR #1 mergeado; deploy guard ativo; main HEAD `ab6c7de` |
 
 ---
 
@@ -1178,7 +1185,7 @@ Finalizar preparação e colocar o Calendário de Conteúdos em produção, mant
 
 ### Trilha C — convergência transversal
 
-PJ-00 ✅, PJ-01 ✅, PJ-01V ✅, PJ-01V.1 ✅, PJ-02 ✅, PJ-03A ✅, PJ-03B ✅, PJ-03C ✅, PJ-03D ✅ INTEGRADO — todos concluídos.
+PJ-00 ✅, PJ-01 ✅, PJ-01V ✅, PJ-01V.1 ✅, PJ-02 ✅, PJ-03A ✅, PJ-03B ✅, PJ-03C ✅, PJ-03D ✅ INTEGRADO, PJ-04-00 ✅, PJ-04-01 ✅ INTEGRADO — todos concluídos.
 
 **Baseline canônica atual da Plataforma:**
 - repo: `https://github.com/marvin-ds/portal-caminho-da-consciencia-app`
@@ -1249,12 +1256,12 @@ Deve permanecer:
 
 ---
 
-# 49. Controle de versão — V2.7
+# 49. Controle de versão — V2.8
 
-**VERSÃO:** V2.7  
+**VERSÃO:** V2.8  
 **DATA:** 07/09/2026  
-**SUBSTITUI:** V2.5  
-**MOTIVO:** registrar PJ-03B, PJ-03C e PJ-03D APROVADOS ✅ INTEGRADOS; deploy guard `main=false` ativo; env vars Supabase Preview — escopo Production removido; `NEXT_PUBLIC_SUPABASE_ANON_KEY` corrigido; `PASSWORDLESS_APP_VERIFIED`, `PASSWORD_GRANT_REJECTED_OBSERVED`, `PASSWORD_BACKEND_UNVERIFIED`; Preview URL `6wudy41k4`; app repo main HEAD `037c4d2`; próximo gate PJ-04.  
-**IMPACTO:** gates da Plataforma, estado operacional, decisões técnicas, decision log, Trilha C e prioridade atual.
+**SUBSTITUI:** V2.7  
+**MOTIVO:** PJ-04-00 APROVADO ✅ (inventário/plano, Eduzz, nomes SPEC); PJ-04-01 APROVADO ✅ INTEGRADO (guard `type=recovery`, PR #1 mergeado, deploy guard ativo); app repo main HEAD `ab6c7de`; próximo gate PJ-04-02 Commerce Eduzz — aguarda autorização de Marcos.  
+**IMPACTO:** gates da Plataforma, estado operacional, decision log, Trilha C, prioridade P0.
 
-> **Fim do Documento 06 — CURRENT, Decisões e Plano Operacional Vivo — V2.7.**
+> **Fim do Documento 06 — CURRENT, Decisões e Plano Operacional Vivo — V2.8.**
