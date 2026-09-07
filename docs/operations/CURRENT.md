@@ -483,6 +483,55 @@ Entregável: `docs/adr/ADR-PLATAFORMA-JORNADA-001.md` (arquivo local, não commi
 
 ---
 
+## PJ-04-00 — Inventário Security / Shared Kernel
+
+**STATUS:** APROVADO ✅ como base de planejamento (07/09/2026)
+
+Entregável: `docs/operations/PJ-04_00_INVENTARIO_PLANO.md` (app repo, branch `feat/pj04-01-security-claims`).
+
+**Achados principais:**
+- Schema: `contacts`, `identity_links`, `identity_claims`, `consents`, `redeem_identity_claim()` — IMPLEMENTADO ✅
+- `emitClaim()` — server-only, CSPRNG, hash persistido, TTL ✅
+- Gap real: `/auth/confirm?type=recovery` processava token de recovery → resolvido em PJ-04-01
+- AUSENTES (por gate): `orders`, `payments`, `entitlements`, `deliveries`, `audit_events`
+
+**Decisões aprovadas por Marcos (07/09/2026):**
+- Provider de pagamento: **Eduzz** (HMAC-SHA256 / `x-signature` / `myeduzz.invoice_paid`)
+- Identity Claim não é pré-requisito universal de compra
+- Webhook stub PROIBIDO como fluxo comercial
+- MFA não obrigatório na V1
+- O Minuto Anterior permanece público antes do primeiro valor
+
+---
+
+## PJ-04-01 — Fronteiras de Segurança e Identity Claim
+
+**STATUS:** EM ANDAMENTO — aguardando aprovação de Marcos para Preview e merge
+
+**Branch:** `feat/pj04-01-security-claims`  
+**HEAD:** `3caa3c393f78deff9b0b6cb4c97bad853c52b660` — LOCAL = REMOTE ✅  
+**Entregável:** `docs/operations/PJ-04-01_SECURITY_CLAIMS.md` (app repo)
+
+**Mudanças:**
+- `apps/web/app/auth/confirm/route.ts`: guard `type=recovery` → redirect `/entrar` antes de `verifyTokenHash()`
+- `apps/e2e/tests/authentication/password-reset.spec.ts`: `describe.skip` (contrato V1)
+- `apps/e2e/tests/account/account.spec.ts`: `test.skip` para update-password (contrato V1)
+- `apps/e2e/tests/authentication/auth-confirm-recovery-guard.spec.ts`: novo teste focado
+
+**Validações executadas:**
+- Typecheck (`pnpm --filter web typecheck`): ✅ sem erros
+- Lint (oxlint): ✅ sem novos erros
+- Playwright guard test (local dev, chromium): **2/2 ✅** — `type=recovery` → `/entrar`; `type=email` inválido → `/auth/callback/error`
+- Deploy guard `git.deploymentEnabled.main=false`: ATIVO ✅
+- `REAL_SECRETS_IN_GIT = 0` ✅
+
+**Pendente (aguarda aprovação):**
+- Vercel Preview não auto-acionado (branch sem PR); requer `vercel deploy` manual ou abertura de PR
+- Validação do build e do fluxo Magic Link no Preview (requer credenciais Supabase Preview)
+- Merge em main após aprovação de Marcos
+
+---
+
 ## PJ-03C — Vercel Preview
 
 **STATUS:** GATE PJ-03C — APROVADO ✅ — ENCERRADO (06/09/2026)
@@ -1243,7 +1292,9 @@ Nenhum agente está autorizado, sem nova decisão explícita, a:
 | 05/09/2026 | PJ-03A — Bootstrap repo Plataforma | APROVADO ✅ | repo privado criado; byte-equivalent ao upstream; main publicada |
 | 05/09/2026 | PJ-03B — Supabase Foundation Local | APROVADO ✅ | reset, RLS 7/7, typegen, build 20 rotas; mergeado em main |
 | 06/09/2026 | PJ-03C — Vercel Preview | APROVADO ✅ ENCERRADO | 21 rotas, Node 24, pnpm 11.18, Turborepo; main HEAD 4349c1c |
-| 07/09/2026 | PJ-03D — Identity/Auth Core | FECHADO ✅ aguard. merge | Magic Link E2E, claim service, redirect security, ownership guard; HEAD 25708c2 |
+| 07/09/2026 | PJ-03D — Identity/Auth Core | APROVADO ✅ INTEGRADO | Magic Link E2E, claim service, redirect security, ownership UNIQUE+exception, race condition DB, pt-BR; `PASSWORDLESS_APP_VERIFIED`; `PASSWORD_GRANT_REJECTED_OBSERVED`; `PASSWORD_BACKEND_UNVERIFIED`; deploy guard `main=false`; isolamento vars pendente |
+| 07/09/2026 | PJ-04-00 — Inventário Security/Shared Kernel | APROVADO ✅ base de planejamento | Schema, gaps, Eduzz, nomes canônicos SPEC, sequência PJ-04-01→02→03 |
+| 07/09/2026 | PJ-04-01 — Fronteiras de Segurança e Identity Claim | EM ANDAMENTO | Recovery guard ✅; E2E 2/2 ✅; typecheck ✅; lint ✅; SHA LOCAL=REMOTE `3caa3c3`; Preview pendente (sem PR); merge aguarda aprovação Marcos |
 
 ---
 
@@ -1263,20 +1314,21 @@ Finalizar preparação e colocar o Calendário de Conteúdos em produção, mant
 
 ### Trilha C — convergência transversal
 
-PJ-00 ✅, PJ-01 ✅, PJ-01V ✅, PJ-01V.1 ✅, PJ-02 ✅, PJ-03A ✅, PJ-03B ✅, PJ-03C ✅ — todos concluídos.
+PJ-00 ✅, PJ-01 ✅, PJ-01V ✅, PJ-01V.1 ✅, PJ-02 ✅, PJ-03A ✅, PJ-03B ✅, PJ-03C ✅, PJ-03D ✅ — todos concluídos.
 
 **Baseline canônica atual da Plataforma:**
 - repo: `https://github.com/marvin-ds/portal-caminho-da-consciencia-app`
-- branch feature: `feat/pj03d-identity-auth` — HEAD `25708c2`
-- main HEAD: `4349c1c924844c475b4e3a1f7b2d776dc36b190e`
+- main HEAD: `037c4d2df001262511d06d847b9b4f59545cd07c` (base do PJ-04-01)
+- branch ativa: `feat/pj04-01-security-claims` — HEAD `3caa3c393f78deff9b0b6cb4c97bad853c52b660`
 
-**Gate atual:** PJ-03D — Identity/Auth Core — FECHADO, aguardando aprovação de Marcos
-- Magic Link E2E + security boundaries (PJ-03D-R + PJ-03D-R2) concluídos
-- Próxima ação: aprovação de Marcos → merge `feat/pj03d-identity-auth` → main → abrir PJ-04
-- Identidade / ownership / RLS
-- SEM Supabase de produção
-- SEM configurar domínio customizado
-- SEM iniciar PJ-03E ou produtos
+**Gate atual:** PJ-04-01 — Fronteiras de Segurança e Identity Claim — EM ANDAMENTO
+- Recovery guard `type=recovery` implementado e testado (2/2 E2E ✅)
+- Deploy guard `git.deploymentEnabled.main=false` ATIVO ✅
+- `PASSWORDLESS_APP_VERIFIED` ✅ / `PASSWORD_BACKEND_UNVERIFIED` (caveat PJ-03D — não reabrir)
+- Vercel Preview: não auto-acionado; requer PR ou `vercel deploy` manual
+- Próxima ação: Marcos autoriza criação do PR → Preview → aprovação → merge em `main`
+- SEM merge sem aprovação
+- SEM PJ-04-02 sem nova autorização explícita
 
 # 45. O que acontece depois
 
@@ -1339,10 +1391,10 @@ Deve permanecer:
 
 # 49. Controle de versão — V2.4
 
-**VERSÃO:** V2.6  
-**DATA:** 06/09/2026  
-**SUBSTITUI:** V2.5  
-**MOTIVO:** registrar PJ-03A (bootstrap repo Plataforma), PJ-03B (Supabase Foundation + merge main) e PJ-03C (Vercel Preview — concluído, aguardando aprovação de Marcos). Atualizar estado da Plataforma da Jornada e próximos passos.  
-**IMPACTO:** gates, decision log, estado da Plataforma, Preview URL, próxima ação (aprovação PJ-03C → merge → PJ-03D).
+**VERSÃO:** V2.7  
+**DATA:** 07/09/2026  
+**SUBSTITUI:** V2.6  
+**MOTIVO:** registrar PJ-04-00 (inventário Security/Shared Kernel — aprovado) e PJ-04-01 (fronteiras de segurança — EM ANDAMENTO: recovery guard implementado e testado, aguardando Preview e aprovação de Marcos para merge).  
+**IMPACTO:** gates, decision log, estado da Plataforma, branch ativa, próxima ação.
 
-> **Fim do Documento 06 — CURRENT, Decisões e Plano Operacional Vivo — V2.6.**
+> **Fim do Documento 06 — CURRENT, Decisões e Plano Operacional Vivo — V2.7.**
