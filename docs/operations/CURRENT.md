@@ -238,7 +238,7 @@ Meta operacional de planejamento: **aproximadamente R$45–47 mil de receita**, 
 
 ## P0
 
-> **PJ-04-02 EM ANDAMENTO — R2B FECHADO: migrations 000009+000010 commitadas (HEAD `4b753d9`), SQL validation PASS no Preview. BLOCKER: testes de integração TypeScript precisam de env vars reais — rodar manualmente (ver seção PJ-04-02). PR #2 Draft aberto; aguarda aprovação de Marcos. STOP: sem merge automático, sem Production, sem PJ-04-03.**
+> **PJ-04-02 VALIDATION FINAL COMPLETO — HEAD `76d7226`: push OK, CI TypeScript PASS, 17 migrations confirmadas no Preview (000008/009/010), typegen PASS, typecheck PASS, build PASS. BLOCKER REMANESCENTE: testes TypeScript de integração precisam do SUPABASE_SERVICE_ROLE_KEY — template em `.env.preview.local`, comando abaixo. PR #2 Draft HEAD `76d7226`; aguarda decisão de merge de Marcos. STOP: sem merge automático, sem Production, sem PJ-04-03.**
 
 Para Sintonize, a ordem é:
 
@@ -302,7 +302,7 @@ Estado atual:
 - 01 V4.5, 02 V2.5, 05 V2.2, SPEC Transversal V1.1, ADR APROVADO, SPECs dos quatro produtos: commitados ✅;
 - CURRENT V2.9: branch `docs/minuto-anterior-ma01` — delta PJ-04-02-IMPL-01 aplicado sobre baseline V2.8;
 - app repo main HEAD: `ab6c7de` (`marvin-ds/portal-caminho-da-consciencia-app`) — pós-merge PR #1;
-- app repo feat HEAD: `4b753d9` (`feat/pj04-02-commerce-access`) — R2B closure: migrations 000009+000010 + testes; SQL validation PASS no Preview.
+- app repo feat HEAD: `76d7226` (`feat/pj04-02-commerce-access`) — validation final: typegen, typecheck PASS, build PASS, CI TypeScript PASS.
 
 ---
 
@@ -418,7 +418,7 @@ PJ-03C — Vercel Preview                  ✅ APROVADO 06/09/2026
 PJ-03D — Identity/Auth Core              ✅ APROVADO 07/09/2026 — INTEGRADO
 PJ-04-00 — Inventário / Plano            ✅ APROVADO 07/09/2026
 PJ-04-01 — Fronteiras de Segurança       ✅ APROVADO 07/09/2026 — INTEGRADO
-PJ-04-02 — Commerce Eduzz               ⏳ EM ANDAMENTO — R2B FECHADO; PR #2 Draft; aguarda Marcos (BLOCKER: testes TS env vars)
+PJ-04-02 — Commerce Eduzz               ⏳ EM ANDAMENTO — validation final OK; PR #2 Draft HEAD 76d7226; BLOCKER: testes TS (service_role_key) — decisão de merge com Marcos
 Integration Contracts dos produtos
 ```
 
