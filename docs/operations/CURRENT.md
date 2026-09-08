@@ -1,11 +1,11 @@
 # PORTAL CAMINHO DA CONSCIÊNCIA
-## Documento 06 — CURRENT, Decisões e Plano Operacional Vivo — V2.8
+## Documento 06 — CURRENT, Decisões e Plano Operacional Vivo — V2.10
 
 **STATUS:** documento operacional vivo  
-**DATA DE CORTE:** 07/09/2026  
+**DATA DE CORTE:** 08/09/2026  
 **HORIZONTE:** estado atual + próximos 7–14 dias  
 **FUNÇÃO:** manter Marcos, ChatGPT, Claude Code, Codex e demais agentes alinhados sobre o que é fato, o que está decidido, o que está pendente e qual é o próximo movimento  
-**SUBSTITUI:** Documento 06 — CURRENT — V2.7
+**SUBSTITUI:** Documento 06 — CURRENT — V2.9
 
 > **Onde estamos. O que já foi decidido. O que está pendente. Qual é o próximo movimento.**
 
@@ -181,6 +181,7 @@ Estado operacional:
 - Preview URL: `https://portal-caminho-da-consciencia-6wudy41k4-marvin-ds-projects.vercel.app`.
 - **PJ-04-00 = APROVADO ✅** (07/09/2026) — Inventário arquitetural e plano de execução; decisões: Eduzz, sem webhook stub, nomes canônicos SPEC; sequência PJ-04-01→02→03 aprovada.
 - **PJ-04-01 = APROVADO ✅ INTEGRADO** (07/09/2026) — guard `type=recovery` em `/auth/confirm`; E2E skip V1 contract; PR #1 mergeado; deploy guard `main=false` ativo; main HEAD `ab6c7de`.
+- **PJ-04-02 = APROVADO ✅ INTEGRADO** (08/09/2026) — PR #2 MERGED `2026-09-08T14:36:15Z`; merge SHA `cfc3c4717fc2613e6de326c9c06ed452e4b37947`; main app HEAD `cfc3c47`; CI post-merge `success` (TypeScript OK, Test skipped por design); guard `deploymentEnabled.main=false` ativo — nenhum deploy Production disparado; 17 migrações integradas (000005–000012) incluindo 000010 (guard refund antes do LOOP), 000011 (pgcrypto), 000012 (search_path=public,extensions); 38/38 integration tests PASS; typegen ✅ (1271 linhas); typecheck ✅; build ✅ (21 rotas). Permanecem fora: Eduzz real, IDs comerciais, segredo HMAC, compra real, checkout público, Production e PJ-04-03.
 
 ## Regra
 
@@ -237,7 +238,7 @@ Meta operacional de planejamento: **aproximadamente R$45–47 mil de receita**, 
 
 ## P0
 
-> **PJ-04-01 APROVADO ✅ INTEGRADO. PRÓXIMO: PJ-04-02 — Commerce Eduzz (nova autorização de Marcos). MANTER PRODUTOS EM CHATS EXCLUSIVOS. COLOCAR O CALENDÁRIO DE CONTEÚDO EM PRODUÇÃO.**
+> **PJ-04-02 VALIDATION FINAL COMPLETO — HEAD `76d7226`: push OK, CI TypeScript PASS, 17 migrations confirmadas no Preview (000008/009/010), typegen PASS, typecheck PASS, build PASS. BLOCKER REMANESCENTE: testes TypeScript de integração precisam do SUPABASE_SERVICE_ROLE_KEY — template em `.env.preview.local`, comando abaixo. PR #2 Draft HEAD `76d7226`; aguarda decisão de merge de Marcos. STOP: sem merge automático, sem Production, sem PJ-04-03.**
 
 Para Sintonize, a ordem é:
 
@@ -278,7 +279,7 @@ Porta 2 permanece forte para conversão; Porta 1 pode captar intenção direta p
 | 03.F — Páginas / Oferta / Conversão | V1.0 | mantido |
 | 04 — Identidade e Comunicação | V2.3 | mantido |
 | 05 — Arquitetura Técnica | **V2.2** | arquitetura definitiva pós-PJ-02 |
-| 06 — CURRENT | **V2.7** | este arquivo |
+| 06 — CURRENT | **V2.9** | este arquivo |
 
 **SPEC transversal vigente:** Plataforma da Jornada **Meu Caminho** — Arquitetura de Execução Aprovada — **V1.1**.
 
@@ -299,8 +300,9 @@ As versões canônicas foram versionadas no repositório via DOC-GIT-01 APROVADO
 Estado atual:
 
 - 01 V4.5, 02 V2.5, 05 V2.2, SPEC Transversal V1.1, ADR APROVADO, SPECs dos quatro produtos: commitados ✅;
-- CURRENT V2.8: branch `docs/pj04-01-current-v2.8` — delta PJ-04-00/PJ-04-01 aplicado sobre baseline V2.7;
-- app repo main HEAD: `ab6c7de` (`marvin-ds/portal-caminho-da-consciencia-app`) — pós-merge PR #1.
+- CURRENT V2.9: branch `docs/minuto-anterior-ma01` — delta PJ-04-02-IMPL-01 aplicado sobre baseline V2.8;
+- app repo main HEAD: `ab6c7de` (`marvin-ds/portal-caminho-da-consciencia-app`) — pós-merge PR #1;
+- app repo feat HEAD: `76d7226` (`feat/pj04-02-commerce-access`) — validation final: typegen, typecheck PASS, build PASS, CI TypeScript PASS.
 
 ---
 
@@ -402,9 +404,9 @@ PJ-02       ✅ APROVADO
 ADR         ✅ APROVADO
 ```
 
-**Estado atual:** DOC-SYNC CANÔNICO APROVADO ✅. DOC-GIT-01 APROVADO ✅. DOC-GIT-02 APROVADO ✅. PJ-03A ✅. PJ-03B ✅. PJ-03C ✅. PJ-03D ✅ INTEGRADO. PJ-04-00 ✅. PJ-04-01 ✅ INTEGRADO.
+**Estado atual:** DOC-SYNC CANÔNICO APROVADO ✅. DOC-GIT-01 APROVADO ✅. DOC-GIT-02 APROVADO ✅. PJ-03A ✅. PJ-03B ✅. PJ-03C ✅. PJ-03D ✅ INTEGRADO. PJ-04-00 ✅. PJ-04-01 ✅ INTEGRADO. PJ-04-02 EM ANDAMENTO ⏳.
 
-**Próximo gate técnico:** PJ-04-02 — Commerce Eduzz (aguarda nova autorização de Marcos).
+**Próximo gate técnico:** PJ-04-02 — Marcos revisa PR #2 e aprova ou rejeita.
 
 Sequência:
 
@@ -416,7 +418,7 @@ PJ-03C — Vercel Preview                  ✅ APROVADO 06/09/2026
 PJ-03D — Identity/Auth Core              ✅ APROVADO 07/09/2026 — INTEGRADO
 PJ-04-00 — Inventário / Plano            ✅ APROVADO 07/09/2026
 PJ-04-01 — Fronteiras de Segurança       ✅ APROVADO 07/09/2026 — INTEGRADO
-PJ-04-02 — Commerce Eduzz               ⏳ PRÓXIMO — aguarda autorização de Marcos
+PJ-04-02 — Commerce Eduzz               ⏳ EM ANDAMENTO — validation final OK; PR #2 Draft HEAD 76d7226; BLOCKER: testes TS (service_role_key) — decisão de merge com Marcos
 Integration Contracts dos produtos
 ```
 
@@ -1256,12 +1258,12 @@ Deve permanecer:
 
 ---
 
-# 49. Controle de versão — V2.8
+# 49. Controle de versão — V2.9
 
-**VERSÃO:** V2.8  
+**VERSÃO:** V2.9  
 **DATA:** 07/09/2026  
-**SUBSTITUI:** V2.7  
-**MOTIVO:** PJ-04-00 APROVADO ✅ (inventário/plano, Eduzz, nomes SPEC); PJ-04-01 APROVADO ✅ INTEGRADO (guard `type=recovery`, PR #1 mergeado, deploy guard ativo); app repo main HEAD `ab6c7de`; próximo gate PJ-04-02 Commerce Eduzz — aguarda autorização de Marcos.  
+**SUBSTITUI:** V2.8  
+**MOTIVO:** PJ-04-02 R2B FECHADO — migration 000009 (claim×reversal lock + terminal state + unknown refund guard) e migration 000010 (unknown-type check movido para antes do LOOP) commitadas em `4b753d9`; SQL validation PASS no Preview `mjotjtcpivxwilwtnltm`; BLOCKER: testes TypeScript de integração requerem env vars reais para execução.  
 **IMPACTO:** gates da Plataforma, estado operacional, decision log, Trilha C, prioridade P0.
 
-> **Fim do Documento 06 — CURRENT, Decisões e Plano Operacional Vivo — V2.8.**
+> **Fim do Documento 06 — CURRENT, Decisões e Plano Operacional Vivo — V2.9.**
