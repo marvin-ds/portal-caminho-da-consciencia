@@ -1,11 +1,11 @@
 # PORTAL CAMINHO DA CONSCIÊNCIA
-## Documento 06 — CURRENT, Decisões e Plano Operacional Vivo — V2.8
+## Documento 06 — CURRENT, Decisões e Plano Operacional Vivo — V2.9
 
 **STATUS:** documento operacional vivo  
 **DATA DE CORTE:** 07/09/2026  
 **HORIZONTE:** estado atual + próximos 7–14 dias  
 **FUNÇÃO:** manter Marcos, ChatGPT, Claude Code, Codex e demais agentes alinhados sobre o que é fato, o que está decidido, o que está pendente e qual é o próximo movimento  
-**SUBSTITUI:** Documento 06 — CURRENT — V2.7
+**SUBSTITUI:** Documento 06 — CURRENT — V2.8
 
 > **Onde estamos. O que já foi decidido. O que está pendente. Qual é o próximo movimento.**
 
@@ -238,7 +238,7 @@ Meta operacional de planejamento: **aproximadamente R$45–47 mil de receita**, 
 
 ## P0
 
-> **PJ-04-02 EM ANDAMENTO — Commerce Eduzz; implementação completa; PR #2 Draft aberto; aguarda aprovação de Marcos. STOP: sem merge automático, sem Production, sem PJ-04-03. MANTER PRODUTOS EM CHATS EXCLUSIVOS. COLOCAR O CALENDÁRIO DE CONTEÚDO EM PRODUÇÃO.**
+> **PJ-04-02 EM ANDAMENTO — R2B FECHADO: migrations 000009+000010 commitadas (HEAD `4b753d9`), SQL validation PASS no Preview. BLOCKER: testes de integração TypeScript precisam de env vars reais — rodar manualmente (ver seção PJ-04-02). PR #2 Draft aberto; aguarda aprovação de Marcos. STOP: sem merge automático, sem Production, sem PJ-04-03.**
 
 Para Sintonize, a ordem é:
 
@@ -302,7 +302,7 @@ Estado atual:
 - 01 V4.5, 02 V2.5, 05 V2.2, SPEC Transversal V1.1, ADR APROVADO, SPECs dos quatro produtos: commitados ✅;
 - CURRENT V2.9: branch `docs/minuto-anterior-ma01` — delta PJ-04-02-IMPL-01 aplicado sobre baseline V2.8;
 - app repo main HEAD: `ab6c7de` (`marvin-ds/portal-caminho-da-consciencia-app`) — pós-merge PR #1;
-- app repo feat HEAD: `690cbca` (`feat/pj04-02-commerce-access`) — Commerce/Access schema + webhook receiver.
+- app repo feat HEAD: `4b753d9` (`feat/pj04-02-commerce-access`) — R2B closure: migrations 000009+000010 + testes; SQL validation PASS no Preview.
 
 ---
 
@@ -418,7 +418,7 @@ PJ-03C — Vercel Preview                  ✅ APROVADO 06/09/2026
 PJ-03D — Identity/Auth Core              ✅ APROVADO 07/09/2026 — INTEGRADO
 PJ-04-00 — Inventário / Plano            ✅ APROVADO 07/09/2026
 PJ-04-01 — Fronteiras de Segurança       ✅ APROVADO 07/09/2026 — INTEGRADO
-PJ-04-02 — Commerce Eduzz               ⏳ EM ANDAMENTO — PR #2 Draft; aguarda Marcos
+PJ-04-02 — Commerce Eduzz               ⏳ EM ANDAMENTO — R2B FECHADO; PR #2 Draft; aguarda Marcos (BLOCKER: testes TS env vars)
 Integration Contracts dos produtos
 ```
 
@@ -1258,12 +1258,12 @@ Deve permanecer:
 
 ---
 
-# 49. Controle de versão — V2.8
+# 49. Controle de versão — V2.9
 
-**VERSÃO:** V2.8  
+**VERSÃO:** V2.9  
 **DATA:** 07/09/2026  
-**SUBSTITUI:** V2.7  
-**MOTIVO:** PJ-04-00 APROVADO ✅ (inventário/plano, Eduzz, nomes SPEC); PJ-04-01 APROVADO ✅ INTEGRADO (guard `type=recovery`, PR #1 mergeado, deploy guard ativo); app repo main HEAD `ab6c7de`; próximo gate PJ-04-02 Commerce Eduzz — aguarda autorização de Marcos.  
+**SUBSTITUI:** V2.8  
+**MOTIVO:** PJ-04-02 R2B FECHADO — migration 000009 (claim×reversal lock + terminal state + unknown refund guard) e migration 000010 (unknown-type check movido para antes do LOOP) commitadas em `4b753d9`; SQL validation PASS no Preview `mjotjtcpivxwilwtnltm`; BLOCKER: testes TypeScript de integração requerem env vars reais para execução.  
 **IMPACTO:** gates da Plataforma, estado operacional, decision log, Trilha C, prioridade P0.
 
-> **Fim do Documento 06 — CURRENT, Decisões e Plano Operacional Vivo — V2.8.**
+> **Fim do Documento 06 — CURRENT, Decisões e Plano Operacional Vivo — V2.9.**
