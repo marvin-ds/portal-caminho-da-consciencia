@@ -1,11 +1,11 @@
 # PORTAL CAMINHO DA CONSCIÊNCIA
-## Documento 06 — CURRENT, Decisões e Plano Operacional Vivo — V2.9
+## Documento 06 — CURRENT, Decisões e Plano Operacional Vivo — V2.10
 
 **STATUS:** documento operacional vivo  
-**DATA DE CORTE:** 07/09/2026  
+**DATA DE CORTE:** 08/09/2026  
 **HORIZONTE:** estado atual + próximos 7–14 dias  
 **FUNÇÃO:** manter Marcos, ChatGPT, Claude Code, Codex e demais agentes alinhados sobre o que é fato, o que está decidido, o que está pendente e qual é o próximo movimento  
-**SUBSTITUI:** Documento 06 — CURRENT — V2.8
+**SUBSTITUI:** Documento 06 — CURRENT — V2.9
 
 > **Onde estamos. O que já foi decidido. O que está pendente. Qual é o próximo movimento.**
 
@@ -181,7 +181,7 @@ Estado operacional:
 - Preview URL: `https://portal-caminho-da-consciencia-6wudy41k4-marvin-ds-projects.vercel.app`.
 - **PJ-04-00 = APROVADO ✅** (07/09/2026) — Inventário arquitetural e plano de execução; decisões: Eduzz, sem webhook stub, nomes canônicos SPEC; sequência PJ-04-01→02→03 aprovada.
 - **PJ-04-01 = APROVADO ✅ INTEGRADO** (07/09/2026) — guard `type=recovery` em `/auth/confirm`; E2E skip V1 contract; PR #1 mergeado; deploy guard `main=false` ativo; main HEAD `ab6c7de`.
-- **PJ-04-02 = VALIDAÇÃO FINAL CONCLUÍDA / AGUARDA MERGE** (08/09/2026) — branch `feat/pj04-02-commerce-access` HEAD `7617129`; LOCAL=REMOTE ✅; PR #2 https://github.com/marvin-ds/portal-caminho-da-consciencia-app/pull/2; 17 migrações no Preview `mjotjtcpivxwilwtnltm` (000008–000012); **38/38 integration tests PASS** contra Preview real (`npx tsx --env-file=.env.preview.local --test`); typegen ✅ (1271 linhas); typecheck ✅ (0 erros); build ✅ (21 rotas); CI TypeScript ✅. Migrações: 000010 — guard unknown refund type antes do LOOP (sem efeitos colaterais); 000011 — pgcrypto; 000012 — search_path=public,extensions para gen_random_bytes. Fixes de suíte: concurrency:false em redeem_commerce_claim; email único por test; payment_id+status no insert direto de conflito. STOP vigente — sem merge do PR #2, sem Eduzz real, sem segredo no chat/Git, sem Production, sem PJ-04-03. Próxima ação: Marcos revisa e autoriza merge do PR #2.
+- **PJ-04-02 = APROVADO ✅ INTEGRADO** (08/09/2026) — PR #2 MERGED `2026-09-08T14:36:15Z`; merge SHA `cfc3c4717fc2613e6de326c9c06ed452e4b37947`; main app HEAD `cfc3c47`; CI post-merge `success` (TypeScript OK, Test skipped por design); guard `deploymentEnabled.main=false` ativo — nenhum deploy Production disparado; 17 migrações integradas (000005–000012) incluindo 000010 (guard refund antes do LOOP), 000011 (pgcrypto), 000012 (search_path=public,extensions); 38/38 integration tests PASS; typegen ✅ (1271 linhas); typecheck ✅; build ✅ (21 rotas). Permanecem fora: Eduzz real, IDs comerciais, segredo HMAC, compra real, checkout público, Production e PJ-04-03.
 
 ## Regra
 
