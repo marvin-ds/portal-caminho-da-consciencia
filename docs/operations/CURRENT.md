@@ -2,7 +2,7 @@
 ## Documento 06 — CURRENT, Decisões e Plano Operacional Vivo — V2.10
 
 **STATUS:** documento operacional vivo  
-**DATA DE CORTE:** 08/09/2026  
+**DATA DE CORTE:** 09/09/2026  
 **HORIZONTE:** estado atual + próximos 7–14 dias  
 **FUNÇÃO:** manter Marcos, ChatGPT, Claude Code, Codex e demais agentes alinhados sobre o que é fato, o que está decidido, o que está pendente e qual é o próximo movimento  
 **SUBSTITUI:** Documento 06 — CURRENT — V2.9
@@ -238,7 +238,7 @@ Meta operacional de planejamento: **aproximadamente R$45–47 mil de receita**, 
 
 ## P0
 
-> **PJ-04-02 VALIDATION FINAL COMPLETO — HEAD `76d7226`: push OK, CI TypeScript PASS, 17 migrations confirmadas no Preview (000008/009/010), typegen PASS, typecheck PASS, build PASS. BLOCKER REMANESCENTE: testes TypeScript de integração precisam do SUPABASE_SERVICE_ROLE_KEY — template em `.env.preview.local`, comando abaixo. PR #2 Draft HEAD `76d7226`; aguarda decisão de merge de Marcos. STOP: sem merge automático, sem Production, sem PJ-04-03.**
+> **MAPEAMENTO GRAVADO ✅ (09/09/2026) — `product_mappings`: Eduzz `3025485` → `antes-do-aperto`, active=true, notas de teste. Read-back confirmado. Nenhum order/payment/entitlement criado por essa operação. Deploy limpo `0ae778f` READY: `portal-app-pj04-02-ee4ijxjqm-marvin-ds-projects.vercel.app`. Isolamento confirmado (produto de teste sem compradores reais). PENDENTE: compra controlada única (não autorizada ainda) — pagamento → webhook → entitlement → claim → acesso → reversão. STOP: sem compra real, sem Production, sem PJ-04-03.**
 
 Para Sintonize, a ordem é:
 
@@ -404,9 +404,9 @@ PJ-02       ✅ APROVADO
 ADR         ✅ APROVADO
 ```
 
-**Estado atual:** DOC-SYNC CANÔNICO APROVADO ✅. DOC-GIT-01 APROVADO ✅. DOC-GIT-02 APROVADO ✅. PJ-03A ✅. PJ-03B ✅. PJ-03C ✅. PJ-03D ✅ INTEGRADO. PJ-04-00 ✅. PJ-04-01 ✅ INTEGRADO. PJ-04-02 EM ANDAMENTO ⏳.
+**Estado atual:** DOC-SYNC CANÔNICO APROVADO ✅. DOC-GIT-01 APROVADO ✅. DOC-GIT-02 APROVADO ✅. PJ-03A ✅. PJ-03B ✅. PJ-03C ✅. PJ-03D ✅ INTEGRADO. PJ-04-00 ✅. PJ-04-01 ✅ INTEGRADO. PJ-04-02 ✅ INTEGRADO. PJ-04-02-EZ-01 ✅ APROVADO (09/09/2026).
 
-**Próximo gate técnico:** PJ-04-02 — Marcos revisa PR #2 e aprova ou rejeita.
+**Próximo gate técnico:** PJ-04-02-EZ-01 encerrado. Próximo: definir PJ-04-03 (Integration Contracts dos produtos) conforme plano aprovado em PJ-04-00. STOP até decisão de Marcos.
 
 Sequência:
 
@@ -418,7 +418,8 @@ PJ-03C — Vercel Preview                  ✅ APROVADO 06/09/2026
 PJ-03D — Identity/Auth Core              ✅ APROVADO 07/09/2026 — INTEGRADO
 PJ-04-00 — Inventário / Plano            ✅ APROVADO 07/09/2026
 PJ-04-01 — Fronteiras de Segurança       ✅ APROVADO 07/09/2026 — INTEGRADO
-PJ-04-02 — Commerce Eduzz               ⏳ EM ANDAMENTO — validation final OK; PR #2 Draft HEAD 76d7226; BLOCKER: testes TS (service_role_key) — decisão de merge com Marcos
+PJ-04-02 — Commerce Eduzz               ✅ INTEGRADO (08/09/2026) — PR #2 MERGED; main HEAD cfc3c47
+PJ-04-02-EZ-01 — Webhook Eduzz Preview  ✅ APROVADO (09/09/2026) — ping+3 eventos 200; webhook_receipts gravados; Eduzz ativou
 Integration Contracts dos produtos
 ```
 
