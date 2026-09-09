@@ -1,11 +1,12 @@
 # PORTAL CAMINHO DA CONSCIÊNCIA
-## Documento 06 — CURRENT, Decisões e Plano Operacional Vivo — V2.10
+## Documento 06 — CURRENT, Decisões e Plano Operacional Vivo — V2.11
 
+**REGRA EDITORIAL OBRIGATÓRIA:** Diretriz Editorial Complementar — Território de Transformação e Descobrir/Reconhecer — V1.1  
 **STATUS:** documento operacional vivo  
 **DATA DE CORTE:** 09/09/2026  
 **HORIZONTE:** estado atual + próximos 7–14 dias  
 **FUNÇÃO:** manter Marcos, ChatGPT, Claude Code, Codex e demais agentes alinhados sobre o que é fato, o que está decidido, o que está pendente e qual é o próximo movimento  
-**SUBSTITUI:** Documento 06 — CURRENT — V2.9
+**SUBSTITUI:** Documento 06 — CURRENT — V2.10
 
 > **Onde estamos. O que já foi decidido. O que está pendente. Qual é o próximo movimento.**
 
@@ -62,6 +63,8 @@ Atualizar este arquivo quando houver:
 - mudança de tracking;
 - implementação de checkout/CRM/Radar;
 - alteração canônica relevante.
+
+**DELTA EDITORIAL DE 09/09/2026:** DOC-SYNC incorporando pacote canônico 00–05 + Diretriz V1.1 + novos 02.A e 03.F. Snapshot técnico e comercial (PJ-04-02, EZ-01, mapeamento Preview) preservado. Não inferir novos deploys, releases, preços ou gates a partir deste delta.
 
 Não registrar:
 
@@ -266,20 +269,21 @@ Porta 2 permanece forte para conversão; Porta 1 pode captar intenção direta p
 
 | Documento | Versão vigente | Estado |
 |---|---:|---|
-| 00 — Governança Conceitual | V1.3 | mantido |
-| 01 — Fundacional Estratégico | **V4.5** | arquitetura PJ-02 incorporada estrategicamente |
-| 02 — Jornada, Produtos e Serviços | **V2.5** | Meu Caminho incorporado como camada transversal |
-| 02.A — Framework de Produtos | V1.0 | mantido |
-| 03 — Editorial e Aquisição | V2.2 | mantido |
-| 03.A — Percepção Antes da Explicação | V1.0 | mantido |
-| 03.B — Mapa Editorial | V1.2 | mantido |
-| 03.C — Banco de Reels | V1.1 | mantido |
-| 03.D — Prompts / Search / Copy | V2.2 | mantido |
-| 03.E — Execução Editorial | V1.1 | mantido |
-| 03.F — Páginas / Oferta / Conversão | V1.0 | mantido |
-| 04 — Identidade e Comunicação | V2.3 | mantido |
-| 05 — Arquitetura Técnica | **V2.2** | arquitetura definitiva pós-PJ-02 |
-| 06 — CURRENT | **V2.9** | este arquivo |
+| 00 — Governança Conceitual | **V1.4** | atualizado DOC-SYNC 09/09/2026 |
+| 01 — Fundacional Estratégico | **V4.6** | atualizado DOC-SYNC 09/09/2026 |
+| 02 — Jornada, Produtos e Serviços | **V2.6** | Meu Caminho incorporado como camada transversal |
+| 02.A — Framework de Produtos | **V1.1** | atualizado DOC-SYNC 09/09/2026 |
+| 03 — Editorial e Aquisição | **V2.3** | atualizado DOC-SYNC 09/09/2026 |
+| 03.A — Percepção Antes da Explicação | **V1.1** | atualizado DOC-SYNC 09/09/2026 |
+| 03.B — Mapa Editorial | **V1.3** | atualizado DOC-SYNC 09/09/2026 |
+| 03.C — Banco de Reels | **V1.2** | atualizado DOC-SYNC 09/09/2026 |
+| 03.D — Prompts / Search / Copy | **V2.3** | atualizado DOC-SYNC 09/09/2026 |
+| 03.E — Execução Editorial | **V1.2** | atualizado DOC-SYNC 09/09/2026 |
+| 03.F — Páginas / Oferta / Conversão | **V1.1** | atualizado DOC-SYNC 09/09/2026 |
+| 04 — Identidade e Comunicação | **V2.4** | atualizado DOC-SYNC 09/09/2026 |
+| 05 — Arquitetura Técnica | **V2.3** | atualizado DOC-SYNC 09/09/2026 |
+| 06 — CURRENT | **V2.11** | este arquivo |
+| Diretriz — Território de Transformação e Descobrir/Reconhecer | **V1.1** | novo — DOC-SYNC 09/09/2026 |
 
 **SPEC transversal vigente:** Plataforma da Jornada **Meu Caminho** — Arquitetura de Execução Aprovada — **V1.1**.
 
@@ -289,7 +293,7 @@ Porta 2 permanece forte para conversão; Porta 1 pode captar intenção direta p
 - Mapeamento Padrão Interrompido 2.0 — V1.1;
 - Sintonize — SPEC V1.0 + Addendum V1.1 + Addendum de Integração V1.2.
 
-Não criar novo Documento 07. A SPEC transversal V1.1 governa a execução técnica em conjunto com o Documento 05 V2.2 e o ADR aprovado.
+Não criar novo Documento 07. A SPEC transversal V1.1 governa a execução técnica em conjunto com o Documento 05 V2.3 e o ADR aprovado.
 
 ---
 
@@ -1169,6 +1173,8 @@ Nenhum agente está autorizado, sem nova decisão explícita, a:
 | 07/09/2026 | PJ-03D — Identity/Auth Core | APROVADO ✅ INTEGRADO | Magic Link E2E; claim service; redirect security; ownership UNIQUE+exception; race condition DB; pt-BR; `PASSWORDLESS_APP_VERIFIED`; `PASSWORD_GRANT_REJECTED_OBSERVED`; `PASSWORD_BACKEND_UNVERIFIED`; deploy guard `main=false`; env vars Production isolados; `NEXT_PUBLIC_SUPABASE_ANON_KEY` corrigido; main HEAD `037c4d2` |
 | 07/09/2026 | PJ-04-00 — Inventário / Plano | APROVADO ✅ | Eduzz como provider; sem webhook stub; nomes canônicos SPEC; sequência PJ-04-01→02→03 |
 | 07/09/2026 | PJ-04-01 — Fronteiras de Segurança | APROVADO ✅ INTEGRADO | guard `type=recovery`; E2E skip V1; PR #1 mergeado; deploy guard ativo; main HEAD `ab6c7de` |
+| 09/09/2026 | EZ-01 cleanup — remoção log diagnóstico | APROVADO ✅ INTEGRADO (app PR #3) | `0ae778f` mergeado; app main `301f938` |
+| 09/09/2026 | DOC-SYNC — pacote canônico 00–05 + Diretriz V1.1 | APROVADO ✅ | 00 V1.4, 01 V4.6, 02 V2.6, 02.A V1.1, 03 V2.3, 03.A–03.F atualizados, 04 V2.4, 05 V2.3; novos 02.A, 03.F e Diretriz; CURRENT V2.11 |
 
 ---
 
@@ -1259,12 +1265,12 @@ Deve permanecer:
 
 ---
 
-# 49. Controle de versão — V2.9
+# 49. Controle de versão — V2.11
 
-**VERSÃO:** V2.9  
-**DATA:** 07/09/2026  
-**SUBSTITUI:** V2.8  
-**MOTIVO:** PJ-04-02 R2B FECHADO — migration 000009 (claim×reversal lock + terminal state + unknown refund guard) e migration 000010 (unknown-type check movido para antes do LOOP) commitadas em `4b753d9`; SQL validation PASS no Preview `mjotjtcpivxwilwtnltm`; BLOCKER: testes TypeScript de integração requerem env vars reais para execução.  
-**IMPACTO:** gates da Plataforma, estado operacional, decision log, Trilha C, prioridade P0.
+**VERSÃO:** V2.11  
+**DATA:** 09/09/2026  
+**SUBSTITUI:** V2.10  
+**MOTIVO:** DOC-SYNC — pacote canônico 00 V1.4, 01 V4.6, 02 V2.6, 02.A V1.1, 03 V2.3, 03.A V1.1, 03.B V1.3, 03.C V1.2, 03.D V2.3, 03.E V1.2, 03.F V1.1, 04 V2.4, 05 V2.3 incorporado; novos arquivos 02.A, 03.F e Diretriz V1.1 adicionados; app PR #3 (EZ-01 cleanup `0ae778f`) mergeado; estado técnico e gates PJ-04-02/EZ-01 preservados.  
+**IMPACTO:** tabela de versões canônicas, delta editorial 09/09/2026, decision log.
 
-> **Fim do Documento 06 — CURRENT, Decisões e Plano Operacional Vivo — V2.9.**
+> **Fim do Documento 06 — CURRENT, Decisões e Plano Operacional Vivo — V2.11.**
