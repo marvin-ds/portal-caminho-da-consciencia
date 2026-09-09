@@ -238,7 +238,7 @@ Meta operacional de planejamento: **aproximadamente R$45–47 mil de receita**, 
 
 ## P0
 
-> **PJ-04-02-EZ-01 APROVADO ✅ (09/09/2026) — Webhook Eduzz validado em Preview (worktree `portal-app-pj04-02`, projeto Vercel `portal-app-pj04-02`). Ping 200 ✅; invoice_paid → pending_manual_review 200 ✅; invoice_refunded → pending_manual_review 200 ✅; invoice_chargeback → processed 200 ✅; webhook_receipts: 3 registros gravados; Eduzz ativou o webhook. STOP: sem product_mappings reais, sem compra real, sem checkout público, sem Production, sem PJ-04-03.**
+> **PJ-04-02-EZ-01 ENCERRADO ✅ (09/09/2026) — Webhook Eduzz validado e ativado em Preview. Próxima decisão pendente: mapeamento do produto Eduzz `3025485` → slug canônico do Portal (determina qual acesso uma compra concederá). Esse vínculo NÃO deve ser criado por suposição. Após decisão de Marcos: inserir em `product_mappings` e preparar primeira compra controlada com autorização separada. STOP: sem mapeamento por suposição, sem compra real, sem Production, sem PJ-04-03.**
 
 Para Sintonize, a ordem é:
 
