@@ -1,11 +1,16 @@
 # PORTAL CAMINHO DA CONSCIÊNCIA
-## Documento 03.E — Plano Operacional de Execução do Calendário Editorial e Backlog Gradual — V1.1
+## Documento 03.E — Plano Operacional de Execução do Calendário Editorial e Backlog Gradual — V1.2
+
+**STATUS DA REVISÃO:** versão documental revisada; incorporação ao repositório e produção não confirmada
+**DATA DA REVISÃO:** 09/09/2026
+**REGRA EDITORIAL OBRIGATÓRIA:** Diretriz Editorial Complementar — Território de Transformação e Descobrir/Reconhecer — V1.1
+
 
 **STATUS:** plano operacional simples para execução diária do calendário editorial  
 **DATA:** 03/09/2026  
-**DOCUMENTO-PAI:** Documento 03 — Sistema Editorial, Aquisição e Experimentação — V2.2  
-**DOCUMENTOS OPERACIONAIS RELACIONADOS:** Documento 03.A — Percepção Antes da Explicação; Documento 03.B — Mapa Editorial Mestre — V1.2; Documento 03.C — Banco de Reconhecimento Silencioso — V1.1; Documento 03.D — Sistema Operacional de Prompts — V2.2  
-**CALENDÁRIO DE REFERÊNCIA:** usar sempre a versão mais recente compatível com Documento 03 V2.2; o Calendário V4 anterior deve ser revisado antes de ser tratado como definitivo  
+**DOCUMENTO-PAI:** Documento 03 — Sistema Editorial, Aquisição e Experimentação — V2.3  
+**DOCUMENTOS OPERACIONAIS RELACIONADOS:** Documento 03.A — Percepção Antes da Explicação; Documento 03.B — Mapa Editorial Mestre — V1.3; Documento 03.C — Banco de Reconhecimento Silencioso — V1.2; Documento 03.D — Sistema Operacional de Prompts — V2.3  
+**CALENDÁRIO DE REFERÊNCIA:** V6; preservar os três publicados e revisar as demais pautas pela Diretriz V1.1 antes da produção.
 **FUNÇÃO:** transformar o calendário em rotina executável, criando backlog gradualmente sem impedir ajustes por dados.
 
 > **PUBLICAR HOJE. PRODUZIR O QUE VEM DEPOIS. APRENDER COM O QUE JÁ SAIU.**
@@ -14,24 +19,20 @@
 
 # 0. Regra central
 
-O calendário é uma **fila de produção e experimentação**.
 
-Ele não deve virar quinze dias imutáveis produzidos antecipadamente.
+**O Portal trabalha dificuldades que se repetem ou permanecem na vida real, especialmente quando a pessoa já tentou mudar e continua sentindo que não consegue avançar.** A dificuldade concreta abre a conversa; o aprofundamento pode envolver padrões automáticos, crenças, medos, respostas aprendidas, autoimagem, evitação, conflitos internos e possibilidades espirituais. Não presumir causa.
 
-Regra operacional:
+A correção financeira vale para todas as áreas: não transformar o canal em educação financeira, carreira, produtividade, aconselhamento amoroso ou dicas genéricas de bem-estar. A pessoa pode já ter conhecimento, condições e tentativas anteriores. O eixo é a distância entre o que deseja realizar e o que consegue sustentar. Não basta acrescentar uma frase sobre padrões no fechamento.
 
-> **D = publicar  
-> D+3 = produzir  
-> D-1 e D-3 = analisar quando houver dados**
+**DESCOBRIR → RECONHECER** é o escopo do conteúdo público. **MAPEAR → TRABALHAR → INTEGRAR → APROFUNDAR** pertence aos produtos e experiências pertinentes. O próximo passo pode ser compreender melhor, buscar apoio ou conhecer uma possibilidade; não é obrigatoriamente exercício, método ou compra.
 
-Na prática:
+O primeiro ciclo de 15 dias testa dores, emoções, contradições e possibilidades, sem funil obrigatório. Duas frentes principais: **dinheiro e segurança** e **trabalho, projetos e sobrecarga**. **Relacionamentos** é a terceira frente controlada.
 
-- hoje você publica o conteúdo previsto;
-- hoje você prepara/grava conteúdos de aproximadamente três dias à frente;
-- hoje você olha os resultados das peças anteriores;
-- se um aprendizado relevante aparecer, ajusta **uma variável** das peças futuras relacionadas.
+Preservar D01-RS01, D01-S01 e D01-S02 publicados. Usar o Calendário V6 como referência, corrigindo as demais pautas pelo território V1.2 antes de produzir. Não alterar datas ou afirmar novas publicações sem confirmação.
 
----
+Adiar conteúdos específicos sobre Método, Mapeamento, Sintonize, roteamento de ofertas e novas famílias de práticas estruturadas. Não exigir que o fim da quinzena apresente produtos. A fila comercial continua válida para fase e oferta autorizadas, mas não determina o conteúdo orgânico inicial.
+
+Avaliar retenção, reconhecimento, comentários, compartilhamentos, interesse em continuar e inscritos/1.000 views; em longos, CTR e origem de tráfego quando disponíveis. Uma peça fraca não invalida o território: revisar abertura, cena, clareza e execução antes de abandonar a hipótese.
 
 # 1. Meta de backlog
 
@@ -61,94 +62,52 @@ Manter:
 
 # 1.A. Duas filas operacionais
 
-A operação editorial passa a manter duas filas complementares:
 
 ## Fila Orgânica
 
-Objetivos:
-
-- alcance;
-- reconhecimento;
-- Search;
-- educação;
-- retenção;
-- construção de categoria;
-- crescimento nas quatro portas.
+No primeiro ciclo, produzir reconhecimento e aprendizado editorial. Priorizar as duas frentes principais e relacionamentos controlados. Usar V6 e preservar os três publicados. Não exigir oferta nem prática estruturada.
 
 ## Fila Comercial
 
-Objetivos:
+Permanece para testes de resposta direta e produtos autorizados, fora do escopo de aquisição orgânica inicial. Confirmar oferta live, message match, preço, claims, destino e gates antes de produzir. Não anunciar oferta inexistente ou não autorizada.
 
-- testar dores de Porta 2;
-- produzir criativos de resposta direta;
-- validar produto Dinheiro;
-- preparar Procrastinação somente depois;
-- testar páginas/CTAs;
-- medir compra, CAC e margem.
-
-> **Não transformar todo conteúdo orgânico em anúncio. Não produzir anúncio sem oferta real.**
-
----
+**As filas são distintas. A existência de uma oferta não transforma todo conteúdo em anúncio.**
 
 # 2. Fluxo diário — simples
 
 # 2.1. Etapa 1 — abrir calendário + fila comercial — 10 a 15 minutos
 
-Verificar:
 
-1. o que publica hoje;
-2. o que precisa produzir para D+3;
-3. qual Porta cada peça trabalha;
-4. qual é o papel: alcance / educação / intenção / conversão;
-5. se existe peça comercial de Porta 2 em teste;
-6. qual keyword está associada;
-7. se dados de 24h/72h mudam alguma hipótese;
-8. se a oferta/landing page usada continua vigente no CURRENT.
+Verificar o estado real do calendário V6, os três publicados, a próxima peça, sua finalidade e o território V1.1. Conferir dados de 24h/72h, capacidade e necessidade de revisão da pauta.
 
-Se houver dados relevantes:
-
-- P10 — 24h;
-- P11 — 72h;
-- P18 — próxima hipótese, quando necessário.
-
----
+Se for reconhecimento, não executar prompts comerciais ou técnicos adiados. Se for peça comercial de fase autorizada, conferir oferta live, SPEC, CURRENT, destino e claims. Não presumir que uma data planejada seja publicação realizada.
 
 # 2.2. Etapa 2 — produzir o pacote de D+3
 
-Para cada linha, usar **P24 — Executor da linha**.
 
 ## Short orgânico
 
-> **P21 Search → P2 → P3 → P8**
+**P21 → P2 → P3 → P8**, aplicando a Diretriz V1.1 antes da produção.
 
 ## Porta 2 comercial
 
-> **P12 → P26 → P2/P5/P22 → P8 → P9**
+Fora do ciclo inicial e com oferta autorizada: **P12 → P31 → P2/P5 → P8 → P9**. Não confundir prioridade comercial com obrigação de venda orgânica.
 
 ## Produto por dor
 
-Criativos:
-
-> **P26 → formato → P8**
-
-Página/estrutura:
-
-> **P28 → P27 → P8/P9**
+Copy: **P31 → P8**. Página: **P32 → P27 → P8/P9**. Desenho de produto: **P33**, sujeito ao Documento 02.A e à SPEC.
 
 ## Reconhecimento Silencioso
 
-Instagram: P22 → P8 → P23 na postagem.  
-YouTube: P21 quando aplicável → P22 → P8.
+Instagram: **P22 → P8 → P23**. YouTube: **P21, quando aplicável → P22 → P8**. A legenda aprofunda reconhecimento, não executa exercício obrigatório.
 
 ## Vídeo longo
 
-> **P21 → P5 → P3 → P8**
+**P21 → P5 → P3 → P8**. Entregar roteiro completo e pacote de publicação, sem método ou oferta obrigatórios.
 
 ### Regra
 
-Não produzir criativos de Procrastinação enquanto Dinheiro ainda estiver no primeiro gate de validação, salvo conteúdo orgânico normal sobre procrastinação.
-
----
+Não produzir conteúdos específicos de Método, Mapeamento, Sintonize, roteamento ou novas práticas estruturadas no primeiro ciclo. Preservar o backlog e os produtos já autorizados em seus próprios gates.
 
 # 2.3. Etapa 3 — gravação
 
@@ -477,38 +436,18 @@ Pode esperar:
 
 # 10. Regra de adaptação do calendário
 
-Mudar uma peça futura quando:
 
-- dados 24h/72h trouxerem aprendizado claro;
-- comentários revelarem linguagem visceral melhor;
-- keyword mostrar intenção real;
-- Porta 2 comercial gerar sinal de compra ou rejeição importante;
-- criativo tiver CTR bom e página falhar — revisar oferta/página, não apenas hook;
-- produto gerar compra, mas baixa conclusão/satisfação — revisar produto antes de escalar mídia;
-- um tema orgânico merecer aprofundamento;
-- estado operacional mudar.
+O primeiro ciclo de 15 dias testa dores, emoções, contradições e possibilidades, sem funil obrigatório. Duas frentes principais: **dinheiro e segurança** e **trabalho, projetos e sobrecarga**. **Relacionamentos** é a terceira frente controlada.
 
-Não mudar porque:
+Preservar D01-RS01, D01-S01 e D01-S02 publicados. Usar o Calendário V6 como referência, corrigindo as demais pautas pelo território V1.1 antes de produzir. Não alterar datas ou afirmar novas publicações sem confirmação.
 
-- um vídeo teve poucas views isoladamente;
-- houve ansiedade com algoritmo;
-- concorrente viralizou;
-- uma keyword tem volume alto, mas não corresponde à oferta;
-- queremos lançar o segundo produto antes de validar o primeiro.
+Adiar conteúdos específicos sobre Método, Mapeamento, Sintonize, roteamento de ofertas e novas famílias de práticas estruturadas. Não exigir que o fim da quinzena apresente produtos. A fila comercial continua válida para fase e oferta autorizadas, mas não determina o conteúdo orgânico inicial.
+
+Avaliar retenção, reconhecimento, comentários, compartilhamentos, interesse em continuar e inscritos/1.000 views; em longos, CTR e origem de tráfego quando disponíveis. Uma peça fraca não invalida o território: revisar abertura, cena, clareza e execução antes de abandonar a hipótese.
 
 ### Gate do calendário
 
-Qualquer calendário criado antes da decisão de Porta 2 prioritária precisa ser reclassificado em:
-
-- porta;
-- papel;
-- dor visceral;
-- consequência;
-- CTA;
-- oferta;
-- evidência/hipótese.
-
----
+Antes de produzir, verificar território V1.1, estado da peça, dados disponíveis, formato, capacidade e finalidade. Corrigir a pauta inteira quando ela estiver reduzida a dicas genéricas ou execução do Método. Preservar IDs, colunas e histórico; não apagar ou republicar os três Shorts já produzidos.
 
 # 11. Checklist diário final
 
@@ -541,4 +480,4 @@ Esse é o sistema.
 **MOTIVO:** adaptação do plano operacional à Porta 2 comercial, produtos por dor, novos prompts V2.2 e separação entre fila orgânica e fila comercial.  
 **IMPACTO:** rotina diária, gravação, edição, publicação, organização de arquivos, backlog e tomada de decisão editorial.
 
-> **Fim do Documento 03.E — Plano Operacional de Execução do Calendário Editorial e Backlog Gradual — V1.1.**
+> **Fim do Documento 03.E — Plano Operacional de Execução do Calendário Editorial e Backlog Gradual — V1.2.**

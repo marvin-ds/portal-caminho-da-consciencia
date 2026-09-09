@@ -1,12 +1,17 @@
 # PORTAL CAMINHO DA CONSCIÊNCIA
-## Documento 03 — Sistema Editorial, Aquisição e Experimentação — V2.2
+## Documento 03 — Sistema Editorial, Aquisição e Experimentação — V2.3
+
+**STATUS DA REVISÃO:** versão documental revisada; incorporação ao repositório e produção não confirmada
+**DATA DA REVISÃO:** 09/09/2026
+**REGRA EDITORIAL OBRIGATÓRIA:** Diretriz Editorial Complementar — Território de Transformação e Descobrir/Reconhecer — V1.1
+
 
 **STATUS CANÔNICO:** sistema operacional oficial de comunicação, aquisição, aprendizado e crescimento  
 **DATA:** 03/09/2026  
 **HORIZONTE:** próximos 7 dias + primeiros 90 dias + sistema editorial de longo prazo  
-**DOCUMENTOS SUPERIORES:** Documento 00 — Matriz de Governança Conceitual, Propriedade Intelectual e Posicionamento — V1.2; Documento 01 — Fundacional, Estratégico e Plano Executivo Canônico — V4.2  
-**DOCUMENTO RELACIONADO:** Documento 02 — Jornada de Transformação, Produtos, Serviços e Protocolos — V2.2  
-**SUBSTITUI:** Documento 03 — Sistema Editorial, Aquisição e Experimentação — V2.1
+**DOCUMENTOS SUPERIORES:** Documento 00 — Matriz de Governança Conceitual, Propriedade Intelectual e Posicionamento — V1.4; Documento 01 — Fundacional, Estratégico e Plano Executivo Canônico — V4.6  
+**DOCUMENTO RELACIONADO:** Documento 02 — Jornada de Transformação, Produtos, Serviços e Protocolos — V2.6  
+**SUBSTITUI:** Documento 03 — V2.2
 
 > **Conteúdo não existe para preencher calendário. Existe para gerar reconhecimento, ampliar consciência, produzir confiança, revelar intenção, ensinar o projeto e preparar próximos passos legítimos.**
 
@@ -14,7 +19,7 @@
 
 # Mapa do documento
 
-Esta V2.2 preserva a base editorial das versões anteriores e incorpora as decisões estratégicas de 03/09/2026, incluindo:
+Esta V2.3 preserva a base editorial das versões anteriores e incorpora as decisões estratégicas de 03/09/2026, incluindo:
 
 - criação do Documento 00;
 - revisão estratégica do Documento 01;
@@ -109,9 +114,14 @@ Quando houver conflito:
 
 ## 0.2. Regra superior
 
-> **Se o conteúdo não ajuda a pessoa a perceber, compreender, agir ou aprofundar algo relevante — e não ensina nada útil ao projeto — ele não merece existir apenas para manter frequência.**
 
----
+**O Portal trabalha dificuldades que se repetem ou permanecem na vida real, especialmente quando a pessoa já tentou mudar e continua sentindo que não consegue avançar.** A dificuldade concreta abre a conversa; o aprofundamento pode envolver padrões automáticos, crenças, medos, respostas aprendidas, autoimagem, evitação, conflitos internos e possibilidades espirituais. Não presumir causa.
+
+A correção financeira vale para todas as áreas: não transformar o canal em educação financeira, carreira, produtividade, aconselhamento amoroso ou dicas genéricas de bem-estar. A pessoa pode já ter conhecimento, condições e tentativas anteriores. O eixo é a distância entre o que deseja realizar e o que consegue sustentar. Não basta acrescentar uma frase sobre padrões no fechamento.
+
+**DESCOBRIR → RECONHECER** é o escopo do conteúdo público. **MAPEAR → TRABALHAR → INTEGRAR → APROFUNDAR** pertence aos produtos e experiências pertinentes. O próximo passo pode ser compreender melhor, buscar apoio ou conhecer uma possibilidade; não é obrigatoriamente exercício, método ou compra.
+
+Conteúdo não existe para preencher frequência. Uma peça tem valor quando ajuda a reconhecer, compreender a importância ou perceber um caminho possível, mesmo sem ensinar técnica. Deve também gerar aprendizado editorial verificável, sem reduzir toda avaliação a conversão.
 
 ## 0.3. Regras imutáveis
 
@@ -160,52 +170,25 @@ A Porta 2 passa a ser a **prioridade comercial**, mas não substitui as demais p
 
 # 1. Conteúdo como primeira experiência do Portal
 
-Na maioria dos casos, a pessoa não chega procurando “expansão da consciência”, “radiestesia” ou “Método Padrão Interrompido”.
 
-Ela chega porque alguma coisa está acontecendo.
+A maioria das pessoas chega por uma dificuldade concreta, não pelo nome de uma metodologia. Pode ter recebido um aumento e continuar adiando planos; ter estudado e ainda não colocado um projeto no mundo; ou ter tentado conversar de outra forma e continuar vivendo uma dificuldade parecida.
 
-Ela pensa:
+O conteúdo ajuda a reconhecer a experiência, suas consequências e sua importância. A explicação de um padrão, quando pertinente, não equivale a identificar a causa do caso. A técnica entra em conteúdo especializado ou trabalho autorizado, não como obrigação de aquisição.
 
-- “De novo eu cheguei no fim do mês assim.”
-- “É o terceiro trabalho e eu estou sentindo a mesma coisa.”
-- “Eu disse que dessa vez colocaria limite.”
-- “Eu comecei bem e larguei de novo.”
-- “Eu sei o que preciso fazer, mas continuo adiando.”
-- “Eu só lembro da minha prática espiritual quando tudo aperta.”
-- “Troquei de cenário, mas a sensação é parecida.”
+**O Portal trabalha dificuldades que se repetem ou permanecem na vida real, especialmente quando a pessoa já tentou mudar e continua sentindo que não consegue avançar.** A dificuldade concreta abre a conversa; o aprofundamento pode envolver padrões automáticos, crenças, medos, respostas aprendidas, autoimagem, evitação, conflitos internos e possibilidades espirituais. Não presumir causa.
 
-O conteúdo deve respeitar essa ordem:
+A correção financeira vale para todas as áreas: não transformar o canal em educação financeira, carreira, produtividade, aconselhamento amoroso ou dicas genéricas de bem-estar. A pessoa pode já ter conhecimento, condições e tentativas anteriores. O eixo é a distância entre o que deseja realizar e o que consegue sustentar. Não basta acrescentar uma frase sobre padrões no fechamento.
 
-> **VIDA CONCRETA → RECONHECIMENTO → REPETIÇÃO → CONEXÃO → CONSCIÊNCIA → POSSIBILIDADE DE AÇÃO → PRÓXIMO PASSO**
-
-A técnica entra depois.
-
-A metodologia entra quando ajuda a compreender.
-
-A espiritualidade entra quando amplia, e não quando tenta substituir a realidade.
-
----
+**DESCOBRIR → RECONHECER** é o escopo do conteúdo público. **MAPEAR → TRABALHAR → INTEGRAR → APROFUNDAR** pertence aos produtos e experiências pertinentes. O próximo passo pode ser compreender melhor, buscar apoio ou conhecer uma possibilidade; não é obrigatoriamente exercício, método ou compra.
 
 # 2. O conteúdo vende uma forma de olhar antes de vender um produto
 
-A marca precisa construir uma categoria mental:
 
-> **“Talvez o problema que eu vejo não seja o único lugar onde isso aparece.”**
+A categoria mental desejada é: **“Talvez exista algo nessa dificuldade que merece ser compreendido e trabalhado, além de resolver o problema imediato.”**
 
-O público deve aprender progressivamente a observar:
+A pessoa pode reconhecer que já tentou mudar, que uma melhora não se sustentou, que uma emoção pesa ou que existem caminhos possíveis. Não precisa aprender a reconstruir episódios, localizar um movimento anterior ou aplicar os sete movimentos por meio do conteúdo.
 
-1. o que aconteceu;
-2. em que momento aquilo ficou perceptível;
-3. se já ocorreu antes;
-4. se aparece em outro domínio da vida;
-5. qual reação, escolha, adiamento, silêncio ou hábito parece se repetir;
-6. o que depende da pessoa;
-7. que prática pode ser útil;
-8. o que muda depois de um período de observação ou ação.
-
-Isso é construir autoridade por clareza, não por superioridade.
-
----
+O Método organiza o caso quando pertinente. Outras ferramentas e modalidades podem ser escolhidas conforme finalidade, competência e consentimento. A continuidade não é compra obrigatória.
 
 # 3. O conteúdo é pesquisa de mercado
 
@@ -234,53 +217,19 @@ Perguntas de negócio:
 
 # 4. O conteúdo deve aumentar autonomia
 
-O Portal não deve ensinar o público a pensar:
 
-> “Preciso perguntar ao Marcos o que significa tudo o que acontece comigo.”
+O Portal não deve criar dependência de Marcos nem fazer a pessoa acreditar que toda dificuldade exige uma intervenção. Autonomia começa também por reconhecer o que vive, compreender seus limites, distinguir uma possibilidade de uma certeza e saber quando buscar apoio adequado.
 
-O objetivo é aumentar capacidade de observação.
-
-Conteúdo de qualidade ajuda a pessoa a:
-
-- notar;
-- comparar;
-- perguntar;
-- assumir responsabilidade;
-- diferenciar impressão de fato;
-- buscar ajuda adequada quando necessário;
-- reconhecer quando não precisa de nova intervenção.
-
----
+Em conteúdo público, não exigir capacidade técnica nova. Em produtos, autonomia pode incluir experimentação, escolhas, integração e reavaliação. A pessoa pode não precisar de nova compra ou pode necessitar de outro profissional.
 
 # PARTE II — PÚBLICO EDITORIAL, ESTADOS DE CONSCIÊNCIA E INTENÇÃO
 
 # 5. Público editorial principal
 
-Adultos que:
 
-- percebem repetição, estagnação ou desconexão;
-- já tentaram mudar algo;
-- sentem que determinadas situações “voltam”;
-- têm abertura para autoconhecimento e espiritualidade;
-- valorizam vida real;
-- rejeitam promessa fácil;
-- podem rejeitar linguagem clínica;
-- podem rejeitar exagero esotérico;
-- querem compreender o próprio caso;
-- desejam mais consciência e coerência;
-- podem ter interesse espiritual sem desejar mudar de religião.
+Adultos que percebem repetição, estagnação ou desconexão; desejam avançar, realizar ou sustentar mudanças; podem já ter estudado, se reorganizado, melhorado renda ou condições e tentado outras soluções; valorizam vida real, autoconhecimento e possibilidades responsáveis; podem ter abertura espiritual sem desejar mudar de religião.
 
-Não é necessário conhecer:
-
-- radiestesia;
-- Mesa Radiônica;
-- Sintonize;
-- auto-hipnose;
-- Padrão Interrompido.
-
-Esses elementos são posteriores à necessidade concreta.
-
----
+Não é necessário conhecer radiestesia, Mesa, Sintonize, auto-hipnose ou Padrão Interrompido. Não presumir que o público ganhe pouco, seja desorganizado, não tenha disciplina ou precise de uma explicação espiritual. Condições externas podem ser parte relevante do caso.
 
 # 6. Estado A — Dor sem nome
 
@@ -455,13 +404,12 @@ CTA:
 
 # 12. Tese editorial central
 
-A tese continua sendo:
+
+A tese filosófica permanece:
 
 > **O cenário muda. O padrão volta. A consciência pode mudar o caminho.**
 
-Mas a aquisição comercial não precisa começar pela tese. Em lead frio, a sequência mais forte é **dor → consequência → sensação de travamento → repetição → nova percepção**.
-
----
+Ela não é diagnóstico nem roteiro obrigatório. A comunicação deve permitir também: “O cenário melhorou, mas meus planos continuam parados”; “Já tentei mudar e a dificuldade permanece”; “Talvez exista algo que merece atenção além da solução imediata”. A pessoa não precisa concluir que tem um padrão para reconhecer valor no Portal.
 
 # 13. Dois territórios verbais complementares
 
@@ -481,37 +429,37 @@ Usado para transformar a dor pontual em percepção de repetição e categoria.
 
 # 14. Pergunta estratégica invisível
 
-> **“Você está tentando resolver o que aparece no final — ou já percebeu como chega até ali?”**
 
----
+**“O que essa dificuldade está impedindo a pessoa de viver, realizar ou sustentar — e por que merece atenção, especialmente depois de outras tentativas?”**
+
+A pergunta orienta o conteúdo. “Como chega até ali?” é uma possibilidade de investigação do Método, não a pergunta obrigatória de aquisição.
 
 # 15. Grandes Ideias editoriais
 
-As Grandes Ideias existentes permanecem válidas. A V2.2 acrescenta cinco famílias de aquisição comercial:
+
+As Grandes Ideias existentes permanecem como biblioteca, mas seu uso depende da finalidade. No reconhecimento inicial, priorizar desejo adiado, melhora que não se sustenta, repetição, consequências emocionais e possibilidade real. As famílias de localização e intervenção são principalmente de produto ou conteúdo especializado futuro.
 
 ## GI-C1 — A dor que volta
 
-Resolver o episódio não encerra necessariamente a sensação de estar novamente no mesmo lugar.
+Resolver o episódio não encerra necessariamente a sensação de estar novamente no mesmo lugar. Reconhecimento público.
 
 ## GI-C2 — O bloqueio percebido aparece como consequência
 
-A pessoa chama de “travamento” aquilo que sente quando tentativas, decisões e resultados voltam a parar em pontos parecidos.
+A pessoa pode chamar de “travamento” a dificuldade de avançar apesar de tentativas anteriores. Não concluir que existe bloqueio. Reconhecimento público.
 
 ## GI-C3 — Antes de “desbloquear”, localize
 
-A urgência é legítima, mas a intervenção fica mais responsável quando existe clareza sobre o que será trabalhado.
+A urgência é legítima; a escolha de uma intervenção exige clareza sobre o que será trabalhado. Aplicação prioritária em triagem e produtos, não exercício de aquisição.
 
 ## GI-C4 — O custo invisível do “depois”
 
-Adiamentos aparentemente pequenos acumulam consequência emocional, prática e material.
+Planos adiados podem acumular consequências emocionais, práticas e materiais. Reconhecimento público, sem atribuir procrastinação como causa automática.
 
 ## GI-C5 — A intervenção certa depende do ponto certo
 
-A mesma dor pode pedir Mapeamento, ação concreta, produto autoguiado, Sintonize, Ciclo ou outro encaminhamento.
+Uma mesma dificuldade pode pedir ação concreta, trabalho autoral, modalidade espiritual ou outro profissional. Escolha individual pertinente, não roteamento obrigatório.
 
-As GI-01 a GI-12 anteriores continuam ativas como biblioteca do Portal.
-
----
+As GI-01 a GI-12 anteriores permanecem como biblioteca, subordinadas ao escopo e à Diretriz V1.1.
 
 # 16. Territórios editoriais flexíveis
 
@@ -558,14 +506,14 @@ Lógica:
 
 # 19. Prioridade editorial vigente
 
-A prioridade editorial combina dois objetivos simultâneos:
 
-1. **crescimento orgânico qualificado no YouTube**;
-2. **aprendizado comercial sobre dores da Porta 2 e produtos da nova esteira**.
+O primeiro ciclo de 15 dias testa dores, emoções, contradições e possibilidades, sem funil obrigatório. Duas frentes principais: **dinheiro e segurança** e **trabalho, projetos e sobrecarga**. **Relacionamentos** é a terceira frente controlada.
 
-Não transformar o canal em catálogo de limpeza energética ou Mesa Radiônica. Conteúdo orgânico continua cobrindo as quatro portas.
+Preservar D01-RS01, D01-S01 e D01-S02 publicados. Usar o Calendário V6 como referência, corrigindo as demais pautas pelo território V1.1 antes de produzir. Não alterar datas ou afirmar novas publicações sem confirmação.
 
----
+Adiar conteúdos específicos sobre Método, Mapeamento, Sintonize, roteamento de ofertas e novas famílias de práticas estruturadas. Não exigir que o fim da quinzena apresente produtos. A fila comercial continua válida para fase e oferta autorizadas, mas não determina o conteúdo orgânico inicial.
+
+Avaliar retenção, reconhecimento, comentários, compartilhamentos, interesse em continuar e inscritos/1.000 views; em longos, CTR e origem de tráfego quando disponíveis. Uma peça fraca não invalida o território: revisar abertura, cena, clareza e execução antes de abandonar a hipótese.
 
 # 20. Mix editorial de referência
 
@@ -606,13 +554,10 @@ Frequência perde para:
 
 # 22. Estrutura de referência
 
-> **CENA → PENSAMENTO → REPETIÇÃO → EXPANSÃO → PERGUNTA → CTA**
 
-Não é fórmula rígida.
+**Cena ou contradição → desenvolvimento pertinente → reconhecimento/ importância → possibilidade → próximo passo.**
 
-É um mapa para impedir que o conteúdo comece abstrato demais.
-
----
+A arquitetura completa de compreensão e desejo permanece disponível, mas não precisa aparecer inteira. Um Short pode trabalhar uma única tensão. Não exigir virada técnica, observação de sequência ou CTA comercial.
 
 # 23. Cena
 
@@ -720,19 +665,10 @@ Exemplos:
 
 # 30. O que um Short não precisa fazer
 
-- explicar Padrão Interrompido inteiro;
-- falar da Sintonize;
-- ensinar Anjos;
-- explicar 8 Prosperidades;
-- contar toda história de Marcos;
-- apresentar todas as técnicas;
-- vender tudo.
 
-Uma peça curta precisa carregar:
+Um Short de reconhecimento não precisa explicar Padrão Interrompido, Sintonize, Anjos, oito Prosperidades, história de Marcos ou qualquer técnica. Também não precisa ensinar exercício, identificar movimento anterior, percorrer todos os movimentos editoriais ou vender.
 
-> **uma tensão + uma virada + um próximo passo.**
-
----
+Precisa ter uma ideia clara, reconhecível e relevante, com possibilidade e próximo passo coerentes quando pertinentes. O fechamento não deve ser repetido mecanicamente entre peças. A duração e o formato devem servir à conversa e ao teste, não a um número fixo.
 
 # PARTE VI — VÍDEOS LONGOS: CONFIANÇA, CATEGORIA E PROFUNDIDADE
 
@@ -757,20 +693,10 @@ Se embalagem não gera curiosidade legítima, roteiro não salva.
 
 # 32. Estrutura de referência
 
-1. hook;
-2. contrato;
-3. cena;
-4. bloco 1 — o que normalmente se enxerga;
-5. micro-hook;
-6. bloco 2 — repetição;
-7. bloco 3 — conexão;
-8. bloco 4 — o que observar ou praticar;
-9. limites e nuance;
-10. síntese;
-11. CTA;
-12. ponte para próximo conteúdo.
 
----
+Um longo de reconhecimento pode desenvolver: abertura concreta; contradição; consequências práticas e emocionais; tentativas anteriores; repetição ou travamento percebido; nuances; importância; possibilidades reais; próximo passo e pergunta final.
+
+Não é obrigatório incluir todos os blocos nem uma prática. O eixo deve permanecer no território do Portal ao longo de todo o vídeo. Educação financeira, produtividade ou aconselhamento prático podem aparecer como contexto, não como solução automática. Não inserir Método ou oferta apenas no fechamento.
 
 # 33. Famílias de vídeos longos
 
@@ -1995,30 +1921,18 @@ Revisar ou abandonar depois de teste suficiente.
 
 # 90. Ciclo de 15 dias
 
-O calendário precisa equilibrar:
 
-1. crescimento orgânico;
-2. educação por nível de consciência;
-3. Search;
-4. aprendizado comercial;
-5. conversão.
+O calendário é um backlog de hipóteses, não um funil obrigatório nem uma obrigação de publicar todas as peças. O ciclo inicial segue a regra abaixo; ciclos posteriores podem combinar conteúdo especializado e comercial quando autorizados.
 
-### Regra da V2.2
+### Regra da V2.3
 
-A Porta 2 é prioritária nas **peças comerciais e nos testes de resposta direta**, mas o calendário orgânico não pode excluir Portas 1, 3 e 4.
+O primeiro ciclo de 15 dias testa dores, emoções, contradições e possibilidades, sem funil obrigatório. Duas frentes principais: **dinheiro e segurança** e **trabalho, projetos e sobrecarga**. **Relacionamentos** é a terceira frente controlada.
 
-Ao abrir um novo ciclo, incluir explicitamente:
+Preservar D01-RS01, D01-S01 e D01-S02 publicados. Usar o Calendário V6 como referência, corrigindo as demais pautas pelo território V1.1 antes de produzir. Não alterar datas ou afirmar novas publicações sem confirmação.
 
-- dores viscerais de Dinheiro e Procrastinação;
-- pontes Porta 2 → Porta 3;
-- conteúdos de método/Ponto de Interrupção;
-- educação Sintonize com atribuição;
-- conteúdo de intenção para Mapeamento;
-- ao menos um teste de oferta escalável quando operacionalmente pronto.
+Adiar conteúdos específicos sobre Método, Mapeamento, Sintonize, roteamento de ofertas e novas famílias de práticas estruturadas. Não exigir que o fim da quinzena apresente produtos. A fila comercial continua válida para fase e oferta autorizadas, mas não determina o conteúdo orgânico inicial.
 
-O Calendário V4 produzido antes desta decisão deve ser **reclassificado/revisado** antes de ser tratado como referência definitiva da nova arquitetura.
-
----
+Avaliar retenção, reconhecimento, comentários, compartilhamentos, interesse em continuar e inscritos/1.000 views; em longos, CTR e origem de tráfego quando disponíveis. Uma peça fraca não invalida o território: revisar abertura, cena, clareza e execução antes de abandonar a hipótese.
 
 # 91. Fluxo semanal
 
@@ -2339,16 +2253,14 @@ Uma peça está pronta quando passa por seis filtros:
 
 # 100. Roadmap imediato — próximos 7–15 dias
 
-- sincronizar documentos V2.2/V4.2;
-- revisar Mapeamento para versão 2.0;
-- desenhar O Minuto Anterior;
-- estruturar produto de Dinheiro ~R$97;
-- revisar calendário editorial para Porta 2 comercial;
-- manter YouTube-first;
-- praticar Sintonize de forma controlada;
-- preparar linguagem/página de Porta 2 sem claim indevido.
 
----
+- Incorporar a Diretriz V1.1 aos documentos e prompts, sem alterar contratos de produto.
+- Usar o Calendário V6 como referência e preservar os três Shorts publicados.
+- Revisar as demais pautas pelo território transversal antes de produzir.
+- Manter YouTube-first, duas frentes principais e relacionamentos como teste controlado.
+- Adiar conteúdos específicos de Método, Mapeamento, Sintonize, roteamento e novas práticas até depois do ciclo inicial.
+- Preservar separadamente os trabalhos de produto, plataforma e piloto já autorizados no CURRENT; não confundir adiamento editorial com cancelamento de produto.
+- Analisar dados e ajustar o backlog, sem obrigatoriedade de apresentação comercial ao final da quinzena.
 
 # 101. Dias 16–30
 
@@ -2465,4 +2377,4 @@ Atualizações correntes de:
 
 pertencem ao CURRENT e aos artefatos operacionais.
 
-> **Fim do Documento 03 — Sistema Editorial, Aquisição e Experimentação — V2.2.**
+> **Fim do Documento 03 — Sistema Editorial, Aquisição e Experimentação — V2.3.**
