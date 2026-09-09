@@ -1,12 +1,17 @@
 # PORTAL CAMINHO DA CONSCIÊNCIA
-## Documento 04 — Identidade, Voz, Espiritualidade e Diretrizes de Comunicação — V2.3
+## Documento 04 — Identidade, Voz, Espiritualidade e Diretrizes de Comunicação — V2.4
+
+**STATUS DA REVISÃO:** versão documental revisada; incorporação ao repositório e produção não confirmada
+**DATA DA REVISÃO:** 09/09/2026
+**REGRA EDITORIAL OBRIGATÓRIA:** Diretriz Editorial Complementar — Território de Transformação e Descobrir/Reconhecer — V1.1
+
 
 **STATUS CANÔNICO:** identidade visual e verbal oficial, regras de voz, espiritualidade, claims, apresentação pública e uso responsável de metodologias de terceiros  
 **DATA:** 04/09/2026  
 **HORIZONTE:** próximos 90 dias + base de longo prazo  
-**DOCUMENTOS SUPERIORES:** Documento 00 — Matriz de Governança Conceitual, Propriedade Intelectual e Posicionamento — V1.3; Documento 01 — Fundacional, Estratégico e Plano Executivo Canônico — V4.3  
-**DOCUMENTOS RELACIONADOS:** Documento 02 — Jornada de Transformação, Produtos, Serviços e Protocolos — V2.3; Documento 03 — Sistema Editorial, Aquisição e Experimentação — V2.2; Documento 05 — Arquitetura Técnica, Dados e Ecossistema Digital — V2.1; Documento 06 — CURRENT — V2.3  
-**SUBSTITUI:** Documento 04 — Identidade, Voz, Espiritualidade e Diretrizes de Comunicação — V2.2
+**DOCUMENTOS SUPERIORES:** Documento 00 — Matriz de Governança Conceitual, Propriedade Intelectual e Posicionamento — V1.4; Documento 01 — Fundacional, Estratégico e Plano Executivo Canônico — V4.6  
+**DOCUMENTOS RELACIONADOS:** Documento 02 — Jornada de Transformação, Produtos, Serviços e Protocolos — V2.6; Documento 03 — Sistema Editorial, Aquisição e Experimentação — V2.3; Documento 05 — Arquitetura Técnica, Dados e Ecossistema Digital — V2.3; Documento 06 — CURRENT — V2.6  
+**SUBSTITUI:** Documento 04 — V2.3
 
 > **A marca deve parecer humana antes de parecer perfeita, profunda antes de parecer mística, responsável antes de parecer poderosa e reconhecível antes de parecer sofisticada.**
 
@@ -27,9 +32,9 @@ Entre as decisões consolidadas estão:
 - duas rotas de entrada: demanda direta e pós-Mapeamento;
 - criação do Brief de Encaminhamento com consentimento;
 - autorização de uso informada por Marcos, sem transferência de autoria da metodologia;
-- revisão do Documento 01 para V4.3;
-- revisão do Documento 02 para V2.3;
-- revisão do Documento 03 para V2.2;
+- revisão do Documento 01 para V4.6;
+- revisão do Documento 02 para V2.6;
+- revisão do Documento 03 para V2.3;
 - acesso oficial de Marcos à formação **Mesa Radiônica Sintonize Prosperidade**;
 - análise dos principais materiais oficiais da formação;
 - análise dos materiais de Anjos Cabalísticos relacionados à Sintonize;
@@ -133,9 +138,14 @@ Quando houver conflito:
 
 ## 0.2. Regra superior
 
-> **Se parecer texto de IA, não está pronto. Se parecer uma copy que qualquer marca poderia publicar, não está pronto. Se Marcos não falaria aquilo naturalmente para uma pessoa sentada à sua frente, não está pronto. Se parecer que estamos apresentando como nosso aquilo que pertence a uma formação, tradição ou metodologia de terceiros, também não está pronto.**
 
----
+**O Portal trabalha dificuldades que se repetem ou permanecem na vida real, especialmente quando a pessoa já tentou mudar e continua sentindo que não consegue avançar.** A dificuldade concreta abre a conversa; o aprofundamento pode envolver padrões automáticos, crenças, medos, respostas aprendidas, autoimagem, evitação, conflitos internos e possibilidades espirituais. Não presumir causa.
+
+A correção financeira vale para todas as áreas: não transformar o canal em educação financeira, carreira, produtividade, aconselhamento amoroso ou dicas genéricas de bem-estar. A pessoa pode já ter conhecimento, condições e tentativas anteriores. O eixo é a distância entre o que deseja realizar e o que consegue sustentar. Não basta acrescentar uma frase sobre padrões no fechamento.
+
+**DESCOBRIR → RECONHECER** é o escopo do conteúdo público. **MAPEAR → TRABALHAR → INTEGRAR → APROFUNDAR** pertence aos produtos e experiências pertinentes. O próximo passo pode ser compreender melhor, buscar apoio ou conhecer uma possibilidade; não é obrigatoriamente exercício, método ou compra.
+
+O repertório possível inclui Método Padrão Interrompido, auto-hipnose, meditação e atenção plena, visualização e ensaio mental, escrita guiada, ações comportamentais concretas, recursos simples de autorregulação, práticas espirituais legítimas, Sintonize Prosperidade, acompanhamento e reavaliação. A escolha depende do caso, competência, consentimento, finalidade e validação. Não são novos produtos automaticamente aprovados; nenhuma técnica resolve universalmente uma dificuldade. A Sintonize é metodologia de terceiros e não autoriza reprodução de protocolos, diagnóstico energético ou promessa material.
 
 ## 0.3. Princípios imutáveis
 
@@ -260,31 +270,10 @@ Não significa:
 
 # 6. Promessa de marca — nível correto
 
-A marca pode prometer:
 
-- experiência;
-- estrutura;
-- observação;
-- clareza;
-- prática;
-- próximos passos;
-- aprofundamento.
+O Portal oferece um caminho de transformação, desenvolvimento e expansão da consciência. A promessa de marca é ajudar a pessoa a reconhecer dificuldades, compreender o que merece atenção e encontrar possibilidades de trabalho e integração, sem garantir resultados universais.
 
-Forma adequada:
-
-> **Ajudar você a enxergar melhor o que se repete, organizar o que hoje parece confuso e encontrar próximos passos mais conscientes.**
-
-Forma inadequada:
-
-> “Eliminar seus bloqueios definitivamente.”
-
-> “Destravar sua prosperidade.”
-
-> “Descobrir a causa espiritual do seu problema.”
-
-> “Mudar sua frequência e transformar sua realidade.”
-
----
+O território não se limita a educação financeira, produtividade ou aconselhamento prático. Também não se reduz a identificar padrões: crenças, medos, respostas aprendidas, autoimagem, escolhas e dimensões espirituais podem ser pertinentes. Nenhuma causa é presumida e nenhuma técnica é apresentada como solução universal.
 
 # 7. Frase filosófica principal
 
@@ -1852,6 +1841,9 @@ O site não precisa usar copy de resposta direta em todas as seções. Páginas 
 
 # 82. Páginas de oferta
 
+
+A comunicação de uma oferta deve preservar seu escopo e a Diretriz V1.1: dificuldade concreta, tentativas anteriores, consequências e possibilidade de trabalho pertinente. Não reduzir o produto a dicas genéricas; não presumir bloqueio ou causa espiritual. A apresentação de mecanismo e entregáveis pertence à página, não ao roteiro obrigatório de aquisição.
+
 Cada página deve refletir a intenção que trouxe a pessoa.
 
 ## Produto Dinheiro
@@ -1877,6 +1869,21 @@ Começar pelo desejo de trabalhar um ponto já reconhecido e praticar/reavaliar.
 ---
 
 # 83. YouTube
+
+
+**O Portal trabalha dificuldades que se repetem ou permanecem na vida real, especialmente quando a pessoa já tentou mudar e continua sentindo que não consegue avançar.** A dificuldade concreta abre a conversa; o aprofundamento pode envolver padrões automáticos, crenças, medos, respostas aprendidas, autoimagem, evitação, conflitos internos e possibilidades espirituais. Não presumir causa.
+
+A correção financeira vale para todas as áreas: não transformar o canal em educação financeira, carreira, produtividade, aconselhamento amoroso ou dicas genéricas de bem-estar. A pessoa pode já ter conhecimento, condições e tentativas anteriores. O eixo é a distância entre o que deseja realizar e o que consegue sustentar. Não basta acrescentar uma frase sobre padrões no fechamento.
+
+**DESCOBRIR → RECONHECER** é o escopo do conteúdo público. **MAPEAR → TRABALHAR → INTEGRAR → APROFUNDAR** pertence aos produtos e experiências pertinentes. O próximo passo pode ser compreender melhor, buscar apoio ou conhecer uma possibilidade; não é obrigatoriamente exercício, método ou compra.
+
+O primeiro ciclo de 15 dias testa dores, emoções, contradições e possibilidades, sem funil obrigatório. Duas frentes principais: **dinheiro e segurança** e **trabalho, projetos e sobrecarga**. **Relacionamentos** é a terceira frente controlada.
+
+Preservar D01-RS01, D01-S01 e D01-S02 publicados. Usar o Calendário V6 como referência, corrigindo as demais pautas pelo território V1.1 antes de produzir. Não alterar datas ou afirmar novas publicações sem confirmação.
+
+Adiar conteúdos específicos sobre Método, Mapeamento, Sintonize, roteamento de ofertas e novas famílias de práticas estruturadas. Não exigir que o fim da quinzena apresente produtos. A fila comercial continua válida para fase e oferta autorizadas, mas não determina o conteúdo orgânico inicial.
+
+Avaliar retenção, reconhecimento, comentários, compartilhamentos, interesse em continuar e inscritos/1.000 views; em longos, CTR e origem de tráfego quando disponíveis. Uma peça fraca não invalida o território: revisar abertura, cena, clareza e execução antes de abandonar a hipótese.
 
 O YouTube continua humano, amplo e educativo. A Porta 2 pode gerar muitas pautas, mas o canal não deve parecer catálogo de bloqueios ou limpeza energética.
 
@@ -2288,6 +2295,15 @@ Esse é o domínio institucional canônico.
 
 # 103. Síntese canônica
 
+
+**O Portal trabalha dificuldades que se repetem ou permanecem na vida real, especialmente quando a pessoa já tentou mudar e continua sentindo que não consegue avançar.** A dificuldade concreta abre a conversa; o aprofundamento pode envolver padrões automáticos, crenças, medos, respostas aprendidas, autoimagem, evitação, conflitos internos e possibilidades espirituais. Não presumir causa.
+
+A correção financeira vale para todas as áreas: não transformar o canal em educação financeira, carreira, produtividade, aconselhamento amoroso ou dicas genéricas de bem-estar. A pessoa pode já ter conhecimento, condições e tentativas anteriores. O eixo é a distância entre o que deseja realizar e o que consegue sustentar. Não basta acrescentar uma frase sobre padrões no fechamento.
+
+**DESCOBRIR → RECONHECER** é o escopo do conteúdo público. **MAPEAR → TRABALHAR → INTEGRAR → APROFUNDAR** pertence aos produtos e experiências pertinentes. O próximo passo pode ser compreender melhor, buscar apoio ou conhecer uma possibilidade; não é obrigatoriamente exercício, método ou compra.
+
+O repertório possível inclui Método Padrão Interrompido, auto-hipnose, meditação e atenção plena, visualização e ensaio mental, escrita guiada, ações comportamentais concretas, recursos simples de autorregulação, práticas espirituais legítimas, Sintonize Prosperidade, acompanhamento e reavaliação. A escolha depende do caso, competência, consentimento, finalidade e validação. Não são novos produtos automaticamente aprovados; nenhuma técnica resolve universalmente uma dificuldade. A Sintonize é metodologia de terceiros e não autoriza reprodução de protocolos, diagnóstico energético ou promessa material.
+
 ## Como o Portal deve parecer
 
 > **Profundo, sóbrio, humano, quente, espiritual e estruturado.**
@@ -2359,4 +2375,4 @@ Toda atualização canônica deve registrar:
 **MOTIVO:** incorporar a comunicação oficial da Sessão Individual Sintonize Prosperidade assíncrona, modalidade ao vivo opcional, entregáveis, Perguntas Divinas secundárias, duas rotas de entrada e nova premissa de autorização informada.  
 **IMPACTO:** copy, páginas futuras, FAQ, assinatura de produto, claims, message match e governança de autoria.
 
-**Fim do Documento 04 — Identidade, Voz, Espiritualidade e Diretrizes de Comunicação — V2.3.**
+**Fim do Documento 04 — Identidade, Voz, Espiritualidade e Diretrizes de Comunicação — V2.4.**
