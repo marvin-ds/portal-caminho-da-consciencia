@@ -1,12 +1,17 @@
 # PORTAL CAMINHO DA CONSCIÊNCIA
-## Documento 05 — Arquitetura Técnica, Dados e Ecossistema Digital — V2.2
+## Documento 05 — Arquitetura Técnica, Dados e Ecossistema Digital — V2.3
+
+**STATUS DA REVISÃO:** versão documental revisada; incorporação ao repositório e produção não confirmada
+**DATA DA REVISÃO:** 09/09/2026
+**REGRA EDITORIAL OBRIGATÓRIA:** Diretriz Editorial Complementar — Território de Transformação e Descobrir/Reconhecer — V1.1
+
 
 **STATUS CANÔNICO:** arquitetura técnica oficial, dados, integrações, mensuração, segurança, propriedade intelectual digital e regras de desenvolvimento assistido por IA  
 **DATA:** 05/09/2026  
 **HORIZONTE:** estado atual + primeiros 90 dias + arquitetura evolutiva de longo prazo  
-**DOCUMENTOS SUPERIORES:** Documento 00 — Matriz de Governança Conceitual, Propriedade Intelectual e Posicionamento — V1.3; Documento 01 — Fundacional, Estratégico e Plano Executivo Canônico — V4.5  
-**DOCUMENTOS RELACIONADOS:** Documento 02 — Jornada de Transformação, Produtos, Serviços e Protocolos — V2.5; Documento 03 — Sistema Editorial, Aquisição e Experimentação — V2.2; Documento 04 — Identidade, Voz, Espiritualidade e Diretrizes de Comunicação — V2.3; Documento 06 — CURRENT — V2.5  
-**SUBSTITUI:** Documento 05 — Arquitetura Técnica, Dados e Ecossistema Digital — V2.1
+**DOCUMENTOS SUPERIORES:** Documento 00 — Matriz de Governança Conceitual, Propriedade Intelectual e Posicionamento — V1.4; Documento 01 — Fundacional, Estratégico e Plano Executivo Canônico — V4.6  
+**DOCUMENTOS RELACIONADOS:** Documento 02 — Jornada de Transformação, Produtos, Serviços e Protocolos — V2.6; Documento 03 — Sistema Editorial, Aquisição e Experimentação — V2.3; Documento 04 — Identidade, Voz, Espiritualidade e Diretrizes de Comunicação — V2.4; Documento 06 — CURRENT — V2.6  
+**SUBSTITUI:** Documento 05 — V2.2
 
 > **Tecnologia a serviço da transformação. Dados a serviço da decisão. IA a serviço da execução. Nenhuma ferramenta acima da pessoa, da autoria ou da verdade.**
 
@@ -14,7 +19,7 @@
 
 # Mapa do documento
 
-Esta V2.2 parte da V2.1 e incorpora a arquitetura definitiva aprovada no PJ-02, preservando tudo que continua válido, e adiciona uma correção importante: **a metodologia Sintonize continua não automatizável, mas o fluxo administrativo, a entrega, o armazenamento privado, o D7 e a mensuração operacional da Sessão Individual podem ser apoiados digitalmente** sem simular a Mesa.
+Esta V2.3 preserva a arquitetura técnica da V2.0 e adiciona uma correção importante: **a metodologia Sintonize continua não automatizável, mas o fluxo administrativo, a entrega, o armazenamento privado, o D7 e a mensuração operacional da Sessão Individual podem ser apoiados digitalmente** sem simular a Mesa.
 
 - criação do Documento 00;
 - atualização dos Documentos 01–04;
@@ -125,6 +130,11 @@ Quando houver conflito:
 ---
 
 ## 0.2. Regra superior de tecnologia
+
+
+A Diretriz V1.1 governa conteúdo e comunicação, sem alterar arquitetura, Auth, Supabase, Vercel, Netlify, RLS, storage, contratos transversais ou estados de produto. IA pode apoiar produção editorial; não deve automatizar Mapeamento humano, leitura radiestésica, escolha de intervenção individual ou devolutiva reservada à pessoa responsável.
+
+O repertório de técnicas não autoriza criar módulos, schemas, engines ou produtos novos. Dados íntimos permanecem separados de analytics e publicidade, com consentimento, ownership e acesso privado conforme contratos vigentes.
 
 > **Tarefa primeiro. Necessidade depois. Evidência antes da sofisticação. Tecnologia somente quando melhora uma entrega, reduz risco, aumenta capacidade, preserva rastreabilidade ou produz informação útil para decisão.**
 
@@ -564,6 +574,9 @@ O subdomínio da Plataforma é decisão aprovada, embora DNS e projeto Vercel ai
 # PARTE III-A — ARQUITETURA DEFINITIVA DA PLATAFORMA DA JORNADA — PJ-02
 
 # 17.A. Fonte de verdade
+
+
+Para conteúdo público, consultar a Diretriz V1.1 e os documentos editoriais revisados. O calendário V6 é referência de planejamento, não fonte de verdade de publicações sem confirmação. Para produtos e plataforma, prevalecem as SPECs e contratos vigentes; esta revisão não altera implementações.
 
 A arquitetura transversal foi aprovada no:
 
@@ -2713,9 +2726,9 @@ Toda revisão canônica deve registrar:
 # 109. Controle de versão — V2.2
 
 **VERSÃO:** V2.2  
-**DATA:** 05/09/2026  
-**SUBSTITUI:** V2.1  
+**DATA:** 04/09/2026  
+**SUBSTITUI:** V2.0  
 **MOTIVO:** separar formalmente “não automatizar a Mesa” de “poder digitalizar o fluxo administrativo”, incorporando o formato assíncrono Sintonize, dados privados, delivery, D7, Brief de Encaminhamento e autorização informada.  
 **IMPACTO:** dados, privacidade, automações, pagamentos, IA, armazenamento e fronteira técnica da Sintonize.
 
-**Fim do Documento 05 — Arquitetura Técnica, Dados e Ecossistema Digital — V2.2.**
+**Fim do Documento 05 — Arquitetura Técnica, Dados e Ecossistema Digital — V2.3.**
