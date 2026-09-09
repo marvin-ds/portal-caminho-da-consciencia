@@ -1,13 +1,18 @@
+
+
+**STATUS DA REVISÃO:** versão documental revisada; incorporação ao repositório e produção não confirmada
+**DATA DA REVISÃO:** 09/09/2026
+**REGRA EDITORIAL OBRIGATÓRIA:** Diretriz Editorial Complementar — Território de Transformação e Descobrir/Reconhecer — V1.1
 > **Por que existimos. Quem somos. O que acreditamos. O que estamos construindo.**
 
 # PORTAL CAMINHO DA CONSCIÊNCIA
-## Documento Fundacional, Estratégico e Plano Executivo Canônico — V4.5
+## Documento Fundacional, Estratégico e Plano Executivo Canônico — V4.6
 
 **STATUS:** canônico — referência estratégica principal do projeto  
 **DATA:** 05/09/2026  
 **HORIZONTE:** ciclo inicial de 90 dias + visão de longo prazo  
-**DOCUMENTO PRECEDENTE:** Documento 00 — Matriz de Governança Conceitual, Propriedade Intelectual e Posicionamento — V1.3  
-**SUBSTITUI:** Documento 01 — V4.4
+**DOCUMENTO PRECEDENTE:** Documento 00 — Matriz de Governança Conceitual, Propriedade Intelectual e Posicionamento — V1.4  
+**SUBSTITUI:** Documento 01 — V4.5
 
 > **Entrar no Portal é entrar em um caminho. O padrão pode ser a porta de entrada. A consciência é o horizonte maior.**
 
@@ -72,9 +77,14 @@ Sempre que houver conflito entre uma ideia nova, uma sugestão de IA, uma tendê
 
 ## 0.2. Regra superior
 
-> **Toda decisão, conteúdo, produto, tecnologia ou ação comercial do Portal Caminho da Consciência deve servir ao propósito do projeto, respeitar sua filosofia, preservar sua humanidade e respeitar os limites de autoria e legitimidade. A eficiência da inteligência artificial nunca pode substituir a voz humana, a especificidade da experiência real, a responsabilidade ou a verdade daquilo que estamos construindo.**
 
----
+Toda decisão deve servir ao propósito do Portal, preservar humanidade, autoria, legitimidade e verdade. A eficiência da IA não substitui a voz de Marcos, a experiência real ou a responsabilidade.
+
+**O Portal trabalha dificuldades que se repetem ou permanecem na vida real, especialmente quando a pessoa já tentou mudar e continua sentindo que não consegue avançar.** A dificuldade concreta abre a conversa; o aprofundamento pode envolver padrões automáticos, crenças, medos, respostas aprendidas, autoimagem, evitação, conflitos internos e possibilidades espirituais. Não presumir causa.
+
+A correção financeira vale para todas as áreas: não transformar o canal em educação financeira, carreira, produtividade, aconselhamento amoroso ou dicas genéricas de bem-estar. A pessoa pode já ter conhecimento, condições e tentativas anteriores. O eixo é a distância entre o que deseja realizar e o que consegue sustentar. Não basta acrescentar uma frase sobre padrões no fechamento.
+
+**DESCOBRIR → RECONHECER** é o escopo do conteúdo público. **MAPEAR → TRABALHAR → INTEGRAR → APROFUNDAR** pertence aos produtos e experiências pertinentes. O próximo passo pode ser compreender melhor, buscar apoio ou conhecer uma possibilidade; não é obrigatoriamente exercício, método ou compra.
 
 ## 0.3. Regras imutáveis
 
@@ -416,6 +426,21 @@ A partir daí, o Método Padrão Interrompido ajuda a reconstruir **como a pesso
 
 ## 12. Arquitetura verbal de aquisição: dor primeiro, repetição depois
 
+
+**O Portal trabalha dificuldades que se repetem ou permanecem na vida real, especialmente quando a pessoa já tentou mudar e continua sentindo que não consegue avançar.** A dificuldade concreta abre a conversa; o aprofundamento pode envolver padrões automáticos, crenças, medos, respostas aprendidas, autoimagem, evitação, conflitos internos e possibilidades espirituais. Não presumir causa.
+
+A correção financeira vale para todas as áreas: não transformar o canal em educação financeira, carreira, produtividade, aconselhamento amoroso ou dicas genéricas de bem-estar. A pessoa pode já ter conhecimento, condições e tentativas anteriores. O eixo é a distância entre o que deseja realizar e o que consegue sustentar. Não basta acrescentar uma frase sobre padrões no fechamento.
+
+**DESCOBRIR → RECONHECER** é o escopo do conteúdo público. **MAPEAR → TRABALHAR → INTEGRAR → APROFUNDAR** pertence aos produtos e experiências pertinentes. O próximo passo pode ser compreender melhor, buscar apoio ou conhecer uma possibilidade; não é obrigatoriamente exercício, método ou compra.
+
+O primeiro ciclo de 15 dias testa dores, emoções, contradições e possibilidades, sem funil obrigatório. Duas frentes principais: **dinheiro e segurança** e **trabalho, projetos e sobrecarga**. **Relacionamentos** é a terceira frente controlada.
+
+Preservar D01-RS01, D01-S01 e D01-S02 publicados. Usar o Calendário V6 como referência, corrigindo as demais pautas pelo território V1.1 antes de produzir. Não alterar datas ou afirmar novas publicações sem confirmação.
+
+Adiar conteúdos específicos sobre Método, Mapeamento, Sintonize, roteamento de ofertas e novas famílias de práticas estruturadas. Não exigir que o fim da quinzena apresente produtos. A fila comercial continua válida para fase e oferta autorizadas, mas não determina o conteúdo orgânico inicial.
+
+Avaliar retenção, reconhecimento, comentários, compartilhamentos, interesse em continuar e inscritos/1.000 views; em longos, CTR e origem de tráfego quando disponíveis. Uma peça fraca não invalida o território: revisar abertura, cena, clareza e execução antes de abandonar a hipótese.
+
 “Voltar ao mesmo lugar” continua sendo um dos territórios autorais mais fortes do Portal, porém **deixa de ser obrigatoriamente a primeira frase comercial**.
 
 Para lead frio e resposta direta, a ordem preferencial passa a ser:
@@ -534,6 +559,9 @@ O Ponto de Interrupção:
 ---
 
 ## 15. Territórios da Vida Real — mapa autoral provisório
+
+
+Os seis Territórios da Vida Real continuam provisórios e autorais. Não são seis canais de dicas nem substituem o território transversal de transformação. A pessoa pode já ter conhecimento, recursos e tentativas anteriores. O aprofundamento pode envolver os fatores da Diretriz V1.1, sem presumir causa. O mapa não é a estrutura das oito Prosperidades Sintonize.
 
 Para dar mais consistência ao Método Padrão Interrompido sem copiar as 8 Prosperidades da Sintonize, o Portal passa a testar seis **Territórios da Vida Real**:
 
@@ -851,6 +879,17 @@ Não buscar a meta apenas aumentando volume de Mapeamentos de R$197. Validar uma
 
 ## 21. Estratégia de aquisição — quatro portas, prioridade comercial na Porta 2
 
+
+O primeiro ciclo de 15 dias testa dores, emoções, contradições e possibilidades, sem funil obrigatório. Duas frentes principais: **dinheiro e segurança** e **trabalho, projetos e sobrecarga**. **Relacionamentos** é a terceira frente controlada.
+
+Preservar D01-RS01, D01-S01 e D01-S02 publicados. Usar o Calendário V6 como referência, corrigindo as demais pautas pelo território V1.1 antes de produzir. Não alterar datas ou afirmar novas publicações sem confirmação.
+
+Adiar conteúdos específicos sobre Método, Mapeamento, Sintonize, roteamento de ofertas e novas famílias de práticas estruturadas. Não exigir que o fim da quinzena apresente produtos. A fila comercial continua válida para fase e oferta autorizadas, mas não determina o conteúdo orgânico inicial.
+
+Avaliar retenção, reconhecimento, comentários, compartilhamentos, interesse em continuar e inscritos/1.000 views; em longos, CTR e origem de tráfego quando disponíveis. Uma peça fraca não invalida o território: revisar abertura, cena, clareza e execução antes de abandonar a hipótese.
+
+A prioridade comercial da Porta 2 é hipótese de resposta direta para ofertas autorizadas; não é prioridade obrigatória de toda peça orgânica. A demanda direta por uma modalidade pode ter entrada própria, sem Mapeamento ou compra anterior obrigatórios.
+
 O Portal mantém quatro portas de aquisição:
 
 ### Porta 1 — Técnica
@@ -879,7 +918,7 @@ A pessoa procura mapeamento, identificar padrões ou entender o próprio caso.
 
 ### 21.1. Regra comercial
 
-> **Entrar pela Porta 2 e conduzir emocionalmente para a Porta 3 é a arquitetura comercial prioritária.**
+> **Na resposta direta autorizada, Porta 2 pode conectar-se à compreensão da repetição quando pertinente. No conteúdo orgânico inicial, não há roteamento obrigatório.**
 
 Fluxo:
 
@@ -1331,7 +1370,7 @@ Prioridades:
 - estruturar o produto autoguiado de **Dinheiro**;
 - escrever oferta e página de resposta direta pela dor visceral;
 - manter conteúdo orgânico YouTube-first nas quatro portas;
-- revisar o calendário editorial para refletir a prioridade comercial da Porta 2;
+- revisar o calendário editorial pela Diretriz V1.1, mantendo a prioridade comercial apenas em seu escopo autorizado;
 - não construir automações complexas antes da validação.
 
 ### Gate F1
@@ -1523,7 +1562,7 @@ Princípios estratégicos:
 
 A decisão técnica foi fechada pelo **PJ-02**: **MakerKit Lite — Modo A, Fundação Direta**, a partir do commit-base `c5cba64391a80620309c4178163dc2df42568d1b`, licença MIT, com estratégia de **Template Copy controlado**. O Portal preserva o histórico e os contratos funcionais dos produtos, mas não mantém como aberta a antiga escolha A/B/C.
 
-A Especificação Transversal da Plataforma da Jornada passa a governar uma **arquitetura de execução aprovada**, em conjunto com o Documento 05 V2.2 e o ADR. A implementação continua gradual por gates: decisão arquitetural aprovada não significa repo, Supabase, Vercel, DNS ou Auth já criados/configurados.
+A Especificação Transversal da Plataforma da Jornada passa a governar uma **arquitetura de execução aprovada**, em conjunto com o Documento 05 V2.3 e o ADR. A implementação continua gradual por gates: decisão arquitetural aprovada não significa repo, Supabase, Vercel, DNS ou Auth já criados/configurados.
 
 ---
 
@@ -1710,6 +1749,15 @@ A Sintonize permanece identificada como metodologia de terceiros, não como cria
 
 ## 44. Síntese canônica
 
+
+**O Portal trabalha dificuldades que se repetem ou permanecem na vida real, especialmente quando a pessoa já tentou mudar e continua sentindo que não consegue avançar.** A dificuldade concreta abre a conversa; o aprofundamento pode envolver padrões automáticos, crenças, medos, respostas aprendidas, autoimagem, evitação, conflitos internos e possibilidades espirituais. Não presumir causa.
+
+A correção financeira vale para todas as áreas: não transformar o canal em educação financeira, carreira, produtividade, aconselhamento amoroso ou dicas genéricas de bem-estar. A pessoa pode já ter conhecimento, condições e tentativas anteriores. O eixo é a distância entre o que deseja realizar e o que consegue sustentar. Não basta acrescentar uma frase sobre padrões no fechamento.
+
+**DESCOBRIR → RECONHECER** é o escopo do conteúdo público. **MAPEAR → TRABALHAR → INTEGRAR → APROFUNDAR** pertence aos produtos e experiências pertinentes. O próximo passo pode ser compreender melhor, buscar apoio ou conhecer uma possibilidade; não é obrigatoriamente exercício, método ou compra.
+
+O repertório possível inclui Método Padrão Interrompido, auto-hipnose, meditação e atenção plena, visualização e ensaio mental, escrita guiada, ações comportamentais concretas, recursos simples de autorregulação, práticas espirituais legítimas, Sintonize Prosperidade, acompanhamento e reavaliação. A escolha depende do caso, competência, consentimento, finalidade e validação. Não são novos produtos automaticamente aprovados; nenhuma técnica resolve universalmente uma dificuldade. A Sintonize é metodologia de terceiros e não autoriza reprodução de protocolos, diagnóstico energético ou promessa material.
+
 ### Por que existimos
 
 Para ajudar pessoas a compreender melhor a própria vida, perceber o que continua se repetindo, trabalhar aquilo que desejam transformar e trilhar um caminho de desenvolvimento, aprendizado, consciência e, quando desejado, aprofundamento espiritual.
@@ -1792,4 +1840,4 @@ Esta V4.5 substitui a V4.3 como referência canônica do Documento 01 e preserva
 - PJ-00/PJ-02 como gates antes de decisões técnicas definitivas;
 - continuidade dos produtos em seus próprios gates, sem paralisar lançamentos para esperar Meu Caminho.
 
-> **Fim do Documento 01 — Fundacional / Estratégico — V4.5.**
+> **Fim do Documento 01 — Fundacional / Estratégico — V4.6.**

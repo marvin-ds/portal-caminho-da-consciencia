@@ -1,11 +1,16 @@
 # PORTAL CAMINHO DA CONSCIÊNCIA
-## Documento 02 — Jornada de Transformação, Produtos, Serviços e Protocolos — V2.5
+## Documento 02 — Jornada de Transformação, Produtos, Serviços e Protocolos — V2.6
+
+**STATUS DA REVISÃO:** versão documental revisada; incorporação ao repositório e produção não confirmada
+**DATA DA REVISÃO:** 09/09/2026
+**REGRA EDITORIAL OBRIGATÓRIA:** Diretriz Editorial Complementar — Território de Transformação e Descobrir/Reconhecer — V1.1
+
 
 **STATUS CANÔNICO:** arquitetura oficial da experiência, jornada, produtos, serviços e protocolos do ecossistema  
 **DATA:** 05/09/2026  
 **HORIZONTE:** ciclo inicial de 90 dias + arquitetura de longo prazo  
-**DOCUMENTOS SUPERIORES:** Documento 00 — Matriz de Governança Conceitual, Propriedade Intelectual e Posicionamento — V1.3; Documento 01 — Fundacional, Estratégico e Plano Executivo Canônico — V4.5  
-**SUBSTITUI:** Documento 02 — V2.4
+**DOCUMENTOS SUPERIORES:** Documento 00 — Matriz de Governança Conceitual, Propriedade Intelectual e Posicionamento — V1.4; Documento 01 — Fundacional, Estratégico e Plano Executivo Canônico — V4.6  
+**SUBSTITUI:** Documento 02 — V2.5
 
 > **Do reconhecimento à transformação. Da transformação à integração. Da integração ao aprofundamento da consciência.**
 
@@ -15,7 +20,7 @@
 
 Este documento define **como uma pessoa evolui dentro do Portal Caminho da Consciência**, quais ofertas podem existir em cada etapa, como elas se conectam, quais metodologias podem ser utilizadas e quais fronteiras precisam ser preservadas para que o ecossistema seja útil, humano, responsável, sustentável e coerente.
 
-A V2.5 preserva integralmente a Jornada, ofertas, preços e regras da V2.4 e acrescenta apenas a camada transversal aprovada da **Plataforma da Jornada**, com **Meu Caminho** como nome aprovado para a experiência autenticada da V1. A Plataforma não cria uma nova etapa da Jornada nem uma nova oferta: ela materializa continuidade, retomada, entregas, registros, progresso de alto nível e próximos passos legítimos quando essas funções forem úteis.
+A V2.6 preserva integralmente a Jornada, ofertas, preços e regras da V2.4 e acrescenta apenas a camada transversal aprovada da **Plataforma da Jornada**, com **Meu Caminho** como nome recomendado da experiência autenticada. A Plataforma não cria uma nova etapa da Jornada nem uma nova oferta: ela materializa continuidade, retomada, entregas, registros, progresso de alto nível e próximos passos legítimos quando essas funções forem úteis.
 
 O documento está organizado em dezoito partes:
 
@@ -82,6 +87,15 @@ Nenhuma decisão deste documento pode apropriar metodologia de terceiros ou cont
 ---
 
 ## 0.2. Regra superior de produto
+
+
+**O Portal trabalha dificuldades que se repetem ou permanecem na vida real, especialmente quando a pessoa já tentou mudar e continua sentindo que não consegue avançar.** A dificuldade concreta abre a conversa; o aprofundamento pode envolver padrões automáticos, crenças, medos, respostas aprendidas, autoimagem, evitação, conflitos internos e possibilidades espirituais. Não presumir causa.
+
+A correção financeira vale para todas as áreas: não transformar o canal em educação financeira, carreira, produtividade, aconselhamento amoroso ou dicas genéricas de bem-estar. A pessoa pode já ter conhecimento, condições e tentativas anteriores. O eixo é a distância entre o que deseja realizar e o que consegue sustentar. Não basta acrescentar uma frase sobre padrões no fechamento.
+
+**DESCOBRIR → RECONHECER** é o escopo do conteúdo público. **MAPEAR → TRABALHAR → INTEGRAR → APROFUNDAR** pertence aos produtos e experiências pertinentes. O próximo passo pode ser compreender melhor, buscar apoio ou conhecer uma possibilidade; não é obrigatoriamente exercício, método ou compra.
+
+O repertório possível inclui Método Padrão Interrompido, auto-hipnose, meditação e atenção plena, visualização e ensaio mental, escrita guiada, ações comportamentais concretas, recursos simples de autorregulação, práticas espirituais legítimas, Sintonize Prosperidade, acompanhamento e reavaliação. A escolha depende do caso, competência, consentimento, finalidade e validação. Não são novos produtos automaticamente aprovados; nenhuma técnica resolve universalmente uma dificuldade. A Sintonize é metodologia de terceiros e não autoriza reprodução de protocolos, diagnóstico energético ou promessa material.
 
 > **A oferta seguinte só existe quando representa um próximo passo legítimo na jornada da pessoa.**
 
@@ -229,7 +243,7 @@ Princípios:
 - não exigir login antes do primeiro valor de O Minuto Anterior;
 - usar autenticação/progresso somente quando a experiência justificar retorno, histórico, persistência ou entrega privada.
 
-A implementação e os contratos técnicos passam a obedecer ao **ADR-PLATAFORMA-JORNADA-001 aprovado no PJ-02**, à SPEC transversal atualizada e ao Documento 05 V2.2. A arquitetura está fechada; a infraestrutura ainda será materializada pelos gates pós-DOC-SYNC.
+A implementação e os contratos técnicos passam a obedecer ao **ADR-PLATAFORMA-JORNADA-001 aprovado no PJ-02**, à SPEC transversal atualizada e ao Documento 05 V2.3. A arquitetura está fechada; a infraestrutura ainda será materializada pelos gates pós-DOC-SYNC.
 
 ---
 
@@ -432,9 +446,10 @@ Ela pode:
 
 # 14. Conteúdo como primeira experiência do produto
 
-Conteúdo continua sendo a primeira microexperiência do método: a pessoa percebe uma cena, reconstrói algo e leva uma pergunta útil.
 
----
+O conteúdo pode ser a primeira experiência de reconhecimento do Portal, mas não é uma execução inicial obrigatória do Método. A pessoa pode reconhecer uma cena, consequência, repetição ou possibilidade sem reconstruir episódios ou localizar o movimento anterior.
+
+O Mapeamento organiza o caso quando pertinente; outras modalidades podem ter entrada direta. Trabalho, integração e aprofundamento pertencem às experiências adequadas, sem compra ou percurso obrigatório. A Diretriz V1.1 governa a aquisição pública; a SPEC vigente governa a entrega do produto.
 
 # 15. O Minuto Anterior — entrada gratuita prioritária
 
@@ -831,26 +846,12 @@ Cada protocolo só entrará no catálogo depois de ser efetivamente criado, docu
 
 # 31. Técnicas que podem integrar protocolos autorais
 
-Quando houver competência, consentimento e legitimidade:
 
-- auto-hipnose;
-- visualização;
-- meditação;
-- oração;
-- journaling;
-- escrita guiada;
-- respiração simples;
-- práticas de atenção e presença;
-- rituais simbólicos autorais;
-- ações comportamentais concretas;
-- práticas de gratidão, intenção e compromisso;
-- recursos sensoriais de apoio;
-- radiestesia/radiônica quando legitimamente aplicáveis;
-- outras técnicas futuras adequadamente estudadas.
+O repertório possível inclui Método Padrão Interrompido, auto-hipnose, meditação e atenção plena, visualização e ensaio mental, escrita guiada, ações comportamentais concretas, recursos simples de autorregulação, práticas espirituais legítimas, Sintonize Prosperidade, acompanhamento e reavaliação. A escolha depende do caso, competência, consentimento, finalidade e validação. Não são novos produtos automaticamente aprovados; nenhuma técnica resolve universalmente uma dificuldade. A Sintonize é metodologia de terceiros e não autoriza reprodução de protocolos, diagnóstico energético ou promessa material.
 
-Uma técnica pertencente à Sintonize não se torna “autoral” apenas porque foi combinada com outras.
+A seleção deve partir do objetivo e do caso, não da necessidade de usar todas as ferramentas. Auto-hipnose, meditação, visualização, escrita e ações concretas podem integrar experiências autorais quando devidamente desenvolvidas e validadas. Técnicas clínicas específicas exigem formação e competência adequadas. A Sintonize não é protocolo autoral nem componente obrigatório.
 
----
+Preservar o estado de cada produto, seus preços, duração, entregáveis e contratos transversais. Não criar novos produtos ou protocolos por esta revisão.
 
 # 32. Formatos possíveis de protocolos autorais
 
@@ -1754,7 +1755,7 @@ Se houver compra e valor percebido:
 
 **FECHADO — PLATAFORMA 01.** O conceito transversal aprovado é **Plataforma da Jornada**, não área de membros/LMS convencional.
 
-**FECHADO — PLATAFORMA 02.** **Meu Caminho** é o nome aprovado para a experiência autenticada da V1.
+**FECHADO — PLATAFORMA 02.** **Meu Caminho** é o nome recomendado da experiência autenticada.
 
 **FECHADO — PLATAFORMA 03.** Meu Caminho não é produto, etapa nova ou obrigação de progressão.
 
@@ -1821,15 +1822,24 @@ Antes de criar produto, responder:
 # 75. Relação com os demais documentos
 
 - **Documento 00** — governa fronteiras conceituais, autoria, propriedade intelectual, Sintonize e posicionamento.
-- **Documento 01 — V4.5** — governa propósito, estratégia e princípios.
+- **Documento 01 — V4.6** — governa propósito, estratégia e princípios.
 - **Documento 03** — deve transformar esta arquitetura em sistema editorial, aquisição e experimentação.
 - **Documento 04** — deve traduzir as ofertas em voz, identidade e comunicação responsável.
-- **Documento 05 V2.2** — governa a arquitetura técnica pós-PJ-02; a SPEC transversal governa contratos de execução e o ADR permanece a fonte da decisão arquitetural.
+- **Documento 05 V2.3** — governa a arquitetura técnica pós-PJ-02; a SPEC transversal governa contratos de execução e o ADR permanece a fonte da decisão arquitetural.
 - **Documento 06 — CURRENT** — registra status real, gates, preços vigentes, certificação, operação e próximos passos.
 
 ---
 
 # 76. Síntese canônica da jornada
+
+
+**O Portal trabalha dificuldades que se repetem ou permanecem na vida real, especialmente quando a pessoa já tentou mudar e continua sentindo que não consegue avançar.** A dificuldade concreta abre a conversa; o aprofundamento pode envolver padrões automáticos, crenças, medos, respostas aprendidas, autoimagem, evitação, conflitos internos e possibilidades espirituais. Não presumir causa.
+
+A correção financeira vale para todas as áreas: não transformar o canal em educação financeira, carreira, produtividade, aconselhamento amoroso ou dicas genéricas de bem-estar. A pessoa pode já ter conhecimento, condições e tentativas anteriores. O eixo é a distância entre o que deseja realizar e o que consegue sustentar. Não basta acrescentar uma frase sobre padrões no fechamento.
+
+**DESCOBRIR → RECONHECER** é o escopo do conteúdo público. **MAPEAR → TRABALHAR → INTEGRAR → APROFUNDAR** pertence aos produtos e experiências pertinentes. O próximo passo pode ser compreender melhor, buscar apoio ou conhecer uma possibilidade; não é obrigatoriamente exercício, método ou compra.
+
+O repertório possível inclui Método Padrão Interrompido, auto-hipnose, meditação e atenção plena, visualização e ensaio mental, escrita guiada, ações comportamentais concretas, recursos simples de autorregulação, práticas espirituais legítimas, Sintonize Prosperidade, acompanhamento e reavaliação. A escolha depende do caso, competência, consentimento, finalidade e validação. Não são novos produtos automaticamente aprovados; nenhuma técnica resolve universalmente uma dificuldade. A Sintonize é metodologia de terceiros e não autoriza reprodução de protocolos, diagnóstico energético ou promessa material.
 
 ## Entrada
 
@@ -2022,7 +2032,7 @@ delivery
 
 # 80. Governança da versão
 
-Esta V2.5 substitui integralmente a V2.4.
+Esta V2.5 substitui integralmente a V2.3.
 
 Ela deve ser revisada apenas quando houver mudança real na arquitetura de produto, incluindo:
 
@@ -2041,9 +2051,9 @@ Mudanças operacionais cotidianas pertencem ao CURRENT.
 # 80. Controle de versão — V2.5
 
 **VERSÃO:** V2.5  
-**DATA:** 05/09/2026  
-**SUBSTITUI:** V2.4  
+**DATA:** 04/09/2026  
+**SUBSTITUI:** V2.3  
 **MOTIVO:** reconciliar a Jornada após o PJ-02 / ADR-PLATAFORMA-JORNADA-001 aprovado, removendo estados investigativos da Plataforma.  
 **IMPACTO:** mantém a Jornada pública e as ofertas intactas, mas fecha Meu Caminho como interface autenticada V1, define os contratos transversais dos produtos e proíbe infraestrutura paralela por produto.
 
-**Fim do Documento 02 — Jornada de Transformação, Produtos, Serviços e Protocolos — V2.5.**
+**Fim do Documento 02 — Jornada de Transformação, Produtos, Serviços e Protocolos — V2.6.**

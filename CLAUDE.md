@@ -15,6 +15,7 @@
 03.C Banco Operacional de Reels de Reconhecimento Silencioso  ← operacional editorial
 03.D Sistema Operacional de Prompts Editoriais, Search, Copy, SEO e IA  ← operacional editorial
 03.E Plano Operacional de Execução do Calendário Editorial e Backlog  ← operacional editorial
+03.F Framework de Páginas, Ofertas, Message Match e Conversão  ← operacional editorial
 ↓
 04 Identidade / Comunicação
 ↓
@@ -32,14 +33,17 @@ CURRENT.md                          ← estado operacional, não contrariar 00�
 | `00-matriz-governanca-conceitual.md` | Fronteiras de autoria, PI, Sintonize, Radar, linguagem público/interno |
 | `01-fundacional-estrategico.md` | Propósito, visão, posicionamento, método, princípios |
 | `02-jornada-produtos-servicos-protocolos.md` | Jornada do cliente, ofertas, entregáveis, protocolos |
+| `02a-framework-construcao-validacao-escala-produtos-ofertas.md` | Framework de construção, validação e escala de produtos e ofertas |
 | `03-sistema-editorial-aquisicao-experimentacao.md` | Conteúdo, funil, SEO, YouTube, CTAs, métricas |
 | `03a-regra-complementar-percepcao-antes-da-explicacao.md` | Arquitetura psicológica do conteúdo — percepção antes da explicação; lida em conjunto com 03 |
-| `03b-mapa-editorial-mestre.md` | Big Ideas, Cenas, Soluções, Oferta, Ganchos e Arquitetura de Aquisição V1.2; lido em conjunto com 03 e 03.A |
+| `03b-mapa-editorial-mestre.md` | Big Ideas, Cenas, Soluções, Oferta, Ganchos e Arquitetura de Aquisição V1.3; lido em conjunto com 03 e 03.A |
 | `03c-banco-reels-reconhecimento-silencioso.md` | Banco operacional de Reels, cenas, dores, tensões, hooks, CTAs e microtransformações |
 | `03d-sistema-operacional-prompts-editoriais-search-ia.md` | Prompts editoriais, Search, copy, SEO e produção assistida por IA |
 | `03e-plano-operacional-execucao-calendario-editorial-backlog.md` | Plano operacional de calendário editorial e backlog gradual |
+| `03f-framework-paginas-ofertas-message-match-conversao.md` | Framework de páginas, ofertas, message match e conversão |
 | `04-identidade-voz-espiritualidade-comunicacao.md` | Design, paleta, tipografia, voz, claims, compliance |
 | `05-arquitetura-tecnica-dados-ecossistema.md` | Infra, banco, deploy, integrações, LGPD, segurança |
+| `diretriz-territorio-transformacao-descobrir-reconhecer.md` | Diretriz editorial — Território de Transformação, Descobrir/Reconhecer; lida em conjunto com 03 e 03.A |
 
 ## Documentos operacionais (`docs/operations/`)
 
