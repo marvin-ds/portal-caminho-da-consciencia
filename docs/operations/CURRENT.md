@@ -238,7 +238,7 @@ Meta operacional de planejamento: **aproximadamente R$45–47 mil de receita**, 
 
 ## P0
 
-> **PJ-04-02-EZ-01 ENCERRADO ✅ (09/09/2026) — Webhook Eduzz validado e ativado em Preview. Próxima decisão pendente: mapeamento do produto Eduzz `3025485` → slug canônico do Portal (determina qual acesso uma compra concederá). Esse vínculo NÃO deve ser criado por suposição. Após decisão de Marcos: inserir em `product_mappings` e preparar primeira compra controlada com autorização separada. STOP: sem mapeamento por suposição, sem compra real, sem Production, sem PJ-04-03.**
+> **MAPEAMENTO GRAVADO ✅ (09/09/2026) — `product_mappings`: Eduzz `3025485` → `antes-do-aperto`, active=true, notas de teste. Read-back confirmado. Nenhum order/payment/entitlement criado por essa operação. Deploy limpo `0ae778f` READY: `portal-app-pj04-02-ee4ijxjqm-marvin-ds-projects.vercel.app`. Isolamento confirmado (produto de teste sem compradores reais). PENDENTE: compra controlada única (não autorizada ainda) — pagamento → webhook → entitlement → claim → acesso → reversão. STOP: sem compra real, sem Production, sem PJ-04-03.**
 
 Para Sintonize, a ordem é:
 
