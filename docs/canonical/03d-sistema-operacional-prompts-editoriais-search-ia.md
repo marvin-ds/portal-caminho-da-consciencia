@@ -1,15 +1,20 @@
 # PORTAL CAMINHO DA CONSCIÊNCIA
-## Documento 03.D — Sistema Operacional de Prompts Editoriais, Search, Copy, SEO e Produção Assistida por IA — V2.2
+## Documento 03.D — Sistema Operacional de Prompts Editoriais, Search, Copy, SEO e Produção Assistida por IA — V2.3
+
+**STATUS DA REVISÃO:** versão documental revisada; incorporação ao repositório e produção não confirmada
+**DATA DA REVISÃO:** 09/09/2026
+**REGRA EDITORIAL OBRIGATÓRIA:** Diretriz Editorial Complementar — Território de Transformação e Descobrir/Reconhecer — V1.1
+
 
 **STATUS:** documento operacional complementar ao sistema editorial — referência oficial para uso de prompts em conteúdo
 **DATA:** 03/09/2026  
-**DOCUMENTO-PAI:** Documento 03 — Sistema Editorial, Aquisição e Experimentação — V2.2  
-**REGRA COMPLEMENTAR OBRIGATÓRIA:** Documento 03.A — Percepção Antes da Explicação — V1.0  
-**MAPA OPERACIONAL SUPERIOR:** Documento 03.B — Mapa Editorial Mestre — V1.2  
-**BANCO OPERACIONAL RELACIONADO:** Documento 03.C — Banco de Reels de Reconhecimento Silencioso — V1.1  
-**DOCUMENTOS SUPERIORES:** Documento 00 — Matriz de Governança Conceitual, Propriedade Intelectual e Posicionamento — V1.2; Documento 01 — Fundacional, Estratégico e Plano Executivo — V4.2; Documento 02 — Jornada, Produtos, Serviços e Protocolos — V2.2  
-**DOCUMENTOS RELACIONADOS:** Documento 04 — Identidade, Voz, Espiritualidade e Comunicação — V2.2; Documento 06 — CURRENT — V2.2  
-**SUBSTITUI:** Documento 03.D — V2.1
+**DOCUMENTO-PAI:** Documento 03 — Sistema Editorial, Aquisição e Experimentação — V2.3  
+**REGRA COMPLEMENTAR OBRIGATÓRIA:** Documento 03.A — Percepção Antes da Explicação — V1.1  
+**MAPA OPERACIONAL SUPERIOR:** Documento 03.B — Mapa Editorial Mestre — V1.3  
+**BANCO OPERACIONAL RELACIONADO:** Documento 03.C — Banco de Reels de Reconhecimento Silencioso — V1.2  
+**DOCUMENTOS SUPERIORES:** Documento 00 — Matriz de Governança Conceitual, Propriedade Intelectual e Posicionamento — V1.4; Documento 01 — Fundacional, Estratégico e Plano Executivo — V4.6; Documento 02 — Jornada, Produtos, Serviços e Protocolos — V2.6  
+**DOCUMENTOS RELACIONADOS:** Documento 04 — Identidade, Voz, Espiritualidade e Comunicação — V2.4; Documento 06 — CURRENT — V2.6  
+**SUBSTITUI:** Documento 03D — V2.2
 
 > **PERCEPÇÃO ANTES DA EXPLICAÇÃO. TAREFA ANTES DA FERRAMENTA. UMA PUBLICAÇÃO, UMA HIPÓTESE. DADO ANTES DA CERTEZA.**
 
@@ -89,7 +94,7 @@ Quando houver conflito:
 
 ---
 
-## 0.2. Evoluções consolidadas até esta V2.2
+## 0.2. Evoluções consolidadas até esta V2.3
 
 Esta versão corrige e atualiza o documento anterior:
 
@@ -102,7 +107,7 @@ Esta versão corrige e atualiza o documento anterior:
 - YouTube Search passa a fazer parte da embalagem e da criação de Shorts e longos;
 - a keyword não pode deformar a tese editorial;
 - Reconhecimento Silencioso passa a possuir prompt próprio para Instagram e YouTube;
-- Instagram passa a usar a legenda como principal espaço de microtransformação nessa família;
+- Instagram pode usar a legenda para aprofundar reconhecimento, sem exercício obrigatório;
 - YouTube Shorts de Reconhecimento Silencioso precisam entregar valor **dentro do vídeo**;
 - o calendário passa a ser tratado como fila adaptativa, não como quinze dias imutáveis;
 - produção em lote e backlog gradual passam a ter prompt próprio;
@@ -132,57 +137,35 @@ Todos os prompts devem assumir:
 
 # 2. Arquitetura psicológica
 
-A progressão de percepção desejada é:
 
-> **CENA → RECONHECIMENTO → REPETIÇÃO → CONEXÃO → NOVA PERCEPÇÃO → PRÓXIMO PASSO**
+A progressão de compreensão e desejo é **vida concreta/dor visceral → emoção → consequências e repetição → travamento percebido → conexão → importância → possibilidade → próximo passo**. É uma arquitetura de compreensão, não uma lista obrigatória de blocos. Uma peça pode trabalhar somente uma parte.
 
-Isso não é uma fórmula rígida de roteiro.
-
-Regra obrigatória:
-
-> **A pessoa deve perceber antes de receber nossa explicação.**
-
----
+Percepção antes da explicação significa reconhecer a experiência antes de receber um conceito. Não exige localizar o começo da sequência. A dificuldade concreta abre a conversa; o território do Portal é o que pode estar dificultando a mudança, sem presumir causa.
 
 # 3. Regra de microtransformação
 
-Cada peça deve fazer a pessoa sair com pelo menos uma capacidade nova:
 
-- perceber um gesto;
-- identificar um momento anterior;
-- lembrar uma frase interna;
-- comparar duas ocorrências;
-- formular uma pergunta melhor;
-- observar um comportamento durante 24h ou 7 dias;
-- realizar uma ação pequena;
-- diferenciar fato de interpretação.
+No conteúdo de reconhecimento, valor útil pode ser reconhecer uma dificuldade, compreender sua importância, perceber uma contradição, sentir-se representado ou conhecer uma possibilidade real. Não é obrigatório sair com uma capacidade técnica, exercício ou plano.
 
-Conteúdo não pode ser somente identificação bonita.
+Observar por 24h/7 dias, comparar episódios, reconstruir sequências e localizar o movimento anterior são recursos de trabalho ou de conteúdo especializado autorizado, não requisitos de aquisição.
 
----
+A peça não deve ser apenas identificação vazia: precisa ter uma ideia clara e pertinente. Isso não autoriza transformá-la em aula do Método.
 
 # 4. Territórios editoriais
 
-Usar como territórios flexíveis:
 
-- dinheiro e recursos;
-- trabalho, carreira e projetos;
-- criatividade e expressão;
-- relacionamentos;
-- família, história e aprendizados;
-- rotina, autocuidado e bem-estar cotidiano;
-- respostas internas, escolhas e comportamento;
-- espiritualidade;
-- tempo, liberdade e prioridades;
-- cruzamentos entre dois ou mais territórios.
+Os territórios de vida são portas de reconhecimento, não categorias de dicas. Em qualquer área, priorizar a dificuldade de avançar, realizar ou sustentar mudanças, especialmente depois de tentativas anteriores.
+
+- **Dinheiro e segurança:** melhora de renda ou reorganização que não se transforma nos planos desejados; receber, cobrar, prosperar e sustentar conquistas.
+- **Trabalho, carreira e projetos:** conhecimento e condições que não se transformam em execução, posicionamento, conclusão ou avanço.
+- **Relacionamentos:** tentativas de conversar, se posicionar ou mudar uma dinâmica que continua difícil.
+- **Criatividade e expressão; família e aprendizados; rotina e bem-estar; tempo e liberdade; espiritualidade:** aplicar o mesmo eixo, sem substituir por dicas genéricas ou causas presumidas.
+
+Nos primeiros 15 dias, dinheiro/segurança e trabalho/projetos/sobrecarga são as duas frentes principais; relacionamentos é a terceira frente controlada. As demais possibilidades ficam no backlog ou surgem por demanda. As oito dimensões da Sintonize não são oito pilares de aquisição.
 
 ### Regra das 8 Prosperidades
 
-Quando houver conteúdo **explicitamente sobre a Sintonize Prosperidade**, as 8 Prosperidades devem ser apresentadas como estrutura da própria Sintonize e corretamente atribuídas.
-
-Elas não são o mapa autoral padrão do Padrão Interrompido.
-
----
+Quando houver conteúdo explicitamente sobre a Sintonize Prosperidade, as oito dimensões devem ser corretamente atribuídas à metodologia de terceiros. Não são o mapa autoral padrão do Padrão Interrompido.
 
 # 5. TOM MARCOS
 
@@ -276,17 +259,16 @@ Se a keyword contém `cura`, `diagnóstico`, `garantia`, `quântico`, `ambiente`
 
 # 7.A. Regra comercial Porta 2
 
-Todo prompt de anúncio, página de vendas, copy de resposta direta ou produto por dor deve conseguir trabalhar:
 
-> **DOR VISCERAL → CONSEQUÊNCIA CONCRETA → CONSEQUÊNCIA EMOCIONAL → SENSAÇÃO DE TRAVAMENTO/BLOQUEIO → REPETIÇÃO → “DE NOVO” → PRÓXIMO PASSO.**
+A Porta 2 permanece uma hipótese de prioridade comercial para resposta direta, condicionada a oferta real, estado autorizado e validação. Não governa automaticamente conteúdo orgânico.
 
-Não começar pelo nome do método quando o lead ainda está na dor.
+No primeiro ciclo de 15 dias, não produzir novas peças específicas de Método, Mapeamento, Sintonize, roteamento ou práticas estruturadas. A existência de uma oferta live não obriga cada conteúdo a encaminhar para ela. Fora desse ciclo, preservar triagem, message match, claims e escolha proporcional da modalidade.
 
-Não converter a sensação de bloqueio em diagnóstico.
+A linguagem de bloqueio descreve percepção ou intenção espiritual; não autoriza diagnóstico nem promessa de desbloqueio garantido.
 
-Quando o conteúdo for puramente orgânico, usar esta arquitetura apenas se ela servir à peça; as quatro portas continuam válidas.
+### Contrato de reconhecimento silencioso V1.1
 
----
+Instagram pode usar ponte para legenda e YouTube deve funcionar sem descrição. Em ambos, reconhecimento e possibilidade são suficientes; não exigir exercício, comparação de episódios ou microtransformação técnica. A legenda aprofunda a conversa, não executa automaticamente o Método. O P22 e o P23 atualizados prevalecem sobre exemplos antigos.
 
 # 8. Reconhecimento Silencioso — regra por plataforma
 
@@ -294,7 +276,7 @@ Quando o conteúdo for puramente orgânico, usar esta arquitetura apenas se ela 
 
 > **CENA → HOOK → TENSÃO → PONTE PARA LEGENDA**
 
-A legenda entrega a microtransformação.
+A legenda aprofunda o reconhecimento; práticas estruturadas pertencem ao escopo autorizado.
 
 ## YouTube Shorts
 
@@ -308,97 +290,29 @@ O vídeo deve fazer sentido mesmo que a pessoa nunca abra a descrição.
 
 # P1 — Encontrar a cena que reage
 
-**USAR QUANDO:** existe um tema/dor, mas ainda não existe uma cena suficientemente específica.
+**ESCOPO:** RECONHECIMENTO.
 
-> Atue como investigador editorial do **Portal Caminho da Consciência**.
->
-> Tema / dor: `[INSERIR]`
-> Território: `[INSERIR]`
-> Estado da audiência: `[dor sem nome / reconhecimento / conexão / intenção]`
->
-> Não me dê conceitos genéricos.
->
-> Crie **10 cenas originais de vida real** em que uma pessoa percebe esse tema.
->
-> Para cada cena informe:
-> 1. momento;
-> 2. ambiente;
-> 3. objeto ou gesto;
-> 4. frase interna possível;
-> 5. comportamento observável;
-> 6. consequência visível;
-> 7. o que pode ter acontecido imediatamente antes;
-> 8. pista de repetição;
-> 9. possível conexão com outro território;
-> 10. limite semântico — o que não podemos concluir.
->
-> Escolha as **3 cenas com maior potencial de reconhecimento** e declare a hipótese de cada uma.
->
-> Regras:
-> - vida concreta antes de conceito;
-> - não diagnosticar;
-> - não decretar causalidade;
-> - não copiar wording, lista, protocolo, símbolo ou material de terceiros;
-> - a pessoa precisa conseguir pensar: “isso poderia ter acontecido comigo ontem”.
+> **Contrato herdado:** Aplique a Diretriz V1.1. Identifique o escopo antes de produzir: RECONHECIMENTO, ESPECIALIZADO, COMERCIAL ou PRODUTO. Em reconhecimento, trabalhe a dificuldade de avançar, realizar ou sustentar mudanças, inclusive após tentativas anteriores. Não substitua o eixo por dicas genéricas de finanças, carreira, produtividade, relacionamentos ou bem-estar. Não basta acrescentar 'padrão' ao fechamento. Abra possibilidades de crenças, medos, automatismos, respostas aprendidas e espiritualidade sem presumir causa. Não exija reconstrução de sequência, exercício, método ou compra. Preserve TOM MARCOS, causalidade responsável e próximo passo coerente. Nos primeiros 15 dias, não produzir conteúdo específico de Método, Mapeamento, Sintonize, roteamento ou novas práticas estruturadas.
+
+> Encontre uma cena concreta para [TEMA / PÚBLICO / TERRITÓRIO]. Priorize a contradição entre o que a pessoa deseja e o que consegue realizar, inclusive depois de estudar, se reorganizar ou melhorar suas condições. Entregue cinco cenas alternativas, dor, consequência emocional plausível, tensão, pergunta de reconhecimento e hipótese a testar. Não invente história pessoal de Marcos nem atribua uma causa ao comportamento. Escolha uma cena que funcione sem conceitos ou conhecimento prévio do Portal.
 
 ---
 
 # P2 — Short de reconhecimento / Short falado
 
-**USAR QUANDO:** criar Short de Marcos, híbrido ou narração.
+**ESCOPO:** RECONHECIMENTO.
 
-> Crie um **YouTube Short** para o **Portal Caminho da Consciência**.
->
-> Linha do calendário / briefing: `[COLAR]`
-> Tema: `[INSERIR]`
-> Dor/tensão: `[INSERIR]`
-> Território: `[INSERIR]`
-> Objetivo: `[atração / reconhecimento / categoria / confiança / intenção / conversão]`
-> Presença: `[Marcos / IA + narração / híbrido]`
-> Keyword YouTube principal, se houver: `[INSERIR]`
-> CTA/destino: `[INSERIR]`
->
-> Antes do roteiro, declare:
-> - hipótese;
-> - público/estado da audiência;
-> - uma única tensão;
-> - variável principal do teste;
-> - comportamento esperado;
-> - KPI principal.
->
-> Estrutura de referência, sem rigidez:
-> **cena → pensamento → repetição → expansão → nova percepção → microtransformação → CTA**.
->
-> Duração preferencial: **20–45s**, salvo justificativa.
->
-> Se houver keyword, confirme a intenção de busca naturalmente nos primeiros segundos. Não faça keyword stuffing.
->
-> Entregue:
-> A. hipótese;
-> B. hook 0–3s;
-> C. roteiro com timestamps;
-> D. fala/narração;
-> E. texto na tela;
-> F. microtransformação;
-> G. direção visual;
-> H. CTA;
-> I. 2 hooks alternativos;
-> J. KPI primário e secundário;
-> K. o que exatamente este Short está testando.
->
-> Regras:
-> - percepção antes da explicação;
-> - uma tensão;
-> - TOM MARCOS;
-> - sem diagnóstico;
-> - sem promessa;
-> - sem causalidade absoluta;
-> - Método Padrão Interrompido só entra quando ajudar a compreensão;
-> - o Short precisa entregar algo útil antes de pedir qualquer ação.
+> **Contrato herdado:** Aplique a Diretriz V1.1. Identifique o escopo antes de produzir: RECONHECIMENTO, ESPECIALIZADO, COMERCIAL ou PRODUTO. Em reconhecimento, trabalhe a dificuldade de avançar, realizar ou sustentar mudanças, inclusive após tentativas anteriores. Não substitua o eixo por dicas genéricas de finanças, carreira, produtividade, relacionamentos ou bem-estar. Não basta acrescentar 'padrão' ao fechamento. Abra possibilidades de crenças, medos, automatismos, respostas aprendidas e espiritualidade sem presumir causa. Não exija reconstrução de sequência, exercício, método ou compra. Preserve TOM MARCOS, causalidade responsável e próximo passo coerente. Nos primeiros 15 dias, não produzir conteúdo específico de Método, Mapeamento, Sintonize, roteamento ou novas práticas estruturadas.
+
+> Crie um Short para [LINHA COMPLETA / TEMA / DURAÇÃO / KEYWORD / OBJETIVO]. Quando Marcos aparecer, preserve: “Marcos sentou, ligou a câmera e resolveu conversar sobre uma coisa que realmente vem pensando.” Abra com uma cena ou contradição forte nos primeiros três segundos. Desenvolva uma ideia central em linguagem falada, com dor visceral, consequências emocionais reais e possibilidade plausível. Não force todos os movimentos da arquitetura. O próximo passo deve existir, mas não precisa ser exercício, método ou venda. Entregue título SEO natural, playlist, roteiro completo, direção breve, legenda, música como referência verificável e, se solicitado, hooks alternativos, hipótese e KPI. Não invente experiência pessoal. Não use a falta de renda, disciplina ou conhecimento como explicação automática. Duração solicitada prevalece sobre o antigo padrão de 20–45 segundos.
 
 ---
 
 # P3 — TOM MARCOS / naturalidade
+
+**ESCOPO:** RECONHECIMENTO.
+
+> **Contrato herdado:** Aplique a Diretriz V1.1. Identifique o escopo antes de produzir: RECONHECIMENTO, ESPECIALIZADO, COMERCIAL ou PRODUTO. Em reconhecimento, trabalhe a dificuldade de avançar, realizar ou sustentar mudanças, inclusive após tentativas anteriores. Não substitua o eixo por dicas genéricas de finanças, carreira, produtividade, relacionamentos ou bem-estar. Não basta acrescentar 'padrão' ao fechamento. Abra possibilidades de crenças, medos, automatismos, respostas aprendidas e espiritualidade sem presumir causa. Não exija reconstrução de sequência, exercício, método ou compra. Preserve TOM MARCOS, causalidade responsável e próximo passo coerente. Nos primeiros 15 dias, não produzir conteúdo específico de Método, Mapeamento, Sintonize, roteamento ou novas práticas estruturadas.
 
 **USAR QUANDO:** Marcos aparecer ou narrar.
 
@@ -447,7 +361,13 @@ O vídeo deve fazer sentido mesmo que a pessoa nunca abra a descrição.
 
 ---
 
+---
+
 # P4 — IA visual
+
+**ESCOPO:** RECONHECIMENTO.
+
+> **Contrato herdado:** Aplique a Diretriz V1.1. Identifique o escopo antes de produzir: RECONHECIMENTO, ESPECIALIZADO, COMERCIAL ou PRODUTO. Em reconhecimento, trabalhe a dificuldade de avançar, realizar ou sustentar mudanças, inclusive após tentativas anteriores. Não substitua o eixo por dicas genéricas de finanças, carreira, produtividade, relacionamentos ou bem-estar. Não basta acrescentar 'padrão' ao fechamento. Abra possibilidades de crenças, medos, automatismos, respostas aprendidas e espiritualidade sem presumir causa. Não exija reconstrução de sequência, exercício, método ou compra. Preserve TOM MARCOS, causalidade responsável e próximo passo coerente. Nos primeiros 15 dias, não produzir conteúdo específico de Método, Mapeamento, Sintonize, roteamento ou novas práticas estruturadas.
 
 **USAR QUANDO:** a peça usar cenas geradas ou apoio visual de IA.
 
@@ -487,210 +407,53 @@ O vídeo deve fazer sentido mesmo que a pessoa nunca abra a descrição.
 
 ---
 
+---
+
 # P5 — Vídeo longo YouTube — retenção + Search + categoria
 
-**USAR QUANDO:** criar vídeo longo.
+**ESCOPO:** RECONHECIMENTO.
 
-> Planeje um vídeo longo para o **Portal Caminho da Consciência**.
->
-> Linha do calendário / briefing: `[COLAR]`
-> Tema: `[INSERIR]`
-> Duração pretendida: `[INSERIR]`
-> Objetivo: `[atração / categoria / confiança / intenção / conversão]`
-> Grande Ideia: `[INSERIR]`
-> Keyword YouTube principal, se houver: `[INSERIR]`
-> Próximo passo/oferta: `[INSERIR]`
->
-> Primeiro faça o **PACKAGING**:
-> - intenção da busca;
-> - promessa legítima;
-> - 5 títulos;
-> - 3 conceitos de thumbnail;
-> - texto máximo da thumbnail;
-> - pergunta criada por título + thumbnail;
-> - escolha recomendada e justificativa.
->
-> Depois estruture:
-> 1. hook nos primeiros 5–15s;
-> 2. contrato;
-> 3. primeira cena concreta;
-> 4. blocos de raciocínio;
-> 5. micro-hooks;
-> 6. exemplos;
-> 7. possíveis conexões entre territórios;
-> 8. nuance/limites;
-> 9. momento de maior valor;
-> 10. prática/pergunta que a pessoa leva para a vida;
-> 11. CTA;
-> 12. ponte para o próximo vídeo.
->
-> Para cada bloco, informe:
-> - objetivo;
-> - nova informação;
-> - cena/exemplo;
-> - pergunta;
-> - micro-hook;
-> - B-roll útil;
-> - transição.
->
-> Entregue também:
-> - 5–8 Shorts/Reels derivados;
-> - trechos que devem ser marcados durante a gravação;
-> - principal risco de queda de retenção;
-> - KPI primário e secundário.
->
-> Regras:
-> - estrutura de fala, não texto para decorar;
-> - satisfazer a busca sem parecer SEO artificial;
-> - não esconder valor até o fim;
-> - não usar “fica até o final” sem motivo;
-> - não usar Sintonize sem necessidade;
-> - se Sintonize aparecer, atribuir corretamente e respeitar o CURRENT.
+> **Contrato herdado:** Aplique a Diretriz V1.1. Identifique o escopo antes de produzir: RECONHECIMENTO, ESPECIALIZADO, COMERCIAL ou PRODUTO. Em reconhecimento, trabalhe a dificuldade de avançar, realizar ou sustentar mudanças, inclusive após tentativas anteriores. Não substitua o eixo por dicas genéricas de finanças, carreira, produtividade, relacionamentos ou bem-estar. Não basta acrescentar 'padrão' ao fechamento. Abra possibilidades de crenças, medos, automatismos, respostas aprendidas e espiritualidade sem presumir causa. Não exija reconstrução de sequência, exercício, método ou compra. Preserve TOM MARCOS, causalidade responsável e próximo passo coerente. Nos primeiros 15 dias, não produzir conteúdo específico de Método, Mapeamento, Sintonize, roteamento ou novas práticas estruturadas.
+
+> Planeje e escreva um vídeo longo para [LINHA / TEMA / DURAÇÃO / KEYWORD]. Primeiro defina intenção de busca, promessa legítima, títulos, thumbnail e pergunta central. Depois desenvolva uma conversa com abertura concreta, raciocínio progressivo, cenas, consequências, nuances, possibilidade real e próximo passo. Aprofunde a dificuldade de avançar mesmo após tentativas anteriores; não transforme a peça em uma aula de soluções práticas nem acrescente padrões apenas no final. Se houver informação prática pertinente, mantenha-a proporcional. Não invente história de Marcos, diagnóstico, causalidade ou resultado garantido. Não inclua exercício, explicação do Método ou oferta em peça de reconhecimento. Entregue roteiro falado completo, título, playlist, legenda, direção, música de referência e, quando solicitado, capítulos, B-roll, hipóteses, KPIs e cortes derivados contextualizados. Não é obrigatório produzir 5–8 cortes por longo.
 
 ---
 
 # P6 — Cinco experimentos realmente diferentes
 
-**USAR QUANDO:** uma Grande Ideia precisa de variações testáveis.
+**ESCOPO:** RECONHECIMENTO.
 
-> Pegue esta Grande Ideia:
->
-> `[INSERIR]`
->
-> Gere **5 experimentos realmente diferentes**, mudando uma variável principal por vez.
->
-> Varie entre:
-> - cena;
-> - frase interna;
-> - consequência;
-> - movimento anterior;
-> - pergunta de memória;
-> - contraste;
-> - presença Marcos/IA;
-> - CTA;
-> - plataforma, quando justificável.
->
-> Para cada experimento informe:
-> - hipótese;
-> - variável alterada;
-> - cena;
-> - hook;
-> - formato;
-> - CTA;
-> - KPI;
-> - aprendizado possível se performar melhor;
-> - aprendizado possível se performar pior.
->
-> Não produza cinco paráfrases.
+> **Contrato herdado:** Aplique a Diretriz V1.1. Identifique o escopo antes de produzir: RECONHECIMENTO, ESPECIALIZADO, COMERCIAL ou PRODUTO. Em reconhecimento, trabalhe a dificuldade de avançar, realizar ou sustentar mudanças, inclusive após tentativas anteriores. Não substitua o eixo por dicas genéricas de finanças, carreira, produtividade, relacionamentos ou bem-estar. Não basta acrescentar 'padrão' ao fechamento. Abra possibilidades de crenças, medos, automatismos, respostas aprendidas e espiritualidade sem presumir causa. Não exija reconstrução de sequência, exercício, método ou compra. Preserve TOM MARCOS, causalidade responsável e próximo passo coerente. Nos primeiros 15 dias, não produzir conteúdo específico de Método, Mapeamento, Sintonize, roteamento ou novas práticas estruturadas.
+
+> Proponha cinco experimentos distintos para [TEMA / TERRITÓRIO / DADOS]. Varie a tensão principal: desejo adiado, melhora que não se sustenta, repetição, consequência emocional, contradição ou possibilidade. Não crie cinco versões da mesma fórmula nem cinco dicas práticas. Para cada hipótese, entregue cena, hook, ideia central, formato, público, variável, KPI e critério de aprendizado. Preserve o que já foi publicado e não invente dados. Escolha o experimento com maior valor informacional.
 
 ---
 
 # P7 — Ecossistema semanal YouTube-first
 
-**USAR QUANDO:** planejar a semana, não todos os dias.
+**ESCOPO:** RECONHECIMENTO.
 
-> Transforme esta Grande Ideia em um ecossistema de 7 dias do **Portal Caminho da Consciência**:
->
-> Grande Ideia: `[INSERIR]`
-> Objetivo comercial: `[INSERIR]`
-> Estado principal da audiência: `[INSERIR]`
-> Oferta vigente: `[INSERIR]`
->
-> Considere:
-> - Shorts;
-> - até 2 vídeos longos, se houver qualidade e capacidade;
-> - Reconhecimento Silencioso;
-> - Community;
-> - Stories;
-> - Instagram Reels;
-> - peça comercial somente quando coerente;
-> - hipótese de YouTube Search.
->
-> Para cada peça informe:
-> - função;
-> - tensão;
-> - território;
-> - hook;
-> - keyword, quando aplicável;
-> - presença;
-> - CTA;
-> - hipótese;
-> - variável;
-> - KPI;
-> - relação com o vídeo principal;
-> - possibilidade de reaproveitamento.
->
-> Mostre como reduzir trabalho por produção em lote.
+> **Contrato herdado:** Aplique a Diretriz V1.1. Identifique o escopo antes de produzir: RECONHECIMENTO, ESPECIALIZADO, COMERCIAL ou PRODUTO. Em reconhecimento, trabalhe a dificuldade de avançar, realizar ou sustentar mudanças, inclusive após tentativas anteriores. Não substitua o eixo por dicas genéricas de finanças, carreira, produtividade, relacionamentos ou bem-estar. Não basta acrescentar 'padrão' ao fechamento. Abra possibilidades de crenças, medos, automatismos, respostas aprendidas e espiritualidade sem presumir causa. Não exija reconstrução de sequência, exercício, método ou compra. Preserve TOM MARCOS, causalidade responsável e próximo passo coerente. Nos primeiros 15 dias, não produzir conteúdo específico de Método, Mapeamento, Sintonize, roteamento ou novas práticas estruturadas.
+
+> Organize um ecossistema semanal YouTube-first a partir de [PAUTAS / DADOS / CAPACIDADE]. Preserve o calendário V6 como referência e os três Shorts publicados. Priorize dinheiro/segurança e trabalho/projetos/sobrecarga, com relacionamentos como teste controlado. Distribua diferentes ângulos de reconhecimento, não uma sequência obrigatória de método e oferta. Indique longos, Shorts, silenciosos, reaproveitamentos contextualizados, hipóteses e métricas. Não imponha volume acima da capacidade nem produza conteúdos técnicos/comerciais adiados no ciclo inicial.
 
 ---
 
 # P8 — Auditor 15/10 antes de publicar
 
-**USAR QUANDO:** qualquer peça estiver pronta para gravação/publicação.
+**ESCOPO:** RECONHECIMENTO.
 
-> Atue como editor-chefe crítico do **Portal Caminho da Consciência**.
->
-> Audite:
-> `[ROTEIRO / TÍTULO / THUMBNAIL / CTA / DIREÇÃO VISUAL / LEGENDA]`
->
-> Não reescreva imediatamente.
->
-> Dê nota de 0 a 10 para:
-> 1. hook;
-> 2. reconhecimento imediato;
-> 3. clareza;
-> 4. especificidade;
-> 5. cena concreta;
-> 6. retenção provável;
-> 7. coerência título ↔ thumbnail ↔ conteúdo;
-> 8. payoff;
-> 9. confiança;
-> 10. naturalidade;
-> 11. adequação ao Portal;
-> 12. potencial de ação;
-> 13. naturalidade do CTA;
-> 14. potencial de reaproveitamento;
-> 15. valor estratégico.
->
-> Dê risco de 0 a 10 para:
-> 16. clickbait;
-> 17. abstração;
-> 18. motivação genérica;
-> 19. excesso de energia/prosperidade sem cena;
-> 20. promessa financeira;
-> 21. afirmação clínica;
-> 22. certeza espiritual apresentada como fato;
-> 23. aparência de conteúdo genérico de IA;
-> 24. Marcos parecendo ler copy;
-> 25. excesso de temas;
-> 26. keyword forçada;
-> 27. Search sem satisfação real da intenção;
-> 28. explicação antes da percepção;
-> 29. confusão Portal × Padrão Interrompido × Sintonize;
-> 30. risco de propriedade intelectual.
->
-> Responda:
-> - o que funciona;
-> - onde perderemos atenção;
-> - o que parece genérico;
-> - onde falta cena;
-> - a pessoa pode pensar “isso aconteceu comigo ontem”?;
-> - a virada está clara?;
-> - o método entrou cedo demais?;
-> - a keyword está natural?;
-> - o conteúdo satisfaz a intenção de busca?;
-> - o CTA nasce da peça?;
-> - a microtransformação existe?;
-> - há risco de claim, autoria ou propriedade intelectual?
->
-> Classifique:
-> **APROVADO / APROVADO COM AJUSTES / REFAZER**.
->
-> Depois proponha somente as alterações mínimas necessárias.
+> **Contrato herdado:** Aplique a Diretriz V1.1. Identifique o escopo antes de produzir: RECONHECIMENTO, ESPECIALIZADO, COMERCIAL ou PRODUTO. Em reconhecimento, trabalhe a dificuldade de avançar, realizar ou sustentar mudanças, inclusive após tentativas anteriores. Não substitua o eixo por dicas genéricas de finanças, carreira, produtividade, relacionamentos ou bem-estar. Não basta acrescentar 'padrão' ao fechamento. Abra possibilidades de crenças, medos, automatismos, respostas aprendidas e espiritualidade sem presumir causa. Não exija reconstrução de sequência, exercício, método ou compra. Preserve TOM MARCOS, causalidade responsável e próximo passo coerente. Nos primeiros 15 dias, não produzir conteúdo específico de Método, Mapeamento, Sintonize, roteamento ou novas práticas estruturadas.
+
+> Audite [ROTEIRO / TÍTULO / THUMBNAIL / CTA / LEGENDA / DIREÇÃO]. Primeiro classifique o escopo. Dê nota de 0 a 10 para hook, reconhecimento, clareza, especificidade, cena, retenção provável, coerência de packaging, valor, confiança, naturalidade, adequação ao Portal, possibilidade de ação, CTA, reaproveitamento e valor estratégico. Avalie riscos de clickbait, abstração, motivação genérica, promessa financeira, afirmação clínica, certeza espiritual, aparência de IA, copy decorada, excesso de temas, keyword forçada, confusão de autoria e propriedade intelectual. Acrescente bloqueios de aceite: eixo reduzido a dicas genéricas; causa presumida; exercício/execução do Método em reconhecimento; venda obrigatória; conteúdo técnico/comercial adiado nos primeiros 15 dias; experiência pessoal inventada. Verifique se a pessoa que já tentou mudar se reconheceria e se o próximo passo é concreto e proporcional. Classifique APROVADO / APROVADO COM AJUSTES / REFAZER. Proponha somente os ajustes necessários; corrija o eixo inteiro quando houver desvio, não apenas o fechamento.
 
 ---
 
 # P9 — Experimento comercial mínimo
+
+**ESCOPO:** COMERCIAL / PRODUTO — somente quando autorizado.
+
+> **Contrato herdado:** Aplique a Diretriz V1.1. Identifique o escopo antes de produzir: RECONHECIMENTO, ESPECIALIZADO, COMERCIAL ou PRODUTO. Em reconhecimento, trabalhe a dificuldade de avançar, realizar ou sustentar mudanças, inclusive após tentativas anteriores. Não substitua o eixo por dicas genéricas de finanças, carreira, produtividade, relacionamentos ou bem-estar. Não basta acrescentar 'padrão' ao fechamento. Abra possibilidades de crenças, medos, automatismos, respostas aprendidas e espiritualidade sem presumir causa. Não exija reconstrução de sequência, exercício, método ou compra. Preserve TOM MARCOS, causalidade responsável e próximo passo coerente. Nos primeiros 15 dias, não produzir conteúdo específico de Método, Mapeamento, Sintonize, roteamento ou novas práticas estruturadas.
 
 **USAR QUANDO:** testar oferta, intenção ou conversão.
 
@@ -727,7 +490,13 @@ O vídeo deve fazer sentido mesmo que a pessoa nunca abra a descrição.
 
 ---
 
+---
+
 # P10 — Análise 24h
+
+**ESCOPO:** RECONHECIMENTO.
+
+> **Contrato herdado:** Aplique a Diretriz V1.1. Identifique o escopo antes de produzir: RECONHECIMENTO, ESPECIALIZADO, COMERCIAL ou PRODUTO. Em reconhecimento, trabalhe a dificuldade de avançar, realizar ou sustentar mudanças, inclusive após tentativas anteriores. Não substitua o eixo por dicas genéricas de finanças, carreira, produtividade, relacionamentos ou bem-estar. Não basta acrescentar 'padrão' ao fechamento. Abra possibilidades de crenças, medos, automatismos, respostas aprendidas e espiritualidade sem presumir causa. Não exija reconstrução de sequência, exercício, método ou compra. Preserve TOM MARCOS, causalidade responsável e próximo passo coerente. Nos primeiros 15 dias, não produzir conteúdo específico de Método, Mapeamento, Sintonize, roteamento ou novas práticas estruturadas.
 
 **USAR QUANDO:** 24 horas após publicação.
 
@@ -761,7 +530,13 @@ O vídeo deve fazer sentido mesmo que a pessoa nunca abra a descrição.
 
 ---
 
+---
+
 # P11 — Análise 72h + próxima hipótese
+
+**ESCOPO:** RECONHECIMENTO.
+
+> **Contrato herdado:** Aplique a Diretriz V1.1. Identifique o escopo antes de produzir: RECONHECIMENTO, ESPECIALIZADO, COMERCIAL ou PRODUTO. Em reconhecimento, trabalhe a dificuldade de avançar, realizar ou sustentar mudanças, inclusive após tentativas anteriores. Não substitua o eixo por dicas genéricas de finanças, carreira, produtividade, relacionamentos ou bem-estar. Não basta acrescentar 'padrão' ao fechamento. Abra possibilidades de crenças, medos, automatismos, respostas aprendidas e espiritualidade sem presumir causa. Não exija reconstrução de sequência, exercício, método ou compra. Preserve TOM MARCOS, causalidade responsável e próximo passo coerente. Nos primeiros 15 dias, não produzir conteúdo específico de Método, Mapeamento, Sintonize, roteamento ou novas práticas estruturadas.
 
 **USAR QUANDO:** 72 horas após publicação ou quando houver massa suficiente.
 
@@ -800,7 +575,13 @@ O vídeo deve fazer sentido mesmo que a pessoa nunca abra a descrição.
 
 ---
 
+---
+
 # P12 — Arquitetura de Search para oferta real
+
+**ESCOPO:** COMERCIAL / PRODUTO — somente quando autorizado.
+
+> **Contrato herdado:** Aplique a Diretriz V1.1. Identifique o escopo antes de produzir: RECONHECIMENTO, ESPECIALIZADO, COMERCIAL ou PRODUTO. Em reconhecimento, trabalhe a dificuldade de avançar, realizar ou sustentar mudanças, inclusive após tentativas anteriores. Não substitua o eixo por dicas genéricas de finanças, carreira, produtividade, relacionamentos ou bem-estar. Não basta acrescentar 'padrão' ao fechamento. Abra possibilidades de crenças, medos, automatismos, respostas aprendidas e espiritualidade sem presumir causa. Não exija reconstrução de sequência, exercício, método ou compra. Preserve TOM MARCOS, causalidade responsável e próximo passo coerente. Nos primeiros 15 dias, não produzir conteúdo específico de Método, Mapeamento, Sintonize, roteamento ou novas práticas estruturadas.
 
 **USAR QUANDO:** estruturar busca, conteúdo, SEO ou mídia de intenção.
 
@@ -835,42 +616,23 @@ O vídeo deve fazer sentido mesmo que a pessoa nunca abra a descrição.
 
 ---
 
+---
+
 # P13 — Gerador de calendário de 15 dias
 
-**USAR QUANDO:** abrir um novo ciclo editorial, não diariamente.
+**ESCOPO:** RECONHECIMENTO.
 
-> Construa um calendário editorial de 15 dias para o **Portal Caminho da Consciência**.
->
-> Período: `[INSERIR]`
-> Objetivo: `[INSERIR]`
-> Oferta vigente: `[INSERIR]`
-> Capacidade: `[INSERIR]`
-> Grandes Ideias: `[INSERIR]`
-> Aprendizados do ciclo anterior: `[INSERIR]`
->
-> Premissas:
-> - YouTube-first;
-> - Shorts como laboratório;
-> - até 2 longos/semana se houver capacidade;
-> - 1 Reconhecimento Silencioso/dia quando estiver no plano;
-> - Instagram e YouTube recebem versões adequadas à plataforma;
-> - YouTube Search usa uma keyword principal por peça quando coerente;
-> - Instagram Silencioso abre tensão e leva à legenda;
-> - YouTube Silencioso entrega microtransformação no vídeo;
-> - percepção antes da explicação;
-> - uma hipótese por peça;
-> - conteúdo aprende com conteúdo anterior.
->
-> Campos mínimos:
-> ID; data; hora; plataforma; formato; fase; território; Grande Ideia; estágio; objetivo; dor/tensão; título; thumbnail; presença; hook A/B/C; CTA; destino; microtransformação; hipótese; variável; KPI primário/secundário; prompts a executar; reaproveitamento; status; keyword YouTube; uso da keyword; título SEO; cena 03.C; dor 03.C; resultado 24h; resultado 72h; decisão pós-dados.
->
-> Não usar 8 Prosperidades como mapa autoral do Portal.
-> Não copiar material Sintonize.
-> Não congelar os 15 dias: marque quais peças podem ser ajustadas após dados de 24h/72h.
+> **Contrato herdado:** Aplique a Diretriz V1.1. Identifique o escopo antes de produzir: RECONHECIMENTO, ESPECIALIZADO, COMERCIAL ou PRODUTO. Em reconhecimento, trabalhe a dificuldade de avançar, realizar ou sustentar mudanças, inclusive após tentativas anteriores. Não substitua o eixo por dicas genéricas de finanças, carreira, produtividade, relacionamentos ou bem-estar. Não basta acrescentar 'padrão' ao fechamento. Abra possibilidades de crenças, medos, automatismos, respostas aprendidas e espiritualidade sem presumir causa. Não exija reconstrução de sequência, exercício, método ou compra. Preserve TOM MARCOS, causalidade responsável e próximo passo coerente. Nos primeiros 15 dias, não produzir conteúdo específico de Método, Mapeamento, Sintonize, roteamento ou novas práticas estruturadas.
+
+> Construa ou revise um calendário de 15 dias a partir de [V6 / PERÍODO / CAPACIDADE / DADOS / PAUTAS]. Preserve integralmente as colunas, IDs e os três Shorts publicados D01-RS01, D01-S01 e D01-S02. Não apague colunas sem autorização. Preserve datas como referência até confirmação. Priorize as duas frentes principais e relacionamentos como terceira frente controlada. Teste dores, emoções, contradições e possibilidades, sem funil obrigatório. Não inclua conteúdos específicos de Método, Mapeamento, Sintonize, roteamento ou novas práticas estruturadas no primeiro ciclo. Revise todas as pautas restantes pelo território transversal; não substitua apenas o CTA. Entregue arquivo completo, histórico das alterações, hipóteses, KPIs e backlog adaptável. Não invente volumes de busca, métricas ou publicações.
 
 ---
 
 # P14 — Conteúdo espiritual responsável
+
+**ESCOPO:** ESPECIALIZADO.
+
+> **Contrato herdado:** Aplique a Diretriz V1.1. Identifique o escopo antes de produzir: RECONHECIMENTO, ESPECIALIZADO, COMERCIAL ou PRODUTO. Em reconhecimento, trabalhe a dificuldade de avançar, realizar ou sustentar mudanças, inclusive após tentativas anteriores. Não substitua o eixo por dicas genéricas de finanças, carreira, produtividade, relacionamentos ou bem-estar. Não basta acrescentar 'padrão' ao fechamento. Abra possibilidades de crenças, medos, automatismos, respostas aprendidas e espiritualidade sem presumir causa. Não exija reconstrução de sequência, exercício, método ou compra. Preserve TOM MARCOS, causalidade responsável e próximo passo coerente. Nos primeiros 15 dias, não produzir conteúdo específico de Método, Mapeamento, Sintonize, roteamento ou novas práticas estruturadas.
 
 **USAR QUANDO:** espiritualidade for tema da peça.
 
@@ -895,376 +657,123 @@ O vídeo deve fazer sentido mesmo que a pessoa nunca abra a descrição.
 
 ---
 
+---
+
 # P15 — Comentários em pauta
 
-**USAR QUANDO:** houver comentários, DMs ou respostas suficientes para pesquisa qualitativa.
+**ESCOPO:** RECONHECIMENTO.
 
-> Analise estes comentários/respostas do público:
->
-> `[COLAR]`
->
-> Agrupe por:
-> - linguagem literal;
-> - cena;
-> - dor;
-> - desejo;
-> - objeção;
-> - estado da audiência;
-> - intenção;
-> - possível termo de busca.
->
-> Preserve a linguagem real.
->
-> Gere:
-> - hooks originais;
-> - Shorts;
-> - longos;
-> - FAQ;
-> - Community;
-> - hipótese de produto/oferta, se houver sinal suficiente.
->
-> Não inferir diagnóstico.
+> **Contrato herdado:** Aplique a Diretriz V1.1. Identifique o escopo antes de produzir: RECONHECIMENTO, ESPECIALIZADO, COMERCIAL ou PRODUTO. Em reconhecimento, trabalhe a dificuldade de avançar, realizar ou sustentar mudanças, inclusive após tentativas anteriores. Não substitua o eixo por dicas genéricas de finanças, carreira, produtividade, relacionamentos ou bem-estar. Não basta acrescentar 'padrão' ao fechamento. Abra possibilidades de crenças, medos, automatismos, respostas aprendidas e espiritualidade sem presumir causa. Não exija reconstrução de sequência, exercício, método ou compra. Preserve TOM MARCOS, causalidade responsável e próximo passo coerente. Nos primeiros 15 dias, não produzir conteúdo específico de Método, Mapeamento, Sintonize, roteamento ou novas práticas estruturadas.
+
+> Analise [COMENTÁRIOS / DADOS] e agrupe reconhecimentos, dúvidas, desejos, objeções e interesse em continuar. Preserve a linguagem real sem atribuir diagnósticos. Identifique se a pessoa já tentou resolver a dificuldade e o que continua impedindo avanço. Proponha três pautas com cenas e hipóteses distintas. Não transforme automaticamente comentários em lead, oferta ou método; não use informação íntima identificável sem autorização.
 
 ---
 
 # P16 — Quadro recorrente
 
-**USAR QUANDO:** transformar uma ideia em série sem ficar mecânico.
+**ESCOPO:** RECONHECIMENTO.
 
-> Desenvolva um episódio do quadro:
->
-> `[QUADRO]`
->
-> Tema: `[INSERIR]`
->
-> Preserve um elemento fixo do quadro, mas evite fórmula perceptível.
->
-> Estrutura de referência:
-> **cena → repetição → conexão → pergunta → microtransformação → CTA**.
->
-> Indique:
-> - o que permanece fixo;
-> - o que varia;
-> - como evitar repetição;
-> - hipótese do episódio;
-> - KPI.
+> **Contrato herdado:** Aplique a Diretriz V1.1. Identifique o escopo antes de produzir: RECONHECIMENTO, ESPECIALIZADO, COMERCIAL ou PRODUTO. Em reconhecimento, trabalhe a dificuldade de avançar, realizar ou sustentar mudanças, inclusive após tentativas anteriores. Não substitua o eixo por dicas genéricas de finanças, carreira, produtividade, relacionamentos ou bem-estar. Não basta acrescentar 'padrão' ao fechamento. Abra possibilidades de crenças, medos, automatismos, respostas aprendidas e espiritualidade sem presumir causa. Não exija reconstrução de sequência, exercício, método ou compra. Preserve TOM MARCOS, causalidade responsável e próximo passo coerente. Nos primeiros 15 dias, não produzir conteúdo específico de Método, Mapeamento, Sintonize, roteamento ou novas práticas estruturadas.
+
+> Desenvolva um episódio do quadro [QUADRO / TEMA]. Preserve um elemento reconhecível, variando cena, tensão, desenvolvimento e próximo passo. A estrutura não precisa percorrer todos os movimentos. Indique o que permanece, o que varia, hipótese, KPI e risco de repetição. Quadros de Método ou práticas específicas pertencem à fase autorizada e não devem ser executados na aquisição inicial.
 
 ---
 
 # P17 — Demonstração do Mapeamento Padrão Interrompido
 
-**USAR QUANDO:** conteúdo de intenção ou explicação da oferta.
+**ESCOPO:** ESPECIALIZADO — após o ciclo inicial ou demanda direta pertinente.
 
-> Crie uma demonstração educativa do **Mapeamento Padrão Interrompido**.
->
-> Use:
-> `[CASO FICTÍCIO EXPLICITAMENTE MARCADO / DADOS AUTORIZADOS]`
->
-> Mostre:
-> - o que a pessoa traz;
-> - perguntas;
-> - domínios/territórios observados;
-> - repetições percebidas;
-> - conexões possíveis;
-> - prioridade de observação;
-> - próximo passo.
->
-> Explique também o que o Mapeamento **não é**.
->
-> Não diagnosticar.
-> Não afirmar causa absoluta.
-> Não apresentar Sintonize como componente obrigatório se isso não estiver vigente.
+> **Contrato herdado:** Aplique a Diretriz V1.1. Identifique o escopo antes de produzir: RECONHECIMENTO, ESPECIALIZADO, COMERCIAL ou PRODUTO. Em reconhecimento, trabalhe a dificuldade de avançar, realizar ou sustentar mudanças, inclusive após tentativas anteriores. Não substitua o eixo por dicas genéricas de finanças, carreira, produtividade, relacionamentos ou bem-estar. Não basta acrescentar 'padrão' ao fechamento. Abra possibilidades de crenças, medos, automatismos, respostas aprendidas e espiritualidade sem presumir causa. Não exija reconstrução de sequência, exercício, método ou compra. Preserve TOM MARCOS, causalidade responsável e próximo passo coerente. Nos primeiros 15 dias, não produzir conteúdo específico de Método, Mapeamento, Sintonize, roteamento ou novas práticas estruturadas.
+
+> Crie uma apresentação educativa do Mapeamento para [PÚBLICO / OBJETIVO / SPEC VIGENTE], somente fora do ciclo inicial ou quando houver demanda direta pertinente. Explique finalidade, escopo, trabalho humano, entregáveis, limites e como a pessoa pode decidir se faz sentido. Use caso fictício claramente marcado ou dados autorizados. Não execute análise individual, SRO, Ponto de Interrupção, prioridade ou devolutiva em conteúdo público; não automatize essas funções. Não transforme a demonstração em diagnóstico nem em compra obrigatória. Preserve a SPEC e o contrato transversal.
 
 ---
 
 # P18 — Próxima melhor hipótese
 
-**USAR QUANDO:** há muitos possíveis próximos testes.
+**ESCOPO:** RECONHECIMENTO.
 
-> A partir destes dados:
->
-> `[COLAR]`
->
-> Escolha a hipótese com maior valor informacional.
->
-> Informe:
-> - incerteza que será reduzida;
-> - experimento mínimo;
-> - variável principal;
-> - o que manter constante;
-> - métrica;
-> - prazo;
-> - decisão se forte;
-> - decisão se fraco.
->
-> Evite teste que não mude nenhuma decisão.
+> **Contrato herdado:** Aplique a Diretriz V1.1. Identifique o escopo antes de produzir: RECONHECIMENTO, ESPECIALIZADO, COMERCIAL ou PRODUTO. Em reconhecimento, trabalhe a dificuldade de avançar, realizar ou sustentar mudanças, inclusive após tentativas anteriores. Não substitua o eixo por dicas genéricas de finanças, carreira, produtividade, relacionamentos ou bem-estar. Não basta acrescentar 'padrão' ao fechamento. Abra possibilidades de crenças, medos, automatismos, respostas aprendidas e espiritualidade sem presumir causa. Não exija reconstrução de sequência, exercício, método ou compra. Preserve TOM MARCOS, causalidade responsável e próximo passo coerente. Nos primeiros 15 dias, não produzir conteúdo específico de Método, Mapeamento, Sintonize, roteamento ou novas práticas estruturadas.
+
+> A partir de [DADOS / HIPÓTESES], escolha o próximo teste com maior valor informacional. Informe incerteza, experimento mínimo, variável, constante, métrica, prazo e decisões conforme resultado. Antes de criar nova pauta, verifique se título, abertura, cena ou execução explicam o desempenho. Não descarte território por uma peça isolada. Se a hipótese antiga estiver fora da V1.1, corrija-a antes do teste.
 
 ---
 
 # P19 — Transformar insight Sintonize em tema editorial original
 
-**USAR QUANDO:** houver um insight resumido da formação e necessidade legítima de convertê-lo em tema humano, sem copiar.
+**ESCOPO:** ESPECIALIZADO — após o ciclo inicial ou demanda direta pertinente.
 
-> Receba este **INSIGHT RESUMIDO** de material Sintonize:
->
-> `[INSIGHT]`
->
-> Não reproduza:
-> - texto;
-> - lista;
-> - comando;
-> - protocolo;
-> - símbolo;
-> - ficha;
-> - estrutura proprietária.
->
-> Extraia somente o tema humano/espiritual mais amplo.
->
-> Gere:
-> - 5 cenas originais de vida real;
-> - 3 perguntas editoriais;
-> - 2 possibilidades de Short;
-> - 1 possibilidade de longo.
->
-> Se o conceito for específico demais da Sintonize para ser dissociado, marque:
-> **EXIGE ATRIBUIÇÃO — NÃO APRESENTAR COMO PADRÃO INTERROMPIDO.**
+> **Contrato herdado:** Aplique a Diretriz V1.1. Identifique o escopo antes de produzir: RECONHECIMENTO, ESPECIALIZADO, COMERCIAL ou PRODUTO. Em reconhecimento, trabalhe a dificuldade de avançar, realizar ou sustentar mudanças, inclusive após tentativas anteriores. Não substitua o eixo por dicas genéricas de finanças, carreira, produtividade, relacionamentos ou bem-estar. Não basta acrescentar 'padrão' ao fechamento. Abra possibilidades de crenças, medos, automatismos, respostas aprendidas e espiritualidade sem presumir causa. Não exija reconstrução de sequência, exercício, método ou compra. Preserve TOM MARCOS, causalidade responsável e próximo passo coerente. Nos primeiros 15 dias, não produzir conteúdo específico de Método, Mapeamento, Sintonize, roteamento ou novas práticas estruturadas.
+
+> Transforme [TEMA / APRENDIZADO AUTORIZADO] da Sintonize em pauta original do Portal. Extraia uma questão humana geral sem reproduzir comandos, protocolos, tabelas, símbolos protegidos ou inferências de diagnóstico. O conteúdo de reconhecimento parte da vida real; uma apresentação específica da Sintonize exige fase autorizada e atribuição. Não converter hipótese espiritual em causalidade factual ou garantia de resultado.
 
 ---
 
 # P20 — Conteúdo educativo sobre Sintonize após formalização
 
-**USAR SOMENTE SE:** o CURRENT confirmar formalmente a qualificação/certificação e o conteúdo estiver autorizado.
+**ESCOPO:** ESPECIALIZADO — após o ciclo inicial ou demanda direta pertinente.
 
-> Crie conteúdo educativo sobre:
->
-> `[TEMA SINTONIZE]`
->
-> Antes de escrever, confirme que o CURRENT registra a formalização correspondente.
->
-> Explique:
-> - o que é;
-> - onde pode entrar no Portal;
-> - o que não é;
-> - o que não promete;
-> - qual é a origem da metodologia.
->
-> Atribua corretamente.
-> Não ensinar protocolo protegido.
-> Não chamar Marcos de terapeuta.
-> Não prometer cura, dinheiro, frequência científica ou resultado garantido.
+> **Contrato herdado:** Aplique a Diretriz V1.1. Identifique o escopo antes de produzir: RECONHECIMENTO, ESPECIALIZADO, COMERCIAL ou PRODUTO. Em reconhecimento, trabalhe a dificuldade de avançar, realizar ou sustentar mudanças, inclusive após tentativas anteriores. Não substitua o eixo por dicas genéricas de finanças, carreira, produtividade, relacionamentos ou bem-estar. Não basta acrescentar 'padrão' ao fechamento. Abra possibilidades de crenças, medos, automatismos, respostas aprendidas e espiritualidade sem presumir causa. Não exija reconstrução de sequência, exercício, método ou compra. Preserve TOM MARCOS, causalidade responsável e próximo passo coerente. Nos primeiros 15 dias, não produzir conteúdo específico de Método, Mapeamento, Sintonize, roteamento ou novas práticas estruturadas.
+
+> Prepare conteúdo educativo sobre a Sintonize a partir de [MATERIAL OFICIAL / ESCOPO / ESTADO CURRENT], somente quando a modalidade estiver autorizada para a finalidade. Explique o que é, o que não é, formatos, consentimento, limites e autoria. Não reproduza protocolos protegidos, simule leitura energética, automatize sessão humana ou prometa resultado material ou clínico. Diferencie intenção espiritual de eficácia científica comprovada. Respeite o adiamento do ciclo inicial.
 
 ---
 
 # P21 — YouTube Search orgânico orientado pelo Mapa Mestre
 
-**USAR ANTES DE SHORT OU LONGO QUANDO SEARCH FIZER SENTIDO.**
+**ESCOPO:** RECONHECIMENTO.
 
-> Conteúdo planejado: `[COLAR LINHA / IDEIA]`
-> Mapa Mestre de Palavras-Chave: `[ANEXAR / DISPONIBILIZAR]`
->
-> 1. identifique a intenção real da peça;
-> 2. filtre no Mapa Mestre os termos compatíveis;
-> 3. escolha **uma keyword principal**;
-> 4. use uma variação semântica apenas se natural.
->
-> Entregue somente:
-> 1. keyword principal;
-> 2. cluster e porta de aquisição;
-> 3. dado conhecido de volume/CPC se existir na planilha — caso contrário “sem dado validado”;
-> 4. intenção da busca;
-> 5. título YouTube recomendado;
-> 6. variação de título;
-> 7. frase/texto inicial que confirma a intenção;
-> 8. o que o vídeo precisa entregar;
-> 9. risco de deformar a pauta;
-> 10. decisão: USAR / TESTAR / NÃO USAR.
->
-> Regras:
-> - uma keyword por peça;
-> - vida concreta antes do conceito;
-> - percepção antes da explicação continua válida;
-> - não fazer keyword stuffing;
-> - a busca serve à peça, não o contrário.
+> **Contrato herdado:** Aplique a Diretriz V1.1. Identifique o escopo antes de produzir: RECONHECIMENTO, ESPECIALIZADO, COMERCIAL ou PRODUTO. Em reconhecimento, trabalhe a dificuldade de avançar, realizar ou sustentar mudanças, inclusive após tentativas anteriores. Não substitua o eixo por dicas genéricas de finanças, carreira, produtividade, relacionamentos ou bem-estar. Não basta acrescentar 'padrão' ao fechamento. Abra possibilidades de crenças, medos, automatismos, respostas aprendidas e espiritualidade sem presumir causa. Não exija reconstrução de sequência, exercício, método ou compra. Preserve TOM MARCOS, causalidade responsável e próximo passo coerente. Nos primeiros 15 dias, não produzir conteúdo específico de Método, Mapeamento, Sintonize, roteamento ou novas práticas estruturadas.
+
+> Pesquise intenção orgânica para [TEMA / KEYWORD / MAPA MESTRE]. Separe dado verificado de hipótese. Escolha uma busca que permita responder à dificuldade de avançar, não apenas a uma dica genérica. Entregue intenção, linguagem da audiência, cena, título, promessa delimitada, ângulo de reconhecimento e KPI. Se a busca pedir técnica específica, classifique-a como conteúdo especializado futuro; não a transforme em aquisição inicial nem invente volume/CPC.
 
 ---
 
 # P22 — Reconhecimento Silencioso — Instagram + YouTube
 
-**NOVO — USAR PARA A FAMÍLIA 03.C.**
+**ESCOPO:** RECONHECIMENTO.
 
-> Atue como editor de **Reconhecimento Silencioso** do **Portal Caminho da Consciência**.
->
-> Linha do calendário: `[COLAR]`
-> Cena do Banco 03.C: `[Cxxx]`
-> Dor do Banco 03.C: `[Dxxx]`
-> Grande Ideia: `[INSERIR]`
-> Keyword YouTube, se aplicável: `[INSERIR]`
-> Variável principal do teste: `[INSERIR]`
->
-> Use o **mesmo take real de Marcos** para criar duas execuções.
->
-> ## VERSÃO 1 — INSTAGRAM
->
-> Duração de referência: 7–12s.
->
-> Estrutura:
-> **cena → hook → tensão → ponte para legenda**.
->
-> Não escreva a legenda definitiva agora.
->
-> Entregue:
-> - texto exato por tempo;
-> - hook;
-> - ponte para legenda;
-> - microtransformação MTxx recomendada;
-> - CTA pequeno;
-> - hipótese;
-> - KPI.
->
-> ## VERSÃO 2 — YOUTUBE SHORTS
->
-> O vídeo deve funcionar sem descrição.
->
-> Estrutura:
-> **cena → hook → tensão → observação → microtransformação → CTA**.
->
-> Entregue:
-> - texto exato por tempo;
-> - título YouTube;
-> - uso natural da keyword;
-> - microtransformação dentro do vídeo;
-> - CTA;
-> - hipótese;
-> - KPI.
->
-> Para as duas versões:
-> - uma tensão;
-> - sem diagnóstico;
-> - sem causalidade;
-> - sem motivação genérica;
-> - sem vender Mapeamento automaticamente;
-> - a rotina de Marcos é suporte visual para a pessoa enxergar a própria vida.
->
-> Gere apenas **uma alternativa de hook por plataforma**, para não diluir o teste.
+> **Contrato herdado:** Aplique a Diretriz V1.1. Identifique o escopo antes de produzir: RECONHECIMENTO, ESPECIALIZADO, COMERCIAL ou PRODUTO. Em reconhecimento, trabalhe a dificuldade de avançar, realizar ou sustentar mudanças, inclusive após tentativas anteriores. Não substitua o eixo por dicas genéricas de finanças, carreira, produtividade, relacionamentos ou bem-estar. Não basta acrescentar 'padrão' ao fechamento. Abra possibilidades de crenças, medos, automatismos, respostas aprendidas e espiritualidade sem presumir causa. Não exija reconstrução de sequência, exercício, método ou compra. Preserve TOM MARCOS, causalidade responsável e próximo passo coerente. Nos primeiros 15 dias, não produzir conteúdo específico de Método, Mapeamento, Sintonize, roteamento ou novas práticas estruturadas.
+
+> Crie duas versões de Reconhecimento Silencioso para [LINHA / CENA / DOR / KEYWORD], usando o mesmo take quando pertinente. Instagram: 7–12 segundos como referência, com hook, tensão e ponte natural para legenda. YouTube: o vídeo deve ter sentido sem depender da descrição. Em ambas, entregue texto por tempo, título quando aplicável, possibilidade de reconhecimento, CTA pequeno, hipótese e KPI. Não obrigue observação, exercício ou microtransformação técnica. A legenda pode aprofundar consequências, repetição, importância ou possibilidade, sem vender automaticamente. Não invente cena pessoal de Marcos.
 
 ---
 
 # P23 — Legenda de Instagram com microtransformação
 
-**NOVO — EXECUTAR SOMENTE NO MOMENTO DA POSTAGEM DO RECONHECIMENTO SILENCIOSO.**
+**ESCOPO:** RECONHECIMENTO.
 
-> Escreva a legenda deste Reel do **Portal Caminho da Consciência**.
->
-> Hook realmente publicado: `[COLAR]`
-> Cena: `[COLAR]`
-> Dor/tensão: `[COLAR]`
-> Microtransformação planejada: `[MTxx / DESCRIÇÃO]`
-> Aprendizados recentes da audiência, se houver: `[COLAR]`
->
-> A legenda precisa entregar uma microtransformação real.
->
-> Pode usar:
-> - observação;
-> - pergunta;
-> - mini exercício;
-> - comparação;
-> - pequena ação.
->
-> Estrutura de referência:
-> 1. confirmar a promessa do Reel em 1–2 linhas;
-> 2. entregar a microtransformação;
-> 3. inserir nuance: observar não prova causa, quando necessário;
-> 4. fechar com um único CTA pequeno.
->
-> Não:
-> - repetir o Reel;
-> - virar palestra;
-> - diagnosticar;
-> - explicar causa secreta;
-> - usar “autossabotagem”, “trauma” ou “mentalidade de escassez” como atalho;
-> - vender o Mapeamento automaticamente;
-> - terminar apenas com frase bonita.
->
-> TOM MARCOS. Português brasileiro simples e natural.
+> **Contrato herdado:** Aplique a Diretriz V1.1. Identifique o escopo antes de produzir: RECONHECIMENTO, ESPECIALIZADO, COMERCIAL ou PRODUTO. Em reconhecimento, trabalhe a dificuldade de avançar, realizar ou sustentar mudanças, inclusive após tentativas anteriores. Não substitua o eixo por dicas genéricas de finanças, carreira, produtividade, relacionamentos ou bem-estar. Não basta acrescentar 'padrão' ao fechamento. Abra possibilidades de crenças, medos, automatismos, respostas aprendidas e espiritualidade sem presumir causa. Não exija reconstrução de sequência, exercício, método ou compra. Preserve TOM MARCOS, causalidade responsável e próximo passo coerente. Nos primeiros 15 dias, não produzir conteúdo específico de Método, Mapeamento, Sintonize, roteamento ou novas práticas estruturadas.
+
+> Escreva a legenda do Reel [HOOK PUBLICADO / CENA / TENSÃO / APRENDIZADOS]. Aprofunde uma ideia que não coube no vídeo: consequência, repetição, importância ou possibilidade real. Não exija mini exercício, comparação de episódios ou identificação do começo. Evite repetir a fala, dar palestra, diagnosticar ou usar padrões como explicação pronta. Termine com um próximo passo coerente e uma pergunta natural, quando pertinente. Não faça ponte comercial automática. Preserve TOM MARCOS.
 
 ---
 
 # P24 — Executor de uma linha do calendário
 
-**NOVO — PROMPT DE ORQUESTRAÇÃO PARA PRODUÇÃO DIÁRIA.**
+**ESCOPO:** RECONHECIMENTO.
 
-> Atue como produtor executivo editorial do **Portal Caminho da Consciência**.
->
-> Linha do calendário:
-> `[COLAR A LINHA COMPLETA]`
->
-> Estado dos dados anteriores relacionados:
-> `[COLAR 24H/72H OU “SEM DADOS”]`
->
-> Sua função é transformar essa linha em um **pacote de produção**, sem reinventar a estratégia.
->
-> Primeiro identifique o formato e diga quais prompts deste Documento 03.D devem ser executados, na ordem correta.
->
-> Depois entregue somente:
-> 1. objetivo da peça;
-> 2. hipótese;
-> 3. keyword, se houver;
-> 4. hook aprovado para produção;
-> 5. roteiro/estrutura ou texto silencioso;
-> 6. instrução de gravação;
-> 7. assets necessários;
-> 8. CTA;
-> 9. checklist de auditoria;
-> 10. status final esperado: PRONTO PARA GRAVAR / PRONTO PARA EDITAR / PRONTO PARA PUBLICAR.
->
-> Não crie novas Grandes Ideias se a linha já estiver definida.
-> Se os dados anteriores indicarem necessidade real de ajuste, proponha no máximo **uma alteração principal**.
+> **Contrato herdado:** Aplique a Diretriz V1.1. Identifique o escopo antes de produzir: RECONHECIMENTO, ESPECIALIZADO, COMERCIAL ou PRODUTO. Em reconhecimento, trabalhe a dificuldade de avançar, realizar ou sustentar mudanças, inclusive após tentativas anteriores. Não substitua o eixo por dicas genéricas de finanças, carreira, produtividade, relacionamentos ou bem-estar. Não basta acrescentar 'padrão' ao fechamento. Abra possibilidades de crenças, medos, automatismos, respostas aprendidas e espiritualidade sem presumir causa. Não exija reconstrução de sequência, exercício, método ou compra. Preserve TOM MARCOS, causalidade responsável e próximo passo coerente. Nos primeiros 15 dias, não produzir conteúdo específico de Método, Mapeamento, Sintonize, roteamento ou novas práticas estruturadas.
+
+> Transforme [LINHA COMPLETA DO CALENDÁRIO / DADOS 24H–72H] em pacote de produção. Antes de executar, confira a Diretriz V1.1, o calendário V6 e o estado real da peça. Se houver instrução antiga de método, exercício, oferta ou eixo de dicas genéricas, corrija a pauta inteira antes do roteiro. Preserve os três publicados. Identifique objetivo, hipótese, keyword, hook, roteiro completo, título, playlist, legenda, música de referência, direção, assets, CTA, auditoria e status. Use os prompts atualizados na ordem adequada. Não execute P17/P19/P20/P35 nem fluxos comerciais adiados no ciclo inicial. Se a linha exigir decisão não resolvida, registre pendência. Não invente publicação ou dado.
 
 ---
 
 # P25 — Produção em lote e backlog gradual
 
-**NOVO — USAR 1–2 VEZES POR SEMANA.**
+**ESCOPO:** RECONHECIMENTO.
 
-> Atue como produtor de conteúdo em lote do **Portal Caminho da Consciência**.
->
-> Período do backlog: `[EX.: PRÓXIMOS 5 DIAS]`
-> Linhas do calendário: `[COLAR]`
-> Conteúdos já gravados: `[COLAR]`
-> Takes silenciosos disponíveis: `[COLAR IDs Cxxx]`
-> Tempo disponível hoje: `[INSERIR]`
->
-> Organize a sessão para produzir o máximo de backlog **sem sacrificar aprendizado**.
->
-> Agrupe por:
-> - cenário;
-> - roupa/enquadramento quando fizer sentido;
-> - formato;
-> - presença Marcos/IA;
-> - assets;
-> - take silencioso reutilizável.
->
-> Priorize:
-> 1. o que precisa publicar primeiro;
-> 2. o que depende de Marcos;
-> 3. o que pode ser gravado em lote;
-> 4. o que deve esperar dados de 24h/72h;
-> 5. o que pode ser editado sem nova gravação.
->
-> Entregue:
-> - ordem de gravação;
-> - checklist de takes;
-> - quais Shorts podem sair de longos;
-> - quais takes silenciosos servem para mais de uma peça;
-> - o que NÃO deve ser produzido ainda porque depende de dados;
-> - backlog estimado ao final.
->
-> Regra:
-> **não congelar quinze dias de conteúdo antes de aprender com os primeiros resultados.**
+> **Contrato herdado:** Aplique a Diretriz V1.1. Identifique o escopo antes de produzir: RECONHECIMENTO, ESPECIALIZADO, COMERCIAL ou PRODUTO. Em reconhecimento, trabalhe a dificuldade de avançar, realizar ou sustentar mudanças, inclusive após tentativas anteriores. Não substitua o eixo por dicas genéricas de finanças, carreira, produtividade, relacionamentos ou bem-estar. Não basta acrescentar 'padrão' ao fechamento. Abra possibilidades de crenças, medos, automatismos, respostas aprendidas e espiritualidade sem presumir causa. Não exija reconstrução de sequência, exercício, método ou compra. Preserve TOM MARCOS, causalidade responsável e próximo passo coerente. Nos primeiros 15 dias, não produzir conteúdo específico de Método, Mapeamento, Sintonize, roteamento ou novas práticas estruturadas.
+
+> Organize produção em lote para [PERÍODO / LINHAS / DISPONIBILIDADE / DADOS]. Preserve o backlog adaptável, agrupando cenário, gravação, formato e assets. Priorize o que depende de Marcos e o que precisa ser publicado; espere dados quando necessário. Não produzir antecipadamente conteúdos específicos de Método, Mapeamento, Sintonize ou novas práticas no primeiro ciclo. Entregue ordem de gravação, checklist, reaproveitamentos, dependências e backlog estimado.
 
 ---
 
 # P26 — Selecionar keyword do Mapa Mestre
+
+**ESCOPO:** RECONHECIMENTO.
+
+> **Contrato herdado:** Aplique a Diretriz V1.1. Identifique o escopo antes de produzir: RECONHECIMENTO, ESPECIALIZADO, COMERCIAL ou PRODUTO. Em reconhecimento, trabalhe a dificuldade de avançar, realizar ou sustentar mudanças, inclusive após tentativas anteriores. Não substitua o eixo por dicas genéricas de finanças, carreira, produtividade, relacionamentos ou bem-estar. Não basta acrescentar 'padrão' ao fechamento. Abra possibilidades de crenças, medos, automatismos, respostas aprendidas e espiritualidade sem presumir causa. Não exija reconstrução de sequência, exercício, método ou compra. Preserve TOM MARCOS, causalidade responsável e próximo passo coerente. Nos primeiros 15 dias, não produzir conteúdo específico de Método, Mapeamento, Sintonize, roteamento ou novas práticas estruturadas.
 
 **USAR QUANDO:** há tema/oferta, mas ainda não foi escolhida a melhor palavra-chave.
 
@@ -1280,7 +789,13 @@ O vídeo deve fazer sentido mesmo que a pessoa nunca abra a descrição.
 
 ---
 
+---
+
 # P27 — Copy / página de vendas orientada por intenção
+
+**ESCOPO:** COMERCIAL / PRODUTO — somente quando autorizado.
+
+> **Contrato herdado:** Aplique a Diretriz V1.1. Identifique o escopo antes de produzir: RECONHECIMENTO, ESPECIALIZADO, COMERCIAL ou PRODUTO. Em reconhecimento, trabalhe a dificuldade de avançar, realizar ou sustentar mudanças, inclusive após tentativas anteriores. Não substitua o eixo por dicas genéricas de finanças, carreira, produtividade, relacionamentos ou bem-estar. Não basta acrescentar 'padrão' ao fechamento. Abra possibilidades de crenças, medos, automatismos, respostas aprendidas e espiritualidade sem presumir causa. Não exija reconstrução de sequência, exercício, método ou compra. Preserve TOM MARCOS, causalidade responsável e próximo passo coerente. Nos primeiros 15 dias, não produzir conteúdo específico de Método, Mapeamento, Sintonize, roteamento ou novas práticas estruturadas.
 
 **USAR QUANDO:** criar ou revisar página comercial.
 
@@ -1310,7 +825,13 @@ O vídeo deve fazer sentido mesmo que a pessoa nunca abra a descrição.
 
 ---
 
+---
+
 # P28 — Arquitetura SEO por cluster
+
+**ESCOPO:** COMERCIAL / PRODUTO — somente quando autorizado.
+
+> **Contrato herdado:** Aplique a Diretriz V1.1. Identifique o escopo antes de produzir: RECONHECIMENTO, ESPECIALIZADO, COMERCIAL ou PRODUTO. Em reconhecimento, trabalhe a dificuldade de avançar, realizar ou sustentar mudanças, inclusive após tentativas anteriores. Não substitua o eixo por dicas genéricas de finanças, carreira, produtividade, relacionamentos ou bem-estar. Não basta acrescentar 'padrão' ao fechamento. Abra possibilidades de crenças, medos, automatismos, respostas aprendidas e espiritualidade sem presumir causa. Não exija reconstrução de sequência, exercício, método ou compra. Preserve TOM MARCOS, causalidade responsável e próximo passo coerente. Nos primeiros 15 dias, não produzir conteúdo específico de Método, Mapeamento, Sintonize, roteamento ou novas práticas estruturadas.
 
 **USAR QUANDO:** decidir artigo, página pilar ou cluster.
 
@@ -1333,7 +854,13 @@ O vídeo deve fazer sentido mesmo que a pessoa nunca abra a descrição.
 
 ---
 
+---
+
 # P29 — Google Ads Search por grupo de intenção
+
+**ESCOPO:** COMERCIAL / PRODUTO — somente quando autorizado.
+
+> **Contrato herdado:** Aplique a Diretriz V1.1. Identifique o escopo antes de produzir: RECONHECIMENTO, ESPECIALIZADO, COMERCIAL ou PRODUTO. Em reconhecimento, trabalhe a dificuldade de avançar, realizar ou sustentar mudanças, inclusive após tentativas anteriores. Não substitua o eixo por dicas genéricas de finanças, carreira, produtividade, relacionamentos ou bem-estar. Não basta acrescentar 'padrão' ao fechamento. Abra possibilidades de crenças, medos, automatismos, respostas aprendidas e espiritualidade sem presumir causa. Não exija reconstrução de sequência, exercício, método ou compra. Preserve TOM MARCOS, causalidade responsável e próximo passo coerente. Nos primeiros 15 dias, não produzir conteúdo específico de Método, Mapeamento, Sintonize, roteamento ou novas práticas estruturadas.
 
 **USAR QUANDO:** uma oferta já estiver operacionalmente pronta.
 
@@ -1365,7 +892,13 @@ O vídeo deve fazer sentido mesmo que a pessoa nunca abra a descrição.
 
 ---
 
+---
+
 # P30 — Próxima pesquisa de palavras-chave
+
+**ESCOPO:** RECONHECIMENTO.
+
+> **Contrato herdado:** Aplique a Diretriz V1.1. Identifique o escopo antes de produzir: RECONHECIMENTO, ESPECIALIZADO, COMERCIAL ou PRODUTO. Em reconhecimento, trabalhe a dificuldade de avançar, realizar ou sustentar mudanças, inclusive após tentativas anteriores. Não substitua o eixo por dicas genéricas de finanças, carreira, produtividade, relacionamentos ou bem-estar. Não basta acrescentar 'padrão' ao fechamento. Abra possibilidades de crenças, medos, automatismos, respostas aprendidas e espiritualidade sem presumir causa. Não exija reconstrução de sequência, exercício, método ou compra. Preserve TOM MARCOS, causalidade responsável e próximo passo coerente. Nos primeiros 15 dias, não produzir conteúdo específico de Método, Mapeamento, Sintonize, roteamento ou novas práticas estruturadas.
 
 **USAR QUANDO:** atualizar o Mapa Mestre.
 
@@ -1387,119 +920,55 @@ O vídeo deve fazer sentido mesmo que a pessoa nunca abra a descrição.
 
 ---
 
-# P26 — Copy comercial por dor visceral / Porta 2
+---
 
-**USAR QUANDO:** criar anúncio, VSL curta, landing page, e-mail ou peça de resposta direta.
+# P31 — Copy comercial por dor visceral / Porta 2
 
-> Dor principal: `[INSERIR]`
-> Produto/rota: `[INSERIR]`
-> Keyword, se houver: `[INSERIR]`
->
-> Construa a mensagem em 7 passos:
-> 1. dor primária e visceral;
-> 2. cena concreta;
-> 3. consequências práticas;
-> 4. consequências emocionais;
-> 5. linguagem percebida de travamento/bloqueio;
-> 6. repetição — “de novo eu estou aqui”;
-> 7. próximo passo específico.
->
-> Faça o lead pensar “isso sou eu” antes de explicar método ou técnica.
->
-> Entregue 3 níveis de intensidade: orgânico, comercial moderado e resposta direta.
->
-> Não diagnosticar. Não ameaçar. Não prometer desbloqueio garantido.
+**ESCOPO:** COMERCIAL / PRODUTO — somente quando autorizado.
+
+> **Contrato herdado:** Aplique a Diretriz V1.1. Identifique o escopo antes de produzir: RECONHECIMENTO, ESPECIALIZADO, COMERCIAL ou PRODUTO. Em reconhecimento, trabalhe a dificuldade de avançar, realizar ou sustentar mudanças, inclusive após tentativas anteriores. Não substitua o eixo por dicas genéricas de finanças, carreira, produtividade, relacionamentos ou bem-estar. Não basta acrescentar 'padrão' ao fechamento. Abra possibilidades de crenças, medos, automatismos, respostas aprendidas e espiritualidade sem presumir causa. Não exija reconstrução de sequência, exercício, método ou compra. Preserve TOM MARCOS, causalidade responsável e próximo passo coerente. Nos primeiros 15 dias, não produzir conteúdo específico de Método, Mapeamento, Sintonize, roteamento ou novas práticas estruturadas.
+
+> Crie copy comercial para [DOR / OFERTA LIVE / PÚBLICO / KEYWORD / DESTINO]. Antes de escrever, confirme oferta, escopo, preço, entregáveis, claims e estado CURRENT. Parta de uma dificuldade concreta e da distância entre o desejo e a realização, inclusive após tentativas anteriores. Desenvolva consequências e repetição sem atribuir automaticamente a causa a crença, medo ou energia. Apresente a modalidade pertinente e seus limites. Entregue variações moderada e resposta direta, com CTA coerente e message match. Não use medo espiritual, promessa de desbloqueio garantido ou oferta ainda não autorizada. Este prompt não governa conteúdo orgânico de reconhecimento.
 
 ---
 
-# P27 — Página de vendas de produto autoguiado por dor
+# P32 — Página de vendas de produto autoguiado por dor
 
-**USAR QUANDO:** construir produto de aproximadamente R$97.
+**ESCOPO:** COMERCIAL / PRODUTO — somente quando autorizado.
 
-> Produto: `[DINHEIRO / PROCRASTINAÇÃO / OUTRO]`
-> Dor visceral: `[INSERIR]`
-> Entregáveis: `[INSERIR]`
-> Preço: `[VIGENTE/HIPÓTESE]`
->
-> Escreva a arquitetura da página:
-> - hero pela dor;
-> - cenas “isso sou eu”;
-> - agitação de consequências;
-> - “por que isso volta?” sem diagnosticar;
-> - mecanismo simples do produto;
-> - o que a pessoa fará em 5–7 dias;
-> - entregáveis;
-> - para quem é / não é;
-> - limites;
-> - FAQ;
-> - CTA;
-> - ponte pós-compra para Mapeamento/Ciclo somente no final.
->
-> O produto não pode prometer renda, cura, tratamento clínico ou mudança garantida.
+> **Contrato herdado:** Aplique a Diretriz V1.1. Identifique o escopo antes de produzir: RECONHECIMENTO, ESPECIALIZADO, COMERCIAL ou PRODUTO. Em reconhecimento, trabalhe a dificuldade de avançar, realizar ou sustentar mudanças, inclusive após tentativas anteriores. Não substitua o eixo por dicas genéricas de finanças, carreira, produtividade, relacionamentos ou bem-estar. Não basta acrescentar 'padrão' ao fechamento. Abra possibilidades de crenças, medos, automatismos, respostas aprendidas e espiritualidade sem presumir causa. Não exija reconstrução de sequência, exercício, método ou compra. Preserve TOM MARCOS, causalidade responsável e próximo passo coerente. Nos primeiros 15 dias, não produzir conteúdo específico de Método, Mapeamento, Sintonize, roteamento ou novas práticas estruturadas.
+
+> Construa a página de [PRODUTO / SPEC / PREÇO / ENTREGÁVEIS / ESTADO CURRENT]. Confirme primeiro que a oferta pode ser publicada. Use dor concreta, tentativas anteriores, consequências, possibilidade e mecanismo real do produto. Explique como funciona, entregáveis, limites, para quem é/não é, FAQ e CTA. Não fixe 5–7 dias, R$97 ou número de áudios por padrão: use a SPEC vigente. Não invente prova, diagnóstico ou transformação garantida. A continuidade para Mapeamento/Ciclo é opcional e só aparece quando pertinente. Preserve o contrato transversal e o escopo de cada produto.
 
 ---
 
-# P28 — Arquitetar infoproduto por dor
+# P33 — Arquitetar infoproduto por dor
 
-**USAR QUANDO:** transformar uma dor validada em produto escalável.
+**ESCOPO:** COMERCIAL / PRODUTO — somente quando autorizado.
 
-> Dor: `[INSERIR]`
-> Evidências de demanda: `[COLAR KEYWORDS/COMENTÁRIOS/DADOS]`
->
-> Crie uma experiência de 5–7 dias com:
-> - transformação pequena e verificável;
-> - 5–7 áudios;
-> - 5–7 exercícios;
-> - workbook;
-> - diário de observação;
-> - uma prática por dia;
-> - reavaliação;
-> - próximo passo opcional.
->
-> Use os 7 movimentos do Método apenas onde fizer sentido. Não transforme o produto em curso genérico de “padrões”.
->
-> Diga o que NÃO deve entrar no produto.
+> **Contrato herdado:** Aplique a Diretriz V1.1. Identifique o escopo antes de produzir: RECONHECIMENTO, ESPECIALIZADO, COMERCIAL ou PRODUTO. Em reconhecimento, trabalhe a dificuldade de avançar, realizar ou sustentar mudanças, inclusive após tentativas anteriores. Não substitua o eixo por dicas genéricas de finanças, carreira, produtividade, relacionamentos ou bem-estar. Não basta acrescentar 'padrão' ao fechamento. Abra possibilidades de crenças, medos, automatismos, respostas aprendidas e espiritualidade sem presumir causa. Não exija reconstrução de sequência, exercício, método ou compra. Preserve TOM MARCOS, causalidade responsável e próximo passo coerente. Nos primeiros 15 dias, não produzir conteúdo específico de Método, Mapeamento, Sintonize, roteamento ou novas práticas estruturadas.
+
+> Avalie uma oportunidade de produto para [DOR / EVIDÊNCIAS / PÚBLICO]. Antes de construir, verifique o Documento 02.A, a SPEC e o CURRENT. Defina job-to-be-done, transformação delimitada, menor experiência, ferramentas pertinentes, entregáveis, consumo, integração, reavaliação e critérios de validação. Não crie curso, biblioteca, protocolo, preço ou duração automaticamente. Não force os sete movimentos nem atribua bloqueio como causa. Diferencie técnicas autorais, formação de terceiros e encaminhamento profissional. Preserve arquitetura de plataforma e gates. Entregue proposta e pendências, não um produto aprovado por inferência.
 
 ---
 
-# P29 — Triagem da Porta 2
+# P34 — Triagem da Porta 2
 
-**USAR QUANDO:** um lead chega pedindo limpeza, desbloqueio, Mesa, “abrir caminhos” ou relata sensação de bloqueio.
+**ESCOPO:** COMERCIAL / PRODUTO — somente quando autorizado.
 
-> Demanda do lead: `[COLAR]`
->
-> Organize uma triagem curta para distinguir:
-> - busca técnica específica;
-> - necessidade de Mapeamento;
-> - aderência possível à Sintonize;
-> - ação concreta;
-> - necessidade de outro profissional/encaminhamento;
-> - ausência de indicação de compra.
->
-> Nunca conclua automaticamente que existe bloqueio energético.
-> Não use a triagem como diagnóstico.
-> Termine com um próximo passo claro e proporcional.
+> **Contrato herdado:** Aplique a Diretriz V1.1. Identifique o escopo antes de produzir: RECONHECIMENTO, ESPECIALIZADO, COMERCIAL ou PRODUTO. Em reconhecimento, trabalhe a dificuldade de avançar, realizar ou sustentar mudanças, inclusive após tentativas anteriores. Não substitua o eixo por dicas genéricas de finanças, carreira, produtividade, relacionamentos ou bem-estar. Não basta acrescentar 'padrão' ao fechamento. Abra possibilidades de crenças, medos, automatismos, respostas aprendidas e espiritualidade sem presumir causa. Não exija reconstrução de sequência, exercício, método ou compra. Preserve TOM MARCOS, causalidade responsável e próximo passo coerente. Nos primeiros 15 dias, não produzir conteúdo específico de Método, Mapeamento, Sintonize, roteamento ou novas práticas estruturadas.
+
+> Organize triagem para [DEMANDA / OFERTA / ESTADO CURRENT]. Distinga busca técnica específica, necessidade de compreensão individual, modalidade pertinente, ação concreta, apoio especializado e ausência de indicação de compra. Não diagnostique nem conclua bloqueio energético. Não obrigue Mapeamento antes de outra modalidade adequada. Respeite consentimento, competência, privacidade e escopo da Sintonize. Termine com próximo passo proporcional; encaminhamento ou nenhuma compra também são resultados válidos.
 
 ---
 
-# P30 — Conteúdo do Método Padrão Interrompido 2.0
+# P35 — Conteúdo do Método Padrão Interrompido 2.0
 
-**USAR QUANDO:** explicar o método depois que a pessoa já reconheceu a dor.
+**ESCOPO:** ESPECIALIZADO — após o ciclo inicial ou demanda direta pertinente.
 
-> Tema: `[INSERIR]`
->
-> Ensine usando:
-> - Sequência Recorrente Observável;
-> - O Minuto Anterior;
-> - Ponto de Interrupção;
-> - 7 movimentos;
-> - reavaliação.
->
-> Comece por uma cena. Mostre a sequência. Só depois nomeie o método.
->
-> Diferencie explicitamente Ponto de Interrupção de causa raiz e diagnóstico.
->
-> Gere: Short, vídeo longo e CTA para Mapeamento 2.0.
+> **Contrato herdado:** Aplique a Diretriz V1.1. Identifique o escopo antes de produzir: RECONHECIMENTO, ESPECIALIZADO, COMERCIAL ou PRODUTO. Em reconhecimento, trabalhe a dificuldade de avançar, realizar ou sustentar mudanças, inclusive após tentativas anteriores. Não substitua o eixo por dicas genéricas de finanças, carreira, produtividade, relacionamentos ou bem-estar. Não basta acrescentar 'padrão' ao fechamento. Abra possibilidades de crenças, medos, automatismos, respostas aprendidas e espiritualidade sem presumir causa. Não exija reconstrução de sequência, exercício, método ou compra. Preserve TOM MARCOS, causalidade responsável e próximo passo coerente. Nos primeiros 15 dias, não produzir conteúdo específico de Método, Mapeamento, Sintonize, roteamento ou novas práticas estruturadas.
+
+> Prepare conteúdo específico sobre o Método Padrão Interrompido 2.0 para [TEMA / OBJETIVO / SPEC], somente na fase autorizada ou em resposta a intenção direta pertinente. Explique, quando necessário, SRO, Ponto de Interrupção e sete movimentos, sem tratá-los como causa raiz, diagnóstico ou solução universal. Diferencie explicação pública de execução individual. Não realize mapeamento, prioridade, hipótese ou devolutiva de caso real por IA. Não imponha CTA comercial; apresente limites e próximo passo opcional. Preserve a metodologia autoral e os contratos de produto.
 
 ---
 
@@ -1635,7 +1104,7 @@ Não rodar todos os prompts em toda peça.
 
 > **P12 — Search/porta**  
 > ↓  
-> **P26 — Copy visceral**  
+> **P31 — Copy visceral**  
 > ↓  
 > formato correspondente **P2/P5/P22**  
 > ↓  
@@ -1647,11 +1116,11 @@ Não rodar todos os prompts em toda peça.
 
 # 32.B. Produto autoguiado por dor
 
-> **P28 — Arquitetura do produto**  
+> **P33 — Arquitetura do produto**  
 > ↓  
-> **P27 — Página de vendas**  
+> **P32 — Página de vendas**  
 > ↓  
-> **P26 — criativos**  
+> **P31 — criativos**  
 > ↓  
 > **P8/P9**  
 > ↓  
@@ -1699,6 +1168,21 @@ Para peças sem Search, pular “SEARCH DEFINIDO”.
 # PARTE V — GOVERNANÇA E CONTROLE DE VERSÃO
 
 # 36. Uso por agentes de IA
+
+
+### Migração de IDs de prompts — 09/09/2026
+
+Os antigos P26–P30 tinham duas definições concorrentes. Os IDs de Search permanecem P26–P30. A segunda família foi renumerada, sem alterar seu escopo:
+
+| ID legado | ID vigente | Função |
+|---|---|---|
+| P26 comercial | P31 | Copy comercial por dor |
+| P27 produto | P32 | Página de produto autoguiado |
+| P28 produto | P33 | Arquitetura de produto |
+| P29 triagem | P34 | Triagem Porta 2 |
+| P30 Método | P35 | Conteúdo específico do Método |
+
+Referências antigas devem ser migradas pelo nome da função, nunca apenas pelo número. P31–P35 não são autorização para produzir conteúdo técnico/comercial no ciclo inicial.
 
 Ao executar estes prompts, o agente deve receber, quando relevante:
 
@@ -1754,4 +1238,4 @@ A publicação serve à pessoa e ao projeto.
 **MOTIVO:** evolução do Método PI 2.0 e da arquitetura comercial: Porta 2 prioritária, dor visceral, produtos por dor, Mapeamento 2.0, triagem Sintonize e novos prompts de resposta direta.  
 **IMPACTO:** criação, roteiro, produção, edição, publicação, análise, Search, Instagram, YouTube Shorts, vídeos longos e gestão do calendário editorial.
 
-> **Fim do Documento 03.D — Sistema Operacional de Prompts Editoriais, Search, Copy, SEO e Produção Assistida por IA — V2.2.**
+> **Fim do Documento 03.D — Sistema Operacional de Prompts Editoriais, Search, Copy, SEO e Produção Assistida por IA — V2.3.**

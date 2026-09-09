@@ -1,12 +1,17 @@
 # PORTAL CAMINHO DA CONSCIÊNCIA
-## Documento 03.B — Mapa Editorial Mestre — Big Ideas, Cenas, Soluções, Oferta, Ganchos e Arquitetura de Aquisição — V1.2
+## Documento 03.B — Mapa Editorial Mestre — Big Ideas, Cenas, Soluções, Oferta, Ganchos e Arquitetura de Aquisição — V1.3
+
+**STATUS DA REVISÃO:** versão documental revisada; incorporação ao repositório e produção não confirmada
+**DATA DA REVISÃO:** 09/09/2026
+**REGRA EDITORIAL OBRIGATÓRIA:** Diretriz Editorial Complementar — Território de Transformação e Descobrir/Reconhecer — V1.1
+
 
 **STATUS CANÔNICO:** mapa editorial mestre complementar aos Documentos 03 e 03.A  
 **DATA:** 03/09/2026  
-**DOCUMENTO-PAI:** Documento 03 — Sistema Editorial, Aquisição e Experimentação — V2.2  
-**REGRA EDITORIAL COMPLEMENTAR OBRIGATÓRIA:** Documento 03.A — Regra Complementar de Arquitetura de Conteúdo — Percepção Antes da Explicação — V1.0  
-**DOCUMENTOS SUPERIORES:** Documento 00 — Matriz de Governança Conceitual, Propriedade Intelectual e Posicionamento — V1.2; Documento 01 — Fundacional, Estratégico e Plano Executivo Canônico — V4.2; Documento 02 — Jornada de Transformação, Produtos, Serviços e Protocolos — V2.2  
-**DOCUMENTO RELACIONADO:** Documento 04 — Identidade, Voz, Espiritualidade e Diretrizes de Comunicação — V2.2  
+**DOCUMENTO-PAI:** Documento 03 — Sistema Editorial, Aquisição e Experimentação — V2.3  
+**REGRA EDITORIAL COMPLEMENTAR OBRIGATÓRIA:** Documento 03.A — Regra Complementar de Arquitetura de Conteúdo — Percepção Antes da Explicação — V1.1  
+**DOCUMENTOS SUPERIORES:** Documento 00 — Matriz de Governança Conceitual, Propriedade Intelectual e Posicionamento — V1.4; Documento 01 — Fundacional, Estratégico e Plano Executivo Canônico — V4.6; Documento 02 — Jornada de Transformação, Produtos, Serviços e Protocolos — V2.6  
+**DOCUMENTO RELACIONADO:** Documento 04 — Identidade, Voz, Espiritualidade e Diretrizes de Comunicação — V2.4  
 **FUNÇÃO CANÔNICA:** transformar as diretrizes editoriais do Portal em um sistema operacional de Big Ideas, cenas, movimentos anteriores, soluções, oferta, ganchos, prioridades, teses e arquitetura de aquisição, preservando percepção antes da explicação e evitando fórmulas rígidas de roteiro.
 
 > **PERCEPÇÃO ANTES DA EXPLICAÇÃO. DESCOBERTA ANTES DA METODOLOGIA.**
@@ -27,9 +32,12 @@ O Documento 03 define o sistema editorial. O Documento 03.A protege a regra **pe
 
 ## 0.2. Território editorial próprio
 
-O diferencial do Portal não é falar genericamente de “padrões”, mas mostrar com precisão **o que acontece antes do problema ficar visível**, fazendo a pessoa perceber algo que normalmente passa despercebido.
 
-> **Todo bom conteúdo deve entregar um pequeno resultado agora e criar naturalmente a necessidade do próximo nível.**
+**O Portal trabalha dificuldades que se repetem ou permanecem na vida real, especialmente quando a pessoa já tentou mudar e continua sentindo que não consegue avançar.** A dificuldade concreta abre a conversa; o aprofundamento pode envolver padrões automáticos, crenças, medos, respostas aprendidas, autoimagem, evitação, conflitos internos e possibilidades espirituais. Não presumir causa.
+
+A correção financeira vale para todas as áreas: não transformar o canal em educação financeira, carreira, produtividade, aconselhamento amoroso ou dicas genéricas de bem-estar. A pessoa pode já ter conhecimento, condições e tentativas anteriores. O eixo é a distância entre o que deseja realizar e o que consegue sustentar. Não basta acrescentar uma frase sobre padrões no fechamento.
+
+**DESCOBRIR → RECONHECER** é o escopo do conteúdo público. **MAPEAR → TRABALHAR → INTEGRAR → APROFUNDAR** pertence aos produtos e experiências pertinentes. O próximo passo pode ser compreender melhor, buscar apoio ou conhecer uma possibilidade; não é obrigatoriamente exercício, método ou compra.
 
 ## 0.3. Regra prática de valor, autoridade, retenção e progressão
 
@@ -53,18 +61,10 @@ Isso impede que o conteúdo vire apenas “identificação interessante” e aum
 
 ## 0.4. O que conta como microtransformação útil
 
-A microtransformação não precisa ser uma solução completa. Ela pode ser, por exemplo:
 
-- perceber um gesto que antes passava despercebido;
-- identificar o primeiro momento de uma sequência;
-- formular uma pergunta mais útil;
-- comparar dois episódios sem concluir causalidade;
-- observar uma frase interna recorrente;
-- separar consequência de movimento anterior;
-- reconhecer o que pode ser feito ou observado hoje;
-- escolher um ponto específico para acompanhar durante a semana.
+Em reconhecimento, valor útil pode ser reconhecer uma dor, compreender sua importância, perceber uma contradição ou conhecer uma possibilidade real. Não exigir capacidade técnica nova, exercício, comparação de episódios ou localização de movimento anterior.
 
-O teste é simples: ao final do conteúdo, a pessoa deve ter **ganhado alguma capacidade de observação, compreensão ou ação imediatamente utilizável**, ainda que pequena.
+Práticas de observação, experimentação e integração pertencem prioritariamente aos produtos ou a conteúdos especializados autorizados. A biblioteca de exercícios continua disponível nesse escopo, sem governar a aquisição inicial.
 
 ## 0.5. Limites semânticos transversais
 
@@ -79,171 +79,184 @@ O teste é simples: ao final do conteúdo, a pessoa deve ter **ganhado alguma ca
 
 ---
 
-## 0.6. Regra comercial V1.2 — Porta 2 como prioridade
+## 0.6. Regra comercial V1.3 — Porta 2 como prioridade
 
-Para aquisição com objetivo de venda, a peça deve poder seguir esta progressão:
 
-> **DOR VISCERAL → CONSEQUÊNCIA CONCRETA → CONSEQUÊNCIA EMOCIONAL → SENSAÇÃO DE TRAVAMENTO/BLOQUEIO → REPETIÇÃO → “DE NOVO” → PRÓXIMO PASSO.**
+A Porta 2 permanece hipótese comercial para resposta direta, condicionada a oferta live e validação. Não governa o conteúdo orgânico inicial. Nos primeiros 15 dias, aplicar a Diretriz V1.1 e o Calendário V6: duas frentes principais, relacionamentos controlados e nenhum roteiro obrigatório de método/roteamento/oferta.
 
-A Porta 2 recebe a urgência. A Porta 3 transforma urgência em percepção de repetição. A Porta 4 organiza. A Porta 1 captura demanda técnica já existente.
-
-A palavra “bloqueio” descreve percepção ou busca; não autoriza diagnóstico.
-
----
+A dor concreta pode levar a reconhecer repetição, crenças, medos, respostas aprendidas ou possibilidades espirituais, sem atribuição causal. A escolha de intervenção pertence à triagem e aos produtos.
 
 # PARTE 1 — 20 BIG IDEAS DEFINITIVAS
 
 ## BI-01 — O problema aparece no final; o movimento começa antes
 
-**Tese:** Aquilo que a pessoa chama de problema costuma ser a parte mais visível. Vale reconstruir o que aconteceu antes.
+
+**Tese:** O resultado visível pode não contar toda a história.
 
 **Cena-síntese:** App do banco fechado sem olhar; mensagem apagada antes do “tudo bem”.
 
 **Limite semântico:** Não afirmar que o movimento anterior causou a consequência.
 
-**Uso principal:** Categoria + aquisição + venda do Mapeamento.
+**Uso principal:** Reconhecimento: “Você conseguiu melhorar uma parte da vida, mas o que queria realizar continua esperando.” A investigação do começo fica para trabalho pertinente.
 
 ## BI-02 — O minuto anterior
 
-**Tese:** Pequenos gestos, escolhas e recuos podem ser mais úteis para observar do que a explicação que vem depois.
+
+**Tese:** Existe um momento anterior que pode ser útil investigar.
 
 **Cena-síntese:** O pedido chega; a resposta “deixa comigo” sai antes de a pessoa olhar a agenda.
 
 **Limite semântico:** Não presumir que sempre existe um instante consciente de escolha.
 
-**Uso principal:** Shorts + diferenciação.
+**Uso principal:** Uso principal: conteúdo especializado futuro ou produto. Na aquisição, não ensinar a localizar esse momento.
 
 ## BI-03 — Você não volta ao mesmo lugar de uma vez
 
-**Tese:** Muitas repetições são construídas em pequenas aproximações que isoladamente parecem irrelevantes.
+
+**Tese:** Uma dificuldade pode reaparecer gradualmente, mesmo depois de uma melhora.
 
 **Cena-síntese:** Um dia sem abrir o projeto vira uma semana; um “só hoje” vira quatro noites trabalhando até tarde.
 
 **Limite semântico:** Não transformar sequência em causa única.
 
-**Uso principal:** Categoria + conteúdo longo.
+**Uso principal:** Reconhecimento: “Você pensou que agora ia, mas meses depois os planos continuam adiados.”
 
 ## BI-04 — A repetição muda de roupa
 
-**Tese:** O cenário pode mudar e ainda assim uma forma parecida de responder reaparecer.
+
+**Tese:** Situações diferentes podem produzir uma sensação parecida de travamento.
 
 **Cena-síntese:** Outro emprego, mesmo “eu resolvo”; outra relação, mesma mensagem apagada.
 
 **Limite semântico:** Contextos diferentes não significam a mesma origem.
 
-**Uso principal:** Vídeos longos + cruzamento de áreas.
+**Uso principal:** Não presumir que tenham a mesma causa. A conexão é uma possibilidade, não um diagnóstico.
 
 ## BI-05 — O “depois” atravessa áreas
 
-**Tese:** Uma mesma frase interna pode aparecer diante de problemas diferentes.
+
+**Tese:** O adiamento pode afetar dinheiro, trabalho e relações.
 
 **Cena-síntese:** “Depois eu olho a fatura.” / “Depois eu falo com ele.”
 
 **Limite semântico:** Não usar a frase como diagnóstico de personalidade.
 
-**Uso principal:** Viralização + multiarea.
+**Uso principal:** Reconhecimento das consequências; não transformar automaticamente em técnica de produtividade.
 
 ## BI-06 — O primeiro sinal parece pequeno demais
 
-**Tese:** O começo da repetição costuma parecer banal quando acontece.
+
+**Tese:** Pequenos sinais podem merecer atenção em uma investigação.
 
 **Cena-síntese:** Fechar uma aba; cancelar um compromisso próprio; deixar o arquivo mais um dia fechado.
 
 **Limite semântico:** Pequeno sinal não prova padrão.
 
-**Uso principal:** Aquisição de público frio.
+**Uso principal:** Uso prioritário: trabalho estruturado. Em público frio, partir do custo de continuar adiando, sem exigir localizar o primeiro sinal.
 
 ## BI-07 — O primeiro “sim” vem antes da sobrecarga
 
-**Tese:** Grandes excessos podem ser precedidos por pequenas concessões que merecem observação.
+
+**Tese:** Uma pessoa pode continuar assumindo responsabilidades mesmo depois de tentar estabelecer limites.
 
 **Cena-síntese:** “Pode deixar” para uma tarefa extra quando a agenda já estava cheia.
 
 **Limite semântico:** Não culpar a pessoa por exploração, abuso ou contexto injusto.
 
-**Uso principal:** Trabalho + família + limites.
+**Uso principal:** Explorar o custo e o desejo de mudança; não culpar por exploração ou presumir a causa do sim.
 
 ## BI-08 — O silêncio também participa
 
-**Tese:** O que não é dito pode fazer parte da trajetória de uma situação.
+
+**Tese:** Uma dificuldade de comunicação pode continuar mesmo depois de várias tentativas de conversar.
 
 **Cena-síntese:** Escreve três versões da mensagem e envia apenas “tudo bem”.
 
 **Limite semântico:** Não dizer que o silêncio causou a discussão ou o fim.
 
-**Uso principal:** Relacionamentos + trabalho.
+**Uso principal:** Reconhecer solidão, frustração ou afastamento sem atribuir a responsabilidade por conflitos.
 
 ## BI-09 — O abandono começa antes de ser chamado de desistência
 
-**Tese:** Projetos e hábitos muitas vezes perdem contato aos poucos.
+
+**Tese:** Um projeto pode continuar parado apesar de conhecimento, vontade e tentativas anteriores.
 
 **Cena-síntese:** O arquivo não é aberto há 12 dias; o app de treino some da rotina.
 
 **Limite semântico:** Não chamar automaticamente de autossabotagem.
 
-**Uso principal:** Projetos + rotina.
+**Uso principal:** Explorar o plano que não se realiza, sem concluir autossabotagem.
 
 ## BI-10 — Começar de novo não garante começar diferente
 
-**Tese:** Uma nova tentativa pode carregar a mesma preparação, adiamento ou resposta.
+
+**Tese:** Recomeçar pode ser importante e ainda não produzir o avanço desejado.
 
 **Cena-síntese:** Novo planner, mesma tarefa; novo emprego, o mesmo “deixa comigo” nas primeiras semanas.
 
 **Limite semântico:** Não desvalorizar recomeços.
 
-**Uso principal:** Oferta + categoria.
+**Uso principal:** O conteúdo reconhece a contradição; o trabalho pode investigar o que merece atenção.
 
 ## BI-11 — Resolver o episódio não é compreender a repetição
 
-**Tese:** Apagar a consequência imediata pode não responder ao que reaparece em outras versões.
+
+**Tese:** Resolver uma urgência não garante que a dificuldade deixe de aparecer.
 
 **Cena-síntese:** Quita a dívida e nunca revisita como o aperto se formou; faz as pazes e ignora semanas de silêncio.
 
 **Limite semântico:** Resolver o episódio continua sendo válido e necessário.
 
-**Uso principal:** Mapeamento.
+**Uso principal:** Não desvalorizar soluções concretas. A investigação da sequência é trabalho pertinente.
 
 ## BI-12 — Saber o nome não é perceber o começo
 
-**Tese:** Dizer “eu procrastino” ou “tenho dificuldade de limite” não significa notar a cena enquanto ela acontece.
+
+**Tese:** Conhecer um conceito não significa que uma dificuldade esteja resolvida.
 
 **Cena-síntese:** Reconhece o rótulo, mas não nota o primeiro “sim” automático.
 
 **Limite semântico:** Evitar linguagem clínica e rótulos fixos.
 
-**Uso principal:** Público experiente em autoconhecimento.
+**Uso principal:** Uso principal: conteúdo especializado ou produto. Não exigir que público frio encontre o começo.
 
 ## BI-13 — Entender não é integrar
 
-**Tese:** Compreensão intelectual e resposta na vida real são etapas diferentes.
+
+**Tese:** Compreensão e mudança sustentada podem ser coisas diferentes.
 
 **Cena-síntese:** Sabe que precisa dizer não; no pedido real responde “claro”.
 
 **Limite semântico:** Não tratar insight como inútil nem prometer integração.
 
-**Uso principal:** Autoridade + jornada futura.
+**Uso principal:** Mostrar a importância da integração sem ensinar uma prática obrigatória na aquisição.
 
 ## BI-14 — Perceber mais cedo já muda a margem de escolha
 
-**Tese:** Uma mudança possível é notar a sequência antes da consequência.
+
+**Tese:** Reconhecer uma situação pode abrir possibilidades de escolha.
 
 **Cena-síntese:** Percebe o terceiro “sim” antes de a semana ficar impossível.
 
 **Limite semântico:** Não prometer que perceber garante agir diferente.
 
-**Uso principal:** Promessa responsável do método.
+**Uso principal:** A promessa específica de localizar um ponto pertence ao Método. Não prometer que perceber garante agir diferente.
 
 ## BI-15 — Repetir não significa voltar ao zero
 
-**Tese:** Algo reaparecer não apaga automaticamente o que já mudou.
+
+**Tese:** Uma dificuldade reaparecer não apaga automaticamente o que já mudou.
 
 **Cena-síntese:** Desta vez percebe no primeiro dia aquilo que antes só percebia duas semanas depois.
 
 **Limite semântico:** Não minimizar consequência nem romantizar recaída.
 
-**Uso principal:** Retenção + confiança.
+**Uso principal:** Reconhecer avanços sem minimizar consequências nem romantizar recaídas.
 
 ## BI-16 — O que você evita olhar continua existindo
+
+
+**Enquadramento V1.1:** usar a dificuldade concreta e suas consequências para reconhecimento. Não presumir causa. Observação estruturada e escolha de ferramenta pertencem ao produto; conteúdos específicos ficam para a fase autorizada.
 
 **Tese:** Evitar informação pode aliviar o desconforto imediato sem encerrar a situação.
 
@@ -255,6 +268,9 @@ A palavra “bloqueio” descreve percepção ou busca; não autoriza diagnósti
 
 ## BI-17 — Não decidir também produz caminho
 
+
+**Enquadramento V1.1:** usar a dificuldade concreta e suas consequências para reconhecimento. Não presumir causa. Observação estruturada e escolha de ferramenta pertencem ao produto; conteúdos específicos ficam para a fase autorizada.
+
 **Tese:** Adiamentos repetidos podem manter uma situação funcionando como decisão prática.
 
 **Cena-síntese:** Salva a vaga pela quinta vez e nunca se candidata.
@@ -264,6 +280,9 @@ A palavra “bloqueio” descreve percepção ou busca; não autoriza diagnósti
 **Uso principal:** Decisão + segurança.
 
 ## BI-18 — “Eu dou conta” pode virar excesso
+
+
+**Enquadramento V1.1:** usar a dificuldade concreta e suas consequências para reconhecimento. Não presumir causa. Observação estruturada e escolha de ferramenta pertencem ao produto; conteúdos específicos ficam para a fase autorizada.
 
 **Tese:** Capacidade não obriga a assumir tudo.
 
@@ -275,6 +294,9 @@ A palavra “bloqueio” descreve percepção ou busca; não autoriza diagnósti
 
 ## BI-19 — A espiritualidade também pode virar resposta de emergência
 
+
+**Enquadramento V1.1:** usar a dificuldade concreta e suas consequências para reconhecimento. Não presumir causa. Observação estruturada e escolha de ferramenta pertencem ao produto; conteúdos específicos ficam para a fase autorizada.
+
 **Tese:** Vale observar o que acontece com a prática quando a crise passa.
 
 **Cena-síntese:** Ora diariamente no aperto e abandona o caderno quando a urgência diminui.
@@ -284,6 +306,9 @@ A palavra “bloqueio” descreve percepção ou busca; não autoriza diagnósti
 **Uso principal:** Espiritualidade aplicada.
 
 ## BI-20 — Conteúdo revela; o Mapeamento organiza o caso
+
+
+**Enquadramento V1.1:** usar a dificuldade concreta e suas consequências para reconhecimento. Não presumir causa. Observação estruturada e escolha de ferramenta pertencem ao produto; conteúdos específicos ficam para a fase autorizada.
 
 **Tese:** Reconhecer-se numa cena é diferente de colocar os próprios episódios lado a lado e priorizar o que observar.
 
@@ -344,46 +369,46 @@ A tabela abaixo é um **banco de observação**, não um banco de diagnósticos.
 
 | # | Território | Consequência reconhecida | Cena concreta | Frase interna possível | Movimento anterior observável | Não concluir | Pergunta de expansão | Cruzamento | Big Idea | Intenção |
 |---:|---|---|---|---|---|---|---|---|---|---|
-| 1 | Dinheiro e segurança | O dinheiro termina antes do mês | Recebe na sexta; na quarta já abre calculadora junto do banco. | “Como eu gastei tanto?” | Evita acompanhar os lançamentos até o aperto ficar visível. | Não concluir irresponsabilidade ou causa emocional. | Quando você percebe que o mês começou a apertar, você olha mais de perto ou começa a evitar? | Trabalho | BI-01/16 | Alta |
-| 2 | Dinheiro e segurança | A fatura surpreende de novo | Vê o total, fecha o app e diz que depois olha os detalhes. | “Depois eu vejo com calma.” | Adia contato com a informação. | Não dizer que a evitação causou a dívida. | Quanto tempo costuma existir entre perceber que precisa olhar e realmente olhar? | Conversas difíceis | BI-05/16 | Alta |
-| 3 | Dinheiro e segurança | Quita uma dívida e volta a apertar meses depois | Sente alívio no pagamento final e nunca revisita o caminho que levou ao aperto. | “Agora está resolvido.” | Resolve a consequência sem reavaliar o processo. | Não afirmar causa psicológica única. | O que mudou depois que a crise passou — e o que ficou igual? | Relacionamentos | BI-11 | Alta |
-| 4 | Dinheiro e segurança | Renda maior, mesma apreensão | O salário aumentou, mas uma despesa inesperada ainda produz a mesma reação no app. | “Era para eu estar mais tranquila.” | Alterna checagem excessiva e adiamento. | Não usar “mentalidade de escassez” como explicação. | O que mudou nos números e o que continua parecido na sua forma de responder? | Segurança | BI-04 | Alta |
-| 5 | Dinheiro e segurança | Guardar sempre fica para depois | Todo mês pensa em transferir “se sobrar”. | “Este mês não deu.” | Deixa a própria prioridade para o final. | Não transformar falta de reserva em falha moral. | Em que momento guardar deixa de ser uma decisão e vira apenas o que sobrar? | Autocuidado | BI-05/17 | Alta |
-| 6 | Trabalho e sobrecarga | Tudo termina nas costas dela | Colega pede ajuda; ela responde “deixa comigo” antes de olhar a agenda. | “É mais rápido eu fazer.” | Assume antes de negociar prazo ou escopo. | Não dizer que ela causa exploração. | Qual foi o primeiro pedido extra ao qual você respondeu sem verificar se cabia? | Família | BI-07/18 | Excepcional |
-| 7 | Trabalho e sobrecarga | Terceiro emprego, sobrecarga parecida | Nos primeiros meses vira de novo a pessoa que resolve tudo. | “Se eu não fizer, não sai.” | Assume responsabilidade extra cedo. | Não afirmar que os empregos são iguais. | O que você começa fazendo parecido nos primeiros meses de cada trabalho? | Família | BI-04 | Excepcional |
-| 8 | Trabalho e sobrecarga | Quer sair, mas não dá passo concreto | Abre a mesma vaga três vezes, salva e fecha sem enviar. | “Ainda não é a hora.” | Espera certeza suficiente para se expor à mudança. | Não recomendar demissão ou afirmar medo clínico. | O que você costuma fazer quando uma possibilidade real aparece? | Projetos | BI-17 | Alta |
-| 9 | Trabalho e sobrecarga | Sai da reunião ainda sobrecarregada | Ensaia a conversa sobre limite e, quando chega a hora, diz “tudo certo”. | “Não quero parecer difícil.” | Silencia o ponto principal. | Não dizer que o silêncio causou a sobrecarga. | Quantas reuniões terminaram sem a parte que você mais precisava dizer? | Relacionamentos | BI-08 | Alta |
-| 10 | Trabalho e sobrecarga | Trabalha até tarde de novo | Fecha o notebook tarde pela quarta noite dizendo “só hoje”. | “Só mais isso.” | Normaliza extensão de horário pouco a pouco. | Não afirmar causa única de exaustão. | Qual foi o primeiro “só hoje” dessa sequência? | Rotina | BI-03/07 | Alta |
-| 11 | Projetos e exposição | Projeto parado | O arquivo está há 12 dias sem ser aberto. | “Estou atrasada demais para voltar agora.” | Evita contato porque o atraso incomoda. | Não chamar automaticamente de autossabotagem. | Quando você deixou de voltar ao projeto? | Autocuidado | BI-09 | Alta |
-| 12 | Projetos e exposição | Começa forte e desaparece perto de mostrar | Planeja, compra material, produz muito e trava quando alguém finalmente pode ver. | “Ainda falta ajustar.” | Mantém-se no preparatório quando chega a exposição. | Não decretar perfeccionismo ou medo como causa. | O que muda no seu comportamento quando deixa de ser só seu e alguém pode ver? | Trabalho | BI-06/10 | Alta |
-| 13 | Projetos e exposição | Troca de ferramenta, mesmo resultado | Compra outro planner ou app e reorganiza tudo de novo. | “Dessa vez vou me organizar.” | Reinicia a estrutura sem revisar onde a anterior se rompeu. | Não dizer que ferramentas são inúteis. | O que você continua fazendo igual com toda ferramenta nova? | Dinheiro | BI-10 | Média/Alta |
-| 14 | Projetos e exposição | Curso abandonado | Deixa um módulo para amanhã; depois passa uma semana sem abrir. | “Depois eu recupero.” | Afastamento gradual. | Não concluir falta de disciplina. | Quando o curso deixou de fazer parte da semana, antes de você dizer que desistiu? | Rotina | BI-03/09 | Alta |
-| 15 | Projetos e exposição | Ideia nunca lançada | Domínio comprado, página pronta em rascunho, mais uma revisão antes de publicar. | “Só mais uma coisa.” | Adia a primeira ação visível. | Não afirmar medo de julgamento como fato. | Qual é a parte que você continua melhorando porque a próxima já colocaria o projeto no mundo? | Trabalho | BI-06/10 | Alta |
-| 16 | Relacionamentos e comunicação | Discussão explode por algo pequeno | Durante semanas respondeu “não é nada” a pequenos incômodos. | “Não quero brigar.” | Minimiza e adia conversa. | Não dizer que o silêncio causou a discussão. | Quando foi a primeira vez que você quis falar e decidiu não falar? | Trabalho | BI-08 | Alta |
-| 17 | Relacionamentos e comunicação | Diz “tudo bem” sem estar tudo bem | Escreve três versões da mensagem, apaga e envia só “tudo bem”. | “Não vale a pena entrar nisso agora.” | Evita desconforto imediato. | Não diagnosticar silenciamento. | O que estava escrito antes de você apagar? | Trabalho | BI-02/08 | Excepcional |
-| 18 | Relacionamentos e comunicação | Relação nova, sensação familiar | Percebe que está de novo explicando demais uma necessidade simples. | “Talvez eu esteja pedindo muito.” | Recua no posicionamento. | Não dizer que todas as relações são iguais. | O que você começa diminuindo em si quando teme incomodar? | Trabalho | BI-04 | Alta |
-| 19 | Relacionamentos e comunicação | Faz mais e ressente depois | Cancela um compromisso próprio pela terceira vez para acomodar o outro. | “Tudo bem, eu adapto.” | Pequena concessão repetida. | Não concluir abuso ou culpa unilateral. | Qual foi o primeiro “tudo bem” que já não estava tão bem? | Limites | BI-07 | Alta |
-| 20 | Relacionamentos e comunicação | Não encerra uma situação que decidiu encerrar | Reabre a conversa “só para esclarecer uma coisa”. | “Só quero ter certeza.” | Volta ao contato para reduzir incerteza. | Não diagnosticar dependência. | O que costuma acontecer imediatamente antes de você decidir voltar à conversa? | Decisões | BI-17 | Média/Alta |
-| 21 | Limites, família e pertencimento | Agenda tomada pelos outros | Senta para fazer algo seu e resolve três demandas alheias primeiro. | “Faço rapidinho e depois volto.” | Prioriza demanda externa automaticamente. | Não culpar família ou concluir falta de amor-próprio. | Quem entra na sua agenda antes de você sem que isso seja decidido de verdade? | Trabalho | BI-05/18 | Alta |
-| 22 | Limites, família e pertencimento | Diz sim e se arrepende | Ensaiou o “não”; no pedido real respondeu “claro”. | “Se eu negar, vão achar ruim.” | Resposta automática antes de avaliar. | Não diagnosticar medo de rejeição. | Quanto tempo existe entre o pedido e o seu “sim”? | Trabalho | BI-02/07 | Excepcional |
-| 23 | Limites, família e pertencimento | Explode depois de tolerar | Repete “não tem problema” em quatro situações e, na quinta, não aguenta. | “Não quero criar caso.” | Minimiza incômodos pequenos. | Não dizer que a explosão era inevitável. | Quantas pequenas coisas já tinham virado “não tem problema”? | Relacionamentos | BI-03/08 | Alta |
-| 24 | Limites, família e pertencimento | Nunca pede ajuda | Faz tudo sozinha até travar, mesmo quando alguém poderia dividir. | “Eu dou conta.” | Adia pedir apoio. | Não patologizar independência. | Em que ponto pedir ajuda deixa de parecer uma opção para você? | Trabalho | BI-18 | Média/Alta |
-| 25 | Limites, família e pertencimento | Volta a um papel antigo em certos encontros | Chega decidida a se posicionar e, diante de determinada pessoa, muda o tom e cede. | “Deixa para lá.” | Recuo contextual. | Não atribuir automaticamente a ancestralidade, trauma ou dinâmica familiar específica. | O que muda na sua forma de falar quando você entra nesse ambiente? | Trabalho | BI-04 | Alta |
-| 26 | Rotina, autocuidado e tempo | Nunca sobra tempo para si | Vai caminhar e antes resolve uma tarefa doméstica “rapidinho”. | “Faço isso primeiro.” | Desloca o compromisso próprio. | Não concluir falta de amor-próprio. | O que costuma entrar na frente no minuto em que chega a hora de cuidar de você? | Família | BI-05 | Alta |
-| 27 | Rotina, autocuidado e tempo | Um dia fora vira uma semana perdida | Perde a rotina na terça e decide “retomo segunda”. | “Já estraguei.” | Adia o retorno após a primeira quebra. | Não diagnosticar pensamento tudo-ou-nada. | Quanto tempo existe entre perder um dia e abandonar a semana? | Projetos | BI-09/15 | Alta |
-| 28 | Rotina, autocuidado e tempo | Agenda cheia, nada importante avança | Aceita horários e demandas sem reservar espaço para o que era prioridade. | “Depois eu encaixo.” | Compromete tempo futuro antes de olhar conjunto. | Não atribuir a “má gestão” como causa única. | Em que momento sua semana fica sem espaço para aquilo que você dizia ser importante? | Trabalho | BI-07 | Alta |
-| 29 | Rotina, autocuidado e tempo | Cuida de si só quando a urgência aperta | Retoma uma prática de pausa apenas em semanas muito difíceis. | “Agora eu preciso.” | Autocuidado entra como emergência, não rotina. | Não fazer promessa de saúde nem julgamento moral. | Sua prática existe também nos dias comuns? | Espiritualidade | BI-19 | Média |
-| 30 | Rotina, autocuidado e tempo | Recomeça sempre do zero | Depois de dois dias fora, cria um plano completamente novo em vez de retomar um ponto simples. | “Na segunda eu começo direito.” | Reinício total em vez de retorno gradual. | Não dizer que recomeçar é errado. | O que aconteceria se você voltasse do ponto em que parou, sem transformar isso em um novo começo? | Projetos | BI-10/15 | Alta |
-| 31 | Medo, decisão e segurança | Pesquisa por meses e não decide | Abre comparativos, pede opiniões e continua adicionando informação. | “Só preciso ter certeza.” | Busca certeza antes do primeiro passo. | Não diagnosticar ansiedade. | Quanta certeza você exige antes de experimentar um passo pequeno? | Projetos | BI-17 | Alta |
-| 32 | Medo, decisão e segurança | Oportunidade aparece e ela recua | Recebe convite e a primeira reação é listar tudo o que pode dar errado. | “Melhor pensar.” | Procura risco antes de avaliar possibilidade. | Não dizer que deveria aceitar. | Quando algo novo aparece, qual é a primeira coisa que você começa a procurar? | Trabalho | BI-02 | Alta |
-| 33 | Medo, decisão e segurança | Conteúdo pronto fica no rascunho | Escreve, revisa, salva; no dia seguinte decide que precisa melhorar mais. | “Amanhã publico melhor.” | Adia no ponto de exposição. | Não afirmar medo de julgamento como causa. | O que muda quando a ideia deixa de ser privada? | Projetos | BI-06 | Alta |
-| 34 | Medo, decisão e segurança | Permanece numa situação insatisfatória | Repete “não está tão ruim” quando pensa em mudar. | “Poderia ser pior.” | Reduz o peso do incômodo para adiar decisão. | Não dizer que precisa sair. | O que você precisa tornar pequeno para continuar deixando essa decisão para depois? | Relacionamentos | BI-17 | Alta |
-| 35 | Medo, decisão e segurança | Terceiriza a decisão | Pergunta a várias pessoas o que fariam e cada resposta abre uma nova rodada de dúvida. | “Quero ter certeza de não errar.” | Busca confirmação externa. | Não chamar de dependência. | Em que momento ouvir mais uma opinião deixa de esclarecer e começa apenas a adiar? | Espiritualidade | BI-17 | Média/Alta |
-| 36 | Espiritualidade e sentido | Prática só aparece no aperto | Ora ou medita intensamente em uma semana difícil; três semanas depois a prática sumiu. | “Agora eu preciso.” | Relação emergencial com a prática. | Não medir fé nem dizer que a crise tem causa espiritual. | O que acontece com sua prática quando nada está pegando fogo? | Autocuidado | BI-19 | Média |
-| 37 | Espiritualidade e sentido | Pede direção, mas adia a parte concreta | Ora por clareza e continua sem fazer a conversa necessária. | “Ainda não recebi a resposta.” | Usa a espera para prolongar decisão. | Não afirmar que oração é fuga. | Existe alguma parte dessa situação que já pede uma ação concreta, mesmo sem todas as respostas? | Relacionamentos | BI-19 | Média |
-| 38 | Espiritualidade e sentido | Consome muito e pratica pouco | Salva vídeos, livros e práticas, mas a semana permanece igual. | “Preciso entender mais.” | Substitui experiência por consumo de conteúdo. | Não dizer que espiritualidade ou estudo são inúteis. | O que mudou na sua semana depois da última coisa que você aprendeu? | Projetos | BI-13 | Média |
-| 39 | Espiritualidade e sentido | Busca mais um sinal para decidir | Repete a pergunta por novas confirmações mesmo depois de formular o que deseja. | “Só quero ter certeza.” | Busca certeza externa. | Não ridicularizar crença nem negar a experiência espiritual. | O que você já consegue nomear sem precisar de mais uma confirmação? | Decisões | BI-17/19 | Média |
-| 40 | Espiritualidade e sentido | Recomeça prática em toda crise | Compra novo caderno, curso ou organiza novo ritual e abandona quando a urgência passa. | “Agora eu vou manter.” | Novo começo sem revisar o abandono anterior. | Não dizer que a prática causa dependência. | O que costuma acontecer entre o entusiasmo inicial e o momento em que você para de voltar? | Rotina | BI-09/10/19 | Média |
+| 1 | Dinheiro e segurança | Melhora de renda, mas planos antigos continuam adiados | Recebe um aumento, imagina uma viagem ou projeto e, meses depois, ainda não conseguiu realizá-lo. | “Agora vai.” | A investigar no produto: respostas, escolhas e contexto; não presumir falta de organização. | Não concluir irresponsabilidade ou causa emocional. | O que você imaginou realizar quando a renda melhorou — e o que continua esperando? | Trabalho | BI-01/16 | Alta |
+| 2 | Dinheiro e segurança | Reorganiza as finanças, mas continua sem avançar | Já fez planilhas, ajustes e cursos; volta a sentir que a vida financeira permanece no mesmo lugar. | “Eu já tentei tanta coisa.” | A investigar no produto: respostas, escolhas e contexto; não presumir falta de organização. | Não dizer que a evitação causou a dívida. | Você já se reorganizou e, mesmo assim, voltou a sentir que os planos não avançam? | Conversas difíceis | BI-05/16 | Alta |
+| 3 | Dinheiro e segurança | Quita uma dívida, mas não consegue construir o que planejou | Depois de quitar, imagina uma nova fase; o tempo passa e os planos continuam esperando. | “Agora posso começar.” | A investigar no produto: respostas, escolhas e contexto; não presumir falta de organização. | Não afirmar causa psicológica única. | O que parecia que ia mudar quando você quitou a dívida? | Relacionamentos | BI-11 | Alta |
+| 4 | Dinheiro e segurança | Renda maior, mesma sensação de travamento | Recebe dinheiro extra, faz planos e depois percebe que continua sem executar o que desejava. | “Era para eu estar mais adiantado.” | A investigar no produto: respostas, escolhas e contexto; não presumir falta de organização. | Não usar “mentalidade de escassez” como explicação. | O aumento chegou. Por que a sensação de estar no mesmo lugar continua? | Segurança | BI-04 | Alta |
+| 5 | Dinheiro e segurança | Realização sempre fica para depois | Tem condições de fazer algumas escolhas, mas a viagem, curso ou projeto antigo continua adiado. | “Dessa vez eu vou.” | A investigar no produto: respostas, escolhas e contexto; não presumir falta de organização. | Não transformar falta de reserva em falha moral. | Qual plano antigo você gostaria de finalmente tirar do papel? | Autocuidado | BI-05/17 | Alta |
+| 6 | Trabalho e sobrecarga | Tudo termina nas costas dela | Colega pede ajuda; ela responde “deixa comigo” antes de olhar a agenda. | “É mais rápido eu fazer.” | Hipótese de trabalho, não conclusão: Assume antes de negociar prazo ou escopo. | Não dizer que ela causa exploração. | O que essa sobrecarga está impedindo você de viver fora do trabalho? | Família | BI-07/18 | Excepcional |
+| 7 | Trabalho e sobrecarga | Terceiro emprego, sobrecarga parecida | Nos primeiros meses vira de novo a pessoa que resolve tudo. | “Se eu não fizer, não sai.” | Hipótese de trabalho, não conclusão: Assume responsabilidade extra cedo. | Não afirmar que os empregos são iguais. | Você mudou de trabalho, mas continua sem espaço para os próprios projetos? | Família | BI-04 | Excepcional |
+| 8 | Trabalho e sobrecarga | Quer sair, mas não dá passo concreto | Abre a mesma vaga três vezes, salva e fecha sem enviar. | “Ainda não é a hora.” | Hipótese de trabalho, não conclusão: Espera certeza suficiente para se expor à mudança. | Não recomendar demissão ou afirmar medo clínico. | O que fica para depois quando você pensa em uma nova oportunidade? | Projetos | BI-17 | Alta |
+| 9 | Trabalho e sobrecarga | Sai da reunião ainda sobrecarregada | Ensaia a conversa sobre limite e, quando chega a hora, diz “tudo certo”. | “Não quero parecer difícil.” | Hipótese de trabalho, não conclusão: Silencia o ponto principal. | Não dizer que o silêncio causou a sobrecarga. | Você já tentou se posicionar de outro jeito e a conversa continua difícil? | Relacionamentos | BI-08 | Alta |
+| 10 | Trabalho e sobrecarga | Trabalha até tarde de novo | Fecha o notebook tarde pela quarta noite dizendo “só hoje”. | “Só mais isso.” | Hipótese de trabalho, não conclusão: Normaliza extensão de horário pouco a pouco. | Não afirmar causa única de exaustão. | O que você queria ter tempo para fazer quando a semana termina? | Rotina | BI-03/07 | Alta |
+| 11 | Projetos e exposição | Projeto parado | O arquivo está há 12 dias sem ser aberto. | “Estou atrasada demais para voltar agora.” | Hipótese de trabalho, não conclusão: Evita contato porque o atraso incomoda. | Não chamar automaticamente de autossabotagem. | Há quanto tempo esse projeto é importante para você? | Autocuidado | BI-09 | Alta |
+| 12 | Projetos e exposição | Começa forte e desaparece perto de mostrar | Planeja, compra material, produz muito e trava quando alguém finalmente pode ver. | “Ainda falta ajustar.” | Hipótese de trabalho, não conclusão: Mantém-se no preparatório quando chega a exposição. | Não decretar perfeccionismo ou medo como causa. | O que significa para você conseguir colocar esse projeto no mundo? | Trabalho | BI-06/10 | Alta |
+| 13 | Projetos e exposição | Troca de ferramenta, mesmo resultado | Compra outro planner ou app e reorganiza tudo de novo. | “Dessa vez vou me organizar.” | Hipótese de trabalho, não conclusão: Reinicia a estrutura sem revisar onde a anterior se rompeu. | Não dizer que ferramentas são inúteis. | Você já tentou se organizar de várias formas e continua sem avançar? | Dinheiro | BI-10 | Média/Alta |
+| 14 | Projetos e exposição | Curso abandonado | Deixa um módulo para amanhã; depois passa uma semana sem abrir. | “Depois eu recupero.” | Hipótese de trabalho, não conclusão: Afastamento gradual. | Não concluir falta de disciplina. | O que vai ficando para depois quando você interrompe um projeto? | Rotina | BI-03/09 | Alta |
+| 15 | Projetos e exposição | Ideia nunca lançada | Domínio comprado, página pronta em rascunho, mais uma revisão antes de publicar. | “Só mais uma coisa.” | Hipótese de trabalho, não conclusão: Adia a primeira ação visível. | Não afirmar medo de julgamento como fato. | O que esse projeto poderia mudar na sua vida se saísse do papel? | Trabalho | BI-06/10 | Alta |
+| 16 | Relacionamentos e comunicação | Discussão explode por algo pequeno | Durante semanas respondeu “não é nada” a pequenos incômodos. | “Não quero brigar.” | Hipótese de trabalho, não conclusão: Minimiza e adia conversa. | Não dizer que o silêncio causou a discussão. | Você já tentou conversar de outra forma e continua com a mesma sensação? | Trabalho | BI-08 | Alta |
+| 17 | Relacionamentos e comunicação | Diz “tudo bem” sem estar tudo bem | Escreve três versões da mensagem, apaga e envia só “tudo bem”. | “Não vale a pena entrar nisso agora.” | Hipótese de trabalho, não conclusão: Evita desconforto imediato. | Não diagnosticar silenciamento. | O que você queria conseguir dizer nessa conversa? | Trabalho | BI-02/08 | Excepcional |
+| 18 | Relacionamentos e comunicação | Relação nova, sensação familiar | Percebe que está de novo explicando demais uma necessidade simples. | “Talvez eu esteja pedindo muito.” | Hipótese de trabalho, não conclusão: Recua no posicionamento. | Não dizer que todas as relações são iguais. | Como é sentir que precisa explicar uma necessidade tantas vezes? | Trabalho | BI-04 | Alta |
+| 19 | Relacionamentos e comunicação | Faz mais e ressente depois | Cancela um compromisso próprio pela terceira vez para acomodar o outro. | “Tudo bem, eu adapto.” | Hipótese de trabalho, não conclusão: Pequena concessão repetida. | Não concluir abuso ou culpa unilateral. | O que vai ficando de fora da sua vida quando você cede novamente? | Limites | BI-07 | Alta |
+| 20 | Relacionamentos e comunicação | Não encerra uma situação que decidiu encerrar | Reabre a conversa “só para esclarecer uma coisa”. | “Só quero ter certeza.” | Hipótese de trabalho, não conclusão: Volta ao contato para reduzir incerteza. | Não diagnosticar dependência. | Você sente que já tentou resolver essa conversa e ela continua voltando? | Decisões | BI-17 | Média/Alta |
+| 21 | Limites, família e pertencimento | Agenda tomada pelos outros | Senta para fazer algo seu e resolve três demandas alheias primeiro. | “Faço rapidinho e depois volto.” | Hipótese de trabalho, não conclusão: Prioriza demanda externa automaticamente. | Não culpar família ou concluir falta de amor-próprio. | Quanto espaço sobra para o que também é importante para você? | Trabalho | BI-05/18 | Alta |
+| 22 | Limites, família e pertencimento | Diz sim e se arrepende | Ensaiou o “não”; no pedido real respondeu “claro”. | “Se eu negar, vão achar ruim.” | Hipótese de trabalho, não conclusão: Resposta automática antes de avaliar. | Não diagnosticar medo de rejeição. | Você já tentou colocar limites e continua sentindo dificuldade? | Trabalho | BI-02/07 | Excepcional |
+| 23 | Limites, família e pertencimento | Explode depois de tolerar | Repete “não tem problema” em quatro situações e, na quinta, não aguenta. | “Não quero criar caso.” | Hipótese de trabalho, não conclusão: Minimiza incômodos pequenos. | Não dizer que a explosão era inevitável. | Como fica sua relação com a pessoa depois de tanto guardar o incômodo? | Relacionamentos | BI-03/08 | Alta |
+| 24 | Limites, família e pertencimento | Nunca pede ajuda | Faz tudo sozinha até travar, mesmo quando alguém poderia dividir. | “Eu dou conta.” | Hipótese de trabalho, não conclusão: Adia pedir apoio. | Não patologizar independência. | O que você gostaria de conseguir dividir em vez de carregar sozinho? | Trabalho | BI-18 | Média/Alta |
+| 25 | Limites, família e pertencimento | Volta a um papel antigo em certos encontros | Chega decidida a se posicionar e, diante de determinada pessoa, muda o tom e cede. | “Deixa para lá.” | Hipótese de trabalho, não conclusão: Recuo contextual. | Não atribuir automaticamente a ancestralidade, trauma ou dinâmica familiar específica. | O que muda na sua vida quando você consegue se posicionar? | Trabalho | BI-04 | Alta |
+| 26 | Rotina, autocuidado e tempo | Nunca sobra tempo para si | Vai caminhar e antes resolve uma tarefa doméstica “rapidinho”. | “Faço isso primeiro.” | Hipótese de trabalho, não conclusão: Desloca o compromisso próprio. | Não concluir falta de amor-próprio. | Você já tentou cuidar mais de si, mas continua deixando isso para depois? | Família | BI-05 | Alta |
+| 27 | Rotina, autocuidado e tempo | Um dia fora vira uma semana perdida | Perde a rotina na terça e decide “retomo segunda”. | “Já estraguei.” | Hipótese de trabalho, não conclusão: Adia o retorno após a primeira quebra. | Não diagnosticar pensamento tudo-ou-nada. | O que essa interrupção faz você sentir sobre seus planos? | Projetos | BI-09/15 | Alta |
+| 28 | Rotina, autocuidado e tempo | Agenda cheia, nada importante avança | Aceita horários e demandas sem reservar espaço para o que era prioridade. | “Depois eu encaixo.” | Hipótese de trabalho, não conclusão: Compromete tempo futuro antes de olhar conjunto. | Não atribuir a “má gestão” como causa única. | O que você gostaria de ter tempo para viver fora das obrigações? | Trabalho | BI-07 | Alta |
+| 29 | Rotina, autocuidado e tempo | Cuida de si só quando a urgência aperta | Retoma uma prática de pausa apenas em semanas muito difíceis. | “Agora eu preciso.” | Hipótese de trabalho, não conclusão: Autocuidado entra como emergência, não rotina. | Não fazer promessa de saúde nem julgamento moral. | Como é perceber que uma prática importante fica sempre para depois? | Espiritualidade | BI-19 | Média |
+| 30 | Rotina, autocuidado e tempo | Recomeça sempre do zero | Depois de dois dias fora, cria um plano completamente novo em vez de retomar um ponto simples. | “Na segunda eu começo direito.” | Hipótese de trabalho, não conclusão: Reinício total em vez de retorno gradual. | Não dizer que recomeçar é errado. | Você já recomeçou várias vezes e continua sem conseguir sustentar a mudança? | Projetos | BI-10/15 | Alta |
+| 31 | Medo, decisão e segurança | Pesquisa por meses e não decide | Abre comparativos, pede opiniões e continua adicionando informação. | “Só preciso ter certeza.” | Hipótese de trabalho, não conclusão: Busca certeza antes do primeiro passo. | Não diagnosticar ansiedade. | O que essa dúvida está impedindo você de decidir? | Projetos | BI-17 | Alta |
+| 32 | Medo, decisão e segurança | Oportunidade aparece e ela recua | Recebe convite e a primeira reação é listar tudo o que pode dar errado. | “Melhor pensar.” | Hipótese de trabalho, não conclusão: Procura risco antes de avaliar possibilidade. | Não dizer que deveria aceitar. | Você já deixou uma oportunidade passar por não se sentir pronto? | Trabalho | BI-02 | Alta |
+| 33 | Medo, decisão e segurança | Conteúdo pronto fica no rascunho | Escreve, revisa, salva; no dia seguinte decide que precisa melhorar mais. | “Amanhã publico melhor.” | Hipótese de trabalho, não conclusão: Adia no ponto de exposição. | Não afirmar medo de julgamento como causa. | O que você gostaria que finalmente saísse do rascunho? | Projetos | BI-06 | Alta |
+| 34 | Medo, decisão e segurança | Permanece numa situação insatisfatória | Repete “não está tão ruim” quando pensa em mudar. | “Poderia ser pior.” | Hipótese de trabalho, não conclusão: Reduz o peso do incômodo para adiar decisão. | Não dizer que precisa sair. | O que você gostaria de conseguir mudar nessa situação? | Relacionamentos | BI-17 | Alta |
+| 35 | Medo, decisão e segurança | Terceiriza a decisão | Pergunta a várias pessoas o que fariam e cada resposta abre uma nova rodada de dúvida. | “Quero ter certeza de não errar.” | Hipótese de trabalho, não conclusão: Busca confirmação externa. | Não chamar de dependência. | Você já buscou muitas respostas e continua sem conseguir decidir? | Espiritualidade | BI-17 | Média/Alta |
+| 36 | Espiritualidade e sentido | Prática só aparece no aperto | Ora ou medita intensamente em uma semana difícil; três semanas depois a prática sumiu. | “Agora eu preciso.” | Hipótese de trabalho, não conclusão: Relação emergencial com a prática. | Não medir fé nem dizer que a crise tem causa espiritual. | O que você gostaria que sua espiritualidade também acompanhasse nos dias comuns? | Autocuidado | BI-19 | Média |
+| 37 | Espiritualidade e sentido | Pede direção, mas adia a parte concreta | Ora por clareza e continua sem fazer a conversa necessária. | “Ainda não recebi a resposta.” | Hipótese de trabalho, não conclusão: Usa a espera para prolongar decisão. | Não afirmar que oração é fuga. | Como é ter clareza sobre uma necessidade e continuar sem conseguir agir? | Relacionamentos | BI-19 | Média |
+| 38 | Espiritualidade e sentido | Consome muito e pratica pouco | Salva vídeos, livros e práticas, mas a semana permanece igual. | “Preciso entender mais.” | Hipótese de trabalho, não conclusão: Substitui experiência por consumo de conteúdo. | Não dizer que espiritualidade ou estudo são inúteis. | Você já estudou bastante e ainda sente que a vida não acompanha o que aprendeu? | Projetos | BI-13 | Média |
+| 39 | Espiritualidade e sentido | Busca mais um sinal para decidir | Repete a pergunta por novas confirmações mesmo depois de formular o que deseja. | “Só quero ter certeza.” | Hipótese de trabalho, não conclusão: Busca certeza externa. | Não ridicularizar crença nem negar a experiência espiritual. | O que você gostaria de conseguir decidir com mais segurança? | Decisões | BI-17/19 | Média |
+| 40 | Espiritualidade e sentido | Recomeça prática em toda crise | Compra novo caderno, curso ou organiza novo ritual e abandona quando a urgência passa. | “Agora eu vou manter.” | Hipótese de trabalho, não conclusão: Novo começo sem revisar o abandono anterior. | Não dizer que a prática causa dependência. | Você já recomeçou essa prática várias vezes e continua sentindo que não consegue sustentá-la? | Rotina | BI-09/10/19 | Média |
 
 ## 10 territórios com maior potencial de demanda
 
@@ -780,55 +805,53 @@ Essas pontes só devem aparecer quando a pessoa já recebeu valor e a pergunta �
 
 | # | Território | Cena-base | Hook | Porta | Objetivo | Formato | CTA | Destino |
 |---:|---|---|---:|---|---|---|---|---|
-| 1 | Dinheiro e segurança | Recebe na sexta; na quarta já abre calculadora junto do banco. | #1 | Objeto/cena | Reconhecimento | Short | “Você já fez isso?” | Conteúdo |
-| 2 | Dinheiro e segurança | Vê o total, fecha o app e diz que depois olha os detalhes. | #3 | Frase interna | Reconhecimento | Short | “Repara quando isso acontece.” | Conteúdo |
-| 3 | Dinheiro e segurança | Sente alívio no pagamento final e nunca revisita o caminho que levou ao aperto. | #14 | Pós-crise | Categoria | Vídeo longo | “O que mudou depois?” | Conteúdo |
-| 4 | Dinheiro e segurança | O salário aumentou, mas uma despesa inesperada ainda produz a mesma reação no app. | #5 | Contradição | Categoria | Ambos | “O que ficou igual?” | Conteúdo |
-| 5 | Dinheiro e segurança | Todo mês pensa em transferir “se sobrar”. | #7 | Prioridade | Reconhecimento | Short | “Em que lugar da fila isso fica?” | Conteúdo |
-| 6 | Trabalho e sobrecarga | Colega pede ajuda; ela responde “deixa comigo” antes de olhar a agenda. | #16 | Frase/gesto | Alcance | Short | “Qual foi o primeiro sim?” | Conteúdo |
-| 7 | Trabalho e sobrecarga | Nos primeiros meses vira de novo a pessoa que resolve tudo. | #18 | Repetição temporal | Categoria | Vídeo longo | “O que começou igual nos dois lugares?” | Conteúdo |
-| 8 | Trabalho e sobrecarga | Abre a mesma vaga três vezes, salva e fecha sem enviar. | #20 | Objeto/hesitação | Reconhecimento | Short | “Há quanto tempo?” | Conteúdo |
-| 9 | Trabalho e sobrecarga | Ensaia a conversa sobre limite e, quando chega a hora, diz “tudo certo”. | #19 | Silêncio | Reconhecimento | Short | “O que ficou de fora?” | Conteúdo |
-| 10 | Trabalho e sobrecarga | Fecha o notebook tarde pela quarta noite dizendo “só hoje”. | #25 | Frase temporal | Alcance | Short | “Qual foi o primeiro ‘só hoje’?” | Conteúdo |
-| 11 | Projetos e exposição | O arquivo está há 12 dias sem ser aberto. | #29 | Objeto | Reconhecimento | Short | “Quando você parou de abrir?” | Conteúdo |
-| 12 | Projetos e exposição | Planeja, compra material, produz muito e trava quando alguém finalmente pode ver. | #31 | Mudança de contexto | Categoria | Ambos | “O que muda quando alguém pode ver?” | Conteúdo |
-| 13 | Projetos e exposição | Compra outro planner ou app e reorganiza tudo de novo. | #30 | Repetição | Autoridade | Vídeo longo | “O que ficou igual entre as ferramentas?” | Conteúdo |
-| 14 | Projetos e exposição | Deixa um módulo para amanhã; depois passa uma semana sem abrir. | #34 | Sequência temporal | Reconhecimento | Short | “Qual foi o primeiro dia sem voltar?” | Conteúdo |
-| 15 | Projetos e exposição | Domínio comprado, página pronta em rascunho, mais uma revisão antes de publicar. | #38 | Objeto/espera | Intenção | Short | “O que ainda impede o publicar?” | Mapeamento |
-| 16 | Relacionamentos e comunicação | Durante semanas respondeu “não é nada” a pequenos incômodos. | #42 | Consequência→antes | Categoria | Vídeo longo | “Quando começou de verdade?” | Conteúdo |
-| 17 | Relacionamentos e comunicação | Escreve três versões da mensagem, apaga e envia só “tudo bem”. | #40 | Gesto | Alcance | Short | “O que estava escrito antes?” | Conteúdo |
-| 18 | Relacionamentos e comunicação | Percebe que está de novo explicando demais uma necessidade simples. | #51 | Comparação | Categoria | Ambos | “O que você começa diminuindo?” | Conteúdo |
-| 19 | Relacionamentos e comunicação | Cancela um compromisso próprio pela terceira vez para acomodar o outro. | #48 | Concessão | Reconhecimento | Short | “Qual foi o primeiro ‘tudo bem’?” | Conteúdo |
-| 20 | Relacionamentos e comunicação | Reabre a conversa “só para esclarecer uma coisa”. | #49 | Retorno | Autoridade | Vídeo longo | “O que acontece antes de voltar?” | Conteúdo |
-| 21 | Limites, família e pertencimento | Senta para fazer algo seu e resolve três demandas alheias primeiro. | #55 | Cena cotidiana | Alcance | Short | “Quem entra antes?” | Conteúdo |
-| 22 | Limites, família e pertencimento | Ensaiou o “não”; no pedido real respondeu “claro”. | #56 | Contradição | Reconhecimento | Short | “Quanto tempo existe antes do sim?” | Conteúdo |
-| 23 | Limites, família e pertencimento | Repete “não tem problema” em quatro situações e, na quinta, não aguenta. | #59 | Repetição/frase | Alcance | Short | “Quantos ‘não tem problema’?” | Conteúdo |
-| 24 | Limites, família e pertencimento | Faz tudo sozinha até travar, mesmo quando alguém poderia dividir. | #58 | Frase identitária | Categoria | Ambos | “Quando pedir ajuda deixa de ser opção?” | Conteúdo |
-| 25 | Limites, família e pertencimento | Chega decidida a se posicionar e, diante de determinada pessoa, muda o tom e cede. | #60 | Cena contextual | Autoridade | Vídeo longo | “O que muda quando você entra ali?” | Mapeamento |
-| 26 | Rotina, autocuidado e tempo | Vai caminhar e antes resolve uma tarefa doméstica “rapidinho”. | #68 | Gesto | Reconhecimento | Short | “O que entra na frente?” | Conteúdo |
-| 27 | Rotina, autocuidado e tempo | Perde a rotina na terça e decide “retomo segunda”. | #70 | Ruptura temporal | Reconhecimento | Short | “Um dia virou quantos?” | Conteúdo |
-| 28 | Rotina, autocuidado e tempo | Aceita horários e demandas sem reservar espaço para o que era prioridade. | #73 | Consequência | Categoria | Vídeo longo | “Quando a agenda ficou sem espaço?” | Conteúdo |
-| 29 | Rotina, autocuidado e tempo | Retoma uma prática de pausa apenas em semanas muito difíceis. | #74 | Contradição | Espiritualidade aplicada | Ambos | “Sua prática existe nos dias comuns?” | Conteúdo |
-| 30 | Rotina, autocuidado e tempo | Depois de dois dias fora, cria um plano completamente novo em vez de retomar um ponto simples. | #72 | Recomeço | Autoridade | Vídeo longo | “E se você só retomasse?” | Conteúdo |
-| 31 | Medo, decisão e segurança | Abre comparativos, pede opiniões e continua adicionando informação. | #78 | Frase interna | Reconhecimento | Short | “Há quanto tempo precisa de certeza?” | Conteúdo |
-| 32 | Medo, decisão e segurança | Recebe convite e a primeira reação é listar tudo o que pode dar errado. | #79 | Contraste | Alcance | Short | “Sua mente procura o quê primeiro?” | Conteúdo |
-| 33 | Medo, decisão e segurança | Escreve, revisa, salva; no dia seguinte decide que precisa melhorar mais. | #80 | Objeto | Reconhecimento | Short | “O que muda quando deixa de ser privado?” | Conteúdo |
-| 34 | Medo, decisão e segurança | Repete “não está tão ruim” quando pensa em mudar. | #81 | Minimização | Intenção | Ambos | “O que você precisa diminuir para adiar?” | Mapeamento |
-| 35 | Medo, decisão e segurança | Pergunta a várias pessoas o que fariam e cada resposta abre uma nova rodada de dúvida. | #83 | Acúmulo de opiniões | Autoridade | Vídeo longo | “Mais opinião clareou ou adiou?” | Conteúdo |
-| 36 | Espiritualidade e sentido | Ora ou medita intensamente em uma semana difícil; três semanas depois a prática sumiu. | #90 | Repetição temporal | Espiritualidade aplicada | Short | “E quando a crise passa?” | Conteúdo |
-| 37 | Espiritualidade e sentido | Ora por clareza e continua sem fazer a conversa necessária. | #92 | Contradição ação/prática | Autoridade | Vídeo longo | “Qual parte já pede ação?” | Conteúdo |
-| 38 | Espiritualidade e sentido | Salva vídeos, livros e práticas, mas a semana permanece igual. | #94 | Consumo→prática | Categoria | Ambos | “O que mudou na semana?” | Conteúdo |
-| 39 | Espiritualidade e sentido | Repete a pergunta por novas confirmações mesmo depois de formular o que deseja. | #93 | Busca de confirmação | Intenção | Short | “O que você já sabe sem outro sinal?” | Mapeamento |
-| 40 | Espiritualidade e sentido | Compra novo caderno, curso ou organiza novo ritual e abandona quando a urgência passa. | #95 | Objeto/recomeço | Categoria | Vídeo longo | “O que acontece quando a urgência passa?” | Mapeamento |
+| 1 | Dinheiro e segurança | Recebe um aumento, pensa “agora vai” e meses depois a viagem continua adiada. | #1 | Objeto/cena | Reconhecimento | Short | O que você imaginou realizar quando a renda melhorou — e o que continua esperando? | Conteúdo |
+| 2 | Dinheiro e segurança | Já se reorganizou várias vezes e continua sem conseguir realizar o plano antigo. | #3 | Frase interna | Reconhecimento | Short | Você já se reorganizou e, mesmo assim, voltou a sentir que os planos não avançam? | Conteúdo |
+| 3 | Dinheiro e segurança | Quita uma dívida, imagina uma nova fase e percebe que os planos ainda não avançaram. | #14 | Pós-crise | Reconhecimento | Vídeo longo | O que parecia que ia mudar quando você quitou a dívida? | Conteúdo |
+| 4 | Dinheiro e segurança | Recebe dinheiro extra, faz planos e depois sente que voltou ao mesmo lugar. | #5 | Contradição | Reconhecimento | Ambos | O aumento chegou. Por que a sensação de estar no mesmo lugar continua? | Conteúdo |
+| 5 | Dinheiro e segurança | Tem condições de fazer algumas escolhas, mas continua adiando o que deseja realizar. | #7 | Prioridade | Reconhecimento | Short | Qual plano antigo você gostaria de finalmente tirar do papel? | Conteúdo |
+| 6 | Trabalho e sobrecarga | Colega pede ajuda; ela responde “deixa comigo” antes de olhar a agenda. | #16 | Frase/gesto | Alcance | Short | O que essa sobrecarga está impedindo você de viver fora do trabalho? | Conteúdo |
+| 7 | Trabalho e sobrecarga | Nos primeiros meses vira de novo a pessoa que resolve tudo. | #18 | Repetição temporal | Reconhecimento | Vídeo longo | Você mudou de trabalho, mas continua sem espaço para os próprios projetos? | Conteúdo |
+| 8 | Trabalho e sobrecarga | Abre a mesma vaga três vezes, salva e fecha sem enviar. | #20 | Objeto/hesitação | Reconhecimento | Short | O que fica para depois quando você pensa em uma nova oportunidade? | Conteúdo |
+| 9 | Trabalho e sobrecarga | Ensaia a conversa sobre limite e, quando chega a hora, diz “tudo certo”. | #19 | Silêncio | Reconhecimento | Short | Você já tentou se posicionar de outro jeito e a conversa continua difícil? | Conteúdo |
+| 10 | Trabalho e sobrecarga | Fecha o notebook tarde pela quarta noite dizendo “só hoje”. | #25 | Frase temporal | Alcance | Short | O que você queria ter tempo para fazer quando a semana termina? | Conteúdo |
+| 11 | Projetos e exposição | O arquivo está há 12 dias sem ser aberto. | #29 | Objeto | Reconhecimento | Short | Há quanto tempo esse projeto é importante para você? | Conteúdo |
+| 12 | Projetos e exposição | Planeja, compra material, produz muito e trava quando alguém finalmente pode ver. | #31 | Mudança de contexto | Reconhecimento | Ambos | O que significa para você conseguir colocar esse projeto no mundo? | Conteúdo |
+| 13 | Projetos e exposição | Compra outro planner ou app e reorganiza tudo de novo. | #30 | Repetição | Reconhecimento | Vídeo longo | Você já tentou se organizar de várias formas e continua sem avançar? | Conteúdo |
+| 14 | Projetos e exposição | Deixa um módulo para amanhã; depois passa uma semana sem abrir. | #34 | Sequência temporal | Reconhecimento | Short | O que vai ficando para depois quando você interrompe um projeto? | Conteúdo |
+| 15 | Projetos e exposição | Domínio comprado, página pronta em rascunho, mais uma revisão antes de publicar. | #38 | Objeto/espera | Reconhecimento | Short | O que esse projeto poderia mudar na sua vida se saísse do papel? | Conteúdo |
+| 16 | Relacionamentos e comunicação | Durante semanas respondeu “não é nada” a pequenos incômodos. | #42 | Consequência→antes | Reconhecimento | Vídeo longo | Você já tentou conversar de outra forma e continua com a mesma sensação? | Conteúdo |
+| 17 | Relacionamentos e comunicação | Escreve três versões da mensagem, apaga e envia só “tudo bem”. | #40 | Gesto | Alcance | Short | O que você queria conseguir dizer nessa conversa? | Conteúdo |
+| 18 | Relacionamentos e comunicação | Percebe que está de novo explicando demais uma necessidade simples. | #51 | Comparação | Reconhecimento | Ambos | Como é sentir que precisa explicar uma necessidade tantas vezes? | Conteúdo |
+| 19 | Relacionamentos e comunicação | Cancela um compromisso próprio pela terceira vez para acomodar o outro. | #48 | Concessão | Reconhecimento | Short | O que vai ficando de fora da sua vida quando você cede novamente? | Conteúdo |
+| 20 | Relacionamentos e comunicação | Reabre a conversa “só para esclarecer uma coisa”. | #49 | Retorno | Reconhecimento | Vídeo longo | Você sente que já tentou resolver essa conversa e ela continua voltando? | Conteúdo |
+| 21 | Limites, família e pertencimento | Senta para fazer algo seu e resolve três demandas alheias primeiro. | #55 | Cena cotidiana | Alcance | Short | Quanto espaço sobra para o que também é importante para você? | Conteúdo |
+| 22 | Limites, família e pertencimento | Ensaiou o “não”; no pedido real respondeu “claro”. | #56 | Contradição | Reconhecimento | Short | Você já tentou colocar limites e continua sentindo dificuldade? | Conteúdo |
+| 23 | Limites, família e pertencimento | Repete “não tem problema” em quatro situações e, na quinta, não aguenta. | #59 | Repetição/frase | Alcance | Short | Como fica sua relação com a pessoa depois de tanto guardar o incômodo? | Conteúdo |
+| 24 | Limites, família e pertencimento | Faz tudo sozinha até travar, mesmo quando alguém poderia dividir. | #58 | Frase identitária | Reconhecimento | Ambos | O que você gostaria de conseguir dividir em vez de carregar sozinho? | Conteúdo |
+| 25 | Limites, família e pertencimento | Chega decidida a se posicionar e, diante de determinada pessoa, muda o tom e cede. | #60 | Cena contextual | Reconhecimento | Vídeo longo | O que muda na sua vida quando você consegue se posicionar? | Conteúdo |
+| 26 | Rotina, autocuidado e tempo | Vai caminhar e antes resolve uma tarefa doméstica “rapidinho”. | #68 | Gesto | Reconhecimento | Short | Você já tentou cuidar mais de si, mas continua deixando isso para depois? | Conteúdo |
+| 27 | Rotina, autocuidado e tempo | Perde a rotina na terça e decide “retomo segunda”. | #70 | Ruptura temporal | Reconhecimento | Short | O que essa interrupção faz você sentir sobre seus planos? | Conteúdo |
+| 28 | Rotina, autocuidado e tempo | Aceita horários e demandas sem reservar espaço para o que era prioridade. | #73 | Consequência | Reconhecimento | Vídeo longo | O que você gostaria de ter tempo para viver fora das obrigações? | Conteúdo |
+| 29 | Rotina, autocuidado e tempo | Retoma uma prática de pausa apenas em semanas muito difíceis. | #74 | Contradição | Reconhecimento | Ambos | Como é perceber que uma prática importante fica sempre para depois? | Conteúdo |
+| 30 | Rotina, autocuidado e tempo | Depois de dois dias fora, cria um plano completamente novo em vez de retomar um ponto simples. | #72 | Recomeço | Reconhecimento | Vídeo longo | Você já recomeçou várias vezes e continua sem conseguir sustentar a mudança? | Conteúdo |
+| 31 | Medo, decisão e segurança | Abre comparativos, pede opiniões e continua adicionando informação. | #78 | Frase interna | Reconhecimento | Short | O que essa dúvida está impedindo você de decidir? | Conteúdo |
+| 32 | Medo, decisão e segurança | Recebe convite e a primeira reação é listar tudo o que pode dar errado. | #79 | Contraste | Alcance | Short | Você já deixou uma oportunidade passar por não se sentir pronto? | Conteúdo |
+| 33 | Medo, decisão e segurança | Escreve, revisa, salva; no dia seguinte decide que precisa melhorar mais. | #80 | Objeto | Reconhecimento | Short | O que você gostaria que finalmente saísse do rascunho? | Conteúdo |
+| 34 | Medo, decisão e segurança | Repete “não está tão ruim” quando pensa em mudar. | #81 | Minimização | Reconhecimento | Ambos | O que você gostaria de conseguir mudar nessa situação? | Conteúdo |
+| 35 | Medo, decisão e segurança | Pergunta a várias pessoas o que fariam e cada resposta abre uma nova rodada de dúvida. | #83 | Acúmulo de opiniões | Reconhecimento | Vídeo longo | Você já buscou muitas respostas e continua sem conseguir decidir? | Conteúdo |
+| 36 | Espiritualidade e sentido | Ora ou medita intensamente em uma semana difícil; três semanas depois a prática sumiu. | #90 | Repetição temporal | Reconhecimento | Short | O que você gostaria que sua espiritualidade também acompanhasse nos dias comuns? | Conteúdo |
+| 37 | Espiritualidade e sentido | Ora por clareza e continua sem fazer a conversa necessária. | #92 | Contradição ação/prática | Reconhecimento | Vídeo longo | Como é ter clareza sobre uma necessidade e continuar sem conseguir agir? | Conteúdo |
+| 38 | Espiritualidade e sentido | Salva vídeos, livros e práticas, mas a semana permanece igual. | #94 | Consumo→prática | Reconhecimento | Ambos | Você já estudou bastante e ainda sente que a vida não acompanha o que aprendeu? | Conteúdo |
+| 39 | Espiritualidade e sentido | Repete a pergunta por novas confirmações mesmo depois de formular o que deseja. | #93 | Busca de confirmação | Reconhecimento | Short | O que você gostaria de conseguir decidir com mais segurança? | Conteúdo |
+| 40 | Espiritualidade e sentido | Compra novo caderno, curso ou organiza novo ritual e abandona quando a urgência passa. | #95 | Objeto/recomeço | Reconhecimento | Vídeo longo | Você já recomeçou essa prática várias vezes e continua sentindo que não consegue sustentá-la? | Conteúdo |
 
 ### Regra de distribuição
 
-- A maioria das peças deve permanecer em **reconhecimento e categoria**, não em venda.
-- CTA comercial direto entra apenas quando o conteúdo naturalmente criou desejo de organizar o caso.
-- Uma família vencedora de Short deve gerar novas variações de cena, um vídeo longo e, se houver intenção, uma ponte para o Mapeamento.
-- Não transformar a matriz em calendário rígido: dados de 24h/72h devem reorganizar a prioridade.
 
----
+As 40 prioridades são hipóteses de biblioteca, não uma ordem obrigatória de publicação. Para o primeiro ciclo, aplicar o Calendário V6 e a Diretriz V1.1. Preservar os três Shorts publicados. Reclassificar as demais peças antes de produzir e não usar destinos comerciais antigos como obrigação.
+
+O conteúdo pode trabalhar apenas dor, consequência, repetição, importância ou possibilidade. Não exigir que cada peça ensine uma microtransformação técnica.
 
 # PARTE 10 — 10 TESES DA MARCA
 
@@ -1005,7 +1028,7 @@ O Mapeamento entra porque a pessoa começou a perceber alguma recorrência e des
 - “Existe alguma dinâmica parecida?”
 - “O que merece atenção primeiro?”
 
-> **A maior oportunidade editorial não é ensinar “padrões” ao público. É tornar visível o movimento anterior.**
+> **A maior oportunidade editorial é tornar reconhecível a dificuldade de avançar, realizar ou sustentar mudanças. A investigação do movimento anterior pertence ao trabalho pertinente.**
 
 ---
 
@@ -1021,6 +1044,9 @@ A planilha é a fonte operacional para volume, CPC, competição, prioridade e c
 
 ## 12.2. Quatro portas
 
+
+**Escopo V1.1:** conteúdo orgânico inicial não exige destino comercial. A intenção técnica ou comercial pode ter página própria quando a oferta estiver autorizada. Não converter busca por dificuldade em diagnóstico ou promessa de intervenção.
+
 | Porta | Exemplo de linguagem | Função editorial | Próximo passo natural |
 |---|---|---|---|
 | Técnica | mesa radiônica, Sintonize, radiestesia | educar e capturar intenção pronta | Sintonize quando publicada |
@@ -1030,15 +1056,15 @@ A planilha é a fonte operacional para volume, CPC, competição, prioridade e c
 
 ## 12.3. Regra para conteúdo orgânico
 
-A existência de keyword **não revoga Percepção Antes da Explicação**.
 
-Mesmo quando o termo principal é “bloqueio financeiro”, um Short pode começar pela cena:
+A keyword não altera o território nem obriga execução do Método. Uma busca por dificuldade financeira pode ser respondida pela experiência de quem já se reorganizou, melhorou a renda e continua sem realizar planos antigos.
 
-> “O salário aumentou. Por que o imprevisto ainda produz a mesma reação?”
-
-A keyword pode entrar no título, descrição, pergunta ou contexto, sem precisar virar rótulo na primeira frase.
+A busca abre a conversa; a cena, as consequências e a possibilidade sustentam o reconhecimento. Não transformar uma busca em tutorial genérico e acrescentar padrões apenas no fim. Termos técnicos de Sintonize ou Método pertencem a conteúdo especializado autorizado; não são obrigação do ciclo inicial.
 
 ## 12.4. Regra para copy e página
+
+
+**Escopo V1.1:** conteúdo orgânico inicial não exige destino comercial. A intenção técnica ou comercial pode ter página própria quando a oferta estiver autorizada. Não converter busca por dificuldade em diagnóstico ou promessa de intervenção.
 
 Em páginas de alta intenção, a ordem pode ser mais explícita:
 
@@ -1178,4 +1204,4 @@ Novas cenas, objeções, frases internas, ganchos e famílias vencedoras podem s
 
 ---
 
-**Fim do Documento 03.B — Mapa Editorial Mestre — V1.2.**
+**Fim do Documento 03.B — Mapa Editorial Mestre — V1.3.**

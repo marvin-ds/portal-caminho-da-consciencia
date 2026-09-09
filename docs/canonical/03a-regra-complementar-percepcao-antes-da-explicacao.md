@@ -1,237 +1,124 @@
 # PORTAL CAMINHO DA CONSCIÊNCIA
-## Documento 03.A — Regra Complementar de Arquitetura de Conteúdo — Percepção Antes da Explicação — V1.0
+## Documento 03.A — Regra Complementar de Arquitetura de Conteúdo — Percepção Antes da Explicação — V1.1
 
-**STATUS CANÔNICO:** regra editorial complementar ao Documento 03  
-**DATA:** 01/09/2026  
-**DOCUMENTO-PAI:** Documento 03 — Sistema Editorial, Aquisição e Experimentação — V2.0  
-**DOCUMENTOS SUPERIORES:** Documento 00 — Matriz de Governança Conceitual, Propriedade Intelectual e Posicionamento — V1.0; Documento 01 — Fundacional, Estratégico e Plano Executivo Canônico — V4.0  
-**DOCUMENTO RELACIONADO:** Documento 04 — Identidade, Voz, Espiritualidade e Diretrizes de Comunicação — V2.0  
-**FUNÇÃO CANÔNICA:** esclarecer que a arquitetura psicológica do conteúdo descreve a progressão de percepção desejada, sem impor uma sequência rígida de roteiro.
+**STATUS DA REVISÃO:** versão documental revisada; incorporação ao repositório e produção não confirmada
+**DATA DA REVISÃO:** 09/09/2026
+**REGRA EDITORIAL OBRIGATÓRIA:** Diretriz Editorial Complementar — Território de Transformação e Descobrir/Reconhecer — V1.1
 
-> **NOTA DE INTEGRIDADE:** o conteúdo normativo fornecido por Marcos para este Documento 03.A está reproduzido abaixo na íntegra, sem alteração de palavras, frases, exemplos, ordem ou conteúdo. Esta versão apenas acrescenta estrutura documental, enquadramento canônico e formatação compatível com os demais documentos do Portal.
+
+**STATUS:** revisão documental para incorporação ao pacote canônico
+**DATA:** 09/09/2026
+**DOCUMENTO-PAI:** Documento 03 — Sistema Editorial, Aquisição e Experimentação — V2.3
+**DOCUMENTOS SUPERIORES:** Documento 00 — V1.4; Documento 01 — V4.6
+**DOCUMENTO RELACIONADO:** Documento 04 — V2.4
+**REGRA COMPLEMENTAR OBRIGATÓRIA:** Diretriz Editorial Complementar — Território de Transformação e Descobrir/Reconhecer — V1.1
+**FUNÇÃO CANÔNICA:** orientar o reconhecimento e a ordem da explicação sem transformar aquisição em execução do Método.
+
+> **A pessoa reconhece a própria vida antes de receber uma explicação. O conteúdo não precisa ensinar a sequência nem executar uma prática para ter valor.**
 
 ---
 
 # PARTE ÚNICA — REGRA COMPLEMENTAR
 
-PORTAL CAMINHO DA CONSCIÊNCIA
-
 ## Regra Complementar de Arquitetura de Conteúdo — Percepção Antes da Explicação
 
-**STATUS:** regra editorial complementar
-**FUNÇÃO:** impedir que a arquitetura psicológica do público seja transformada em uma fórmula rígida e previsível de roteiro.
-
-> **A arquitetura explica o que queremos provocar na mente da pessoa. Ela não determina obrigatoriamente a ordem das frases do conteúdo.**
-
----
+A regra de percepção antes da explicação continua válida, agora subordinada à fronteira entre conteúdo e trabalho estruturado. Percepção significa também reconhecer uma dor, uma contradição, uma consequência ou a importância de buscar ajuda. Não significa necessariamente localizar o começo de uma sequência.
 
 ## 1. Regra central
 
-O conteúdo do Portal não deve seguir mecanicamente:
+> **O conteúdo ajuda a pessoa a descobrir e reconhecer o que vive, compreender por que aquilo merece atenção e perceber que existe um caminho possível. Ele não precisa conduzi-la à aplicação do Método nem executar a etapa de trabalho.**
 
-> **Dor → Cena → Emoção → Comportamento → Repetição → Padrão**
+A dificuldade concreta abre a conversa. O território do Portal é a dificuldade de avançar, realizar, mudar ou sustentar mudanças, especialmente depois de tentativas anteriores. A peça pode abrir espaço para padrões automáticos, crenças, medos, respostas aprendidas e possibilidades espirituais sem presumir uma causa.
 
-como se toda peça precisasse começar nomeando o problema.
-A pessoa pode reconhecer uma dor antes de assistir ao conteúdo.
-Mas o conteúdo pode começar diretamente pelo:
-
-- momento;
-- gesto;
-- objeto;
-- pensamento;
-- silêncio;
-- adiamento;
-- escolha;
-- recuo;
-- excesso;
-- hábito;
-- comportamento anterior ao problema.
-
-Em muitos casos, **a cena deve produzir o reconhecimento antes que o Portal diga qual é a dor**.
-
----
+Não transformar o tema em uma aula genérica de educação financeira, carreira, produtividade, relacionamentos ou bem-estar. A solução prática pode ser pertinente, mas não substitui o eixo de transformação. Também não basta acrescentar “pode ser um padrão” ao final de uma peça de dicas.
 
 ## 2. Arquitetura psicológica
 
-A progressão de percepção que queremos favorecer é:
+A progressão de compreensão e desejo é:
 
-1. **Dor reconhecida** — “Isso está acontecendo comigo.”
-2. **Cena concreta** — “É exatamente assim que acontece.”
-3. **Emoção** — “É assim que eu me sinto.”
-4. **Movimento anterior** — “Espera. Eu faço isso?”
-5. **Repetição** — “Eu já fiz isso antes.”
-6. **Conexão** — “Será que faço algo parecido em outras áreas?”
-7. **Nova percepção** — “Talvez o que eu vejo seja apenas a parte final.”
-8. **Desejo** — “Quero entender melhor isso no meu caso.”
+**Vida concreta / dor visceral → reconhecimento da dor emocional → consequências e repetição → sensação de travamento → conexão → consciência da importância do problema → possibilidade de ação → próximo passo.**
 
-Essa é uma **arquitetura de consciência**, não uma ordem obrigatória de roteiro.
-
----
+Não é sequência obrigatória. Uma peça pode trabalhar somente um movimento. O reconhecimento pode surgir de uma cena, pergunta, contraste, história ou possibilidade concreta. A percepção de repetição não exige que o público reconstrua episódios, identifique um primeiro movimento ou execute uma técnica.
 
 ## 3. Arquitetura editorial preferencial
 
-Especialmente em conteúdos de aquisição:
+Começar pela situação que a audiência reconhece. Desenvolver a contradição e suas consequências quando ajudarem a compreensão. Abrir uma possibilidade responsável e encerrar com um próximo passo coerente.
 
-> **CENA / GESTO / FRASE INTERNA → TENSÃO → MOVIMENTO ANTERIOR → REPETIÇÃO → EXPANSÃO → NOVA PERCEPÇÃO → PRÓXIMO PASSO**
+Exemplo financeiro: “Você recebeu um aumento, pensou que agora conseguiria realizar aquele plano e, meses depois, continua adiando. O que torna essa sensação tão frustrante?” A conversa pode explorar medo, autoimagem, hábitos e outras possibilidades sem concluir qual delas explica o caso.
 
-Outra possibilidade:
+Exemplo de trabalho: “Você conhece seu projeto, já fez cursos, mas continua adiando a hora de colocá-lo no mundo.” Não transformar automaticamente a peça em tutorial de produtividade.
 
-> **COMPORTAMENTO → CONSEQUÊNCIA → REPETIÇÃO → PERGUNTA**
-
-Outra:
-
-> **FRASE INTERNA → CENA → CONTRADIÇÃO → EXPANSÃO**
-
-Outra:
-
-> **RESULTADO VISÍVEL → “O QUE ACONTECE ANTES?” → REPETIÇÃO → CONEXÃO**
-
-A ordem deve servir ao reconhecimento, não à fórmula.
-
----
+Exemplo de relacionamento: “Você já tentou conversar de outra forma, mas parece que a mesma dificuldade volta.” Não presumir trauma, culpa ou um padrão específico.
 
 ## 4. Big Idea estrutural
 
-> **O problema aparece no final. O padrão começa antes.**
+**O cenário pode melhorar e a dificuldade continuar. Compreender o que se repete ou permanece pode abrir possibilidades de mudança.**
 
-“Padrão” não significa que o Portal conhece uma causa secreta ou definitiva.
-Significa que podem existir **sequências recorrentes de respostas, escolhas, silêncios, adiamentos, excessos, abandonos ou recuos** que merecem ser observadas.
-O conteúdo deve ajudar a pessoa a perceber essas sequências.
-Não decretá-las por ela.
-
----
+Essa é uma hipótese de território, não uma explicação causal universal. O Método pode organizar um caso; outras práticas ou modalidades podem ser pertinentes. O conteúdo não precisa apresentar todas elas.
 
 ## 5. Dor como porta de entrada
 
-Não precisamos escolher entre falar de:
+A dor deve ser concreta: o plano antigo que continua adiado, a oportunidade que passa, a conversa que não acontece, o projeto que não sai, a conquista que não traz a segurança esperada.
 
-- dinheiro;
-- relacionamento;
-- trabalho;
-- projetos;
-- família;
-- rotina;
-- autocuidado;
-- solidão;
-- medo;
-- segurança;
+O foco não é presumir falta de renda, disciplina, capacidade ou vontade. A pessoa pode já ter condições, informação e tentativas anteriores. Reconhecer obstáculos externos continua obrigatório.
 
-ou falar de padrões.
-
-> **Falamos da dor para chegar à percepção do padrão.**
-
-A dor é a porta.
-A cena produz reconhecimento.
-A emoção aumenta relevância.
-O comportamento produz auto-observação.
-A repetição produz curiosidade.
-A conexão produz expansão.
-O padrão organiza a percepção.
-O Mapeamento oferece um próximo passo possível.
-
----
+A dor abre a porta; a emoção torna a experiência relevante; a repetição pode ampliar a pergunta; a possibilidade mostra que existe um caminho. O próximo passo não é automaticamente o Mapeamento nem o Método.
 
 ## 6. Regra da descoberta
 
-> **Não explicar cedo demais.**
-> **Não nomear cedo demais.**
-> **Não ensinar cedo demais.**
-> **Fazer a pessoa perceber primeiro.**
+> **Não explicar cedo demais. Não nomear uma causa antes de conhecer o caso. Não transformar reconhecimento em exercício obrigatório.**
 
-Sempre que possível, o público deve realizar parte da descoberta sozinho.
-Preferir:
+Preferir uma pergunta que ajude a pessoa a reconhecer o que vive:
+“Você já conseguiu melhorar a renda e, mesmo assim, sentiu que seus planos continuavam no mesmo lugar?”
 
-> “Quantas vezes antes dessa discussão você quis falar alguma coisa e ficou quieta?”
+Em vez de concluir:
+“Você tem um padrão financeiro que impede sua prosperidade.”
 
-a:
-
-> “Você tem um padrão de silenciamento nos relacionamentos.”
-
-Preferir:
-
-> “Quando percebe que o mês apertou, o que você faz primeiro?”
-
-a:
-
-> “Seu padrão financeiro é evitar o problema.”
-
----
+Para uma peça específica sobre o Método, perguntas sobre sequência e movimento anterior podem ser explicadas com contexto. Na aquisição inicial, não são o fechamento padrão.
 
 ## 7. Regra de causalidade
 
-Observar um comportamento recorrente não significa afirmar que ele causou o resultado.
-O Portal pode dizer:
+Repetição não prova causa. Uma resposta emocional ou comportamental pode ser relevante sem explicar sozinha o resultado. Não presumir bloqueio, crença, trauma, energia estagnada ou responsabilidade pessoal por dificuldades externas.
 
-> “Isso acontece antes?”
-
-> “Você reconhece essa sequência?”
-
-> “Já aconteceu de forma parecida?”
-
-> “Onde mais isso aparece?”
-
-O Portal não deve concluir automaticamente:
-
-> “Isso acontece por causa disso.”
-
-A função é **ampliar percepção**, não fabricar causalidade.
-
----
+A espiritualidade pode ser apresentada como dimensão de sentido, intenção e prática, respeitando a metodologia e a crença da pessoa. Não apresentar mecanismos espirituais como eficácia científica comprovada nem prometer resultados materiais.
 
 ## 8. Teste final de qualquer conteúdo
 
-Antes de publicar, perguntar:
-**1. A peça começa perto demais de um conceito?**
-**2. Estou dizendo à pessoa o padrão antes de permitir que ela o perceba?**
-**3. Existe uma cena, gesto, pensamento ou comportamento observável?**
-**4. A pessoa consegue pensar “eu faço isso” antes de ouvir nossa explicação?**
-**5. Estamos provocando descoberta ou dando uma aula cedo demais?**
-**6. A conexão com o Método Padrão Interrompido surge naturalmente ou foi forçada?**
-Se o conteúdo explica antes de fazer perceber, ele deve ser reescrito.
+Antes de publicar, verificar:
+1. A situação é reconhecível para quem não conhece o Portal?
+2. A peça está no território de transformação, e não apenas em dicas genéricas?
+3. Se a pessoa já tentou, estudou ou melhorou suas condições, a conversa continua fazendo sentido?
+4. A emoção e as consequências são reais e proporcionais?
+5. Estamos presumindo uma causa interna, espiritual ou externa?
+6. O conteúdo exige reconstrução de sequência, exercício ou aplicação do Método sem intenção específica?
+7. O próximo passo é coerente, concreto e não necessariamente comercial?
+8. A fala soa como Marcos conversando, sem fórmula ou promessa?
+9. A peça respeita o estágio editorial vigente e os limites de autoria e competência?
 
----
+Se a resposta revelar desvio, corrigir o eixo da peça, não apenas o fechamento.
 
 ## Síntese canônica
 
-> **A dor abre a porta.**
-> **A vida concreta prende a atenção.**
-> **A observação revela o movimento.**
-> **A repetição cria a pergunta.**
-> **A conexão amplia a consciência.**
-> **O padrão recebe nome depois que começa a ser percebido.**
-> **O próximo passo nasce do desejo de compreender melhor o próprio caso.**
+**A vida concreta abre a conversa. O reconhecimento dá importância à dificuldade. A repetição pode ampliar a compreensão. O território do Portal oferece possibilidades de trabalho. A investigação e a execução pertencem às experiências pertinentes.**
 
-**Percepção antes da explicação.**
-**Descoberta antes da metodologia.**
+**Percepção antes da explicação. Descoberta e reconhecimento antes do trabalho estruturado.**
 
 ---
 
 # Governança do Documento 03.A
 
-Este documento complementa o Documento 03 — Sistema Editorial, Aquisição e Experimentação — V2.0 e deve ser lido em conjunto com ele.
-
-No escopo específico da **ordem psicológica versus ordem de roteiro**, este Documento 03.A funciona como regra interpretativa: sequências descritas nos documentos editoriais representam a progressão de percepção que se deseja favorecer, e não uma obrigação de começar toda peça pela nomeação da dor ou seguir uma fórmula fixa.
-
-Este documento não altera:
-
-- claims e limites de comunicação definidos nos Documentos 00 e 04;
-- a separação entre Portal, Método Padrão Interrompido e metodologias de terceiros;
-- as regras de propriedade intelectual;
-- o TOM MARCOS;
-- a necessidade de vida concreta, especificidade e causalidade responsável;
-- a arquitetura de aquisição, mensuração ou produto definida nos demais documentos canônicos.
+Este documento complementa o Documento 03 V2.3 e aplica a Diretriz V1.1. Não altera a hierarquia de autoria, os contratos de produtos, as regras de propriedade intelectual, o TOM MARCOS ou a arquitetura técnica. A estratégia comercial continua válida em seu escopo, mas não governa automaticamente o conteúdo orgânico inicial.
 
 ## Regra de uso por humanos e agentes de IA
 
-Sempre que uma tarefa envolver roteiro, hook, Short, vídeo longo, anúncio, conteúdo de aquisição ou transformação de uma dor em peça editorial, este Documento 03.A deve ser consultado junto ao Documento 03.
-
-A existência de uma arquitetura psicológica nunca autoriza o agente a produzir conteúdo mecânico. A ordem final deve servir ao reconhecimento, à descoberta e à naturalidade da peça.
+Consultar a Diretriz V1.1 e o Documento 03 antes de gerar roteiros, hooks, legendas, anúncios ou pautas. Identificar primeiro a finalidade: reconhecimento público, conteúdo especializado, página de oferta ou trabalho de produto. Se a instrução antiga exigir exercício, sequência ou venda em peça de reconhecimento, aplicar a nova fronteira. Não reproduzir a antiga fórmula por inércia.
 
 ## Controle de versão
 
-**VERSÃO:** V1.0  
-**DATA:** 01/09/2026  
-**MOTIVO:** formalização da regra complementar “Percepção Antes da Explicação” como Documento 03.A.  
-**IMPACTO:** roteiros, prompts, auditorias editoriais, Shorts, vídeos longos, anúncios e demais peças de aquisição.
+**VERSÃO:** V1.1
+**DATA:** 09/09/2026
+**MOTIVO:** incorporação do território transversal de transformação e da separação Descobrir/Reconhecer.
+**IMPACTO:** roteiros, prompts, auditorias, bancos, calendários e comunicação.
+**PRESERVAÇÃO:** V1.0 mantida no arquivo de originais; nenhuma publicação ou alteração de produto é declarada.
 
-> **Fim do Documento 03.A — Regra Complementar de Arquitetura de Conteúdo — Percepção Antes da Explicação — V1.0.**
+> **Fim do Documento 03.A — Regra Complementar de Arquitetura de Conteúdo — Percepção Antes da Explicação — V1.1.**
