@@ -1,7 +1,7 @@
 # PORTAL CAMINHO DA CONSCIÊNCIA
 ## Documento 06 — CURRENT, Decisões e Plano Operacional Vivo — V2.11
 
-**REGRA EDITORIAL OBRIGATÓRIA:** Diretriz Editorial Complementar — Território de Transformação e Descobrir/Reconhecer — V1.1  
+**REGRA EDITORIAL OBRIGATÓRIA:** Diretriz Editorial Complementar — Território de Transformação e Descobrir/Reconhecer — V1.3  
 **STATUS:** documento operacional vivo  
 **DATA DE CORTE:** 09/09/2026  
 **HORIZONTE:** estado atual + próximos 7–14 dias  
@@ -283,7 +283,7 @@ Porta 2 permanece forte para conversão; Porta 1 pode captar intenção direta p
 | 04 — Identidade e Comunicação | **V2.4** | atualizado DOC-SYNC 09/09/2026 |
 | 05 — Arquitetura Técnica | **V2.3** | atualizado DOC-SYNC 09/09/2026 |
 | 06 — CURRENT | **V2.11** | este arquivo |
-| Diretriz — Território de Transformação e Descobrir/Reconhecer | **V1.1** | novo — DOC-SYNC 09/09/2026 |
+| Diretriz — Território de Transformação e Descobrir/Reconhecer | **V1.3** | atualizado 09/09/2026 — substitui V1.1 no direcionamento editorial |
 
 **SPEC transversal vigente:** Plataforma da Jornada **Meu Caminho** — Arquitetura de Execução Aprovada — **V1.1**.
 
