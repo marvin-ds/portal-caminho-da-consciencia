@@ -1,13 +1,18 @@
 # PORTAL CAMINHO DA CONSCIÊNCIA
 ## Documento 00 — Matriz de Governança Conceitual, Propriedade Intelectual e Posicionamento
-**Documento Canônico Transversal V1.3 — 04/09/2026**
+
+**STATUS DA REVISÃO:** versão documental revisada; incorporação ao repositório e produção não confirmada
+**DATA DA REVISÃO:** 09/09/2026
+**REGRA EDITORIAL OBRIGATÓRIA:** Diretriz Editorial Complementar — Território de Transformação e Descobrir/Reconhecer — V1.1
+
+**Documento Canônico Transversal V1.4 — 04/09/2026**
 
 > “O que é nosso. O que vem de uma formação específica. O que pode ser público. O que precisa permanecer interno. E de que lugar Marcos fala.”
 
 **STATUS:** canônico transversal / chave de leitura dos Documentos 01–06  
 **FUNÇÃO:** impedir mistura de marca, método próprio, técnica de terceiros, propriedade intelectual, linguagem pública e operação interna  
 **MOMENTO:** revisão estratégica após consolidação do Método Padrão Interrompido 2.0, da nova Jornada do Portal e, em 04/09/2026, formalização da Sessão Individual Sintonize Prosperidade como oferta separada em piloto, com formato assíncrono como padrão e atendimento ao vivo opcional
-**SUBSTITUI:** Documento 00 — V1.2
+**SUBSTITUI:** Documento 00 — V1.3
 
 ---
 
@@ -190,6 +195,9 @@ Pertencem ao Padrão Interrompido:
 - formatos próprios de devolutiva, prática e reavaliação.
 
 ## 4.4. Territórios autorais provisórios
+
+
+Os territórios da vida são portas de reconhecimento, não especialidades de aconselhamento prático. Padrões, crenças, medos, respostas aprendidas e possibilidades espirituais são hipóteses de trabalho, não diagnósticos. O mapa autoral continua provisório e separado das oito dimensões oficiais da Sintonize.
 
 O método pode utilizar, em fase de validação, seis **Territórios da Vida Real**:
 
@@ -643,6 +651,15 @@ A palavra **bloqueio** é permitida como linguagem de percepção, de busca ou d
 
 # 13. Conteúdo editorial: como usar a formação sem copiar a formação
 
+
+**O Portal trabalha dificuldades que se repetem ou permanecem na vida real, especialmente quando a pessoa já tentou mudar e continua sentindo que não consegue avançar.** A dificuldade concreta abre a conversa; o aprofundamento pode envolver padrões automáticos, crenças, medos, respostas aprendidas, autoimagem, evitação, conflitos internos e possibilidades espirituais. Não presumir causa.
+
+A correção financeira vale para todas as áreas: não transformar o canal em educação financeira, carreira, produtividade, aconselhamento amoroso ou dicas genéricas de bem-estar. A pessoa pode já ter conhecimento, condições e tentativas anteriores. O eixo é a distância entre o que deseja realizar e o que consegue sustentar. Não basta acrescentar uma frase sobre padrões no fechamento.
+
+**DESCOBRIR → RECONHECER** é o escopo do conteúdo público. **MAPEAR → TRABALHAR → INTEGRAR → APROFUNDAR** pertence aos produtos e experiências pertinentes. O próximo passo pode ser compreender melhor, buscar apoio ou conhecer uma possibilidade; não é obrigatoriamente exercício, método ou compra.
+
+O repertório possível inclui Método Padrão Interrompido, auto-hipnose, meditação e atenção plena, visualização e ensaio mental, escrita guiada, ações comportamentais concretas, recursos simples de autorregulação, práticas espirituais legítimas, Sintonize Prosperidade, acompanhamento e reavaliação. A escolha depende do caso, competência, consentimento, finalidade e validação. Não são novos produtos automaticamente aprovados; nenhuma técnica resolve universalmente uma dificuldade. A Sintonize é metodologia de terceiros e não autoriza reprodução de protocolos, diagnóstico energético ou promessa material.
+
 ## 13.1. A formação pode inspirar temas
 
 Os materiais são uma fonte rica de temas como:
@@ -954,11 +971,11 @@ Se qualquer resposta estiver obscura, a ideia não está pronta para publicaçã
 
 Esta revisão foi sincronizada com:
 
-- **Documento 01 — V4.3:** estratégia e esteira econômica;
-- **Documento 02 — V2.3:** jornada, produto Sintonize, formatos e gates;
-- **Documento 04 — V2.3:** comunicação, claims, assíncrono × ao vivo e Perguntas Divinas;
-- **Documento 05 — V2.1:** fronteira entre Mesa manual e suporte digital administrativo;
-- **Documento 06 — CURRENT V2.3:** estado operacional e prioridades.
+- **Documento 01 — V4.6:** estratégia e esteira econômica;
+- **Documento 02 — V2.6:** jornada, produto Sintonize, formatos e gates;
+- **Documento 04 — V2.4:** comunicação, claims, assíncrono × ao vivo e Perguntas Divinas;
+- **Documento 05 — V2.3:** fronteira entre Mesa manual e suporte digital administrativo;
+- **Documento 06 — CURRENT V2.6:** estado operacional e prioridades.
 
 Os Documentos 03/03.A–03.F permanecem válidos. Eles só precisarão de revisão específica se a mudança de estado da Sintonize para `live` exigir nova página, campanha ou regra editorial não coberta pelos frameworks atuais.
 
@@ -986,25 +1003,12 @@ Pontos de fundamentação especialmente relevantes na apostila:
 
 # 22. Síntese canônica
 
-A regra que deve sobreviver a qualquer expansão futura é:
 
-> **O Portal Caminho da Consciência é a casa.**  
-> **O Padrão Interrompido é o método autoral.**  
-> **A Sequência Recorrente Observável é a unidade prática.**  
-> **O Ponto de Interrupção é o mecanismo central de trabalho.**  
-> **O Mapeamento organiza o caso.**  
-> **A Sintonize Prosperidade é metodologia de sua fonte e pode sustentar uma oferta própria do Portal ou uma intervenção opcional dentro da jornada.**  
-> **Produtos autoguiados podem resolver dores específicas e preparar próximos passos.**  
-> **O Ciclo Padrão Interrompido transforma o método completo em experiência guiada.**  
-> **A reavaliação protege o Portal de certeza cega e de dependência.**
+**Portal Caminho da Consciência é a marca e a jornada. Método Padrão Interrompido é estrutura autoral. Sintonize Prosperidade é metodologia específica de terceiros.**
 
-Na aquisição comercial:
+O território transversal é a dificuldade de avançar, realizar, mudar ou sustentar mudanças, especialmente após tentativas anteriores. Conteúdo público trabalha Descobrir/Reconhecer; produtos executam o trabalho pertinente. A escolha de ferramenta não é automática.
 
-> **dor visceral primeiro; sensação de travamento depois; repetição como descoberta; método e ferramenta entram quando ajudam a pessoa a avançar.**
-
-E, para qualquer conteúdo, produto ou sistema:
-
-> **clareza de autoria, respeito à fonte, linguagem humana, responsabilidade, ação concreta e reavaliação vêm antes de sofisticação comercial ou tecnológica.**
+Preservar autoria, licença, consentimento, privacidade, competência e limites de claims. Não diagnosticar bloqueio, crença ou causa espiritual; não prometer resultados materiais ou clínicos. A Diretriz V1.1 governa o escopo editorial, sem alterar contratos de produto ou direitos de terceiros.
 
 # 23. Controle de versão — V1.3
 
@@ -1014,4 +1018,4 @@ E, para qualquer conteúdo, produto ou sistema:
 **MOTIVO:** incorporar a autorização de uso informada por Marcos e a definição da Sessão Individual Sintonize Prosperidade como oferta separada, assíncrona por padrão, com modalidade ao vivo opcional, duas rotas de entrada e governança para futuros protocolos derivados.  
 **IMPACTO:** autoria, PI, arquitetura de oferta Sintonize, relação com Mapeamento, comunicação, operação e tecnologia.
 
-**Fim do Documento 00 — Matriz de Governança Conceitual, Propriedade Intelectual e Posicionamento — V1.3.**
+**Fim do Documento 00 — Matriz de Governança Conceitual, Propriedade Intelectual e Posicionamento — V1.4.**
