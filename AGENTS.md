@@ -111,7 +111,9 @@ alterar card / status / link da Home
 ## DOCUMENTOS DE REFERÊNCIA
 
 - `CLAUDE.md` — instruções para Claude Code
+- `docs/canonical/MAPA-00 — Índice Mestre e Estado Documental do Projeto.md` — ponto inicial para decisões estruturais
+- `docs/canonical/CANON-00` a `docs/canonical/CANON-07` — fonte normativa vigente do Portal Caminho da Consciência
 - `docs/operations/CURRENT.md` — estado operacional
 - `docs/operations/SITE_INSTITUCIONAL_BASELINE.md` — baseline protegida
 - `docs/operations/EXECUTION_CONTEXT_AND_SITE_GUARDRAILS.md` — guardrails completos
-- `docs/canonical/` — documentos canônicos 00–05
+- `docs/reference/pending-review/` — referências legadas sem autoridade canônica, preservadas para auditoria futura
