@@ -50,7 +50,7 @@
   <link rel="preload" href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:ital,wght@0,300;0,400;0,500;0,600;0,700;1,300;1,400;1,500&family=Manrope:wght@400;500;600&display=swap" as="style" onload="this.onload=null;this.rel='stylesheet'" />
   <noscript><link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:ital,wght@0,300;0,400;0,500;0,600;0,700;1,300;1,400;1,500&family=Manrope:wght@400;500;600&display=swap" /></noscript>
 
-  <!-- Consent Mode v2 — denied por padrão; concede apenas se pcc_consent === 'granted' -->
+  <!-- Consent Mode v2 — denied por padrão; concede apenas se portal_consent === 'granted' -->
   <script>
     window.dataLayer = window.dataLayer || [];
     function gtag(){dataLayer.push(arguments);}
@@ -63,7 +63,7 @@
     });
     (function(){
       try {
-        if (localStorage.getItem('pcc_consent') === 'granted') {
+        if (localStorage.getItem('portal_consent') === 'granted') {
           gtag('consent','update',{
             analytics_storage:  'granted',
             ad_storage:         'granted',
@@ -82,7 +82,7 @@
   'https://www.googletagmanager.com/gtm.js?id='+i+dl;f.parentNode.insertBefore(j,f);
   })(window,document,'script','dataLayer','GTM-WC2C397G');</script>
 
-  <!-- Meta Pixel — carregado condicionalmente via initMetaPixels() quando pcc_consent === 'granted' -->
+  <!-- Meta Pixel — carregado condicionalmente via initMetaPixels() quando portal_consent === 'granted' -->
 
   <style>
     *, *::before, *::after { box-sizing: border-box; margin: 0; padding: 0; }
@@ -947,7 +947,7 @@
     }
 
     /* ── Cookie Banner ──────────────────────────────── */
-    #pcc-banner {
+    #portal-banner {
       position: fixed; bottom: 0; left: 0; right: 0; z-index: 9999;
       background: #141230;
       border-top: 1px solid rgba(201,162,93,0.25);
@@ -964,10 +964,10 @@
       transform: translateY(100%);
       transition: transform 0.35s ease;
     }
-    #pcc-banner.pcc-visible { transform: translateY(0); }
-    #pcc-banner a { color: var(--dourado); }
-    .pcc-btns { display: flex; gap: 0.6rem; flex-wrap: wrap; }
-    .pcc-btn {
+    #portal-banner.portal-visible { transform: translateY(0); }
+    #portal-banner a { color: var(--dourado); }
+    .portal-btns { display: flex; gap: 0.6rem; flex-wrap: wrap; }
+    .portal-btn {
       padding: 0.55rem 1rem;
       border-radius: 5px;
       font-size: 0.875rem;
@@ -976,8 +976,8 @@
       border: 1.5px solid var(--dourado);
       font-weight: 500;
     }
-    .pcc-btn--accept { background: var(--dourado); color: #141230; }
-    .pcc-btn--decline { background: transparent; color: rgba(243,234,218,0.75); border-color: rgba(201,162,93,0.4); }
+    .portal-btn--accept { background: var(--dourado); color: #141230; }
+    .portal-btn--decline { background: transparent; color: rgba(243,234,218,0.75); border-color: rgba(201,162,93,0.4); }
 
     /* ── Responsive ─────────────────────────────────── */
     @media (min-width: 640px) {
@@ -1693,8 +1693,8 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
     var OFFER_CUR  = 'BRL';
 
     function initMetaPixels() {
-      if (window.__pccMetaInitialized) return;
-      window.__pccMetaInitialized = true;
+      if (window.__portalMetaInitialized) return;
+      window.__portalMetaInitialized = true;
       !function(f,b,e,v,n,t,s)
       {if(f.fbq)return;n=f.fbq=function(){n.callMethod?
       n.callMethod.apply(n,arguments):n.queue.push(arguments)};
@@ -1713,7 +1713,7 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
       }, utms));
     }
     window.__initMetaPixels = initMetaPixels;
-    try { if (localStorage.getItem('pcc_consent') === 'granted') { initMetaPixels(); } } catch(e) {}
+    try { if (localStorage.getItem('portal_consent') === 'granted') { initMetaPixels(); } } catch(e) {}
 
     dataLayer.push({
       event: 'session_context',
@@ -1787,7 +1787,7 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
 
       if (el.classList.contains('js-cta')) {
         var local = el.getAttribute('data-local') || 'unknown';
-        if (localStorage.getItem('pcc_consent') === 'granted' && typeof fbq === 'function') {
+        if (localStorage.getItem('portal_consent') === 'granted' && typeof fbq === 'function') {
           fbq('trackCustom', 'offer_cta_click', { local: local });
         }
         dataLayer.push({
@@ -1802,7 +1802,7 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
 
       if (el.classList.contains('js-whatsapp')) {
         var wLocal = el.getAttribute('data-local') || 'unknown';
-        if (localStorage.getItem('pcc_consent') === 'granted' && typeof fbq === 'function') {
+        if (localStorage.getItem('portal_consent') === 'granted' && typeof fbq === 'function') {
           fbq('trackCustom', 'whatsapp_click', { local: wLocal });
         }
         dataLayer.push({
@@ -1836,22 +1836,22 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
 </script>
 
 <!-- Cookie Consent Banner -->
-<div id="pcc-banner" role="region" aria-label="Aviso de cookies" hidden>
+<div id="portal-banner" role="region" aria-label="Aviso de cookies" hidden>
   <p>
     Este site usa cookies para análise e desempenho.
     Ao continuar, você concorda com nossa
     <a href="/politica-de-privacidade.html" aria-label="Política de privacidade">Política de Privacidade</a>.
   </p>
-  <div class="pcc-btns">
-    <button class="pcc-btn pcc-btn--decline" id="pcc-decline">Recusar cookies</button>
-    <button class="pcc-btn pcc-btn--accept" id="pcc-accept">Aceitar</button>
+  <div class="portal-btns">
+    <button class="portal-btn portal-btn--decline" id="portal-decline">Recusar cookies</button>
+    <button class="portal-btn portal-btn--accept" id="portal-accept">Aceitar</button>
   </div>
 </div>
 
 <script>
   (function () {
-    var STORAGE_KEY = 'pcc_consent';
-    var banner = document.getElementById('pcc-banner');
+    var STORAGE_KEY = 'portal_consent';
+    var banner = document.getElementById('portal-banner');
 
     function applyConsent(state) {
       gtag('consent', 'update', {
@@ -1863,24 +1863,24 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
     }
 
     function hideBanner() {
-      banner.classList.remove('pcc-visible');
+      banner.classList.remove('portal-visible');
       setTimeout(function () { banner.hidden = true; }, 400);
     }
 
     function showBanner() {
       banner.hidden = false;
-      setTimeout(function () { banner.classList.add('pcc-visible'); }, 50);
+      setTimeout(function () { banner.classList.add('portal-visible'); }, 50);
     }
     window.__showConsentBanner = showBanner;
 
-    document.getElementById('pcc-accept').addEventListener('click', function () {
+    document.getElementById('portal-accept').addEventListener('click', function () {
       try { localStorage.setItem(STORAGE_KEY, 'granted'); } catch(e) {}
       applyConsent('granted');
       hideBanner();
       try { if (window.__initMetaPixels) window.__initMetaPixels(); } catch(e) {}
     });
 
-    document.getElementById('pcc-decline').addEventListener('click', function () {
+    document.getElementById('portal-decline').addEventListener('click', function () {
       var prev;
       try { prev = localStorage.getItem(STORAGE_KEY); } catch(e) { prev = null; }
       try { localStorage.setItem(STORAGE_KEY, 'denied'); } catch(e) {}
@@ -1901,7 +1901,7 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
 
     if (stored !== 'granted' && stored !== 'denied') {
       banner.hidden = false;
-      setTimeout(function () { banner.classList.add('pcc-visible'); }, 1500);
+      setTimeout(function () { banner.classList.add('portal-visible'); }, 1500);
     }
   })();
 </script>
