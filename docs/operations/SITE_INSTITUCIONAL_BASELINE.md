@@ -39,7 +39,7 @@
 - GA4
 - Meta Pixel
 - Consent Mode v2
-- Preferências de cookies (`#btn-pref-cookies` / `#pcc-banner`)
+- Preferências de cookies (`#btn-pref-cookies` / `#portal-banner`)
 - Canonical tags
 - OG / Open Graph
 - JSON-LD / Schema.org
