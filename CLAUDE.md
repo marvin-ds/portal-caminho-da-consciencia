@@ -41,6 +41,16 @@ A fonte normativa vigente é `CANON-00` a `CANON-07`, mantida em `docs/canonical
 | `CANON-06 — Ética, Segurança, Limites e Regras de Promessas.md` | Etica, seguranca, limites e regras de promessas |
 | `CANON-07 — Operação, Produção, Validação e Controle de Qualidade.md` | Operacao, producao, validacao e controle de qualidade |
 
+## Especificações oficiais (`docs/specs/`)
+
+SPECs em `docs/specs/` sao documentos oficiais subordinados aos CANONs. Elas governam detalhes de portfólio, Meu Caminho, stack e infraestrutura quando nao houver conflito com `CANON-00` a `CANON-07`.
+
+| Arquivo | Função |
+|---|---|
+| `SPEC-PORTFOLIO-00 — Esteira de Produtos, Arquitetura Comercial e Integração com Meu Caminho — V1.0.0.md` | Esteira de produtos, arquitetura comercial e integração com Meu Caminho |
+| `SPEC-MEU-CAMINHO-001 — Área Pessoal de Continuidade “Meu Caminho” — V2.0.0.md` | Arquitetura funcional e auditoria obrigatória de Meu Caminho |
+| `SPEC-STACK-00 — Arquitetura Técnica, Stack e Infraestrutura — V1.0.0.md` | Stack, integrações, decisões técnicas abertas e infraestrutura |
+
 ## Referencias legadas (`docs/reference/pending-review/`)
 
 Documentos em `docs/reference/pending-review/` sao referencias legadas sem autoridade canonica. Eles estao preservados apenas para auditoria futura e nao podem alterar `CANON-00` a `CANON-07`.
@@ -71,7 +81,7 @@ CRITÉRIO DE APROVAÇÃO:
 - Se houver conflito entre código e documento canônico, o código é o candidato a correção.
 - Se houver conflito entre `CURRENT.md` e `CANON-00` a `CANON-07`, prevalece o documento canonico.
 - Não produzir texto genérico de IA. Não inventar tom corporativo. Ver Doc 04.
-- Não criar tabelas, alterar autenticação, mudar deploy ou arquitetura sem consultar `MAPA-00` e os CANONs técnicos/operacionais vigentes.
+- Não criar tabelas, alterar autenticação, mudar deploy ou arquitetura sem consultar `MAPA-00`, os CANONs técnicos/operacionais vigentes e `SPEC-STACK-00` quando aplicável.
 - Trabalhar por gates. Não misturar mudanças não relacionadas.
 
 ### Conflito canônico — reportar antes de agir

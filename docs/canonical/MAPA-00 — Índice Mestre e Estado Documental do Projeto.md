@@ -6,9 +6,9 @@
 | \*\*Código\*\* | \`MAPA-00\` |  
 | \*\*Tipo\*\* | Documento Auxiliar de Navegação e Controle Documental |  
 | \*\*Status\*\* | \*\*VIGENTE\*\* |  
-| \*\*Versão\*\* | \*\*1.0.0\*\* |  
+| \*\*Versão\*\* | \*\*1.1.0\*\* |
 | \*\*Data de criação\*\* | \*\*13/09/2026\*\* |  
-| \*\*Última atualização\*\* | \*\*13/09/2026\*\* |  
+| \*\*Última atualização\*\* | \*\*14/09/2026\*\* |
 | \*\*Responsável pelo projeto\*\* | \*\*Marcos Vinicius\*\* |  
 | \*\*Projeto\*\* | \*\*Portal Caminho da Consciência\*\* |  
 | \*\*Função\*\* | Índice dos documentos vigentes, localização das fontes de verdade e visão rápida do estado documental |  
@@ -590,7 +590,7 @@ A especificação completa pertence ao \`CANON-01\`.
 
 \# 9\. DOCUMENTOS SUBORDINADOS
 
-Neste estágio, os documentos subordinados ainda deverão ser criados conforme necessidade real.
+Nesta versão, os primeiros documentos subordinados oficiais foram registrados em `docs/specs/`. Novos documentos subordinados poderão ser criados conforme necessidade real.
 
 Podem incluir:
 
@@ -617,7 +617,11 @@ Ao criar documentos relevantes, adicioná-los posteriormente a esta seção.
 
 \#\# SPECs vigentes
 
-\> \*\*Nenhuma registrada neste mapa até a versão 1.0.0.\*\*
+| Código | Documento | Caminho | Versão | Status | Função |
+|---|---|---|---:|---|---|
+| `SPEC-PORTFOLIO-00` | Esteira de Produtos, Arquitetura Comercial e Integração com Meu Caminho | `docs/specs/SPEC-PORTFOLIO-00 — Esteira de Produtos, Arquitetura Comercial e Integração com Meu Caminho — V1.0.0.md` | `1.0.0` | APROVADO | Portfólio, funções econômicas, esteira e critérios de evolução |
+| `SPEC-MEU-CAMINHO-001` | Área Pessoal de Continuidade “Meu Caminho” | `docs/specs/SPEC-MEU-CAMINHO-001 — Área Pessoal de Continuidade “Meu Caminho” — V2.0.0.md` | `2.0.0` | APROVADO | Arquitetura funcional, continuidade, privacidade e plano de execução do Meu Caminho |
+| `SPEC-STACK-00` | Arquitetura Técnica, Stack e Infraestrutura | `docs/specs/SPEC-STACK-00 — Arquitetura Técnica, Stack e Infraestrutura — V1.0.0.md` | `1.0.0` | APROVADO | Topologia, stack, infraestrutura, segurança e contratos técnicos transversais |
 
 \---
 
@@ -733,11 +737,11 @@ Entre elas:
 \- família sans-serif oficial;  
 \- especificação técnica completa do logotipo;  
 \- áreas de proteção e tamanhos mínimos da marca;  
-\- produtos concretos da nova fase;  
-\- nomes e preços de futuras ofertas;  
+\- SPECs individuais de produtos ainda não auditados;
+\- decisões comerciais explicitamente abertas em `SPEC-PORTFOLIO-00`;
+\- decisões técnicas explicitamente abertas em `SPEC-STACK-00`;
+\- estado real da implementação de Meu Caminho ainda sujeito ao MC-00;
 \- protocolos operacionais específicos;  
-\- arquitetura tecnológica;  
-\- plataforma digital;  
 \- termos legais;  
 \- consentimentos específicos;  
 \- regras operacionais próprias de determinadas técnicas;  
@@ -853,6 +857,24 @@ Consultar:
 
 \> \`CANON-00 \+ CANON-03 \+ CANON-04 \+ CANON-05 \+ CANON-06 \+ CANON-07\`
 
+### Portfólio / esteira de produtos
+
+Consultar:
+
+> `CANON-00 + CANON-05 + CANON-06 + CANON-07 + SPEC-PORTFOLIO-00`
+
+### Meu Caminho
+
+Consultar:
+
+> `CANONs aplicáveis + SPEC-MEU-CAMINHO-001 + SPEC-STACK-00`
+
+### Arquitetura técnica / stack / infraestrutura
+
+Consultar:
+
+> `CANON-00 + CANON-06 + CANON-07 + SPEC-STACK-00`
+
 \#\#\# Operação ou implementação
 
 Consultar:
@@ -893,8 +915,9 @@ Para isso:
 
 | Versão | Data | Alteração | Responsável |  
 |---|---|---|---|  
+| \*\*1.1.0\*\* | \*\*14/09/2026\*\* | Registro das primeiras SPECs transversais aprovadas: `SPEC-PORTFOLIO-00` V1.0.0, `SPEC-MEU-CAMINHO-001` V2.0.0 e `SPEC-STACK-00` V1.0.0; atualização das lacunas e rotas de consulta. | \*\*Marcos Vinicius\*\* |
 | \*\*1.0.0\*\* | \*\*13/09/2026\*\* | Criação do Índice Mestre; consolidação do estado dos CÂNONs 00 a 07, mapa de consulta, estruturas vigentes, lacunas conhecidas e regras de navegação documental. | \*\*Marcos Vinicius\*\* |
 
 \---
 
-\*\*FIM DO DOCUMENTO — MAPA-00 — V1.0.0 — VIGENTE\*\*  
+\*\*FIM DO DOCUMENTO — MAPA-00 — V1.1.0 — VIGENTE\*\*

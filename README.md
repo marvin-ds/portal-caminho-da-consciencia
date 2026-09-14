@@ -48,4 +48,6 @@ A documentação estratégica, editorial, de produtos, marca, tecnologia e opera
 Para decisões estruturais do Portal Caminho da Consciência, iniciar por `docs/canonical/MAPA-00 — Índice Mestre e Estado Documental do Projeto.md`.
 A fonte normativa vigente é `CANON-00` a `CANON-07`, mantida em `docs/canonical/`.
 
+As especificações oficiais subordinadas aos CANONs ficam em `docs/specs/`, com status e escopo registrados em `MAPA-00`.
+
 Documentos em `docs/reference/pending-review/` são referências legadas sem autoridade canônica, preservadas apenas para auditoria futura.
