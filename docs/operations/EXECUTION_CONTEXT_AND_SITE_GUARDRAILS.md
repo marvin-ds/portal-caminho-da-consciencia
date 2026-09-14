@@ -110,7 +110,7 @@ Parar, não editar e informar o contexto ausente.
 
 ## Arquivos Protegidos do Site Institucional
 
-Estes arquivos são protegidos para qualquer tarefa de produto:
+Estes arquivos são protegidos em qualquer workstream:
 
 | Arquivo | Tipo |
 |---|---|
@@ -124,7 +124,18 @@ Estes arquivos são protegidos para qualquer tarefa de produto:
 | `favicon.ico` | Brand |
 | `assets/brand/` | Assets institucionais |
 
-Qualquer alteração nesses arquivos por tarefa de produto exige `INSTITUTIONAL INTEGRATION GATE` explícito.
+Nenhuma trilha recebe autorização implícita para alterar estes arquivos.
+
+Qualquer alteração exige escopo e gate explícitos compatíveis com o domínio afetado:
+
+- Home e integração de ofertas: gate institucional explícito.
+- Página de produto live: gate da página/produto e integração institucional quando aplicável.
+- Termos e privacidade: autorização/gate legal ou privacidade explícito.
+- `netlify.toml`: gate técnico/infra explícito.
+- `robots.txt` e `sitemap.xml`: gate SEO/institucional explícito.
+- `assets/brand/`: gate de identidade/institucional explícito.
+
+Para uma trilha `PRODUCT`, qualquer alteração nesses arquivos exige `INSTITUTIONAL INTEGRATION GATE` explícito.
 
 ---
 

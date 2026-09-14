@@ -124,7 +124,15 @@ Owners principais:
 | `sitemap.xml` | SEO |
 | `assets/brand/` | Identidade visual |
 
-Qualquer alteração nesses arquivos por uma trilha de produto exige `INSTITUTIONAL INTEGRATION GATE` explícito.
+Os arquivos desta tabela são protegidos em qualquer workstream. Nenhuma trilha recebe autorização implícita para alterá-los.
+
+Qualquer alteração exige escopo e gate explícitos compatíveis com o domínio afetado:
+
+- Home: gate institucional explícito.
+- Página de produto live: gate da página/produto e integração institucional quando aplicável.
+- Termos, privacidade, infra, SEO e marca: autorização explícita do owner correspondente.
+
+Para uma trilha `PRODUCT`, qualquer alteração nesses arquivos exige `INSTITUTIONAL INTEGRATION GATE` explícito.
 
 ---
 
