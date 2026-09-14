@@ -1,53 +1,74 @@
 # Portal Caminho da Consciência
 
-Site institucional e ecossistema digital do **Portal Caminho da Consciência**.
+Site institucional público e base documental transversal do **Portal Caminho da Consciência**.
 
-O projeto é voltado a desenvolvimento pessoal e espiritual, reconhecimento de padrões recorrentes, expansão de consciência e construção de caminhos mais conscientes de transformação.
+O projeto organiza desenvolvimento pessoal e espiritual, reconhecimento de padrões recorrentes e caminhos conscientes de transformação a partir do **Método Padrão Interrompido**.
 
-O site é hospedado em Netlify e funciona como base institucional, editorial e comercial do projeto.
+## Este Repositório
 
-## Stack
+Este repositório contém o site institucional público e a documentação transversal do projeto.
 
-- HTML/CSS estático ou framework definido no projeto
-- Deploy automático via Netlify
-- Controle de versão via GitHub
-- Integração com ferramentas de analytics, pagamentos e automações
-- Domínio principal: a definir/atualizar para a nova marca
+- Host: Netlify
+- Domínio: https://portalcaminhodaconsciencia.com.br
+- Produção: branch `main`
+- Repo: `marvin-ds/portal-caminho-da-consciencia`
 
-## Estrutura
+A aplicação autenticada, Meu Caminho, APIs e integrações de plataforma vivem em repositório separado e são hospedadas na Vercel.
 
-A arquitetura do projeto poderá incluir, progressivamente:
+## Arquitetura
 
-- Site institucional
-- Blog e conteúdo editorial
-- Páginas de vendas
-- Mapeamento Padrão Interrompido
-- Radar / ferramentas digitais de auto-observação
-- Protocolos e jornadas guiadas
-- Integrações com checkout e plataformas de pagamento
-- Analytics e rastreamento de eventos
-- Captação de leads por e-mail e WhatsApp
+| Superfície | Onde vive | Host |
+|---|---|---|
+| Portal público | este repositório | Netlify |
+| Plataforma / app | repo separado | Vercel |
+| Backend | Supabase | Supabase |
 
-## Conceitos centrais
+Detalhes técnicos transversais ficam em `docs/specs/SPEC-STACK-00 — Arquitetura Técnica, Stack e Infraestrutura — V1.0.0.md`.
 
-- **Portal Caminho da Consciência** — marca e ecossistema
-- **Padrão Interrompido** — método proprietário
-- **”Voltar ao mesmo lugar”** — território principal de reconhecimento
-- **Jornada de transformação:** perceber → mapear → intervir → praticar → reavaliar → aprofundar
+## Método
 
-## Hospedagem e deploy
+Método Padrão Interrompido:
 
-- Produção: Netlify
-- Repositório: GitHub
-- Deploy automático a partir da branch de produção definida no projeto
+```text
+RECONHECER
+→ MAPEAR
+→ LOCALIZAR
+→ TRABALHAR
+→ ALINHAR
+→ EXPERIMENTAR
+→ INTEGRAR
+→ REAVALIAR
+```
 
-## Documentação interna
+Conceito estruturante:
 
-A documentação estratégica, editorial, de produtos, marca, tecnologia e operação é mantida separadamente dos arquivos públicos do site.
+```text
+Ponto de Interrupção
+```
 
-Para decisões estruturais do Portal Caminho da Consciência, iniciar por `docs/canonical/MAPA-00 — Índice Mestre e Estado Documental do Projeto.md`.
-A fonte normativa vigente é `CANON-00` a `CANON-07`, mantida em `docs/canonical/`.
+## Jornada
 
-As especificações oficiais subordinadas aos CANONs ficam em `docs/specs/`, com status e escopo registrados em `MAPA-00`.
+```text
+DESCOBRIR
+→ RECONHECER
+→ MAPEAR
+→ TRABALHAR
+→ INTEGRAR
+→ APROFUNDAR
+```
 
-Documentos em `docs/reference/pending-review/` são referências legadas sem autoridade canônica, preservadas apenas para auditoria futura.
+## Documentação
+
+- `docs/canonical/MAPA-00 — Índice Mestre e Estado Documental do Projeto.md` — ponto inicial de navegação documental.
+- `docs/canonical/CANON-00` a `docs/canonical/CANON-07` — núcleo normativo vigente.
+- `docs/specs/` — especificações oficiais subordinadas aos CANONs.
+- `docs/operations/` — estado operacional, guardrails e handoff.
+- `docs/reference/pending-review/` — legado preservado sem autoridade canônica.
+
+## Regra de Desenvolvimento
+
+Produtos e Meu Caminho possuem trilhas, chats/sessões, SPECs e checkpoints próprios.
+
+Este repositório institucional não deve receber implementação de app, autenticação, Supabase ou internals de produto sem gate explícito e escopo correto.
+
+Mudanças que atravessem mais de uma trilha devem voltar para governança transversal antes de implementação.
