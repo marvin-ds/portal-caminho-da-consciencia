@@ -3,7 +3,7 @@
 
 **STATUS:** FINALIZADO — PRODUCTION BASELINE PROTEGIDA  
 **DATA DE FECHAMENTO:** 04/09/2026  
-**VERSÃO:** V1.0
+**VERSÃO:** V1.1
 
 ---
 
@@ -23,7 +23,7 @@
 
 | Rota | Arquivo | Status |
 |---|---|---|
-| `/` | `index.html` | ✅ LIVE — Home V1.1.1 |
+| `/` | `index.html` | ✅ LIVE — Home V1.1.1 / V1.2.0 em gate institucional de realinhamento canônico |
 | `/mapeamento/` | `mapeamento/index.html` | ✅ LIVE |
 | `/termos-de-uso` | `termos-de-uso.html` | ✅ LIVE |
 | `/politica-de-privacidade` | `politica-de-privacidade.html` | ✅ LIVE |
@@ -43,7 +43,7 @@
 - Canonical tags
 - OG / Open Graph
 - JSON-LD / Schema.org
-- Tracking da Home (`PAGE_ID = portal_home_v1`, `VARIANT_ID = institutional_experiencia_viva_v1_1`)
+- Tracking da Home (`PAGE_ID = portal_home_v1`, `VARIANT_ID = institutional_experiencia_viva_v1_2` no gate Home V1.2.0)
 - Tracking do Mapeamento (`offer_id = mapping_pattern_interrupted_v1`)
 
 ---
@@ -79,6 +79,46 @@
 Este documento **NÃO congela a evolução do Portal.**  
 Ele define o estado que futuras implementações **não podem quebrar silenciosamente.**
 
+---
+
+## Evolução institucional — Home V1.2.0
+
+**Gate:** Home Institucional V1.2.0 — Realinhamento Canônico  
+**Base:** Home V1.1.1 — Experiência Viva  
+**Natureza da alteração:** editorial e semântica, sem redesign e sem reconstrução técnica.
+
+Alterado conscientemente:
+
+- copy institucional;
+- representação pública da identidade do Portal;
+- representação pública do Método Padrão Interrompido;
+- segunda porta de entrada: expansão, espiritualidade e consciência;
+- descrições da Jornada;
+- posicionamento público de Marcos Vinicius;
+- limites e nota de responsabilidade;
+- SEO textual da Home;
+- `VARIANT_ID` da Home.
+
+Não alterado por este gate:
+
+- arquitetura Netlify;
+- rota `/mapeamento/`;
+- preço do Mapeamento;
+- oferta ativa;
+- Consent Mode;
+- arquitetura de tracking;
+- stack;
+- produtos em preparação;
+- infraestrutura;
+- imagens;
+- movimento estrutural;
+- páginas legais;
+- privacidade;
+- `robots.txt`;
+- `sitemap.xml`;
+- `favicon.ico`;
+- `netlify.toml`.
+
 Qualquer alteração nas rotas protegidas exige:
 
 1. **CTX-00** — verificação de contexto obrigatória
@@ -95,3 +135,12 @@ Qualquer alteração nas rotas protegidas exige:
 | FINAL_MAIN_HEAD | `341fe650a47d24171a8659f12729eac97f755ee1` |
 | FINAL_NETLIFY_DEPLOY_ID | _verificar em painel Netlify após build_ |
 | DATA | 04/09/2026 |
+
+---
+
+## Histórico operacional
+
+| Versão | Data | Alteração |
+|---|---|---|
+| V1.1 | 14/09/2026 | Registro do Gate Home V1.2.0 como evolução editorial/canônica da Home V1.1.1, preservando baseline técnica e rotas protegidas. |
+| V1.0 | 04/09/2026 | Registro da baseline protegida da Home V1.1.1 e rotas institucionais. |

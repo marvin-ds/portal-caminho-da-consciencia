@@ -48,6 +48,7 @@ Check "HOME-CANONICAL" "Home contém canonical tag"      ($homeHtml -match '<lin
 Check "HOME-OG"        "Home contém OG tags"            ($homeHtml -match 'property="og:')
 Check "HOME-JSONLD"    "Home contém JSON-LD"            ($homeHtml -match 'application/ld\+json')
 Check "HOME-PAGE-ID"   "Home contém PAGE_ID tracking"  ($homeHtml -match "portal_home_v1")
+Check "HOME-VARIANT-ID" "Home contém VARIANT_ID V1.2"   ($homeHtml -match "institutional_experiencia_viva_v1_2")
 
 # ── Mapeamento: separação Sintonize ───────────────────────────────────────────
 $map = Get-Content (Join-Path $Root "mapeamento/index.html") -Raw -ErrorAction SilentlyContinue
