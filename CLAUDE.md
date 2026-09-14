@@ -1,49 +1,65 @@
 # Governança Documental — Portal Caminho da Consciência
 
-## Hierarquia de autoridade
+## Ponto de Entrada
 
+Iniciar decisões estruturais por:
+
+`docs/canonical/MAPA-00 — Índice Mestre e Estado Documental do Projeto.md`
+
+`MAPA-00` é índice, navegação e estado documental. Ele não é autoridade normativa superior aos CANONs.
+
+## Hierarquia de Autoridade
+
+```text
+Decisão explícita posterior de Marcos Vinicius
+↓
+CANON-00                            ← constituição, governança e fonte da verdade
+↓
+CANON especializado aplicável       ← CANON-01 a CANON-07
+↓
+SPEC aplicável                      ← transversal, Meu Caminho ou produto específico
+↓
+ADR / contrato / runbook / operação
+↓
+implementação
 ```
-MAPA-00                             ← indice mestre e ponto inicial de navegacao
-↓
-CANON-00                            ← constituicao, governanca e fonte da verdade
-↓
-CANON-01                            ← identidade, essencia, posicionamento e fundamentos
-↓
-CANON-02                            ← metodo Padrao Interrompido
-↓
-CANON-03                            ← publico, dores, desejos e mapa de transformacao
-↓
-CANON-04                            ← comunicacao, conteudo e linguagem editorial
-↓
-CANON-05                            ← jornada do Portal, produtos e ecossistema
-↓
-CANON-06                            ← etica, seguranca, limites e promessas
-↓
-CANON-07                            ← operacao, producao, validacao e qualidade
-↓
-CURRENT.md                          ← estado operacional, nao contrariar CANON-00 a CANON-07
-```
 
-Para decisões estruturais do Portal Caminho da Consciência, iniciar por `docs/canonical/MAPA-00 — Índice Mestre e Estado Documental do Projeto.md`.
-A fonte normativa vigente é `CANON-00` a `CANON-07`, mantida em `docs/canonical/`.
+Se houver conflito entre implementação e documento normativo vigente, a implementação é candidata a correção. Se houver conflito entre documentos de níveis diferentes, prevalece a fonte superior.
 
-## Documentos canônicos (`docs/canonical/`)
+## Document Ownership
+
+| Assunto | Owner documental |
+|---|---|
+| Governança | `CANON-00` |
+| Identidade | `CANON-01` |
+| Método | `CANON-02` |
+| Público | `CANON-03` |
+| Comunicação | `CANON-04` |
+| Jornada / ecossistema | `CANON-05` |
+| Ética | `CANON-06` |
+| Operação / qualidade | `CANON-07` |
+| Portfólio | `SPEC-PORTFOLIO-00` |
+| Stack transversal | `SPEC-STACK-00` |
+| Meu Caminho | `SPEC-MEU-CAMINHO-001` |
+| Produto específico | SPEC daquele produto |
+
+## Documentos Canônicos (`docs/canonical/`)
 
 | Arquivo | Função |
 |---|---|
-| `MAPA-00 — Índice Mestre e Estado Documental do Projeto.md` | Indice mestre e ponto inicial de navegacao documental |
-| `CANON-00 — Constituição, Governança e Fonte da Verdade.md` | Constituicao, governanca e fonte da verdade |
-| `CANON-01 — Identidade, Essência, Posicionamento e Fundamentos.md` | Identidade, essencia, posicionamento e fundamentos |
-| `CANON-02 — Método Padrão Interrompido — Arquitetura Oficial.md` | Metodo Padrao Interrompido e arquitetura oficial |
-| `CANON-03 — Público, Dores, Desejos e Mapa de Transformação.md` | Publico, dores, desejos e mapa de transformacao |
-| `CANON-04 — Comunicação, Conteúdo e Linguagem Editorial.md` | Comunicacao, conteudo e linguagem editorial |
+| `MAPA-00 — Índice Mestre e Estado Documental do Projeto.md` | Índice mestre e ponto inicial de navegação documental |
+| `CANON-00 — Constituição, Governança e Fonte da Verdade.md` | Constituição, governança e fonte da verdade |
+| `CANON-01 — Identidade, Essência, Posicionamento e Fundamentos.md` | Identidade, essência, posicionamento e fundamentos |
+| `CANON-02 — Método Padrão Interrompido — Arquitetura Oficial.md` | Método Padrão Interrompido e arquitetura oficial |
+| `CANON-03 — Público, Dores, Desejos e Mapa de Transformação.md` | Público, dores, desejos e mapa de transformação |
+| `CANON-04 — Comunicação, Conteúdo e Linguagem Editorial.md` | Comunicação, conteúdo e linguagem editorial |
 | `CANON-05 — Jornada do Portal, Produtos e Ecossistema.md` | Jornada do Portal, produtos e ecossistema |
-| `CANON-06 — Ética, Segurança, Limites e Regras de Promessas.md` | Etica, seguranca, limites e regras de promessas |
-| `CANON-07 — Operação, Produção, Validação e Controle de Qualidade.md` | Operacao, producao, validacao e controle de qualidade |
+| `CANON-06 — Ética, Segurança, Limites e Regras de Promessas.md` | Ética, segurança, limites e regras de promessas |
+| `CANON-07 — Operação, Produção, Validação e Controle de Qualidade.md` | Operação, produção, validação e controle de qualidade |
 
-## Especificações oficiais (`docs/specs/`)
+## Especificações Oficiais (`docs/specs/`)
 
-SPECs em `docs/specs/` sao documentos oficiais subordinados aos CANONs. Elas governam detalhes de portfólio, Meu Caminho, stack e infraestrutura quando nao houver conflito com `CANON-00` a `CANON-07`.
+SPECs em `docs/specs/` são documentos oficiais subordinados aos CANONs. Elas governam detalhes de portfólio, Meu Caminho, stack e infraestrutura quando não houver conflito com `CANON-00` a `CANON-07`.
 
 | Arquivo | Função |
 |---|---|
@@ -51,41 +67,97 @@ SPECs em `docs/specs/` sao documentos oficiais subordinados aos CANONs. Elas gov
 | `SPEC-MEU-CAMINHO-001 — Área Pessoal de Continuidade “Meu Caminho” — V2.0.0.md` | Arquitetura funcional e auditoria obrigatória de Meu Caminho |
 | `SPEC-STACK-00 — Arquitetura Técnica, Stack e Infraestrutura — V1.0.0.md` | Stack, integrações, decisões técnicas abertas e infraestrutura |
 
-## Referencias legadas (`docs/reference/pending-review/`)
+## Referências Legadas (`docs/reference/pending-review/`)
 
-Documentos em `docs/reference/pending-review/` sao referencias legadas sem autoridade canonica. Eles estao preservados apenas para auditoria futura e nao podem alterar `CANON-00` a `CANON-07`.
+Documentos em `docs/reference/pending-review/` são referências legadas sem autoridade canônica. Eles estão preservados para auditoria futura e não podem alterar `CANON-00` a `CANON-07`.
 
-## Documentos operacionais (`docs/operations/`)
+## Documentos Operacionais (`docs/operations/`)
 
-- `CURRENT.md` — estado real do projeto agora: gate, branch, HEAD, deploys, blockers, pendências e próximos passos.
-- `SITE_INSTITUCIONAL_BASELINE.md` — baseline protegida do site institucional; rotas, arquivos, infra e SHAs de produção.
-- `EXECUTION_CONTEXT_AND_SITE_GUARDRAILS.md` — guardrails obrigatórios para Claude Code e todos os agentes: CTX-00, classificação de superfície (INSTITUTIONAL_NETLIFY / PRODUCT_APP_VERCEL), arquivos protegidos, regras de staging e Sintonize.
+- `CURRENT.md` — estado operacional transversal do projeto.
+- `WORKSTREAM_ISOLATION_AND_HANDOFF.md` — isolamento de trilhas, dependências e continuidade entre agentes.
+- `SITE_INSTITUCIONAL_BASELINE.md` — baseline protegida do site institucional.
+- `EXECUTION_CONTEXT_AND_SITE_GUARDRAILS.md` — verificação de contexto, classificação de superfície e guardrails.
 
-## Regras para Claude Code e agentes de IA
+## Início de Sessão
 
-### Início de sessão
-Ler `CURRENT.md`, iniciar por `MAPA-00` e consultar os documentos `CANON-00` a `CANON-07` relevantes à tarefa. Responder internamente:
-```
+Ler `CURRENT.md`, iniciar por `MAPA-00` e consultar os CANONs/SPECs relevantes à tarefa. Responder internamente:
+
+```text
 GATE ATUAL:
 OBJETIVO:
+WORKSTREAM:
+DOMÍNIO:
+OWNER_SPEC:
 BRANCH:
 ESTADO DO REPOSITÓRIO:
 BLOCKERS:
-DOCUMENTOS CANÔNICOS RELEVANTES:
+DOCUMENTOS RELEVANTES:
 CRITÉRIO DE APROVAÇÃO:
 ```
 
-### Durante a sessão
-- Para qualquer tarefa de roteiro, hook, Short, vídeo longo, anúncio, revisão ou auditoria editorial: iniciar por `MAPA-00` e consultar os CANONs relevantes, especialmente `CANON-03`, `CANON-04` e `CANON-06`.
-- `CANON-00` a `CANON-07` sao relativamente estaveis. Nao altera-los automaticamente.
-- Se houver conflito entre código e documento canônico, o código é o candidato a correção.
-- Se houver conflito entre `CURRENT.md` e `CANON-00` a `CANON-07`, prevalece o documento canonico.
-- Não produzir texto genérico de IA. Não inventar tom corporativo. Ver Doc 04.
-- Não criar tabelas, alterar autenticação, mudar deploy ou arquitetura sem consultar `MAPA-00`, os CANONs técnicos/operacionais vigentes e `SPEC-STACK-00` quando aplicável.
-- Trabalhar por gates. Não misturar mudanças não relacionadas.
+## Durante a Sessão
 
-### Conflito canônico — reportar antes de agir
-```
+- Para roteiro, hook, vídeo, anúncio, revisão ou auditoria editorial: consultar `MAPA-00`, `CANON-03`, `CANON-04` e `CANON-06`.
+- Para portfólio, esteira, preço, hipótese comercial ou arquitetura de oferta: consultar `SPEC-PORTFOLIO-00`.
+- Para stack, app, Vercel, Supabase, Auth, Storage, RLS, checkout ou infraestrutura: consultar `SPEC-STACK-00` e usar o repo correto.
+- Para Meu Caminho: usar trilha própria e `SPEC-MEU-CAMINHO-001`.
+- Para produto específico: usar chat/sessão, branch/worktree e SPEC próprios daquele produto.
+- Não produzir texto genérico de IA. Não inventar tom corporativo. Consultar `CANON-04`.
+- Trabalhar por gates. Não misturar mudanças não relacionadas.
+- Nunca iniciar automaticamente o próximo gate sem autorização humana.
+
+## CURRENT Transversal
+
+`CURRENT.md` geral só deve ser atualizado quando houver:
+
+- decisão transversal;
+- mudança global;
+- alteração de arquitetura;
+- integração documental;
+- novo gate transversal;
+- blocker que atravesse trilhas;
+- mudança real de estado institucional geral.
+
+Sessão de produto atualiza checkpoint/current próprio do produto. Sessão de Meu Caminho atualiza checkpoint próprio de Meu Caminho.
+
+## Alternância Claude Code / Codex
+
+Claude Code e Codex são coimplementadores. Dentro da mesma trilha, um pode continuar o trabalho do outro.
+
+Antes da troca, quando houver trabalho em andamento, registrar `CHECKPOINT DE CONTINUIDADE` com:
+
+- repo;
+- branch;
+- HEAD;
+- objetivo;
+- feito;
+- arquivos;
+- migrations;
+- testes;
+- pendências;
+- próximo passo;
+- riscos.
+
+Não tratar automaticamente um agente como auditor do outro; auditoria precisa ser pedida ou fazer parte do gate.
+
+## Stop Conditions
+
+Parar e reportar antes de editar se:
+
+- owner documental não estiver claro;
+- repo estiver errado;
+- branch não corresponder à trilha;
+- mudança invadir outra trilha;
+- houver conflito com CANON;
+- for necessária decisão de Marcos;
+- Production estiver envolvida sem gate;
+- requisito transversal surgir dentro de produto;
+- houver risco de reintroduzir namespace proibido;
+- o escopo pedir implementação de app dentro do repo institucional.
+
+## Conflito Canônico — Reportar Antes de Agir
+
+```text
 POSSÍVEL CONFLITO CANÔNICO
 Documento:
 Trecho:
@@ -93,26 +165,15 @@ Problema:
 Impacto:
 Sugestão:
 ```
-Aguardar decisão. Após decisão humana, atualizar o documento correspondente.
 
-### Fim de sessão
-Atualizar `CURRENT.md` com estado verificável:
-```
-O que foi feito:
-O que ficou pendente:
-Branch:
-HEAD:
-Working tree:
-Build/preview:
-Blockers:
-Próxima ação:
-```
-Se gate encerrado: registrar `GATE X — APROVADO ✅` e abrir o próximo.
+Aguardar decisão. Após decisão humana, atualizar o documento correspondente em gate próprio.
 
-### Estados válidos no CURRENT.md
+## Estados Válidos
+
 `FECHADO` | `ABERTO` | `EM ANDAMENTO` | `PENDENTE` | `BLOCKED` | `APROVADO` | `REJEITADO` | `HIPÓTESE`
 
 Nunca registrar hipótese como decisão fechada. Nunca registrar ação planejada como executada.
 
-### Quando alterar CANON-00 a CANON-07
+## Quando Alterar CANON-00 a CANON-07
+
 Somente após decisão explícita de Marcos. Registrar versão, data, decisão e impacto nos demais documentos.
