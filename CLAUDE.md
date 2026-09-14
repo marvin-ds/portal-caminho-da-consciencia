@@ -3,47 +3,47 @@
 ## Hierarquia de autoridade
 
 ```
-00 Matriz de Governança Conceitual  ← fronteiras de autoria, PI e linguagem (transversal)
+MAPA-00                             ← indice mestre e ponto inicial de navegacao
 ↓
-01 Fundacional / Estratégico        ← autoridade estratégica máxima
+CANON-00                            ← constituicao, governanca e fonte da verdade
 ↓
-02 Jornada / Produtos
+CANON-01                            ← identidade, essencia, posicionamento e fundamentos
 ↓
-03 Editorial / Aquisição
-03.A Regra Complementar — Percepção Antes da Explicação  ← lida em conjunto com 03
-03.B Mapa Editorial Mestre — Big Ideas, Cenas, Soluções, Oferta, Ganchos e Arquitetura de Aquisição  ← lido em conjunto com 03 e 03.A
-03.C Banco Operacional de Reels de Reconhecimento Silencioso  ← operacional editorial
-03.D Sistema Operacional de Prompts Editoriais, Search, Copy, SEO e IA  ← operacional editorial
-03.E Plano Operacional de Execução do Calendário Editorial e Backlog  ← operacional editorial
-03.F Framework de Páginas, Ofertas, Message Match e Conversão  ← operacional editorial
+CANON-02                            ← metodo Padrao Interrompido
 ↓
-04 Identidade / Comunicação
+CANON-03                            ← publico, dores, desejos e mapa de transformacao
 ↓
-05 Arquitetura Técnica
+CANON-04                            ← comunicacao, conteudo e linguagem editorial
 ↓
-CURRENT.md                          ← estado operacional, não contrariar 00–05
+CANON-05                            ← jornada do Portal, produtos e ecossistema
+↓
+CANON-06                            ← etica, seguranca, limites e promessas
+↓
+CANON-07                            ← operacao, producao, validacao e qualidade
+↓
+CURRENT.md                          ← estado operacional, nao contrariar CANON-00 a CANON-07
 ```
 
-> **Nota transitória:** O Doc 00 foi criado após análise dos materiais da formação Sintonize Prosperidade. Em conflitos sobre autoria, propriedade intelectual, fronteiras Portal/Padrão Interrompido/Sintonize, 8 Prosperidades, protocolos e posicionamento de Marcos, o Doc 00 prevalece sobre os demais até a revisão coordenada dos Docs 01–05.
+Para decisões estruturais do Portal Caminho da Consciência, iniciar por `docs/canonical/MAPA-00 — Índice Mestre e Estado Documental do Projeto.md`.
+A fonte normativa vigente é `CANON-00` a `CANON-07`, mantida em `docs/canonical/`.
 
 ## Documentos canônicos (`docs/canonical/`)
 
 | Arquivo | Função |
 |---|---|
-| `00-matriz-governanca-conceitual.md` | Fronteiras de autoria, PI, Sintonize, Radar, linguagem público/interno |
-| `01-fundacional-estrategico.md` | Propósito, visão, posicionamento, método, princípios |
-| `02-jornada-produtos-servicos-protocolos.md` | Jornada do cliente, ofertas, entregáveis, protocolos |
-| `02a-framework-construcao-validacao-escala-produtos-ofertas.md` | Framework de construção, validação e escala de produtos e ofertas |
-| `03-sistema-editorial-aquisicao-experimentacao.md` | Conteúdo, funil, SEO, YouTube, CTAs, métricas |
-| `03a-regra-complementar-percepcao-antes-da-explicacao.md` | Arquitetura psicológica do conteúdo — percepção antes da explicação; lida em conjunto com 03 |
-| `03b-mapa-editorial-mestre.md` | Big Ideas, Cenas, Soluções, Oferta, Ganchos e Arquitetura de Aquisição V1.3; lido em conjunto com 03 e 03.A |
-| `03c-banco-reels-reconhecimento-silencioso.md` | Banco operacional de Reels, cenas, dores, tensões, hooks, CTAs e microtransformações |
-| `03d-sistema-operacional-prompts-editoriais-search-ia.md` | Prompts editoriais, Search, copy, SEO e produção assistida por IA |
-| `03e-plano-operacional-execucao-calendario-editorial-backlog.md` | Plano operacional de calendário editorial e backlog gradual |
-| `03f-framework-paginas-ofertas-message-match-conversao.md` | Framework de páginas, ofertas, message match e conversão |
-| `04-identidade-voz-espiritualidade-comunicacao.md` | Design, paleta, tipografia, voz, claims, compliance |
-| `05-arquitetura-tecnica-dados-ecossistema.md` | Infra, banco, deploy, integrações, LGPD, segurança |
-| `diretriz-territorio-transformacao-descobrir-reconhecer.md` | Diretriz editorial — Território de Transformação, Descobrir/Reconhecer; lida em conjunto com 03 e 03.A |
+| `MAPA-00 — Índice Mestre e Estado Documental do Projeto.md` | Indice mestre e ponto inicial de navegacao documental |
+| `CANON-00 — Constituição, Governança e Fonte da Verdade.md` | Constituicao, governanca e fonte da verdade |
+| `CANON-01 — Identidade, Essência, Posicionamento e Fundamentos.md` | Identidade, essencia, posicionamento e fundamentos |
+| `CANON-02 — Método Padrão Interrompido — Arquitetura Oficial.md` | Metodo Padrao Interrompido e arquitetura oficial |
+| `CANON-03 — Público, Dores, Desejos e Mapa de Transformação.md` | Publico, dores, desejos e mapa de transformacao |
+| `CANON-04 — Comunicação, Conteúdo e Linguagem Editorial.md` | Comunicacao, conteudo e linguagem editorial |
+| `CANON-05 — Jornada do Portal, Produtos e Ecossistema.md` | Jornada do Portal, produtos e ecossistema |
+| `CANON-06 — Ética, Segurança, Limites e Regras de Promessas.md` | Etica, seguranca, limites e regras de promessas |
+| `CANON-07 — Operação, Produção, Validação e Controle de Qualidade.md` | Operacao, producao, validacao e controle de qualidade |
+
+## Referencias legadas (`docs/reference/pending-review/`)
+
+Documentos em `docs/reference/pending-review/` sao referencias legadas sem autoridade canonica. Eles estao preservados apenas para auditoria futura e nao podem alterar `CANON-00` a `CANON-07`.
 
 ## Documentos operacionais (`docs/operations/`)
 
@@ -54,7 +54,7 @@ CURRENT.md                          ← estado operacional, não contrariar 00�
 ## Regras para Claude Code e agentes de IA
 
 ### Início de sessão
-Ler `CURRENT.md` + documentos canônicos relevantes à tarefa. Responder internamente:
+Ler `CURRENT.md`, iniciar por `MAPA-00` e consultar os documentos `CANON-00` a `CANON-07` relevantes à tarefa. Responder internamente:
 ```
 GATE ATUAL:
 OBJETIVO:
@@ -66,12 +66,12 @@ CRITÉRIO DE APROVAÇÃO:
 ```
 
 ### Durante a sessão
-- Para qualquer tarefa de roteiro, hook, Short, vídeo longo, anúncio, revisão ou auditoria editorial: ler **Documento 03 + Documento 03.A + Documento 03.B** e, quando houver execução prática de conteúdo, também **03.C + 03.D + 03.E**. O Documento 03 define o sistema editorial geral; o Documento 03.A esclarece que a arquitetura psicológica de percepção não deve ser transformada em fórmula rígida de roteiro; o Documento 03.B é o Mapa Editorial Mestre; os Documentos 03.C, 03.D e 03.E operacionalizam Reels, prompts, Search, copy, SEO, calendário e backlog.
-- Documentos 01–05 são relativamente estáveis. Não alterá-los automaticamente.
+- Para qualquer tarefa de roteiro, hook, Short, vídeo longo, anúncio, revisão ou auditoria editorial: iniciar por `MAPA-00` e consultar os CANONs relevantes, especialmente `CANON-03`, `CANON-04` e `CANON-06`.
+- `CANON-00` a `CANON-07` sao relativamente estaveis. Nao altera-los automaticamente.
 - Se houver conflito entre código e documento canônico, o código é o candidato a correção.
-- Se houver conflito entre `CURRENT.md` e 01–05, prevalece o documento canônico.
+- Se houver conflito entre `CURRENT.md` e `CANON-00` a `CANON-07`, prevalece o documento canonico.
 - Não produzir texto genérico de IA. Não inventar tom corporativo. Ver Doc 04.
-- Não criar tabelas, alterar autenticação, mudar deploy ou arquitetura sem consultar Doc 05.
+- Não criar tabelas, alterar autenticação, mudar deploy ou arquitetura sem consultar `MAPA-00` e os CANONs técnicos/operacionais vigentes.
 - Trabalhar por gates. Não misturar mudanças não relacionadas.
 
 ### Conflito canônico — reportar antes de agir
@@ -104,5 +104,5 @@ Se gate encerrado: registrar `GATE X — APROVADO ✅` e abrir o próximo.
 
 Nunca registrar hipótese como decisão fechada. Nunca registrar ação planejada como executada.
 
-### Quando alterar Documentos 01–05
+### Quando alterar CANON-00 a CANON-07
 Somente após decisão explícita de Marcos. Registrar versão, data, decisão e impacto nos demais documentos.
