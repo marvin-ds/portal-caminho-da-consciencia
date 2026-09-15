@@ -9,7 +9,9 @@
 | **Tipo** | Especificação de Produto / Experiência Digital Gratuita |
 | **Versão** | `2.0.0` |
 | **Data** | `14/09/2026` |
-| **Status** | **PROPOSTA PARA APROVAÇÃO** |
+| **Status** | **APROVADA / VIGENTE** |
+| **Autoridade de aprovação** | Marcos Vinicius |
+| **Data de aprovação** | 15/09/2026 |
 | **Projeto** | **Portal Caminho da Consciência** |
 | **Produto / experiência** | **O Minuto Anterior** |
 | **product_id preservado** | `minute_before_free_v1` |
@@ -27,7 +29,7 @@
 | **Infraestrutura própria** | **NÃO** |
 | **Integração transversal** | Plataforma central + Meu Caminho |
 | **Precedência** | subordinada ao `CANON-00` a `CANON-07`, `SPEC-PORTFOLIO-00`, `SPEC-STACK-00` e `SPEC-MEU-CAMINHO-001` |
-| **Substitui** | após aprovação, substitui a SPEC **O Minuto Anterior — MVP V1.1** dentro do seu escopo, mantendo-a como **HISTÓRICA / REFERÊNCIA** |
+| **Substitui** | substitui a SPEC **O Minuto Anterior — MVP V1.1** dentro do seu escopo, mantendo-a como **HISTÓRICA / REFERÊNCIA** |
 | **Base histórica** | SPEC MVP V1.1, Dossiê de Demanda MVP V1.0, ADR/Contracts MA-01 e handoff da trilha anterior |
 
 ---
@@ -2168,8 +2170,8 @@ FINALIZAR INFORMANDO
 | Versão | Data | Alteração | Status |
 |---|---|---|---|
 | `1.0` | 03/09/2026 | Primeira especificação executável do produto | HISTÓRICA |
-| `1.1` | 05/09/2026 | Integração do contrato pós-Plataforma / Meu Caminho | HISTÓRICA após aprovação desta V2 |
-| `2.0.0` | 14/09/2026 | Reincorporação à nova documentação canônica; integração com SPEC-PORTFOLIO, SPEC-STACK e SPEC-MEU-CAMINHO; captura pós-valor; fronteira de Shared Kernel; novos gates e novo modelo de continuidade técnica | PROPOSTA PARA APROVAÇÃO |
+| `1.1` | 05/09/2026 | Integração do contrato pós-Plataforma / Meu Caminho | HISTÓRICA / REFERÊNCIA |
+| `2.0.0` | 14/09/2026 | Reincorporação à nova documentação canônica; integração com SPEC-PORTFOLIO, SPEC-STACK e SPEC-MEU-CAMINHO; captura pós-valor; fronteira de Shared Kernel; novos gates e novo modelo de continuidade técnica | APROVADA / VIGENTE em 15/09/2026 por Marcos Vinicius |
 
 ---
 

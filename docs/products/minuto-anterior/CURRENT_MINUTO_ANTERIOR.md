@@ -7,11 +7,11 @@
 | Produto | O Minuto Anterior |
 | Workstream | PRODUCT |
 | Owner spec | `SPEC-MINUTO-001 — O Minuto Anterior — MVP V2.0.0` |
-| Status da owner spec | `PROPOSTA PARA APROVACAO` |
-| Aprovacao formal da V2 encontrada neste gate | NAO |
+| Status da owner spec | `APROVADA / VIGENTE` |
+| Aprovacao formal da V2 encontrada neste gate | SIM — decisao explicita de Marcos Vinicius em 15/09/2026 |
 | SPEC historica preservada | `SPEC_MVP_V1.1.md` |
 | Gate atual | `MA-V2-01 — Baseline Documental e Contratos` |
-| Status do gate | preparado para auditoria |
+| Status do gate | PASS / fechado documentalmente |
 | Repo documental | `marvin-ds/portal-caminho-da-consciencia` |
 | Branch documental | `docs/minuto-anterior-ma-v2-01` |
 | Repo de execucao futura | `marvin-ds/portal-caminho-da-consciencia-app` |
@@ -72,13 +72,23 @@ A SPEC V2 foi incorporada em:
 docs/products/minuto-anterior/SPEC-MINUTO-001_O_MINUTO_ANTERIOR_MVP_V2.0.0.md
 ```
 
-Ela permanece com o status original:
+Ela esta formalmente aprovada:
 
 ```text
-PROPOSTA PARA APROVACAO
+APROVADA / VIGENTE
 ```
 
-Este gate nao promove a V2 para vigente. A promocao exige decisao explicita de Marcos Vinicius conforme CANON-00.
+Autoridade de aprovacao:
+
+```text
+Marcos Vinicius
+```
+
+Data de aprovacao:
+
+```text
+15/09/2026
+```
 
 ---
 
@@ -93,10 +103,10 @@ docs/products/minuto-anterior/SPEC_MVP_V1.1.md
 Classificacao operacional:
 
 ```text
-HISTORICA / REFERENCIA, condicionada a aprovacao formal da V2
+HISTORICA / REFERENCIA
 ```
 
-Enquanto a V2 nao for formalmente aprovada, a V1.1 permanece como registro historico e ponto de rastreabilidade da trilha anterior.
+A V1.1 permanece como registro historico e ponto de rastreabilidade da trilha anterior. Quando houver divergencia, a SPEC-MINUTO-001 V2.0.0 governa o produto.
 
 ---
 
@@ -129,11 +139,10 @@ Estado atual:
 
 # 7. Decisoes abertas
 
-1. Aprovacao formal da `SPEC-MINUTO-001 — MVP V2.0.0`.
-2. Prazos de retencao por categoria antes de Production.
-3. Modelagem fisica final do dominio `minute_before_*` no MA-V2-02.
-4. Se `entry_area_code` sera emitido em analytics ou ficara apenas internamente.
-5. Limite numerico final de `q4_other_text`.
+1. Prazos de retencao por categoria antes de Production.
+2. Modelagem fisica final do dominio `minute_before_*` no MA-V2-02.
+3. Se `entry_area_code` sera emitido em analytics ou ficara apenas internamente.
+4. Limite numerico final de `q4_other_text`.
 
 ---
 
