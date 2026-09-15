@@ -23,7 +23,7 @@
 
 | Rota | Arquivo | Status |
 |---|---|---|
-| `/` | `index.html` | ✅ LIVE — Home V1.1.1 / V1.2.0 em gate institucional de realinhamento canônico |
+| `/` | `index.html` | ✅ LIVE — Home V1.2.1 finalizada |
 | `/mapeamento/` | `mapeamento/index.html` | ✅ LIVE |
 | `/termos-de-uso` | `termos-de-uso.html` | ✅ LIVE |
 | `/politica-de-privacidade` | `politica-de-privacidade.html` | ✅ LIVE |
@@ -43,7 +43,7 @@
 - Canonical tags
 - OG / Open Graph
 - JSON-LD / Schema.org
-- Tracking da Home (`PAGE_ID = portal_home_v1`, `VARIANT_ID = institutional_experiencia_viva_v1_2` no gate Home V1.2.0)
+- Tracking da Home (`PAGE_ID = portal_home_v1`, `VARIANT_ID = institutional_experiencia_viva_v1_2_1` no gate Home V1.2.1)
 - Tracking do Mapeamento (`offer_id = mapping_pattern_interrupted_v1`)
 
 ---
@@ -81,9 +81,9 @@ Ele define o estado que futuras implementações **não podem quebrar silenciosa
 
 ---
 
-## Evolução institucional — Home V1.2.0
+## Evolução institucional — Home V1.2.1
 
-**Gate:** Home Institucional V1.2.0 — Realinhamento Canônico  
+**Gate:** Home Institucional V1.2.1 — Fechamento editorial da primeira dobra  
 **Base:** Home V1.1.1 — Experiência Viva  
 **Natureza da alteração:** editorial e semântica, sem redesign e sem reconstrução técnica.
 
@@ -98,6 +98,7 @@ Alterado conscientemente:
 - limites e nota de responsabilidade;
 - SEO textual da Home;
 - `VARIANT_ID` da Home.
+- remoção da objeção antecipada sobre crença na primeira dobra.
 
 Não alterado por este gate:
 
@@ -142,5 +143,6 @@ Qualquer alteração nas rotas protegidas exige:
 
 | Versão | Data | Alteração |
 |---|---|---|
+| V1.2 | 15/09/2026 | Fechamento editorial Home V1.2.1: remoção da objeção antecipada sobre crença no hero, atualização de `VARIANT_ID` e verificador institucional. |
 | V1.1 | 14/09/2026 | Registro do Gate Home V1.2.0 como evolução editorial/canônica da Home V1.1.1, preservando baseline técnica e rotas protegidas. |
 | V1.0 | 04/09/2026 | Registro da baseline protegida da Home V1.1.1 e rotas institucionais. |

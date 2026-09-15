@@ -178,26 +178,25 @@ Após DOC-OPS-01, não há refundação documental geral pendente conhecida.
 
 As próximas atividades pertencem às trilhas específicas, salvo nova decisão ou dependência transversal explícita.
 
-## 8.1 Gate institucional em andamento — Home V1.2.0
+## 8.1 Gate institucional finalizado — Home V1.2.1
 
-**Gate:** Home Institucional V1.2.0 — Realinhamento Canônico  
-**Status:** EM ANDAMENTO  
-**Branch:** `feat/home-v1-2-canonical-realignment`  
-**Base:** `origin/main` em `45614992fea6455e493e3f422010609ece40fc85`  
-**Produção:** não autorizada neste gate.
+**Gate:** Home Institucional V1.2.1 — Fechamento editorial da primeira dobra  
+**Status:** FINALIZADO  
+**Branch:** `codex/home-v1-2-1-editorial-origin`  
+**Base:** `origin/main` em `9fe938ca46a627a242e1affa60f7532afb70a1ed`  
+**Produção:** autorizada por Marcos Vinicius para fechamento integral do site institucional.
 
 Escopo aprovado:
 
-- evoluir a copy da Home V1.1.1 para V1.2.0;
+- evoluir a copy da Home V1.1.1 para V1.2.1;
 - alinhar identidade, Método, Jornada, papel de Marcos, espiritualidade, energia e limites aos CANONs vigentes;
 - preservar arquitetura, assets, rotas protegidas, Consent Mode, tracking, produtos em preparação e infraestrutura;
-- atualizar `VARIANT_ID` para `institutional_experiencia_viva_v1_2`;
-- validar via verificador institucional e regressão antes de Preview.
+- atualizar `VARIANT_ID` para `institutional_experiencia_viva_v1_2_1`;
+- remover da primeira dobra a frase “Você não precisa aderir a uma crença específica para começar.”;
+- validar via verificador institucional e regressão antes de publicação.
 
-Não autorizado neste gate:
+Não alterado neste gate:
 
-- publicar Production;
-- mergear `main`;
 - alterar `/mapeamento/`, termos, privacidade, `robots.txt`, `sitemap.xml`, `favicon.ico` ou `netlify.toml`;
 - promover produto em preparação para `live`;
 - criar rota, checkout, app, Supabase, Vercel ou Meu Caminho.
