@@ -3,6 +3,7 @@ Thumbs.db
 *.log
 .agents/
 skills-lock.json
+.claude/settings.local.json
 
 # Local Netlify folder
 .netlify
