@@ -98,7 +98,7 @@ Alterado conscientemente:
 - limites e nota de responsabilidade;
 - SEO textual da Home;
 - `VARIANT_ID` da Home.
-- remoção da objeção antecipada sobre crença na primeira dobra.
+- remoção da objeção antecipada sobre crença do fluxo principal da Home, preservando o tema apenas no FAQ.
 
 Não alterado por este gate:
 
@@ -143,6 +143,6 @@ Qualquer alteração nas rotas protegidas exige:
 
 | Versão | Data | Alteração |
 |---|---|---|
-| V1.2 | 15/09/2026 | Fechamento editorial Home V1.2.1: remoção da objeção antecipada sobre crença no hero, atualização de `VARIANT_ID` e verificador institucional. |
+| V1.2 | 15/09/2026 | Fechamento editorial Home V1.2.1: remoção da objeção antecipada sobre crença do fluxo principal, atualização de `VARIANT_ID` e verificador institucional. |
 | V1.1 | 14/09/2026 | Registro do Gate Home V1.2.0 como evolução editorial/canônica da Home V1.1.1, preservando baseline técnica e rotas protegidas. |
 | V1.0 | 04/09/2026 | Registro da baseline protegida da Home V1.1.1 e rotas institucionais. |

@@ -192,7 +192,7 @@ Escopo aprovado:
 - alinhar identidade, Método, Jornada, papel de Marcos, espiritualidade, energia e limites aos CANONs vigentes;
 - preservar arquitetura, assets, rotas protegidas, Consent Mode, tracking, produtos em preparação e infraestrutura;
 - atualizar `VARIANT_ID` para `institutional_experiencia_viva_v1_2_1`;
-- remover da primeira dobra a frase “Você não precisa aderir a uma crença específica para começar.”;
+- remover do fluxo principal a objeção antecipada sobre crença, preservando esse tema apenas no FAQ;
 - validar via verificador institucional e regressão antes de publicação.
 
 Não alterado neste gate:
