@@ -57,29 +57,7 @@
   <link rel="preload" href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:wght@600&family=Lora:wght@400;600&display=swap" as="style" onload="this.onload=null;this.rel='stylesheet'" />
   <noscript><link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:wght@600&family=Lora:wght@400;600&display=swap" /></noscript>
 
-  <script>
-    window.dataLayer = window.dataLayer || [];
-    function gtag(){dataLayer.push(arguments);}
-    gtag('consent','default',{
-      analytics_storage:     'denied',
-      ad_storage:            'denied',
-      ad_user_data:          'denied',
-      ad_personalization:    'denied',
-      wait_for_update:       500
-    });
-    (function(){
-      try {
-        if (localStorage.getItem('portal_consent') === 'granted') {
-          gtag('consent','update',{
-            analytics_storage:  'granted',
-            ad_storage:         'granted',
-            ad_user_data:       'granted',
-            ad_personalization: 'granted'
-          });
-        }
-      } catch(e) {}
-    })();
-  </script>
+  <script src="/js/portal-consent-v1.js"></script>
 
   <script>(function(w,d,s,l,i){w[l]=w[l]||[];w[l].push({'gtm.start':
   new Date().getTime(),event:'gtm.js'});var f=d.getElementsByTagName(s)[0],
@@ -524,6 +502,23 @@
     }
     .portal-btn--accept { background: var(--night); color: var(--cream); }
     .portal-btn--decline { background: transparent; color: var(--night); }
+    .portal-btn--customize { background: rgba(26, 25, 56, .08); color: var(--night); }
+    .portal-consent-options {
+      display: grid;
+      gap: 10px;
+      margin-top: 14px;
+      padding-top: 14px;
+      border-top: 1px solid rgba(43, 33, 27, .14);
+    }
+    .portal-consent-option {
+      display: flex;
+      align-items: flex-start;
+      justify-content: space-between;
+      gap: 16px;
+      font-size: .95rem;
+    }
+    .portal-consent-option span { display: block; color: rgba(43, 33, 27, .72); font-size: .86rem; margin-top: 2px; }
+    .portal-consent-option input { min-width: 22px; width: 22px; height: 22px; margin-top: 2px; accent-color: var(--night); }
 
     @media (min-width: 768px) {
       .section { padding-block: 88px; }
@@ -1116,8 +1111,20 @@
   <div id="portal-banner" role="region" aria-label="Aviso de cookies" hidden>
     <p>Usamos cookies necessários para o funcionamento do site e, com seu consentimento, tecnologias de medição e publicidade para entender visitas e melhorar a comunicação do Portal.</p>
     <div class="banner-actions">
-      <button class="portal-btn portal-btn--decline" id="portal-decline" type="button">Recusar cookies</button>
-      <button class="portal-btn portal-btn--accept" id="portal-accept" type="button">Aceitar</button>
+      <button class="portal-btn portal-btn--decline" id="portal-decline" type="button">Recusar opcionais</button>
+      <button class="portal-btn portal-btn--customize" id="portal-customize" type="button">Personalizar</button>
+      <button class="portal-btn portal-btn--accept" id="portal-accept" type="button">Aceitar todos</button>
+    </div>
+    <div class="portal-consent-options" data-consent-preferences hidden>
+      <label class="portal-consent-option">
+        <span><strong>Análise</strong><span>Ajuda o Portal a entender visitas e melhorar a experiência.</span></span>
+        <input type="checkbox" data-consent-analytics />
+      </label>
+      <label class="portal-consent-option">
+        <span><strong>Publicidade</strong><span>Permite mensuração de campanhas e personalização de anúncios.</span></span>
+        <input type="checkbox" data-consent-ads />
+      </label>
+      <button class="portal-btn portal-btn--accept" id="portal-save-preferences" type="button">Salvar preferências</button>
     </div>
   </div>
 
@@ -1279,7 +1286,7 @@
         }, trackingParams));
       }
       window.__initMetaPixels = initMetaPixels;
-      try { if (localStorage.getItem('portal_consent') === 'granted') { initMetaPixels(); } } catch(e) {}
+      try { if (window.PortalConsentV1 && window.PortalConsentV1.allowsAdvertising()) { initMetaPixels(); } } catch(e) {}
 
       dataLayer.push(Object.assign({
         event: 'session_context',
@@ -1427,45 +1434,9 @@
         });
       });
 
-      var banner = document.getElementById('portal-banner');
-      var accept = document.getElementById('portal-accept');
-      var decline = document.getElementById('portal-decline');
-      var prefs = document.getElementById('btn-pref-cookies');
-
-      function updateConsent(value) {
-        var granted = value === 'granted';
-        try { localStorage.setItem('portal_consent', value); } catch(e) {}
-        gtag('consent', 'update', {
-          analytics_storage: granted ? 'granted' : 'denied',
-          ad_storage: granted ? 'granted' : 'denied',
-          ad_user_data: granted ? 'granted' : 'denied',
-          ad_personalization: granted ? 'granted' : 'denied'
-        });
-        if (granted) { initMetaPixels(); }
-        if (banner) { banner.hidden = true; }
+      if (window.PortalConsentV1) {
+        window.PortalConsentV1.initBanner({});
       }
-
-      function showBanner() {
-        if (banner) { banner.hidden = false; }
-      }
-      window.showPortalCookieBanner = showBanner;
-
-      try {
-        if (!localStorage.getItem('portal_consent')) showBanner();
-      } catch(e) {
-        showBanner();
-      }
-
-      if (accept) accept.addEventListener('click', function(){ updateConsent('granted'); });
-      if (decline) decline.addEventListener('click', function() {
-        var prev;
-        try { prev = localStorage.getItem('portal_consent'); } catch(e) {}
-        updateConsent('denied');
-        if (prev === 'granted') {
-          setTimeout(function() { window.location.reload(); }, 350);
-        }
-      });
-      if (prefs) prefs.addEventListener('click', showBanner);
     })();
   </script>
 </body>

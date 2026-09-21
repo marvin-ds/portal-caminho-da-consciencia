@@ -50,30 +50,7 @@
   <link rel="preload" href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:ital,wght@0,300;0,400;0,500;0,600;0,700;1,300;1,400;1,500&family=Manrope:wght@400;500;600&display=swap" as="style" onload="this.onload=null;this.rel='stylesheet'" />
   <noscript><link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:ital,wght@0,300;0,400;0,500;0,600;0,700;1,300;1,400;1,500&family=Manrope:wght@400;500;600&display=swap" /></noscript>
 
-  <!-- Consent Mode v2 — denied por padrão; concede apenas se portal_consent === 'granted' -->
-  <script>
-    window.dataLayer = window.dataLayer || [];
-    function gtag(){dataLayer.push(arguments);}
-    gtag('consent','default',{
-      analytics_storage:     'denied',
-      ad_storage:            'denied',
-      ad_user_data:          'denied',
-      ad_personalization:    'denied',
-      wait_for_update:       500
-    });
-    (function(){
-      try {
-        if (localStorage.getItem('portal_consent') === 'granted') {
-          gtag('consent','update',{
-            analytics_storage:  'granted',
-            ad_storage:         'granted',
-            ad_user_data:       'granted',
-            ad_personalization: 'granted'
-          });
-        }
-      } catch(e) {}
-    })();
-  </script>
+  <script src="/js/portal-consent-v1.js"></script>
 
   <!-- Google Tag Manager -->
   <script>(function(w,d,s,l,i){w[l]=w[l]||[];w[l].push({'gtm.start':
@@ -82,7 +59,7 @@
   'https://www.googletagmanager.com/gtm.js?id='+i+dl;f.parentNode.insertBefore(j,f);
   })(window,document,'script','dataLayer','GTM-WC2C397G');</script>
 
-  <!-- Meta Pixel — carregado condicionalmente via initMetaPixels() quando portal_consent === 'granted' -->
+  <!-- Meta Pixel — carregado condicionalmente via initMetaPixels() quando portal_consent_v1 permite publicidade -->
 
   <style>
     *, *::before, *::after { box-sizing: border-box; margin: 0; padding: 0; }
@@ -978,6 +955,24 @@
     }
     .portal-btn--accept { background: var(--dourado); color: #141230; }
     .portal-btn--decline { background: transparent; color: rgba(243,234,218,0.75); border-color: rgba(201,162,93,0.4); }
+    .portal-btn--customize { background: rgba(201,162,93,0.12); color: rgba(243,234,218,0.88); border-color: rgba(201,162,93,0.55); }
+    .portal-consent-options {
+      width: 100%;
+      display: grid;
+      gap: 0.75rem;
+      padding-top: 0.8rem;
+      border-top: 1px solid rgba(201,162,93,0.2);
+    }
+    .portal-consent-option {
+      display: flex;
+      align-items: flex-start;
+      justify-content: space-between;
+      gap: 1rem;
+      max-width: 720px;
+    }
+    .portal-consent-option span { display: block; }
+    .portal-consent-option span span { color: rgba(243,234,218,0.62); font-size: 0.82rem; margin-top: 0.15rem; }
+    .portal-consent-option input { min-width: 20px; width: 20px; height: 20px; margin-top: 0.15rem; accent-color: var(--dourado); }
 
     /* ── Responsive ─────────────────────────────────── */
     @media (min-width: 640px) {
@@ -1783,7 +1778,7 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
       }, trackingParams));
     }
     window.__initMetaPixels = initMetaPixels;
-    try { if (localStorage.getItem('portal_consent') === 'granted') { initMetaPixels(); } } catch(e) {}
+    try { if (window.PortalConsentV1 && window.PortalConsentV1.allowsAdvertising()) { initMetaPixels(); } } catch(e) {}
 
     dataLayer.push({
       event: 'session_context',
@@ -1857,7 +1852,7 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
 
       if (el.classList.contains('js-cta')) {
         var local = el.getAttribute('data-local') || 'unknown';
-        if (localStorage.getItem('portal_consent') === 'granted' && typeof fbq === 'function') {
+        if (window.PortalConsentV1 && window.PortalConsentV1.allowsAdvertising() && typeof fbq === 'function') {
           fbq('trackCustom', 'offer_cta_click', { local: local });
         }
         dataLayer.push({
@@ -1872,7 +1867,7 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
 
       if (el.classList.contains('js-whatsapp')) {
         var wLocal = el.getAttribute('data-local') || 'unknown';
-        if (localStorage.getItem('portal_consent') === 'granted' && typeof fbq === 'function') {
+        if (window.PortalConsentV1 && window.PortalConsentV1.allowsAdvertising() && typeof fbq === 'function') {
           fbq('trackCustom', 'whatsapp_click', { local: wLocal });
         }
         dataLayer.push({
@@ -1913,65 +1908,27 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
     <a href="/politica-de-privacidade.html" aria-label="Política de privacidade">Política de Privacidade</a>.
   </p>
   <div class="portal-btns">
-    <button class="portal-btn portal-btn--decline" id="portal-decline">Recusar cookies</button>
-    <button class="portal-btn portal-btn--accept" id="portal-accept">Aceitar</button>
+    <button class="portal-btn portal-btn--decline" id="portal-decline">Recusar opcionais</button>
+    <button class="portal-btn portal-btn--customize" id="portal-customize">Personalizar</button>
+    <button class="portal-btn portal-btn--accept" id="portal-accept">Aceitar todos</button>
+  </div>
+  <div class="portal-consent-options" data-consent-preferences hidden>
+    <label class="portal-consent-option">
+      <span><strong>Análise</strong><span>Ajuda o Portal a entender visitas e melhorar a experiência.</span></span>
+      <input type="checkbox" data-consent-analytics />
+    </label>
+    <label class="portal-consent-option">
+      <span><strong>Publicidade</strong><span>Permite mensuração de campanhas e personalização de anúncios.</span></span>
+      <input type="checkbox" data-consent-ads />
+    </label>
+    <button class="portal-btn portal-btn--accept" id="portal-save-preferences">Salvar preferências</button>
   </div>
 </div>
 
 <script>
   (function () {
-    var STORAGE_KEY = 'portal_consent';
-    var banner = document.getElementById('portal-banner');
-
-    function applyConsent(state) {
-      gtag('consent', 'update', {
-        analytics_storage:  state,
-        ad_storage:         state,
-        ad_user_data:       state,
-        ad_personalization: state
-      });
-    }
-
-    function hideBanner() {
-      banner.classList.remove('portal-visible');
-      setTimeout(function () { banner.hidden = true; }, 400);
-    }
-
-    function showBanner() {
-      banner.hidden = false;
-      setTimeout(function () { banner.classList.add('portal-visible'); }, 50);
-    }
-    window.__showConsentBanner = showBanner;
-
-    document.getElementById('portal-accept').addEventListener('click', function () {
-      try { localStorage.setItem(STORAGE_KEY, 'granted'); } catch(e) {}
-      applyConsent('granted');
-      hideBanner();
-      try { if (window.__initMetaPixels) window.__initMetaPixels(); } catch(e) {}
-    });
-
-    document.getElementById('portal-decline').addEventListener('click', function () {
-      var prev;
-      try { prev = localStorage.getItem(STORAGE_KEY); } catch(e) { prev = null; }
-      try { localStorage.setItem(STORAGE_KEY, 'denied'); } catch(e) {}
-      applyConsent('denied');
-      if (prev === 'granted') {
-        setTimeout(function () { window.location.reload(); }, 350);
-      } else {
-        hideBanner();
-      }
-    });
-
-    var prefBtn = document.getElementById('btn-pref-cookies');
-    if (prefBtn) {
-      prefBtn.addEventListener('click', function () { showBanner(); });
-    }
-
-    try { var stored = localStorage.getItem(STORAGE_KEY); } catch(e) { var stored = null; }
-
-    if (stored !== 'granted' && stored !== 'denied') {
-      banner.hidden = false;
-      setTimeout(function () { banner.classList.add('portal-visible'); }, 1500);
+    if (window.PortalConsentV1) {
+      window.PortalConsentV1.initBanner({});
     }
   })();
 </script>
