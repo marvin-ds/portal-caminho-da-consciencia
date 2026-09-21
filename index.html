@@ -1170,8 +1170,7 @@
       }
 
       var ATTRIBUTION_STORAGE_KEY = 'portal_attribution_v1';
-      var ATTRIBUTION_KEYS = ['utm_source','utm_medium','utm_campaign','utm_content','utm_term'];
-      var CLICK_ID_KEYS = ['gclid','gbraid','wbraid'];
+      var ATTRIBUTION_KEYS = ['utm_source','utm_medium','utm_campaign','utm_content','utm_term','gclid','gbraid','wbraid'];
 
       function cleanAttributionValue(value) {
         if (typeof value !== 'string') return null;
@@ -1233,16 +1232,6 @@
         return attribution;
       }
 
-      function readClickIdsFromUrl() {
-        var p = new URLSearchParams(location.search);
-        var clickIds = {};
-        CLICK_ID_KEYS.forEach(function(k) {
-          var value = cleanAttributionValue(p.get(k));
-          if (value) clickIds[k] = value;
-        });
-        return clickIds;
-      }
-
       function decorateUrlWithAttribution(rawUrl, attribution) {
         try {
           var url = new URL(rawUrl, window.location.href);
@@ -1259,17 +1248,18 @@
         }
       }
 
-      function decorateInternalCommercialLinks(attribution) {
+      function decorateCommercialLinks(attribution) {
         if (!Object.keys(attribution).length) return;
-        document.querySelectorAll('a.js-route-cta[href^="/mapeamento/"]').forEach(function(link) {
+        document.querySelectorAll(
+          'a.js-route-cta[href^="/mapeamento/"], a.js-checkout-cta'
+        ).forEach(function(link) {
           link.href = decorateUrlWithAttribution(link.getAttribute('href'), attribution);
         });
       }
 
       var utms = initAttribution();
-      var clickIds = readClickIdsFromUrl();
-      var trackingParams = Object.assign({}, utms, clickIds);
-      decorateInternalCommercialLinks(utms);
+      var trackingParams = utms;
+      decorateCommercialLinks(utms);
 
       function initMetaPixels() {
         if (window.__portalMetaInitialized) return;
@@ -1282,7 +1272,6 @@
         t.src=v;s=b.getElementsByTagName(e)[0];
         s.parentNode.insertBefore(t,s)}(window,document,'script',
         'https://connect.facebook.net/en_US/fbevents.js');
-        fbq('init', '1566666134485463');
         fbq('init', '4659045990859789');
         fbq('track', 'PageView', Object.assign({
           content_name: 'Portal Caminho da Consciência',
