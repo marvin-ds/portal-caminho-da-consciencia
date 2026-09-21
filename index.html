@@ -1169,15 +1169,97 @@
         });
       }
 
-      function getUtms() {
-        var p = new URLSearchParams(location.search);
-        var keys = ['utm_source','utm_medium','utm_campaign','utm_content','utm_term','gclid','gbraid','wbraid'];
-        var u = {};
-        keys.forEach(function(k){ if(p.get(k)) u[k] = p.get(k); });
-        return u;
+      var ATTRIBUTION_STORAGE_KEY = 'portal_attribution_v1';
+      var ATTRIBUTION_KEYS = ['utm_source','utm_medium','utm_campaign','utm_content','utm_term','gclid','gbraid','wbraid'];
+
+      function cleanAttributionValue(value) {
+        if (typeof value !== 'string') return null;
+        var trimmed = value.trim();
+        return trimmed ? trimmed : null;
       }
 
-      var utms = getUtms();
+      function readAttributionFromUrl() {
+        var p = new URLSearchParams(location.search);
+        var attribution = {};
+        ATTRIBUTION_KEYS.forEach(function(k) {
+          var value = cleanAttributionValue(p.get(k));
+          if (value) attribution[k] = value;
+        });
+        return attribution;
+      }
+
+      function readStoredAttribution() {
+        try {
+          var raw = sessionStorage.getItem(ATTRIBUTION_STORAGE_KEY);
+          if (!raw) return {};
+          var parsed = JSON.parse(raw);
+          var attribution = {};
+          ATTRIBUTION_KEYS.forEach(function(k) {
+            var value = cleanAttributionValue(parsed && parsed[k]);
+            if (value) attribution[k] = value;
+          });
+          return attribution;
+        } catch(e) {
+          return {};
+        }
+      }
+
+      function mergeAttribution(stored, incoming) {
+        var merged = {};
+        ATTRIBUTION_KEYS.forEach(function(k) {
+          var incomingValue = cleanAttributionValue(incoming[k]);
+          var storedValue = cleanAttributionValue(stored[k]);
+          if (incomingValue) merged[k] = incomingValue;
+          else if (storedValue) merged[k] = storedValue;
+        });
+        return merged;
+      }
+
+      function storeAttribution(attribution) {
+        if (!Object.keys(attribution).length) return;
+        var stored = {};
+        ATTRIBUTION_KEYS.forEach(function(k) {
+          stored[k] = cleanAttributionValue(attribution[k]);
+        });
+        try {
+          sessionStorage.setItem(ATTRIBUTION_STORAGE_KEY, JSON.stringify(stored));
+        } catch(e) {}
+      }
+
+      function initAttribution() {
+        var attribution = mergeAttribution(readStoredAttribution(), readAttributionFromUrl());
+        storeAttribution(attribution);
+        return attribution;
+      }
+
+      function decorateUrlWithAttribution(rawUrl, attribution) {
+        try {
+          var url = new URL(rawUrl, window.location.href);
+          ATTRIBUTION_KEYS.forEach(function(k) {
+            var value = cleanAttributionValue(attribution[k]);
+            if (value) url.searchParams.set(k, value);
+          });
+          if (url.origin === window.location.origin) {
+            return url.pathname + url.search + url.hash;
+          }
+          return url.href;
+        } catch(e) {
+          return rawUrl;
+        }
+      }
+
+      function decorateCommercialLinks(attribution) {
+        if (!Object.keys(attribution).length) return;
+        document.querySelectorAll(
+          'a.js-route-cta[href^="/mapeamento/"], a.js-checkout-cta'
+        ).forEach(function(link) {
+          link.href = decorateUrlWithAttribution(link.getAttribute('href'), attribution);
+        });
+      }
+
+      var utms = initAttribution();
+      var trackingParams = utms;
+      decorateCommercialLinks(utms);
 
       function initMetaPixels() {
         if (window.__portalMetaInitialized) return;
@@ -1190,12 +1272,11 @@
         t.src=v;s=b.getElementsByTagName(e)[0];
         s.parentNode.insertBefore(t,s)}(window,document,'script',
         'https://connect.facebook.net/en_US/fbevents.js');
-        fbq('init', '1566666134485463');
         fbq('init', '4659045990859789');
         fbq('track', 'PageView', Object.assign({
           content_name: 'Portal Caminho da Consciência',
           content_category: 'Institucional'
-        }, utms));
+        }, trackingParams));
       }
       window.__initMetaPixels = initMetaPixels;
       try { if (localStorage.getItem('portal_consent') === 'granted') { initMetaPixels(); } } catch(e) {}
@@ -1208,7 +1289,7 @@
         mapping_status: routes.mapping.status,
         minute_before_status: routes.minuteBefore.status,
         before_the_squeeze_status: routes.beforeTheSqueeze.status
-      }, utms));
+      }, trackingParams));
 
       var sectionMap = {
         hero: 'hero',

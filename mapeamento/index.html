@@ -1659,23 +1659,94 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
     var anoEl = document.getElementById('ano');
     if (anoEl) anoEl.textContent = new Date().getFullYear();
 
-    function getUtms() {
-      var p = new URLSearchParams(window.location.search);
-      var keys = ['utm_source','utm_medium','utm_campaign','utm_content','utm_term',
-                  'gclid','gbraid','wbraid'];
-      var u = {};
-      keys.forEach(function(k){ if(p.get(k)) u[k] = p.get(k); });
-      return u;
+    var ATTRIBUTION_STORAGE_KEY = 'portal_attribution_v1';
+    var ATTRIBUTION_KEYS = ['utm_source','utm_medium','utm_campaign','utm_content','utm_term','gclid','gbraid','wbraid'];
+
+    function cleanAttributionValue(value) {
+      if (typeof value !== 'string') return null;
+      var trimmed = value.trim();
+      return trimmed ? trimmed : null;
     }
 
-    var utms = getUtms();
+    function readAttributionFromUrl() {
+      var p = new URLSearchParams(window.location.search);
+      var attribution = {};
+      ATTRIBUTION_KEYS.forEach(function(k) {
+        var value = cleanAttributionValue(p.get(k));
+        if (value) attribution[k] = value;
+      });
+      return attribution;
+    }
+
+    function readStoredAttribution() {
+      try {
+        var raw = sessionStorage.getItem(ATTRIBUTION_STORAGE_KEY);
+        if (!raw) return {};
+        var parsed = JSON.parse(raw);
+        var attribution = {};
+        ATTRIBUTION_KEYS.forEach(function(k) {
+          var value = cleanAttributionValue(parsed && parsed[k]);
+          if (value) attribution[k] = value;
+        });
+        return attribution;
+      } catch(e) {
+        return {};
+      }
+    }
+
+    function mergeAttribution(stored, incoming) {
+      var merged = {};
+      ATTRIBUTION_KEYS.forEach(function(k) {
+        var incomingValue = cleanAttributionValue(incoming[k]);
+        var storedValue = cleanAttributionValue(stored[k]);
+        if (incomingValue) merged[k] = incomingValue;
+        else if (storedValue) merged[k] = storedValue;
+      });
+      return merged;
+    }
+
+    function storeAttribution(attribution) {
+      if (!Object.keys(attribution).length) return;
+      var stored = {};
+      ATTRIBUTION_KEYS.forEach(function(k) {
+        stored[k] = cleanAttributionValue(attribution[k]);
+      });
+      try {
+        sessionStorage.setItem(ATTRIBUTION_STORAGE_KEY, JSON.stringify(stored));
+      } catch(e) {}
+    }
+
+    function initAttribution() {
+      var attribution = mergeAttribution(readStoredAttribution(), readAttributionFromUrl());
+      storeAttribution(attribution);
+      return attribution;
+    }
+
+    function decorateUrlWithAttribution(rawUrl, attribution) {
+      try {
+        var url = new URL(rawUrl, window.location.href);
+        ATTRIBUTION_KEYS.forEach(function(k) {
+          var value = cleanAttributionValue(attribution[k]);
+          if (value) url.searchParams.set(k, value);
+        });
+        if (url.origin === window.location.origin) {
+          return url.pathname + url.search + url.hash;
+        }
+        return url.href;
+      } catch(e) {
+        return rawUrl;
+      }
+    }
+
+    var utms = initAttribution();
+    var trackingParams = utms;
 
     function waUrl() {
       var num = '5513996899519';
       var msg = 'Olá, vi o Mapeamento Padrão Interrompido no Portal Caminho da Consciência e gostaria de entender se ele faz sentido para o meu caso.';
       var url = 'https://wa.me/' + num + '?text=' + encodeURIComponent(msg);
-      if (Object.keys(utms).length) {
-        url += '&' + new URLSearchParams(utms).toString();
+      if (Object.keys(trackingParams).length) {
+        url += '&' + new URLSearchParams(trackingParams).toString();
       }
       return url;
     }
@@ -1703,14 +1774,13 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
       t.src=v;s=b.getElementsByTagName(e)[0];
       s.parentNode.insertBefore(t,s)}(window,document,'script',
       'https://connect.facebook.net/en_US/fbevents.js');
-      fbq('init', '1566666134485463');
       fbq('init', '4659045990859789');
       fbq('track', 'ViewContent', Object.assign({
         content_name: OFFER_NAME,
         content_category: 'Desenvolvimento Pessoal',
         value: OFFER_VAL,
         currency: OFFER_CUR
-      }, utms));
+      }, trackingParams));
     }
     window.__initMetaPixels = initMetaPixels;
     try { if (localStorage.getItem('portal_consent') === 'granted') { initMetaPixels(); } } catch(e) {}
@@ -1721,9 +1791,9 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
       offer_name:     OFFER_NAME,
       offer_value:    OFFER_VAL,
       offer_currency: OFFER_CUR,
-      gclid:          utms.gclid        || null,
-      gbraid:         utms.gbraid       || null,
-      wbraid:         utms.wbraid       || null,
+      gclid:          clickIds.gclid    || null,
+      gbraid:         clickIds.gbraid   || null,
+      wbraid:         clickIds.wbraid   || null,
       utm_source:     utms.utm_source   || null,
       utm_medium:     utms.utm_medium   || null,
       utm_campaign:   utms.utm_campaign || null,
