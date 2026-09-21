@@ -73,6 +73,32 @@ assert.deepEqual(api.toGoogleConsent(valid({ analytics: 'denied', ads: 'denied' 
   ad_user_data: 'granted',
   ad_personalization: 'granted',
 });
+assert.deepEqual(api.getPreferenceState(null), {
+  analytics: false,
+  ads: false,
+});
+assert.deepEqual(api.getPreferenceState(valid()), {
+  analytics: true,
+  ads: true,
+});
+assert.deepEqual(api.getPreferenceState(valid({
+  analytics: 'denied',
+  ads: 'denied',
+  ad_user_data: 'denied',
+  ad_personalization: 'denied',
+})), {
+  analytics: false,
+  ads: false,
+});
+assert.deepEqual(api.getPreferenceState(valid({
+  analytics: 'granted',
+  ads: 'denied',
+  ad_user_data: 'denied',
+  ad_personalization: 'denied',
+})), {
+  analytics: true,
+  ads: false,
+});
 assert.equal(api.parseSerialized('%7Bbad'), null);
 assert.equal(api.normalizePayload(valid({ version: 2 })), null);
 assert.equal(api.normalizePayload(valid({ analytics: 'yes' })), null);

@@ -232,6 +232,15 @@
     return !!consent && consent.analytics === 'granted';
   }
 
+  function getPreferenceState(payload) {
+    var consent = normalizePayload(payload);
+
+    return {
+      analytics: !!consent && consent.analytics === 'granted',
+      ads: !!consent && allowsAdvertising(consent)
+    };
+  }
+
   function setConsent(payload) {
     var previous = root.__portalConsentDecision || readCookie();
     if (!writeCookie(payload)) return false;
@@ -279,11 +288,12 @@
 
   function syncToggles(rootEl, payload) {
     var consent = normalizePayload(payload || root.__portalConsentDecision || readCookie());
+    var state = getPreferenceState(consent);
     var analytics = rootEl.querySelector('[data-consent-analytics]');
     var ads = rootEl.querySelector('[data-consent-ads]');
 
-    if (analytics) analytics.checked = !consent || consent.analytics === 'granted';
-    if (ads) ads.checked = !consent || allowsAdvertising(consent);
+    if (analytics) analytics.checked = state.analytics;
+    if (ads) ads.checked = state.ads;
   }
 
   function initBanner(config) {
@@ -354,6 +364,7 @@
     bootstrap: bootstrap,
     createPayload: createPayload,
     getCookieDomain: getCookieDomain,
+    getPreferenceState: getPreferenceState,
     initBanner: initBanner,
     normalizePayload: normalizePayload,
     parseSerialized: parseSerialized,
