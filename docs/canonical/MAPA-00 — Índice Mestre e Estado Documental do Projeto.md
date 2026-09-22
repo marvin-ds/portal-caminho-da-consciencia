@@ -6,9 +6,9 @@
 | \*\*Código\*\* | \`MAPA-00\` |  
 | \*\*Tipo\*\* | Documento Auxiliar de Navegação e Controle Documental |  
 | \*\*Status\*\* | \*\*VIGENTE\*\* |  
-| \*\*Versão\*\* | \*\*1.1.0\*\* |
+| \*\*Versão\*\* | \*\*1.2.0\*\* |
 | \*\*Data de criação\*\* | \*\*13/09/2026\*\* |  
-| \*\*Última atualização\*\* | \*\*14/09/2026\*\* |
+| \*\*Última atualização\*\* | \*\*22/09/2026\*\* |
 | \*\*Responsável pelo projeto\*\* | \*\*Marcos Vinicius\*\* |  
 | \*\*Projeto\*\* | \*\*Portal Caminho da Consciência\*\* |  
 | \*\*Função\*\* | Índice dos documentos vigentes, localização das fontes de verdade e visão rápida do estado documental |  
@@ -622,6 +622,7 @@ Ao criar documentos relevantes, adicioná-los posteriormente a esta seção.
 | `SPEC-PORTFOLIO-00` | Esteira de Produtos, Arquitetura Comercial e Integração com Meu Caminho | `docs/specs/SPEC-PORTFOLIO-00 — Esteira de Produtos, Arquitetura Comercial e Integração com Meu Caminho — V1.0.0.md` | `1.0.0` | APROVADO | Portfólio, funções econômicas, esteira e critérios de evolução |
 | `SPEC-MEU-CAMINHO-001` | Área Pessoal de Continuidade “Meu Caminho” | `docs/specs/SPEC-MEU-CAMINHO-001 — Área Pessoal de Continuidade “Meu Caminho” — V2.0.0.md` | `2.0.0` | APROVADO | Arquitetura funcional, continuidade, privacidade e plano de execução do Meu Caminho |
 | `SPEC-STACK-00` | Arquitetura Técnica, Stack e Infraestrutura | `docs/specs/SPEC-STACK-00 — Arquitetura Técnica, Stack e Infraestrutura — V1.0.0.md` | `1.0.0` | APROVADO | Topologia, stack, infraestrutura, segurança e contratos técnicos transversais |
+| `SPEC-CONSENT-001` | Contrato Transversal de Consentimento Web | `docs/specs/SPEC-CONSENT-001 — Contrato Transversal de Consentimento Web — V1.0.0.md` | `1.0.0` | APROVADA | Governar consentimento browser-side transversal entre institucional e app, Consent Mode v2, cookie parent-domain, migração de legado e limites para mensuração futura |
 
 \---
 
@@ -915,9 +916,10 @@ Para isso:
 
 | Versão | Data | Alteração | Responsável |  
 |---|---|---|---|  
+| \*\*1.2.0\*\* | \*\*22/09/2026\*\* | Registro da `SPEC-CONSENT-001` V1.0.0 como contrato transversal aprovado de consentimento web entre institucional e app. | \*\*Marcos Vinicius\*\* |
 | \*\*1.1.0\*\* | \*\*14/09/2026\*\* | Registro das primeiras SPECs transversais aprovadas: `SPEC-PORTFOLIO-00` V1.0.0, `SPEC-MEU-CAMINHO-001` V2.0.0 e `SPEC-STACK-00` V1.0.0; atualização das lacunas e rotas de consulta. | \*\*Marcos Vinicius\*\* |
 | \*\*1.0.0\*\* | \*\*13/09/2026\*\* | Criação do Índice Mestre; consolidação do estado dos CÂNONs 00 a 07, mapa de consulta, estruturas vigentes, lacunas conhecidas e regras de navegação documental. | \*\*Marcos Vinicius\*\* |
 
 \---
 
-\*\*FIM DO DOCUMENTO — MAPA-00 — V1.1.0 — VIGENTE\*\*
+\*\*FIM DO DOCUMENTO — MAPA-00 — V1.2.0 — VIGENTE\*\*
