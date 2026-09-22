@@ -3,7 +3,7 @@
 **Projeto:** Portal Caminho da Consciência  
 **Domínio auditado:** `https://portalcaminhodaconsciencia.com.br`  
 **Data:** 22/09/2026  
-**Status:** APROVADA PARA BACKLOG / NÃO IMPLEMENTADA  
+**Status:** APROVADA / SEO-01 EXECUTADO EM BRANCH  
 **Workstream:** INSTITUTIONAL  
 **Natureza:** documentação de auditoria e plano de melhorias futuras  
 
@@ -23,7 +23,65 @@ O objetivo é registrar:
 - o que vale a pena implementar;
 - a ordem recomendada para um próximo gate técnico de SEO.
 
-Este documento não implementa alterações no site.
+Este documento também passa a funcionar como contrato mínimo de SEO para toda nova página pública criada no Portal.
+
+---
+
+# 1.1 Contrato SEO obrigatório para novas páginas
+
+Toda página pública nova criada no site institucional deve cumprir este contrato antes de ir ao ar.
+
+## 1.1.1 Entrada e indexação
+
+- A página só pode entrar em produção com decisão explícita de indexação: `indexável` ou `noindex`.
+- Páginas comerciais, institucionais e editoriais públicas devem ser indexáveis por padrão.
+- Páginas legais, páginas de teste, previews e rotas internas devem usar `noindex` quando não houver objetivo orgânico.
+- Nenhuma página pública relevante pode receber `noindex` por padrão de ferramenta, template ou cópia.
+- O `robots.txt` não deve bloquear páginas públicas indexáveis.
+- Toda página pública indexável deve estar acessível por HTTPS.
+
+## 1.1.2 Entendimento semântico
+
+- Cada página indexável deve ter exatamente 1 `H1`.
+- O `H1` deve dizer claramente o que a página é.
+- Cada página deve ter `title` único.
+- Cada página deve ter `meta description` própria e escrita para pessoas.
+- Cada página deve ter canonical absoluto.
+- A hierarquia de headings deve seguir ordem compreensível: `H1` → `H2` → `H3`.
+- Dados estruturados devem ser usados quando fizerem sentido para o tipo da página.
+
+## 1.1.3 Compartilhamento e apresentação
+
+- Cada página pública indexável deve ter Open Graph mínimo:
+  - `og:title`;
+  - `og:description`;
+  - `og:url`;
+  - `og:image`.
+- Cada página pública indexável deve ter Twitter Card correspondente.
+- A imagem de compartilhamento deve ser validada antes de publicação quando a página tiver função comercial ou institucional relevante.
+
+## 1.1.4 Sitemap
+
+- Toda nova página pública indexável deve entrar no `sitemap.xml` somente quando estiver `live`.
+- Páginas `noindex` não devem entrar no sitemap.
+- `lastmod` deve refletir a última alteração significativa da página.
+
+## 1.1.5 Rastreadores de IA
+
+- A política vigente é permitir rastreamento das páginas públicas indexáveis por buscadores e modelos de IA, salvo decisão explícita em contrário.
+- Bloqueios específicos em `robots.txt` só podem ser adicionados com decisão registrada.
+- Conteúdo claro, estruturado e com headings consistentes é requisito tanto para buscadores quanto para modelos de IA.
+
+## 1.1.6 SEO local
+
+- Schema local (`LocalBusiness`, `ProfessionalService` ou equivalente) só deve ser implementado após decisão sobre:
+  - endereço público;
+  - área de atendimento;
+  - telefone público;
+  - horário de atendimento;
+  - Google Perfil da Empresa.
+
+Sem essas decisões, novas páginas não devem inventar NAP local.
 
 ---
 
@@ -42,7 +100,7 @@ Foram considerados:
 - camada nova de rastreadores de IA
 - SEO local em sentido estratégico
 
-Fora do escopo desta auditoria:
+Fora do escopo da auditoria inicial:
 
 - alteração de código;
 - alteração de copy publicada;
@@ -51,6 +109,8 @@ Fora do escopo desta auditoria:
 - execução de Lighthouse/PageSpeed;
 - acesso ao Google Search Console;
 - configuração ou auditoria real do Google Perfil da Empresa.
+
+Observação: o gate SEO-01, executado posteriormente neste mesmo documento, implementou ajustes pontuais em `/mapeamento/`, `sitemap.xml` e verificador institucional.
 
 ---
 
@@ -228,7 +288,7 @@ Sem essas decisões, não implementar schema local para evitar informação arti
 
 ### SEO-001 — Corrigir ausência de `H1` em `/mapeamento/`
 
-**Estado:** não implementado  
+**Estado:** IMPLEMENTADO EM BRANCH NO SEO-01  
 **Valor:** alto  
 **Risco:** baixo, se mantiver layout e copy  
 
@@ -245,7 +305,7 @@ Critério de aceite:
 
 ### SEO-002 — Atualizar disciplina de `sitemap.xml`
 
-**Estado:** parcialmente implementado  
+**Estado:** IMPLEMENTADO EM BRANCH NO SEO-01  
 **Valor:** médio  
 **Risco:** baixo  
 
@@ -260,7 +320,7 @@ Critério de aceite:
 
 ### SEO-003 — Registrar política de rastreadores de IA
 
-**Estado:** não documentado explicitamente  
+**Estado:** IMPLEMENTADO NESTA SPEC  
 **Valor:** médio  
 **Risco:** baixo  
 
@@ -274,7 +334,7 @@ Critério de aceite:
 
 ### SEO-004 — Validar `og:image` e imagem de compartilhamento
 
-**Estado:** implementado, mas não validado dimensionalmente nesta auditoria  
+**Estado:** VALIDADO NO SEO-01  
 **Valor:** médio  
 **Risco:** baixo  
 
@@ -284,6 +344,13 @@ Critério de aceite:
 - imagem tem proporção recomendada para compartilhamento;
 - peso não prejudica carregamento;
 - WhatsApp, Facebook e LinkedIn devem ser testados quando possível.
+
+Validação técnica realizada em 22/09/2026:
+
+| Página | Imagem | Dimensão | Peso | Veredito |
+|---|---|---:|---:|---|
+| Home | `assets/images/home/hero-cenario-v2.webp` | `1600x900` | `84468 bytes` | OK |
+| Mapeamento | `assets/images/prova-processo-16x9.webp` | `1200x675` | `103138 bytes` | OK |
 
 ---
 
@@ -354,18 +421,20 @@ Não recomendado sem decisão estratégica. O site atual está aberto; bloquear 
 
 ---
 
-# 8. Gate futuro recomendado
+# 8. Gate SEO-01 — Correções técnicas leves
 
-## Gate SEO-01 — Correções técnicas leves
+**Status:** EXECUTADO EM BRANCH  
+**Data:** 22/09/2026  
 
-Escopo recomendado:
+Escopo executado:
 
 1. adicionar exatamente 1 `H1` em `/mapeamento/`;
 2. atualizar `sitemap.xml` e política de `lastmod`;
-3. validar `og:image` de Home e Mapeamento;
+3. registrar contrato SEO obrigatório para páginas futuras;
 4. registrar decisão sobre rastreadores de IA;
-5. rodar verificador institucional;
-6. rodar smoke test público após deploy.
+5. validar dimensões e peso das imagens de compartilhamento da Home e do Mapeamento;
+6. atualizar verificador institucional com checks mínimos de SEO;
+7. rodar verificador institucional.
 
 Arquivos possivelmente permitidos no gate:
 

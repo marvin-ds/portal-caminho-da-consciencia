@@ -85,6 +85,29 @@ Check "MAP-SINTONIZE-DISTINCT" "Mapeamento refere Sintonize como oferta distinta
 Check "MAP-FAQ-SINTONIZE" "FAQ inclui pergunta de separação Mapeamento/Sintonize" `
     ($map -match "faq-q4" -and $map -match "inclui a Mesa Radiônica")
 
+# SEO institucional mínimo em páginas indexáveis
+$homeH1Count = ([regex]::Matches($homeHtml, "<h1\b", "IgnoreCase")).Count
+$mapH1Count = ([regex]::Matches($map, "<h1\b", "IgnoreCase")).Count
+Check "SEO-HOME-H1-COUNT" "Home contém exatamente 1 H1" ($homeH1Count -eq 1)
+Check "SEO-MAP-H1-COUNT" "Mapeamento contém exatamente 1 H1" ($mapH1Count -eq 1)
+Check "SEO-MAP-H1-NAMES-PAGE" "H1 do Mapeamento nomeia a página/oferta" `
+    ($map -match "<h1[^>]*>[\s\S]*Mapeamento Padrão Interrompido[\s\S]*</h1>")
+Check "SEO-HOME-NOINDEX" "Home indexável sem noindex" ($homeHtml -notmatch "noindex")
+Check "SEO-MAP-NOINDEX" "Mapeamento indexável sem noindex" ($map -notmatch "noindex")
+
+$robots = Get-Content (Join-Path $Root "robots.txt") -Raw -ErrorAction SilentlyContinue
+$sitemap = Get-Content (Join-Path $Root "sitemap.xml") -Raw -ErrorAction SilentlyContinue
+Check "SEO-ROBOTS-ALLOW" "robots.txt permite rastreamento público" `
+    ($robots -match "User-agent:\s*\*" -and $robots -match "Allow:\s*/")
+Check "SEO-ROBOTS-SITEMAP" "robots.txt aponta para sitemap oficial" `
+    ($robots -match "Sitemap:\s*https://portalcaminhodaconsciencia\.com\.br/sitemap\.xml")
+Check "SEO-SITEMAP-HOME" "sitemap lista a Home" `
+    ($sitemap -match "<loc>https://portalcaminhodaconsciencia\.com\.br/</loc>")
+Check "SEO-SITEMAP-MAPEAMENTO" "sitemap lista o Mapeamento" `
+    ($sitemap -match "<loc>https://portalcaminhodaconsciencia\.com\.br/mapeamento/</loc>")
+Check "SEO-SITEMAP-MAPEAMENTO-LASTMOD" "sitemap atualiza lastmod do Mapeamento" `
+    ($sitemap -match "<loc>https://portalcaminhodaconsciencia\.com\.br/mapeamento/</loc>[\s\S]*<lastmod>2026-09-22</lastmod>")
+
 # ── Termos: preços e entregáveis ──────────────────────────────────────────────
 $terms = Get-Content (Join-Path $Root "termos-de-uso.html") -Raw -ErrorAction SilentlyContinue
 
