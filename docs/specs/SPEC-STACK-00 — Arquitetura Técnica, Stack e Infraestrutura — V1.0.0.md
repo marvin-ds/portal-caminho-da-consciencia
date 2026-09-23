@@ -7,9 +7,9 @@
 | **Código** | `SPEC-STACK-00` |
 | **Tipo** | Especificação Técnica Transversal |
 | **Status** | **APROVADO** |
-| **Versão** | **1.0.0** |
+| **Versão** | **1.1.0** |
 | **Data de criação** | **14/09/2026** |
-| **Última atualização** | **14/09/2026** |
+| **Última atualização** | **22/09/2026** |
 | **Autoridade de aprovação** | **Marcos Vinicius** |
 | **Projeto** | **Portal Caminho da Consciência** |
 | **Escopo** | Arquitetura técnica, stack, infraestrutura, ambientes, identidade, dados, storage, segurança, pagamentos, comunicação, analytics, observabilidade, desenvolvimento, deploy e contratos transversais |
@@ -1029,6 +1029,36 @@ Regra:
 
 ---
 
+## 30.1. Topologia implementada — App Analytics (Gate 3B)
+
+**Estado:** `IMPLEMENTADO`
+
+```text
+GTM container (app dedicado): GTM-K9PGRL4Z
+GTM version publicada:        2 — "App analytics base — consent-safe"
+
+GA4 property:                 552234318
+GA4 stream:                   15826431027
+GA4 measurement ID:           G-DDW67F2LBW
+Enhanced Measurement:         DISABLED
+
+Consent Mode:                 via portal_consent_v1
+```
+
+Decisões fixas desta topologia:
+
+- GTM do app é **dedicado** — separado do GTM do site institucional;
+- `app_page_view` é o evento custom browser-side de navegação explicitamente allowlisted e implementado neste gate (eventos lifecycle automáticos do GA4 como `session_start`, `first_visit` e `user_engagement` podem ocorrer sem serem bloqueados);
+- **Enhanced Measurement desabilitado** para evitar disparo automático de eventos não auditados;
+- sanitização de metadata ativa globalmente: query string e hash não exportados; `page_location` = origin + pathname normalizado; `page_referrer` = origin ou vazio; `page_title` = valor genérico; valores sensíveis (tokens, intent_code, PII, texto livre) não exportados;
+- `purchase` **não é disparado browser-side no app** — fonte econômica é exclusivamente server-side via webhook Eduzz (`invoice_paid`);
+- Meta Pixel **ausente** no app;
+- tag de conversão Google Ads **ausente** no app.
+
+Contrato detalhado em `SPEC-MENSURACAO-00`.
+
+---
+
 # 31. CONSENTIMENTO DIGITAL
 
 Consentimentos devem ser separados conforme finalidade.
@@ -1558,15 +1588,19 @@ Não exigir teste artificial apenas para aumentar métrica de cobertura.
 - repositório institucional;
 - Git/GitHub;
 - branch de produção;
-- GTM;
-- GA4;
-- Consent Mode v2;
+- GTM (site institucional);
+- GA4 (site institucional);
+- Consent Mode v2 (site institucional);
 - Conversion Linker;
-- Meta Pixel;
+- Meta Pixel (site institucional);
 - `dataLayer`;
 - eventos públicos principais;
 - integração GA4/Google Ads;
 - `whatsapp_click` como conversão secundária;
+- GTM dedicado do app (`GTM-K9PGRL4Z`);
+- GA4 stream dedicado do app (`G-DDW67F2LBW` / stream 15826431027 na propriedade 552234318);
+- `app_page_view` no allowlist do app;
+- sanitização de metadata privada do app;
 - convenções de Git e gates;
 - validações técnicas locais já realizadas em partes da arquitetura.
 
@@ -1807,8 +1841,9 @@ A stack permanece subordinada à experiência, à privacidade, à segurança e �
 
 | Versão | Data | Alteração | Aprovado por |
 |---|---|---|---|
+| `1.1.0` | 22/09/2026 | Registro da topologia implementada de analytics do app (Gate 3B): GTM-K9PGRL4Z, GA4 stream dedicado G-DDW67F2LBW, Enhanced Measurement desabilitado, allowlist `app_page_view`, sanitização de metadata privada, ausência de purchase browser-side, Meta e Google Ads conversion ausentes no app. Referência à `SPEC-MENSURACAO-00` adicionada. | **Marcos Vinicius** |
 | `1.0.0` | 14/09/2026 | Criação inicial da `SPEC-STACK-00`, consolidando a arquitetura técnica anterior compatível com os novos CÂNONs e registrando as decisões atuais sobre Supabase único, MakerKit, Auth V1 e Eduzz em teste. | **Marcos Vinicius** |
 
 ---
 
-**Fim — SPEC-STACK-00 — Arquitetura Técnica, Stack e Infraestrutura — V1.0.0**
+**Fim — SPEC-STACK-00 — Arquitetura Técnica, Stack e Infraestrutura — V1.1.0**
