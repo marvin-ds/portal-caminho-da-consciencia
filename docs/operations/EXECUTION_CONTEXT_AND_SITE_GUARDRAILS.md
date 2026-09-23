@@ -235,7 +235,7 @@ Quando namespace for necessário, usar `PORTAL` / `portal`.
 - `docs/canonical/MAPA-00 — Índice Mestre e Estado Documental do Projeto.md` — navegação documental.
 - `docs/canonical/CANON-00` a `docs/canonical/CANON-07` — fonte normativa vigente.
 - `docs/specs/SPEC-PORTFOLIO-00 — Esteira de Produtos, Arquitetura Comercial e Integração com Meu Caminho — V1.0.0.md` — portfólio e esteira.
-- `docs/specs/SPEC-STACK-00 — Arquitetura Técnica, Stack e Infraestrutura — V1.0.0.md` — stack transversal.
+- `docs/specs/SPEC-STACK-00 — Arquitetura Técnica, Stack e Infraestrutura — V1.1.0.md` — stack transversal.
 - `docs/specs/SPEC-MEU-CAMINHO-001 — Área Pessoal de Continuidade “Meu Caminho” — V2.0.0.md` — Meu Caminho.
 - `docs/operations/CURRENT.md` — estado operacional transversal.
 - `docs/operations/WORKSTREAM_ISOLATION_AND_HANDOFF.md` — isolamento e handoff.

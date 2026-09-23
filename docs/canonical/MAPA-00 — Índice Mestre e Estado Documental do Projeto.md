@@ -6,9 +6,9 @@
 | \*\*Código\*\* | \`MAPA-00\` |  
 | \*\*Tipo\*\* | Documento Auxiliar de Navegação e Controle Documental |  
 | \*\*Status\*\* | \*\*VIGENTE\*\* |  
-| \*\*Versão\*\* | \*\*1.3.0\*\* |
+| \*\*Versão\*\* | \*\*1.3.1\*\* |
 | \*\*Data de criação\*\* | \*\*13/09/2026\*\* |  
-| \*\*Última atualização\*\* | \*\*22/09/2026\*\* |
+| \*\*Última atualização\*\* | \*\*23/09/2026\*\* |
 | \*\*Responsável pelo projeto\*\* | \*\*Marcos Vinicius\*\* |  
 | \*\*Projeto\*\* | \*\*Portal Caminho da Consciência\*\* |  
 | \*\*Função\*\* | Índice dos documentos vigentes, localização das fontes de verdade e visão rápida do estado documental |  
@@ -621,7 +621,7 @@ Ao criar documentos relevantes, adicioná-los posteriormente a esta seção.
 |---|---|---|---:|---|---|
 | `SPEC-PORTFOLIO-00` | Esteira de Produtos, Arquitetura Comercial e Integração com Meu Caminho | `docs/specs/SPEC-PORTFOLIO-00 — Esteira de Produtos, Arquitetura Comercial e Integração com Meu Caminho — V1.0.0.md` | `1.0.0` | APROVADO | Portfólio, funções econômicas, esteira e critérios de evolução |
 | `SPEC-MEU-CAMINHO-001` | Área Pessoal de Continuidade “Meu Caminho” | `docs/specs/SPEC-MEU-CAMINHO-001 — Área Pessoal de Continuidade “Meu Caminho” — V2.0.0.md` | `2.0.0` | APROVADO | Arquitetura funcional, continuidade, privacidade e plano de execução do Meu Caminho |
-| `SPEC-STACK-00` | Arquitetura Técnica, Stack e Infraestrutura | `docs/specs/SPEC-STACK-00 — Arquitetura Técnica, Stack e Infraestrutura — V1.0.0.md` | `1.1.0` | APROVADO | Topologia, stack, infraestrutura, segurança e contratos técnicos transversais; inclui topologia de analytics do app (Gate 3B) |
+| `SPEC-STACK-00` | Arquitetura Técnica, Stack e Infraestrutura | `docs/specs/SPEC-STACK-00 — Arquitetura Técnica, Stack e Infraestrutura — V1.1.0.md` | `1.1.0` | APROVADO | Topologia, stack, infraestrutura, segurança e contratos técnicos transversais; inclui topologia de analytics do app (Gate 3B) |
 | `SPEC-CONSENT-001` | Contrato Transversal de Consentimento Web | `docs/specs/SPEC-CONSENT-001 — Contrato Transversal de Consentimento Web — V1.0.0.md` | `1.0.0` | APROVADA | Governar consentimento browser-side transversal entre institucional e app, Consent Mode v2, cookie parent-domain, migração de legado e limites para mensuração futura |
 | `SPEC-MENSURACAO-00` | Tracking, Atribuição, Conversões, Commerce e Go-Live Comercial | `docs/specs/SPEC-MENSURACAO-00 — Tracking, Atribuição, Conversões, Commerce e Go-Live Comercial — V1.1.0.md` | `1.1.0` | APROVADO | Contrato transversal de mensuração: topologia de eventos, UTMs, atribuição, consentimento, arquitetura de analytics do app, fronteira econômica, commerce, baseline, E2E e go-live comercial |
 
@@ -917,6 +917,7 @@ Para isso:
 
 | Versão | Data | Alteração | Responsável |  
 |---|---|---|---|  
+| \*\*1.3.1\*\* | \*\*23/09/2026\*\* | Normalização do filename vigente da `SPEC-STACK-00` de `V1.0.0.md` para `V1.1.0.md` e atualização das referências documentais correspondentes (`CLAUDE.md`, `README.md`, `CURRENT.md`, `EXECUTION_CONTEXT_AND_SITE_GUARDRAILS.md`), sem alteração da decisão técnica. | \*\*Marcos Vinicius\*\* |
 | \*\*1.3.0\*\* | \*\*22/09/2026\*\* | Materialização e registro de `SPEC-MENSURACAO-00` V1.0.0 (aprovada em 16/09/2026, não materializada anteriormente); atualização de `SPEC-STACK-00` para V1.1.0 com topologia de analytics do app (Gate 3B: GTM-K9PGRL4Z, GA4 G-DDW67F2LBW, Enhanced Measurement desabilitado, allowlist app_page_view, sanitização de metadata). | \*\*Marcos Vinicius\*\* |
 | \*\*1.2.0\*\* | \*\*22/09/2026\*\* | Registro da `SPEC-CONSENT-001` V1.0.0 como contrato transversal aprovado de consentimento web entre institucional e app. | \*\*Marcos Vinicius\*\* |
 | \*\*1.1.0\*\* | \*\*14/09/2026\*\* | Registro das primeiras SPECs transversais aprovadas: `SPEC-PORTFOLIO-00` V1.0.0, `SPEC-MEU-CAMINHO-001` V2.0.0 e `SPEC-STACK-00` V1.0.0; atualização das lacunas e rotas de consulta. | \*\*Marcos Vinicius\*\* |
@@ -924,4 +925,4 @@ Para isso:
 
 \---
 
-\*\*FIM DO DOCUMENTO — MAPA-00 — V1.3.0 — VIGENTE\*\*
+\*\*FIM DO DOCUMENTO — MAPA-00 — V1.3.1 — VIGENTE\*\*

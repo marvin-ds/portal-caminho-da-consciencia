@@ -65,7 +65,7 @@ SPECs em `docs/specs/` são documentos oficiais subordinados aos CANONs. Elas go
 |---|---|
 | `SPEC-PORTFOLIO-00 — Esteira de Produtos, Arquitetura Comercial e Integração com Meu Caminho — V1.0.0.md` | Esteira de produtos, arquitetura comercial e integração com Meu Caminho |
 | `SPEC-MEU-CAMINHO-001 — Área Pessoal de Continuidade “Meu Caminho” — V2.0.0.md` | Arquitetura funcional e auditoria obrigatória de Meu Caminho |
-| `SPEC-STACK-00 — Arquitetura Técnica, Stack e Infraestrutura — V1.0.0.md` | Stack, integrações, decisões técnicas abertas e infraestrutura |
+| `SPEC-STACK-00 — Arquitetura Técnica, Stack e Infraestrutura — V1.1.0.md` | Stack, integrações, decisões técnicas abertas e infraestrutura |
 
 ## Referências Legadas (`docs/reference/pending-review/`)
 
