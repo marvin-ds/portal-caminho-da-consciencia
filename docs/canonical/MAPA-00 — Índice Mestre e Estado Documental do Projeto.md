@@ -917,7 +917,7 @@ Para isso:
 
 | Versão | Data | Alteração | Responsável |  
 |---|---|---|---|  
-| \*\*1.3.1\*\* | \*\*23/09/2026\*\* | Normalização do filename vigente da `SPEC-STACK-00` de `V1.0.0.md` para `V1.1.0.md` e atualização das referências documentais correspondentes (`CLAUDE.md`, `README.md`, `CURRENT.md`, `EXECUTION_CONTEXT_AND_SITE_GUARDRAILS.md`), sem alteração da decisão técnica. | \*\*Marcos Vinicius\*\* |
+| \*\*1.3.1\*\* | \*\*23/09/2026\*\* | Normalização do filename vigente da `SPEC-STACK-00` de `V1.0.0.md` para `V1.1.0.md` e atualização das referências documentais correspondentes (`CLAUDE.md`, `README.md`, `docs/specs/README.md`, `CURRENT.md`, `EXECUTION_CONTEXT_AND_SITE_GUARDRAILS.md`), sem alteração da decisão técnica. | \*\*Marcos Vinicius\*\* |
 | \*\*1.3.0\*\* | \*\*22/09/2026\*\* | Materialização e registro de `SPEC-MENSURACAO-00` V1.0.0 (aprovada em 16/09/2026, não materializada anteriormente); atualização de `SPEC-STACK-00` para V1.1.0 com topologia de analytics do app (Gate 3B: GTM-K9PGRL4Z, GA4 G-DDW67F2LBW, Enhanced Measurement desabilitado, allowlist app_page_view, sanitização de metadata). | \*\*Marcos Vinicius\*\* |
 | \*\*1.2.0\*\* | \*\*22/09/2026\*\* | Registro da `SPEC-CONSENT-001` V1.0.0 como contrato transversal aprovado de consentimento web entre institucional e app. | \*\*Marcos Vinicius\*\* |
 | \*\*1.1.0\*\* | \*\*14/09/2026\*\* | Registro das primeiras SPECs transversais aprovadas: `SPEC-PORTFOLIO-00` V1.0.0, `SPEC-MEU-CAMINHO-001` V2.0.0 e `SPEC-STACK-00` V1.0.0; atualização das lacunas e rotas de consulta. | \*\*Marcos Vinicius\*\* |
