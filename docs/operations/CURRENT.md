@@ -1,10 +1,10 @@
 # PORTAL CAMINHO DA CONSCIÊNCIA
-## CURRENT — Estado Operacional Transversal do Projeto — V3.0.0
+## CURRENT — Estado Operacional Transversal do Projeto — V3.0.1
 
 **Status:** VIVO / OPERACIONAL
-**Data:** 14/09/2026
+**Data:** 23/09/2026
 **Função:** snapshot transversal do projeto após refundação documental, integração das SPECs transversais e conclusão do NS-01.
-**Substitui:** CURRENT V2.11
+**Substitui:** CURRENT V3.0.0
 
 ---
 
@@ -23,7 +23,7 @@ A documentação geral sabe que uma trilha existe, qual documento a governa e qu
 | Documento | Versão | Status | Função |
 |---|---:|---|---|
 | `CANON-00` a `CANON-07` | `1.0.0` | VIGENTE | Núcleo normativo do Portal |
-| `MAPA-00` | `1.1.0` | VIGENTE | Índice, navegação e estado documental |
+| `MAPA-00` | `1.3.1` | VIGENTE | Índice, navegação e estado documental |
 | `SPEC-PORTFOLIO-00` | `1.0.0` | APROVADO | Portfólio, esteira e arquitetura comercial |
 | `SPEC-MEU-CAMINHO-001` | `2.0.0` | APROVADO | Área pessoal, continuidade e auditoria MC-00 |
 | `SPEC-STACK-00` | `1.1.0` | APROVADO | Stack, infraestrutura e arquitetura técnica transversal |
@@ -236,6 +236,7 @@ Aguardar necessidade transversal real ou decisão explícita de Marcos Vinicius.
 
 | Versão | Data | Alteração | Responsável |
 |---|---|---|---|
+| `3.0.1` | 23/09/2026 | Correção do snapshot da fonte da verdade para refletir MAPA-00 V1.3.1 vigente após sincronização documental dos Gates 3A/3B e normalização da SPEC-STACK-00; sem alteração operacional ou técnica. | Marcos Vinicius / Claude Code |
 | `3.0.0` | 14/09/2026 | Reescrita do CURRENT como snapshot transversal pós-refundação; formalização de isolamento de trilhas; remoção de estados internos obsoletos de produtos e app. | Marcos Vinicius / Codex |
 
-**Fim — CURRENT — Estado Operacional Transversal do Projeto — V3.0.0**
+**Fim — CURRENT — Estado Operacional Transversal do Projeto — V3.0.1**
