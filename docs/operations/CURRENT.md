@@ -26,7 +26,7 @@ A documentação geral sabe que uma trilha existe, qual documento a governa e qu
 | `MAPA-00` | `1.1.0` | VIGENTE | Índice, navegação e estado documental |
 | `SPEC-PORTFOLIO-00` | `1.0.0` | APROVADO | Portfólio, esteira e arquitetura comercial |
 | `SPEC-MEU-CAMINHO-001` | `2.0.0` | APROVADO | Área pessoal, continuidade e auditoria MC-00 |
-| `SPEC-STACK-00` | `1.0.0` | APROVADO | Stack, infraestrutura e arquitetura técnica transversal |
+| `SPEC-STACK-00` | `1.1.0` | APROVADO | Stack, infraestrutura e arquitetura técnica transversal |
 
 Hierarquia operacional:
 
@@ -134,7 +134,7 @@ Stack transversal aprovada:
 - Produção: um projeto Supabase canônico de produção.
 - Auth V1: Magic Link/passwordless.
 
-Para detalhes técnicos, decisões abertas, estado de Eduzz, providers, RLS, Storage, entitlements e arquitetura de app, consultar `docs/specs/SPEC-STACK-00 — Arquitetura Técnica, Stack e Infraestrutura — V1.0.0.md`.
+Para detalhes técnicos, decisões abertas, estado de Eduzz, providers, RLS, Storage, entitlements e arquitetura de app, consultar `docs/specs/SPEC-STACK-00 — Arquitetura Técnica, Stack e Infraestrutura — V1.1.0.md`.
 
 ---
 

@@ -23,7 +23,7 @@ A aplicação autenticada, Meu Caminho, APIs e integrações de plataforma vivem
 | Plataforma / app | repo separado | Vercel |
 | Backend | Supabase | Supabase |
 
-Detalhes técnicos transversais ficam em `docs/specs/SPEC-STACK-00 — Arquitetura Técnica, Stack e Infraestrutura — V1.0.0.md`.
+Detalhes técnicos transversais ficam em `docs/specs/SPEC-STACK-00 — Arquitetura Técnica, Stack e Infraestrutura — V1.1.0.md`.
 
 ## Método
 
