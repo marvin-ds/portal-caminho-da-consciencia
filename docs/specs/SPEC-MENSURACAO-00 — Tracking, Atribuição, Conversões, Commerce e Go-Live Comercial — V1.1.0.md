@@ -1,14 +1,15 @@
 # PORTAL CAMINHO DA CONSCIÊNCIA
 
-## SPEC-MENSURACAO-00 — Tracking, Atribuição, Conversões, Commerce e Go-Live Comercial — V1.0.0
+## SPEC-MENSURACAO-00 — Tracking, Atribuição, Conversões, Commerce e Go-Live Comercial — V1.1.0
 
 | Campo | Informação |
 | :---- | :---- |
 | **Código** | `SPEC-MENSURACAO-00` |
 | **Tipo** | Especificação transversal de mensuração, atribuição, conversões e readiness comercial |
 | **Status** | **APROVADO POR MARCOS VINICIUS** |
-| **Versão** | `1.0.0` |
+| **Versão** | `1.1.0` |
 | **Data** | `16/09/2026` |
+| **Última atualização** | `22/09/2026` |
 | **Deadline operacional** | **21/09/2026** |
 | **Projeto** | Portal Caminho da Consciência |
 | **Workstream primário** | `TRANSVERSAL` |
@@ -512,7 +513,7 @@ gbraid
 
 wbraid
 
-`fbclid` pode ser preservado no redirecionamento quando presente, sem tratá-lo como identidade da pessoa.
+`fbclid` **não pertence ao contrato transversal vigente** de atribuição browser-side. Qualquer uso futuro depende de gate específico de Meta e decisão explícita de Marcos Vinicius.
 
 ## 9.2 Regras
 
@@ -803,13 +804,24 @@ Se no futuro for implementada Conversions API server-side:
 
 # 15\. CONSENT MODE E PRIVACIDADE
 
-Chave atual de consentimento:
+Chave vigente de consentimento:
 
-portal\_consent
+portal\_consent\_v1
 
-Validar comportamento real.
+O contrato detalhado de consentimento é proprietário de `SPEC-CONSENT-001 V1.0.0`. Esta seção registra apenas os pontos operacionalmente relevantes para mensuração.
 
-Google Consent Mode deve representar:
+Atributos vigentes do cookie:
+
+- **Name:** `portal_consent_v1`
+- **Domain:** `portalcaminhodaconsciencia.com.br`
+- **Path:** `/`
+- **SameSite:** `Lax`
+- **Secure:** sim (produção)
+- **HttpOnly:** não
+- **Max-Age:** `15552000` (180 dias)
+- **version:** `1`
+
+Google Consent Mode v2 — sinais gerenciados:
 
 analytics\_storage
 
@@ -819,11 +831,18 @@ ad\_user\_data
 
 ad\_personalization
 
-Padrão esperado antes de consentimento:
+**Default antes das tags (wait\_for\_update: 500):**
 
-denied
+todos os sinais = denied
 
-quando essa for a implementação adotada.
+Ausência de consentimento **nunca implica** `granted`.
+
+Mapeamento cookie → Consent Mode:
+
+- `analytics` → `analytics_storage`
+- `ads` → `ad_storage`
+- `ads` → `ad_user_data`
+- `ads` → `ad_personalization`
 
 Testar:
 
@@ -1964,8 +1983,134 @@ A implementação estará pronta quando for possível responder, com evidência:
 
 | Versão | Data | Alteração | Status |
 | :---- | :---- | :---- | :---- |
+| `1.1.0` | 22/09/2026 | Sincronização com decisões aprovadas/implementadas dos Gates 2, 3A e 3B: chave de consentimento `portal_consent_v1`, contrato de consentimento expandido, `fbclid` removido do contrato transversal vigente, seções de arquitetura do app analytics (GTM-K9PGRL4Z, GA4 G-DDW67F2LBW), fronteira econômica, fronteira de marketing e estado de validação dos gates adicionadas. | **APROVADO POR MARCOS VINICIUS** |
 | `1.0.0` | 16/09/2026 | Primeira consolidação transversal de tracking, atribuição, conversões, commerce, baseline e readiness comercial para go-live de 21/09/2026 | **APROVADO POR MARCOS VINICIUS** |
 
 ---
 
-**FIM — SPEC-MENSURACAO-00 — Tracking, Atribuição, Conversões, Commerce e Go-Live Comercial — V1.0.0**  
+# 39\. ARQUITETURA APP ANALYTICS — GATES 3A/3B
+
+Estado: `IMPLEMENTADO` (22/09/2026)
+
+## 39.1 Topologia
+
+| Elemento | Valor |
+| :---- | :---- |
+| GTM app (dedicado) | `GTM-K9PGRL4Z` |
+| GTM institucional | `GTM-WC2C397G` (somente site institucional — não reutilizado no app) |
+| GTM version publicada | `2` — "App analytics base — consent-safe" |
+| GA4 property | `552234318` |
+| GA4 stream app | `15826431027` |
+| GA4 measurement ID | `G-DDW67F2LBW` |
+| Model | GA4 property compartilhada / stream dedicado do app |
+| Enhanced Measurement | `DISABLED` |
+| send\_page\_view | `false` |
+
+## 39.2 Evento de navegação implementado
+
+`app_page_view` é o evento custom browser-side de navegação explicitamente allowlisted e implementado neste gate.
+
+Payload allowlisted:
+
+- `event`
+- `page_path`
+- `page_location`
+- `route_class`
+
+`automatic page_view` = DESABILITADO.
+
+O GA4 pode produzir eventos técnicos/lifecycle próprios (`session_start`, `first_visit`, `user_engagement`). A regra é: não criar eventos de jornada privada fora do allowlist e não exportar intimidade.
+
+## 39.3 Sanitização global de metadata
+
+Configuração vigente da Google tag do app:
+
+| Parâmetro | Comportamento |
+| :---- | :---- |
+| `page_location` | `origin + pathname normalizado` |
+| `page_referrer` | `origin` ou vazio |
+| `page_title` | `Portal Caminho da Consciência — App` (valor genérico) |
+
+**Nunca exportado:**
+
+- query string
+- hash
+- tokens
+- intent\_code
+- secrets
+- e-mail / PII
+- texto livre, intake, diário, conteúdo privado
+- IDs econômicos browser-side
+
+**Pathname técnico de rota allowlisted pode ser exportado** como parte do `page_path` normalizado — o que não é exportado são os valores sensíveis nos parâmetros, não o pathname em si.
+
+---
+
+# 40\. FRONTEIRA ECONÔMICA — APP
+
+Estado: `APROVADO / IMPLEMENTADO`
+
+Browser purchase como **fonte econômica = PROIBIDO**.
+
+Fonte econômica autoritativa:
+
+Eduzz → webhook `invoice_paid` autenticado → backend server-side
+
+Projeção econômica interna:
+
+`measurement_conversion_events.purchase`
+
+`transaction_id` = `eduzz_invoice_id`
+
+Purchase econômico não pode nascer de:
+
+- `page_view`
+- thank-you page
+- GTM / GA4 evento browser-side
+- checkout open
+- `intent_code` ou `trk`
+
+Ausência de tracker **não invalida a venda**. A fonte de verdade é o webhook.
+
+---
+
+# 41\. FRONTEIRA DE MARKETING — APP
+
+Estado: `APROVADO / IMPLEMENTADO`
+
+| Elemento | Estado no app |
+| :---- | :---- |
+| Meta Pixel | `AUSENTE` |
+| Tag de conversão Google Ads | `AUSENTE` |
+| Tags públicas de marketing por padrão | `PROIBIDAS` |
+
+Qualquer inclusão futura exige gate próprio com decisão explícita de Marcos Vinicius.
+
+Infraestrutura técnica do Google (gtag, GA4) ≠ conversão de Google Ads ativa.
+
+---
+
+# 42\. ESTADO DE VALIDAÇÃO DOS GATES
+
+| Gate | Estado |
+| :---- | :---- |
+| Gate 2 — Consentimento | `CLOSED` |
+| Gate 3A — Arquitetura GTM App | `CLOSED` |
+| Gate 3B — GTM/GA4 App | `CLOSED` |
+
+Validações realizadas em produção:
+
+- Preview: PASS
+- Production smoke: PASS
+- GA4 DebugView Production: PASS
+- Metadata sanitization: PASS
+
+Nos testes realizados, nenhum hit exportou:
+
+query string, hash, token, intent\_code, e-mail, PII, texto livre, IDs econômicos.
+
+Essa validação cobre os eventos testados neste gate. Eventos futuros adicionados ao allowlist devem ser re-validados.
+
+---
+
+**FIM — SPEC-MENSURACAO-00 — Tracking, Atribuição, Conversões, Commerce e Go-Live Comercial — V1.1.0**  

@@ -1048,14 +1048,14 @@ Consent Mode:                 via portal_consent_v1
 Decisões fixas desta topologia:
 
 - GTM do app é **dedicado** — separado do GTM do site institucional;
-- `app_page_view` está no allowlist e é o único evento de navegação ativo;
+- `app_page_view` é o evento custom browser-side de navegação explicitamente allowlisted e implementado neste gate (eventos lifecycle automáticos do GA4 como `session_start`, `first_visit` e `user_engagement` podem ocorrer sem serem bloqueados);
 - **Enhanced Measurement desabilitado** para evitar disparo automático de eventos não auditados;
-- sanitização de metadata privada ativa globalmente (query params, hash, path de rotas autenticadas não exportados);
-- `purchase` **não é disparado browser-side no app** — fonte econômica é exclusivamente server-side via webhook Eduzz;
+- sanitização de metadata ativa globalmente: query string e hash não exportados; `page_location` = origin + pathname normalizado; `page_referrer` = origin ou vazio; `page_title` = valor genérico; valores sensíveis (tokens, intent_code, PII, texto livre) não exportados;
+- `purchase` **não é disparado browser-side no app** — fonte econômica é exclusivamente server-side via webhook Eduzz (`invoice_paid`);
 - Meta Pixel **ausente** no app;
 - tag de conversão Google Ads **ausente** no app.
 
-Esses dados estão detalhados no contrato transversal de mensuração em `SPEC-MENSURACAO-00`.
+Contrato detalhado em `SPEC-MENSURACAO-00`.
 
 ---
 

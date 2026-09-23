@@ -6,7 +6,7 @@
 | \*\*Código\*\* | \`MAPA-00\` |  
 | \*\*Tipo\*\* | Documento Auxiliar de Navegação e Controle Documental |  
 | \*\*Status\*\* | \*\*VIGENTE\*\* |  
-| \*\*Versão\*\* | \*\*1.2.0\*\* |
+| \*\*Versão\*\* | \*\*1.3.0\*\* |
 | \*\*Data de criação\*\* | \*\*13/09/2026\*\* |  
 | \*\*Última atualização\*\* | \*\*22/09/2026\*\* |
 | \*\*Responsável pelo projeto\*\* | \*\*Marcos Vinicius\*\* |  
@@ -623,7 +623,7 @@ Ao criar documentos relevantes, adicioná-los posteriormente a esta seção.
 | `SPEC-MEU-CAMINHO-001` | Área Pessoal de Continuidade “Meu Caminho” | `docs/specs/SPEC-MEU-CAMINHO-001 — Área Pessoal de Continuidade “Meu Caminho” — V2.0.0.md` | `2.0.0` | APROVADO | Arquitetura funcional, continuidade, privacidade e plano de execução do Meu Caminho |
 | `SPEC-STACK-00` | Arquitetura Técnica, Stack e Infraestrutura | `docs/specs/SPEC-STACK-00 — Arquitetura Técnica, Stack e Infraestrutura — V1.0.0.md` | `1.1.0` | APROVADO | Topologia, stack, infraestrutura, segurança e contratos técnicos transversais; inclui topologia de analytics do app (Gate 3B) |
 | `SPEC-CONSENT-001` | Contrato Transversal de Consentimento Web | `docs/specs/SPEC-CONSENT-001 — Contrato Transversal de Consentimento Web — V1.0.0.md` | `1.0.0` | APROVADA | Governar consentimento browser-side transversal entre institucional e app, Consent Mode v2, cookie parent-domain, migração de legado e limites para mensuração futura |
-| `SPEC-MENSURACAO-00` | Tracking, Atribuição, Conversões, Commerce e Go-Live Comercial | `docs/specs/SPEC-MENSURACAO-00 — Tracking, Atribuição, Conversões, Commerce e Go-Live Comercial — V1.0.0.md` | `1.0.0` | APROVADO | Contrato transversal de mensuração: topologia de eventos, UTMs, purchase, commerce, baseline, E2E e go-live comercial |
+| `SPEC-MENSURACAO-00` | Tracking, Atribuição, Conversões, Commerce e Go-Live Comercial | `docs/specs/SPEC-MENSURACAO-00 — Tracking, Atribuição, Conversões, Commerce e Go-Live Comercial — V1.1.0.md` | `1.1.0` | APROVADO | Contrato transversal de mensuração: topologia de eventos, UTMs, atribuição, consentimento, arquitetura de analytics do app, fronteira econômica, commerce, baseline, E2E e go-live comercial |
 
 \---
 
