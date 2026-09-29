@@ -75,11 +75,13 @@ A landing deve carregar `js/portal-sales-attribution-v1.js` antes do script come
 Fluxo mínimo:
 
 1. ler a allowlist de atribuição;
-2. persistir em `sessionStorage["portal_attribution_v1"]`;
-3. decorar CTAs comerciais `.js-checkout-cta` com a atribuição persistida;
+2. persistir em `sessionStorage["portal_attribution_v1"]` e confirmar a persistência;
+3. decorar CTAs comerciais `.js-checkout-cta` com a atribuição preservada;
 4. enviar somente metadados operacionais permitidos ao `dataLayer`;
-5. executar cleanup visual com History API depois da persistência;
+5. executar cleanup visual com History API somente depois da persistência confirmada;
 6. preservar path, hash e parâmetros funcionais desconhecidos.
+
+Se a persistência falhar, mantenha os parâmetros de tracking na URL. Nessa condição, a URL menos limpa é o fallback seguro para não perder atribuição.
 
 ## Antes do Aperto
 
