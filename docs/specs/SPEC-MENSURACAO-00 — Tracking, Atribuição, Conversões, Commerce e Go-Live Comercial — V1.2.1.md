@@ -602,6 +602,25 @@ utm\_campaign=\<context\>
 
 utm\_content=\<message\_or\_link\_id\>
 
+## 9.4 SALES_ATTRIBUTION_LINK_STANDARD
+
+Decisão aprovada em 29/09/2026:
+
+> Toda página pública de venda de produto do Portal Caminho da Consciência deve utilizar o sistema transversal de atribuição first-party quando houver necessidade de identificar origem/campanha. Links públicos de canais podem utilizar aliases no domínio do Portal. O sistema deve capturar e preservar a atribuição necessária antes de remover visualmente os parâmetros de tracking da URL, sem comprometer analytics, checkout, privacidade, SEO ou parâmetros funcionais.
+
+Contrato operacional:
+
+1. aliases públicos de aquisição devem usar o domínio do Portal e caminho `/ir/{produto}-{origem}`;
+2. o alias deve resolver para a landing canônica do produto com os parâmetros permitidos disponíveis para captura;
+3. a landing deve capturar somente `utm_source`, `utm_medium`, `utm_campaign`, `utm_content`, `utm_term`, `gclid`, `gbraid` e `wbraid`;
+4. `fbclid` permanece fora do contrato transversal e só pode ser tratado por mecanismo Meta específico já aprovado;
+5. a persistência first-party deve ocorrer antes da limpeza visual da URL;
+6. a limpeza deve remover somente parâmetros do contrato de tracking e preservar path, hash e parâmetros funcionais;
+7. o checkout deve receber apenas os parâmetros permitidos já previstos nesta SPEC;
+8. aliases `/ir/*` não são páginas de conteúdo, não entram em sitemap e não competem com canonical da landing.
+
+Para cadastrar novos aliases e validar páginas de venda, usar `docs/operations/SALES_ATTRIBUTION_LINK_STANDARD.md`.
+
 ---
 
 # 10\. PROPAGAÇÃO PARA CHECKOUT EXTERNO

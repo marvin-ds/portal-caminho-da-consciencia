@@ -1,6 +1,18 @@
 [build]
   publish = "."
 
+[[redirects]]
+  from = "/ir/antes-do-aperto-instagram"
+  to = "/antes-do-aperto/?utm_source=instagram&utm_medium=organic_social&utm_campaign=aa_evergreen&utm_content=bio"
+  status = 302
+  force = true
+
+[[redirects]]
+  from = "/ir/antes-do-aperto-youtube"
+  to = "/antes-do-aperto/?utm_source=youtube&utm_medium=organic_social&utm_campaign=aa_evergreen&utm_content=channel_link"
+  status = 302
+  force = true
+
 [[headers]]
   for = "/*"
   [headers.values]
@@ -17,3 +29,8 @@
   for = "/*.html"
   [headers.values]
     Cache-Control = "public, max-age=0, must-revalidate"
+
+[[headers]]
+  for = "/ir/*"
+  [headers.values]
+    X-Robots-Tag = "noindex, nofollow"
