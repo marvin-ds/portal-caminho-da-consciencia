@@ -1,15 +1,15 @@
 # PORTAL CAMINHO DA CONSCIÊNCIA
 
-## SPEC-MENSURACAO-00 — Tracking, Atribuição, Conversões, Commerce e Go-Live Comercial — V1.1.0
+## SPEC-MENSURACAO-00 — Tracking, Atribuição, Conversões, Commerce e Go-Live Comercial — V1.2.0
 
 | Campo | Informação |
 | :---- | :---- |
 | **Código** | `SPEC-MENSURACAO-00` |
 | **Tipo** | Especificação transversal de mensuração, atribuição, conversões e readiness comercial |
 | **Status** | **APROVADO POR MARCOS VINICIUS** |
-| **Versão** | `1.1.0` |
+| **Versão** | `1.2.0` |
 | **Data** | `16/09/2026` |
-| **Última atualização** | `22/09/2026` |
+| **Última atualização** | `29/09/2026` |
 | **Deadline operacional** | **21/09/2026** |
 | **Projeto** | Portal Caminho da Consciência |
 | **Workstream primário** | `TRANSVERSAL` |
@@ -2113,4 +2113,76 @@ Essa validação cobre os eventos testados neste gate. Eventos futuros adicionad
 
 ---
 
-**FIM — SPEC-MENSURACAO-00 — Tracking, Atribuição, Conversões, Commerce e Go-Live Comercial — V1.1.0**  
+# 43\. ARQUITETURA DE DOIS PIXELS META — DECISÃO ESTRUTURAL APROVADA
+
+Estado: `APROVADO POR MARCOS VINICIUS — 29/09/2026`
+
+## Identidade dos Pixels
+
+| Pixel | ID | Papel |
+| :---- | :---- | :---- |
+| **PRIMARY** | `4659045990859789` | Pixel principal |
+| **MIRROR** | `541342531532855` | Pixel espelho |
+
+## Browser — Targeting explícito por destination
+
+Todos os eventos Meta browser do Portal usam `fbq('trackSingle', pixelId, eventName, payload)`, não broadcast genérico.
+
+| Evento | Pixels disparados | Gating |
+| :---- | :---- | :---- |
+| `PageView` | PRIMARY + MIRROR | consent ads + ad\_user\_data granted |
+| `ViewContent` | PRIMARY + MIRROR | consent ads + ad\_user\_data granted |
+| `InitiateCheckout` | PRIMARY + MIRROR | consent ads + ad\_user\_data granted |
+| `Purchase` | **NENHUM** | BROWSER\_PURCHASE = NO |
+
+Motivação: `trackSingle` garante que um terceiro pixel inicializado por GTM ou outra integração não receba eventos sem intenção.
+
+## Outbox — Identidade por destination
+
+Uma compra lógica gera exatamente **3 dispatch rows**:
+
+- 1 `meta_ads` / PRIMARY
+- 1 `meta_ads` / MIRROR
+- 1 `google_ads` / `7784431093`
+
+A existência de 2 rows Meta não constitui 2 compras econômicas. A fonte econômica é única: `Eduzz invoice_paid` → `measurement_conversion_events.purchase`.
+
+```
+OUTBOX_UNIQUE = (conversion_event_id, provider, provider_destination_id)
+ENSURE_META_STRATEGY = CROSS JOIN nos dois pixel IDs
+CLAIM_DESTINATION_FILTER = IN ('4659045990859789', '541342531532855')
+UNKNOWN_DESTINATION = FAIL_CLOSED (TS + SQL)
+```
+
+## Operação independente por destination
+
+Cada row possui ciclo de vida independente:
+
+- `status`, `attempt_count`, `lease`, `claim`, `retry`, `failure`, `confirmation`
+- Falha no PRIMARY não altera MIRROR
+- Retry no MIRROR não altera PRIMARY
+- `DISPATCH_STATE_ISOLATION = PASS`
+
+## Meta CAPI futura
+
+A credencial CAPI será resolvida por `provider_destination_id`. Não assumir token compartilhado entre pixels.
+
+## Invariantes de privacidade (inalterados)
+
+- `fbp`/`fbc` não entram em dataLayer, UTMs, URL do anúncio nem no checkout Eduzz
+- `fbp`/`fbc` persistidos somente com consent `ads` + `ad_user_data` granted
+- Nenhum PII (e-mail, telefone, IP, user-agent) enviado ao Meta
+
+---
+
+## Histórico desta SPEC
+
+| Versão | Data | Decisão | Autor |
+| :---- | :---- | :---- | :---- |
+| 1.0.0 | 16/09/2026 | Criação — contrato transversal de mensuração | Marcos Vinicius |
+| 1.1.0 | 22/09/2026 | Arquitetura analytics app (Gate 3B), fronteira Meta/Google, outbox foundation | Marcos Vinicius |
+| 1.2.0 | 29/09/2026 | Arquitetura dual pixel Meta: PRIMARY + MIRROR, trackSingle explícito, fail-closed por destination, dispatch isolation | Marcos Vinicius |
+
+---
+
+**FIM — SPEC-MENSURACAO-00 — Tracking, Atribuição, Conversões, Commerce e Go-Live Comercial — V1.2.0**  

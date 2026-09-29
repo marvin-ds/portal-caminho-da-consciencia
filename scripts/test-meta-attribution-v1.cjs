@@ -328,7 +328,10 @@ describe('Meta Pixel funnel — browser Purchase absent', () => {
   });
 
   it('PageView is present', () => {
-    assert.ok(html.includes("fbq('track','PageView')"), 'PageView event present');
+    assert.ok(
+      html.includes("'PageView'"),
+      'PageView event present (via trackSingle or track)'
+    );
   });
 
   it('InitiateCheckout checks adsGranted()', () => {
@@ -405,6 +408,60 @@ describe('Meta Pixel — dual pixel destinations (Phase 3)', () => {
 
   it('PRIMARY and MIRROR IDs are distinct', () => {
     assert.notStrictEqual(META_PIXEL_PRIMARY, META_PIXEL_MIRROR);
+  });
+});
+
+// ── Explicit trackSingle targeting (Phase 3 remediation) ─────────────────────
+
+describe('Meta Pixel — explicit trackSingle targeting (Phase 3 remediation)', () => {
+  const fs = require('node:fs');
+  const path = require('node:path');
+  let html;
+  try { html = fs.readFileSync(path.join(__dirname, '../antes-do-aperto/index.html'), 'utf8'); } catch(e) { html = ''; }
+
+  // Extract initMetaPixels function body using brace-depth counting
+  function getInitMetaPixelsFnBody() {
+    const fnStart = html.indexOf('function initMetaPixels');
+    if (fnStart === -1) return '';
+    let depth = 0, fnEnd = -1;
+    for (let i = fnStart; i < html.length; i++) {
+      if (html[i] === '{') depth++;
+      else if (html[i] === '}') { depth--; if (depth === 0) { fnEnd = i; break; } }
+    }
+    return fnEnd !== -1 ? html.slice(fnStart, fnEnd + 1) : '';
+  }
+
+  it('initMetaPixels uses trackSingle for PageView (not broadcast fbq track)', () => {
+    const fnBody = getInitMetaPixelsFnBody();
+    assert.ok(fnBody.includes('trackSingle'), 'initMetaPixels must contain trackSingle');
+    assert.ok(fnBody.includes("'PageView'"), 'initMetaPixels must fire PageView');
+    assert.ok(!fnBody.includes("fbq('track','PageView')"), "initMetaPixels must NOT use broadcast fbq('track','PageView')");
+  });
+
+  it('initMetaPixels uses trackSingle for ViewContent (not broadcast fbq track)', () => {
+    const fnBody = getInitMetaPixelsFnBody();
+    assert.ok(fnBody.includes("'ViewContent'"), 'initMetaPixels must fire ViewContent');
+    assert.ok(!fnBody.includes("fbq('track','ViewContent')"), "initMetaPixels must NOT use broadcast fbq('track','ViewContent')");
+  });
+
+  it('InitiateCheckout uses trackSingle (not broadcast fbq track)', () => {
+    assert.ok(html.includes("fbq('trackSingle'"), 'page must contain fbq trackSingle calls');
+    assert.ok(html.includes("'InitiateCheckout'"), 'page must fire InitiateCheckout');
+    assert.ok(!html.includes("fbq('track','InitiateCheckout')"), "InitiateCheckout must NOT use broadcast fbq('track')");
+  });
+
+  it('no fbq Purchase event of any kind (BROWSER_PURCHASE = NO)', () => {
+    assert.ok(!html.includes("fbq('track','Purchase')"), "broadcast fbq('track','Purchase') must not be present");
+    assert.ok(!html.includes(",'Purchase'"), "trackSingle or any fbq 'Purchase' call must not be present");
+  });
+
+  it('trackSingle fires for both PRIMARY and MIRROR (forEach over pixel IDs)', () => {
+    const fnBody = getInitMetaPixelsFnBody();
+    assert.ok(
+      fnBody.includes('META_PIXEL_PRIMARY_ID') && fnBody.includes('META_PIXEL_MIRROR_ID') &&
+      fnBody.includes('trackSingle'),
+      'initMetaPixels must iterate over both pixel IDs for trackSingle calls'
+    );
   });
 });
 
