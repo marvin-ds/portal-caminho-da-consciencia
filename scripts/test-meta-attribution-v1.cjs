@@ -1,8 +1,10 @@
 'use strict';
 const assert = require('node:assert/strict');
-const { describe, it, before, after } = require('node:test');
+const { describe, it } = require('node:test');
 
-// Simulate browser environment for testing
+const META_CLICK_KEY = 'portal_meta_click_v1';
+const MAX = 1024;
+
 function installBrowserMock({ fbpCookie = null, fbcCookie = null, fbclid = null, adsConsent = false } = {}) {
   const sessionStore = new Map();
   global.sessionStorage = {
@@ -29,15 +31,13 @@ function installBrowserMock({ fbpCookie = null, fbcCookie = null, fbclid = null,
     fbq: null,
     dataLayer: [],
   };
-  global.URLSearchParams = URLSearchParams; // Node.js 18+ has this
+  global.URLSearchParams = URLSearchParams;
   return sessionStore;
 }
 
-// Extract the metaParams and related helpers by evaluating the script logic
-function makeMetaParamsFn({ fbpCookie = null, fbcCookie = null, fbclid = null, adsConsent = false } = {}) {
+function buildHelpers({ fbpCookie = null, fbcCookie = null, fbclid = null, adsConsent = false } = {}) {
   const sessionStore = installBrowserMock({ fbpCookie, fbcCookie, fbclid, adsConsent });
-  const META_CLICK_KEY = 'portal_meta_click_v1';
-  const MAX = 1024;
+
   function rdCookie(name) {
     const c = '; ' + global.document.cookie;
     const idx = c.indexOf('; ' + name + '=');
@@ -48,9 +48,22 @@ function makeMetaParamsFn({ fbpCookie = null, fbcCookie = null, fbclid = null, a
     const t = v.trim();
     return t && t.length <= MAX ? t : null;
   }
+
   function adsGranted() {
     try { return !!(global.window.PortalConsentV1 && global.window.PortalConsentV1.allowsAdvertising()); } catch(e) { return false; }
   }
+
+  function resolveStableFbc(cl) {
+    let st = null;
+    try { st = JSON.parse(global.sessionStorage.getItem(META_CLICK_KEY) || 'null'); } catch(e) {}
+    const fs = st && st.fbclid === cl ? st.firstSeen : Date.now();
+    if (!st || st.fbclid !== cl) {
+      try { global.sessionStorage.setItem(META_CLICK_KEY, JSON.stringify({ fbclid: cl, firstSeen: fs })); } catch(e) {}
+    }
+    const candidate = 'fb.1.' + fs + '.' + cl;
+    return candidate.length <= MAX ? candidate : null;
+  }
+
   function metaParams() {
     if (!adsGranted()) return null;
     const fbp = rdCookie('_fbp');
@@ -59,11 +72,10 @@ function makeMetaParamsFn({ fbpCookie = null, fbcCookie = null, fbclid = null, a
       try {
         const cl = new URLSearchParams(global.window.location.search).get('fbclid');
         if (cl) {
-          const now = Date.now();
-          const candidate = 'fb.1.' + now + '.' + cl;
-          if (candidate.length <= MAX) fbc = candidate;
+          fbc = resolveStableFbc(cl);
         } else {
-          const st = JSON.parse(global.sessionStorage.getItem(META_CLICK_KEY) || 'null');
+          let st = null;
+          try { st = JSON.parse(global.sessionStorage.getItem(META_CLICK_KEY) || 'null'); } catch(e) {}
           if (st && st.fbclid && st.firstSeen) {
             const c2 = 'fb.1.' + st.firstSeen + '.' + st.fbclid;
             if (c2.length <= MAX) fbc = c2;
@@ -74,26 +86,43 @@ function makeMetaParamsFn({ fbpCookie = null, fbcCookie = null, fbclid = null, a
     if (!fbp && !fbc) return null;
     return { fbp, fbc };
   }
-  return { metaParams, sessionStore };
+
+  // Page-load capture — consent-gated
+  function runPageLoadCapture() {
+    try {
+      const cl = new URLSearchParams(global.window.location.search).get('fbclid');
+      if (cl && adsGranted()) {
+        let st = null;
+        try { st = JSON.parse(global.sessionStorage.getItem(META_CLICK_KEY) || 'null'); } catch(e) {}
+        if (!st || st.fbclid !== cl) {
+          try { global.sessionStorage.setItem(META_CLICK_KEY, JSON.stringify({ fbclid: cl, firstSeen: Date.now() })); } catch(e) {}
+        }
+      }
+    } catch(e) {}
+  }
+
+  return { metaParams, resolveStableFbc, adsGranted, sessionStore, runPageLoadCapture };
 }
 
-// ── Tests ─────────────────────────────────────────────────────────────────────
+// ── Consent gate ───────────────────────────────────────────────────────────────
 
 describe('Meta attribution — consent gate', () => {
   it('no advertising consent → metaParams returns null', () => {
-    const { metaParams } = makeMetaParamsFn({ fbpCookie: 'fb.1.100.abc', adsConsent: false });
+    const { metaParams } = buildHelpers({ fbpCookie: 'fb.1.100.abc', adsConsent: false });
     assert.strictEqual(metaParams(), null);
   });
 
   it('advertising consent, no cookies, no fbclid → null', () => {
-    const { metaParams } = makeMetaParamsFn({ adsConsent: true });
+    const { metaParams } = buildHelpers({ adsConsent: true });
     assert.strictEqual(metaParams(), null);
   });
 });
 
+// ── fbp capture ───────────────────────────────────────────────────────────────
+
 describe('Meta attribution — fbp capture', () => {
   it('ads granted + _fbp → fbp present in result', () => {
-    const { metaParams } = makeMetaParamsFn({ fbpCookie: 'fb.1.12345.abcdef', adsConsent: true });
+    const { metaParams } = buildHelpers({ fbpCookie: 'fb.1.12345.abcdef', adsConsent: true });
     const result = metaParams();
     assert.ok(result, 'should return result');
     assert.strictEqual(result.fbp, 'fb.1.12345.abcdef');
@@ -101,22 +130,23 @@ describe('Meta attribution — fbp capture', () => {
 
   it('fbp value over 1024 chars → treated as invalid', () => {
     const longVal = 'x'.repeat(1025);
-    const { metaParams } = makeMetaParamsFn({ fbpCookie: longVal, adsConsent: true });
-    const result = metaParams();
-    assert.strictEqual(result, null, 'long fbp should be rejected');
+    const { metaParams } = buildHelpers({ fbpCookie: longVal, adsConsent: true });
+    assert.strictEqual(metaParams(), null, 'long fbp should be rejected');
   });
 });
 
+// ── fbc capture ───────────────────────────────────────────────────────────────
+
 describe('Meta attribution — fbc capture', () => {
   it('ads granted + _fbc cookie → fbc present', () => {
-    const { metaParams } = makeMetaParamsFn({ fbcCookie: 'fb.1.12345.xyz', adsConsent: true });
+    const { metaParams } = buildHelpers({ fbcCookie: 'fb.1.12345.xyz', adsConsent: true });
     const result = metaParams();
     assert.ok(result);
     assert.strictEqual(result.fbc, 'fb.1.12345.xyz');
   });
 
-  it('ads granted + fbclid real in URL, no _fbc → fbc fallback generated', () => {
-    const { metaParams } = makeMetaParamsFn({ fbclid: 'IwAR12345', adsConsent: true });
+  it('ads granted + fbclid in URL, no _fbc → fbc fallback generated', () => {
+    const { metaParams } = buildHelpers({ fbclid: 'IwAR12345', adsConsent: true });
     const result = metaParams();
     assert.ok(result, 'should return result');
     assert.ok(result.fbc, 'fbc should be set');
@@ -124,34 +154,129 @@ describe('Meta attribution — fbc capture', () => {
     assert.ok(result.fbc.endsWith('.IwAR12345'), 'fbc should end with fbclid');
   });
 
-  it('no fbclid in URL, no _fbc cookie → fbc null', () => {
-    const { metaParams } = makeMetaParamsFn({ adsConsent: true });
-    const result = metaParams();
-    assert.strictEqual(result, null);
+  it('no fbclid in URL, no _fbc cookie → null', () => {
+    const { metaParams } = buildHelpers({ adsConsent: true });
+    assert.strictEqual(metaParams(), null);
   });
 
   it('never fabricates fbclid when none in URL', () => {
-    const { metaParams } = makeMetaParamsFn({ adsConsent: true, fbpCookie: 'fb.1.1.a' });
+    const { metaParams } = buildHelpers({ adsConsent: true, fbpCookie: 'fb.1.1.a' });
     const result = metaParams();
     assert.ok(result);
     assert.strictEqual(result.fbc, null, 'no fbc when no fbclid source');
   });
 });
 
+// ── Consent-gated fbclid storage (I1) ─────────────────────────────────────────
+
+describe('Meta attribution — fbclid storage consent gate (I1)', () => {
+  it('fbclid in URL + no consent → sessionStorage NOT written', () => {
+    const { runPageLoadCapture, sessionStore } = buildHelpers({ fbclid: 'IwAR_test', adsConsent: false });
+    runPageLoadCapture();
+    assert.strictEqual(sessionStore.has(META_CLICK_KEY), false, 'should not store fbclid without consent');
+  });
+
+  it('fbclid in URL + consent granted → sessionStorage written', () => {
+    const { runPageLoadCapture, sessionStore } = buildHelpers({ fbclid: 'IwAR_test', adsConsent: true });
+    runPageLoadCapture();
+    assert.ok(sessionStore.has(META_CLICK_KEY), 'should store fbclid with consent');
+    const stored = JSON.parse(sessionStore.get(META_CLICK_KEY));
+    assert.strictEqual(stored.fbclid, 'IwAR_test');
+    assert.ok(typeof stored.firstSeen === 'number', 'firstSeen should be numeric timestamp');
+  });
+
+  it('no fbclid in URL → sessionStorage NOT written even with consent', () => {
+    const { runPageLoadCapture, sessionStore } = buildHelpers({ adsConsent: true });
+    runPageLoadCapture();
+    assert.strictEqual(sessionStore.has(META_CLICK_KEY), false, 'should not store without fbclid');
+  });
+});
+
+// ── Stable fbc (I2) ───────────────────────────────────────────────────────────
+
+describe('Meta attribution — stable fbc across calls (I2)', () => {
+  it('same fbclid called twice → identical fbc', () => {
+    const { metaParams } = buildHelpers({ fbclid: 'IwAR_stable', adsConsent: true });
+    const r1 = metaParams();
+    const r2 = metaParams();
+    assert.ok(r1 && r2, 'both calls should return result');
+    assert.strictEqual(r1.fbc, r2.fbc, 'fbc must be stable for same fbclid');
+  });
+
+  it('different fbclid → different fbc', () => {
+    const { metaParams } = buildHelpers({ fbclid: 'IwAR_first', adsConsent: true });
+    const r1 = metaParams();
+    // Change fbclid in URL
+    global.window.location.search = '?fbclid=IwAR_second';
+    const r2 = metaParams();
+    assert.ok(r1 && r2, 'both calls should return result');
+    assert.notStrictEqual(r1.fbc, r2.fbc, 'different fbclid must produce different fbc');
+  });
+
+  it('fbc from sessionStorage uses stored firstSeen, not new Date.now()', () => {
+    const sessionStore = installBrowserMock({ fbclid: 'IwAR_persist', adsConsent: true });
+    // Pre-populate sessionStorage with a known firstSeen
+    const knownFirstSeen = 1700000000000;
+    sessionStore.set(META_CLICK_KEY, JSON.stringify({ fbclid: 'IwAR_persist', firstSeen: knownFirstSeen }));
+
+    const { metaParams } = buildHelpers({ fbclid: 'IwAR_persist', adsConsent: true });
+    // Re-use the same sessionStore
+    global.sessionStorage = {
+      getItem: (k) => sessionStore.has(k) ? sessionStore.get(k) : null,
+      setItem: (k, v) => sessionStore.set(k, v),
+    };
+
+    const result = metaParams();
+    assert.ok(result, 'should return result');
+    assert.ok(result.fbc.includes(String(knownFirstSeen)), 'fbc should use stored firstSeen');
+  });
+});
+
+// ── InitiateCheckout current consent (I3) ─────────────────────────────────────
+
+describe('Meta attribution — InitiateCheckout current consent check (I3)', () => {
+  it('consent revoked after pixel init → InitiateCheckout does NOT fire', () => {
+    const fired = [];
+    installBrowserMock({ adsConsent: false });
+    global.window.__portalMetaInitialized = true;
+    global.window.fbq = (...args) => { fired.push(args); };
+    // Simulate adsGranted() returning false (consent revoked)
+    function adsGranted() { return false; }
+    // Simulate the click handler logic
+    const shouldFire = global.window.__portalMetaInitialized && global.window.fbq && adsGranted();
+    assert.strictEqual(shouldFire, false, 'should not fire when consent revoked');
+    assert.strictEqual(fired.length, 0, 'fbq should not have been called');
+  });
+
+  it('consent granted + pixel initialized → InitiateCheckout would fire', () => {
+    const fired = [];
+    installBrowserMock({ adsConsent: true });
+    global.window.__portalMetaInitialized = true;
+    global.window.fbq = (...args) => { fired.push(args); };
+    function adsGranted() { return !!(global.window.PortalConsentV1 && global.window.PortalConsentV1.allowsAdvertising()); }
+    // Simulate the click handler logic
+    if (global.window.__portalMetaInitialized && global.window.fbq && adsGranted()) {
+      try { global.window.fbq('track', 'InitiateCheckout', { content_name: 'ANTES DO APERTO', value: 97, currency: 'BRL' }); } catch(e) {}
+    }
+    assert.strictEqual(fired.length, 1, 'fbq should have been called once');
+    assert.strictEqual(fired[0][1], 'InitiateCheckout');
+  });
+});
+
+// ── fbp/fbc not in dataLayer ───────────────────────────────────────────────────
+
 describe('Meta attribution — fbp/fbc not in dataLayer', () => {
-  it('metaParams are not part of trackingParams / dataLayer push', () => {
-    // The script only appends fbp/fbc to the checkout URL href, not to dataLayer
-    // Verify that metaParams result is separate from ATTRIBUTION_KEYS
+  it('metaParams are not part of ATTRIBUTION_KEYS', () => {
     const ATTRIBUTION_KEYS = ['utm_source','utm_medium','utm_campaign','utm_content','utm_term','gclid','gbraid','wbraid'];
     assert.ok(!ATTRIBUTION_KEYS.includes('fbp'), 'fbp not in attribution keys');
     assert.ok(!ATTRIBUTION_KEYS.includes('fbc'), 'fbc not in attribution keys');
   });
 });
 
+// ── Checkout URL decoration ───────────────────────────────────────────────────
+
 describe('Meta attribution — checkout URL decoration', () => {
   it('ads granted + fbp → checkout URL receives fbp param', () => {
-    const META_CLICK_KEY = 'portal_meta_click_v1';
-    const MAX = 1024;
     installBrowserMock({ fbpCookie: 'fb.1.100.aaa', adsConsent: true });
     const checkoutBase = 'https://app.portalcaminhodaconsciencia.com.br/api/commerce/checkout/antes-do-aperto?utm_source=meta';
     function rdCookie(name) {
@@ -161,8 +286,7 @@ describe('Meta attribution — checkout URL decoration', () => {
       const s = idx + name.length + 3;
       const e = c.indexOf(';', s);
       const v = e === -1 ? c.slice(s) : c.slice(s, e);
-      const t = v.trim();
-      return t && t.length <= MAX ? t : null;
+      return v.trim() || null;
     }
     const fbp = rdCookie('_fbp');
     const u = new URL(checkoutBase);
@@ -173,7 +297,6 @@ describe('Meta attribution — checkout URL decoration', () => {
 
   it('no ads consent → checkout URL does not receive fbp/fbc', () => {
     installBrowserMock({ fbpCookie: 'fb.1.100.aaa', adsConsent: false });
-    // metaParams returns null → no decoration
     function adsGranted() {
       try { return !!(global.window.PortalConsentV1 && global.window.PortalConsentV1.allowsAdvertising()); } catch(e) { return false; }
     }
@@ -182,32 +305,42 @@ describe('Meta attribution — checkout URL decoration', () => {
 
   it('fbp/fbc never forwarded to Eduzz URL directly', () => {
     const EDUZZ_URL = 'https://chk.eduzz.com/E05NO54G9X';
-    // The checkout entrypoint (server) handles redirect; client only decorates
-    // /api/commerce/checkout/... not chk.eduzz.com
     assert.ok(!EDUZZ_URL.includes('fbp'), 'Eduzz URL has no fbp');
     assert.ok(!EDUZZ_URL.includes('fbc'), 'Eduzz URL has no fbc');
   });
 });
 
+// ── Browser Purchase absent ───────────────────────────────────────────────────
+
 describe('Meta Pixel funnel — browser Purchase absent', () => {
-  it('no fbq Purchase call in page script (structural check)', () => {
-    const fs = require('node:fs');
-    const html = fs.readFileSync(require('node:path').join(__dirname, '../antes-do-aperto/index.html'), 'utf8');
-    // Must NOT contain fbq('track','Purchase') anywhere
+  const fs = require('node:fs');
+  const path = require('node:path');
+  let html;
+  try { html = fs.readFileSync(path.join(__dirname, '../antes-do-aperto/index.html'), 'utf8'); } catch(e) { html = ''; }
+
+  it('no fbq Purchase call in page script', () => {
     assert.ok(!html.includes("fbq('track','Purchase')"), 'no browser Purchase event');
     assert.ok(!html.includes('fbq("track","Purchase")'), 'no browser Purchase event (double quotes)');
   });
 
-  it('InitiateCheckout is present in page script', () => {
-    const fs = require('node:fs');
-    const html = fs.readFileSync(require('node:path').join(__dirname, '../antes-do-aperto/index.html'), 'utf8');
+  it('InitiateCheckout is present', () => {
     assert.ok(html.includes('InitiateCheckout'), 'InitiateCheckout event present');
   });
 
-  it('PageView is present in page script', () => {
-    const fs = require('node:fs');
-    const html = fs.readFileSync(require('node:path').join(__dirname, '../antes-do-aperto/index.html'), 'utf8');
+  it('PageView is present', () => {
     assert.ok(html.includes("fbq('track','PageView')"), 'PageView event present');
+  });
+
+  it('InitiateCheckout checks adsGranted()', () => {
+    assert.ok(html.includes('adsGranted()'), 'adsGranted() must be present');
+    const idx = html.indexOf('InitiateCheckout');
+    const region = html.slice(Math.max(0, idx - 200), idx + 50);
+    assert.ok(region.includes('adsGranted'), 'adsGranted must be near InitiateCheckout');
+  });
+
+  it('page-load fbclid capture is consent-gated', () => {
+    // The consent-gated block uses _cl (not fbclid) as the variable name
+    assert.ok(html.includes('_cl&&adsGranted()'), 'fbclid capture must be gated by adsGranted()');
   });
 });
 

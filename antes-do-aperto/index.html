@@ -565,8 +565,9 @@
       var MAX=1024;
       function rdCookie(name){var c='; '+document.cookie;var idx=c.indexOf('; '+name+'=');if(idx===-1)return null;var s=idx+name.length+3;var e=c.indexOf(';',s);var v=e===-1?c.slice(s):c.slice(s,e);v=v.trim();return v&&v.length<=MAX?v:null}
       function adsGranted(){try{return!!(window.PortalConsentV1&&window.PortalConsentV1.allowsAdvertising())}catch(e){return false}}
-      function metaParams(){if(!adsGranted())return null;var fbp=rdCookie('_fbp');var fbc=rdCookie('_fbc');if(!fbc){try{var cl=new URLSearchParams(window.location.search).get('fbclid');if(cl){var now=Date.now();var candidate='fb.1.'+now+'.'+cl;if(candidate.length<=MAX){fbc=candidate}}else{var st=JSON.parse(sessionStorage.getItem(META_CLICK_KEY)||'null');if(st&&st.fbclid&&st.firstSeen){var c2='fb.1.'+st.firstSeen+'.'+st.fbclid;if(c2.length<=MAX)fbc=c2}}}catch(e){}}if(!fbp&&!fbc)return null;return{fbp:fbp,fbc:fbc}}
-      try{var fbclid=new URLSearchParams(window.location.search).get('fbclid');if(fbclid){var ex=JSON.parse(sessionStorage.getItem(META_CLICK_KEY)||'null');if(!ex||!ex.fbclid)sessionStorage.setItem(META_CLICK_KEY,JSON.stringify({fbclid:fbclid,firstSeen:Date.now()}))}}catch(e){}
+      function resolveStableFbc(cl){var st=null;try{st=JSON.parse(sessionStorage.getItem(META_CLICK_KEY)||'null')}catch(e){}var fs=st&&st.fbclid===cl?st.firstSeen:Date.now();if(!st||st.fbclid!==cl){try{sessionStorage.setItem(META_CLICK_KEY,JSON.stringify({fbclid:cl,firstSeen:fs}))}catch(e){}}var candidate='fb.1.'+fs+'.'+cl;return candidate.length<=MAX?candidate:null}
+      function metaParams(){if(!adsGranted())return null;var fbp=rdCookie('_fbp');var fbc=rdCookie('_fbc');if(!fbc){try{var cl=new URLSearchParams(window.location.search).get('fbclid');if(cl){fbc=resolveStableFbc(cl)}else{var st=null;try{st=JSON.parse(sessionStorage.getItem(META_CLICK_KEY)||'null')}catch(e){}if(st&&st.fbclid&&st.firstSeen){var c2='fb.1.'+st.firstSeen+'.'+st.fbclid;if(c2.length<=MAX)fbc=c2}}}catch(e){}}if(!fbp&&!fbc)return null;return{fbp:fbp,fbc:fbc}}
+      try{var _cl=new URLSearchParams(window.location.search).get('fbclid');if(_cl&&adsGranted()){var _st=null;try{_st=JSON.parse(sessionStorage.getItem(META_CLICK_KEY)||'null')}catch(e){}if(!_st||_st.fbclid!==_cl){try{sessionStorage.setItem(META_CLICK_KEY,JSON.stringify({fbclid:_cl,firstSeen:Date.now()}))}catch(e){}}}}catch(e){}
       document.addEventListener('click',function(ev){
         var link=ev.target.closest('a.js-checkout-cta');if(!link)return;
         var m=metaParams();if(!m)return;
@@ -574,7 +575,7 @@
       });
       document.addEventListener('click',function(ev){
         var link=ev.target.closest('a.js-checkout-cta');if(!link)return;
-        if(!window.__portalMetaInitialized||!window.fbq)return;
+        if(!window.__portalMetaInitialized||!window.fbq||!adsGranted())return;
         try{fbq('track','InitiateCheckout',{content_name:'ANTES DO APERTO',content_ids:['before_the_squeeze_v1'],content_type:'product',value:97,currency:'BRL'})}catch(e){}
       });
     })();
