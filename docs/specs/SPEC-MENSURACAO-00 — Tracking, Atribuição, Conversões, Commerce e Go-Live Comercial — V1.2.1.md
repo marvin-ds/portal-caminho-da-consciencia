@@ -1,13 +1,13 @@
 # PORTAL CAMINHO DA CONSCIÊNCIA
 
-## SPEC-MENSURACAO-00 — Tracking, Atribuição, Conversões, Commerce e Go-Live Comercial — V1.2.0
+## SPEC-MENSURACAO-00 — Tracking, Atribuição, Conversões, Commerce e Go-Live Comercial — V1.2.1
 
 | Campo | Informação |
 | :---- | :---- |
 | **Código** | `SPEC-MENSURACAO-00` |
 | **Tipo** | Especificação transversal de mensuração, atribuição, conversões e readiness comercial |
 | **Status** | **APROVADO POR MARCOS VINICIUS** |
-| **Versão** | `1.2.0` |
+| **Versão** | `1.2.1` |
 | **Data** | `16/09/2026` |
 | **Última atualização** | `29/09/2026` |
 | **Deadline operacional** | **21/09/2026** |
@@ -2173,6 +2173,28 @@ A credencial CAPI será resolvida por `provider_destination_id`. Não assumir to
 - `fbp`/`fbc` persistidos somente com consent `ads` + `ad_user_data` granted
 - Nenhum PII (e-mail, telefone, IP, user-agent) enviado ao Meta
 
+## Escopo de Superfície — Onde o Dual Pixel se aplica
+
+Estado: `APROVADO POR MARCOS VINICIUS — 29/09/2026`
+
+| Superfície | Meta Pixel | Meta CAPI | Notas |
+| :---- | :---- | :---- | :---- |
+| **Antes do Aperto** (página de vendas pública) | PRIMARY + MIRROR | SIM (server-side, ambos os pixels) | PageView / ViewContent / InitiateCheckout gateados por consent; Purchase = somente CAPI |
+| **Meu Caminho** (área autenticada de membros) | **NÃO** | **NÃO** | Nenhum pixel, nenhum CAPI de comportamento interno |
+
+### Regras da área autenticada (Meu Caminho)
+
+```
+MEU_CAMINHO_META_PIXEL          = NÃO
+MEU_CAMINHO_META_CAPI_INTERNO   = NÃO
+MEU_CAMINHO_GA4                 = somente eventos allowlisted
+MEU_CAMINHO_EXPORT_EXERCICIOS   = NUNCA
+MEU_CAMINHO_EXPORT_DIARIO       = NUNCA
+MEU_CAMINHO_EXPORT_RESPOSTAS    = NUNCA
+```
+
+Conteúdo de exercícios, diário pessoal ou respostas individuais do usuário **nunca** são exportados para plataformas de anúncios, analytics de terceiros ou qualquer sistema externo. Essa regra não possui exceções configuráveis.
+
 ---
 
 ## Histórico desta SPEC
@@ -2182,7 +2204,8 @@ A credencial CAPI será resolvida por `provider_destination_id`. Não assumir to
 | 1.0.0 | 16/09/2026 | Criação — contrato transversal de mensuração | Marcos Vinicius |
 | 1.1.0 | 22/09/2026 | Arquitetura analytics app (Gate 3B), fronteira Meta/Google, outbox foundation | Marcos Vinicius |
 | 1.2.0 | 29/09/2026 | Arquitetura dual pixel Meta: PRIMARY + MIRROR, trackSingle explícito, fail-closed por destination, dispatch isolation | Marcos Vinicius |
+| 1.2.1 | 29/09/2026 | Escopo de superfície explícito: dual pixel aplica-se somente a superfícies públicas/comerciais; Meu Caminho = sem pixel, sem CAPI interno, sem export de conteúdo pessoal | Marcos Vinicius |
 
 ---
 
-**FIM — SPEC-MENSURACAO-00 — Tracking, Atribuição, Conversões, Commerce e Go-Live Comercial — V1.2.0**  
+**FIM — SPEC-MENSURACAO-00 — Tracking, Atribuição, Conversões, Commerce e Go-Live Comercial — V1.2.1**  
