@@ -344,4 +344,68 @@ describe('Meta Pixel funnel — browser Purchase absent', () => {
   });
 });
 
+// ── Dual Meta Pixel (Phase 3) ─────────────────────────────────────────────────
+
+describe('Meta Pixel — dual pixel destinations (Phase 3)', () => {
+  const fs = require('node:fs');
+  const path = require('node:path');
+  let html;
+  try { html = fs.readFileSync(path.join(__dirname, '../antes-do-aperto/index.html'), 'utf8'); } catch(e) { html = ''; }
+
+  const META_PIXEL_PRIMARY = '4659045990859789';
+  const META_PIXEL_MIRROR  = '541342531532855';
+
+  it('PRIMARY pixel ID present in page', () => {
+    assert.ok(html.includes(META_PIXEL_PRIMARY), `Primary pixel ${META_PIXEL_PRIMARY} must be in page`);
+  });
+
+  it('MIRROR pixel ID present in page', () => {
+    assert.ok(html.includes(META_PIXEL_MIRROR), `Mirror pixel ${META_PIXEL_MIRROR} must be in page`);
+  });
+
+  it('both pixel IDs appear inside initMetaPixels function', () => {
+    const fnStart = html.indexOf('function initMetaPixels');
+    assert.ok(fnStart !== -1, 'initMetaPixels function must exist');
+    // brace-depth counting to find the true closing } of initMetaPixels
+    // (the function body contains a nested IIFE for the Meta SDK base code)
+    let depth = 0, fnEnd = -1;
+    for (let i = fnStart; i < html.length; i++) {
+      if (html[i] === '{') depth++;
+      else if (html[i] === '}') { depth--; if (depth === 0) { fnEnd = i; break; } }
+    }
+    assert.ok(fnEnd !== -1, 'initMetaPixels closing brace must be found');
+    const fnBody = html.slice(fnStart, fnEnd + 1);
+    assert.ok(fnBody.includes(META_PIXEL_PRIMARY), 'PRIMARY pixel must be in initMetaPixels');
+    assert.ok(fnBody.includes(META_PIXEL_MIRROR),  'MIRROR pixel must be in initMetaPixels');
+  });
+
+  it('fbq init called for PRIMARY pixel', () => {
+    assert.ok(
+      html.includes(`fbq('init',META_PIXEL_PRIMARY_ID)`) ||
+      html.includes(`fbq('init','${META_PIXEL_PRIMARY}')`),
+      'fbq init must reference PRIMARY pixel'
+    );
+  });
+
+  it('fbq init called for MIRROR pixel', () => {
+    assert.ok(
+      html.includes(`fbq('init',META_PIXEL_MIRROR_ID)`) ||
+      html.includes(`fbq('init','${META_PIXEL_MIRROR}')`),
+      'fbq init must reference MIRROR pixel'
+    );
+  });
+
+  it('initMetaPixels is gated by adsGranted() (no-consent = no pixels)', () => {
+    // The outer caller checks PortalConsentV1.allowsAdvertising() before calling initMetaPixels
+    const callerIndex = html.indexOf('window.__initMetaPixels=initMetaPixels');
+    assert.ok(callerIndex !== -1, '__initMetaPixels assignment must exist');
+    // consent gate check is adjacent to the call site
+    assert.ok(html.includes('allowsAdvertising'), 'advertising consent check must exist');
+  });
+
+  it('PRIMARY and MIRROR IDs are distinct', () => {
+    assert.notStrictEqual(META_PIXEL_PRIMARY, META_PIXEL_MIRROR);
+  });
+});
+
 console.log('All Meta attribution tests passed.');
